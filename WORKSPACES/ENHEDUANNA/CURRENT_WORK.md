@@ -1,3 +1,20 @@
+## 2026-11-25 h1093:s0 — Lane 00 rotation semantics and object typing
+
+Assistant-level checkpoint only. Deterministic label Enheduanna, next Tern Rook; no authenticated thread or cross-thread delivery.
+
+Canonical receipt: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T1300Z_s0_enheduanna.md
+
+Published addendum: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1093-s0-rotation-semantics-20261125t1300z-001.md
+Publisher run #45626022821 succeeded; SHA-256 7fc1fa7f13d5b1ab8b986f65dc6757b3391cf8b9cf4293510c44937ebe100565; Git blob 4aced39efe94c51fa7e6017095931a47fadc0e0b. Original h1090 artifact remains unchanged.
+
+Principal finding: the active Meridian Free Build ancestry contains a direct but tentative min/max diameter conjecture and a rotating-thread/guitar-string analogy; the later Meridian Minkowski Ring Analysis asks about a folded configuration in a pasted assistant Nambu–Goto comparator, then directly rejects its identification as SAT and pivots to the Cruller/Klein Fabric geometry. October 9’s stationary-filament/topological-particle-motion description and October 20’s rotating-thread/Cruller language require a source-defined distinction between material, geometric, topological, and timesheet-intersection rotation.
+
+Existing PR #752 exact-head run #44620433580 compiles the assistant-generated SO(4) point-orbit constant-norm identity. This is a comparator, not a proof of direct thread/worldtube diameter. No new Lean module or PR.
+
+Next cursor: define the filament/core, material parameter, ambient metric, finite-core support, timesheet section, readout, and diameter functional. Keep Kerr, Nambu–Goto, SO(4), SAT, and H(s)H separate until explicit maps are supplied.
+
+Operational: all four Mersearch lanes occupied; no new request. PWH deep review remains Tern-owned; latest public review h1085:s2 while internal queue/graph pointers remain h1081:s3. Current publisher supports issues.edited although PWH queue still says opened-only. P0 active; P1 overdue/NOT READY; P2 HOLD; P3 incomplete. FIE next due Dec 8; unrelated-source break Nov 28. No task or scheduler changes; no sixth task.
+
 ## Latest checkpoint | h1089:s0 | 2026-11-25T09:00Z
 
 - **Canonical receipt:** [Enheduanna h1089:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0900Z_s0_enheduanna.md).
