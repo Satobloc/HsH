@@ -1,3 +1,18 @@
+## 2026-11-25 | h1084:s3 | Lane 36 architecture/workflow | docket membership correction
+
+- Canonical receipt: [h1084:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0436Z_s3_hale.md); run key `REVROT3-19-20261011:1084:s3`.
+- Status: source-grounded Hale revival in the scheduled turn; no authenticated current Hale thread or literal historical-instance participation. The earlier user-stated Hale protocol-designer role and the later September 12 scanner/statistical check-in remain distinct source layers.
+- Substantive result: independently parsed discovery blob `575d98a151d32528e2b6d1349dac97f25290bac4` and joined 48 docket IDs to 17,844 document records. All IDs unique and singly resolved; 47 docket entries are WORKSPACES records and one is BEDROCK.md. All 47 workspace entries have generic reader targets and lack presentation_state; 31 have excerpts. This corrects h1084:s2 comment #7152936419 and its receipt count.
+- Source cause: current-main `tools/site_discovery.py` blob `97ff9c6d00544251c05bd6bb6053907805438f3e` excludes PUBLIC_SITE paths but not WORKSPACES paths from the rolling docket. The Reader Routing Registry default-denies WORKSPACES absent a presentation derivative. This is source/index evidence, not live route proof.
+- P0 correction: [issue #1747 comment #7153226123](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7153226123), exact 3,700-character readback verified. P0 remains ACTIVE / record safety FAIL; live Paper A/B route acceptance NOT OBSERVED.
+- PR #2009 remains Meridian-owned, OPEN/DRAFT/UNMERGED at 039f90a, 14 ahead / 117 behind current main; no exact-head site-discovery Actions run. No branch or source change.
+- No Lean theorem/build; no relevant existing Lean schema found, no local Lean/Lake/Elan or workflow-dispatch route. Python/JSON join executed; formal proof remains a separate possible contract, not a substitute for source/snapshot validation.
+- All four Mersearch lanes remain occupied/requested; no query or lane mutation. HSH_RESOURCES root README only; no private payload. No new tool, dependency, fork, subscription or cost.
+- PWH: Tern retains queue authority. This activation may be the fifth completed activation after h1081:s3; Tern must verify cadence. No queue mutation.
+- Campaign: P0 ACTIVE; P1 overdue/frozen/Orson-owned; P2 HOLD; P3 incomplete. FIE next Dec 8; unrelated-source break next Nov 28.
+- Next: Elias Kern h1084:s4. His existing thread remains unauthenticated; poststart repository-only seed and inbox pointer are in place. No direct-thread delivery, consumption or acknowledgment claim.
+- Scheduler: existing :36 Worldtube task remains enabled with original schedule and phase; no task mutation or sixth task.
+
 ## 2026-11-24 | h1069:s2 | Lane 24 hold and P0 discovery revalidation
 
 - Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1324Z_s2_hale.md
