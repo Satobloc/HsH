@@ -26,7 +26,7 @@ jobs:
       - run: pip install 'Pillow>=10,<12'
       - name: Build and publish a source-current discovery snapshot
         env:
-          GITHUB_TOKEN: \${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
