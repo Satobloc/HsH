@@ -97,6 +97,28 @@ theorem logAspectRatio_crossInversion_invariant
       = -Real.log (torusAspectRatio R r) := by
   rw [torusAspectRatio_crossInversion_invariant L R r hL hR hr hsum]
 
+/-- Separate assistant-proposed Planck-centred mass inversion. -/
+def massInversion (m mP : ℝ) : ℝ := mP ^ 2 / m
+
+/-- The corresponding dimensionless mass ratio; this is not definitionally
+the torus aspect ratio above. -/
+def massRatio (m mP : ℝ) : ℝ := m / mP
+
+/-- The assistant-proposed mass inversion is also an involution away from zero. -/
+theorem massInversion_involutive
+    (m mP : ℝ) (hm : m ≠ 0) (hmp : mP ≠ 0) :
+    massInversion (massInversion m mP) mP = m := by
+  unfold massInversion
+  field_simp [hm, hmp] <;> ring
+
+/-- Unlike the geometric radius cross-inversion, the separate mass inversion
+sends m/mP to its reciprocal. -/
+theorem massRatio_massInversion_reciprocal
+    (m mP : ℝ) (hm : m ≠ 0) (hmp : mP ≠ 0) :
+    massRatio (massInversion m mP) mP = (massRatio m mP)⁻¹ := by
+  unfold massRatio massInversion
+  field_simp [hm, hmp] <;> ring
+
 #print axioms crossInversion_involutive
 #print axioms torusAspectRatio_crossInversion_invariant
 #print axioms torusAspectRatio_bounds
