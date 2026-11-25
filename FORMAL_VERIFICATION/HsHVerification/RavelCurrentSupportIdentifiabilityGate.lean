@@ -325,3 +325,89 @@ end SupportExtensionLinearization
 #print axioms SupportExtensionLinearization.rank_defect_requires_nonzero_kernel
 
 end HsHVerification.RavelCurrentSupportIdentifiabilityGate
+
+
+namespace HsHVerification.RavelCurrentSupportIdentifiabilityGate
+
+/-!
+## Local rank is not global identifiability
+
+This is a deliberately abstract mathematical counterexample, not an
+H(s)H physical map or a measured-system model.  It prevents the local
+differential-rank gate above from being used as a global uniqueness claim.
+-/
+
+/-- The elementary square response used only as a local/global counterexample. -/
+def squareResponse (x : ℝ) : ℝ := x ^ 2
+
+/-- The admissible parameter domain excludes the singular point of the
+    ambient polynomial extension. -/
+abbrev NonzeroParameter := {x : ℝ // x ≠ 0}
+
+/-- Restriction of the polynomial response to its nonzero parameter domain. -/
+def squareResponseOnNonzero (x : NonzeroParameter) : ℝ :=
+  squareResponse x.1
+
+/-- The ambient derivative is nonzero at every admissible parameter. -/
+theorem squareResponse_deriv_eq (x : ℝ) :
+    deriv squareResponse x = 2 * x := by
+  simpa [squareResponse] using (hasDerivAt_pow 2 x).deriv
+
+/-- In one dimension, the ambient differential has full rank throughout
+    the nonzero parameter domain. -/
+theorem squareResponse_deriv_ne_zero_on_domain (x : NonzeroParameter) :
+    deriv squareResponse x.1 ≠ 0 := by
+  rw [squareResponse_deriv_eq]
+  exact mul_ne_zero (by norm_num) x.2
+
+/-- Two distinct regular parameter values have the same readout. -/
+theorem squareResponse_collision_at_regular_parameters :
+    squareResponse 1 = squareResponse (-1) ∧
+    (1 : ℝ) ≠ -1 ∧
+    deriv squareResponse 1 ≠ 0 ∧
+    deriv squareResponse (-1) ≠ 0 := by
+  constructor
+  · norm_num [squareResponse]
+  constructor
+  · norm_num
+  constructor
+  · exact squareResponse_deriv_ne_zero_on_domain ⟨1, by norm_num⟩
+  · exact squareResponse_deriv_ne_zero_on_domain ⟨-1, by norm_num⟩
+
+/-- The restricted response is not globally injective, despite its
+    nonzero ambient derivative at every point of its admissible domain. -/
+theorem squareResponseOnNonzero_not_injective :
+    ¬ Function.Injective squareResponseOnNonzero := by
+  intro hinj
+  have hImage :
+      squareResponseOnNonzero ⟨1, by norm_num⟩ =
+        squareResponseOnNonzero ⟨-1, by norm_num⟩ := by
+    norm_num [squareResponseOnNonzero, squareResponse]
+  have hDomain :
+      (⟨1, by norm_num⟩ : NonzeroParameter) = ⟨-1, by norm_num⟩ :=
+    hinj hImage
+  have hValue : (1 : ℝ) = -1 := congrArg Subtype.val hDomain
+  norm_num at hValue
+
+/-- Local full rank everywhere on the admissible domain does not imply
+    global parameter identifiability.  A separate fiber/global-injectivity
+    gate is required. -/
+theorem local_full_rank_does_not_imply_global_identifiability :
+    (∀ x : NonzeroParameter, deriv squareResponse x.1 ≠ 0) ∧
+    ¬ Function.Injective squareResponseOnNonzero := by
+  constructor
+  · intro x
+    exact squareResponse_deriv_ne_zero_on_domain x
+  · exact squareResponseOnNonzero_not_injective
+
+/-- Executable numeral sanity check for the equal-readout pair.
+    The Real-valued differential claims are kernel-checked above. -/
+#eval ((1 : Int) ^ 2 == (-1 : Int) ^ 2)
+
+#print axioms squareResponse_deriv_eq
+#print axioms squareResponse_deriv_ne_zero_on_domain
+#print axioms squareResponse_collision_at_regular_parameters
+#print axioms squareResponseOnNonzero_not_injective
+#print axioms local_full_rank_does_not_imply_global_identifiability
+
+end HsHVerification.RavelCurrentSupportIdentifiabilityGate
