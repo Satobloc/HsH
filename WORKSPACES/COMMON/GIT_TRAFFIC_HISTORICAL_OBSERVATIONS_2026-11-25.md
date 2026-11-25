@@ -257,4 +257,24 @@ The Nov 10–23 window and upload date Nov 25 leave a two-day reporting/upload g
 - Traffic clone source attribution is still an open question. None of these dashboard observations by itself separates Nathan's or tool-generated activity from unrelated external sources.
 
 
+## Additional HsH-labelled dashboard captures — direct metrics, incomplete window provenance
+
+These are direct repository-labelled dashboard text captures found during the bounded GTT-01.A inventory. Their clone and unique-cloner values are observed in the source, but the exact Traffic chart dates are not printed in the export unless stated. A nearby Pulse interval is recorded as context only and is not silently substituted for the Traffic window.
+
+| Source | Blob SHA | Direct HsH dashboard metrics | Date evidence / limitation |
+|---|---|---:|---|
+| EXPOSURE_STATS/_SAT  Satobloc GitHubStats/JOINT STATS.txt | f10f4e071f5a3c165dd94c6ffa1d69f2793edb6b | 12,506 clones / 1,799 unique cloners | HsH Pulse interval Sep 16–23, 2026; Traffic chart dates absent. Same blob in HsH 30SEP dump and SAT_CONVOS_21. |
+| EXPOSURE_STATS/_SAT  Satobloc GitHubStats/HSH_repo_stats.txt | 37b2325e376c941c3cc8e23aed78580c4bc39467 | 736 / 309 | Pulse Sep 4–11, 2026; not established as the Traffic window. |
+| EXPOSURE_STATS/_SAT  Satobloc GitHubStats/HSH_commits.txt | cdb3d6958173ffde82f41a9aa8726171676f87d2 | 957 / 367 | Pulse Sep 5–12, 2026; not established as the Traffic window. |
+| EXPOSURE_STATS/_SAT  Satobloc GitHubStats/HSH ACTIVITY.txt | dc53a5c16a7bea32a41e01bf82712d47644b2feb | 2,705 / 665 | Exact Traffic chart window absent. Also reports 1,022 views / 3 unique visitors. |
+| EXPOSURE_STATS/_SAT  Satobloc GitHubStats/HSH_gitclones.txt | bcd3484ea688012a87e4697f832145382e1dbc71 | 7,090 / 1,136 | A separate Pulse panel shows Sep 9–16, 2026; this is not established as the Traffic window. |
+| EXPOSURE_STATS/_SAT  Satobloc GitHubStats/30k.txt | ec28307d88fe0cb9b51f6ee0dc95225df4fa820c | 30,115 / 3,356 | Exact Traffic window absent. Another Pulse panel in this composite shows Oct 24–31; not proof of Traffic dates. Same Traffic section appears twice in this file. |
+| EXPOSURE_STATS/_SAT  Satobloc GitHubStats/9.8.26 -- GITSTATS.txt | 45daaab1ce989072b895d3cc8824d96da89bbb89 | 287 / 146 | HsH section includes a 14-row daily clone series for Aug 25–Sep 7, sum 287. Filename suggests a Sep 8 capture but exact capture time is unverified. |
+
+The JOINT STATS file also contains a separate SAT archive section reporting 1,239/338; that is not an HsH figure. The same HsH values in the duplicate HsH-repository copy of JOINT STATS are the same blob, not another observation. The 30k duplicate section is also not an independent capture.
+
+### Interpretation boundary for the earlier assistant narrative
+
+EXPOSURE_STATS/GITHUB_ASSISTANT_CONVO.txt (blob 664f3497dd12e824a3e7e51dc9e2d3b158a06c62) is a historical assistant/user discussion, not a primary Traffic source. It repeats the direct 1,239/338 SAT and 11,912/1,735 HsH metrics and records a prior assistant interpretation that page browsing was probably concentrated in the owner's identity while clones reflected many source identities, some potentially automated. Preserve that as historical interpretation only. It does not identify actual cloners or establish a human/automation split. Current attribution must be grounded in the canonical internal event ledger and direct operational evidence, not that earlier assistant inference.
+
 @⌕▣✓⇢
