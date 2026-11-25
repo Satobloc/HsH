@@ -38,6 +38,15 @@ structure Vec4 where
   x3 : ℝ
   x4 : ℝ
 
+@[ext] theorem vec4_ext {u v : Vec4}
+    (h1 : u.x1 = v.x1) (h2 : u.x2 = v.x2)
+    (h3 : u.x3 = v.x3) (h4 : u.x4 = v.x4) : u = v := by
+  cases u with
+  | mk u1 u2 u3 u4 =>
+    cases v with
+    | mk v1 v2 v3 v4 =>
+      simp_all
+
 def add4 (u v : Vec4) : Vec4 :=
   ⟨u.x1 + v.x1, u.x2 + v.x2, u.x3 + v.x3, u.x4 + v.x4⟩
 
@@ -100,7 +109,7 @@ theorem published_residual_first_coordinate
 theorem corrected_residual_eq_zero
     (R ω : ℝ) (hR : R ≠ 0) :
     correctedResidual R ω = zero4 := by
-  apply Vec4.ext
+  apply vec4_ext
   · simp [zero4, correctedResidual, add4, smul4, dot4,
       circlePosition, circleVelocity, circleAcceleration]
     field_simp [hR]
