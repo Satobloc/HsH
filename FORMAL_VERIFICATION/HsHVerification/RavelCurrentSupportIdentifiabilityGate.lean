@@ -13,7 +13,7 @@ import Mathlib
   is treated as a demonstrated composition or authorship date. It defines
   gamma : R -> R^(3,1) as a one-parameter 1D curve and separately describes
   a worldtube as the 4D volume swept out by the vibrating filament.
-- Blockwave original: DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/BLOCKWAVE.txt,
+- Blockwave original: DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt,
   Git blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d, SHA-256
   3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664.
   The attachment event is 2025-09-16T16:31:26.687Z, not a composition date.
@@ -91,6 +91,30 @@ def productSupportDimension (baseDimension extensionDimension : Nat) : Nat :=
 theorem curve_plus_one_sweep_parameter_is_two_dimensional :
     productSupportDimension 1 1 = 2 := by
   decide
+
+/-- One independent sweep parameter cannot turn a 1D curve into a 4D volume. -/
+theorem one_sweep_parameter_does_not_fill_four_dimensional_ambient :
+    productSupportDimension 1 1 ≠ 4 := by
+  decide
+
+/-- Under product-domain bookkeeping, a 1D curve needs three independent
+    extension parameters to reach a 4D domain. This does not assert that
+    such a fiber exists in the source geometry. -/
+theorem one_dimensional_curve_requires_three_extension_parameters_for_four_dimensions
+    (extensionDimension : Nat)
+    (hDomain : productSupportDimension 1 extensionDimension = 4) :
+    extensionDimension = 3 := by
+  dsimp [productSupportDimension] at hDomain
+  omega
+
+/-- A 2D worldsheet needs two independent thickness parameters to reach a
+    4D product domain. This is not a physical thickening prescription. -/
+theorem two_dimensional_worldsheet_requires_two_thickness_parameters_for_four_dimensions
+    (thicknessDimension : Nat)
+    (hDomain : productSupportDimension 2 thicknessDimension = 4) :
+    thicknessDimension = 2 := by
+  dsimp [productSupportDimension] at hDomain
+  omega
 
 /-- A 1D curve with three independent fiber parameters has a 4D product domain. -/
 theorem curve_plus_three_fiber_parameters_is_four_dimensional :
