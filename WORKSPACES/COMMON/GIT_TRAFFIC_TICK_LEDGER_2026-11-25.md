@@ -485,4 +485,59 @@ GTT-01.C is complete for the bounded, measured-repository/window-mapped series. 
 
 Do not use daily unique-cloner sums as the window total, use Pulse intervals as Traffic windows, or use upload time as capture time. If no direct evidence can be recovered, mark the field UNKNOWN and move the limitation into the final record.
 
+
+## GTT-01.D evidence-gap recovery results — 2026-11-25
+
+### HsH 119,670 window: exact deduplicated unique total not recovered
+
+The current paired single-repository exports are:
+- Clone CSV blob 7761926459f437a06f2f6bc7eb10fa85e9914560: 14 daily rows, 2026-11-10–11-23, sum **119,670**.
+- Unique-cloner daily CSV blob 8bebccc6ff6c1e5f6704161ff57d7eb54f41f66c: 14 daily rows, same dates, daily values 979, 1,010, 1,196, 1,227, 1,119, 1,090, 1,273, 1,460, 1,322, 1,243, 6,526, 2,231, 2,907, 1,428. Mechanical sum **25,011**; daily minimum 979; maximum 6,526 on 2026-11-20.
+- The paired unique-cloner CSV and clone CSV were both installed by commit 7188eac413fbf979933f53bc98ebfcb1f047cafe at **2026-11-25T03:01:48Z**. This is an upload/commit timestamp, not the dashboard capture time.
+
+No separate direct HsH dashboard capture or screenshot containing a 119,670-window unique-cloner total surfaced in the targeted HSH_RESOURCES fallback searches. The exact deduplicated 14-day unique-cloner total remains **UNKNOWN**.
+
+A mathematical set-union bound is available, conditional on the daily series representing the same underlying cloner identity definition across all 14 days:
+- Lower bound: **6,526**, because the 14-day union must contain at least the largest single-day unique set.
+- Upper bound: **25,011**, if the daily unique sets were disjoint, equal to the sum of their cardinalities.
+This is a bound, not an estimate or a substitute for the dashboard's window-level total. Do not infer that 25,011 unique people cloned the repository.
+
+### Capture-time / upload-time evidence separated
+
+The following commit timestamps establish when source files were uploaded to HSH_RESOURCES; they do not establish when the GitHub Traffic page was captured or its exact rolling window:
+
+| Source | Direct dashboard metrics | File commit/upload timestamp | Traffic window / capture time |
+|---|---:|---|---|
+| HSH_gitclones.txt | HsH 7,090 / 1,136 | 2026-09-16 20:49:36Z | UNKNOWN; Pulse 09/09–16 is a separate view |
+| 9.8.26 -- GITSTATS.txt | HsH 287 / 146; SAT 698 / 149 | 2026-09-10 13:59:13Z | Daily clone rows establish 08/25–09/07; exact capture hour unknown |
+| HSH_commits.txt | HsH 957 / 367 | 2026-09-12 15:44:09Z | UNKNOWN |
+| HSH ACTIVITY.txt | HsH 2,705 / 665 | 2026-09-13 10:26:07Z | UNKNOWN |
+| HSH_repo_stats.txt | HsH 736 / 309 | 2026-10-08 05:43:20Z | UNKNOWN; Pulse interval is not Traffic window evidence |
+| GHUBclones.txt | HsH 6,856 / 1,200; SAT 1,048 / 245; Resources 622 / 198 | 2026-10-08 05:12:41Z | Matched daily clone series establish 09/21–10/04; exact capture hour unknown |
+| HSH_TRAFFIC_23SEP26.txt | HsH 11,912 / 1,735 | 2026-09-30 17:29:29Z | File label 23SEP26 and matched series 09/08–21; exact hour unknown |
+| HSH_54k.txt | HsH 54,368 / 5,200 | 2026-11-04 12:54:20Z | 10/21–11/03, matched daily series |
+| 30k.txt | HsH 30,115 / 3,356 | 2026-11-04 12:54:20Z | UNKNOWN; file repeats the same dashboard section; nearby Pulse is not used as Traffic window |
+| hsh_data_nov1_2026.txt | HsH 35,651 / 3,640 | 2026-11-06 04:46:09Z | UNKNOWN; chart range 416–6,534; file has no daily rows |
+| HsH 58k.JPG | HsH 58,677 / 5,897 | 2026-11-06 04:49:54Z upload; EXIF capture 2026-11-03 13:01:24.465Z belongs to the separate hsh48.JPG, not 58k.JPG | Daily sequence reconstructs 10/22–11/04; exact screenshot capture time not established |
+| 42.JPG / 3400.JPG / hsh48.JPG | OCR: 42,111 clones; 3,999 unique cloners; 48,880 clones / 4,686 unique cloners respectively | All uploaded in commit 398af78dcb8e8727ff0bd091b84c19d7722497bc at 2026-11-06 05:27:54Z | hsh48.JPG EXIF capture 2026-11-03 13:01:24.465Z; exact chart windows for all three unknown; repo identity for 42.JPG/3400.JPG unknown |
+| 23swp42.txt | SAT 1,749 / 451 | 2026-11-06 06:09:21Z | Matched daily CSV 09/10–23; exact capture hour unknown |
+| JOINT STATS.txt | HsH 12,506 / 1,799; separate SAT 1,239 / 338 | 2026-11-06 06:09:21Z | HsH Traffic window unknown; Pulse dates are not substituted |
+| Latest clone/unique CSV (5) pair | HsH clones 119,670; unique window total UNKNOWN | 2026-11-25 03:01:48Z | Clone series 11/10–23; capture time unknown |
+
+The 58k.JPG line above distinguishes the image upload from the independent hsh48.JPG EXIF timestamp: the 58k image's capture time is not known from the inspected records. The 42.JPG and 3400.JPG source images were not available for binary metadata inspection in this runtime; their OCR text remains a finding aid, not image EXIF evidence.
+
+### Direct-source search and endpoint access attempts
+
+Targeted generic GitHub code-search fallback searches in HSH_RESOURCES for the 119,670 total, 119670, 6,526 unique cloners, 25,011 unique cloners, and 11/20's daily unique value did not surface a separate direct 119,670-window unique-cloner dashboard capture. The hits that did appear were the paired CSV and the already-recorded historical note. No exact window-level unique value was recovered.
+
+A direct repository Traffic REST read was also attempted through the connected GitHub fetch interface; that URL was rejected as outside the connector's allowed repository/search endpoints. No dedicated Traffic-read action is exposed in this runtime. This is a connector capability boundary, not evidence that GitHub's underlying Traffic data do not exist.
+
+### GTT-01.D disposition
+
+- Exact 119,670-window unique-cloner total: UNKNOWN; bounded only by 6,526–25,011 from its daily unique series.
+- Exact capture times: UNKNOWN for all TXT captures unless explicit EXIF or other primary timestamp exists. File commit/upload timestamps are separately recorded above.
+- Exact Traffic windows: retained where direct daily series or screenshot source establishes them; otherwise UNKNOWN.
+- 42,111 clone OCR, 3,999 unique OCR, and 1,022-view OCR remain unassigned by repository/window. No inferred attribution.
+- No remaining accessible source retrieved an exact missing value. These are now explicit evidence gaps rather than untracked search tasks.
+
 @⌕∅▣✓⇢
