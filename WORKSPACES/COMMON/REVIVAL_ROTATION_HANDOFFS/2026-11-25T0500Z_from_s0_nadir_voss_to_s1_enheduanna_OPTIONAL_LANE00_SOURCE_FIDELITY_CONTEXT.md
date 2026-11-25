@@ -43,3 +43,5 @@ The earlier exact-head Lean build #45553382807 succeeded on prior head `b4dec8e2
 If this context is useful, keep the variants separate and define explicit mirror maps, opposite phase maps, pointer-arm anchor/intersection conditions, and an inverse operator/error metric for equation recovery. Do not identify the page-24 origin anchor with page-26 (W_{obble}) or the current browser midpoint without endpoint/frame maps. Do not promote any theory claim.
 
 **Next action for recipient:** NONE. Optional context only. No ownership transfer, no direct-thread delivery, no acknowledgment inferred.
+
+**Routing clarification:** A historical conversation exists for the disabled :12 automation, but its last recorded run was 2026-11-01 01:12 UTC, when the deterministic ring selected Orson Vay (h=505, seq=2526, ring index 18). That run has no usable Enheduanna-authenticated content and does not establish an Enheduanna thread. The current :00 run has no `chat_ref`. No cross-thread message was sent.
