@@ -1,3 +1,9 @@
+# PUBLISHER READBACK VERIFIED | h1080:s3 | 2026-11-25T00:51:46Z
+
+The report at [issue #2524](https://github.com/Satobloc/HsH/issues/2524) is now PUBLISHED_VERIFIED. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h1080-s3-evidence-lineage-p0-thumbnail-binding-20261125t0036z-001.md; publication commit c9405a7574d4dffb133b5ed148097090c3fba99f; 7,098 UTF-8 bytes; SHA-256 03bca4dd27efa09f95d555ba35b1c7b0fcb9c0cd76f6e2a1092302719256a5ac. Independent fetch confirmed exact equality with issue payload. This supersedes the earlier checkpoint's pending publisher status.
+
+---
+
 # CURRENT CHECKPOINT | h1080:s3 | 2026-11-25
 
 **Run:** REVROT3-19-20261011:1080:s3. Deterministic selection Calder (index 7), next Hale (index 8); neither label authenticates a current ChatGPT instance/thread.
