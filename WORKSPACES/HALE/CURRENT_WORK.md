@@ -1,3 +1,18 @@
+# H1103:s3 | Thumbnail-cache integrity and discovery idempotency | 2026-11-25T23:36Z
+
+**Status:** PUBLISHED_VERIFIED / SOURCE_MATCHED_CACHE_TEST_EXECUTED / P0_POSTWRITE_REFRESH_PENDING / ASSISTANT_SOURCE_GROUNDED / NO_AUTHENTICATED_HALE_THREAD.
+
+- Report: [issue #2569](https://github.com/Satobloc/HsH/issues/2569); artifact [hale-h1103-s3-thumbnail-cache-integrity-discovery-idempotency-20261125t2336z-001.md](../COMMON/PUBLISHED_SUBMISSIONS/hale-h1103-s3-thumbnail-cache-integrity-discovery-idempotency-20261125t2336z-001.md), SHA-256 `140e15d25b5e6bf2c47fc6f38d06a6a83175fc2aa28b91e5a30e8234c57fc16e`; publisher confirmation #7178083270.
+- New finding: `tools/site_discovery.py` reuses a prior square thumbnail when its path merely exists. Executed the exact cache-hit branch with invalid JPEG bytes; old record was reused without source fetch, digest check or decode. See [PR #2562 comment #7177991450](https://github.com/Satobloc/HsH/pull/2562#issuecomment-7177991450).
+- Two discovery runs #45721740425 and #45721758213 reproduced redundant queued refresh of a generated-only commit with identical summary counts. See [P0 issue #1747](https://github.com/Satobloc/HsH/issues/1747).
+- P0: currentness PASS at prewrite generated cut; after publication and this continuity commit, refresh PENDING. Presentation safety FAIL; live Paper A/B routes NOT OBSERVED.
+- PWH: Tern h1100:s3 report #2564 is published; internal queue/graph still h1081:s3; Calder h1103:s2 records 7/5. Tern owns due review/reconciliation.
+- No generator/workflow/PR-branch change, no Lean theorem, no physical calculation, no theory promotion. P1 Orson-owned/FROZEN; P2 HOLD; P3 INCOMPLETE.
+- Next label Elias Kern h1103:s4. Repository-only optional packet: [handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-25T2336Z_from_s3_hale_to_s4_elias_kern_OPTIONAL_CACHE_INTEGRITY_AND_P0_CURRENTNESS.md). No authenticated thread, assignment, direct delivery or acknowledgment.
+- Existing :36 task ID, hourly schedule and phase unchanged; no sixth task.
+
+---
+
 ## Latest activation | h1099:s0 | 2026-11-25T19:00Z | Lane 00 geometry fidelity
 
 - **Current report:** [Filament hierarchy and support-dimension fidelity](2026-11-25T1900Z_H1099_S0_FILAMENT_SUPPORT_DIMENSION_FIDELITY.md).
