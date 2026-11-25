@@ -1,3 +1,67 @@
+# h1082:s3 — Ravel continuity receipt
+**Nominal slot:** 2026-11-25T02:36Z. **Current invocation start:** 2026-11-25T02:36:01Z.
+**Deterministic selection:** h=1082; seq=5h+3=5413; ring index 17, Ravel. Next ring label: Orson Vay, index 18.
+**Run key:** `REVROT3-19-20261011:1082:s3`.
+
+## Identity and prior-art custody
+The current automation run has `chat_ref=null`; no authenticated active Ravel ChatGPT thread was established. Historical source recovery is not thread authentication, and no cross-thread delivery or recipient acknowledgment is claimed.
+
+Original Ravel conversation export:
+- Conversation ID: `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`.
+- Path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json`.
+- Git blob SHA-1: `17cfe3d35b0c60b26c1bd28ac7fb1a50eb2872e2`.
+- Raw-file SHA-256: `b3be0b31f1e7a65d2d1f1dd7a0a5a4a56d2d09f76c90bb11b8a1f9f77a2f9c48`.
+- Export created 2026-09-06T07:46:04Z; updated 2026-09-16T05:17:10Z.
+- 2,394 mapping nodes; 2,393 message-bearing nodes; 2,044 nodes on selected current-node ancestry; 157 user-role messages, 145 on the selected ancestry and 12 off it.
+- Direct user-role anchors include `638d13ba-1541-483d-853f-3b6d04b9b1b2` (primary co-theorist remit), `5590d70d-6525-42aa-9de8-5a7022b189f7` (accurate public representation), `4fb7a5be-a32d-43c0-b1a2-2c4787423b52` (source/citation lineage), and `3d0ad680-51db-4c79-ad4a-9bbacada24ef` (Kerr-section geometry). No standalone signed specialist charter was found; direct user messages are primary evidence and later workspace role language is reconstruction.
+
+## Existing h1082 report, publication and idempotency
+The same-key report already existed before this scheduled invocation:
+- Issue #2527 was the first intake and was rejected for SHA-256 mismatch.
+- Issue #2528 reused the same submission ID with the corrected digest; it was created 2026-11-25T02:29:04Z, before this invocation began.
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h1082-s3-carrier-current-identifiability-20261125t0236z-001.md`.
+- Publication commit: `7b066e4ea5757581757ea0f17eeaf38e064ea4d3`.
+- SHA-256: `28eeb9b3b2fe8e66c1877205cd77dc963b64e6f402830ac7781ffee4eaeaf374`.
+- Issue comment #7150783555 confirms publication and readback. The issue body and canonical artifact were independently compared exactly.
+No second issue or publisher submission was created. This continuity entry and issue #2528 are the run record; no separate receipt file was added while P0 presentation-safety remains unresolved.
+
+## Source equations and epistemic status
+The verbatim SAT-O1 and Blockwave equations, source SHA/date custody, and separate non-adopted standard-form projector candidate are preserved in issue #2528. No original equation was edited or silently corrected.
+- SAT-O1 source: `SATOBLOC/SAT O1 4D.txt`, Git blob `7577a2f8f2d9d43f3e65d30e8b5b2a1c5b2a8a76`, SHA-256 `8e416a9d...`; unbylined. File metadata recorded creation 2025-10-26 and last-write 2025-06-09, timezone unspecified; neither is treated as composition or authorship date.
+- Blockwave source: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt`, Git blob `ffdb8c7d5a...`, SHA-256 `3d393d2c...`; assistant-voiced text, attachment event 2025-09-16T16:31:26.687Z. The malformed projector token at source lines 9 and 85 remains verbatim. The separate standard-form candidate is not adopted.
+- The conventional Poincare-dual degree rule is conditional on an oriented support/current construction; it is not a construction of the physical current from either source.
+
+## Mathematical improvement and verification
+The published report already added the conditional Poincare-dual degree ledger and linear nuisance-range identifiability gate. This invocation extended existing PR #1133, without creating a new PR, with `SupportExtensionLinearization` in `RavelCurrentSupportIdentifiabilityGate.lean`.
+
+The new gate separates product-domain parameter count from differential rank:
+- A 1D base plus 3 extension parameters, or a 2D base plus 2 thickness parameters, gives a 4D product domain.
+- An injective supplied differential has rank four.
+- Rank below four forces a nonzero kernel, so at least one nominal parameter direction is locally redundant.
+- This is only a conditional linear-algebra statement. The source-to-map correspondence, actual smooth derivative, global embedding, projection, readout and physical support remain unestablished.
+
+Verification history:
+- Head `ec1094685452541d5577ff38feb36633cc301ade` passed exact-head Lean 4.34.0/Mathlib run #45534845437 (8,959 build jobs).
+- Head `470574736a9e5a188a9853355f514c732ef314eb` failed run #45535499914 solely on two invalid `omit` commands; theorem-specific axiom reports printed, but the failed build is not treated as verification.
+- Corrected head `3f95af65ce7a52d6aa995a2cf67dd307e04a517d` has exact-head run #45536104692 submitted. At this receipt checkpoint, checkout and Lake-manifest steps are pending/in progress; final-head Lean compilation and axiom readback are **SUBMITTED_NOT_VERIFIED**.
+- The failed run's five new theorem-specific axiom reports listed `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` or `admit` output appeared. Final-head reports must be rechecked after a successful build.
+- Tests, lint, leanchecker, nanoda and global axiom audit are not established by the current run.
+
+PR #1133 remains OPEN / DRAFT / UNMERGED on stacked base `infra/lean4-verification-20261023`; the branch is not merge-ready against current main. No rebase or merge was attempted.
+
+## Empirical boundary and campaign
+The helium-3/helium-4 spectroscopy comparison remains a real-data candidate, not a selected P2 test. Published-summary arithmetic was independently rechecked: isotope shift 5,787,729,689 Hz with 176.65 Hz combined uncertainty under an independence assumption; the derived radius-difference comparison gives z=2.024 only under naive independence and is not an independent holdout because inputs are shared. No raw-data reanalysis, covariance reconstruction, H(s)H fit, prediction or falsification threshold was produced. P2 remains HOLD.
+
+Mersearch-first check: the archive-resident stable 1.0 branch exists, but no local checkout/CLI is installed and container network access is unavailable. All four request lanes remain occupied. No Mersearch query was run; the two exact source files were fetched directly by known repository paths as a bounded source-custody fallback, not as an archive-wide search. Existing Math Hopper PR #991, Whirligig Kernel 0, SciSpace availability and repository search for relevant Satobloc-owned forks were checked. No new tool, fork, dependency, paid service or expenditure.
+
+P0 remains ACTIVE: record/presentation safety FAIL, latest reported discovery snapshot behind current main, live Paper A/B route acceptance NOT OBSERVED. P1 remains overdue/frozen and Orson-owned; P2 remains HOLD for November 30; P3 remains incomplete for December 14. FIE next review December 8; unrelated-source break November 28.
+
+No Orson handoff or assignment was created; the next ring label does not override Orson's protected cognition remit. No direct-thread delivery, consumption or acknowledgment is claimed. No task ID, schedule, phase or cadence changed; no sixth task, signet or conversation rename.
+
+**Return cursor:** PR #1133, corrected head `3f95af65ce7a52d6aa995a2cf67dd307e04a517d`; verify exact-head run #45536104692 before claiming compilation. Stop: do not create another h1082 issue, submission, receipt file, PR or handoff.
+
+---
+
 ## h1059:s4 | 2026-11-24 | exact-head CI and source-to-map reconciliation
 
 - Ravel routing label, index 17; next Orson Vay, index 18. Assistant-level source-grounded revival; no authenticated current Ravel thread or standalone signed specialist charter.
