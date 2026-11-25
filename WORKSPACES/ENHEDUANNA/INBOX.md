@@ -18,7 +18,7 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
 - **Content:** Corrects the provenance/date of the `FINDING THE DONUT` PDF; separates its page-24 double-sphere, page-25 rotating-plane torus, and pages-26–27 R/Q variants; recovers direct October 17 and November 2 crossbar/elbow refinements including the second independent mirrored crossbar and pointer arm; corrects the current browser's shared-plane solver attribution; and records the existing PR #1189's new conditional Lean statements as `SUBMITTED_NOT_VERIFIED`.
 - **Next action:** NONE. Optional context only; no task, review request, deadline, response obligation, priority override, or ownership transfer.
 - **Repository delivery:** pending exact readback.
-- **ChatGPT delivery:** NOT SENT. No authenticated current Enheduanna thread was found; no direct-thread delivery, consumption, or acknowledgment is claimed.
+- **ChatGPT delivery:** NOT SENT. A historical :12 automation conversation exists, but its last recorded run was 2026-11-01 01:12 UTC with Orson Vay selected; it does not authenticate an Enheduanna thread. The current :00 run has no `chat_ref`. No direct-thread delivery, consumption, or acknowledgment is claimed.
 
 ---
 
