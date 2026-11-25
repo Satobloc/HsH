@@ -185,13 +185,13 @@ These are historical dashboard captures labeled 23SEP26. The file label is the c
 
 | Source / capture label | HsH clone total | Unique cloners | Observation window / timestamp status |
 |---|---:|---:|---|
-| `hsh_data_nov1_2026.txt` | **35,651** | **3,640** | Daily clone series 2026-10-18–31 sums exactly; filename suggests Nov 1 snapshot, exact dashboard time absent; uploaded Nov 6 04:46:09Z |
+| `hsh_data_nov1_2026.txt` | **35,651** | **3,640** | Direct HsH dashboard totals; exact Traffic date window and capture time unresolved; filename suggests a Nov 1 snapshot, file uploaded Nov 6 04:46:09Z |
 | `hsh48.JPG` | **48,880** | **4,686** | Screenshot EXIF create time 2026-11-03 13:01:24.465Z; exact plotted date window not readable in OCR |
 | `HSH_54k.txt` | **54,368** | **5,200** | 2026-10-21–Nov 3; exact daily CSV sum; upload Nov 4 12:54:20Z |
 | `58k.JPG` | **58,677** | **5,897** | 2026-10-22–Nov 4; reconstructed from two overlapping daily CSVs; image upload Nov 6 04:49:54Z |
 | `HSH_REPO stats 7nov26.txt` | **67,310** | **6,668** | 2026-10-24–Nov 6; exact daily CSV sum; upload Nov 7 05:57:15Z |
 
-The 35,651 series is from `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/hsh_data_nov1_2026.txt`, blob `01966370e92172f436f6ab1912e0ae2776255701`. Its 14 daily clone values are 416, 499, 1,006, 842, 881, 1,079, 1,249, 1,631, 4,122, 5,055, 5,124, 6,074, 6,534, and 7,599, summing exactly to 35,651.
+The 35,651 direct capture is `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/hsh_data_nov1_2026.txt`, blob `01966370e92172f436f6ab1912e0ae2776255701`. It explicitly identifies HsH and reports 35,651 clones / 3,640 unique cloners, with graph range 416–6,534. The file contains no daily Traffic table, so its exact 14-day date window and matching CSV remain unverified. **Correction:** an earlier note attached the daily vector 416, 499, 1,006, 842, 881, 1,079, 1,249, 1,631, 4,122, 5,055, 5,124, 6,074, 6,534, 7,599 to this capture and called its sum 35,651. Scripted arithmetic gives **42,111**, not 35,651, and its maximum 7,599 contradicts the capture's chart maximum 6,534. That vector is therefore not a valid reconciliation of the 35,651 capture. Its sum happens to match the separate OCR total from 42.JPG, but no source lineage or date series proves that it belongs to that image; keep it unattributed pending direct evidence.
 
 The 48,880 screenshot is `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/hsh48.JPG`, Git blob `d1ae7c6565bd8ddd68e6a36fd0a911adef687b01`; image-index SHA-256 `0de57f5e937687e6df7a0963688befcecb91cf844c9c365c1028e71be57861db`. OCR blob: `b80ad54e33a577c00ee392a3c4920b1e7c479259`. OCR reports 48,880 clones, 4,686 unique cloners, 232 views and 11 unique visitors. The EXIF creation timestamp is stronger capture-time evidence than its later upload date.
 
@@ -251,7 +251,7 @@ The Nov 10–23 window and upload date Nov 25 leave a two-day reporting/upload g
 
 - The Oct 8 composite TXT contains separate repository-labeled captures; the matching CSV files are independent single-repository downloads. They show HsH's count exceeding the other individually observed counts in that capture set, but Resources' private/public status makes it an exposure-asymmetric comparison.
 - The explicit 23SEP26-named captures show HsH 11,912 and SAT archive 1,239; an equivalent labeled Resources count is not confirmed by that pair.
-- The November HsH captures rise from 35,651 to 67,310 across successive/reconciled observations. The latest single-repository CSV is explicitly identified by Nathan as HsH and totals 119,670.
+- The 54,368 → reconstructed 58,677 → 67,310 HsH sequence is exactly bridged by the available daily clone series. The 35,651 capture is direct but unwindowed and not part of that arithmetic chain. The latest single-repository CSV is explicitly identified by Nathan as HsH and totals 119,670.
 - Current repository creation dates establish when a repository could not yet receive clones. They do not establish its public/private state; keep existence, visibility, and measured repository distinct.
 - Do not sum rolling windows, and do not sum daily unique-cloner counts. Keep clone totals, window unique cloners, daily unique cloner counts, page views and unique visitors as separate quantities.
 - Traffic clone source attribution is still an open question. None of these dashboard observations by itself separates Nathan's or tool-generated activity from unrelated external sources.
@@ -276,5 +276,11 @@ The JOINT STATS file also contains a separate SAT archive section reporting 1,23
 ### Interpretation boundary for the earlier assistant narrative
 
 EXPOSURE_STATS/GITHUB_ASSISTANT_CONVO.txt (blob 664f3497dd12e824a3e7e51dc9e2d3b158a06c62) is a historical assistant/user discussion, not a primary Traffic source. It repeats the direct 1,239/338 SAT and 11,912/1,735 HsH metrics and records a prior assistant interpretation that page browsing was probably concentrated in the owner's identity while clones reflected many source identities, some potentially automated. Preserve that as historical interpretation only. It does not identify actual cloners or establish a human/automation split. Current attribution must be grounded in the canonical internal event ledger and direct operational evidence, not that earlier assistant inference.
+
+
+## GTT-01.C quantitative reconciliation correction — 2026-11-25
+
+The 35,651 capture correction is material. The previously associated 14-value vector sums to 42,111 and peaks at 7,599, while the direct 35,651 capture reports a chart range of 416–6,534 and contains no daily table. It is not an exact reconciliation, and the date window 2026-10-18–31 is not established by the source presently inspected. Retain the direct 35,651/3,640 dashboard metric, but move its exact window and CSV linkage to UNKNOWN. Do not use the 42,111 vector in the 35,651 sequence. The 42,111 OCR image is a separate source lead; no lineage has yet been established.
+
 
 @⌕▣✓⇢
