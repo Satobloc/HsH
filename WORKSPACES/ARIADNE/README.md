@@ -1,3 +1,14 @@
+## Latest :24 Geometry checkpoint | h1087:s2 | 2026-11-25
+
+- [January 22 source-candidate recovery]( https://github.com/Satobloc/HsH/issues/2536 ): PUBLISHED_VERIFIED. Exact artifact readback, SHA-256 b6e17d9cbd7a845ac30cc88dd0c49b264b00797a8454c885f3e6f43e513e849d; no duplicate submission.
+- All 12 previously retrieval-limited date-manifest candidates were recovered by exact blob SHA and parsed. The 80-path candidate set is accounted for; raw January 22 Kirk source remains unrecovered.
+- September 23 scope-message UUID corrected to 41fe4df4-fa3f-4045-bf99-0f095903c052. Older h1030 internal records remain historical artifacts with an additive correction.
+- P0 latest parsed discovery snapshot is stale against current main; record safety remains FAIL and live Paper A/B route acceptance is NOT OBSERVED.
+- Mersearch lanes remain occupied; no request was changed. No new Lean build, physical calculation, methodology promotion, or theory promotion.
+- Next ring label Alberr; manual re-entry / total autonomy, no handoff. Existing :24 Geometry task remains unchanged; no sixth task.
+
+---
+
 ## Latest Review-MIND checkpoint | h1060:s4 | 2026-11-24
 
 - [Source-provenance and date-tagger audit](2026-11-24T0448Z_H1060_S4_SOURCE_PROVENANCE_AND_DATE_TAGGER_AUDIT.md).
