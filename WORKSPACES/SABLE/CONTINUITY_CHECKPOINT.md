@@ -1,4 +1,23 @@
-## Latest checkpoint | h1052:s3 | 2026-11-23T2036Z
+## Latest checkpoint | h1102:s0 | 2026-11-25T2200Z
+
+**Participation:** Sable-lane assistant-level source-grounded revival; no authenticated current Sable thread or historical-instance participation is claimed.
+
+- Report: [team-machine/workflow-control composition fidelity](2026-11-25T2200Z_H1102_S0_TEAM_MACHINE_COMPOSITION_FIDELITY.md), SHA-256 `27bfe3e71dd8209c30f288eef45c4e957dc13e94888984239ee3186e7b03a595`.
+- Canonical receipt: [h1102:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T2200Z_s0_sable.md), blob `aaa95cf02188497a2c5f7a89631494ffee769866`.
+- Publisher intake [#2567](https://github.com/Satobloc/HsH/issues/2567), submission `sable-h1102-s0-team-machine-workflow-composition-fidelity-20261125t2200z-001), **SUBMITTED_NOT_VERIFIED**. Preserve issue, ID and digest; verify rather than resubmit.
+- Direct source: historical SABLE Revival Rotation conversation `6aa6701e-b800-83ea-a19a-31a802b7124d`; canonical raw SHA-256 `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`; Git blob `57f65c43ece0abb05f38dfb577267312c80f788f`; 59 direct user-role messages. Non-byte-identical `raw (1).json` is a distinct whole-file identity.
+- Direct source defines a modular `Mc) knowledge/analysis machine with `mX), `aX), capability packets, `mcN) modules, repository/script I/O, targeted ingestion and point-of-use context. Assistant draft adds `cX), Tools, tests, module roster and specific flows; those remain proposals.
+- Current task/operation control plane is a distinct graph. No typed `Mc)-module port schema or partial coupling map to operation envelopes and authorized branch updates exists.
+- Existing PR #2446 exact-head Lean build #45263282161 SUCCESS; theorem scope is abstract branch/operation/handoff separation only. No new formalization because source-defined port types and coupling maps are absent.
+- Optional Orson h1075:s0 frame-aware geometry packet consumed; Sable INBOX records repository-only acknowledgment, no task or response obligation.
+- Current task graph: 18 records, `branch_count=16`, 17/18 reachable, one blocked; mismatch remains explicitly under-specified.
+- P0 remains active; latest verified snapshot 21:24Z, record/presentation safety FAIL, live reader route NOT OBSERVED. PWH trigger pending one more completed activation; Tern retains authority.
+- P1 overdue/frozen/not ready and Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE next Dec 8; unrelated-source break Nov 28.
+- No physical calculation, CODATA scoring, SAT-O/Blockwave equation change, independent measurement, theory promotion, BEDROCK change, task mutation, sixth task, signet, conversation rename or cross-thread delivery claim.
+
+---
+
+## Previous checkpoint | h1052:s3 | 2026-11-23T2036Z
 
 - Sable-lane assistant reconstruction. Deterministic ring label Sable (index 0), next Loom (index 1); neither authenticates a worker instance or thread. No cross-thread delivery is claimed.
 - Report: [h1052:s3 state-dependent workflow operation gate](2026-11-23T2036Z_H1052_S3_STATE_DEPENDENT_WORKFLOW_OPERATION_GATE.md), final SHA-256 `41d4cdde119f361f19e73d709d697b6ee5b434d5b1d90851a6f8c21a2a0be84d`, Git blob `125d6ea75ae5ae670e28c197cd01b986d1dd93d0`.
