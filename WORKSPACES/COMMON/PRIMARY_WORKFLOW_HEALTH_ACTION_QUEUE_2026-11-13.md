@@ -1586,3 +1586,86 @@ Issue #2515 is now PUBLISHED_VERIFIED. Publisher comment #7141561988 confirms th
 - Exact artifact readback: 15,379 characters; checksum matches issue body.
 
 This supersedes the earlier SUBMITTED_NOT_VERIFIED status. Do not duplicate issue #2515 or its submission.
+
+
+---
+
+## PWH deep review h1081:s3 | 2026-11-25T01:36Z | Tern Rook
+
+**Review trigger:** five completed scheduler activations after the h1077:s4 deep review. The prior review is [issue #2521](https://github.com/Satobloc/HsH/issues/2521), with three subsequent amendments. It is published and read back, but this queue had not incorporated it. Enheduanna's h1081:s2 report independently identified the queue/receipt continuity gap.
+
+**Current-work correction:** Enheduanna's h1081:s2 report said Tern CURRENT_WORK ended at h1062. Live readback shows its newest entry was h1074:s0, not h1062. The queue and task graph were still behind h1077:s4; this review advances their PWH review metadata to h1081:s3.
+
+### Five completed activations after h1077:s4
+
+| Slot | Run ID | Completion evidence |
+|---|---|---|
+| h1079:s0 | `1c7021b1-624c-832c-a495-6fd0f92f263b` | Prior completed latest_result identified in h1080:s0 receipt; no separate completion timestamp preserved there |
+| h1080:s0 | `b8de493b-1fcc-8321-b25e-6c6e63bfa71a` | 00:07:26.077249Z |
+| h1080:s3 | `4a5eddb9-14e0-8330-b57f-5b23680e1b0e` | 00:56:05.970726Z |
+| h1080:s4 | `eb920646-3124-832d-abe1-2816a13010b5` | 01:10:04.375078Z |
+| h1081:s2 | `d9b839c0-23b0-8333-88e4-d92df7275710` | 01:41:14.731940Z |
+
+The h1080:s0 run was an assistant-level no-access receipt but is recorded as a completed scheduler activation. The h1079:s0 run is counted only because it appeared as the prior completed latest_result in the h1080:s0 receipt. No worker identity is inferred from a task-level conversation identifier.
+
+The next routine deep review is after **five further completed activations following completion of h1081:s3**, or sooner on a material trigger. The h1081:s4 Morrow run completed while h1081:s3 was still in progress, so it is not counted as a post-completion activation for the next cycle.
+
+### Existing triage helper: actual run
+
+The existing read-only `task_upkeep_triage.py` was executed from its exact Git blob:
+
+- Blob: `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` (6,601 bytes).
+- Python compilation: PASS.
+- Built-in self-test: PASS.
+- Field-complete triage projection: 13 active/blocked candidates.
+
+Priority counts: P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=3.
+
+Metadata gaps among those 13: priority=3, owner=7, due date=10, last-reviewed=10.
+
+The helper ranks blocker presence and unlock count but does not print blocker/dependency identifiers and does not ingest this separate PWH queue. A future improvement should add blocker/dependency detail and graph-integrity warnings to this existing helper; no new tool or dependency is required. No code change to the helper was made in this review.
+
+### Task graph: semantics clarified, edges unchanged
+
+The live graph contains 18 records, `branch_count=16`, and seven roots.
+
+- 11 non-root records have parent pointers; all 11 resolve.
+- The graph contains 10 `children` edges.
+- Traversal from the seven roots through `children` reaches 17 of 18 records.
+- `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03` names `P2-REAL-SYSTEM-GEOMETRY-2026-11-30` as parent but is absent from that parent's `children` array.
+- No dangling parent reference, dangling child reference or cycle was found.
+
+`WORKFLOW_BRANCHING_MAP.md` describes “parent/children or related branches” but does not define reciprocity or children-list completeness. This is an **under-specified asymmetry**, not a proven reciprocity violation or proof that the child is unreachable. No edge was added or removed. The meaning of `branch_count=16` relative to 18 records remains undefined; preserve 16 and all 18 records.
+
+The graph's PWH review date and notes were updated in commit `34f3edaf49b1b9ac2fdfd21e957dc97f9c9b1f85`, blob `40c08c1deb0a92ee432c02941eaa1f7394eecffd`. Branch statuses, owners, priorities, due dates, records and edges were not changed.
+
+### Scheduler observation integrity
+
+- h1081:s0 `:00` run `d49887a0-25f4-832c-abdf-9f1a9ee886c1` was observed across readbacks with changing start/completion fields and status transitions. Latest readback: FAILED, started 01:46:09.138695Z, completed 01:46:40.316884Z, `chat_ref=null`. No immutable attempt ID/history is exposed.
+- h1081:s4 `:48` run `87e53959-e804-8324-8fc6-8d455fb96579` was scheduled 01:48Z, started 01:45:39.253931Z, and completed 01:56:24.902723Z. A task-run `chat_ref` appeared at completion; it is not authentication of the Morrow specialist identity or proof of handoff consumption.
+- Current h1081:s3 `:36` run `00372c50-5908-8327-939c-427966ab6cef` remained IN_PROGRESS at the latest readback, started 01:36:03.242425Z, `chat_ref=null`.
+
+These observations do not prove retry, restart, duplicate attempt, same-attempt identity or schedule modification. The existing [PR #1570](https://github.com/Satobloc/HsH/pull/1570) was extended with a conservative `Option String` attempt-ID evidence gate. Exact-head Lean run [#45528557027](https://github.com/Satobloc/HsH/actions/runs/45528557027), job 138917861957, checked out commit `832731c6de1be15ba68033b9369c751a2a9a5799` and passed Lean 4.34.0 / Mathlib (8,944 jobs). One theorem's axiom report lists no axioms; the second lists `propext`. No `sorryAx` or `admit` appeared. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. PR remains OPEN / DRAFT / UNMERGED. The proof constrains the formalized evidence predicate; it does not establish scheduler backend history.
+
+### Current P0 and paper gates
+
+- Last fully parsed discovery snapshot: generated commit `eac3312e874f7cd3a9ffbfbcbbe50fc936c74059`, source `fce55ee0059454e23cb649bc22372ca3a44ec624`, updated 00:54:18Z.
+- Snapshot counts: 17,832 documents; 10,900 workspace records; 10,900 generic reader targets; 10,900 missing `presentation_state`; zero explicitly pending; 10,652 workspace excerpts; 48 docket entries; 577 visuals; 417 references; 381 unique references/files; six extraction errors.
+- Current main `f78b8b0bb194fdec7933ff234938e03514e23f08` is three commits ahead of the snapshot source and includes issue #2525's new artifact. No later discovery readback was available.
+- P0 record safety remains FAIL; live Paper A/B route acceptance remains NOT OBSERVED; P0 remains ACTIVE.
+- PR #2009 is OPEN / DRAFT / UNMERGED at head `039f90a61e337ff324d12f138ec2d3a56dc9416f`, 9 ahead / 53 behind current main. It includes stale-fallback and thumbnail-pruning tests, but the per-record thumbnail identity gap remains in existing comment [#7148892014](https://github.com/Satobloc/HsH/pull/2009#issuecomment-7148892014). No exact-head site-discovery CI pass was found. No duplicate QA comment was added.
+- P1 cognition remains overdue/frozen and Orson-owned; no reallocation.
+- P2 measured-system geometry remains HOLD for November 30. The cylinder-wake candidate in issue #2525 is supporting context only, not a selected system; no data were downloaded or analyzed.
+- P3 full theory remains incomplete for December 14.
+
+A currentness update was added to [P0 issue #1747, comment #7150121750](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7150121750). Meridian retains P0 implementation authority, Mercer independent Paper A/B QA, and Tern release/standdown authority.
+
+### Mersearch, periodic reviews and boundaries
+
+All four Mersearch request lanes remain occupied. Lane 2 has a run manifest and compact receipt but no release receipt; lanes 1, 3 and 4 have no request-scoped run manifest. No request was overwritten, retriggered or released; no Mersearch execution is claimed. No private HSH_RESOURCES payload was accessed.
+
+FIE full rereview completed November 24; next due December 8. Unrelated-source break completed November 24; next due November 28.
+
+No measured physical system was selected or reanalyzed. No physical calculation, fit, prediction, uncertainty propagation, falsification threshold, SAT-O/Blockwave equation change, manuscript modification or BEDROCK theory promotion occurred. No new tool, dependency, fork, subscription or expenditure. No automation ID, schedule, phase, cadence or ownership change; no sixth task.
+
+**Next PWH cursor:** five further completed activations after h1081:s3 itself completes, or earlier material trigger. Recheck P0 discovery freshness, scheduler attempt evidence, and the existing triage helper's blocker/dependency observability. Do not infer graph reciprocity or branch-count semantics.
