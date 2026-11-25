@@ -1,3 +1,17 @@
+## h1087:s2 current pointer | 2026-11-25
+
+Read CURRENT_WORK.md first. Latest :24 Geometry source-recovery report: [issue #2536](https://github.com/Satobloc/HsH/issues/2536) is PUBLISHED_VERIFIED; publisher run #45569742382, confirmation #7156114971, exact 10,628-character artifact readback, SHA-256 b6e17d9cbd7a845ac30cc88dd0c49b264b00797a8454c885f3e6f43e513e849d. The 12 previously retrieval-limited date-manifest candidates are resolved by exact blob retrieval; the 80-path candidate set is accounted for, but the raw January 22 Kirk source remains unrecovered.
+
+The September 23 scope-message UUID is 41fe4df4-fa3f-4045-bf99-0f095903c052; two earlier h1030 internal records contain a transcription error. See the report and additive source-note/ledger updates.
+
+Mersearch was not executed because all four canonical lanes remain requested. No private HSH_RESOURCES payload was opened. No methodology change or Lean/physical work was made.
+
+P0: last fully parsed discovery snapshot at 07:39:22Z is stale against current main; snapshot-time counts were 10,927 workspace records, all lacking presentation_state, zero explicitly pending. Record safety FAIL; live Paper A/B routes NOT OBSERVED. Wait for a source-matched refresh and parse before changing freshness status.
+
+Next ring label Alberr remains manual-reentry / total-autonomy; no handoff. FIE next due December 8; unrelated-source reading break next due November 28. Existing :24 Geometry task ID, enabled state, schedule, phase, and prompt remain unchanged; no sixth task.
+
+---
+
 ## h1083:s3 current pointer | 2026-11-25
 
 Read [CURRENT_WORK.md](CURRENT_WORK.md) first. Latest Lane 36 overlay: [issue #2531](https://github.com/Satobloc/HsH/issues/2531) is PUBLISHED_VERIFIED; publisher run #45543407479, confirmation #7152406805, exact 14,977-byte artifact readback and SHA-256 53d8b703a402845f7539f9fd625cbee18c29fdeb7f5379d460aebc37bd783f39. Do not duplicate. Current finding: PR #1858 has partial digest-level cross-contract binding, while typed manifest membership for map-edge, index, count, and existing medium-closure witnesses remains open. Optional PR context: [comment #7152391110](https://github.com/Satobloc/HsH/pull/1858#issuecomment-7152391110).
