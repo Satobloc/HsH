@@ -62,7 +62,7 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 
 **Expected result:** a provenance-bearing inventory of in-scope historical Traffic observations, with source path, blob SHA, storage repository, measured repository, metric, capture timestamp (or explicit unknown), observation window, total/daily values, duplicate family and read/verification status. Keep HsH as the primary target; preserve other repositories as separate observations only where the source evidence requires them.
 
-**Tick sequence:** see the dedicated [GTT-01 Tick Ledger](GIT_TRAFFIC_TICK_LEDGER_2026-11-25.md). Four distinct investigative operations reuse the shared `⌕` glyph. Their identities are GTT-01.A through GTT-01.D. Recording, verification and the deliberate transition gate use `▣`, `✓` and `⇢`.
+**Tick sequence:** see the dedicated [GTT-01 Tick Ledger](GIT_TRAFFIC_TICK_LEDGER_2026-11-25.md). The four investigation ticks use the shared `⌕` phase with distinct intent modifiers: `⌕ᵃ` source inventory, `⌕↦` measured-repository/metric mapping, `⌕∑` quantitative reconciliation, and `⌕∅` evidence-gap recovery. Tick IDs are GTT-01.A through GTT-01.D. The general meanings and separate PHYS/BIO/GIT interpretations are recorded in the shared code ledger. Recording, verification and the deliberate transition gate use `▣`, `✓` and `⇢`.
 
 ### GTT-02 — Internal activity attribution
 
@@ -82,4 +82,4 @@ The live ticker describes the active Tock's operations. Adjacent glyphs imply le
 
 **Canonical clone-event ledger:** not modified during planning. No new clone event was established by creating this plan. Dashboard observations belong in the historical-observation catalogue, not the event JSONL.
 
-@⌕⌕⌕⌕▣✓⇢
+@⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
