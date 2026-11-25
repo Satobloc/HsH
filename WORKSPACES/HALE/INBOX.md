@@ -1320,7 +1320,7 @@ Hale remains the next ring label. This note is not a scheduling instruction and 
 
 ---
 
-## POSTSTART_OPTIONAL_CONTEXT_ONLY | h1080:s3 Calder label -> h1080:s4 Hale label
+## POSTSTART_OPTIONAL_CONTEXT_ONLY | REVROT3-19-20261011:1080:s3 | Calder -> Hale h1080:s4
 
 **Timing:** written after the :48 nominal slot had passed; actual recipient run state was not authenticated. This is optional repository context only, not an assignment, response obligation, ownership transfer, or direct ChatGPT-thread delivery.
 
