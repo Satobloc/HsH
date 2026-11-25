@@ -49,10 +49,10 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ## Work tray
 
 - **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
-- **NOW — GTT-02.A / `@⌕↦`:** normalize canonical clone-event identities, resolve revisions/supplements, preserve missing IDs and map each HsH record to its actual mechanism and evidence status.
-- **NEXT — GTT-02.B:** aggregate the normalized internal events by mechanism and matched Traffic window, keeping checkout materialization separate from actual Traffic clone attribution.
+- **NOW — GTT-02.B / `@⌕∑`:** aggregate normalized HsH internal activity by mechanism and matched Traffic window. Deduplicate complete Actions checkout keys, separate incomplete checkout evidence and API/connector activity, and preserve timestamp precision.
+- **NEXT — GTT-02.C:** recover missing job/provisioning evidence, especially two possible-full-clone events and 27 incomplete checkout-key records; otherwise retain UNKNOWN.
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
-- **RETURN:** reopen GTT-01 only if new direct Traffic source evidence changes a mapped window or capture; otherwise continue GTT-02 and keep the canonical clone-event ledger read-only.
+- **RETURN:** reopen GTT-02.A only if new revision lineage, event IDs or repository identity evidence changes the canonicalized set. Otherwise continue mechanism aggregation and bounded evidence recovery.
 
 **Shared-ledger lane boundary:** `CLONE_LEDGER.jsonl` is append-only and may advance through PHYS/BIO/GIT work. During this turn, the latest observed commit `f7ddeadc38b4c2b3258ac745bf65ea2c7931a761` appended three PHYS API-only provenance rows; they are not GIT_TRAFFIC observations. GIT-02 must classify shared rows individually. This lane did not write a clone-event row.
 
@@ -147,3 +147,12 @@ Git history now supplies upload/commit timestamps for several direct captures, d
 **GTT-02 NOW:** WORKSPACES/COMMON/GIT_TRAFFIC_GTT02_INTERNAL_ATTRIBUTION_2026-11-25.md. The canonical CLONE_LEDGER.jsonl and its standard are read-only reference evidence. Initial JSONL inspection found 350 HsH rows, 349 stable event IDs, 29 explicitly revision-linked rows, and one legacy row with no event_id. In the Nov 10–23 window there are 311 raw rows, including 27 explicit revisions and 284 non-revision rows; every row still has traffic_attribution=UNKNOWN. Initial mechanism triage distinguishes 147 checkout-related records (120 fully keyed checkout steps and 27 incomplete), 128 API/connector records, six workflow/provisioning-uncertainty records, one partial-file materialization, and two other checkout-configuration records. These are evidence-record counts, not clone counts. GTT-02.A is active.
 
 @⌕↦⌕∑⌕∅▣✓⇢
+
+
+## GTT-02.A result and B start — 2026-11-25
+
+The canonical JSONL source was parsed read-only from the GitHub Contents API: 563 rows, zero parse errors; HsH contributes 350 raw rows, 349 stable event IDs, 29 explicit revision/supplement rows and one legacy row without event_id. In the Nov 10–23 primary window, 311 raw HsH rows include 27 explicit revisions, all of whose targets were found; 284 non-revision rows include one identity-unknown legacy record. No duplicate stable event_id was found.
+
+GTT-02.B preliminary disposition of those 284 records: 147 positive Actions checkout-evidence rows (120 complete unique checkout keys, 27 incomplete), 128 non-checkout API/connector rows, six workflow/provisioning-uncertainty rows, one partial file materialization and two other checkout-configuration records. All retain traffic_attribution=UNKNOWN. These are event/evidence counts, not GitHub Traffic clone counts. Detailed field semantics and timestamp limits are in GIT_TRAFFIC_GTT02_INTERNAL_ATTRIBUTION_2026-11-25.md.
+
+@⌕∑⌕∅▣✓⇢
