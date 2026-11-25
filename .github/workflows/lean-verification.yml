@@ -26,7 +26,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           persist-credentials: false
+      - name: Assert exact PR-head checkout
+        if: github.event_name == 'pull_request'
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected="${{ github.event.pull_request.head.sha }}"
+          actual="$(git rev-parse HEAD)"
+          echo "Expected PR head: $expected"
+          echo "Actual checkout: $actual"
+          test "$actual" = "$expected"
       - name: Generate Lake dependency manifest
         working-directory: FORMAL_VERIFICATION
         shell: bash
