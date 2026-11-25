@@ -116,7 +116,7 @@ No operation in this ticker has been completed yet. Earlier GTT-01 work remains 
 
 ### Inventory limits and next cursor
 
-The working `GITHUB_STATS_INDEX.md` (blob `bd530cb15ef3e314d1126e768f90dcf3fe666100`) explicitly labels its coverage as an initial discovery pass, not exhaustive. Its candidate list points to additional HsH dump folders and SAT-era captures. The 1,000-entry HsH directory response is also ceiling-limited. Accordingly, GTT-01.A is not closed.
+The working `GITHUB_STATS_INDEX.md` (blob `bd530cb15ef3e314d1126e768f90dcf3fe666100`) explicitly labels its coverage as an initial discovery pass, not exhaustive. Its candidate list points to additional HsH dump folders and SAT-era captures. The 1,000-entry HsH directory response is also ceiling-limited. Explicit requests using `page=11`, `page=12`, and `page=13` returned the same 1,000-item set rather than subsequent pages; the current connector route therefore has not provided a usable continuation cursor for that directory. Do not treat repeated responses as additional coverage. Accordingly, GTT-01.A is not closed.
 
 **Next within GTT-01.A:** continue enumerating the remaining HsH dump/source paths and known SAT-era locations; record direct file paths, blob identities, duplicate families and provenance. Keep telemetry captures distinct from analysis/conversation records. Once the accessible candidate source universe is inventoried or each remaining limit is explicitly bounded, advance to `⌕↦` to assign measured-repository identity and source role.
 
