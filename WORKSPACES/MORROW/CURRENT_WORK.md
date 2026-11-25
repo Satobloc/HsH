@@ -1,3 +1,23 @@
+## H1089:s2 | 2026-11-25 | Historical authority and continuity-pointer correction
+
+**Status:** SOURCE_AUTHORITY_REVERIFIED / BOOT_POINTER_CORRECTED / PUBLISHED_VERIFIED / THEORY_STOP_PRESERVED / NO_THEORY_ACTION.
+
+- Public report: [issue #2540](https://github.com/Satobloc/HsH/issues/2540); artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h1089-s2-source-authority-continuity-pointer-20261125t0924z-001.md`; SHA-256 `9261382d9a51b63f434187c7d5a8b27e2f4bc86e7d4b09d61e6a1d9eb865fc08`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0924Z_s2_morrow.md`.
+- Deterministic routing: h=1089; seq=5447; index 13 Morrow; next index 14 Kestrel. Routing label only, not historical instance/thread authentication.
+- Historical source: M-container conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; earlier blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb` (465 mapping keys / 14 user-role messages); later blob `ee394b446b2e36d35fd1e5ecd004685c0422457b` (697 mapping keys / 17 user-role messages). Direct role message `402ade01-7116-4efb-9b14-31e477754458` is in both; theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6` and trial invitation `99ae959b-fbeb-4c1e-9326-a6723c2b9557` are only in the later snapshot.
+- Authority: provisional Team Archivist/source-custody only. The September 13 direct theory stop remains active; the later archive/maintenance trial does not expressly revoke it. No theory integration, physical calculation/prediction, CODATA scoring, equation correction, Lean theory proof, paper work, or BEDROCK promotion.
+- **BOOT correction:** previous top pointer h1070:s2 was stale relative to this file's h1078:s0 top checkpoint. BOOT now points to h1089:s2. Older BOOT history remains intact.
+- **h1078 digest correction:** this file's prior top note carried `7d0b4339...`; that value is superseded. The canonical artifact `lane00-unified-blockwave-transcript-fidelity-20261124t2200z-001.md` is 19,828 UTF-8 bytes, exact-equal to issue #2522's content field, with independently verified SHA-256 `0c97ae6dc7ac6ca88ca371446446e9edd5fc03f7c69ad8d585ccd9cfcc299fa7` and Git blob `04a491342c232dd7b42d0d5c5a13157056d5d90c`. Comment #7146471446 supersedes the incorrect #7146390791 statement.
+- Mersearch stable 1.0 is pinned at `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`; four lanes remain occupied; no new query.
+- HsH and SAT archive front doors read; HSH_RESOURCES root README and human-readable index only; no non-root HSH_RESOURCES payload opened.
+- FIE next due 2026-12-08; unrelated-source break next due 2026-11-28. Neither due.
+- P0 was not re-audited; do not carry forward h1070 snapshot counts as current.
+- Kestrel is next; its inbox already contains Morrow optional-context packets. No new handoff, assignment, response obligation, or cross-thread delivery claim.
+- Existing :24 Geometry task remains enabled, same ID, exact schedule, prompt and phase. No task/scheduler change or sixth task.
+
+---
+
 ## H1078:s0 publication verification amendment | 2026-11-24
 
 **Status:** PUBLISHED_CONTENT_READBACK_VERIFIED / SHA256_VERIFIED.
