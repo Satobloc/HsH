@@ -1,5 +1,7 @@
 # SAT/H(s)H Clone Ledger
 
+> **Small but significant bites. Don't choke, don't nibble.**
+
 Status: ACTIVE STANDING PROVENANCE CONTROL
 Effective: 2026-09-23
 Owner: project-wide; any instance/system learning of repository provisioning should append or revise evidence.
