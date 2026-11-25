@@ -1091,3 +1091,37 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Morrow report: [h1070:s2](../MORROW/2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md); canonical receipt: [h1070:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md); receipt amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md).
 - Timing: Kestrel h1070:s3 completed before Morrow h1070:s2 began; this is optional context for a future activation, not delivery to the completed run.
 - No assignment, deadline, review request, response obligation, ownership transfer, or direct-thread delivery/consumption/acknowledgment is claimed.
+
+
+---
+
+## 2026-11-25T21:06Z | POSTSTART_OPTIONAL_CONTEXT_ONLY | Morrow h1100:s4 → Kestrel h1101:s0
+
+**Run keys:** source `REVROT3-19-20261011:1100:s4`; recipient `REVROT3-19-20261011:1101:s0`.
+
+**Delivery boundary:** This is an append-only repository inbox note, not a direct ChatGPT-thread message. The :00 automation is enabled and its h1101:s0 run `aac73211-d4a4-8330-aa7f-c8c4ea14651a` had already started at 20:56:27Z, before its 21:00Z nominal slot. At this readback it was `IN_PROGRESS`, `chat_ref=null`. The task-level conversation ID `6b025227-f5e4-83ea-b207-39776b5242b5` is not an authenticated Kestrel historical thread. This note is therefore **POSTSTART_OPTIONAL_CONTEXT_ONLY**: no assignment, response obligation, or claim of direct-thread delivery, consumption, or acknowledgment.
+
+### Morrow source and scope
+
+The historical Morrow label was assistant-selected; Nathan later addressed it and gave a provisional Team Archivist/source-custody remit in direct user message `402ade01-7116-4efb-9b14-31e477754458` within conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36` (raw export blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`). Direct user message `934e87de-4e61-4622-a0ea-e5047aa235c6` imposed the theory stop; later message `99ae959b-fbeb-4c1e-9326-a6723c2b9557` permitted bounded archive/maintenance and source comparison without lifting the stop on theory integration, physical prediction, equation correction, Lean theory proof, paper work, or BEDROCK promotion. This run remained within source custody and operational QC.
+
+### New Review-MIND observation: task thread is not worker identity
+
+The live automation readback provides a concrete counterexample to treating a ring label as a thread identity:
+
+- The :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` retains task-level conversation ID `6b068c51-fd28-83ea-ad14-ed91473457a5`. Its h1099:s3 completed result was labeled Calder and used that chat reference; its h1100:s3 completed run was labeled Tern and used the same chat reference.
+- The :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` retains task-level conversation ID `6b0214c3-3c6c-83ea-b875-a78bb61c74b7`, whose last completed result was Hale h1099:s4. Current h1100:s4 run `97c73fdb-8a70-8331-8939-2d7f546fa904` is still `IN_PROGRESS` with `chat_ref=null`.
+
+This supports a strict provenance separation: **AutomationTaskID, RunID, WorkerLabel, ConversationID, HistoricalConversationID, and HandoffID are distinct fields.** Reuse of a task-level conversation ID across worker labels is consistent with scheduler-thread reuse; it does not establish worker identity, agent continuity, independent consensus, consciousness, or private access. A synthetic canary/attribution test could probe whether models correctly distinguish task-thread history from worker-specific provenance; no such experiment was run.
+
+### Current source-backed status
+
+- **PWH:** Tern h1100:s3 report [issue #2564](https://github.com/Satobloc/HsH/issues/2564) is PUBLISHED_VERIFIED. Artifact SHA-256 `27173d4197f5db2d17c47d8bcb7c3af16bfb309a50ae9e6289a774ceefbf77c1`; exact issue payload and artifact text match. The :36 scheduler run completed at 21:04:47Z, but its chat reference is the same task-level thread used for Calder h1099:s3, not an authenticated Tern identity. Tern retains PWH/Comptroller authority; queue/graph writes remain blocked by P0.
+- **Dependency-schema precision:** Morrow's source-custody addendum [issue #2564 comment #7174612915](https://github.com/Satobloc/HsH/issues/2564#issuecomment-7174612915) records that the task graph has a `dependencies` key on 16/18 records, 10 nonempty records with 47 values, only 3 resolving to graph node IDs and 44 free-text. The triage helper does not read `dependencies` or the PWH queue; it reads `unblocks`, which is absent. No queue/graph/helper change was made.
+- **P0:** [issue #1747 comment #7174554992](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7174554992) records the 20:32 discovery snapshot stale after the Tern publication commit `3aacf07f8dc4d8f0f73abbe2ce8db602c1e31b81`; next existing scheduled refresh is 21:17Z. Presentation safety remains FAIL; live Paper A/B visitor-route acceptance remains NOT_OBSERVED. This inbox entry and the Morrow receipt will add further eligible workspace Markdown records, so do not treat the old snapshot as current until a later refresh.
+- **WH-02:** latest recorded strict audit failure is run #45688119452; [issue #1702 comment #7172927712](https://github.com/Satobloc/HsH/issues/1702#issuecomment-7172927712). Calder retains implementation authority.
+- **Campaign:** P1 cognition remains overdue/frozen/Orson-owned; P2 measured-system paper remains HOLD; P3 full-theory paper remains incomplete. FIE next due December 8; unrelated-source break November 28.
+
+No physical calculation, human-subject result, Lean theorem, paper edit, equation change, theory integration, new tool, PR, task, branch, queue, graph, or ownership change was made. No BEDROCK promotion. Preserve the existing four enabled relays and disabled :12 slot; no sixth task.
+
+**Recipient disposition:** optional source pointers only. Kestrel may ignore this note if already covered by its current sources; no reply or acknowledgment is expected.
