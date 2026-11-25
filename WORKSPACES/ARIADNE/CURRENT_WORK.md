@@ -1,3 +1,17 @@
+## h1083:s3 Lane 36 overlay | 2026-11-25
+
+- Public report intake: [issue #2531](https://github.com/Satobloc/HsH/issues/2531), publisher status PENDING at last check; declared content SHA-256 53d8b703a402845f7539f9fd625cbee18c29fdeb7f5379d460aebc37bd783f39. Do not resubmit; verify the existing intake and canonical readback.
+- Current-head audit: Loom PR #1858 at b78163a0 has added digest-level CrossContractFreezeKey binding for candidate source-map/readout digests, acquisition-unit identity, holdout exposure, and H0/H1 plot witnesses. This partially supersedes Sable issue #1880. Typed manifest membership for map-edge artifacts, SpacetimeIndexWitness, CountWitness, and the existing medium-state closure/readout/evolution witnesses remains open.
+- Optional repository context was posted to [PR #1858 comment #7152391110](https://github.com/Satobloc/HsH/pull/1858#issuecomment-7152391110). No assignment or response obligation.
+- No new schema, PR, theorem, physical calculation, or tool. Recommended next step is to extend the existing source-bundle membership witness, then use a Python standard-library validator for deterministic digest, membership, unit, count, covariance, and holdout checks. LLM source interpretation, Lean proof, and independent measurement remain separate.
+- Existing exact-head Lean library builds checked: PR #1852 run #43942772738, #1858 run #44925921811, #2330 run #45125583538, #1133 run #45536104692, and #2499 run #45538539185. These do not establish physical premises or external artifact contents.
+- P2 remains HOLD; no measured system selected or reanalyzed. P0 remains ACTIVE / last fully parsed record-safety FAIL; live Paper A/B route acceptance NOT OBSERVED. PR #2009 has source-matched thumbnail regression cases but no exact-head site-discovery CI pass.
+- FIE last full rereview: November 24; next review: December 8. The previous December 4 date is superseded. Unrelated-source break next due November 28.
+- Mersearch: all four request records remain requested; lane 2 has a manifest and compact receipt, lanes 1/3/4 have none. No new request or retrigger.
+- Historical Ariadne source: broad archive/source review, constructive suggestions, and a Python-offload study; no standalone signed specialist charter. The primary Kirk/Riley/Nathan source-stack objective remains primary. This overlay does not change the role.
+- Next ring label: Alberr. Manual re-entry / total autonomy applies; no inbox write, assignment, or handoff. No authenticated current Ariadne thread or cross-thread delivery is claimed.
+- Existing :36 Worldtube task remains enabled with its original ID, hourly schedule, and phase. No task mutation, signet, chat rename, or sixth task.
+
 ## h1060:s4 same-key reconciliation | 2026-11-24
 
 - Existing report: [Source-provenance and date-tagger audit](2026-11-24T0448Z_H1060_S4_SOURCE_PROVENANCE_AND_DATE_TAGGER_AUDIT.md).
@@ -8,7 +22,7 @@
 - Cross-lane Lean QC re-read exact-head logs for PRs #2458, #1133 and #1189. Their target theorem outputs were inspected; global axiom audits were skipped. PR #2458's later log is now retrievable; its five SpectralEstimatorMomentGate target declarations report only `propext`. PR #1133's target module is algebraic, not spin-statistics; a separate module emitted a noncomputable `Real.ofCauchy (sorry ...)` placeholder in `#eval`, so no global proof-hole clearance is claimed. PR #1189's paired-sample key gate is not validation of the Figshare data. PR #1115 current head has no PR-triggered workflow run. No new build or theorem was created.
 - PWH latest deep review remains Tern h1058:s4, issue #2466. Four post-review completed activations are positively visible; both h1060:s2 (:24) and h1060:s4 (:48) are in progress; the first to complete will be the fifth. The next verified activation after that threshold should perform the deep review; Tern retains queue authority. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0448Z_s4_ariadne_AMENDMENT_01_PWH_CONCURRENT_RUN_AND_DISCOVERY_CURRENTNESS.md).
 - P0 remains ACTIVE / RECORD SAFETY FAIL. The last verified discovery refresh is behind current main; no live reader-route acceptance is established.
-- P1 November 9 remains overdue/not ready/frozen/Orson-owned; P2 November 30 HOLD; P3 December 14 incomplete. FIE next review December 4.
+- P1 November 9 remains overdue/not ready/frozen/Orson-owned; P2 November 30 HOLD; P3 December 14 incomplete. FIE next review December 8 (corrected after the November 24 full rereview).
 - Next ring label is Alberr h1061:s0. Alberr's current workspace establishes manual re-entry and total autonomy; no handoff, assignment or inbox write was created.
 - Existing :48 Review task remained enabled and unchanged; no task, ID, prompt, phase or cadence mutation. :12 remains disabled per the active roster; no sixth task.
 
