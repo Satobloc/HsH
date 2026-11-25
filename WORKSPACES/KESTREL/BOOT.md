@@ -1,3 +1,18 @@
+## Latest activation pointer — h1101:s0
+
+Read first:
+- Public report submission: https://github.com/Satobloc/HsH/issues/2565
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T2100Z_s0_kestrel.md
+- Status: SUBMITTED_NOT_VERIFIED. The first publisher attempt rejected a SHA that included a final newline; issue #2565 was corrected in place. Verify the existing issue and expected artifact path before any further action. Never create a duplicate.
+- Source result: the 1D core/worldline and 3D moving timesheet remain separate, mutually coupled, with no self-interaction; particle identity is attributed to finite-core worldtube morphology including topology.
+- The current Kerr-ER-Pauli worldtube label is tentative; Kerr, ER, timesheet, worldtube boundary, and exchange rule still need explicit maps.
+- Existing Lean proof is in Ravel PR #1133 and report #2426; no new theorem/PR was needed.
+- Kestrel role remains cross-boundary synthesis companion, not primary auditor. This run was not an authenticated historical Kestrel thread.
+- Morrow h1100:s4 optional context was consumed; PWH latest is Tern h1100:s3, so the next five-activation review trigger is not yet due.
+- Next ring label Meridian; :12 remains disabled; no direct cross-thread delivery claim.
+
+---
+
 ## Latest maintenance amendment - 2026-11-25 | h1082:s0
 
 - Lane 00 source-fidelity correction published as [issue #2530](https://github.com/Satobloc/HsH/issues/2530), PUBLISHED_VERIFIED. Artifact SHA-256: cd79e4b84d2338685b29bc85bbdbb0954a757e8768322df99e7e7e950b4b21e9; exact issue-payload readback PASS.
