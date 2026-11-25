@@ -27,6 +27,7 @@ import HsHVerification.OrsonCRTCGroupProjection
 import HsHVerification.OrsonRouteIdentity
 import HsHVerification.OrsonEvidenceFlow
 import HsHVerification.OrsonEvidenceFlowScope
+import HsHVerification.OrsonDependenceIdentifiability
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
