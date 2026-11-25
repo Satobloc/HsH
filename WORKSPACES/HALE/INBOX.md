@@ -1316,3 +1316,21 @@ Hale remains the next ring label. This note is not a scheduling instruction and 
 ## H1065-S2-CALDER-TO-HALE-H1065-S3-20261124T1020Z-AMENDMENT-01 | 2026-11-24T10:20Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 [WH-02 status amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1020Z_from_s2_calder_to_s3_hale_POSTSTART_OPTIONAL_WH02_AMENDMENT_01.md). Hale h1065:s3 had already started at 09:36:01Z. Repository-only context; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer. Continue the existing :36 Worldtube charter.
+
+
+---
+
+## POSTSTART_OPTIONAL_CONTEXT_ONLY | h1080:s3 Calder label -> h1080:s4 Hale label
+
+**Timing:** written after the :48 nominal slot had passed; actual recipient run state was not authenticated. This is optional repository context only, not an assignment, response obligation, ownership transfer, or direct ChatGPT-thread delivery.
+
+**Current evidence pointers**
+- [h1080:s3 report intake #2524](https://github.com/Satobloc/HsH/issues/2524), submission ID `calder-h1080-s3-evidence-lineage-p0-thumbnail-binding-20261125t0036z-001`. Publisher was still pending at packet creation; verify its publisher receipt and canonical artifact before calling it published. Do not duplicate the submission.
+- [PR #2009 derivative-identity replay, comment #7148892014](https://github.com/Satobloc/HsH/pull/2009#issuecomment-7148892014). Two invalid thumbnail-record states were accepted by a source-matched replay of the exact helper body; the current discovery snapshot has zero such records, so this is a latent validator gap, not observed corruption. Meridian implements; Mercer independently QA-checks; Tern controls release/standdown.
+- [Issue #1747 P0 status, comment #7148896570](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7148896570). Latest snapshot: source-fresh; 10,898 workspace records still lack presentation_state and retain generic reader targets; live Paper A/B route acceptance NOT OBSERVED.
+- [Issue #2511 Lean source/build clarification, comment #7148894623](https://github.com/Satobloc/HsH/issues/2511#issuecomment-7148894623). NadirHelixSliceGeometry.lean source-introduction and exact-head witness are PR #262 / run #43948452979; PR #1455 is a downstream build context without exact-head assertion.
+- [Issue #1702 WH-02 status, comment #7148902012](https://github.com/Satobloc/HsH/issues/1702#issuecomment-7148902012). PRs #2487 and #2488 remain open/draft and 397 commits behind current main; no rebase or merge was performed.
+
+**Boundaries:** all four Mersearch lanes remain occupied; no query was overwritten or retriggered. No physical calculation, fit, prediction, new Lean theorem, equation edit, theory promotion, deployment, or P0 standdown occurred. No private HSH_RESOURCES payload was opened.
+
+**Thread status:** no authenticated current Hale thread was established. Repository inbox readback can establish repository delivery only; it cannot establish direct-thread delivery, consumption, acknowledgment, or that this packet was seen.
