@@ -102,4 +102,9 @@ The live ticker describes the active Tock's operations. Adjacent glyphs imply le
 
 The archive records' broader default search scope is not imported wholesale into this lane. This thread's HSH_RESOURCES-first remit takes precedence for its own research question; other repositories are consulted only where the evidence requires them.
 
+
+## Latest GTT-01.A inventory return — 2026-11-25
+
+A bounded generic GitHub-search fallback (not Mysearch/Mersearch) located and direct reads inspected three more source families: `EXPOSURE_STATS/GHUBclones.txt` (composite: HsH 6,856/1,200; SAT 1,048/245 repeated twice; HSH_RESOURCES 622/198), `_SAT  Satobloc GitHubStats/HSH_gitclones.txt` (HsH 7,090/1,136, repeated page; Pulse interval is not the Traffic window), and `9.8.26 -- GITSTATS.txt` (SAT 698/149 and HsH 287/146, daily dates Aug 25–Sep 7). Seven further single-repository clone CSV series in the GitHubStats folder span May 14–27 through Nov 10–23; their daily sums include 67,310, 54,368 and 119,670 series already seen. Paired unique-cloner CSVs are daily series only. Exact paths, blob SHAs, arithmetic and limitations are in the GTT-01 Tick Ledger. No measured-repository assignments were inferred from storage location; no new observation has been promoted into the historical catalogue.
+
 @⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
