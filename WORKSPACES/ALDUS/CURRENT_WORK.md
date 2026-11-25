@@ -1,3 +1,15 @@
+# Post-checkpoint amendment h1080:s2 — 2026-11-25T00:40:03Z
+
+**Discovery refresh result:** the continuity commit 4e1a629c73f15e25ae3b3de80c3b1b398a38001d triggered [run #45519641284](https://github.com/Satobloc/HsH/actions/runs/45519641284), which completed successfully.
+
+- Discovery blob: d441e7bf2e7866e80e1e5f0ac04255ae95a52e7f; generated 2026-11-25T00:39:47Z.
+- Embedded HsH source: 4e1a629c73f15e25ae3b3de80c3b1b398a38001d. Current main: e05623ce6b666976cfee87c8d360dbb7987b487e, one generated-output-only commit ahead. Embedded SAT archive source: 028862e6f1b0ffad2f56f4989a2cd0a769d266fd.
+- Full parse: 17,830 documents; 10,898 HsH workspace records; 10,898 generic reader targets; 10,898 missing presentation_state; zero explicit PRESENTATION_PENDING; 48 docket entries; six extraction errors.
+- The h1076 Aldus publication artifact is now present exactly once in the discovery document list. Source freshness PASS for this snapshot.
+- Record/presentation safety remains FAIL; live Paper A/B visitor-route acceptance remains NOT OBSERVED. The source-SHA guard is still absent, so the demonstrated generate-then-rebase TOCTOU vulnerability remains open for Meridian.
+- P0 follow-up readback: [issue #1747 comment #7148766358](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7148766358).
+
+---
 # Latest checkpoint h1080:s2 — 2026-11-25T00:24Z nominal; started 00:24:02.271442Z
 
 **Status:** H1076_REPORT_PUBLISHED_VERIFIED / PUBLISHER_BODY_RETRY_REPAIRED / P0_DISCOVERY_SNAPSHOT_STALE_AFTER_GITHUB_TOKEN_PUBLISH / PR1860_LEAN_BUILD_SUCCESS / P2_HOLD / NO_PHYSICAL_RESULT / TASK_UNCHANGED.
