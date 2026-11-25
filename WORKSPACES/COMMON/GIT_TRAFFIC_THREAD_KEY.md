@@ -116,11 +116,15 @@ New direct HsH captures include JOINT STATS.txt (12,506/1,799) and HSH_TRAFFIC_2
 
 Additional direct candidates include HsH HSH_repo_stats (736/309), HSH_commits (957/367), 30k (30,115/3,356), hsh_data_nov1 (35,651/3,640), plus OCR-only 42,111-clone and 3,999-unique image candidates. SAT captures and FACTORY_FLOOR traffic were kept separate. May–June composite rows remain unattributed. No newly surfaced candidate was promoted to the historical-observation catalogue, and no canonical clone-event row was written. GTT-01.A remains active.
 
-@⌕∑⌕∅▣✓⇢
 
 
 ## GTT-01.B mapping close — 2026-11-25
 
 Measured-repository/metric/window mapping is complete for the bounded source set. Exact repository/date matches are established for HsH 287, 11,912, 6,856, 35,651, 54,368, 58,677, 67,310 and 119,670 captures, plus separate SAT and Resources observations. Other direct repository-labelled captures have been mapped to repository and metric but retain UNKNOWN Traffic windows; several single-repository CSVs and OCR images remain unassigned because a direct repository/window discriminator is absent. The detailed mapping register is in the GTT Tick Ledger. The live cursor is GTT-01.C / quantitative reconciliation.
+
+
+## GTT-01.C quantitative pass and source correction — 2026-11-25
+
+Exact daily arithmetic verified the HsH 6,856 → 7,178 and Resources 622 → 624 one-day rolling bridges, plus the HsH 54,368 → reconstructed 58,677 → 67,310 sequence. The latest 119,670 HsH series is independently confirmed for 11/10–11/23 but is not bridged to 11/06 because 11/07–09 are absent. A prior catalogue claim was corrected: the daily vector attributed to the 35,651 HsH capture sums to 42,111 and peaks at 7,599, conflicting with its chart maximum 6,534. The direct 35,651/3,640 capture remains, but its exact window/CSV linkage is now UNKNOWN; the vector and 42,111 OCR image remain unlinked leads. See the GTT Tick Ledger for calculations and source hashes.
 
 @⌕∑⌕∅▣✓⇢
