@@ -84,7 +84,6 @@ The live ticker describes the active Tock's operations. Adjacent glyphs imply le
 
 **Canonical clone-event ledger:** not modified during planning. No new clone event was established by creating this plan. Dashboard observations belong in the historical-observation catalogue, not the event JSONL.
 
-@⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
 
 
 ## GIT_TRAFFIC lane isolation and archive-search route — 2026-11-25
@@ -102,3 +101,5 @@ The live ticker describes the active Tock's operations. Adjacent glyphs imply le
 - Accordingly, this turn's generic GitHub code-search discoveries are explicitly **fallback discovery only**, not Mysearch/Mersearch results. They were used narrowly to locate the archive-resident search instructions and current status, not as the substantive Traffic-source search.
 
 The archive records' broader default search scope is not imported wholesale into this lane. This thread's HSH_RESOURCES-first remit takes precedence for its own research question; other repositories are consulted only where the evidence requires them.
+
+@⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
