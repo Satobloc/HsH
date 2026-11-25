@@ -157,4 +157,40 @@ The primary research corpus for GTT-01 remains `Satobloc/HSH_RESOURCES/EXPOSURE_
 
 The active cursor remains `@⌕ᵃ`. Resume source inventory in HSH_RESOURCES using Mysearch if/when its validation status changes. Until then, do not mislabel generic GitHub search as Mysearch. Mersearch remains a possible fallback/math route, but all four observed lanes are occupied; recheck before any future request and report the actual queue state.
 
+
+## GTT-01.A additional source inventory — fallback discovery pass
+
+**Search provenance:** Mysearch was not run (live status remains scaffold-only/unvalidated); Mersearch was not run (all four request lanes occupied, no GIT_TRAFFIC queue position). The following discoveries came from a narrowly scoped **generic GitHub code-search fallback** in `Satobloc/HSH_RESOURCES`, followed by direct reads of the original repository files. Do not label this pass Mysearch or Mersearch.
+
+### Newly inspected composite TXT captures
+
+- `EXPOSURE_STATS/GHUBclones.txt`, blob `50f6b79da4dc9cb59bee861d9f588dbd1dfb954b`: composite of separately labeled repository Traffic pages. HsH section reports **6,856 clones / 1,200 unique cloners**; SAT archive section reports **1,048 / 245** and is repeated a second time with the same values; HSH_RESOURCES section reports **622 / 198**. The repeated SAT section is not a second observation. Exact chart windows and capture timestamp are not visible in this text. Preserve all three repository sections separately; HsH remains the primary target.
+- `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/HSH_gitclones.txt`, blob `bcd3484ea688012a87e4697f832145382e1dbc71`: explicit `Insights: Satobloc/HsH`; reports **7,090 clones / 1,136 unique cloners**. The Traffic page is repeated twice with the same values. A preceding Pulse panel shows September 9–16, 2026, but that is a separate Pulse interval and is not established as the Traffic chart's window. Capture time and Traffic window remain unresolved.
+- `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/9.8.26 -- GITSTATS.txt`, blob `45daaab1ce989072b895d3cc8824d96da89bbb89`: separate SAT archive and HsH Traffic sections. Both show daily chart dates 2026-08-25–2026-09-07. SAT reports **698 clones / 149 unique cloners**; HsH reports **287 / 146**. HsH daily clone values 13, 66, 3, 205 reconcile to 287. The filename suggests a September 8 capture, but exact capture time is not independently established. Daily unique-cloner values are not additive and are not substituted for the dashboard's window total.
+
+### CSV family inventoried in the HSH_RESOURCES GitHubStats folder
+
+All are individual single-repository exports; **measured-repository assignment is deferred to GTT-01.B**. Daily clone sums below are mechanical arithmetic only, not repository attribution.
+
+| File | Blob SHA | Daily dates | Daily clone sum |
+|---|---|---|---:|
+| `Clones in last 14 days.csv` | `83214dba32b677b94e43d8cb7e5eafdb8bcb204c` | 2026-10-24–11-06 | 67,310 |
+| `Clones in last 14 days (1).csv` | `db39166e7cf11933bd096df25bb397d82f964197` | 2026-10-23–11-05 | 7,178 |
+| `Clones in last 14 days (2).csv` | `081694b70a65a38aa258cbdaf163f7247619d40d` | 2026-09-09–09-22 | 5 |
+| `Clones in last 14 days (3).csv` | `70f87c880f0ecbcdbaf182767a06ac7608ed2da4` | 2026-09-09–09-22 | 4 |
+| `Clones in last 14 days (4).csv` | `2dfe5875a505ecc13c9ef38f3ea3e1c09044f7f6` | 2026-09-10–09-23 | 1,749 |
+| `Clones in last 14 days (5).csv` | `7761926459f437a06f2f6bc7eb10fa85e9914560` | 2026-11-10–11-23 | 119,670 |
+| `Clones in last 14 days (6).csv` | `ca8719e3a5158d5418ef7f2b5079c61b8a69b4af` | 2026-10-21–11-03 | 54,368 |
+| `GITHUB ACTIVITY - Clones in last 14 days.csv` | `9fe3f8bd42de3adcf9acbba2dae3c194af43ea2d` | 2026-05-14–05-27 | 5 |
+
+The May clone CSV has an identical-SHA alias, `SAT GIT — Clones in last 14 days.csv`; one blob is one file-content identity, not two independent series. The 67,310, 54,368 and 119,670 series reproduce already catalogued HsH daily totals, but their CSV measured-repository mapping still belongs to the next attribution tick and must be supported by direct capture/window matching.
+
+### Paired unique-cloner CSV inventory
+
+Seven single-repository daily series were found: unsuffixed (2026-10-24–11-06, SHA `87ead929f3386bf1f398cbb647d2b377eb299db3`); (1) (2026-10-23–11-05, `cbb3105b1ea8e1783ff5acf005f8ce2789f4f62b`); (2) (2026-09-09–09-22, `b10188082cd52a66ae2326904082f0a087f20e4a`); (3) (2026-09-09–09-22, `0f232adcfd8551519d34a5bb464f4bc9ac00291b`); (4) (2026-09-10–09-23, `9e4a97c41b4785fa5ba58feb8d87e3e3c79fd964`); (5) (2026-11-10–11-23, `8bebccc6ff6c1e5f6704161ff57d7eb54f41f66c`); and (6) (2026-10-21–11-03, `03b334678efa75516c59b41d677fa47be69a0c85`). The separate `GITHUB ACTIVITY - Unique cloners in last 14 days.csv` and `SAT GIT — Unique cloners in last 14 days.csv` are aliases of the same blob `b6e74398f7f1ff08e665ae860fb4225d6dd04cf0`. These are daily values, not the deduplicated 14-day unique-cloner totals. Do not sum them as window-level unique cloners.
+
+### Inventory disposition / next bite
+
+This pass adds three directly inspected TXT source families, seven numbered/unnumbered clone CSVs plus a May alias family, and their paired unique-cloner series. The original source files are now read, but their full source universe is still not bounded: the working index is explicitly non-exhaustive, and other folders/alternate captures remain. No new candidate has yet been promoted into the historical-observation catalogue. Continue `⌕ᵃ` until the remaining candidate inventory and duplicate dispositions are bounded; then `⌕↦` can map measured repository and observation identity. Do not advance the ticker merely because this checkpoint was written.
+
 @⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
