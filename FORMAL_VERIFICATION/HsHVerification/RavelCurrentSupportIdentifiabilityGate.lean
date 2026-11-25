@@ -351,7 +351,9 @@ def squareResponseOnNonzero (x : NonzeroParameter) : ℝ :=
 /-- The ambient derivative is nonzero at every admissible parameter. -/
 theorem squareResponse_deriv_eq (x : ℝ) :
     deriv squareResponse x = 2 * x := by
-  simpa [squareResponse] using (hasDerivAt_pow 2 x).deriv
+  change deriv (fun y : ℝ => y ^ 2) x = 2 * x
+  rw [deriv_pow_field]
+  norm_num
 
 /-- In one dimension, the ambient differential has full rank throughout
     the nonzero parameter domain. -/
@@ -400,8 +402,8 @@ theorem local_full_rank_does_not_imply_global_identifiability :
     exact squareResponse_deriv_ne_zero_on_domain x
   · exact squareResponseOnNonzero_not_injective
 
-/-- Executable numeral sanity check for the equal-readout pair.
-    The Real-valued differential claims are kernel-checked above. -/
+/- Executable numeral sanity check for the equal-readout pair.
+   The Real-valued differential claims are kernel-checked above. -/
 #eval ((1 : Int) ^ 2 == (-1 : Int) ^ 2)
 
 #print axioms squareResponse_deriv_eq
