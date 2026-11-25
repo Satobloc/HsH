@@ -10,7 +10,7 @@ Original Ravel conversation export:
 - Conversation ID: `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`.
 - Path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json`.
 - Git blob SHA-1: `17cfe3d35b0c60b26c1bd28ac7fb1a50eb2872e2`.
-- Raw-file SHA-256: `b3be0b31f1e7a65d2d1f1dd7a0a5a4a56d2d09f76c90bb11b8a1f9f77a2f9c48`.
+- Raw-file SHA-256: `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`.
 - Export created 2026-09-06T07:46:04Z; updated 2026-09-16T05:17:10Z.
 - 2,394 mapping nodes; 2,393 message-bearing nodes; 2,044 nodes on selected current-node ancestry; 157 user-role messages, 145 on the selected ancestry and 12 off it.
 - Direct user-role anchors include `638d13ba-1541-483d-853f-3b6d04b9b1b2` (primary co-theorist remit), `5590d70d-6525-42aa-9de8-5a7022b189f7` (accurate public representation), `4fb7a5be-a32d-43c0-b1a2-2c4787423b52` (source/citation lineage), and `3d0ad680-51db-4c79-ad4a-9bbacada24ef` (Kerr-section geometry). No standalone signed specialist charter was found; direct user messages are primary evidence and later workspace role language is reconstruction.
@@ -27,8 +27,8 @@ No second issue or publisher submission was created. This continuity entry and i
 
 ## Source equations and epistemic status
 The verbatim SAT-O1 and Blockwave equations, source SHA/date custody, and separate non-adopted standard-form projector candidate are preserved in issue #2528. No original equation was edited or silently corrected.
-- SAT-O1 source: `SATOBLOC/SAT O1 4D.txt`, Git blob `7577a2f8f2d9d43f3e65d30e8b5b2a1c5b2a8a76`, SHA-256 `8e416a9d...`; unbylined. File metadata recorded creation 2025-10-26 and last-write 2025-06-09, timezone unspecified; neither is treated as composition or authorship date.
-- Blockwave source: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt`, Git blob `ffdb8c7d5a...`, SHA-256 `3d393d2c...`; assistant-voiced text, attachment event 2025-09-16T16:31:26.687Z. The malformed projector token at source lines 9 and 85 remains verbatim. The separate standard-form candidate is not adopted.
+- SAT-O1 source: `SATOBLOC/SAT O1 4D.txt`, Git blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`, SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`; unbylined. File metadata recorded creation 2025-10-26 and last-write 2025-06-09, timezone unspecified; neither is treated as composition or authorship date.
+- Blockwave source: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt`, Git blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; assistant-voiced text, attachment event 2025-09-16T16:31:26.687Z. The malformed projector token at source lines 9 and 85 remains verbatim. The separate standard-form candidate is not adopted.
 - The conventional Poincare-dual degree rule is conditional on an oriented support/current construction; it is not a construction of the physical current from either source.
 
 ## Mathematical improvement and verification
