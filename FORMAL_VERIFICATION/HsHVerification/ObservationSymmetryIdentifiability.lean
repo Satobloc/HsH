@@ -89,6 +89,65 @@ theorem added_channel_separates_symmetry_pair
 abstract obstruction can be assigned to a physical model. The theorem above
 does not identify such a group or action for H(s)H. -/
 
+/-! ## Identifiability under representation equivalence
+
+Ravel's representation-conversion formalization supplies pairwise
+equivalences, conversion-compatible evolution, and observation invariance.
+To transport *feature identifiability* across those representations, the
+target feature must also be preserved by the same equivalence. Observation
+agreement alone is not the target-preservation premise.
+
+This theorem is pairwise and abstract. It does not establish that a
+time-field/trajectory conversion exists for H(s)H, that it varies
+continuously across an interpolation parameter, or that any physical
+observable or feature satisfies the two preservation laws.
+-/
+
+/-- A bijective representation change preserves feature identifiability
+iff it transports both the complete observation and the target feature. -/
+theorem identifiable_iff_under_observation_and_feature_preserving_equiv
+    {X' : Type*}
+    (e : X ≃ X')
+    (observe : X → O)
+    (observe' : X' → O)
+    (target : X → Z)
+    (target' : X' → Z)
+    (hObserve : ∀ x, observe' (e x) = observe x)
+    (hTarget : ∀ x, target' (e x) = target x) :
+    IdentifiableFrom observe target ↔
+      IdentifiableFrom observe' target' := by
+  constructor
+  · intro hIdent y₁ y₂ hObserved
+    have hObservedSource :
+        observe (e.symm y₁) = observe (e.symm y₂) := by
+      calc
+        observe (e.symm y₁) =
+            observe' (e (e.symm y₁)) := (hObserve (e.symm y₁)).symm
+        _ = observe' y₁ := by simp
+        _ = observe' y₂ := hObserved
+        _ = observe' (e (e.symm y₂)) := by simp
+        _ = observe (e.symm y₂) := hObserve (e.symm y₂)
+    have hTargetSource :=
+      hIdent (e.symm y₁) (e.symm y₂) hObservedSource
+    calc
+      target' y₁ = target' (e (e.symm y₁)) := by simp
+      _ = target (e.symm y₁) := hTarget (e.symm y₁)
+      _ = target (e.symm y₂) := hTargetSource
+      _ = target' (e (e.symm y₂)) := (hTarget (e.symm y₂)).symm
+      _ = target' y₂ := by simp
+  · intro hIdent x₁ x₂ hObserved
+    have hObservedTarget :
+        observe' (e x₁) = observe' (e x₂) := by
+      calc
+        observe' (e x₁) = observe x₁ := hObserve x₁
+        _ = observe x₂ := hObserved
+        _ = observe' (e x₂) := (hObserve x₂).symm
+    have hTargetImage := hIdent (e x₁) (e x₂) hObservedTarget
+    calc
+      target x₁ = target' (e x₁) := (hTarget x₁).symm
+      _ = target' (e x₂) := hTargetImage
+      _ = target x₂ := hTarget x₂
+
 #print axioms not_identifiable_of_symmetry_witness
 #print axioms jointObservation_invariant
 #print axioms target_not_identifiable_from_joint_channels
