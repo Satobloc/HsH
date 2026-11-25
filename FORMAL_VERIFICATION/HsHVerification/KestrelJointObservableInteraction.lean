@@ -1,17 +1,26 @@
 import Mathlib
 
 /-!
-# Kestrel: mixed interaction contrast for a joint observable
+# Kestrel: mixed interaction contrast and an explicit observable map
 
-This is abstract measurement/observable mathematics. The factor types W and T
-are index domains only; they do not assert that H(s)H has independently
-variable worldtube and timesheet carriers. The output V is a common additive
-observable space (or a product of separately typed channels).
+This module contains two separate mathematical objects:
 
-The four-corner contrast cancels any contribution that is additive in W
-alone, additive in T alone, or a constant detector offset. On a full
-Cartesian domain, vanishing of every contrast is equivalent to additive
-separability. A nonzero contrast therefore rejects that restricted class.
+* a source-grounded, invertible two-contour-to-observable-pair map from
+  Barckicke, Falcon, and Gissinger, *Kelvin wave propagation along vortex
+  cores*, Nature Physics (2026), Methods, measurement techniques; and
+* a source-neutral four-corner interaction contrast for a joint observable.
+
+The contour-map example is a standard experimental measurement map, not an
+H(s)H projection and not evidence for an H(s)H physical carrier. The factor
+types W and T in the interaction result are abstract index domains only;
+they do not assert that H(s)H has independently variable worldtube and
+timesheet carriers. The output V is a common additive observable space (or
+a product of separately typed channels).
+
+The four-corner contrast cancels contributions additive in W alone,
+additive in T alone, or a constant detector offset. On a full Cartesian
+domain, vanishing of every contrast is equivalent to additive separability.
+A nonzero contrast therefore rejects that restricted class.
 
 A nonzero contrast is not, by itself, evidence of physical coupling or
 causation. The four states must be source-defined and physically admissible;
@@ -21,11 +30,46 @@ must not be silently applied after the contrast.
 
 Terminology note: the historical Kestrel source explicitly preferred
 "intersection", "instantiating", or "observable slice" over "readout".
-This module uses "observable"; it is mapped to the existing CPPG
-"joint-readout" contract only for interoperability.
+This module uses "observable"; the existing CPPG term is retained only as
+an interoperability pointer.
 -/
 
 namespace HsHVerification.KestrelJointObservableInteraction
+
+/-- For one (z,t) sample, map the two opposite contour radii
+    (r0,rπ) to horizontal displacement η and core radius a:
+    η=(r0-rπ)/2, a=(r0+rπ)/2.
+
+    Source: Barckicke, Falcon & Gissinger, Nature Physics (2026),
+    DOI 10.1038/s41567-026-03175-w, Methods, lines 234-237 of the
+    accessible author-hosted article PDF. -/
+def contourPairToObservablePair (p : ℝ × ℝ) : ℝ × ℝ :=
+  ((p.1 - p.2) / 2, (p.1 + p.2) / 2)
+
+/-- Inverse of contourPairToObservablePair:
+    (η,a) ↦ (r0,rπ)=(η+a,a-η). -/
+def observablePairToContourPair (p : ℝ × ℝ) : ℝ × ℝ :=
+  (p.1 + p.2, p.2 - p.1)
+
+/-- The contour-to-observable map has the stated inverse. -/
+theorem observablePairToContourPair_left_inv (p : ℝ × ℝ) :
+    observablePairToContourPair (contourPairToObservablePair p) = p := by
+  ext <;> simp [contourPairToObservablePair, observablePairToContourPair] <;> ring
+
+/-- The observable-to-contour map is also a left inverse. -/
+theorem contourPairToObservablePair_right_inv (p : ℝ × ℝ) :
+    contourPairToObservablePair (observablePairToContourPair p) = p := by
+  ext <;> simp [contourPairToObservablePair, observablePairToContourPair] <;> ring
+
+/-- Exact per-sample equivalence between the measured contour pair and
+    the derived (displacement, radius) pair. This says nothing about later
+    Fourier-power or summary operations, which require separate information
+    and identifiability analysis. -/
+def contourPairObservableEquiv : (ℝ × ℝ) ≃ (ℝ × ℝ) where
+  toFun := contourPairToObservablePair
+  invFun := observablePairToContourPair
+  left_inv := observablePairToContourPair_left_inv
+  right_inv := contourPairToObservablePair_right_inv
 
 universe u v w
 
@@ -116,6 +160,8 @@ theorem interactionContrast_add_constant
   simp [interactionContrast]
   abel
 
+#print axioms observablePairToContourPair_left_inv
+#print axioms contourPairToObservablePair_right_inv
 #print axioms interactionContrast_eq_zero_of_additivelySeparable
 #print axioms additivelySeparable_of_interactionContrast_eq_zero
 #print axioms additivelySeparable_iff_interactionContrast_eq_zero
