@@ -377,6 +377,132 @@ theorem totalImage_eq_iUnion_fiberImage :
     rcases hb with ⟨f, hf⟩
     exact ⟨⟨b, f⟩, hf⟩
 
+
+/-!
+## Recovering the filament parameter from the ambient support
+
+FiberedSupport retains a base label in its total space. That label
+descends to a single-valued function of the ambient point exactly when
+distinct fiber images are disjoint. If two differently labelled sections
+overlap, an ambient point alone cannot recover which filament parameter
+produced it; a quotient, multivalued relation, or additional state is
+required.
+
+This is a set-level identifiability criterion. It does not assert that any
+source-defined Kerr sections are disjoint or overlapping, nor does it
+supply a physical sweep map.
+-/
+
+/-- Distinct base labels have disjoint ambient fiber images. -/
+def fiberImagesPairwiseDisjoint
+    (T : FiberedSupport Ambient Base) : Prop :=
+  ∀ ⦃b₁ b₂ : Base⦄ ⦃x : Ambient⦄,
+    x ∈ T.fiberImage b₁ →
+    x ∈ T.fiberImage b₂ →
+    b₁ = b₂
+
+/-- The total-space base projection descends to a single-valued function
+    on the ambient image of the fibered support. -/
+def baseProjectionDescends
+    (T : FiberedSupport Ambient Base) : Prop :=
+  ∃ π : Set.range T.toAmbient → Base,
+    ∀ p : T.TotalSpace,
+      π ⟨T.toAmbient p, ⟨p, rfl⟩⟩ = T.baseProjection p
+
+/-- An ambient point determines its base label exactly when differently
+    labelled fiber images are pairwise disjoint. This is the global
+    single-valuedness condition for recovering a filament parameter from
+    a worldtube point. -/
+theorem baseProjectionDescends_iff_fiberImagesPairwiseDisjoint
+    (T : FiberedSupport Ambient Base) :
+    T.baseProjectionDescends ↔ T.fiberImagesPairwiseDisjoint := by
+  constructor
+  · rintro ⟨π, hπ⟩ b₁ b₂ x h₁ h₂
+    rcases h₁ with ⟨f₁, hf₁⟩
+    rcases h₂ with ⟨f₂, hf₂⟩
+    let p₁ : T.TotalSpace := ⟨b₁, f₁⟩
+    let p₂ : T.TotalSpace := ⟨b₂, f₂⟩
+    have hp₁ : T.toAmbient p₁ = x := hf₁
+    have hp₂ : T.toAmbient p₂ = x := hf₂
+    have hs₁ :
+        (⟨x, ⟨p₁, hp₁⟩⟩ : Set.range T.toAmbient) =
+          ⟨T.toAmbient p₁, ⟨p₁, rfl⟩⟩ := by
+      apply Subtype.ext
+      exact hp₁.symm
+    have hs₂ :
+        (⟨x, ⟨p₂, hp₂⟩⟩ : Set.range T.toAmbient) =
+          ⟨T.toAmbient p₂, ⟨p₂, rfl⟩⟩ := by
+      apply Subtype.ext
+      exact hp₂.symm
+    have hπ₁ :
+        π (⟨x, ⟨p₁, hp₁⟩⟩ : Set.range T.toAmbient) = b₁ := by
+      calc
+        _ = π ⟨T.toAmbient p₁, ⟨p₁, rfl⟩⟩ := congrArg π hs₁
+        _ = T.baseProjection p₁ := hπ p₁
+        _ = b₁ := rfl
+    have hπ₂ :
+        π (⟨x, ⟨p₂, hp₂⟩⟩ : Set.range T.toAmbient) = b₂ := by
+      calc
+        _ = π ⟨T.toAmbient p₂, ⟨p₂, rfl⟩⟩ := congrArg π hs₂
+        _ = T.baseProjection p₂ := hπ p₂
+        _ = b₂ := rfl
+    have hsame :
+        (⟨x, ⟨p₁, hp₁⟩⟩ : Set.range T.toAmbient) =
+          ⟨x, ⟨p₂, hp₂⟩⟩ := by
+      apply Subtype.ext
+      rfl
+    calc
+      b₁ = π ⟨x, ⟨p₁, hp₁⟩⟩ := hπ₁.symm
+      _ = π ⟨x, ⟨p₂, hp₂⟩⟩ := congrArg π hsame
+      _ = b₂ := hπ₂
+  · intro hdisjoint
+    classical
+    let witness : ∀ x : Set.range T.toAmbient,
+        ∃ b : Base, ∃ p : T.TotalSpace,
+          T.toAmbient p = x.1 ∧ T.baseProjection p = b := by
+      intro x
+      rcases x.2 with ⟨p, hp⟩
+      exact ⟨T.baseProjection p, p, hp, rfl⟩
+    let π : Set.range T.toAmbient → Base :=
+      fun x => Classical.choose (witness x)
+    refine ⟨π, ?_⟩
+    intro p
+    let x : Set.range T.toAmbient := ⟨T.toAmbient p, ⟨p, rfl⟩⟩
+    rcases Classical.choose_spec (witness x) with ⟨p', hp', hbase'⟩
+    have h₁ : x.1 ∈ T.fiberImage (T.baseProjection p') := by
+      refine ⟨p'.2, ?_⟩
+      simpa [x, FiberedSupport.toAmbient, FiberedSupport.baseProjection] using hp'
+    have h₂ : x.1 ∈ T.fiberImage (T.baseProjection p) := by
+      exact ⟨p.2, rfl⟩
+    have hbase : T.baseProjection p' = T.baseProjection p :=
+      hdisjoint h₁ h₂
+    change π x = T.baseProjection p
+    rw [← hbase']
+    exact hbase
+
+/-- Two distinct base labels can share one ambient point, making recovery
+    of a unique base label impossible. This finite counterexample is an
+    abstract map witness, not a physical fixture. -/
+def collapsedFiberSupport : FiberedSupport Unit Bool where
+  Fiber := fun _ => Unit
+  embed := fun _ _ => ()
+
+/-- A shared ambient point across distinct fibers prevents a single-valued
+    base projection from recovering both labels. -/
+theorem overlappingFibers_prevent_baseProjection :
+    ¬ collapsedFiberSupport.baseProjectionDescends := by
+  intro h
+  have hdisjoint :=
+    (baseProjectionDescends_iff_fiberImagesPairwiseDisjoint
+      collapsedFiberSupport).mp h
+  have hfalse : false = true :=
+    hdisjoint (b₁ := false) (b₂ := true) (x := ())
+      ⟨(), rfl⟩ ⟨(), rfl⟩
+  cases hfalse
+
+#print axioms baseProjectionDescends_iff_fiberImagesPairwiseDisjoint
+#print axioms overlappingFibers_prevent_baseProjection
+
 end FiberedSupport
 
 /-- A second support, such as a labelled timesheet, embedded into the
