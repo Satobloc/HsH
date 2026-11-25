@@ -49,10 +49,10 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ## Work tray
 
 - **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
-- **NOW — GTT-01.D / `@⌕∅`:** recover missing direct window-level unique-cloner totals and exact dashboard capture/window timing, especially for HsH's 119,670 window and direct-but-unwindowed captures. Preserve UNKNOWN where source evidence does not recover the field.
-- **NEXT — GTT-01.E:** record the final reconciled observation tranche and its explicit gaps.
+- **NOW — GTT-01.F / `@✓`:** independently re-read the source catalogue, tick ledger, and matched CSVs; recalculate bridge arithmetic, set-union bounds, duplicate lineages, and all source/version pointers before closing GTT-01.
+- **NEXT — GTT-01.G / `⇢`:** decide whether the bounded historical Traffic evidence is adequate to begin GTT-02 internal activity attribution, while carrying exact unresolved windows and unique-cloner counts forward.
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
-- **RETURN:** reopen GTT-01.C only if new daily clone rows, historic CSV versions or duplicate provenance alter a verified arithmetic bridge; otherwise work GTT-01.D and preserve direct-evidence gaps.
+- **RETURN:** reopen GTT-01.D only if a new direct dashboard capture, source screenshot, or authorized Traffic data access appears; otherwise complete independent verification and make the GTT-01 transition decision.
 
 **Shared-ledger lane boundary:** `CLONE_LEDGER.jsonl` is append-only and may advance through PHYS/BIO/GIT work. During this turn, the latest observed commit `f7ddeadc38b4c2b3258ac745bf65ea2c7931a761` appended three PHYS API-only provenance rows; they are not GIT_TRAFFIC observations. GIT-02 must classify shared rows individually. This lane did not write a clone-event row.
 
@@ -139,4 +139,4 @@ The 119,670 HsH window (11/10–23) has a paired daily unique-cloner series with
 
 Git history now supplies upload/commit timestamps for several direct captures, distinct from their Traffic windows. The hsh48 image has an EXIF capture timestamp (Nov3 13:01:24Z); the 42.JPG and 3400.JPG image metadata were not readable in this access pass. Exact windows/capture times for the other direct-but-unwindowed candidates remain UNKNOWN. Full provenance and remaining gaps are in the GTT Tick Ledger.
 
-@⌕∅▣✓⇢
+@✓⇢
