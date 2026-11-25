@@ -3,7 +3,7 @@
 > **Small but significant bites. Don't choke, don't nibble.**
 
 **Created:** 2026-11-25
-**Status:** ACTIVE / GTT-02.B aggregation complete for the bounded primary window; GTT-02.C evidence recovery in progress.
+**Status:** ACTIVE / GTT-02.C complete for the bounded primary window; GTT-02.D evidence record in progress.
 **Parent lane:** GIT_TRAFFIC, distinct from the main H(s)H theory work
 **Primary Traffic source:** Satobloc/HSH_RESOURCES, especially EXPOSURE_STATS/
 **Internal event source:** Satobloc/HsH WORKSPACES/COMMON/CLONE_LEDGER.jsonl (read-only)
@@ -96,7 +96,7 @@ The ledger's first HsH record is dated 2026-09-07. Absence of rows in an earlier
 
 ## Current operation
 
-**NOW — GTT-02.C / ⌕∅.** Recover the remaining 26 incomplete checkout-key records and six workflow/provisioning uncertainties; record field-specific UNKNOWNs where direct run/job evidence cannot close them.
+**NOW — GTT-02.D / ▣.** The bounded internal-attribution tranche is recorded below. The canonical JSONL remains read-only; Traffic attribution stays UNKNOWN for all 284 non-revision records.
 
 **Lane boundary:** This is evidence analysis, not an HsH worker instruction channel, not project-wide WH-01 coordination, and not a replacement for the canonical event ledger or its taxonomy standard.
 
@@ -265,7 +265,7 @@ For every row, the run ID and attempt were confirmed from the run object; the jo
 These three additional events are also keyed:
 - Issue #2276: run 44901415508, attempt 1, job 136837917411, step 2; fetch-depth 1, checkout SHA 1ad874977a9f7aea67736a12348529ece2041e30.
 - Issue #2289: run 44922358771, attempt 1, job 136900940230, step 2; fetch-depth 1, checkout SHA e802589daed4b2c15d01f4237a64a151f1664587.
-- Issue #2290: run 44924297359, attempt 1, job 136906880427, step 2; fetch-depth 1, checkout SHA 15045ac5fab01b95854c3f7fb803dfecbdbdbb7b.
+- Issue #2290: run 44924297359, attempt 1, job 136906880427, step 2; fetch-depth 1, checkout SHA 15045ac5fab01b95854c3f7fb51d8abcf6345301.
 
 These three resolve the original configuration-only/unknown publisher records described in the GTT-02.B addendum. Combined with the 26 remaining joins and 120 originally complete checkout keys, all **149 Actions checkout-evidence records now have a complete normalized key**.
 
