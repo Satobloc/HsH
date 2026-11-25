@@ -14,6 +14,7 @@ import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
+import HsHVerification.EnheduannaTimeNormalProjectorBridge
 import HsHVerification.ScreenedExteriorMassGate
 import Mathlib
 
