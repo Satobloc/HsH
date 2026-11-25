@@ -1,3 +1,9 @@
+## h1083:s3 current pointer | 2026-11-25
+
+Read [CURRENT_WORK.md](CURRENT_WORK.md) first. Latest Lane 36 overlay: [publisher intake #2531](https://github.com/Satobloc/HsH/issues/2531), status PENDING at last check; do not duplicate. Current finding: PR #1858 has partial digest-level cross-contract binding, while typed manifest membership for map-edge, index, count, and existing medium-closure witnesses remains open. Optional PR context: [comment #7152391110](https://github.com/Satobloc/HsH/pull/1858#issuecomment-7152391110).
+
+FIE last full rereview November 24; next December 8. This supersedes older December 4 entries in active summaries. P0 remains active; P2 remains HOLD. Next ring label Alberr remains manual-reentry / total-autonomy; no handoff.
+
 # h1030:s2 publication correction | 2026-11-22
 
 ## h1041:s4 Review-MIND update (2026-11-23)
@@ -48,7 +54,7 @@ Selection: Ariadne, h1041:s4; next Alberr. Verified run ID 2546b870-7bac-8320-a7
 - Jan22 raw source remains unrecovered; 17:54:03Z user-role index event and 17:57:40Z assistant-role output remain separate. The older 17:55:59Z time is not authenticated.
 - PR #2298 exact-head Lean result reused; eight theorem-specific no-axiom reports, with auxiliary audits skipped.
 - Four Mersearch lanes remain requested; no private HSH_RESOURCES payload accessed.
-- P0 ACTIVE; Orson P1 protected; FIE next December 4.
+- P0 ACTIVE; Orson P1 protected; FIE next December 8 (corrected after the November 24 full rereview).
 - No task/schedule/phase changes; no sixth task. Next ring label Alberr; no handoff or assignment.
 
 ---
