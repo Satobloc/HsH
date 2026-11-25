@@ -10,12 +10,26 @@ Euclidean four-frame. The coordinate vector dT represents a covector at one
 point; the Euclidean metric identifies it with its gradient. The theorem
 assumes dT is nonzero at that point.
 
-The scalar pairing below is only the normal contraction of the candidate
-Householder sign-flip expression discussed in Calder PR #679:
-  h(n,v) - 2 h(n,n) h(n,v).
+Historical source record (not a standard-reference attribution):
+Satobloc/SAT_THEORY_ARCHIVE_2023-25,
+SATOBLOC/SATO-BLOCK Hamiltonian and Hilbert Space.txt,
+blob 13b6da983ea8dcad5509b1c6941b8855a2653677, added by commit
+aaac961cfc519873eff650c12f39d005eda30e6a on 2026-05-31T23:05:38Z.
+Its verbatim source expressions include:
+  u^mu = partial^mu T
+  C1: u^mu u_mu + 1 = 0
+  P_{mu nu} = g_{mu nu} + u_mu u_nu
+The source projector is a covariant rank-two tensor; raising one index with
+its Lorentzian metric gives the corresponding endomorphism. This module does
+not change those equations or prove equivalence to them.
+
+The scalar pairing below is only the normal contraction of the separate
+assistant-derived candidate Householder sign-flip expression discussed in
+Calder PR #679:
+  g_H(n,v) = h(n,v) - 2 h(n,n) h(n,v).
 It is repeated locally so this proof does not depend on that PR's currently
 uncompilable module. It is not a second general metric implementation and
-does not establish that the candidate metric is source-native.
+does not establish that the candidate metric is source-native or physical.
 
 This proves only a finite-dimensional algebraic bridge:
   nonzero dT -> normalized Euclidean normal -> candidate Lorentzian
