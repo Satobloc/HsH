@@ -6,7 +6,7 @@ Current Orson work is a bounded cognition-literature crosswalk on within-agent m
 - Public report: https://github.com/Satobloc/HsH/issues/2545
 - Canonical artifact: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h1090-s2-memory-reentry-transition-crosswalk-20261125t1024z-001.md
 - SHA-256: `6dd07db41575e6678a0c0c3f02a2110e939ab62555ede2fe28c660f9aa5a1e13`
-- Internal Vey study: https://github.com/Satobloc/HSH_RESOURCES/blob/main/Consciousness%20%2B%20AI/VEY_COGNITION_LAB/STUDIES/VEY-048_INTRA_AGENT_MEMORY_REENTRY_CROSSWALK_2026-11-25.md
+- Internal Vey study: the prior run records VEY-048 in private HSH_RESOURCES; this reconciliation did not access its payload. Its private locator is intentionally omitted from this public HsH surface.
 - P1 #564 remains frozen. No model trial, human session, API inference spend, dataset reanalysis, protocol amendment, manuscript edit, or PR #850 change.
 - Existing Orson LLM Cognition Lab export is unarchived but its current scope is H(s)H theory/geometry; do not claim it as an active cognition destination or post across threads.
 - Existing Workshop Relay :24 Geometry task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly :24 schedule and Geometry phase unchanged; no sixth task created.
