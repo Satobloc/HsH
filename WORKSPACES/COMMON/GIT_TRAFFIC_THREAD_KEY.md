@@ -2,7 +2,7 @@
 
 > **Small but significant bites. Don't choke, don't nibble.**
 
-**Status:** ACTIVE / independent historical-traffic analysis lane  
+**Status:** ACTIVE / GTT-02 internal activity attribution lane; GTT-01 historical Traffic source work is closed.
 **Purpose:** Apply the shared Tock–Tick and Credenza methodology to GitHub Traffic analysis.  
 **Boundary:** This is a dedicated conversation/work lane, not a new clone census, coordinator role, or replacement for the canonical shared ledgers.
 
@@ -49,10 +49,10 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ## Work tray
 
 - **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
-- **NOW — GTT-01.F / `@✓`:** independently re-read the source catalogue, tick ledger, and matched CSVs; recalculate bridge arithmetic, set-union bounds, duplicate lineages, and all source/version pointers before closing GTT-01.
-- **NEXT — GTT-01.G / `⇢`:** decide whether the bounded historical Traffic evidence is adequate to begin GTT-02 internal activity attribution, while carrying exact unresolved windows and unique-cloner counts forward.
+- **NOW — GTT-02.A / `@⌕↦`:** normalize canonical clone-event identities, resolve revisions/supplements, preserve missing IDs and map each HsH record to its actual mechanism and evidence status.
+- **NEXT — GTT-02.B:** aggregate the normalized internal events by mechanism and matched Traffic window, keeping checkout materialization separate from actual Traffic clone attribution.
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
-- **RETURN:** reopen GTT-01.D only if a new direct dashboard capture, source screenshot, or authorized Traffic data access appears; otherwise complete independent verification and make the GTT-01 transition decision.
+- **RETURN:** reopen GTT-01 only if new direct Traffic source evidence changes a mapped window or capture; otherwise continue GTT-02 and keep the canonical clone-event ledger read-only.
 
 **Shared-ledger lane boundary:** `CLONE_LEDGER.jsonl` is append-only and may advance through PHYS/BIO/GIT work. During this turn, the latest observed commit `f7ddeadc38b4c2b3258ac745bf65ea2c7931a761` appended three PHYS API-only provenance rows; they are not GIT_TRAFFIC observations. GIT-02 must classify shared rows individually. This lane did not write a clone-event row.
 
@@ -139,4 +139,11 @@ The 119,670 HsH window (11/10–23) has a paired daily unique-cloner series with
 
 Git history now supplies upload/commit timestamps for several direct captures, distinct from their Traffic windows. The hsh48 image has an EXIF capture timestamp (Nov3 13:01:24Z); the 42.JPG and 3400.JPG image metadata were not readable in this access pass. Exact windows/capture times for the other direct-but-unwindowed candidates remain UNKNOWN. Full provenance and remaining gaps are in the GTT Tick Ledger.
 
-@✓⇢
+
+## GTT-01 close and GTT-02 opening — 2026-11-25
+
+**GTT-01 CLOSED after independent verification.** Seven rolling-window bridges were recalculated from original daily CSV rows. The 35,651 capture mismatch was corrected; its window remains UNKNOWN. The 119,670 Nov 10–23 HsH clone series is exact, but its deduplicated unique-cloner total remains UNKNOWN, conditionally bounded by 6,526–25,011 from the paired daily series. Upload timestamps remain distinct from Traffic capture times. The detailed QC, evidence gaps and source version lineage are in GIT_TRAFFIC_TICK_LEDGER_2026-11-25.md and GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md. GTT-01's decision gate authorized proceeding to internal attribution for the exact mapped windows only.
+
+**GTT-02 NOW:** WORKSPACES/COMMON/GIT_TRAFFIC_GTT02_INTERNAL_ATTRIBUTION_2026-11-25.md. The canonical CLONE_LEDGER.jsonl and its standard are read-only reference evidence. Initial JSONL inspection found 350 HsH rows, 349 stable event IDs, 29 explicitly revision-linked rows, and one legacy row with no event_id. In the Nov 10–23 window there are 311 raw rows, including 27 explicit revisions and 284 non-revision rows; every row still has traffic_attribution=UNKNOWN. Initial mechanism triage distinguishes 147 checkout-related records (120 fully keyed checkout steps and 27 incomplete), 128 API/connector records, six workflow/provisioning-uncertainty records, one partial-file materialization, and two other checkout-configuration records. These are evidence-record counts, not clone counts. GTT-02.A is active.
+
+@⌕↦⌕∑⌕∅▣✓⇢
