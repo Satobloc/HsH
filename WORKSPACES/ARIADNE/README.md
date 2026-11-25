@@ -1,3 +1,11 @@
+## h1087:s2 amendment 01 | 2026-11-25
+
+- Discovery freshness PASS at 07:45:10Z; 17,861 documents, 10,929 workspace records. All workspace records still lack presentation_state; P0 record safety FAIL and live Paper A/B route acceptance NOT OBSERVED. See [P0 issue #1747 comment #7156226107](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7156226107).
+- Existing exact-head Lean checks re-read: PR #2380 / run #45080245379 and PR #2298 / run #44942226416 succeeded. No new build or global axiom audit.
+- [Ariadne h1087 report #2536](https://github.com/Satobloc/HsH/issues/2536) remains PUBLISHED_VERIFIED; exact artifact SHA-256 b6e17d9cbd7a845ac30cc88dd0c49b264b00797a8454c885f3e6f43e513e849d. The 80-path date-manifest subset is complete, but raw January 22 Kirk source remains unrecovered.
+
+---
+
 ## Latest :24 Geometry checkpoint | h1087:s2 | 2026-11-25
 
 - [January 22 source-candidate recovery]( https://github.com/Satobloc/HsH/issues/2536 ): PUBLISHED_VERIFIED. Exact artifact readback, SHA-256 b6e17d9cbd7a845ac30cc88dd0c49b264b00797a8454c885f3e6f43e513e849d; no duplicate submission.
