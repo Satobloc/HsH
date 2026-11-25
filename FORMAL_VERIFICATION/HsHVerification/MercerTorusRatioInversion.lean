@@ -19,8 +19,8 @@ and the standard ring-torus aspect ratio
 
 It does not validate this map as Nathan Direct, derive an equation of state,
 identify a physical particle/black-hole duality, or establish any physical
-premise. The later assistant-proposed mass inversion is a separate map and is
-not formalized here.
+premise. The later assistant-proposed mass inversion is a separate map. Its algebra is
+formalized separately below; no map from it to the torus variables is assumed.
 -/
 
 namespace HsHVerification.MercerTorusRatioInversion
@@ -130,6 +130,21 @@ theorem massInversion_involutive
   unfold massInversion
   field_simp [hm, hmp] <;> ring
 
+/-- For positive masses, the fixed point of the separate mass inversion is m=mP. -/
+theorem massInversion_fixed_iff
+    (m mP : ℝ) (hm : 0 < m) (hmp : 0 < mP) :
+    massInversion m mP = m ↔ m = mP := by
+  constructor
+  · intro h
+    have hmul := congrArg (fun x : ℝ => x * m) h
+    unfold massInversion at hmul
+    field_simp [ne_of_gt hm] at hmul
+    nlinarith
+  · intro h
+    subst m
+    unfold massInversion
+    field_simp [ne_of_gt hmp]
+
 /-- Unlike the geometric radius cross-inversion, the separate mass inversion
 sends m/mP to its reciprocal. -/
 theorem massRatio_massInversion_reciprocal
@@ -158,6 +173,7 @@ theorem crossInversion_fixed_iff
       nlinarith
 
 #print axioms crossInversion_involutive
+#print axioms crossInversion_fixed_iff
 #print axioms torusAspectRatio_crossInversion_invariant
 #print axioms torusAspectRatio_bounds
 #print axioms torusAspectRatio_crossInversion_not_reciprocal
