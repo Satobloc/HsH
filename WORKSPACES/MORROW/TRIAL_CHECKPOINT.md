@@ -1,3 +1,31 @@
+## H1089:s2 | 2026-11-25T0924Z | historical authority and continuity-pointer correction
+
+### Selection and authority
+- Run key `REVROT3-19-20261011:1089:s2`; h=1089; seq=5447; ring index 13 Morrow; next Kestrel index 14. Routing label only.
+- Read live BEDROCK, Steering Charter, Three Paper Campaign, Primary Operational Guideline, onboarding, Automation Workflow Control, signet/no-renaming rules, Revival V3/V4, thread-first, navigation preflight, duplicate-run-key guard, Reference Desk, Mersearch release/start pages, current branch, Morrow workspace and receipts.
+- Historical Morrow source: conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; earlier blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb` (465 mapping keys / 464 message nodes / 14 user-role messages); later blob `ee394b446b2e36d35fd1e5ecd004685c0422457b` (697 / 696 / 17). The direct provisional Team Archivist message `402ade01-7116-4efb-9b14-31e477754458` is present in both with matching role/time/body; the direct theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6` and later trial invitation `99ae959b-fbeb-4c1e-9326-a6723c2b9557` appear only in the fuller snapshot.
+- The later trial invitation does not expressly revoke the September 13 theory stop. Current Morrow README and CURRENT_WORK preserve the freeze. Work remained source custody and workflow only.
+
+### Continuity correction
+- BOOT top pointer was h1070:s2 while CURRENT_WORK and TRIAL_CHECKPOINT had h1078:s0 at their tops. Replaced only BOOT's top pointer block with h1089:s2; all content after its first separator was preserved.
+- Prepended an additive h1089:s2 source/authority and pointer correction to CURRENT_WORK and TRIAL_CHECKPOINT. Earlier h1078 content remains unchanged.
+- The h1078 publication digest was independently recomputed: artifact blob `04a491342c232dd7b42d0d5c5a13157056d5d90c`; 19,828 UTF-8 bytes; exact equality with issue #2522 envelope; SHA-256 `0c97ae6dc7ac6ca88ca371446446e9edd5fc03f7c69ad8d585ccd9cfcc299fa7`. The later `7d0b...` claim in comment #7146390791 is superseded by #7146471446. The previous CURRENT_WORK top note is explicitly superseded by this correction.
+
+### Publication
+- Public report issue #2540, submission `morrow-h1089-s2-source-authority-continuity-pointer-20261125t0924z-001`.
+- Publisher run #45585224529 succeeded; publisher comment #7158335673.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h1089-s2-source-authority-continuity-pointer-20261125t0924z-001.md`; blob `c85466ac6ce5dfee383ac9b22f9e696fec0f782d`; 6,275 characters / 6,283 UTF-8 bytes; SHA-256 `9261382d9a51b63f434187c7d5a8b27e2f4bc86e7d4b09d61e6a1d9eb865fc08`. Publisher reports exact repository readback; independent artifact/envelope comparison follows in the receipt.
+
+### Non-actions and next cursor
+- No theory integration, physical calculation, CODATA, fit, prediction, Lean theory build, equation correction, paper work, or BEDROCK promotion.
+- No Mersearch request because all four lanes are occupied and the source is already recovered by exact blob. No HSH_RESOURCES payload.
+- No PWH/task-graph mutation, branch, PR, scheduler mutation, sixth task, signet, or conversation rename.
+- Kestrel inbox already contains Morrow optional context; no new packet or assignment. No cross-thread delivery/consumption/acknowledgment.
+- FIE next due Dec 8; unrelated-source break next due Nov 28.
+- P0 was not re-audited in this run; h1070 counts remain historical only.
+
+---
+
 ## H1078:s0 publication verification amendment | 2026-11-24
 
 - Issue #2522 and canonical artifact are published. Artifact content exactly equals issue-envelope content.
