@@ -252,6 +252,29 @@ theorem householderProjector_fixes_level_tangent
   funext i
   simp [euclideanLevelProjector, horth]
 
+/-- The projector fixes exactly the vectors tangent to the regular level set. -/
+theorem householderProjector_fixed_iff_level_tangent
+    (dT v : Four) (hdT : dT ≠ 0) :
+    householderLorentzianProjector dT v = v ↔
+      euclideanDot4 dT v = 0 := by
+  constructor
+  · intro hfix
+    have hkernel := householderProjector_maps_to_level_kernel dT v hdT
+    rw [hfix] at hkernel
+    exact hkernel
+  · intro hT
+    exact householderProjector_fixes_level_tangent dT v hdT hT
+
+/-- The candidate Lorentzian projector is idempotent on the pointwise frame. -/
+theorem householderProjector_idempotent
+    (dT v : Four) (hdT : dT ≠ 0) :
+    householderLorentzianProjector dT
+        (householderLorentzianProjector dT v) =
+      householderLorentzianProjector dT v := by
+  apply householderProjector_fixes_level_tangent dT
+    (householderLorentzianProjector dT v) hdT
+  exact householderProjector_maps_to_level_kernel dT v hdT
+
 #print axioms levelCovectorNormSq_pos
 #print axioms normalizedLevelNormal_unit
 #print axioms candidateHouseholderNormalPairing_eq_neg
@@ -259,5 +282,7 @@ theorem householderProjector_fixes_level_tangent
 #print axioms euclideanLevelProjector_maps_to_kernel
 #print axioms householderProjector_maps_to_level_kernel
 #print axioms householderProjector_fixes_level_tangent
+#print axioms householderProjector_fixed_iff_level_tangent
+#print axioms householderProjector_idempotent
 
 end HsHVerification.EnheduannaTimeNormalProjectorBridge
