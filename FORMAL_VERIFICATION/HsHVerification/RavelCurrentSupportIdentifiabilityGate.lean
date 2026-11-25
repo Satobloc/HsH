@@ -265,6 +265,7 @@ variable (S : SupportExtensionLinearization
   (K := K) (Base := Base) (Extension := Extension) (Ambient := Ambient))
 
 /-- Rank-nullity for the supplied product-domain differential. -/
+omit [FiniteDimensional K Ambient] in
 theorem rank_add_nullity :
     Module.finrank K (LinearMap.range S.differential) +
       Module.finrank K (LinearMap.ker S.differential) =
@@ -273,6 +274,7 @@ theorem rank_add_nullity :
 
 /-- The product tangent-domain dimension is the sum of its base and
     extension dimensions. -/
+omit [FiniteDimensional K Ambient] in
 theorem domain_dimension :
     Module.finrank K (Base × Extension) =
       S.baseDimension + S.extensionDimension := by
@@ -318,10 +320,10 @@ theorem rank_defect_requires_nonzero_kernel
 
 end SupportExtensionLinearization
 
-#print SupportExtensionLinearization.rank_add_nullity
-#print SupportExtensionLinearization.domain_dimension
-#print SupportExtensionLinearization.four_dimensional_product_domain
-#print SupportExtensionLinearization.injective_differential_has_full_rank
-#print SupportExtensionLinearization.rank_defect_requires_nonzero_kernel
+#print axioms SupportExtensionLinearization.rank_add_nullity
+#print axioms SupportExtensionLinearization.domain_dimension
+#print axioms SupportExtensionLinearization.four_dimensional_product_domain
+#print axioms SupportExtensionLinearization.injective_differential_has_full_rank
+#print axioms SupportExtensionLinearization.rank_defect_requires_nonzero_kernel
 
 end HsHVerification.RavelCurrentSupportIdentifiabilityGate
