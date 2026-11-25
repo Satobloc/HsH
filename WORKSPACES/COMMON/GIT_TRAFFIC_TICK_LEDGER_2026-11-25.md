@@ -193,4 +193,73 @@ Seven single-repository daily series were found: unsuffixed (2026-10-24–11-06,
 
 This pass adds three directly inspected TXT source families, seven numbered/unnumbered clone CSVs plus a May alias family, and their paired unique-cloner series. The original source files are now read, but their full source universe is still not bounded: the working index is explicitly non-exhaustive, and other folders/alternate captures remain. No new candidate has yet been promoted into the historical-observation catalogue. Continue `⌕ᵃ` until the remaining candidate inventory and duplicate dispositions are bounded; then `⌕↦` can map measured repository and observation identity. Do not advance the ticker merely because this checkpoint was written.
 
+
+## GTT-01.A continued inventory and cross-file fingerprints — 2026-11-25
+
+**Search provenance:** Mysearch remains scaffold-only/unvalidated; Mersearch request lanes remain occupied and no GIT_TRAFFIC queue position exists. This pass used generic GitHub code-search fallback for targeted discovery in HSH_RESOURCES and bounded HsH archive references, followed by direct reads. It is not a Mysearch or Mersearch execution. HSH_RESOURCES remains the primary corpus; HsH files were consulted only where they duplicate or identify concrete Traffic sources.
+
+### Confirmed three-repository mapping: 2026-09-21–2026-10-04
+
+The composite HSH_RESOURCES/EXPOSURE_STATS/GHUBclones.txt (blob 50f6b79da4dc9cb59bee861d9f588dbd1dfb954b) has separately labelled Insights sections for HsH, SAT_THEORY_ARCHIVE_2023-25 and HSH_RESOURCES. Each maps to an individual single-repository CSV by exact 14-day dates, clone sum and chart min/max:
+
+| Measured repository | Direct capture | Matched clone CSV (blob) | Daily sum / range | Paired unique-cloner CSV (blob) | Dashboard unique total |
+|---|---:|---|---:|---|---:|
+| Satobloc/HsH | 6,856 / 1,200 | EXPOSURE_STATS/Clones in last 14 days - Copy.csv (f46e3aa12684724090f757913f51300083ca808a) | 6,856; 46–989 | Unique cloners in last 14 days - Copy.csv (2bda72e428b1ee3efdb41a45cb465651176a091c) | 1,200 |
+| SAT archive | 1,048 / 245 | EXPOSURE_STATS/Clones in last 14 days (1) - Copy.csv (93c574659301499894532e91bb6913afc16d8ba3) | 1,048; 12–572 | Unique cloners in last 14 days (1) - Copy.csv (55407711cad08f2e7daf5bfc6a3d9701422a8daf) | 245 |
+| HSH_RESOURCES | 622 / 198 | EXPOSURE_STATS/Clones in last 14 days (2).csv (d426b8a5cc02d24c7d78183540ab0698b569543a) | 622; 3–245 | Unique cloners in last 14 days (2).csv (7e69140fc0243714aaebd7be29a06e74b15d2da5) | 198 |
+
+All six CSVs contain 14 rows dated 2026-09-21 through 2026-10-04. The three daily unique-cloner series have ranges that match the dashboard chart ranges, but their mechanical sums (HsH 1,981; SAT 283; Resources 234) are not the deduplicated 14-day unique-cloner totals. Do not substitute those sums. The SAT section is repeated inside GHUBclones.txt with identical values; that is duplication, not a second observation.
+
+Adjacent root CSV candidates include 7,178 clones for 09/22–10/05 (blob a6991dbb352f955e7c68a262622d8537b2e09d32) and 624 clones for the same dates (blob fb9404f2f2b12af960c6ff9803b843996377c9ee). Each retains 13 overlapping daily values with its corresponding 09/21–10/04 series and drops the first date/adds 10/05, but no separate labelled dashboard capture has yet been matched. Treat these as rolling-series leads, not new verified observations. The 10/04–10/17 root clone series sums to 992 (blob f2871a99766100f79e808e8ad8ec529b1043b26b) and remains repository-unassigned.
+
+### SAT direct capture mapped to a daily CSV: 2026-09-10–09-23
+
+The SAT Insights capture in HSH_RESOURCES/EXPOSURE_STATS/_SAT  Satobloc GitHubStats/23swp42.txt (blob 80c0c0ac188f17cd3fd8dff8bc5ad12d7808d2ee) reports 1,749 clones / 451 unique cloners; graph ranges are 12–572 and 3–170. The clone series exactly matches Clones in last 14 days (4).csv (blob 2dfe5875a505ecc13c9ef38f3ea3e1c09044f7f6) for 2026-09-10–09-23: sum 1,749, min 12, max 572. The paired Unique cloners in last 14 days (4).csv (blob 9e4a97c41b4785fa5ba8d6a3dbf7b3e3c79fd964) has the same dates and 3–170 range; its daily sum is 552, not the dashboard unique total 451. The same clone and unique CSV blob identities occur in the HsH 30SEP dump, confirming copies rather than independent observations. The HsH dump and MOSTLY_EARLY_NLM copies of gtss.txt are also identical (blob 6c131113d2be466f72fb00a339af1374d31dc95d) and show the SAT 1,749/451 capture.
+
+### Additional direct Traffic candidates, not yet promoted to the historical catalogue
+
+- HSH_RESOURCES/EXPOSURE_STATS/_SAT  Satobloc GitHubStats/JOINT STATS.txt (blob f10f4e071f5a3c165dd94c6ffa1d69f2793edb6b): HsH 12,506 / 1,799, graph ranges 79–1,748 and 53–497; SAT 1,239 / 338, graph ranges 12–263 and 3–75. HsH Pulse panel is 2026-09-16–23. The same blob exists in HsH DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/JOINT STATS.txt and SAT_CONVOS_21/JOINT STATS.txt.
+- HSH_RESOURCES/EXPOSURE_STATS/HSH_TRAFFIC_23SEP26.txt (blob c4862774a019929f7a70950004d5f9845f1b5c61): HsH 11,912 / 1,735, graph ranges 79–1,748 and 53–497. Its Pulse panel is 2026-09-15–22. The same blob exists in the HsH 30SEP dump.
+- These two HsH captures have different totals but identical graph ranges and Pulse intervals one day apart. The exact Traffic chart date labels are absent. Retain as separate potentially overlapping rolling candidates; do not add them or infer exact Traffic windows from Pulse dates.
+- The SAT section of JOINT STATS reports the same 1,239 / 338 and ranges as SAT_TRAFFIC_23SEP26.txt (blob 95458b642ec0b79b01f735784918c24ba267fea5). Their Pulse panels differ by one day; the shared metrics may be a repeated/captured-identical observation family, but the exact Traffic chart dates are unobserved.
+- HSH_RESOURCES HSH_repo_stats.txt (blob 37b2325e376c941c3cc8e23aed78580c4bc39467) explicitly identifies HsH and reports 736 / 309; Pulse Sep 4–11 is not a proven Traffic window.
+- HSH_RESOURCES HSH_commits.txt (blob cdb3d6958173ffde82f41a9aa8726171676f87d2) explicitly identifies HsH and reports 957 / 367; Pulse Sep 5–12 is not a proven Traffic window.
+- HSH_RESOURCES 30k.txt (blob ec28307d88fe0cb9b51f6ee0dc95225df4fa820c) explicitly identifies HsH and reports 30,115 / 3,356; chart ranges 416–6,074 and 139–817. The same metric appears twice inside this file. A separate Pulse panel elsewhere shows Oct 24–31, but it is not proven to be the Traffic chart interval.
+- HSH_RESOURCES hsh_data_nov1_2026.txt (blob 01966370e92172f436f6ab1912e0ae2776255701) explicitly identifies HsH and reports 35,651 / 3,640; graph ranges 416–6,534 and 139–817. The filename is not an exact capture timestamp.
+- HSH_RESOURCES HSH_54k.txt (blob f5a30e8cc765e1636cc1d0191136323a84df7277) explicitly identifies HsH and reports 54,368 / 5,200; graph ranges 842–7,599 and 242–1,129. Its paired daily CSV is already catalogued.
+- HsH DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT_ACTIV.txt and SAT_CONVOS_20/SAT_ACTIV.txt share blob 4e1b266ac216936ad2eb3079d47eb53ef04ac702 and report SAT 1,671 / 389. They are duplicate SAT copies, not HsH observations.
+- HsH DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/factory_fresh.txt (blob 197f81cf274584d7eeb33a3dbf00618e02aa4340) identifies FACTORY_FLOOR and reports 13 / 11. Keep separate from HsH.
+- HsH DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/gt.txt (blob 4b8e37b108ac2ccf6dea7ebe4a2957fab7e06189) is a profile/stars page, not Traffic. GITHUB_ASSISTANT_CONVO.txt is discussion context, not direct telemetry.
+
+### HsH 30SEP dump CSV family: same basename does not mean same file
+
+HsH DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP holds its own numbered CSVs. These are separate single-repository exports; measured-repository identity is not inferred from their storage folder:
+
+| HsH dump file | Blob SHA | Dates | Daily sum | Range |
+|---|---|---|---:|---:|
+| Clones in last 14 days.csv | 8afd2ef20e451d8a8e6c48ab6c260539af88bd90 | 09/16–09/29 | 13 | 0–11 |
+| Clones in last 14 days (1).csv | 9b514a44d754790c975423dea4b1c6bb2e4ed1a0 | 09/16–09/29 | 7,702 | 46–1,411 |
+| Clones in last 14 days (2).csv | a13cfe39a32b0187a8ad35e01de19ac1ff04bf23 | 09/16–09/29 | 1,149 | 12–572 |
+| Clones in last 14 days (4).csv | 2dfe5875a505ecc13c9ef38f3ea3e1c09044f7f6 | 09/10–09/23 | 1,749 | 12–572 |
+| Clones in last 14 days (5).csv | ac2a69f665c0d62086440d578b69103892d436bd | 09/10–09/23 | 13,217 | 221–1,748 |
+| Unique cloners in last 14 days.csv | f170bcaf758f7cb54490ca323d90bc773f7527a6 | 09/16–09/29 | 11 | 0–9 |
+| Unique cloners in last 14 days (1).csv | c865f928a71cef71184d81cb8a69e241c22aac45 | 09/16–09/29 | 2,197 | 16–355 |
+| Unique cloners in last 14 days (2).csv | 2e01442e40ed45634f312e46679605c3db21194d | 09/16–09/29 | 323 | 1–170 |
+| Unique cloners in last 14 days (4).csv | 9e4a97c41b4785fa5ba8d6a3dbf7b3e3c79fd964 | 09/10–09/23 | 552 | 3–170 |
+| Unique cloners in last 14 days (5).csv | 497ed1b5de5518d5ee5195c8c45fd0f18f073892 | 09/10–09/23 | 3,453 | 105–497 |
+
+The (4) CSV pair is byte-identical to the HSH_RESOURCES series and has the direct SAT 1,749/451 match. The other series remain repository-unassigned. The (5) daily data do not exactly match the HsH JOINT STATS or HSH_TRAFFIC graph minima, despite matching maxima; do not force a mapping.
+
+### May–June composite series and OCR leads
+
+The EXPOSURE_STATS/EXP_ANALYSIS/CONCAT_FULL_GIT_STATS.txt composite (blob af70059ee57f5677d68fbc95a92a330dd5b8bcdd), and its byte-identical alias GITHUB ACTIVITY - MAY GITHUB ACTIVITY.txt / SAT GIT — MAY GITHUB ACTIVITY.txt (blob 6c6bb69f26f4252d19245d7d9488d7dbf2f4bac4), contain multiple distinct CSV-like series. One clone block spans May 19–June 1 and sums 1,012; a separate May 26–June 8 block sums 2,088. The latter daily unique-cloner values sum mechanically to 877. None of these blocks labels the measured repository. Preserve as separate unattributed series; the derivative CROSS_MASTER_CHRONOLOGY is not independent telemetry.
+
+- 42.JPG (source-image SHA / OCR key 783142a1ae7bd8436e82f113a9ec92406dc099c63296c8cafbb88df167b4efc8) OCR reports 42,111 clones; repo identity and window-level uniques are not visible.
+- 3400.JPG (source-image SHA / OCR key 534baaedef8701f82fe88634a81e4330e3e35734abb669a9c226151db1e01783) OCR reports 3,999 unique cloners; repo identity and clone total are not visible.
+- Total views in last 14 days.png OCR shows 1,022 views dated Aug 30–Sep 12; no repo identity is visible. It matches the HsH HSH ACTIVITY.txt view total, but this is not enough to prove image identity.
+- Original images remain primary; OCR is a finding aid. No identity is assigned to these image-only candidates.
+- HISTORICAL/ghub.txt is an opaque alphanumeric string, HISTORICAL/hsh_resources_7nov26.txt is a Pulse/dependency snapshot, and HSH_INTERNAL_ACT.txt is workflow run data; none is a Traffic observation.
+
+**GTT-01.A remains IN PROGRESS.** This tranche expands relevant HSH_RESOURCES and HsH duplicate/cross-reference coverage, but source inventory is not closed. No new candidate was promoted into the historical-observation catalogue, and no canonical clone-event row was written. Next: bound remaining HSH_RESOURCES image/index leads and record explicit inventory closure/limits before moving to ⌕↦.
+
 @⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
