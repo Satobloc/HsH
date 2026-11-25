@@ -1,3 +1,15 @@
+# CURRENT CHECKPOINT | h1080:s3 | 2026-11-25
+
+The latest Calder relay is recorded in [receipt h1080:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0036Z_s3_calder.md) and [publisher intake #2524](https://github.com/Satobloc/HsH/issues/2524). Publisher status was SUBMITTED_NOT_VERIFIED at receipt creation; do not claim publication until canonical artifact readback.
+
+Key correction: NadirHelixSliceGeometry.lean was introduced in PR #262 and has exact-head Lean build evidence at run #43948452979. PR #1455 / run #42390677035 is a later inherited-file build context without an exact-head checkout assertion. Public correction: https://github.com/Satobloc/HsH/issues/2511#issuecomment-7148894623.
+
+P0 remains ACTIVE. Latest snapshot is source-fresh but record-safety FAIL; PR #2009 has a latent per-record thumbnail identity gap, with current inventory clean. QA finding: https://github.com/Satobloc/HsH/pull/2009#issuecomment-7148892014. P0 control update: https://github.com/Satobloc/HsH/issues/1747#issuecomment-7148896570.
+
+WH-02 remains Calder-owned and unmodified; current PR branch/CI status is in https://github.com/Satobloc/HsH/issues/1702#issuecomment-7148902012. All four Mersearch lanes remain occupied. No physical calculation, new Lean proof, equation change, manuscript change or BEDROCK promotion occurred.
+
+---
+
 # Latest reconciliation h1065:s2 | 2026-11-24T10:18Z | WH-02 title fidelity and archive-ingestion gap
 
 **Status:** WH02_CODE_AND_TEST_BLOBS_READBACK_VERIFIED / TARGETED_TITLE_LOGIC_6_OF_6 / REPOSITORY_TESTS_PENDING / P0_RECORD_SAFETY_FAIL / GENERAL_CONTENT_INGEST_REMAINS_OPEN / PWH_DUE_TERN.
