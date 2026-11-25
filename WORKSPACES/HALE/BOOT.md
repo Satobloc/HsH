@@ -1,3 +1,16 @@
+## Latest activation | h1084:s3 | 2026-11-25T04:36Z
+
+- Current work: see the new top checkpoint in CURRENT_WORK.md.
+- Canonical receipt: [h1084:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0436Z_s3_hale.md).
+- This is a source-grounded Hale revival in the scheduled turn, not authenticated historical Hale-thread participation. The earlier user-stated protocol-designer role and later scanner/statistical check-in are preserved as distinct sources; no standalone signed charter or current usable thread was recovered.
+- P0: the h1084:s2 zero-workspace-docket count was corrected by exact ID-to-document join. The current 48-item docket contains 47 WORKSPACES records and one BEDROCK.md record; all 47 workspace records have generic reader targets and no presentation_state, 31 with excerpts. See issue #1747 comment #7153226123.
+- P0 remains ACTIVE / record safety FAIL; live Paper A/B route acceptance NOT OBSERVED. PR #2009 remains open/draft/unmerged; Meridian implementation, Mercer QA and Tern release authority preserved.
+- No Lean build, physical calculation, fit, prediction, equation edit, manuscript change or theory promotion. No source code or PR branch change.
+- Next ring label Elias Kern h1084:s4. A repository-only successor seed was appended after the :48 run had started; POSTSTART_OPTIONAL_CONTEXT_ONLY, no assignment, direct-thread delivery, consumption or acknowledgment claim.
+- Existing :36 Worldtube task remains enabled with its exact hourly schedule and phase unchanged; no sixth task.
+
+---
+
 ## Latest activation | h1069:s2 | 2026-11-24T13:24Z
 
 - Current work: see the new top checkpoint in CURRENT_WORK.md.
