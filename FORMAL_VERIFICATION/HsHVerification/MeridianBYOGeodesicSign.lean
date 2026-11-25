@@ -37,7 +37,6 @@ structure Vec4 where
   x2 : ℝ
   x3 : ℝ
   x4 : ℝ
-deriving DecidableEq
 
 def add4 (u v : Vec4) : Vec4 :=
   ⟨u.x1 + v.x1, u.x2 + v.x2, u.x3 + v.x3, u.x4 + v.x4⟩
@@ -60,7 +59,7 @@ def circleAcceleration (R ω : ℝ) : Vec4 := ⟨-R * ω ^ 2, 0, 0, 0⟩
 
 /-- Residual of the equation printed in the historical BYO Lagrangian file:
     X'' + (X'' · X) X / R^2. -/
-def publishedResidual (R ω : ℝ) : Vec4 :=
+noncomputable def publishedResidual (R ω : ℝ) : Vec4 :=
   add4 (circleAcceleration R ω)
     (smul4
       (dot4 (circleAcceleration R ω) (circlePosition R) / R ^ 2)
@@ -68,7 +67,7 @@ def publishedResidual (R ω : ℝ) : Vec4 :=
 
 /-- Residual of the affine-parameter sphere-geodesic equation:
     X'' + (X' · X') X / R^2. -/
-def correctedResidual (R ω : ℝ) : Vec4 :=
+noncomputable def correctedResidual (R ω : ℝ) : Vec4 :=
   add4 (circleAcceleration R ω)
     (smul4
       (dot4 (circleVelocity R ω) (circleVelocity R ω) / R ^ 2)
@@ -101,9 +100,17 @@ theorem published_residual_first_coordinate
 theorem corrected_residual_eq_zero
     (R ω : ℝ) (hR : R ≠ 0) :
     correctedResidual R ω = zero4 := by
-  ext <;> simp [zero4, correctedResidual, add4, smul4, dot4,
-    circlePosition, circleVelocity, circleAcceleration] <;>
-    field_simp [hR] <;> ring
+  apply Vec4.ext
+  · simp [zero4, correctedResidual, add4, smul4, dot4,
+      circlePosition, circleVelocity, circleAcceleration]
+    field_simp [hR]
+    ring
+  · simp [zero4, correctedResidual, add4, smul4, dot4,
+      circlePosition, circleVelocity, circleAcceleration]
+  · simp [zero4, correctedResidual, add4, smul4, dot4,
+      circlePosition, circleVelocity, circleAcceleration]
+  · simp [zero4, correctedResidual, add4, smul4, dot4,
+      circlePosition, circleVelocity, circleAcceleration]
 
 theorem published_residual_ne_zero
     (R ω : ℝ) (hR : R ≠ 0) (hω : ω ≠ 0) :
