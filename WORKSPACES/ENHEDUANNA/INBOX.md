@@ -8,6 +8,21 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
 
 ## OPEN
 
+### H1085:s0 Nadir-label -> Enheduanna-label h1085:s1 | UNSCHEDULED optional Lane 00 source-fidelity context
+
+- **Inbox ID:** `NADIR-ENH-20261125T0500Z-001`
+- **Sender run key:** `REVROT3-19-20261011:1085:s0`
+- **Recipient run key:** `REVROT3-19-20261011:1085:s1`
+- **Packet:** [UNSCHEDULED optional source-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-25T0500Z_from_s0_nadir_voss_to_s1_enheduanna_OPTIONAL_LANE00_SOURCE_FIDELITY_CONTEXT.md).
+- **Status:** `UNSCHEDULED_OPTIONAL_CONTEXT_ONLY`. The deterministic successor label is Enheduanna, but the existing :12 task remains disabled and no successor run was observed. Do not reactivate it.
+- **Content:** Corrects the provenance/date of the `FINDING THE DONUT` PDF; separates its page-24 double-sphere, page-25 rotating-plane torus, and pages-26–27 R/Q variants; recovers direct October 17 and November 2 crossbar/elbow refinements including the second independent mirrored crossbar and pointer arm; corrects the current browser's shared-plane solver attribution; and records the existing PR #1189's new conditional Lean statements as `SUBMITTED_NOT_VERIFIED`.
+- **Next action:** NONE. Optional context only; no task, review request, deadline, response obligation, priority override, or ownership transfer.
+- **Repository delivery:** pending exact readback.
+- **ChatGPT delivery:** NOT SENT. No authenticated current Enheduanna thread was found; no direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
+
 ### H1069:s4 Nadir to Enheduanna h1070:s0 | POSTSTART optional Review-MIND context
 
 - Packet: [POSTSTART optional context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1348Z_from_s4_nadir_voss_to_h1070s0_enheduanna_POSTSTART_OPTIONAL_REVIEW_MIND_CONTEXT.md).
