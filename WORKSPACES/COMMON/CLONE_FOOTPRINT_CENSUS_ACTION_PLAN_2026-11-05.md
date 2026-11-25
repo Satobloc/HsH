@@ -5,24 +5,31 @@
 **CLOSED TOCK GT-01 — exact HsH Traffic baseline established.**
 
 - **Capture:** `Satobloc/HsH`, archived as `HSH_REPO stats 7nov26.txt`.
-- **Capture identity:** HSH_RESOURCES blob `92a517ac98cf59dab9d31f861a76f8433eb652c4`; committed with its daily export in commit `f6e44e9f5758f03de3b4842cb9bb5981ec32a8bd` at `2026-11-07T07:09:21Z`.
+- **Archive identity:** HSH_RESOURCES blob `92a517ac98cf59dab9d31f861a76f8433eb652c4`; committed with its daily export in commit `f6e44e9f5758f03de3b4842cb9bb5981ec32a8bd` at `2026-11-07T07:09:21Z`. This is the archive commit time, not a separately recorded UI capture time.
 - **Window:** 2026-10-24 through 2026-11-06 inclusive (14 days).
-- **Traffic total:** 67,310 clones. Daily CSV blob `83214dba32b677b94e43d8cb7e5eafdb8bcb204c`; daily values, in order: 1,079; 1,249; 1,631; 4,122; 5,055; 5,124; 6,074; 6,534; 7,599; 7,185; 5,987; 5,315; 4,069; 6,287.
-- **Reconciliation:** scripted sum = 67,310; min/max = 1,079/7,599, matching the capture's chart range.
-- **Duplicate check:** `HISTORICAL/Clones in last 14 days.csv` and `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/Clones in last 14 days.csv` have the same blob SHA (`83214dba32b677b94e43d8cb7e5eafdb8bcb204c`): one export, two paths, not two observations. The adjacent 10/21–11/03 CSV is an overlapping rolling window, not an additive sample.
+- **Traffic total:** 67,310 clones. Daily CSV blob `83214dba32b677b94e43d8cb7e5eafdb8bcb204c`; daily values in order: 1,079; 1,249; 1,631; 4,122; 5,055; 5,124; 6,074; 6,534; 7,599; 7,185; 5,987; 5,315; 4,069; 6,287.
+- **Reconciliation:** sum = 67,310; min/max = 1,079/7,599, matching the capture's chart range.
+- **Duplicate check:** `HISTORICAL/Clones in last 14 days.csv` and `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/Clones in last 14 days.csv` share blob SHA `83214dba32b677b94e43d8cb7e5eafdb8bcb204c`: one export, two paths. The 10/21–11/03 CSV is a separate overlapping rolling window, not an additive sample.
 
-**ACTIVE TOCK GT-02 — reconstruct internal HsH clone-generating activity over that exact window.**
+**CLOSED TOCK GT-02 — Actions run-inventory pilot completed for 2026-10-24 through 2026-10-27.**
 
-- **PIN:** Traffic API route remains unavailable through this connector; preserve Traffic attribution as UNKNOWN until independently tied to observed Traffic.
-- **NOW:** Enumerate HsH Actions workflow runs, run attempts and jobs over 2026-10-24 through 2026-11-06 UTC. Preserve complete pagination and exact run identities.
-- **NEXT:** Inspect job-step/log evidence for completed checkout steps; separately identify any Pages build/deploy clone contribution. Attribute cross-repository checkouts to the repository actually checked out.
-- **RETURN:** this action plan; `WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md`; `WORKSPACES/COMMON/CLONE_LEDGER.jsonl`.
+- **Scope result:** 2,767 workflow runs across four date partitions; 2,767 unique run IDs, all created timestamps within their exact partitions, and all API-listed `run_attempt` values = 1. Full page sets verified; no checkout or clone count inferred.
+- **Daily manifests:** `CLONE_GT02_RUNSET_2026-10-24.csv` (244; 3 pages); `CLONE_GT02_RUNSET_2026-10-25.csv` (283; 3 pages); `CLONE_GT02_RUNSET_2026-10-26.csv` (779; 8 pages); `CLONE_GT02_RUNSET_2026-10-27.csv` (1,461; two UTC half-days, 709 + 752, eight pages each). Each manifest was read back and verified.
+- **Conclusions across these runs:** 1,055 success; 964 failure; 735 cancelled; 13 skipped.
+- **Method constraint:** GitHub documents a 1,000-result ceiling per search when using `created`. A broad 14-day query reported 2,500 matches but exposed only the first 1,000; page 11 was empty. Partition by date/time, verify every page, and stop treating a query as complete if its result set exceeds 1,000.
+
+**ACTIVE TOCK GT-03 — complete the remaining HsH workflow-run inventory for 2026-10-28 through 2026-11-06.**
+
+- **PIN:** Traffic API remains unavailable through this connector. Workflow runs are not jobs, completed checkout steps, or Traffic clone events. Do not translate run totals into clone counts.
+- **NOW:** Recover the complete 2026-10-28 run set using bounded UTC intervals; subdivide any interval exceeding 1,000 results.
+- **NEXT:** Apply verified partitions to 2026-10-29 through 2026-11-06, recording exact IDs, attempts, and all pages. Only after this run inventory is closed should job/step evidence be reconstructed.
+- **RETURN:** this action plan; `WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md`; `WORKSPACES/COMMON/CLONE_LEDGER.jsonl`; daily manifests named `CLONE_GT02_RUNSET_YYYY-MM-DD.csv`.
 
 **Live TICK:** `⌖◉@⌕▣✓⇢`  
-**TICK 02:** establish the complete UTC workflow-run / attempt / job set for the matched Traffic window.  
-**TOCK:** OPEN. Run counts are not clone counts; checkout definitions are not completed checkout evidence.
+**TICK 03:** build the complete Oct 28 run set through bounded UTC partitions.  
+**TOCK:** OPEN. Workflow-run inventory only; no checkout count or external-clone residual.
 
-**Exit condition:** exact run set and all pages/attempts for the 14-day UTC window recorded, with exclusions and retrieval gaps explicit. Stop before counting clone events or calculating a residual.
+**Exit condition:** all 2026-10-28 UTC runs and attempts represented exactly once, with complete per-partition pagination and readback-verified manifest. Stop before checkout-step attribution.
 
 
 ---
