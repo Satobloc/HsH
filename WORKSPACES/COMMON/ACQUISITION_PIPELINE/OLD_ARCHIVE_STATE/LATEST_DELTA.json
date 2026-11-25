@@ -1,5 +1,34 @@
 {
-  "source_commit": "028862e6f1b0ffad2f56f4989a2cd0a769d266fd",
-  "observed_utc": "2026-11-24T20:42:03.214335+00:00",
-  "changes": []
+  "source_commit": "2b6f18d515e5bbdd3b1276cb62c6f4c10f76b19e",
+  "observed_utc": "2026-11-25T19:58:35.256254+00:00",
+  "changes": [
+    {
+      "change": "CHANGED",
+      "path": "..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt",
+      "old_blob_sha": "20737e97c971f7a905376b096a0ee724361e21dd",
+      "new_blob_sha": "68e1cbdfb7161e717a969cadecf1d22b7f21b0d2",
+      "bytes": 7495118
+    },
+    {
+      "change": "CHANGED",
+      "path": "..findex.txt",
+      "old_blob_sha": "0355c349587a5e3ffffe46117b2157b29a6e384a",
+      "new_blob_sha": "0991ad7a7aaf30817cb77c60dd36140d4e9ef900",
+      "bytes": 221043
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20261125_192612.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "24c9932aa762905e58a08b0f09ba2b8b5e432012",
+      "bytes": 301
+    },
+    {
+      "change": "CHANGED",
+      "path": "README.md",
+      "old_blob_sha": "8cc300ba25a98dda803f6a0005bee9d97c3814ef",
+      "new_blob_sha": "a63ef793f938d9bc509f1261c536dea313a2a1e1",
+      "bytes": 47388
+    }
+  ]
 }
