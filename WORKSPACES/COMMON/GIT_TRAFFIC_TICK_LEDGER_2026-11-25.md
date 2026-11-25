@@ -34,10 +34,10 @@ The glyphs below retain their existing meanings from the shared code ledger. The
 
 | Order | Tick ID | Ticker glyph | Operation | Required result | Exit condition |
 |---:|---|:---:|---|---|---|
-| 1 | **GTT-01.A** | ⌕ | **Inventory remaining source assets.** Sweep the relevant `EXPOSURE_STATS` and `HISTORICAL` holdings for later/earlier CSVs, TXT composites, screenshots and supporting indices. Capture path, storage repo, blob SHA, commit provenance, filename family and duplicate relationships. | Candidate source manifest; HsH-relevant items prioritized. | Every discovered candidate has a recorded disposition: read, queued, duplicate, irrelevant to this lane, or blocked. |
-| 2 | **GTT-01.B** | ⌕ | **Assign measured-repository identity.** For each individual CSV, determine which one repository it measures. For TXT/image sources, segment explicitly labeled repository observations. Do not infer from storage location or filename alone. | Source-to-measured-repository map, with confidence and unresolved cases. | Every in-scope source is explicitly mapped or explicitly left unresolved with the missing evidence named. |
-| 3 | **GTT-01.C** | ⌕ | **Reconcile observation windows and clone counts.** Parse daily clone rows, verify dates and 14-day sums, match source sections, detect duplicate blobs and reconcile overlapping windows without adding them. Keep each repository's observations separate. | Per-observation arithmetic and date-window reconciliation. | Every reported clone total is directly sourced or exactly reconciled to its own single-repository daily series; discrepancies remain visible. |
-| 4 | **GTT-01.D** | ⌕ | **Recover window-level unique-cloner evidence and capture timing.** Search for direct dashboard TXT/image evidence matching HsH's latest 119,670-clone window (2026-11-10–2026-11-23), especially its deduplicated 14-day unique-cloner count. Search other HsH snapshots for missing unique-cloner totals or capture timestamps where worthwhile. | Directly sourced unique-cloner totals/capture times, or a precise gap record. | Each value is directly evidenced; daily unique counts are not substituted. Unrecoverable fields are explicitly marked unknown. |
+| 1 | **GTT-01.A** | ⌕ᵃ | **Inventory remaining source assets.** Sweep the relevant `EXPOSURE_STATS` and `HISTORICAL` holdings for later/earlier CSVs, TXT composites, screenshots and supporting indices. Capture path, storage repo, blob SHA, commit provenance, filename family and duplicate relationships. | Candidate source manifest; HsH-relevant items prioritized. | Every discovered candidate has a recorded disposition: read, queued, duplicate, irrelevant to this lane, or blocked. |
+| 2 | **GTT-01.B** | ⌕↦ | **Assign measured-repository identity.** For each individual CSV, determine which one repository it measures. For TXT/image sources, segment explicitly labeled repository observations. Do not infer from storage location or filename alone. | Source-to-measured-repository map, with confidence and unresolved cases. | Every in-scope source is explicitly mapped or explicitly left unresolved with the missing evidence named. |
+| 3 | **GTT-01.C** | ⌕∑ | **Reconcile observation windows and clone counts.** Parse daily clone rows, verify dates and 14-day sums, match source sections, detect duplicate blobs and reconcile overlapping windows without adding them. Keep each repository's observations separate. | Per-observation arithmetic and date-window reconciliation. | Every reported clone total is directly sourced or exactly reconciled to its own single-repository daily series; discrepancies remain visible. |
+| 4 | **GTT-01.D** | ⌕∅ | **Recover window-level unique-cloner evidence and capture timing.** Search for direct dashboard TXT/image evidence matching HsH's latest 119,670-clone window (2026-11-10–2026-11-23), especially its deduplicated 14-day unique-cloner count. Search other HsH snapshots for missing unique-cloner totals or capture timestamps where worthwhile. | Directly sourced unique-cloner totals/capture times, or a precise gap record. | Each value is directly evidenced; daily unique counts are not substituted. Unrecoverable fields are explicitly marked unknown. |
 | 5 | **GTT-01.E** | ▣ | **Record the verified tranche.** Append source-matched observations and provenance to the historical-observation catalogue; update the source inventory/disposition and retain exact blob/commit identities. Do not put dashboard observations or planning notes into the clone-event JSONL. | Updated historical-observation catalogue with evidence states and unresolved gaps. | All results from A–D are durably represented without overwriting earlier observations or collapsing repository-specific records. |
 | 6 | **GTT-01.F** | ✓ | **Independent verification and readback.** Re-fetch the changed catalogue and tick ledger; independently recalculate CSV sums, check observation windows, repository mappings, duplicate identities, and all source pointers. Inspect the final ticker position. | Verified commit/blob receipts and a concise QC result. | Readback matches the intended content; arithmetic and source identities pass or exceptions are explicitly retained. |
 | 7 | **GTT-01.G** | ⇢ | **Tock gate / deliberate transition.** Decide whether the accessible historical inventory is adequate to begin internal attribution. Carry unresolved gaps forward explicitly; do not demand impossible completeness. | Close GTT-01 and open GTT-02, or retain GTT-01 with a specific remaining cursor. | Transition is justified by the evidence state and next work is clearly named. |
@@ -48,9 +48,37 @@ Operation order is left to right:
 
 **Inventory → identity mapping → arithmetic/window reconciliation → unique-cloner/capture recovery → record → verify → transition gate**
 
-The first four operations are separate investigations, so the four repeated `⌕` glyphs are intentional. Their distinct identities are GTT-01.A through GTT-01.D.
+The first four operations all use the shared `⌕` Investigate phase, but each carries an intent modifier. These are not four repetitions of undifferentiated searching:
+
+- `⌕ᵃ` — source acquisition/inventory: **What source assets exist, and where are they?**
+- `⌕↦` — mapping/attribution: **Which repository, metric and window does each artifact actually measure?**
+- `⌕∑` — quantitative/structured reconciliation: **Do the daily series, dashboard totals, windows and duplicate identities agree?**
+- `⌕∅` — evidence-gap recovery: **Which required values or capture details are missing, and can direct evidence recover them?**
+
+The modifiers use the shared general meanings in `HSH_RESOURCES/info/EXTERNAL_DIMENSIONAL_WORKSHOP_CODE_LEDGER.md`, with the GIT_TRAFFIC interpretations recorded there separately from PHYS and BIO.
 
 **Ticker rule:** `@` marks the next unfinished operation and is not itself an operation. After each Tick is completed, recorded and checked, move `@` to the next glyph and retire the completed glyph. Do not advance merely because a chat turn or tool call occurred. `⇢` is a deliberate decision point, not routine punctuation.
+
+## Lane identity and shared vocabulary
+
+The external workshop code ledger is a **shared vocabulary**, not a shared subject-matter queue. GIT_TRAFFIC owns this Tock, its Tick IDs, ticker, historical-observation catalogue and traffic findings. PHYS and BIO retain their own Tocks, cursors and evidence. Shared glyph definitions may have three separately recorded interpretations; a PHYS or BIO interpretation does not transfer its evidence or task state into GIT_TRAFFIC.
+
+A lane may refine a common symbol locally, but it must record that interpretation in the relevant lane ledger and must not silently alter the general definition. GIT_TRAFFIC's modifiers for this Tock are:
+- `ᵃ`: inventory Traffic source assets and their acquisition/provenance identities.
+- `↦`: assign each artifact to its measured repository, metric and observation window.
+- `∑`: reconcile compatible daily totals, rolling windows and duplicate source identities.
+- `∅`: pursue missing unique-cloner and capture-time evidence; absence is not zero.
+
+The canonical `CLONE_LEDGER.jsonl` is a different shared artifact: it records evidence about actual clone-related events. It is not this lane's planning or observation catalogue.
+
+## Direction after the current source-inventory Tick
+
+The planned path is a dependency chain, not four equivalent searches. The current operation first establishes the candidate source universe. Once that is recorded, the next operation maps each artifact to what it measures; arithmetic is not trusted until that mapping is grounded. Reconciliation then establishes which observations can be compared across rolling windows. The gap pass targets the remaining information needed for attribution, especially the window-level unique-cloner count and exact capture time for HsH's 2026-11-10–2026-11-23 / 119,670-clone observation.
+
+After GTT-01:
+1. **GTT-02 / internal attribution:** determine what actual internal systems did, using the canonical event ledger plus supporting run/job/log/provisioning evidence. Keep explicit clone, Actions checkout, API/connector reads, archive access and unknown provisioning distinct. Tern remains WH-01 coordinator.
+2. **GTT-03 / external residual:** align GTT-01's Traffic windows with the best-supported internal event window; calculate known-internal low/central/high contribution and the unexplained residual range. State assumptions, coverage and unknowns. Keep clone events, clone totals and unique cloners as separate measures.
+3. **Decision/use:** only after those bounds exist decide whether the traffic is substantially internal, mixed, or predominantly unexplained/external. Do not label the residual as external people or unique individuals without evidence that supports that interpretation.
 
 ## Handoff to later Tocks
 
@@ -62,4 +90,4 @@ The first four operations are separate investigations, so the four repeated `⌕
 
 No operation in this ticker has been completed yet. Earlier GTT-01 work remains valid: the thread is already oriented and the initial observation tranche is catalogued. This ticker covers the **next bounded execution sequence**, not a claim that all prior GTT-01 work is undone.
 
-@⌕⌕⌕⌕▣✓⇢
+@⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
