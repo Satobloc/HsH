@@ -49,10 +49,10 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ## Work tray
 
 - **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
-- **NOW — GTT-01.A / `@⌕ᵃ`:** source acquisition/inventory is underway. Initial collection listings covered Resources `EXPOSURE_STATS` (176 entries), its `_SAT  Satobloc GitHubStats` folder (120), Resources `HISTORICAL` (57), the SAT archive's 2026 GitHubStats folder (6), and SAT `PRE_HSH_ROUNDUP` (8). The HsH `30SEP26_DUMP` listing hit a 1,000-entry ceiling; explicit page 11–13 requests repeated the same set, so that collection remains incomplete. Newly surfaced but not yet accepted as reconciled observations: `HSH_gitclones.txt` (blob `bcd3484...`, explicit HsH header; 7,090 clones / 1,136 unique cloners; exact window unresolved) and `9.8.26 -- GITSTATS.txt` (blob `45daaab...`, separate HsH and SAT capture sections; exact windows and CSV linkage unresolved). Earlier observations remain catalogued, including the HsH 119,670 single-repository CSV for 2026-11-10–23. Every CSV is single-repository; TXT composites retain separate labeled sections. HsH was public from creation; Resources was initially private and only became public roughly one to two months before 2026-11-25 (exact transition date unresolved). Do not interpret Resources' earlier private-period clones as public exposure. See the Tick Ledger for the exact source paths, findings, limits and next cursor.
-- **NEXT — GTT-02:** attribute evidenced internal clone-generating activity using the canonical clone ledger and supporting records.
+- **NOW — GTT-01.B / `@⌕↦`:** map each located Traffic artifact to the repository it measures, metric and observation window. The bounded HSH_RESOURCES source inventory has been recorded; unresolved date windows, unassigned CSV series and image-only identities remain explicit mapping targets.
+- **NEXT — GTT-01.C:** reconcile daily clone arithmetic, rolling windows, duplicate lineages and capture-to-CSV matches after repository identity is grounded.
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
-- **RETURN:** continue source inventory in `EXPOSURE_STATS` and `HISTORICAL`; prioritize HsH, map each single-repository CSV to its measured repository, preserve TXT composite sections, and recover direct window-level unique-cloner evidence where available. Carry unresolved mappings and capture gaps without guessing.
+- **RETURN:** reopen GTT-01.A only if a new HSH_RESOURCES source index, file family or source path emerges. Otherwise continue repository/metric/window mapping in GTT-01.B and preserve unresolved candidates.
 
 **Shared-ledger lane boundary:** `CLONE_LEDGER.jsonl` is append-only and may advance through PHYS/BIO/GIT work. During this turn, the latest observed commit `f7ddeadc38b4c2b3258ac745bf65ea2c7931a761` appended three PHYS API-only provenance rows; they are not GIT_TRAFFIC observations. GIT-02 must classify shared rows individually. This lane did not write a clone-event row.
 
@@ -116,4 +116,4 @@ New direct HsH captures include JOINT STATS.txt (12,506/1,799) and HSH_TRAFFIC_2
 
 Additional direct candidates include HsH HSH_repo_stats (736/309), HSH_commits (957/367), 30k (30,115/3,356), hsh_data_nov1 (35,651/3,640), plus OCR-only 42,111-clone and 3,999-unique image candidates. SAT captures and FACTORY_FLOOR traffic were kept separate. May–June composite rows remain unattributed. No newly surfaced candidate was promoted to the historical-observation catalogue, and no canonical clone-event row was written. GTT-01.A remains active.
 
-@⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
+@⌕↦⌕∑⌕∅▣✓⇢
