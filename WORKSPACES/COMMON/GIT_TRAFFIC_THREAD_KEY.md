@@ -49,10 +49,10 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ## Work tray
 
 - **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
-- **NOW — GTT-02.B / `@⌕∑`:** aggregate normalized HsH internal activity by mechanism and matched Traffic window. Deduplicate complete Actions checkout keys, separate incomplete checkout evidence and API/connector activity, and preserve timestamp precision.
-- **NEXT — GTT-02.C:** recover missing job/provisioning evidence, especially two possible-full-clone events and 27 incomplete checkout-key records; otherwise retain UNKNOWN.
+- **NOW — GTT-02.C / `@⌕∅`:** recover the remaining 26 incomplete checkout-key records and six workflow/provisioning uncertainties using exact Actions run/job data. Keep the canonical JSONL read-only and preserve field-specific UNKNOWNs.
+- **NEXT — GTT-02.D:** record the completed bounded internal-attribution tranche and its remaining UNKNOWNs; do not infer Traffic clone counts from workflow evidence.
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
-- **RETURN:** reopen GTT-02.A only if new revision lineage, event IDs or repository identity evidence changes the canonicalized set. Otherwise continue mechanism aggregation and bounded evidence recovery.
+- **RETURN:** reopen GTT-02.B only if a recovered run/job/step changes the normalized mechanism partition or checkout key counts; otherwise continue GTT-02.C and retain unresolved evidence gaps.
 
 **Shared-ledger lane boundary:** `CLONE_LEDGER.jsonl` is append-only and may advance through PHYS/BIO/GIT work. During this turn, the latest observed commit `f7ddeadc38b4c2b3258ac745bf65ea2c7931a761` appended three PHYS API-only provenance rows; they are not GIT_TRAFFIC observations. GIT-02 must classify shared rows individually. This lane did not write a clone-event row.
 
@@ -154,5 +154,12 @@ Git history now supplies upload/commit timestamps for several direct captures, d
 The canonical JSONL source was parsed read-only from the GitHub Contents API: 563 rows, zero parse errors; HsH contributes 350 raw rows, 349 stable event IDs, 29 explicit revision/supplement rows and one legacy row without event_id. In the Nov 10–23 primary window, 311 raw HsH rows include 27 explicit revisions, all of whose targets were found; 284 non-revision rows include one identity-unknown legacy record. No duplicate stable event_id was found.
 
 GTT-02.B preliminary disposition of those 284 records: 147 positive Actions checkout-evidence rows (120 complete unique checkout keys, 27 incomplete), 128 non-checkout API/connector rows, six workflow/provisioning-uncertainty rows, one partial file materialization and two other checkout-configuration records. All retain traffic_attribution=UNKNOWN. These are event/evidence counts, not GitHub Traffic clone counts. Detailed field semantics and timestamp limits are in GIT_TRAFFIC_GTT02_INTERNAL_ATTRIBUTION_2026-11-25.md.
+
+
+## GTT-02.B close and C start — 2026-11-25
+
+GTT-02.B is complete for the 284 non-revision HsH records in the Nov 10–23 primary window. Revised disposition after direct run/job recovery: 149 Actions checkout-evidence records (123 complete unique keys, 26 incomplete; normalized materialization 22 FULL_HISTORY, 114 SHALLOW_1, 13 UNKNOWN); 128 non-checkout API/connector records; six workflow/provisioning uncertainties; one partial-file materialization. All 284 retain traffic_attribution=UNKNOWN. Five checkout depths and three publisher job joins were recovered from exact run/job logs. The two configuration-only checkout records were resolved and a third checkout record's depth was resolved. The separate cancelled Nadir run #45005215976 remains provisioning-unknown; it is not the already-recorded successful run #45005102072. Details and exact source IDs are in GIT_TRAFFIC_GTT02_INTERNAL_ATTRIBUTION_2026-11-25.md.
+
+**GTT-02.C focus:** close the 26 incomplete checkout keys using exact numeric Actions run IDs, run attempts, job IDs and step numbers where supported; keep run-runtime UUIDs distinct from GitHub numeric run IDs. Recheck the six uncertainties only where new direct source evidence exists. All Traffic attribution remains UNKNOWN, so GTT-03 residual calculations are not yet authorized.
 
 @⌕∑⌕∅▣✓⇢
