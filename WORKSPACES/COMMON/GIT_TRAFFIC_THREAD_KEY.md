@@ -2,7 +2,7 @@
 
 > **Small but significant bites. Don't choke, don't nibble.**
 
-**Status:** ACTIVE / GTT-02 internal activity attribution lane; GTT-01 historical Traffic source work is closed.
+**Status:** PARKED / GTT-02.A–F complete for the bounded internal-evidence scope; awaiting direct Traffic attribution evidence. GTT-01 is closed; GTT-03 numerical residual work is not open.
 **Purpose:** Apply the shared Tock–Tick and Credenza methodology to GitHub Traffic analysis.  
 **Boundary:** This is a dedicated conversation/work lane, not a new clone census, coordinator role, or replacement for the canonical shared ledgers.
 
