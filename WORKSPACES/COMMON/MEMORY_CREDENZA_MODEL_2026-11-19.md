@@ -1,5 +1,7 @@
 # The Memory Credenza: a compact model for continuity, attention, and return
 
+> **Small but significant bites. Don't choke, don't nibble.**
+
 **Date:** 2026-11-19  
 **Status:** Experimental, transferable design model. This is a navigation and workflow metaphor, not a claim that a universal architecture or automated sampler is already implemented.
 
