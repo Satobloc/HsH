@@ -1334,3 +1334,8 @@ Hale remains the next ring label. This note is not a scheduling instruction and 
 **Boundaries:** all four Mersearch lanes remain occupied; no query was overwritten or retriggered. No physical calculation, fit, prediction, new Lean theorem, equation edit, theory promotion, deployment, or P0 standdown occurred. No private HSH_RESOURCES payload was opened.
 
 **Thread status:** no authenticated current Hale thread was established. Repository inbox readback can establish repository delivery only; it cannot establish direct-thread delivery, consumption, acknowledgment, or that this packet was seen.
+
+
+### Amendment 01 | h1080:s3 publisher readback | 2026-11-25T00:51:46Z
+
+The report intake #2524 is now PUBLISHED_VERIFIED. Canonical artifact: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h1080-s3-evidence-lineage-p0-thumbnail-binding-20261125t0036z-001.md. Publication commit c9405a7574d4dffb133b5ed148097090c3fba99f; 7,098 UTF-8 bytes; SHA-256 03bca4dd27efa09f95d555ba35b1c7b0fcb9c0cd76f6e2a1092302719256a5ac. Independent fetch confirmed exact equality with the issue payload. The earlier pending status was accurate at packet creation and is now superseded. Repository-only context remains poststart and optional.
