@@ -1,19 +1,29 @@
 # Action Plan | Clone-footprint census and internal traffic reconciliation
 
-## LIVE TICKER / CREDENZA WORK TRAY (pilot v0.1; 2026-11-24)
+## LIVE TICKER / CREDENZA WORK TRAY
 
-**Tock GT-01 — establish one exact HsH Traffic baseline.** This is the active bounded result, not the whole census.
+**CLOSED TOCK GT-01 — exact HsH Traffic baseline established.**
 
-- **PIN:** Traffic API route is unavailable through the present connector. Preserve UNKNOWN; do not infer zero.
-- **NOW:** Recover the capture timestamp/window and the 14 daily clone values behind `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/HSH_REPO stats 7nov26.txt`; deduplicate capture copies by blob identity and check the daily sum against 67,310.
-- **NEXT:** Count HsH Actions checkout and Pages clone-generating events over that exact window, assigning cross-repository checkouts to their actual repositories; then calculate an uncertainty-bounded residual.
+- **Capture:** `Satobloc/HsH`, archived as `HSH_REPO stats 7nov26.txt`.
+- **Capture identity:** HSH_RESOURCES blob `92a517ac98cf59dab9d31f861a76f8433eb652c4`; committed with its daily export in commit `f6e44e9f5758f03de3b4842cb9bb5981ec32a8bd` at `2026-11-07T07:09:21Z`.
+- **Window:** 2026-10-24 through 2026-11-06 inclusive (14 days).
+- **Traffic total:** 67,310 clones. Daily CSV blob `83214dba32b677b94e43d8cb7e5eafdb8bcb204c`; daily values, in order: 1,079; 1,249; 1,631; 4,122; 5,055; 5,124; 6,074; 6,534; 7,599; 7,185; 5,987; 5,315; 4,069; 6,287.
+- **Reconciliation:** scripted sum = 67,310; min/max = 1,079/7,599, matching the capture's chart range.
+- **Duplicate check:** `HISTORICAL/Clones in last 14 days.csv` and `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/Clones in last 14 days.csv` have the same blob SHA (`83214dba32b677b94e43d8cb7e5eafdb8bcb204c`): one export, two paths, not two observations. The adjacent 10/21–11/03 CSV is an overlapping rolling window, not an additive sample.
+
+**ACTIVE TOCK GT-02 — reconstruct internal HsH clone-generating activity over that exact window.**
+
+- **PIN:** Traffic API route remains unavailable through this connector; preserve Traffic attribution as UNKNOWN until independently tied to observed Traffic.
+- **NOW:** Enumerate HsH Actions workflow runs, run attempts and jobs over 2026-10-24 through 2026-11-06 UTC. Preserve complete pagination and exact run identities.
+- **NEXT:** Inspect job-step/log evidence for completed checkout steps; separately identify any Pages build/deploy clone contribution. Attribute cross-repository checkouts to the repository actually checked out.
 - **RETURN:** this action plan; `WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md`; `WORKSPACES/COMMON/CLONE_LEDGER.jsonl`.
 
 **Live TICK:** `⌖◉@⌕▣✓⇢`  
-**TICK 01:** establish exact capture identity, window and daily series.  
-**TOCK:** OPEN. No external-clone residual is claimed. Workflow-run totals and checkout definitions are not a substitute for completed checkout-step evidence.
+**TICK 02:** establish the complete UTC workflow-run / attempt / job set for the matched Traffic window.  
+**TOCK:** OPEN. Run counts are not clone counts; checkout definitions are not completed checkout evidence.
 
-**Exit condition:** exact capture identity and 14-day window recorded; all 14 daily values retained; duplicate-family check completed; arithmetic reconciled to the displayed total or discrepancy explained. Stop this bite there. Do not broaden it into a multi-window or three-repository census.
+**Exit condition:** exact run set and all pages/attempts for the 14-day UTC window recorded, with exclusions and retrieval gaps explicit. Stop before counting clone events or calculating a residual.
+
 
 ---
 
