@@ -1,3 +1,14 @@
+## Latest checkpoint: h1086:s3 | 2026-11-25
+
+The current Orson cognition cursor is maintained in [CURRENT_WORK.md](CURRENT_WORK.md); the latest receipt is [h1086:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0636Z_s3_orson_vay.md).
+
+- **Primary remit:** LLM cognition and human–LLM systems, under the historical MIRA user-role appointment and the later four-of-five steering protection. The role charter remains an assistant-maintained synthesis, not a signed standalone Nathan charter.
+- **Current P1 state:** OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No experiment or paper-gate advancement.
+- **Source correction:** OV-49–OV-53 are geometry/finite-core artifacts, not the missing cognition bank. See the dated amendment at the top of [ROLE_CHARTER_2026-10-09_LLM_COGNITION.md](ROLE_CHARTER_2026-10-09_LLM_COGNITION.md).
+- **Formalization:** PR #2375 is OPEN / DRAFT / UNMERGED. Its new dependence-identifiability theorem compiled in the existing Lean workflow; see [PR discussion](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7155579135).
+
+---
+
 ## h1063:s4 final continuity override | 2026-11-24T08:18Z
 
 This is a same-run reconciliation of the already-existing h1063:s4 report, not a second research report.
