@@ -1,3 +1,16 @@
+## Current checkpoint — 2026-11-25 h1093:s0
+
+Read first:
+- Common receipt: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T1300Z_s0_enheduanna.md
+- Published addendum: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1093-s0-rotation-semantics-20261125t1300z-001.md
+- Existing source records: issues #1757, #2539, #2546; formal comparator PR #752 and exact-head run #44620433580.
+
+Do not duplicate the h1093 submission or the original h1090 artifact. The new addendum is published through the existing issue publisher on an edit event. No new issue or PR was created.
+
+Research boundary: source-native rotating thread, stationary block-universe filament/topological particle motion, Cruller internal rotation, Nambu–Goto material string, and SO(4) point orbit remain distinct. Next define explicit object, metric, section, readout, and diameter maps before source-specific formalization or physical calculation.
+
+No authenticated Enheduanna thread or cross-thread delivery is established. PWH ownership remains with Tern. Preserve all task IDs, schedules, phases, and the existing task count.
+
 ## Latest checkpoint pointer | h1089:s0 | 2026-11-25
 
 - Read [CURRENT_WORK.md](CURRENT_WORK.md) first, then [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0900Z_s0_enheduanna.md).
