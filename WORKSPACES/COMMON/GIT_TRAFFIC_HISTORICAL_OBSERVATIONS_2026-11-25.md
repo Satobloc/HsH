@@ -304,4 +304,26 @@ The 1,749 SAT window (09/10–23) and 1,048 SAT window (09/21–10/04) share 09/
 
 The 9.8.26 composite also embeds direct 14-day daily clone series for 2026-08-25–09-07: SAT values sum exactly to 698 and HsH values sum exactly to 287. These are separate direct repository-labelled captures. The associated daily view totals sum to SAT 1,589 and HsH 268; views are not clone counts. Daily unique-cloner values remain non-additive.
 
+
+
+## GTT-01.D latest unique-cloner evidence bound and upload provenance
+
+For the HsH 2026-11-10–11-23 / 119,670-clone CSV, the paired daily unique-cloner CSV blob 8bebccc6ff6c1e5f6704161ff57d7eb54f41f66c has 14 daily values: 979, 1,010, 1,196, 1,227, 1,119, 1,090, 1,273, 1,460, 1,322, 1,243, 6,526, 2,231, 2,907, 1,428. The daily sum is 25,011; maximum is 6,526 on Nov 20. The 14-day deduplicated unique-cloner total remains UNKNOWN. Conditional on consistent daily identity semantics, its set-union size must be between 6,526 and 25,011. This is a mathematical bound, not an estimate or a dashboard total. Both clone and paired unique files were uploaded in commit 7188eac413fbf979933f53bc98ebfcb1f047cafe at 2026-11-25 03:01:48Z; this timestamp is not the dashboard capture time.
+
+For direct but unwindowed candidate captures, repository file history gives upload times separately from Traffic windows:
+- HSH_gitclones.txt: 2026-09-16 20:49:36Z.
+- HSH_repo_stats.txt: 2026-10-08 05:43:20Z.
+- HSH_commits.txt: 2026-09-12 15:44:09Z.
+- HSH ACTIVITY.txt: 2026-09-13 10:26:07Z.
+- hsh_data_nov1_2026.txt: 2026-11-06 04:46:09Z.
+- 30k.txt and HSH_54k.txt: 2026-11-04 12:54:20Z.
+- JOINT STATS.txt and 23swp42.txt: 2026-11-06 06:09:21Z.
+- 42.JPG, 3400.JPG and hsh48.JPG were uploaded together at 2026-11-06 05:27:54Z. hsh48.JPG carries a separate EXIF capture time of 2026-11-03 13:01:24.465Z. The other two images' EXIF could not be read in this access pass.
+- 9.8.26 -- GITSTATS.txt: 2026-09-10 13:59:13Z.
+- GHUBclones.txt: 2026-10-08 05:12:41Z.
+- HSH_TRAFFIC_23SEP26.txt: 2026-09-30 17:29:29Z.
+These times are file upload/commit provenance unless expressly marked EXIF or a daily-series window. They do not establish the dashboard capture time.
+
+Targeted HSH_RESOURCES fallback searches did not surface a separate 119,670-window unique-cloner capture. The connected GitHub interface rejected a direct repository Traffic API URL as unsupported, and no dedicated Traffic-read action is exposed here. Exact window-level unique count and exact capture time remain unknown.
+
 @⌕▣✓⇢
