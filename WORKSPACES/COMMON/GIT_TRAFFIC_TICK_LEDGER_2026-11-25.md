@@ -262,7 +262,6 @@ The EXPOSURE_STATS/EXP_ANALYSIS/CONCAT_FULL_GIT_STATS.txt composite (blob af7005
 
 **GTT-01.A remains IN PROGRESS.** This tranche expands relevant HSH_RESOURCES and HsH duplicate/cross-reference coverage, but source inventory is not closed. No new candidate was promoted into the historical-observation catalogue, and no canonical clone-event row was written. Next: bound remaining HSH_RESOURCES image/index leads and record explicit inventory closure/limits before moving to ⌕↦.
 
-@⌕↦⌕∑⌕∅▣✓⇢
 
 ## GTT-01.A close / GTT-01.B start — 2026-11-25
 
