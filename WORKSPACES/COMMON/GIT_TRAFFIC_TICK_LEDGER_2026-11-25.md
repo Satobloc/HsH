@@ -285,7 +285,6 @@ B must now assign or leave unresolved the remaining direct captures and single-r
 
 **GTT-01.B exit condition:** every in-scope artifact is assigned to one measured repository/metric/window with evidence, or left explicitly unresolved with the missing discriminator named. After B, GTT-01.C will reconcile the compatible daily series and rolling-window bridges.
 
-@⌕∑⌕∅▣✓⇢
 
 
 ## GTT-01.B measured-repository / metric / window mapping register — 2026-11-25
@@ -342,5 +341,13 @@ B must now assign or leave unresolved the remaining direct captures and single-r
 - The earlier GITHUB_ASSISTANT_CONVO narrative is a historical assistant interpretation, not a source for assigning humans, bots or internal tools to cloners.
 
 **GTT-01.B disposition:** COMPLETE for the bounded candidate set. Sources are mapped where direct evidence supports repository and window; all others are explicitly unresolved with the missing discriminator recorded. **GTT-01.C is now active:** quantitatively reconcile the mapped daily series and rolling-window bridges without adding overlapping 14-day snapshots or daily unique-cloner values.
+
+
+### B supplemental mapping: low-volume control and SAT captures
+
+Two more non-HsH source identities are mapped and remain separate from the HsH target:
+- HAUL 3/githacto.txt explicitly identifies Satobloc/SAT_THEORY_ARCHIVE_2023-25 and reports 370 clones / 48 unique cloners. HAUL 3/Clones in last 14 days.csv (blob 42feceb575e4923bf651c568a3b03ff8c8ed83d8) covers 2026-08-23–09-05 and sums exactly to 370; this is a confirmed SAT mapping. A paired daily unique-cloner export was not located in this pass, so 48 remains the directly reported window-level value.
+- HSH_RESOURCES/EXPOSURE_STATS/_SAT  Satobloc GitHubStats/CONTROLS.txt explicitly identifies Satobloc/satoskills and reports 4 clones / 4 unique cloners. Its CONTROLS/Clones in last 14 days (3).csv (blob 70f87c880f0ecbcdbaf182767a06ac7608ed2da4) covers 2026-09-09–09-22 and sums to 4, with graph range 0–1; paired unique daily series (blob 0f232adcfd8551519d34a5bb464f4bc9ac00291b) is consistent in dates/range. Satoskills is a separate control repository, not HsH.
+- The other CONTROLS series totals 5 clones / 5 mechanically summed daily unique values but has no direct repository-labelled source match. It remains unresolved.
 
 @⌕∑⌕∅▣✓⇢
