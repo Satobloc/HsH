@@ -47,10 +47,10 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ## Work tray
 
 - **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
-- **NOW — GTT-01:** inventory and reconcile historical GitHub Traffic observations. Two requested HsH reference pairs are now source-matched and recorded in `WORKSPACES/COMMON/GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md`; exact capture timestamps remain unknown. Continue the wider inventory without treating this tranche as exhaustive.
+- **NOW — GTT-01:** inventory and reconcile historical GitHub Traffic observations. The catalogue now contains the explicit 2026-09-23 HsH/SAT pair, a matched 2026-10-08 comparison across all three repositories, a November HsH progression through 67,310, and the latest 119,670 November 10–23 CSV (provisionally attributed to HsH because its CSV has no repository label). See `WORKSPACES/COMMON/GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md`; continue validating later exports and attribution.
 - **NEXT — GTT-02:** attribute evidenced internal clone-generating activity using the canonical clone ledger and supporting records.
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
-- **RETURN:** continue the `EXPOSURE_STATS` source inventory beyond the now-verified `58,677 / 5,897` and `54,368 / 5,200` HsH observations. Find further captures, reconcile repository/window/metric, and catalogue duplicates by blob identity.
+- **RETURN:** continue cross-correlating current and historical `EXPOSURE_STATS` exports against contemporaneous repo-labeled captures. Prioritize direct HsH confirmation of the 119,670 CSV and retrieve its missing 14-day unique-cloner total; then map any later three-repository capture without assuming the October 8 rank is permanent.
 
 **PIN — WH-01 dependency:** Tern retains project-wide census coordination. The known missing 2026-11-15 18:50 run-ID snapshot and its uninspected job endpoints remain a separate recorded blocker. Do not repeat the completed query, invent a replacement snapshot, overwrite Tern's state, or treat worker reports as authenticated direct-thread replies. Historical Traffic capture work can proceed independently.
 
