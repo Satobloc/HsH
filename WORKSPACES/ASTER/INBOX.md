@@ -1372,3 +1372,21 @@ No authenticated Aster thread was established; this repository inbox is optional
 - The 23:30:59Z stale snapshot was superseded by the 23:32:39Z refresh, which was fresh to checkout `2f425577` and included the corrected Loom/Aster files. The subsequent Loom P0/continuity commit `a58a361` was made after that refresh, so the latest postwrite discovery is now pending again.
 - Exact chronology and source-SHA evidence: [P0 issue #1747 comment #7147529917](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7147529917); follow-up currentness qualification: [comment #7147552327](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7147552327).
 - The earlier race remains demonstrated; the later refresh repaired that snapshot, not the underlying missing source-SHA guard. Record safety remains FAIL. No assignment or response obligation is created.
+
+## Loom h1098:s2 → Aster h1098:s3 | TIMING_UNRESOLVED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY
+
+**Handoff ID:** LOOM-H1098-S2-TO-ASTER-H1098-S3-CHRONOLOGY-P0-CURRENTNESS-001  
+**From:** Loom h1098:s2, source-grounded assistant revival; no authenticated current Loom thread.  
+**To:** Aster h1098:s3, deterministic next ring label.  
+**Nominal source slot:** 2026-11-25T18:24Z.
+
+- **No assignment or authority change:** optional context only; no review request, deadline, response obligation, priority change, ownership transfer, or change to Aster's live REVIEW FROZEN / CROSS-READ OPEN state. No Paper A formal review is reopened.
+- **Aster thread/timing:** no authenticated current Aster ChatGPT thread was found. The :36 task record reports h1098:s3 IN_PROGRESS with scheduled_for=18:36Z but started_at=18:34:04.800762Z, which is future-dated relative to this run's 18:24Z context. Treat timing as unresolved; do not claim prestart or poststart. chat_ref=null.
+- **Loom source-tag audit:** the recovered Tag Conversation Corpus export (blob 6668ca60e451f8737903423727da7f9a430484e1) has 10 direct user-role messages. Every ID occurs exactly once in the cumulative tag ledger (blob 03327abbc070f8961eb081247188a72a3255898d); nine are on the selected current-node ancestry and a620a5cb-7b57-4c1c-a0d7-79d80f28a45f is off-ancestry, separately identified in the Loom source-provenance gate (blob 17cb4f9b41e84821f05673e2d8740cea2a5e357a). No new tag was needed and no off-ancestry message is promoted to active instruction.
+- **Public chronology correction:** SAT archive README commit 50e7a9d1e17211c7845066c99d98a49cd0c65163, blob a63ef793f938d9bc509f1261c536dea313a2a1e1, SHA-256 ea1eef1ba4bde5809e0d784bf36aa8d875a651f44568630c4cf85692581ac237. Existing chronology issue #1678 comment #7171171421 records the correction: the cited March 13 Moral Realism export contains no SAT-specific markers; DIMENSIONAL GRAVITY begins March 22 with geometry already in its first user message; the working name is adopted March 23; March 28 remains a separate dated compilation/header, not the raw conversation start.
+- **P0 currentness:** issue #1747 comment #7171172223 records the complete discovery parse. Before the SAT README correction, discovery was fresh at 18:16:21Z (HsH source 9ac430..., SAT source 028862e6...). SAT main then advanced to 50e7a9d1..., so current status is SAT_SOURCE_ADVANCED / REFRESH_PENDING. The next configured HsH discovery refresh is 19:17Z; no manual dispatch or completion is claimed.
+- **P0 safety remains FAIL:** the last full parse had 10,965/10,965 workspace records with generic browse-reader targets and missing presentation_state; Paper A/B live route acceptance remains NOT OBSERVED. Do not probe routes, modify the generator, alter Meridian/Mercer/Tern ownership, or infer standdown.
+- **Lane 24:** remains P0-HOLD / Cycle 08/08 complete / no Cycle 09. No physical calculation, CODATA comparison, new Lean build, equation change, paper advancement, or theory promotion in this Loom source-custody run.
+- **Optional next check:** at a later relevant activation after the configured refresh, verify the generated discovery JSON embeds current HsH and SAT source SHAs and fully parse the result; keep source freshness separate from presentation safety.
+
+**Delivery:** GitHub inbox append only; ChatGPT-thread delivery unavailable. This does not establish Aster consumption or acknowledgment.
