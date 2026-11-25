@@ -3,7 +3,7 @@
 > **Small but significant bites. Don't choke, don't nibble.**
 
 **Created:** 2026-11-25  
-**Status:** READY / GTT-01 active; execution has not begun under this ticker  
+**Status:** IN PROGRESS / GTT-01 active; GTT-01.A closed within its bounded HSH_RESOURCES-first inventory scope; GTT-01.B is now active.
 **Parent:** [GIT_TRAFFIC thread key](GIT_TRAFFIC_THREAD_KEY.md)  
 **Evidence catalogue:** [Historical Traffic observations](GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md)  
 **Event ledger:** [Canonical append-only clone ledger](CLONE_LEDGER.jsonl)  
@@ -104,7 +104,7 @@ The canonical `CLONE_LEDGER.jsonl` is shared and append-only across work lanes. 
 
 ## GTT-01.A live source-inventory checkpoint — 2026-11-25
 
-**State:** IN PROGRESS. The live cursor remains at `@⌕ᵃ`; this is a partial inventory, not Tick completion.
+**State:** COMPLETE within the documented HSH_RESOURCES-first source sweep, with explicit search and directory-coverage limits. All discovered Traffic candidates have a disposition (mapped, direct but unwindowed, duplicate, contextual/non-telemetry, excluded, or unresolved).
 
 ### Enumerated source collections
 
@@ -129,7 +129,7 @@ The canonical `CLONE_LEDGER.jsonl` is shared and append-only across work lanes. 
 
 The working `GITHUB_STATS_INDEX.md` (blob `bd530cb15ef3e314d1126e768f90dcf3fe666100`) explicitly labels its coverage as an initial discovery pass, not exhaustive. Its candidate list points to additional HsH dump folders and SAT-era captures. The 1,000-entry HsH directory response is also ceiling-limited. Explicit requests using `page=11`, `page=12`, and `page=13` returned the same 1,000-item set rather than subsequent pages; the current connector route therefore has not provided a usable continuation cursor for that directory. Do not treat repeated responses as additional coverage. Accordingly, GTT-01.A is not closed.
 
-**Next within GTT-01.A:** continue enumerating the remaining HsH dump/source paths and known SAT-era locations; record direct file paths, blob identities, duplicate families and provenance. Keep telemetry captures distinct from analysis/conversation records. Once the accessible candidate source universe is inventoried or each remaining limit is explicitly bounded, advance to `⌕↦` to assign measured-repository identity and source role.
+**GTT-01.A closure:** the HSH_RESOURCES EXPOSURE_STATS root, GitHubStats subfolder, EXP_ANALYSIS, top-level HISTORICAL and relevant direct-search/image-index hits have been inventoried. Targeted fallback searches returned 55 clone-query and 48 unique-cloner-query matches; relevant candidates were triaged into the source ledger. The HsH 30SEP dump remains capped at 1,000 returned entries and is not an exhaustive secondary-repository listing. This is a bounded inventory, not a claim of complete three-repository visibility. Mysearch remains unvalidated, Mersearch's four lanes remain occupied, and the fallback searches were not a bespoke archive-search run.
 
 **Not yet done in this checkpoint:** no newly surfaced candidate has been added to the historical-observation catalogue as a verified observation; no measured-repository CSV assignment has been inferred from storage location; no arithmetic or internal/external attribution has been performed.
 
@@ -219,7 +219,7 @@ The SAT Insights capture in HSH_RESOURCES/EXPOSURE_STATS/_SAT  Satobloc GitHubSt
 ### Additional direct Traffic candidates, not yet promoted to the historical catalogue
 
 - HSH_RESOURCES/EXPOSURE_STATS/_SAT  Satobloc GitHubStats/JOINT STATS.txt (blob f10f4e071f5a3c165dd94c6ffa1d69f2793edb6b): HsH 12,506 / 1,799, graph ranges 79–1,748 and 53–497; SAT 1,239 / 338, graph ranges 12–263 and 3–75. HsH Pulse panel is 2026-09-16–23. The same blob exists in HsH DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/JOINT STATS.txt and SAT_CONVOS_21/JOINT STATS.txt.
-- HSH_RESOURCES/EXPOSURE_STATS/HSH_TRAFFIC_23SEP26.txt (blob c4862774a019929f7a70950004d5f9845f1b5c61): HsH 11,912 / 1,735, graph ranges 79–1,748 and 53–497. Its Pulse panel is 2026-09-15–22. The same blob exists in the HsH 30SEP dump.
+- HSH_RESOURCES/EXPOSURE_STATS/HSH_TRAFFIC_23SEP26.txt (blob c4862774a019929f7a70950004d5f9845f1b5c61): HsH 11,912 / 1,735, graph ranges 79–1,748 and 53–497. Its Pulse panel is 2026-09-15–22. The same blob exists in the HsH 30SEP dump. The earlier catalogue's matched HsH daily CSV establishes the Traffic window as 2026-09-08–2026-09-21; the Pulse panel is a separate date interval and is not used as the Traffic window.
 - These two HsH captures have different totals but identical graph ranges and Pulse intervals one day apart. The exact Traffic chart date labels are absent. Retain as separate potentially overlapping rolling candidates; do not add them or infer exact Traffic windows from Pulse dates.
 - The SAT section of JOINT STATS reports the same 1,239 / 338 and ranges as SAT_TRAFFIC_23SEP26.txt (blob 95458b642ec0b79b01f735784918c24ba267fea5). Their Pulse panels differ by one day; the shared metrics may be a repeated/captured-identical observation family, but the exact Traffic chart dates are unobserved.
 - HSH_RESOURCES HSH_repo_stats.txt (blob 37b2325e376c941c3cc8e23aed78580c4bc39467) explicitly identifies HsH and reports 736 / 309; Pulse Sep 4–11 is not a proven Traffic window.
@@ -262,4 +262,28 @@ The EXPOSURE_STATS/EXP_ANALYSIS/CONCAT_FULL_GIT_STATS.txt composite (blob af7005
 
 **GTT-01.A remains IN PROGRESS.** This tranche expands relevant HSH_RESOURCES and HsH duplicate/cross-reference coverage, but source inventory is not closed. No new candidate was promoted into the historical-observation catalogue, and no canonical clone-event row was written. Next: bound remaining HSH_RESOURCES image/index leads and record explicit inventory closure/limits before moving to ⌕↦.
 
-@⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
+@⌕↦⌕∑⌕∅▣✓⇢
+
+## GTT-01.A close / GTT-01.B start — 2026-11-25
+
+### Bounded inventory disposition
+
+GTT-01.A is closed for the current HSH_RESOURCES-first scope. Direct directory inventories and targeted content searches covered EXPOSURE_STATS (176 entries), the dedicated _SAT  Satobloc GitHubStats folder (120), EXP_ANALYSIS (21), top-level HISTORICAL (57), the relevant EXPOSURE_STATS subfolders, image-text index and discovered cross-repository copies. The targeted generic GitHub fallback produced 55 clone-query hits and 48 unique-cloner-query hits in HSH_RESOURCES; the relevant results were classified as direct capture, single-repository CSV, composite/duplicate, OCR/image lead, derivative/context only, excluded PRIOR_ART, or non-Traffic. The source universe is bounded by the current indexes/search routes, not claimed exhaustive.
+
+The main secondary limitation is the HsH 30SEP26_DUMP 1,000-entry directory cap; targeted Traffic paths were read, but the folder listing itself remains incomplete. Mysearch is not production-validated and no dispatch action is exposed; all four Mersearch request lanes remain occupied. This tick used only disclosed generic GitHub search fallback plus direct source reads. None of these limitations is converted into a zero or an absence claim.
+
+### GTT-01.B live objective — measured-repository identity and window
+
+The confirmed cross-file fingerprints to carry into B are:
+- HsH 6,856 / 1,200, 2026-09-21–10-04, matched to its 6,856 daily clone CSV and companion unique-cloner daily series.
+- SAT archive 1,048 / 245 and HSH_RESOURCES 622 / 198, each separately matched to its own 2026-09-21–10-04 single-repository clone CSV. Keep these separate from HsH.
+- HsH 11,912 / 1,735, 2026-09-08–09-21, as already established by the matched unsuffixed HsH CSV series in the historical-observation catalogue. Its Pulse panel dates must not replace the Traffic window.
+- SAT archive 1,239 / 338, 2026-09-09–09-22, as already established by the matched (1) CSV series in the historical-observation catalogue.
+- SAT archive 1,749 / 451, 2026-09-10–09-23, matched to the (4) daily clone/unique CSV pair; daily unique sum is not the dashboard total.
+- Existing HsH series at 35,651, 54,368, 58,677, 67,310 and 119,670 retain their separately catalogued windows and source evidence.
+
+B must now assign or leave unresolved the remaining direct captures and single-repository CSVs, including HsH 12,506 / 1,799 (direct source but exact Traffic window unknown), 7,090 / 1,136, 736 / 309, 957 / 367, 2,705 / 665, 30,115 / 3,356, and the HsH dump CSV series not yet matched to direct captures. For each, distinguish the Pulse date, Traffic chart window, upload timestamp and capture timestamp. Image-only 42,111-clone and 3,999-unique candidates remain unassigned. Do not map from storage repository, filename suffix, or a nearby Pulse interval alone.
+
+**GTT-01.B exit condition:** every in-scope artifact is assigned to one measured repository/metric/window with evidence, or left explicitly unresolved with the missing discriminator named. After B, GTT-01.C will reconcile the compatible daily series and rolling-window bridges.
+
+@⌕↦⌕∑⌕∅▣✓⇢
