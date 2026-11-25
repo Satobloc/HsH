@@ -49,10 +49,10 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ## Work tray
 
 - **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
-- **NOW — GTT-01.C / `@⌕∑`:** reconcile mapped daily clone series, overlapping rolling windows, duplicate families and capture-to-CSV arithmetic. Keep daily unique-cloner sums separate from deduplicated window totals.
-- **NEXT — GTT-01.D:** recover direct window-level unique-cloner totals and exact dashboard capture times where possible; otherwise retain UNKNOWN.
+- **NOW — GTT-01.D / `@⌕∅`:** recover missing direct window-level unique-cloner totals and exact dashboard capture/window timing, especially for HsH's 119,670 window and direct-but-unwindowed captures. Preserve UNKNOWN where source evidence does not recover the field.
+- **NEXT — GTT-01.E:** record the final reconciled observation tranche and its explicit gaps.
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
-- **RETURN:** reopen GTT-01.B only if a newly discovered artifact requires a measured-repository/window assignment. Otherwise continue with quantitative reconciliation and preserve all unresolved mappings.
+- **RETURN:** reopen GTT-01.C only if new daily clone rows, historic CSV versions or duplicate provenance alter a verified arithmetic bridge; otherwise work GTT-01.D and preserve direct-evidence gaps.
 
 **Shared-ledger lane boundary:** `CLONE_LEDGER.jsonl` is append-only and may advance through PHYS/BIO/GIT work. During this turn, the latest observed commit `f7ddeadc38b4c2b3258ac745bf65ea2c7931a761` appended three PHYS API-only provenance rows; they are not GIT_TRAFFIC observations. GIT-02 must classify shared rows individually. This lane did not write a clone-event row.
 
@@ -132,4 +132,4 @@ Exact daily arithmetic verified the HsH 6,856 → 7,178 and Resources 622 → 62
 
 Recovered the historical September clone/unique-cloner CSV blobs from HSH_RESOURCES commit history: HsH 11,912 for 09/08–21 and SAT 1,239 for 09/09–22. These exact series bridge into the Oct 8 HsH 6,856 and SAT 1,048 windows after dropping expired dates and adding the new dates; SAT 1,749 for 09/10–23 also reconciles exactly into 1,048. The 9.8.26 composite's direct daily series independently sum to SAT 698 and HsH 287 for 08/25–09/07. Daily unique-cloner sums remain non-additive. GTT-01.C has also corrected the 35,651 misattached daily series; the capture window is now UNKNOWN. Details and exact blobs/commits are in the Tick Ledger and observation catalogue.
 
-@⌕∑⌕∅▣✓⇢
+@⌕∅▣✓⇢
