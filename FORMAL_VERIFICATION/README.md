@@ -23,6 +23,20 @@ Compilation does not verify physical assumptions, interpretation, dimensional co
 
 The starter theorem is only a CI smoke test. Add separate imports to `HsHVerification.lean` when adding formal modules.
 
+## Mandatory semantic-overlap and source-map preflight
+
+Before adding a theorem, module, or proof PR, complete this bounded preflight against the current repository and open formalization branches:
+
+1. **Search by meaning, not only by theorem name.** Inspect existing formal modules, open PR diffs, and their theorem declarations for the same map property, fiber condition, composition rule, or identifiability result. Search all relevant namespaces and prior PR branches. Record the exact module path/blob and the strongest available build receipt.
+2. **Classify the proposed work.** Mark it as `EXACT_DUPLICATE`, `SPECIALIZATION_OR_REFINEMENT`, or `NEW_RESULT`. For a duplicate, reuse/import the existing theorem and close the duplicate draft without merging. A renamed theorem or different variable names do not make a new result.
+3. **Type every source operation before formalizing it.** Keep structural coarse-graining, support intersection, projection, transport/re-identification, comparison maps, and instrument/readout as distinct operations. A symbol such as `P` must retain its source-defined meaning and namespace; equal dimensions do not identify the underlying objects.
+4. **Write the composition contract.** State each domain and codomain, the exact order of composition, any transport of ambient structure/timesheet, admissible domain, and the common comparison codomain or comparison maps required to compare two routes. Do not call two routes equivalent merely because they share a codomain or produce equal dimensions.
+5. **Separate generic theorem from physical instantiation.** A generic factorization, commutation, or identifiability theorem does not supply a physical projection, coarse-graining, constitutive law, or detector map. If source-authorized maps are absent, keep the result conditional and list the missing maps; do not assign physical meaning to arbitrary functions.
+6. **Audit source authority and CI recency.** Prefer Mersearch-recovered originals. If only a BEDROCK register or assistant-prepared transcription is available, label it accordingly and do not call it a newly authenticated Nathan Direct quotation. Distinguish exact-head builds from merge-reference builds and historical builds; verify that the relevant module blob is unchanged before reusing an older result.
+7. **Stop on missing physical inputs.** Do not create finite fixtures, synthetic physical data, parameter values, or data-free calculations without explicit prior permission. A formal proof of an abstract statement does not authorize a physical calculation or prediction.
+
+The preflight is a workflow guard, not a theory axiom. It prevents duplicate proof submissions and blocks semantic drift between source-defined operations and their Lean abstractions. A successful build still checks only the formalized statement, not the source-to-model translation or physical premises.
+
 ## Mandatory Factory Floor handoff on Lean success
 
 When a specific submitted theorem receives a successful Lean CI result, **route the source-linked verification packet to Satobloc/FACTORY_FLOOR intake immediately**. Lean success is a transition into the Factory Floor, **not** promotion to accepted physics, BEDROCK, a paper, or the public website.
