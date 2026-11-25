@@ -101,3 +101,51 @@ The ledger's first HsH record is dated 2026-09-07. Absence of rows in an earlier
 **Lane boundary:** This is evidence analysis, not an HsH worker instruction channel, not project-wide WH-01 coordination, and not a replacement for the canonical event ledger or its taxonomy standard.
 
 @⌕↦⌕∑⌕∅▣✓⇢
+
+
+## GTT-02.A canonical event identity pass — complete — 2026-11-25
+
+### Source integrity and identity normalization
+
+- Read-only source blob: 6ec85e2d767587c6387d7312529d9c87c5c2690f.
+- Contents API read returned 563 JSONL rows; all 563 parsed successfully, with zero JSON parse errors.
+- HsH subset: 350 raw rows; 349 contain event_id; one legacy row has no event_id and remains an unresolved identity record.
+- HsH subset includes 29 rows explicitly marked as revisions/supplements through revision_of or is_revision.
+- In the primary Nov 10–23 window: 311 raw HsH rows; 27 explicit revision/supplement rows; all 27 revision_of targets were found in the complete ledger. The remaining 284 rows include one record without event_id and therefore 283 stable base event IDs.
+- No duplicate stable event_id was found among the HsH rows or within the Nov 10–23 window.
+- All 311 raw rows in the primary window retain traffic_attribution = UNKNOWN.
+
+**A disposition:** COMPLETE for the accessible source snapshot. Revision links and stable IDs are resolved wherever the ledger provides them. The one legacy row lacking event_id remains explicitly unresolved; no replacement ID was invented. Canonical ledger remains untouched.
+
+## GTT-02.B preliminary mechanism aggregation — active
+
+The 284 non-revision Nov 10–23 rows have been assigned a preliminary disjoint mechanism disposition:
+
+| Preliminary bucket | Rows | What the count means |
+|---|---:|---|
+| Positive Actions checkout evidence | 147 | Checkout-related event records, not clone counts |
+| Non-checkout API/connector evidence | 128 | GitHub API/Contents/connector operations, not full clones absent other evidence |
+| Workflow/provisioning uncertainty | 6 | 3 failed runs with no job records, 2 possible full clones with mechanism unknown, 1 repository-present/provisioning-unknown |
+| Partial file materialization | 1 | Explicitly not a full clone |
+| Other checkout-configuration evidence | 2 | Checkout appears in workflow configuration, but exact run/job/materialization is not established |
+
+For the 147 positive checkout-evidence records:
+- 120 have complete and unique (repository, run_id, run_attempt, job_id, step_number) keys.
+- 27 are missing one or more required key fields.
+- Materialization states across the 147: FULL_HISTORY 22; SHALLOW_1 106; UNKNOWN 19.
+- Among the 120 complete-key rows, no duplicate checkout key was found.
+- All 147 retain traffic_attribution = UNKNOWN.
+
+For all 284 non-revision records, traffic_attribution remains UNKNOWN. The traffic_clone_expected field has values UNKNOWN 155, NO 110 and false 19 in this window. Those are expectation/recording fields, not observed attribution and must not be interpreted as counts of confirmed non-clones.
+
+### Time-quality limitation
+
+Of the 284 non-revision rows, 141 include recorded_at_utc and 143 do not. Many timestamp_precision values explicitly identify scheduler or automation run-start times as batch anchors, with individual API-request times unavailable. Some Actions rows have precise job-log checkout timestamps, while others only have run creation/start times or publisher timestamps. Preserve each row's own timestamp_precision; do not allocate a batch of API operations to a specific Traffic day simply because the batch-start date falls inside the 14-day window.
+
+### Early window coverage
+
+The canonical HsH ledger has 0 rows in the mapped Sep 8–21 and Sep 21–Oct 4 Traffic windows, 2 rows in Oct 21–Nov 3, 6 in Oct 22–Nov 4, 6 in Oct 24–Nov 6, and 311 raw rows in Nov 10–23. Earlier zero-row windows are ledger coverage gaps, not evidence of zero internal activity.
+
+**B next bite:** refine the 147 checkout-evidence records into fully keyed checkout steps, incomplete checkout candidates and configuration-only evidence; inspect whether the two possible-full-clone runs and six uncertain workflow/provisioning records have recoverable job/log evidence. Keep actual Traffic attribution UNKNOWN unless a direct Traffic source can resolve it.
+
+@⌕∑⌕∅▣✓⇢
