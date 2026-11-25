@@ -225,4 +225,103 @@ theorem invertible_whitening_preserves_local_distinguishability
 #print axioms invertible_whitening_preserves_nuisance_membership
 #print axioms invertible_whitening_preserves_local_distinguishability
 
+
+/-!
+## Product-domain dimension versus full-rank local support
+
+The preceding product-dimension results count independent parameters. They do
+not establish that a supplied map uses those parameters independently in the
+ambient tangent space. The following gate makes that missing distinction
+explicit for both the 1D-curve-plus-three-extensions and
+2D-worldsheet-plus-two-thickness cases.
+
+A rank-four differential gives a locally full-dimensional linearized image.
+It does not by itself establish that the linear map is the derivative of a
+source-defined smooth map, nor that the global image is embedded or injective.
+-/
+
+variable {K : Type*} [Field K]
+variable {Base Extension Ambient : Type*}
+  [AddCommGroup Base] [Module K Base] [FiniteDimensional K Base]
+  [AddCommGroup Extension] [Module K Extension] [FiniteDimensional K Extension]
+  [AddCommGroup Ambient] [Module K Ambient] [FiniteDimensional K Ambient]
+
+/-- A supplied candidate differential from a base × extension parameter
+    domain into a four-dimensional ambient tangent space. The dimensions
+    count the product domain; the differential separately determines its
+    local image rank. No source-to-map or smooth-derivative correspondence
+    is assumed. -/
+structure SupportExtensionLinearization where
+  baseDimension : Nat
+  extensionDimension : Nat
+  baseDimension_eq : Module.finrank K Base = baseDimension
+  extensionDimension_eq : Module.finrank K Extension = extensionDimension
+  ambientDimension_eq : Module.finrank K Ambient = 4
+  differential : (Base × Extension) →ₗ[K] Ambient
+
+namespace SupportExtensionLinearization
+
+variable (S : SupportExtensionLinearization
+  (K := K) (Base := Base) (Extension := Extension) (Ambient := Ambient))
+
+/-- Rank-nullity for the supplied product-domain differential. -/
+theorem rank_add_nullity :
+    Module.finrank K (LinearMap.range S.differential) +
+      Module.finrank K (LinearMap.ker S.differential) =
+      Module.finrank K (Base × Extension) :=
+  S.differential.finrank_range_add_finrank_ker
+
+/-- The product tangent-domain dimension is the sum of its base and
+    extension dimensions. -/
+theorem domain_dimension :
+    Module.finrank K (Base × Extension) =
+      S.baseDimension + S.extensionDimension := by
+  rw [Module.finrank_prod, S.baseDimension_eq, S.extensionDimension_eq]
+
+/-- If the parameter counts sum to four, the product domain is
+    four-dimensional. This is not yet a statement about the image. -/
+theorem four_dimensional_product_domain
+    (hDomain : S.baseDimension + S.extensionDimension = 4) :
+    Module.finrank K (Base × Extension) = 4 := by
+  calc
+    Module.finrank K (Base × Extension) =
+        S.baseDimension + S.extensionDimension := S.domain_dimension
+    _ = 4 := hDomain
+
+/-- A four-dimensional product domain with injective supplied differential
+    has a rank-four local linearized image. -/
+theorem injective_differential_has_full_rank
+    (hDomain : S.baseDimension + S.extensionDimension = 4)
+    (hInjective : Function.Injective S.differential) :
+    Module.finrank K (LinearMap.range S.differential) = 4 := by
+  have hKer : LinearMap.ker S.differential = ⊥ :=
+    LinearMap.ker_eq_bot.mpr hInjective
+  have hNull : Module.finrank K (LinearMap.ker S.differential) = 0 := by
+    rw [hKer]
+    simp
+  have hProduct := S.four_dimensional_product_domain hDomain
+  have hRankNullity := S.rank_add_nullity
+  rw [hProduct, hNull] at hRankNullity
+  omega
+
+/-- If a four-dimensional product domain has rank-deficient image, at least
+    one parameter direction lies in the differential kernel. Parameter
+    counting alone therefore does not establish a four-dimensional support. -/
+theorem rank_defect_requires_nonzero_kernel
+    (hDomain : S.baseDimension + S.extensionDimension = 4)
+    (hRank : Module.finrank K (LinearMap.range S.differential) < 4) :
+    0 < Module.finrank K (LinearMap.ker S.differential) := by
+  have hProduct := S.four_dimensional_product_domain hDomain
+  have hRankNullity := S.rank_add_nullity
+  rw [hProduct] at hRankNullity
+  omega
+
+end SupportExtensionLinearization
+
+#print SupportExtensionLinearization.rank_add_nullity
+#print SupportExtensionLinearization.domain_dimension
+#print SupportExtensionLinearization.four_dimensional_product_domain
+#print SupportExtensionLinearization.injective_differential_has_full_rank
+#print SupportExtensionLinearization.rank_defect_requires_nonzero_kernel
+
 end HsHVerification.RavelCurrentSupportIdentifiabilityGate
