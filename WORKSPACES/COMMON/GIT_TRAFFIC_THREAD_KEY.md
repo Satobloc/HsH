@@ -46,9 +46,11 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 
 ## Work tray
 
-- **NOW:** establish this independent lane and recover the historical Traffic observation set.
-- **NEXT:** create a provenance-preserving canonical observation catalogue, reconcile duplicate files/blobs, and resolve repository, metric label, capture date and observation window for every selected capture.
-- **RETURN:** resume from `EXPOSURE_STATS` inventory and the two reference pairs in the traffic-rules conversation: `58,677 / 5,897` and `54,368 / 5,200`. They are source-locating targets until each underlying capture, repository, metric and window is verified.
+- **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
+- **NOW — GTT-01:** inventory and reconcile historical GitHub Traffic observations.
+- **NEXT — GTT-02:** attribute evidenced internal clone-generating activity using the canonical clone ledger and supporting records.
+- **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
+- **RETURN:** begin with the `EXPOSURE_STATS` source inventory and the two reference pairs in the traffic-rules conversation: `58,677 / 5,897` and `54,368 / 5,200`. They are source-locating targets until each underlying capture, repository, metric and window is verified.
 
 **PIN — WH-01 dependency:** Tern retains project-wide census coordination. The known missing 2026-11-15 18:50 run-ID snapshot and its uninspected job endpoints remain a separate recorded blocker. Do not repeat the completed query, invent a replacement snapshot, overwrite Tern's state, or treat worker reports as authenticated direct-thread replies. Historical Traffic capture work can proceed independently.
 
@@ -63,10 +65,14 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ### GTT-03 — External residual and share estimate
 **Expected result:** matched-window low/central/high estimates for known internal contribution and unexplained/external residual, with explicit assumptions and coverage limits. Report clone counts and unique-cloner implications separately. No residual estimate until the observation windows and internal evidence are comparably grounded.
 
+## Current ticker
+
+**Active Tock:** GTT-01 — Historical Traffic observations  
+**Ticker:** `⌖◉@⌕▣✓⇢`
+
 ## Tick discipline
 
 The live ticker describes the active Tock's operations. Adjacent glyphs imply left-to-right succession; `⇢` is a deliberate decision point, not a routine separator. `@` marks the next uncompleted operation and is not an operation itself.
 
-**Current lane-setup Tock:** `⌖◉⌕@▣✓⇢`  
-After the lane key and shared-method references are durably written and independently read back, close this setup Tock and advance the Work Tray to GTT-01. Do not advance a Tock because a chat turn or tool call occurred.
+**GTT-00 close:** lane key and shared-method references are durably written and independently read back. The setup Tock is closed; the current cursor is GTT-01. Do not advance a Tock because a chat turn or tool call occurred.
 
