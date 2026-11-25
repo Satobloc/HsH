@@ -152,5 +152,6 @@ theorem identifiable_iff_under_observation_and_feature_preserving_equiv
 #print axioms jointObservation_invariant
 #print axioms target_not_identifiable_from_joint_channels
 #print axioms added_channel_separates_symmetry_pair
+#print axioms identifiable_iff_under_observation_and_feature_preserving_equiv
 
 end HsHVerification.ObservationSymmetryIdentifiability
