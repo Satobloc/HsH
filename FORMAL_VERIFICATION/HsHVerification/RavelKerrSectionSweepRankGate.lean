@@ -18,6 +18,13 @@ import Mathlib
   7577aa1ee5a6c3850ce3b226c75377de6367aedc: defines a 1D filament
   gamma : R -> R^(3,1) and describes the worldtube as the 4D volume swept
   out by the vibrating filament.
+- Nathan Direct, `ND Workshop Relay :24 Geometry` raw export, user message
+  `c0520975-02a0-408f-a250-364b88ab7b30`, 2026-11-08T20:18:10.172Z:
+  explores w as a fourth spatial direction and time proper as distinct or
+  emergent along w, while leaving the Crullerverse/same-c-different-paths
+  construction tentative. It does not identify the September Kerr sweep
+  parameter with either w or proper time. The immediate assistant response's
+  "Minkowski-first home model" is not a Nathan Direct model-selection statement.
 - Separate SAT4D Canonical Summary, SATOBLOC/SAT4D_LIVE_DRAFT.txt,
   blob 2a79fe25018cce7e99a2c33786d88b0551db6ae7, byline Nathan McKnight,
   document date June 2025: repeats the 1D-curve / 4D-volume wording.
@@ -64,9 +71,12 @@ variable {SectionTangent FilamentParameterTangent AmbientTangent : Type*}
   [FiniteDimensional K AmbientTangent]
 
 /-- A supplied first-order candidate for extending a spatial section along
-    a one-dimensional filament parameter into four-dimensional spacetime.
-    The source-to-map correspondence and smooth-map derivative are not
-    supplied by this structure. -/
+    a one-dimensional filament parameter into a four-dimensional ambient
+    tangent space. The source does not type that ambient as Lorentzian
+    spacetime or as the proposed four-dimensional spatial Crullerverse, and
+    it does not identify the filament parameter with proper time or the
+    spatial w direction. The source-to-map correspondence and smooth-map
+    derivative are not supplied by this structure. -/
 structure SweepLinearization where
   sectionDimension : Nat
   sectionDimension_eq :
