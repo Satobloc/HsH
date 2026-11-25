@@ -3,7 +3,7 @@
 > **Small but significant bites. Don't choke, don't nibble.**
 
 **Created:** 2026-11-25  
-**Status:** IN PROGRESS / GTT-01 active; GTT-01.A, GTT-01.B and GTT-01.C complete within bounded source and mapped-series scope; GTT-01.D active.
+**Status:** IN PROGRESS / GTT-01 active; GTT-01.A–D and GTT-01.E complete for the bounded source scope; GTT-01.F independent verification active.
 **Parent:** [GIT_TRAFFIC thread key](GIT_TRAFFIC_THREAD_KEY.md)  
 **Evidence catalogue:** [Historical Traffic observations](GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md)  
 **Event ledger:** [Canonical append-only clone ledger](CLONE_LEDGER.jsonl)  
@@ -540,4 +540,11 @@ A direct repository Traffic REST read was also attempted through the connected G
 - 42,111 clone OCR, 3,999 unique OCR, and 1,022-view OCR remain unassigned by repository/window. No inferred attribution.
 - No remaining accessible source retrieved an exact missing value. These are now explicit evidence gaps rather than untracked search tasks.
 
-@⌕∅▣✓⇢
+
+## GTT-01.D close / GTT-01.E record close / GTT-01.F verification start — 2026-11-25
+
+GTT-01.D is complete within the accessible evidence routes: the 119,670-window unique total was not recovered directly; the daily-set union gives a conditional 6,526–25,011 bound only. Direct-but-unwindowed dashboard candidates now have upload provenance timestamps where available, kept separate from capture time. Exact window/capture times and OCR-only repository identities remain UNKNOWN. The direct GitHub Traffic API route is not exposed by the current connected GitHub interface. No absent field is treated as zero.
+
+GTT-01.E is complete: the historical-observation catalogue, thread key and tick ledger contain the source mappings, exact daily arithmetic, rolling bridges, version/duplicate lineage, and explicit unresolved fields. GTT-01.F now independently re-fetches and rechecks those artifacts and a sample of original source rows and calculations before the GTT-01.G transition gate.
+
+@✓⇢
