@@ -132,4 +132,11 @@ Exact daily arithmetic verified the HsH 6,856 → 7,178 and Resources 622 → 62
 
 Recovered the historical September clone/unique-cloner CSV blobs from HSH_RESOURCES commit history: HsH 11,912 for 09/08–21 and SAT 1,239 for 09/09–22. These exact series bridge into the Oct 8 HsH 6,856 and SAT 1,048 windows after dropping expired dates and adding the new dates; SAT 1,749 for 09/10–23 also reconciles exactly into 1,048. The 9.8.26 composite's direct daily series independently sum to SAT 698 and HsH 287 for 08/25–09/07. Daily unique-cloner sums remain non-additive. GTT-01.C has also corrected the 35,651 misattached daily series; the capture window is now UNKNOWN. Details and exact blobs/commits are in the Tick Ledger and observation catalogue.
 
+
+## GTT-01.D evidence-gap findings — 2026-11-25
+
+The 119,670 HsH window (11/10–23) has a paired daily unique-cloner series with sum 25,011 and maximum 6,526 on Nov20. The exact 14-day deduplicated unique total was not found; the daily-set union is bounded at 6,526–25,011, but this is not a direct dashboard count. Targeted fallback searches found no separate 119,670-window unique-cloner capture, and the connected GitHub interface rejects the Traffic REST endpoint as unsupported.
+
+Git history now supplies upload/commit timestamps for several direct captures, distinct from their Traffic windows. The hsh48 image has an EXIF capture timestamp (Nov3 13:01:24Z); the 42.JPG and 3400.JPG image metadata were not readable in this access pass. Exact windows/capture times for the other direct-but-unwindowed candidates remain UNKNOWN. Full provenance and remaining gaps are in the GTT Tick Ledger.
+
 @⌕∅▣✓⇢
