@@ -1,4 +1,4 @@
-## h1086:s3 current continuity override | 2026-11-25
+## Previous continuity checkpoint: h1086:s3 | 2026-11-25
 ## Latest checkpoint — h1090:s2 (2026-11-25T10:24Z)
 
 Current Orson work is a bounded cognition-literature crosswalk on within-agent memory re-entry, not a behavioral experiment or P1 protocol change.
@@ -14,7 +14,7 @@ Current Orson work is a bounded cognition-literature crosswalk on within-agent m
 - Next ring label Sable; existing optional inbox context is sufficient. No new handoff.
 
 
-Current cursor and detailed receipt: [CURRENT_WORK.md](CURRENT_WORK.md) and [h1086:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0636Z_s3_orson_vay.md).
+Current cursor and detailed receipt: [CURRENT_WORK.md](CURRENT_WORK.md) and [h1090:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T1024Z_s2_orson_vay.md).
 
 - PR #2375 remains OPEN / DRAFT / UNMERGED; existing merge-reference build #45563280088 succeeded, but no independent review, source-translation validation, or empirical validation is claimed.
 - Additive measurement note: [PR comment #7155579135](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7155579135), exact readback verified.
