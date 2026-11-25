@@ -148,7 +148,7 @@ The October 8 three-repository clone counts remain valid as recorded GitHub Traf
 
 Nathan also notes that HsH cloning was not tracked as closely in the earlier period. Therefore, the current sequence is a set of observed snapshots, not a complete or uniformly sampled HsH time series. Do not interpolate unobserved periods or treat gaps in the capture catalogue as periods of zero cloning.
 
-## Three-repository comparison — 2026-10-08 capture
+## Three-repository observation — 2026-10-08 capture (visibility-conditioned)
 
 Source: `EXPOSURE_STATS/GHUBclones.txt`, blob `50f6b79da4dc9cb59bee861d9f588dbd1dfb954b`; uploaded 2026-10-08 05:12:41Z in commit `d55a157ca2740f53dca6ffb62155ee22b5b2e582`. The concatenated dashboard text explicitly names each repository.
 
@@ -164,7 +164,7 @@ Matched daily CSVs in the Resources root independently sum to the three named cl
 - SAT archive: `Clones in last 14 days (1) - Copy.csv`, blob `93c574659301499894532e91bb6913afc16d8ba3`, sum **1,048**.
 - HSH_RESOURCES: `Clones in last 14 days (2).csv`, blob `d426b8a5cc02d24c7d78183540ab0698b569543a`, sum **622**.
 
-The matched three-repository total is **8,526 clones**. Shares: HsH **80.41%**, SAT archive **12.29%**, HSH_RESOURCES **7.30%**. HsH recorded about **6.54×** the SAT archive clones, **11.02×** the Resources clones, and **4.11×** the other two combined. This confirms the proposed ordering for this particular matched window. Do not add the unique-cloner totals across repositories: the same source may clone more than one repository.
+The matched raw three-repository total is **8,526 clones**. Arithmetic shares of that total are HsH **80.41%**, SAT archive **12.29%**, HSH_RESOURCES **7.30%**. HsH recorded about **6.54×** the SAT archive clone count and **11.02×** the Resources count. These are descriptive shares of the recorded clone events only, **not shares of public interest or externally exposed traffic**. Resources was initially private and may still have been private on 2026-10-08; its exact visibility state on that date is unresolved. If it was private, its 622 clones were restricted to authorized access paths, so comparison with the public repositories is exposure-asymmetric. Do not use this capture alone to rank public interest across all three. Do not add the unique-cloner totals across repositories: the same source may clone more than one repository.
 
 The daily unique-cloner CSVs are companion series, not additive window totals. Their maxima and day-by-day values can be compared, but their sum is not the dashboard's 14-day unique-cloner count.
 
