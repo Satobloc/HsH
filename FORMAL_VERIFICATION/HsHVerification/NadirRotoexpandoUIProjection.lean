@@ -343,7 +343,7 @@ theorem origin_on_antipodal_scaled_segment
       = fun _ => 0 := by
   funext i
   simp [orientedAffineSegment, antipodalScaledEndpoint]
-  field_simp [ne_of_gt (show 0 < 1 + σ by linarith)]
+  field_simp [ne_of_gt (show 0 < 1 + σ by linarith)] <;> ring
 
 /-- When σ is the outer-to-inner radius ratio rⱼ/rᵢ, the origin's
 segment parameter is rᵢ/(rᵢ+rⱼ). This is a conditional scalar bridge to
@@ -370,9 +370,9 @@ iff the two radial scales are equal. -/
 theorem antipodal_scaled_segment_midpoint_eq_origin_iff_scale_eq_one
     {d : ℕ} (p : CoordinatePoint d) {σ : ℝ}
     (hp : ∃ i, p i ≠ 0) :
-    orientedAffineSegment p (antipodalScaledEndpoint p σ)
+    (orientedAffineSegment p (antipodalScaledEndpoint p σ)
       ⟨(1 : ℝ) / 2, by norm_num, by norm_num⟩
-      = fun _ => 0 ↔ σ = 1 := by
+      = (fun _ => (0 : ℝ))) ↔ σ = 1 := by
   rw [antipodal_scaled_segment_midpoint]
   constructor
   · intro h
