@@ -43,7 +43,7 @@ namespace HsHVerification.KestrelJointObservableInteraction
     Source: Barckicke, Falcon & Gissinger, Nature Physics (2026),
     DOI 10.1038/s41567-026-03175-w, Methods, lines 234-237 of the
     accessible author-hosted article PDF. -/
-def contourPairToObservablePair (p : ℝ × ℝ) : ℝ × ℝ :=
+noncomputable def contourPairToObservablePair (p : ℝ × ℝ) : ℝ × ℝ :=
   ((p.1 - p.2) / 2, (p.1 + p.2) / 2)
 
 /-- Inverse of contourPairToObservablePair:
@@ -65,7 +65,7 @@ theorem contourPairToObservablePair_right_inv (p : ℝ × ℝ) :
     the derived (displacement, radius) pair. This says nothing about later
     Fourier-power or summary operations, which require separate information
     and identifiability analysis. -/
-def contourPairObservableEquiv : (ℝ × ℝ) ≃ (ℝ × ℝ) where
+noncomputable def contourPairObservableEquiv : (ℝ × ℝ) ≃ (ℝ × ℝ) where
   toFun := contourPairToObservablePair
   invFun := observablePairToContourPair
   left_inv := observablePairToContourPair_left_inv
