@@ -223,3 +223,8 @@ This receipt is an assistant-level Common control-plane record. Sable CURRENT_WO
 7. Keep all real physical calculations blocked until an identifiable measured system, dataset, provenance, units, uncertainties, and prediction-versus-fit separation are supplied.
 
 **Final epistemic status:** direct geometry and historical equations recovered; assistant translations separated; one external Nambu-Goto model independently checked symbolically; existing Lean special cases verified at their exact PR heads; no physical measurement, CODATA scoring, theory promotion, or paper advancement.
+
+
+## 12. Final scheduler readback
+
+The final read-only automation peek still reported this nominal run as IN_PROGRESS with no authenticated chat reference. Its cached latest_result belonged to the preceding Kestrel run, not this Sable routing label, and was not reused as evidence for this work. Repository commits and exact file readbacks are verified; host-level run completion and notification delivery remain unconfirmed. The existing :00 Archive task remains enabled and unchanged.
