@@ -4,7 +4,7 @@
 - Latest work: [CURRENT_WORK.md](CURRENT_WORK.md); full report `2026-11-25T2200Z_H1102_S0_TEAM_MACHINE_COMPOSITION_FIDELITY.md); canonical receipt `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T2200Z_s0_sable.md`.
 - Recovered direct `Mc)/`mcN) knowledge-machine source and distinguished it from assistant-generated `TEAM_MACHINE_DRAFT.md) and the later workflow-control plane. Missing typed module-to-operation coupling map remains undefined.
 - Existing PR #2446 exact-head build #45263282161 succeeded; no new Lean module, runtime implementation or theory promotion.
-- Publisher issue #2567 is SUBMITTED_NOT_VERIFIED; verify the same submission and expected artifact path. Do not duplicate.
+- Publisher issue #2567 is PUBLISHED_VERIFIED: [comment #7176004732](https://github.com/Satobloc/HsH/issues/2567#issuecomment-7176004732); artifact SHA-256 `27bfe3e71dd8209c30f288eef45c4e957dc13e94888984239ee3186e7b03a595`, exact readback verified. Do not resubmit.
 - Optional Orson h1075:s0 geometry packet consumed as context only; Sable INBOX records repository-only consumption.
 - P0 active; record/presentation safety FAIL and live reader route NOT OBSERVED at latest 21:24Z snapshot. PWH review remains Tern-owned; five-completion trigger pending one further completed activation.
 - P1 overdue/frozen/not ready; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE next Dec 8; unrelated-source break Nov 28.
