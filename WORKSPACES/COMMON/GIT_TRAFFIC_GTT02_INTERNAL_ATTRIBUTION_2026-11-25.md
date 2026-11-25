@@ -3,7 +3,7 @@
 > **Small but significant bites. Don't choke, don't nibble.**
 
 **Created:** 2026-11-25
-**Status:** ACTIVE / GTT-02.C complete for the bounded primary window; GTT-02.D evidence record in progress.
+**Status:** ACTIVE / GTT-02.C and GTT-02.D complete for the bounded primary window; GTT-02.E independent verification in progress.
 **Parent lane:** GIT_TRAFFIC, distinct from the main H(s)H theory work
 **Primary Traffic source:** Satobloc/HSH_RESOURCES, especially EXPOSURE_STATS/
 **Internal event source:** Satobloc/HsH WORKSPACES/COMMON/CLONE_LEDGER.jsonl (read-only)
@@ -96,7 +96,7 @@ The ledger's first HsH record is dated 2026-09-07. Absence of rows in an earlier
 
 ## Current operation
 
-**NOW — GTT-02.D / ▣.** The bounded internal-attribution tranche is recorded below. The canonical JSONL remains read-only; Traffic attribution stays UNKNOWN for all 284 non-revision records.
+**NOW — GTT-02.E / ✓.** Independently verify the normalized checkout keys and materialization split, six no-job cases, Traffic-attribution field coverage, day coverage, and exact repository readback.
 
 **Lane boundary:** This is evidence analysis, not an HsH worker instruction channel, not project-wide WH-01 coordination, and not a replacement for the canonical event ledger or its taxonomy standard.
 
@@ -331,4 +331,20 @@ A read-only field-presence audit of the canonical JSONL shows that some legacy r
 
 Therefore “unresolved for Traffic attribution” is the correct aggregate description. It does not mean every record literally contains an explicit UNKNOWN field. The absent fields remain semantically unresolved, not zero and not inferred NOT_COUNTED. The canonical JSONL is unchanged.
 
-@▣✓⇢
+
+## GTT-02.E independent verification result — 2026-11-25
+
+The following checks were recomputed from the canonical JSONL Contents response and independently re-read from the GTT-02 analytical artifact:
+
+1. **Raw population and revisions:** 563 JSONL rows parse with zero errors; 350 HsH rows; 311 timestamp-window rows; 27 revision/supplement rows; 284 non-revision base rows. The 27 revisions are not counted as new events.
+2. **Disjoint mechanism partition:** 149 Actions checkout-evidence records + 128 API/connector records + 6 workflow/provisioning uncertainties + 1 partial-file materialization = 284. The 128 remainder was inspected; all are API/connector/Contents/Issues/Actions-access operations, with no checkout evidence and no unexplained residual category.
+3. **Normalized checkout keys:** 149 checkout-evidence records (147 positive-evidence rows plus 2 publisher records joined from configuration-only status) resolve to 149 distinct tuples of repository, numeric GitHub Actions run ID, attempt, job ID and step number. The independent key check found **149 complete keys, 149 unique, 0 duplicates**. Where canonical run_id is a runtime UUID, the normalized numeric Actions run ID is kept in the analytical layer; the canonical JSONL was not rewritten.
+4. **Materialization:** 23 FULL_HISTORY and 126 SHALLOW_1, 0 remaining UNKNOWN in the 149-record checkout cohort. The 14 absent materialization values and 7 explicit UNKNOWNs have been resolved by direct run/job/step evidence and job logs. The five former unknown-depth steps are shallow; the H991 Maintain navigation checkout is full-history; Nov14 and three publisher jobs are shallow; the Nadir #2290 job is shallow. The #2290 checkout SHA transcription is corrected to 15045ac5fab01b95854c3f7fb51d8abcf6345301.
+5. **No-job uncertainty:** exactly six records remain: runs 44838759097, 44839245358, 44839737494, 44950093353, 44950696770 and 45005215976. An independent run/job query confirmed all six Jobs API responses are empty. The first five have an exact source workflow revision configuring actions/checkout@v4; the sixth has an exact source refresh-site-discovery workflow configuring actions/checkout@v4. These are configuration facts only; no checkout completion is inferred. The cancelled run 45005215976 is distinct from successful run 45005102072.
+6. **Traffic-attribution field coverage:** in the 284 base rows, 231 explicitly store traffic_attribution=UNKNOWN and 53 omit the field; none stores COUNTED or NOT_COUNTED. In the 149 checkout cohort, 136 explicitly store UNKNOWN and 13 omit the field; none has a positive or negative Traffic attribution. This corrects any earlier shorthand that implied every row contains the literal UNKNOWN value.
+7. **Daily event-ledger coverage:** base records occur on only 6 of the 14 Traffic-window dates. The eight uncovered dates are 2026-11-10, 11-11, 11-12, 11-13, 11-16, 11-17, 11-18 and 11-19. Absence of rows on those dates is not evidence of zero internal activity.
+8. **Exact source readback:** the canonical JSONL remained at blob 6ec85e2d767587c6387d7312529d9c87c5c2690f during this read-only GTT-02 verification pass. The GTT-02 internal attribution artifact and Thread Key have current readback receipts; the live ticker is advanced only after this QC.
+
+**GTT-02.E COMPLETE for the bounded evidence set.** The mechanism partition, checkout identities, materialization states, six no-job cases, field-presence caveat and daily coverage limitation all independently recheck. The core limitation remains: no HsH event has a resolved Traffic COUNTED/NOT_COUNTED attribution, and the event ledger is not a complete daily census across the 119,670-clone window.
+
+@✓⇢
