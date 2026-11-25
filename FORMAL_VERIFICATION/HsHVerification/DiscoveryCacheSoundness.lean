@@ -3,89 +3,88 @@ import Mathlib
 namespace HsHVerification.DiscoveryCache
 
 /-!
-An abstract cache-key contract for the public discovery generator.
+An abstract cache contract for the public discovery generator.
 
-The three fields separate:
-* eligible source inventory;
-* the transformation/policy/runtime that derives output from that inventory;
-* repository-head provenance embedded in the published snapshot.
+The public artifact is keyed by eligible source inventory plus every
+output-determining transformation input. Raw branch-head observations and
+scan times belong in a separate scan receipt, not in the public no-op key.
 
-The theorems below are software-contract results only. They do not prove that
-the live generator correctly computes any field, that its output is valid, or
-that a physical model is correct.
+Theorems here concern only this abstract software model. They do not prove
+that the live generator computes a complete key or that external cache checks
+are true.
 -/
 
-structure BuildKey where
+structure PublishedKey where
   inventoryDigest : Nat
   transformFingerprint : Nat
-  sourceHeadVector : Nat
   deriving DecidableEq, Repr
 
-def inventoryCurrent (old new : BuildKey) : Prop :=
-  old.inventoryDigest = new.inventoryDigest
+structure ScanReceipt where
+  observedBranchHead : Nat
+  checkedAt : Nat
+  allScansComplete : Bool
+  deriving DecidableEq, Repr
 
-def contentCurrent (old new : BuildKey) : Prop :=
-  old.inventoryDigest = new.inventoryDigest ∧
-  old.transformFingerprint = new.transformFingerprint
+structure Snapshot where
+  key : PublishedKey
+  receipt : ScanReceipt
+  deriving DecidableEq, Repr
 
-def branchHeadCurrent (old new : BuildKey) : Prop :=
-  old.sourceHeadVector = new.sourceHeadVector
+def publishedKey (snapshot : Snapshot) : PublishedKey :=
+  snapshot.key
 
-def contentOutput (key : BuildKey) : Nat × Nat :=
-  (key.inventoryDigest, key.transformFingerprint)
+def scanReceiptKey (snapshot : Snapshot) : ScanReceipt :=
+  snapshot.receipt
 
-def provenanceOutput (key : BuildKey) : Nat :=
-  key.sourceHeadVector
-
-/-- An inventory-only key cannot identify output when transformation inputs vary. -/
-theorem inventory_digest_alone_does_not_identify_content_output :
-    ∃ old new : BuildKey,
-      inventoryCurrent old new ∧
-      contentOutput old ≠ contentOutput new := by
-  refine ⟨⟨0, 0, 0⟩, ⟨0, 1, 0⟩, rfl, ?_⟩
-  decide
-
-/-- Content may be reusable while the embedded repository-head provenance is stale. -/
-theorem content_current_can_coexist_with_stale_branch_provenance :
-    ∃ old new : BuildKey,
-      contentCurrent old new ∧
-      ¬ branchHeadCurrent old new := by
-  refine ⟨⟨0, 0, 0⟩, ⟨0, 0, 1⟩, ⟨rfl, rfl⟩, ?_⟩
-  simp [branchHeadCurrent]
-
-theorem content_current_preserves_content_output
-    {old new : BuildKey}
-    (hInventory : old.inventoryDigest = new.inventoryDigest)
-    (hTransform : old.transformFingerprint = new.transformFingerprint) :
-    contentOutput old = contentOutput new := by
-  simp [contentOutput, hInventory, hTransform]
-
-theorem branch_head_current_preserves_provenance_output
-    {old new : BuildKey}
-    (hHead : old.sourceHeadVector = new.sourceHeadVector) :
-    provenanceOutput old = provenanceOutput new := by
-  simpa [provenanceOutput] using hHead
-
-/--
-A complete no-op requires both content and provenance equality, plus an
-independently established cache-integrity condition. Lean does not establish
-that external condition; the implementation must validate the JSON and all
-referenced thumbnail sidecars.
--/
-def safeNoOp (old new : BuildKey) (cacheIntegrityVerified : Prop) : Prop :=
-  contentCurrent old new ∧
-  branchHeadCurrent old new ∧
+def safeNoOp (old new : Snapshot) (cacheIntegrityVerified : Prop) : Prop :=
+  old.receipt.allScansComplete = true ∧
+  new.receipt.allScansComplete = true ∧
+  publishedKey old = publishedKey new ∧
   cacheIntegrityVerified
 
-theorem safe_noop_preserves_content_and_provenance
-    {old new : BuildKey} {cacheIntegrityVerified : Prop}
+/-- An inventory-only digest cannot identify output when transformation inputs vary. -/
+theorem inventory_digest_alone_does_not_identify_published_key :
+    ∃ old new : Snapshot,
+      old.key.inventoryDigest = new.key.inventoryDigest ∧
+      publishedKey old ≠ publishedKey new := by
+  refine ⟨⟨⟨0, 0⟩, ⟨0, 0, true⟩⟩,
+          ⟨⟨0, 1⟩, ⟨0, 0, true⟩⟩, rfl, ?_⟩
+  decide
+
+/--
+The same published content key can coexist with a different raw branch head
+and scan time. Those observations belong in the scan receipt, not the public
+artifact's no-op key.
+-/
+theorem same_published_key_can_have_distinct_scan_receipts :
+    ∃ old new : Snapshot,
+      publishedKey old = publishedKey new ∧
+      scanReceiptKey old ≠ scanReceiptKey new := by
+  refine ⟨⟨⟨0, 0⟩, ⟨0, 0, true⟩⟩,
+          ⟨⟨0, 0⟩, ⟨1, 1, true⟩⟩, rfl, ?_⟩
+  decide
+
+/-- A safe no-op preserves the public key, conditional on external cache validation. -/
+theorem safe_noop_preserves_published_key
+    {old new : Snapshot} {cacheIntegrityVerified : Prop}
     (h : safeNoOp old new cacheIntegrityVerified) :
-    contentOutput old = contentOutput new ∧
-    provenanceOutput old = provenanceOutput new := by
-  rcases h with ⟨hContent, hHead, _hCache⟩
-  rcases hContent with ⟨hInventory, hTransform⟩
-  constructor
-  · exact content_current_preserves_content_output hInventory hTransform
-  · exact branch_head_current_preserves_provenance_output hHead
+    publishedKey old = publishedKey new := by
+  rcases h with ⟨_hOldScan, _hNewScan, hKey, _hCache⟩
+  exact hKey
+
+/--
+A no-op can remain safe even when a generated-only commit advances the raw
+branch head, provided the published key and external integrity checks remain
+equal. This is an abstract separation theorem, not a claim about the live
+workflow's implementation.
+-/
+theorem safe_noop_can_ignore_raw_head_when_published_key_matches :
+    ∃ old new : Snapshot,
+      safeNoOp old new True ∧
+      old.receipt.observedBranchHead ≠ new.receipt.observedBranchHead := by
+  refine ⟨⟨⟨0, 0⟩, ⟨0, 0, true⟩⟩,
+          ⟨⟨0, 0⟩, ⟨1, 1, true⟩⟩, ?_, ?_⟩
+  · exact ⟨rfl, rfl, rfl, trivial⟩
+  · decide
 
 end HsHVerification.DiscoveryCache
