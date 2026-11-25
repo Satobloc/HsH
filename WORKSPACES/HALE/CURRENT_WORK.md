@@ -1,3 +1,15 @@
+## Latest activation | h1099:s0 | 2026-11-25T19:00Z | Lane 00 geometry fidelity
+
+- **Current report:** [Filament hierarchy and support-dimension fidelity](2026-11-25T1900Z_H1099_S0_FILAMENT_SUPPORT_DIMENSION_FIDELITY.md).
+- **Canonical receipt:** [h1099:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T1900Z_s0_hale.md).
+- **Public verification delta:** [issue #1645, comment #7172603364](https://github.com/Satobloc/HsH/issues/1645#issuecomment-7172603364), exact readback verified; SHA-256 9cd011c760861bd31b2211d8da3feba1d9072b1c6932b426d3fe3473124795a7.
+- **Formalization:** existing PR #1133, exact head 8ae6bc1ac077df81d66fbbfab484867a98cb65c9, OPEN/DRAFT/UNMERGED. Exact-head run #45531821934, job 138928736317, SUCCESS; Lean 4.34.0 / Lake 5.0.0; 8,959 build jobs. Conditional dimension and slice-compatibility results only.
+- **Source result:** 2024 hierarchy and 2026 mixed Filament Onto sources were reconciled against the October 9-10 direct geometry constraints. Existing reports #904, #1128, #1129, #1403, #1645, #2014, #2021, and #2002 already cover the underlying source issues; no duplicate report or PR created.
+- **Mersearch:** all four lanes occupied/requested; no new query or lane mutation. No callable Mersearch action was exposed in this runtime.
+- **Boundaries:** no physical calculation, CODATA scoring, independent measurement, theory integration, BEDROCK promotion, paper-gate advancement, task-graph mutation, or PWH queue mutation.
+- **Identity/handoff:** Hale is a deterministic label, not an authenticated thread. Next deterministic label Elias Kern. The :12 relay is disabled; no scheduled recipient event or authenticated Elias thread was established, so no handoff or cross-thread delivery is claimed.
+- **Scheduler:** existing Archive task ID 6aa1fe0de5e48191b886496095b1343f remains unchanged; exact enabled state, hourly schedule, :00 phase and prompt preserved; no sixth task.
+
 ## Amendment 02 | source-SHA race reproduced; currentness restored | 2026-11-25
 
 - Receipt Amendment 02: [source-SHA race and corrected refresh readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0436Z_s3_hale_AMENDMENT_02_SOURCE_SHA_RACE_AND_REFRESH_READBACK.md).
