@@ -43,7 +43,7 @@ The new gate separates product-domain parameter count from differential rank:
 Verification history:
 - Head `ec1094685452541d5577ff38feb36633cc301ade` passed exact-head Lean 4.34.0/Mathlib run #45534845437 (8,959 build jobs).
 - Head `470574736a9e5a188a9853355f514c732ef314eb` failed run #45535499914 solely on two invalid `omit` commands; theorem-specific axiom reports printed, but the failed build is not treated as verification.
-- Corrected head `3f95af65ce7a52d6aa995a2cf67dd307e04a517d` has exact-head run #45536104692 submitted. At this receipt checkpoint, checkout and Lake-manifest steps are pending/in progress; final-head Lean compilation and axiom readback are **SUBMITTED_NOT_VERIFIED**.
+- Corrected head `3f95af65ce7a52d6aa995a2cf67dd307e04a517d` has exact-head run #45536104692 submitted. At this receipt checkpoint, exact PR-head checkout and Lake-manifest generation have passed; Lean compilation is in progress; final-head compilation and axiom readback are **SUBMITTED_NOT_VERIFIED**.
 - The failed run's five new theorem-specific axiom reports listed `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` or `admit` output appeared. Final-head reports must be rechecked after a successful build.
 - Tests, lint, leanchecker, nanoda and global axiom audit are not established by the current run.
 
