@@ -129,3 +129,127 @@ The 5,200 and 5,897 unique-cloner totals are window-level deduplicated counts. T
 - The Oct-24–Nov-06 clone CSV is blob `83214dba32b677b94e43d8cb7e5eafdb8bcb204c`; the same blob appears at more than one repository path in the source collection and is one content identity, not multiple observations.
 - The 58k image's source-image SHA-256 and Git blob SHA are different hash types and are recorded separately.
 - No canonical clone-ledger rows were added or altered. This catalogue records dashboard observations, not inferred internal events.
+
+## Repository chronology and exposure priors
+
+GitHub repository metadata retrieved 2026-11-25:
+
+| Repository | Created (UTC) | Current visibility | Analytical role |
+|---|---|---|---|
+| `Satobloc/SAT_THEORY_ARCHIVE_2023-25` | 2025-10-26 23:51:07 | Public | Original archive; only one of these three repositories during its first ten-plus months |
+| `Satobloc/HsH` | 2026-09-04 15:56:16 | Public | Current research/operations repository; primary traffic target |
+| `Satobloc/HSH_RESOURCES` | 2026-09-07 01:14:56 | Public | Supporting/private-reference archive; established three days after HsH |
+
+The README pages distinguish the roles: the original repository is the historical SAT/GLASS archive; HsH is the current research and operations surface; HSH_RESOURCES is described as supporting reference infrastructure, not public-facing synthesis. The repository creation timestamps are GitHub metadata. The user's report that HSH_RESOURCES remained private until roughly a month or two ago is retained as contextual user-provided history; current API metadata only establishes that it is public now, not the date its visibility changed.
+
+**Important cohort effect:** before 2026-09-04, HsH could not generate Traffic clones because it did not yet exist. Before 2026-09-07, HSH_RESOURCES could not do so. The older SAT archive has a much longer exposure history. Cross-repository comparisons must therefore use contemporaneous windows after all three existed; lifetime totals or undated mixed captures are not suitable for comparing relative traffic.
+
+The working prior that HsH usually leads, SAT archive is second, and HSH_RESOURCES is third is supported by the explicitly labeled 2026-10-08 comparison below. It remains a prior to test, not a rule for assigning unlabeled CSVs.
+
+## Three-repository comparison — 2026-10-08 capture
+
+Source: `EXPOSURE_STATS/GHUBclones.txt`, blob `50f6b79da4dc9cb59bee861d9f588dbd1dfb954b`; uploaded 2026-10-08 05:12:41Z in commit `d55a157ca2740f53dca6ffb62155ee22b5b2e582`. The concatenated dashboard text explicitly names each repository.
+
+| Repository | Clones (14 days) | Unique cloners (14 days) |
+|---|---:|---:|
+| `Satobloc/HsH` | **6,856** | **1,200** |
+| `Satobloc/SAT_THEORY_ARCHIVE_2023-25` | **1,048** | **245** |
+| `Satobloc/HSH_RESOURCES` | **622** | **198** |
+| `Satobloc/FACTORY_FLOOR` (control, not one of the three) | 20 | 14 |
+
+Matched daily CSVs in the Resources root independently sum to the three named clone totals over 2026-09-21–2026-10-04 inclusive:
+- HsH: `Clones in last 14 days - Copy.csv`, blob `f46e3aa12684724090f757913f51300083ca808a`, sum **6,856**.
+- SAT archive: `Clones in last 14 days (1) - Copy.csv`, blob `93c574659301499894532e91bb6913afc16d8ba3`, sum **1,048**.
+- HSH_RESOURCES: `Clones in last 14 days (2).csv`, blob `d426b8a5cc02d24c7d78183540ab0698b569543a`, sum **622**.
+
+The matched three-repository total is **8,526 clones**. Shares: HsH **80.41%**, SAT archive **12.29%**, HSH_RESOURCES **7.30%**. HsH recorded about **6.54×** the SAT archive clones, **11.02×** the Resources clones, and **4.11×** the other two combined. This confirms the proposed ordering for this particular matched window. Do not add the unique-cloner totals across repositories: the same source may clone more than one repository.
+
+The daily unique-cloner CSVs are companion series, not additive window totals. Their maxima and day-by-day values can be compared, but their sum is not the dashboard's 14-day unique-cloner count.
+
+## Earlier three-repository starting point — 2026-09-23-labeled captures
+
+The paired source records are:
+- `HSH_TRAFFIC_23SEP26.txt`, blob `c4862774a019929f7a70950004d5f9845f1b5c61`: explicitly HsH, **11,912 clones / 1,735 unique cloners**, 1,295 views / 2 unique visitors.
+- `SAT_TRAFFIC_23SEP26.txt`, blob `95458b642ec0b79b01f735784918c24ba267fea5`: explicitly SAT archive, **1,239 clones / 338 unique cloners**, 618 views / 1 unique visitor.
+
+The associated file list in `GITHUB_ASSISTANT_CONVO.txt` maps HsH to the unsuffixed clone/unique-cloner CSVs, and the SAT archive to the `(1)` CSVs. The saved historical CSV versions reconcile exactly to 11,912 and 1,239 respectively. The historical HsH daily series was 2026-09-08–2026-09-21; the SAT series was 2026-09-09–2026-09-22. These are the dates in the respective daily exports; preserve the one-day difference rather than forcing a shared window. No equivalent explicitly named Resources capture is established by this pair.
+
+These are historical dashboard captures labeled 23SEP26. The file label is the capture-date evidence; exact hour/minute was not recovered.
+
+## HsH progression through November
+
+| Source / capture label | HsH clone total | Unique cloners | Observation window / timestamp status |
+|---|---:|---:|---|
+| `hsh_data_nov1_2026.txt` | **35,651** | **3,640** | Daily clone series 2026-10-18–31 sums exactly; filename suggests Nov 1 snapshot, exact dashboard time absent; uploaded Nov 6 04:46:09Z |
+| `hsh48.JPG` | **48,880** | **4,686** | Screenshot EXIF create time 2026-11-03 13:01:24.465Z; exact plotted date window not readable in OCR |
+| `HSH_54k.txt` | **54,368** | **5,200** | 2026-10-21–Nov 3; exact daily CSV sum; upload Nov 4 12:54:20Z |
+| `58k.JPG` | **58,677** | **5,897** | 2026-10-22–Nov 4; reconstructed from two overlapping daily CSVs; image upload Nov 6 04:49:54Z |
+| `HSH_REPO stats 7nov26.txt` | **67,310** | **6,668** | 2026-10-24–Nov 6; exact daily CSV sum; upload Nov 7 05:57:15Z |
+
+The 35,651 series is from `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/hsh_data_nov1_2026.txt`, blob `01966370e92172f436f6ab1912e0ae2776255701`. Its 14 daily clone values are 416, 499, 1,006, 842, 881, 1,079, 1,249, 1,631, 4,122, 5,055, 5,124, 6,074, 6,534, and 7,599, summing exactly to 35,651.
+
+The 48,880 screenshot is `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/hsh48.JPG`, Git blob `d1ae7c6565bd8ddd68e6a36fd0a911adef687b01`; image-index SHA-256 `0de57f5e937687e6df7a0963688befcecb91cf844c9c365c1028e71be57861db`. OCR blob: `b80ad54e33a577c00ee392a3c4920b1e7c479259`. OCR reports 48,880 clones, 4,686 unique cloners, 232 views and 11 unique visitors. The EXIF creation timestamp is stronger capture-time evidence than its later upload date.
+
+The 67,310 capture is `HISTORICAL/HSH_REPO stats 7nov26.txt`, blob `92a517ac98cf59dab9d31f861a76f8433eb652c4`. Its exact clone CSV is the same 2026-10-24–Nov 6 series previously identified in Observation GTT-OBS-002's source lineage; blob `83214dba32b677b94e43d8cb7e5eafdb8bcb204c`. The 14 clone values sum exactly to 67,310.
+
+Successive matched HsH rolling windows demonstrate the changing scale:
+- 2026-10-21–Nov 3: 54,368.
+- 2026-10-22–Nov 4: 58,677.
+- 2026-10-24–Nov 6: 67,310.
+
+The last two windows can be reconciled by removing Oct 22 and Oct 23 (842 + 881) and adding Nov 5 and Nov 6 (4,069 + 6,287): net +8,633, exactly the difference between 67,310 and 58,677. The one-day shift between the first two observations was already reconciled above.
+
+## Latest Resources export — 119,670 clones (provisional HsH attribution)
+
+| Field | Value |
+|---|---|
+| Current file | `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/Clones in last 14 days (5).csv` |
+| Current Git blob SHA | `7761926459f437a06f2f6bc7eb10fa85e9914560` |
+| Commit that installed current content | `7188eac413fbf979933f53bc98ebfcb1f047cafe` |
+| Commit timestamp | 2026-11-25 03:01:48Z |
+| Daily data window | **2026-11-10–2026-11-23 inclusive** |
+| Daily rows | 14 |
+| Sum of daily clones | **119,670** |
+| Paired unique-cloner CSV | `Unique cloners in last 14 days (5).csv`, blob `8bebccc6ff6c1e5f6704161ff57d7eb54f41f66c` |
+| Repository attribution | **Provisional HsH**: consistent with the user's contemporaneous statement that HsH is at about 119k, and exactly matches the supplied/current CSV total; the CSV itself contains no repository label |
+| Dashboard capture timestamp | Not embedded; Git commit time is file-upload/provenance time, not necessarily capture time |
+
+### Latest daily clone values
+
+| Date | Clones |
+|---|---:|
+| 2026-11-10 | 4,818 |
+| 2026-11-11 | 5,489 |
+| 2026-11-12 | 8,230 |
+| 2026-11-13 | 7,557 |
+| 2026-11-14 | 8,175 |
+| 2026-11-15 | 8,011 |
+| 2026-11-16 | 7,626 |
+| 2026-11-17 | 7,726 |
+| 2026-11-18 | 6,711 |
+| 2026-11-19 | 7,216 |
+| 2026-11-20 | 15,859 |
+| 2026-11-21 | 8,655 |
+| 2026-11-22 | 12,534 |
+| 2026-11-23 | 11,063 |
+| **Sum** | **119,670** |
+
+The paired daily unique-cloner series sums to 25,011 if its daily rows are mechanically added, but that is **not** the 14-day unique-cloner count. The largest single-day value is 6,526 on Nov 20; the window-level unique-cloner total remains unknown. Do not infer it from the sum.
+
+### File-version lineage warning
+
+The same numbered path `Clones in last 14 days (5).csv` was reused. The preceding version at commit `841ec2183d7a35c073fca4fbb5dd2dee31f31520` (2026-11-06 10:29:39Z) held an earlier Sep 10–23 series totaling **13,217**, not the current November series. The current blob `776192...` was installed by the Nov 25 commit and contains the Nov 10–23 values totaling **119,670**. The paired `Unique cloners in last 14 days (5).csv` was also overwritten. Therefore path/name/suffix alone is not source identity; retain commit ID and blob SHA for each version.
+
+The Nov 10–23 window and upload date Nov 25 leave a two-day reporting/upload gap. Do not rename the observation window to Nov 12–25 or claim the dashboard data is current through Nov 25. The user-provided current HsH estimate and the exact CSV total align, but repository attribution remains provisional until a direct HsH-labeled dashboard/text capture or an unambiguous contemporaneous source mapping is recovered.
+
+## Synthesis and comparison limits
+
+- The Oct 8 three-repository snapshot confirms HsH had the largest clone count (80.41% of the three-repository total); it does not prove that ordering for every later date.
+- The explicit 23SEP26-named captures show HsH 11,912 and SAT archive 1,239; an equivalent labeled Resources count is not confirmed by that pair.
+- The November HsH captures rise from 35,651 to 67,310 across successive/reconciled observations. The latest 119,670 CSV is consistent with further growth but remains provisionally attributed.
+- Current repository creation dates establish when an earlier repo could not yet receive clones. They do not establish each repo's visibility or its actual traffic.
+- Do not sum rolling windows, and do not sum daily unique-cloner counts. Keep clone totals, window unique cloners, daily unique cloner counts, page views and unique visitors as separate quantities.
+- Traffic clone source attribution is still an open question. None of these dashboard observations by itself separates Nathan's or tool-generated activity from unrelated external sources.
+
+
+@⌕▣✓⇢
