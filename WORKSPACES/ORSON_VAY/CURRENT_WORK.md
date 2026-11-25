@@ -1,3 +1,21 @@
+## 2026-11-25T18:00Z | h1098:s0 | Perceptual objects and memory-event geometry
+
+**Status:** SUBMITTED_NOT_VERIFIED. Publisher intake issue [#2561](https://github.com/Satobloc/HsH/issues/2561); submission `orson-h1098-s0-observer-projection-memory-event-geometry-20261125t1800z-001`. Expected fixed destination: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h1098-s0-observer-projection-memory-event-geometry-20261125t1800z-001.md`.
+
+**Run key:** `REVROT3-19-20261011:1098:s0`. Deterministic label Orson Vay (index 18); next ring label Sable. No authenticated current Orson cognition thread or cross-thread delivery established.
+
+**Source-fidelity result:** the transcript-attributed RMS correction distinguishes word/record as perceptual object from cognitive process; filaments remain an optional thought-object abstraction, not a physical or cognitive mechanism. The CONSCI witness and existing h832/h1022 audits preserve the observer-access boundary and leave the wider human-model-record-tool system boundary open.
+
+**Cognition research delta:** full RaMem preprint PDF reviewed. Context shuffling while memory content is fixed sharply degrades episode retrieval, showing that relevance is not contextual validity. A provisional SSRN working-paper extraction separately distinguishes post-retrieval success from marginal causal contribution; its PDF was inaccessible and its counts remain provisional. Existing h1090 memory-path distinctions retained.
+
+**Formalization:** reused PR #1743 exact-head build #43712724436 and PR #2375 exact-head build #45563280088. No new Lean module or PR; neither draft is integrated into main. No source translation or consciousness claim follows from compilation.
+
+**Boundaries:** P1 #564 remains overdue/NOT READY/FROZEN/Orson-owned. No trial, human session, API spend, dataset change, protocol amendment, manuscript edit, PR #850 change, CODATA scoring, physical calculation, or theory promotion. All four Mersearch lanes were occupied; existing Orson-cognition and perceptual-nexus receipts were reused. No new tooling or dependency.
+
+**Next cursor:** recover raw metadata for the CONSCI and RMS-words transcript witnesses; define typed event-history/projection maps only after source schema; verify issue #2561 publisher receipt and exact artifact readback.
+
+---
+
 ## Previous checkpoint: h1086:s3 | 2026-11-25T06:36Z
 
 
