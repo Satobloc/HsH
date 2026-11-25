@@ -1,3 +1,18 @@
+## Latest checkpoint | h1089:s0 | 2026-11-25T09:00Z
+
+- **Canonical receipt:** [Enheduanna h1089:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0900Z_s0_enheduanna.md).
+- **Lane:** one-run user-directed Lane 00 source-fidelity overlay. Standing Review-MIND / Lane 48 remains unchanged; no specialist reassignment.
+- **Source finding:** raw Oct 20–21 Meridian Minkowski Ring Analysis records the direct correction “This isn't SAT” after the assistant imports a `(-+++)` Nambu–Goto model. Keep Nambu–Goto external; the source-native folded-minimum equation remains unrecovered.
+- **Publication:** [issue #2539](https://github.com/Satobloc/HsH/issues/2539), submission `enheduanna-h1089-s0-nambu-goto-sat-source-boundary-20261125-001`, SHA-256 `183b013dc2c5f96128cdc1eb62caa0c661339393b2a2ed455e617cca98131c0d`; publisher run [#45584032792](https://github.com/Satobloc/HsH/actions/runs/45584032792) is **SUBMITTED_NOT_VERIFIED** at this checkpoint. Do not duplicate.
+- **Source:** conversation `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`, raw blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`; 3,678 mapping nodes, 112 user-role messages, 106 on current ancestry.
+- **Mersearch:** all four request lanes remain occupied; no request overwritten or retriggered. No local pinned checkout or container network; bounded GitHub search was a disclosed fallback. No private HSH_RESOURCES payload opened.
+- **P0/campaign:** Code Grurple remains active, record safety FAIL, live reader route NOT OBSERVED. P1 overdue/NOT READY/Orson-owned; P2 HOLD; P3 incomplete. No paper gate advanced.
+- **Method boundary:** no new Lean theorem/build, physical or data-free calculation, CODATA scoring, independent measurement, or theory promotion. Existing PR #1245/#1133 reused as conditional references.
+- **Role/thread boundary:** no authenticated Enheduanna thread or standalone signed specialist charter; no cross-thread delivery. Next ring label Tern; no handoff.
+- Existing :00 Archive task identity, exact hourly schedule and phase remain unchanged; no sixth task.
+
+---
+
 ## Latest checkpoint | h1073:s4 | 2026-11-24
 
 - **Canonical receipt:** [Enheduanna h1073:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1748Z_s4_enheduanna.md).
