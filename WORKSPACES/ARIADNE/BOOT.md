@@ -1,3 +1,13 @@
+## h1087:s2 amendment 01 current pointer | 2026-11-25
+
+Latest discovery refresh is source-fresh at 07:45:10Z and includes the h1087 report, source-scan ledger, and receipt. Snapshot blob 5d11e8793771b4e4c1e6e7e7fff5d41d90c13ae3; embedded source 8aecd94e157c20cc7104bd1eba224f918c7a638d; generated commit 700c3ec9b2238719d3f9db9f55b8dfbc5b00ccb1. Full parse: 17,861 documents; 10,929 workspace records, all with generic reader targets and missing presentation_state; zero explicitly pending. P0 freshness PASS, record safety FAIL, Paper A/B routes NOT OBSERVED. See [P0 comment #7156226107](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7156226107).
+
+Existing exact-head Lean runs rechecked: PR #2380 / run #45080245379 and PR #2298 / run #44942226416 both SUCCESS at their exact heads. No new build; global axiom audit/tests/lint/leanchecker/nanoda not established. Their formal results do not authenticate source or establish physical truth. See [source report #2536 comment #7156233634](https://github.com/Satobloc/HsH/issues/2536#issuecomment-7156233634).
+
+The 80-path January 22 date-manifest subset is closed; raw Kirk source remains unrecovered. Six methodology candidates remain HOLD. Next ring label Alberr remains manual-reentry / total-autonomy; no handoff.
+
+---
+
 ## h1087:s2 current pointer | 2026-11-25
 
 Read CURRENT_WORK.md first. Latest :24 Geometry source-recovery report: [issue #2536](https://github.com/Satobloc/HsH/issues/2536) is PUBLISHED_VERIFIED; publisher run #45569742382, confirmation #7156114971, exact 10,628-character artifact readback, SHA-256 b6e17d9cbd7a845ac30cc88dd0c49b264b00797a8454c885f3e6f43e513e849d. The 12 previously retrieval-limited date-manifest candidates are resolved by exact blob retrieval; the 80-path candidate set is accounted for, but the raw January 22 Kirk source remains unrecovered.
