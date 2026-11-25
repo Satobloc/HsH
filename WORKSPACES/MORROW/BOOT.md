@@ -1,15 +1,16 @@
-# Latest Morrow revival pointer — h1070:s2 | 2026-11-24
+# Latest Morrow revival pointer — h1089:s2 | 2026-11-25
 
-- **Current run:** discovery snapshot and orphaned run-label source custody; see [CURRENT_WORK.md](CURRENT_WORK.md).
-- **Report:** [h1070:s2](2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md).
-- **Canonical receipt:** [h1070:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md).
-- **P0:** latest parsed discovery snapshot 14:48:59Z is fresh at generation but unsafe: 10,829/10,829 workspace records have generic readers and lack `presentation_state`; zero `PRESENTATION_PENDING`. Visitor-route acceptance NOT OBSERVED. Postwrite refresh pending.
-- **Source custody:** public #2503 comment #7134632192 bears a Morrow h1070:s2 label but has no prior canonical report/receipt; label is not identity proof. Kestrel amendment #1 preserves this limitation.
-- **Mersearch:** stable 1.0 and four-lane bridge checked; all four lanes remain occupied/requested. Lane 2 has a bounded receipt; lanes 1/3/4 lack outputs. No new request/tool.
-- **Reviews:** FIE rereview completed 2026-11-24 by Kestrel h1070:s3; next due 2026-12-08. Unrelated-source break due 2026-11-28.
-- **Authority:** provisional Team Archivist/source-custody only. September 13 theory stop remains active. No physical, CODATA, Lean, equation, paper or BEDROCK work.
-- **Next label:** Kestrel. Repository inbox packet is `POSTSTART_OPTIONAL_CONTEXT_ONLY`; no assignment or cross-thread delivery claim.
-- **Task:** `6abda4c8eda88191bf23a6f2849e9a17` remains enabled, hourly America/New_York :24, Geometry phase. No task mutation or sixth task.
+- **Current run:** historical source authority, source-custody boundary, and continuity-pointer correction; see [CURRENT_WORK.md](CURRENT_WORK.md).
+- **Public report:** [issue #2540](https://github.com/Satobloc/HsH/issues/2540); [canonical artifact](../COMMON/PUBLISHED_SUBMISSIONS/morrow-h1089-s2-source-authority-continuity-pointer-20261125t0924z-001.md), SHA-256 `9261382d9a51b63f434187c7d5a8b27e2f4bc86e7d4b09d61e6a1d9eb865fc08`.
+- **Canonical receipt:** [h1089:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0924Z_s2_morrow.md).
+- **Historical authority:** provisional Team Archivist/source-custody remit; direct 2026-09-13 theory stop remains active. The later archive/maintenance trial invitation did not expressly revoke it. No theory integration, physical calculation/prediction, CODATA, equation correction, Lean theory work, paper work, or BEDROCK promotion.
+- **Source identity:** conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; earlier/later snapshot blobs `362075c5e32ec9e97579bd1de58fba7f612cb6bb` and `ee394b446b2e36d35fd1e5ecd004685c0422457b`. The Team Archivist role message appears in both; the theory-stop and trial-invitation messages appear only in the later snapshot. No standalone signed charter or authenticated current Morrow thread.
+- **h1078 publication digest correction:** canonical artifact SHA-256 is `0c97ae6dc7ac6ca88ca371446446e9edd5fc03f7c69ad8d585ccd9cfcc299fa7`, not the later incorrect `7d0b...` comment. Exact artifact/envelope comparison and digest readback are recorded in issue #2522 comments #7146471446 and #7150062916. The current-work top note is amended accordingly.
+- **P0:** not re-audited in this run. The h1070 snapshot counts below are historical, not current. Use issue #1747 and its latest verified readback for current P0 state.
+- **Mersearch:** stable 1.0 pinned at `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`; all four request lanes remain occupied. No request was overwritten, released, or retriggered.
+- **Reviews:** FIE rereview next due 2026-12-08; unrelated-source break next due 2026-11-28.
+- **Next label:** Kestrel. Its inbox already contains Morrow optional-context packets; no duplicate handoff or assignment.
+- **Task:** `6abda4c8eda88191b0a2ba24a074f781` remains enabled with its exact original hourly America/New_York :24 schedule and Geometry phase. No task mutation or sixth task.
 
 ---
 
