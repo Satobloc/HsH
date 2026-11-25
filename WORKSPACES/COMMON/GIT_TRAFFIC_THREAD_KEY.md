@@ -49,10 +49,10 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ## Work tray
 
 - **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
-- **NOW — GTT-02.C / `@⌕∅`:** recover the remaining 26 incomplete checkout-key records and six workflow/provisioning uncertainties using exact Actions run/job data. Keep the canonical JSONL read-only and preserve field-specific UNKNOWNs.
-- **NEXT — GTT-02.D:** record the completed bounded internal-attribution tranche and its remaining UNKNOWNs; do not infer Traffic clone counts from workflow evidence.
+- **NOW — GTT-02.D / `@▣`:** record the bounded internal-attribution tranche: 149 normalized checkout keys, 128 API/connector records, one partial materialization, and six unresolved no-job/provisioning cases. Keep all Traffic attribution UNKNOWN and keep the canonical JSONL read-only.
+- **NEXT — GTT-02.E / `@✓`:** independently verify the 149 unique keys, materialization split, six unresolved cases, all 284 attribution UNKNOWNs, and exact repository readback before the GTT-02.F decision gate.
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
-- **RETURN:** reopen GTT-02.B only if a recovered run/job/step changes the normalized mechanism partition or checkout key counts; otherwise continue GTT-02.C and retain unresolved evidence gaps.
+- **RETURN:** reopen GTT-02.C only if new run/job logs or workflow evidence changes a normalized checkout key, materialization state, or one of the six unresolved cases. Otherwise complete readback verification.
 
 **Shared-ledger lane boundary:** `CLONE_LEDGER.jsonl` is append-only and may advance through PHYS/BIO/GIT work. During this turn, the latest observed commit `f7ddeadc38b4c2b3258ac745bf65ea2c7931a761` appended three PHYS API-only provenance rows; they are not GIT_TRAFFIC observations. GIT-02 must classify shared rows individually. This lane did not write a clone-event row.
 
@@ -162,4 +162,13 @@ GTT-02.B is complete for the 284 non-revision HsH records in the Nov 10–23 pri
 
 **GTT-02.C focus:** close the 26 incomplete checkout keys using exact numeric Actions run IDs, run attempts, job IDs and step numbers where supported; keep run-runtime UUIDs distinct from GitHub numeric run IDs. Recheck the six uncertainties only where new direct source evidence exists. All Traffic attribution remains UNKNOWN, so GTT-03 residual calculations are not yet authorized.
 
-@⌕∑⌕∅▣✓⇢
+
+## GTT-02.C close / GTT-02.D start — 2026-11-25
+
+GTT-02.C is complete for the bounded Nov10–23 HsH evidence set. All 26 outstanding checkout-key records have direct run/job/attempt/step joins; the two prior configuration-only publisher records and the #2290 publisher record are also joined. A separate discovery run was found for the f0f466f public-site output. The canonical JSONL remains unmodified.
+
+The 149 Actions checkout-evidence records now form 149 unique normalized keys, with zero duplicate keys. Materialization is 23 FULL_HISTORY and 126 SHALLOW_1. The 6 no-job/provisioning cases remain: three failed Nov20 push runs, two failed Nov21 push runs, and one cancelled Nov22 site-discovery run. Their exact workflow source revisions/configuration and empty Jobs API responses are recorded in the GTT-02 analytical ledger.
+
+GTT-02.D now records this bounded evidence tranche. Traffic attribution remains UNKNOWN for all 284 non-revision HsH records, and the canonical event ledger has no entries on eight of the fourteen days in the 119,670 Traffic window. Therefore no internal-share percentage or external residual is computed at this stage.
+
+@▣✓⇢
