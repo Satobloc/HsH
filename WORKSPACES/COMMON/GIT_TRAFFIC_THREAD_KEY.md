@@ -107,4 +107,13 @@ The archive records' broader default search scope is not imported wholesale into
 
 A bounded generic GitHub-search fallback (not Mysearch/Mersearch) located and direct reads inspected three more source families: `EXPOSURE_STATS/GHUBclones.txt` (composite: HsH 6,856/1,200; SAT 1,048/245 repeated twice; HSH_RESOURCES 622/198), `_SAT  Satobloc GitHubStats/HSH_gitclones.txt` (HsH 7,090/1,136, repeated page; Pulse interval is not the Traffic window), and `9.8.26 -- GITSTATS.txt` (SAT 698/149 and HsH 287/146, daily dates Aug 25–Sep 7). Seven further single-repository clone CSV series in the GitHubStats folder span May 14–27 through Nov 10–23; their daily sums include 67,310, 54,368 and 119,670 series already seen. Paired unique-cloner CSVs are daily series only. Exact paths, blob SHAs, arithmetic and limitations are in the GTT-01 Tick Ledger. No measured-repository assignments were inferred from storage location; no new observation has been promoted into the historical catalogue.
 
+
+## GTT-01.A further source tranche — 2026-11-25
+
+The continued inventory confirmed a three-repository cross-file mapping from the direct GHUBclones.txt composite to six HSH_RESOURCES root CSVs for 2026-09-21–10-04 (HsH 6,856/1,200; SAT 1,048/245; HSH_RESOURCES 622/198), with exact daily clone sums and graph ranges. Paired daily unique-cloner series match graph ranges but their sums are not the deduplicated 14-day totals. The SAT 1,749/451 capture in 23swp42.txt exactly matches Clones in last 14 days (4).csv for 2026-09-10–23 and the paired unique daily series; the same file blobs occur in the HsH dump.
+
+New direct HsH captures include JOINT STATS.txt (12,506/1,799) and HSH_TRAFFIC_23SEP26.txt (11,912/1,735). Their Pulse intervals differ by one day, while chart ranges match; the actual Traffic chart dates are absent. Retain them as separate potentially overlapping candidates, not additive observations. Both files have identical blob copies in HsH's archive dump. HsH dump CSVs with identical basenames to Resources exports are sometimes different blobs and date series; all exact paths, SHA identities and sums are in the GTT Tick Ledger.
+
+Additional direct candidates include HsH HSH_repo_stats (736/309), HSH_commits (957/367), 30k (30,115/3,356), hsh_data_nov1 (35,651/3,640), plus OCR-only 42,111-clone and 3,999-unique image candidates. SAT captures and FACTORY_FLOOR traffic were kept separate. May–June composite rows remain unattributed. No newly surfaced candidate was promoted to the historical-observation catalogue, and no canonical clone-event row was written. GTT-01.A remains active.
+
 @⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
