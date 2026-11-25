@@ -134,3 +134,26 @@ The working `GITHUB_STATS_INDEX.md` (blob `bd530cb15ef3e314d1126e768f90dcf3fe666
 **Not yet done in this checkpoint:** no newly surfaced candidate has been added to the historical-observation catalogue as a verified observation; no measured-repository CSV assignment has been inferred from storage location; no arithmetic or internal/external attribution has been performed.
 
 @⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
+
+
+## Lane-specific archive-search protocol and availability — 2026-11-25
+
+This section records GIT_TRAFFIC's own use of archive search. It does not revise the shared code ledger, the general HsH worker protocol, or any worker policy.
+
+1. **Preferred route: Mysearch.** Use it as the first-choice route for ordinary GIT_TRAFFIC archive searches once it is operational and validated.
+2. **Fallback / math route: Mersearch.** Use for mathematical/structured query requirements or when Mysearch cannot be used. Before any request, inspect all four request files and report the real lane state. A queue position must be grounded in a documented queue/acceptance record; a requested lane file is not proof of queue acceptance.
+3. **Last resort: generic GitHub code search.** Use only when the bespoke route cannot actually be operated. Label the result as fallback discovery and disclose the blocker and search scope.
+
+### Availability check completed this turn
+
+- **Mysearch:** live `MYSEARCH_STATUS.md` says `SCAFFOLD ONLY / NOT VALIDATED / NOT YET A PRODUCTION SEARCH SERVICE`. The workflow exists but requires `workflow_dispatch`; no workflow-dispatch action is exposed in this session. Its implementation plan also records known queue/acknowledgement and clone-ledger instrumentation gaps. No Mysearch request or run was created or claimed.
+- **Mersearch:** all four request files were read. Lane 1 (`calder-angle-geometry-source-fidelity-20261102-1337`), lane 2 (`phy01-internal-first-worldtube-hinton-highercats-20261125-01`), lane 3 (`calder-iri-worldtube-geometry-fidelity-20261104t2230z-s0-001`), and lane 4 (`kestrel-finite-core-geometry-source-fidelity-20261102-2200`) each already hold a request with `status: requested`. Lane 2 is separately recorded as in progress. No lane is available for this GIT_TRAFFIC request. There is no GIT_TRAFFIC queue position because no request was submitted and the lane files do not expose a shared FIFO queue position. No lane was modified.
+- **Fallback actually used:** GitHub code search, narrowly, to locate and inspect the Mysearch/Mersearch operating records. Those hits are not counted as Traffic-source inventory and are not represented as a bespoke search execution.
+
+### Scope constraint
+
+The primary research corpus for GTT-01 remains `Satobloc/HSH_RESOURCES/EXPOSURE_STATS/` and related HSH_RESOURCES historical holdings. Search HsH/SAT only for a concrete cross-reference, workflow interface, internal-event evidence, or provenance dependency. The broad three-repository default in the general Mersearch worker guide is not a mandate to turn this thread into an H(s)H theory search. This conversation is not a worker-policy channel.
+
+### Return to active operation
+
+The active cursor remains `@⌕ᵃ`. Resume source inventory in HSH_RESOURCES using Mysearch if/when its validation status changes. Until then, do not mislabel generic GitHub search as Mysearch. Mersearch remains a possible fallback/math route, but all four observed lanes are occupied; recheck before any future request and report the actual queue state.
