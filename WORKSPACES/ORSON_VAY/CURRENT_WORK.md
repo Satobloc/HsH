@@ -1,13 +1,18 @@
-## h1086:s3 current-run override | 2026-11-25T06:36Z | delayed same-key reconciliation
+## Previous checkpoint: h1086:s3 | 2026-11-25T06:36Z
 
 
 ## h1090:s2 — 2026-11-25T10:24Z | Memory re-entry and revision-transition crosswalk
 
 **Status:** COGNITION-LITERATURE CROSSWALK / PUBLISHED_VERIFIED / P1 FROZEN.
 
+- Canonical receipt: [h1090:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T1024Z_s2_orson_vay.md), blob `ff7b153dfaccf90144e6c9d3fce6b22488a17c52`; independently re-read.
+- Same-key replay: this invocation (run `cb481eb5-e174-8320-bea5-38b6d91ffea4`) began at 2026-11-25T10:52:09Z, after the existing report, receipt and publisher readback were complete. Issue #2545 content and artifact exactly match; recomputed SHA-256 `6dd07db41575e6678a0c0c3f02a2110e939ab62555ede2fe28c660f9aa5a1e13`. No duplicate report, issue, submission, receipt, handoff, experiment or model call was created.
+- Public-reference correction: issue #2545 comment [#7160435017](https://github.com/Satobloc/HsH/issues/2545#issuecomment-7160435017) marks the VEY-048 locator internal-only. The private payload was not accessed in this reconciliation.
+- Continuity pointer repairs: README commit `725fbb04ecd83d4a8da4115836121f69d334e335`; BOOT commit `6940a7d3f5c5643b86219341838f4be823f1c76c`. The private locator has now been removed from both public navigation files.
+
 - New source integration: Boticiu's paused IAER project adds a bounded within-agent derivative-memory re-entry comparator. The v0.4.3 H1 retention contrast and same-configuration-class replication are preserved with construct-validity limits; no literal source-counting or priority claim.
 - Crosswalk: distinguish within-agent memory write/read re-entry from VEY-043 peer-message exposure, VEY-045 memory-operation trajectories, VEY-046 group projection, and VEY-047 multi-agent handoff.
-- Internal Vey Cognition Lab note: [VEY-048](https://github.com/Satobloc/HSH_RESOURCES/blob/main/Consciousness%20%2B%20AI/VEY_COGNITION_LAB/STUDIES/VEY-048_INTRA_AGENT_MEMORY_REENTRY_CROSSWALK_2026-11-25.md); README, SOURCE_INDEX, and RESEARCH_LEDGER updated and independently read back.
+- Internal Vey Cognition Lab note VEY-048 is recorded by the prior run in private HSH_RESOURCES; this reconciliation did not access its payload. Its private locator is intentionally omitted from public HsH text; the prior run's internal-file readback is not reasserted here.
 - Public report: [HsH issue #2545](https://github.com/Satobloc/HsH/issues/2545); canonical artifact [orson-h1090-s2-memory-reentry-transition-crosswalk-20261125t1024z-001.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h1090-s2-memory-reentry-transition-crosswalk-20261125t1024z-001.md). SHA-256 `6dd07db41575e6678a0c0c3f02a2110e939ab62555ede2fe28c660f9aa5a1e13`; exact current issue-body/artifact comparison PASS. Final readback reconciliation: issue comment #7160173416. A later event-triggered revalidation rejection is superseded by the exact current-body/artifact readback.
 - Existing Lean basis: PR #2375's dependence-identifiability, evidence-flow, and CRTC projection modules compiled in run #45563280088 on a stale merge base. Not current-main integration; no new theorem/build.
 - Five-appearance allocation window after this activation: 4/5 substantive Orson activations are cognition work. h1082 remains the geometry peer-review exception.
