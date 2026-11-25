@@ -7,7 +7,7 @@
 - Latest prewrite discovery: blob `c53dc517a511a910d9718d6ca5dc1b2747d2ed89`, updated 03:22:48Z, source `5b8fccd0335562bff28ee30c0c4f43807c681093`; generated main `0dc1d71da411488dbec8beb4f723c741e979dfc8` is its direct child and changes only discovery JSON. 17,840 documents / 10,908 workspace records; all workspace records have generic reader targets and lack `presentation_state`; zero pending. Source freshness PASS at generation; record safety FAIL; live route NOT OBSERVED. The writes recorded here require a subsequent refresh/readback.
 - Tern h1081:s3 PWH review is PUBLISHED_VERIFIED (#2526, comment #7150235204); next deep review after five further completed activations or material trigger. All four Mersearch lanes remain occupied. FIE next Dec 8; unrelated-source break next Nov 28.
 - No new Lean module, physical calculation, CODATA comparison, paper review, theory promotion, task mutation or new task. Existing :24 task ID/schedule/phase/enabled state preserved.
-- House route unavailable for this operation (no local checkout and no suitable generic Actions writer); used one Git Data API fallback commit with expected-head CAS and independent readback.
+- House route unavailable (no local checkout and no suitable generic Actions writer); Git Data API fallback used fresh-base expected-head CAS. The first checkpoint commit briefly replaced BOOT with only the compact header; immediately restored the full prior 394-line body from parent `02eea59fd966d07b207dc5a352aebb74688d4c62` in commit `7beb024690017981950d75bdbc9b295c98f334b3`; exact readback 49,611 characters / 407 lines passed, with history preserved.
 
 ---
 
