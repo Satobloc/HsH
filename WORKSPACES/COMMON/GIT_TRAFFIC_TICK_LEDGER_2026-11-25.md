@@ -350,4 +350,69 @@ Two more non-HsH source identities are mapped and remain separate from the HsH t
 - HSH_RESOURCES/EXPOSURE_STATS/_SAT  Satobloc GitHubStats/CONTROLS.txt explicitly identifies Satobloc/satoskills and reports 4 clones / 4 unique cloners. Its CONTROLS/Clones in last 14 days (3).csv (blob 70f87c880f0ecbcdbaf182767a06ac7608ed2da4) covers 2026-09-09–09-22 and sums to 4, with graph range 0–1; paired unique daily series (blob 0f232adcfd8551519d34a5bb464f4bc9ac00291b) is consistent in dates/range. Satoskills is a separate control repository, not HsH.
 - The other CONTROLS series totals 5 clones / 5 mechanically summed daily unique values but has no direct repository-labelled source match. It remains unresolved.
 
+
+## GTT-01.C first quantitative reconciliation results — 2026-11-25
+
+All arithmetic below was recomputed from original single-repository CSV rows in HSH_RESOURCES. A bridge is valid only where the underlying daily sequence and measured repository are supported.
+
+### Verified one-day rolling bridges
+
+| Repository / series | Earlier 14-day window | Later 14-day window | Drop expired day | Add new day | Reconciled later total |
+|---|---:|---:|---:|---:|---:|
+| HsH | 6,856 (09/21–10/04) | 7,178 (09/22–10/05) | 09/21: 615 | 10/05: 937 | 6,856 − 615 + 937 = **7,178** |
+| HSH_RESOURCES | 622 (09/21–10/04) | 624 (09/22–10/05) | 09/21: 3 | 10/05: 5 | 622 − 3 + 5 = **624** |
+
+Both pairs retain the same 13 overlapping daily rows and have exact daily arithmetic. The Resources result is a separate repository series and remains visibility-conditioned; it is not an HsH public-discovery comparator.
+
+### Verified HsH rolling-window reconstruction: 54,368 → 58,677 → 67,310
+
+Source CSV A, HSH_RESOURCES/_SAT  Satobloc GitHubStats/Clones in last 14 days (6).csv:
+- blob ca8719e3a5158d5418ef7f2b5079c61b8a69b4af
+- window 2026-10-21–2026-11-03, 14 rows, sum **54,368**.
+
+Source CSV B, HSH_RESOURCES/_SAT  Satobloc GitHubStats/Clones in last 14 days.csv:
+- blob 83214dba32b677b94e43d8cb7e5eafdb8bcb204c
+- window 2026-10-24–2026-11-06, 14 rows, sum **67,310**.
+
+The intermediate **58,677 / 2026-10-22–2026-11-04** sequence is reconstructed, not a standalone CSV:
+- Drop 10/21 = 1,006 from the 54,368 series.
+- Add 11/04 = 5,315, directly available as the next row after 11/03 in the 67,310 series.
+- 54,368 − 1,006 + 5,315 = **58,677**.
+- The resulting 14 daily values cover 10/22–11/04 and match the direct screenshot total in 58k.JPG (OCR reads 58,677 clones / 5,897 unique cloners). The clone total and reconstructed window arithmetic agree.
+
+Then bridge the reconstructed 58,677 window to 67,310:
+- Drop 10/22 = 842 and 10/23 = 881.
+- Add 11/05 = 4,069 and 11/06 = 6,287.
+- 58,677 − 842 − 881 + 4,069 + 6,287 = **67,310**.
+
+Equivalent direct bridge from 54,368 to 67,310:
+- Remove 10/21–10/23 = 1,006 + 842 + 881 = 2,729.
+- Add 11/04–11/06 = 5,315 + 4,069 + 6,287 = 15,671.
+- 54,368 − 2,729 + 15,671 = **67,310**.
+
+This is a coherent HsH rolling sequence. The 119,670 CSV is a separate window 11/10–11/23; there are three intervening days (11/07–11/09) and no matching bridge. Do not interpolate or claim a continuous daily trajectory across that gap.
+
+### 35,651 daily-series claim withdrawn
+
+The direct HsH TXT capture hsh_data_nov1_2026.txt (blob 01966370e92172f436f6ab1912e0ae2776255701) reports 35,651 clones / 3,640 unique cloners and graph range 416–6,534, but contains no 14-row daily table. The earlier recorded vector (416,499,1006,842,881,1079,1249,1631,4122,5055,5124,6074,6534,7599) sums by script to **42,111** and peaks at 7,599. It cannot match the 35,651 capture. The vector's sum happens to equal the separate OCR total from 42.JPG, but its source lineage and dates are not established. Therefore:
+- retain 35,651/3,640 as direct HsH dashboard metrics;
+- exact window and capture time: UNKNOWN;
+- no daily clone CSV is currently verified against the 35,651 total;
+- retain the 42,111 OCR image and 14-value vector as unlinked leads, not as a source-matched observation;
+- do not include 35,651 in the confirmed rolling-window arithmetic chain.
+
+### C status and remaining reconciliation targets
+
+Verified in this bite:
+- HsH 6,856 → 7,178 rolling bridge.
+- Resources 622 → 624 rolling bridge.
+- HsH 54,368 → reconstructed 58,677 → 67,310 rolling bridge.
+- HsH 119,670 CSV sum independently verified as 14 daily rows, 11/10–11/23, 119,670; paired daily unique series remains non-additive and window-level unique total unknown.
+
+Still pending in C:
+- reconcile the 287, 698, 1,048, 1,239, 1,749 and 11,912 mapped historical CSV series against their direct source files and date windows where not already fully checked at point of use;
+- compare duplicate-content families by blob SHA and version history, especially the same numeric filename suffix reused for the 13,217 and 119,670 CSV versions;
+- keep the 35,651, 12,506, 7,090 and other unwindowed captures out of exact date-bridge arithmetic until a window/CSV match is found;
+- do not add daily unique-cloner values, sum overlapping windows, or create cross-repository totals.
+
 @⌕∑⌕∅▣✓⇢
