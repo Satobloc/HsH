@@ -68,3 +68,27 @@ A user Library JSON export was materialized and parsed in the private execution 
 This ledger is NOT a Mersearch execution or an exhaustive audit of all 80 candidate paths, and not an authorship claim. Raw selected ancestry was separately verified for the two positive Jan22 files; other negative checks used all mapped messages. Filenames/manifest message_count can differ from raw graph-node count. The original Jan22 Kirk conversation may be absent from these checked-out archives or buried in oversized exports. Next: resolve the 12 retrieval-limited candidates using approved blob/streaming paths; then scan remaining manifest candidates and search the Library by direct conversation ID once recovered. Do not infer a source dependency from date proximity.
 
 Related: existing Ariadne PR #676 extended with AriadneJan22SourceGate.lean; public-safe publisher issue #1014. No physical calculation or theory promotion.
+
+
+## Additive recovery update | 2026-11-25 h1087:s2
+
+The twelve paths previously listed under "Connector retrieval limited" were recovered through their exact Git blob SHAs after the Contents endpoint returned empty/truncated content. Each complete JSON parsed successfully. Every mapped message's message.create_time was checked against 2026-01-22 UTC. All twelve contain zero message nodes on that date.
+
+| Candidate | Blob SHA-1 | Conversation ID | Mapping nodes | Jan 22 nodes |
+|---|---|---|---:|---:|
+| Museum Anecdote Network | f2afb1b1ddd1162084b5101726515b2912b2e7bd | 68662f18-ee5c-8003-b6ca-e96e203e032f | 294 | 0 |
+| Tourist Tailor | dd2b6141af86dea54e4ba2e782214128619ce78c | 68cad3d4-0ccc-8325-be36-94c5b5527997 | 3,032 | 0 |
+| Grade ΛCDM rubric | 8cd4d6d6a7e04f112e0770d4e1699c8f74799ba1 | 68c77e2e-8794-8324-b147-3c54a5142e20 | 73 | 0 |
+| Interstellar object A11pl3Z | c787f01cd44e79f6223411d383e782c0bccedfd5 | 68e5766d-5fd8-8331-bfba-28ef2b08775f | 208 | 0 |
+| Alberr | c98f63fa861b0df478a5fa98dff54d731348c81f | 68205d60-2848-8003-b37f-77558247f108 | 580 | 0 |
+| SAT theory clarification | 507a7000082415373ee98dbc95f18a991dff3c5a | 69378c7f-6320-8325-9e10-83e42fe1433c | 996 | 0 |
+| SAT Framework Analysis | c9dbeab330a434cf86d35879528760970e837943 | 67f098c8-4ec0-8003-8bd1-0efa14ea4f66 | 852 | 0 |
+| SAT Theorizer Emeritus | e4963340bc7ffaef4f0361b3deedbdf907b0bfbe | 681ceffb-ec54-8003-9659-2e5ae6025441 | 654 | 0 |
+| SAT O REWRITE SUPERVISOR | d6faa4aef4c7549e233c7eb169b6362040a2911f | 68430902-ada8-8003-981f-0bf779b8353f | 432 | 0 |
+| Physics Beyond Mathematics | 944589f39b6c396027f9aeff17d37fd2be1aed70 | 67fbf051-c1d0-8003-b145-21041c7d7923 | 599 | 0 |
+| XXX SAT Theory Synthesis | 0d745e65bf052e099f1db00b6fa81e763cb232d2 | 681b9765-ad68-8003-bf8a-2f97d3fdbb4e | 254 | 0 |
+| String Theory Particle Zoo | bed281e7bec8e0718cfee68a58a00621baf9aa07 | 69536357-24cc-8331-b359-6cf71e21f4de | 592 | 0 |
+
+Aggregate: 8,566 mapping nodes, zero January 22 message nodes. The ledger's 80 manifest candidate paths are now all accounted for: 2 parsed paths with unrelated Jan 22 messages, 66 previously parsed paths with no Jan 22 messages, and these 12 newly parsed paths with no Jan 22 messages. Paths may be duplicate exports, branches, or incomplete variants; this is not a count of 80 independent conversations.
+
+This closes the 80-path date-manifest subset only. The January 22 Kirk raw conversation ID/message UUID remains unrecovered; this result does not establish global archive absence. The next cursor is a source-authorized conversation-history identity lookup and separate recovery of the upstream TXT/README/workflow bundle. No Mersearch run is claimed.
