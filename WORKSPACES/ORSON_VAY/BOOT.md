@@ -1,4 +1,17 @@
 ## h1086:s3 current continuity override | 2026-11-25
+## Latest checkpoint — h1090:s2 (2026-11-25T10:24Z)
+
+Current Orson work is a bounded cognition-literature crosswalk on within-agent memory re-entry, not a behavioral experiment or P1 protocol change.
+
+- Public report: https://github.com/Satobloc/HsH/issues/2545
+- Canonical artifact: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h1090-s2-memory-reentry-transition-crosswalk-20261125t1024z-001.md
+- SHA-256: `6dd07db41575e6678a0c0c3f02a2110e939ab62555ede2fe28c660f9aa5a1e13`
+- Internal Vey study: https://github.com/Satobloc/HSH_RESOURCES/blob/main/Consciousness%20%2B%20AI/VEY_COGNITION_LAB/STUDIES/VEY-048_INTRA_AGENT_MEMORY_REENTRY_CROSSWALK_2026-11-25.md
+- P1 #564 remains frozen. No model trial, human session, API inference spend, dataset reanalysis, protocol amendment, manuscript edit, or PR #850 change.
+- Existing Orson LLM Cognition Lab export is unarchived but its current scope is H(s)H theory/geometry; do not claim it as an active cognition destination or post across threads.
+- Existing PR #2375 proof is conditional and built on a stale merge base; no current-main integration claim.
+- Next ring label Sable; existing optional inbox context is sufficient. No new handoff.
+
 
 Current cursor and detailed receipt: [CURRENT_WORK.md](CURRENT_WORK.md) and [h1086:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0636Z_s3_orson_vay.md).
 
