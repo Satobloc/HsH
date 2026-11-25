@@ -3,7 +3,7 @@
 > **Small but significant bites. Don't choke, don't nibble.**
 
 **Created:** 2026-11-25  
-**Status:** IN PROGRESS / GTT-01 active; GTT-01.A and GTT-01.B complete within the bounded source scope; GTT-01.C active.
+**Status:** IN PROGRESS / GTT-01 active; GTT-01.A, GTT-01.B and GTT-01.C complete within bounded source and mapped-series scope; GTT-01.D active.
 **Parent:** [GIT_TRAFFIC thread key](GIT_TRAFFIC_THREAD_KEY.md)  
 **Evidence catalogue:** [Historical Traffic observations](GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md)  
 **Event ledger:** [Canonical append-only clone ledger](CLONE_LEDGER.jsonl)  
@@ -472,4 +472,17 @@ This confirms a concrete source-version hazard: same path and suffix can refer t
 
 C has now reconciled the daily clone arithmetic for the identified exact-window core series through Nov 6, and has a precise duplicate/overwrite map for the recovered September files. Remaining direct-but-unwindowed captures, unassigned CSVs, and OCR-only evidence stay open for GTT-01.D; their unresolved status does not invalidate the reconciled series.
 
-@⌕∑⌕∅▣✓⇢
+
+## GTT-01.C close / GTT-01.D start — 2026-11-25
+
+GTT-01.C is complete for the bounded, measured-repository/window-mapped series. Direct clone totals and their exact daily CSV series now reconcile for the September capture family, the Oct 8 three-repository composite, the HsH 54,368 → reconstructed 58,677 → 67,310 sequence, and the Nov 10–23 HsH 119,670 series. Exact rolling bridges and the September historical blob/version lineage are recorded above. The 35,651 daily-series mismatch has been corrected: its direct dashboard metric remains, but its window and daily series are UNKNOWN. Unassigned series and direct-but-unwindowed captures remain explicit, not forced into C's exact arithmetic set.
+
+**GTT-01.D active question:** seek direct window-level unique-cloner totals and capture-time/window labels for:
+- HsH 119,670 clones / Nov 10–23: the paired daily unique CSV is not the window-deduplicated unique-cloner total.
+- HsH 35,651 / 3,640; 7,090 / 1,136; 12,506 / 1,799; 736 / 309; 957 / 367; 2,705 / 665; 30,115 / 3,356; and 48,880 / 4,686, where direct capture/window/capture-time evidence remains incomplete.
+- Image candidates 42,111 clones, 3,999 unique cloners, and 1,022 views.
+- Any unassigned unique-cloner CSV or direct screenshot that can discriminate a window.
+
+Do not use daily unique-cloner sums as the window total, use Pulse intervals as Traffic windows, or use upload time as capture time. If no direct evidence can be recovered, mark the field UNKNOWN and move the limitation into the final record.
+
+@⌕∅▣✓⇢
