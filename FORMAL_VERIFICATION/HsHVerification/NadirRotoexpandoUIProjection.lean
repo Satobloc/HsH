@@ -302,3 +302,48 @@ end HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment
 
 #print axioms HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment.orientedSegmentEndpoints_orientedAffineSegment
 #print axioms HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment.orientedAffineSegment_injective
+
+
+/-!
+## Conditional origin-anchor fraction for a radial connector
+
+The March 2026 direct-source geometry describes a connector joining points on
+two coordinate spheres and passing through the origin. This subsection
+formalizes only the radial, antipodal special case: the second endpoint is a
+positive scalar multiple of the first endpoint with reversed direction.
+It does not assert that the source curves, later R/Q/GrAnn toy, or any physical
+system satisfy this special case.
+-/
+
+/-- The opposite-ray endpoint obtained by positive radial scale σ. -/
+def antipodalScaledEndpoint {d : ℕ} (p : CoordinatePoint d) (σ : ℝ) :
+    CoordinatePoint d :=
+  fun i => -σ * p i
+
+/-- The oriented segment from p to -σ p reaches the origin at the
+affine parameter u = 1 / (1 + σ), for every positive scale σ. -/
+theorem origin_on_antipodal_scaled_segment
+    {d : ℕ} (p : CoordinatePoint d) {σ : ℝ} (hσ : 0 < σ) :
+    orientedAffineSegment p (antipodalScaledEndpoint p σ)
+      ⟨1 / (1 + σ), by positivity, by
+        have hden : 0 < 1 + σ := by linarith
+        rw [div_le_one hden]
+        linarith⟩
+      = fun _ => 0 := by
+  funext i
+  simp [orientedAffineSegment, antipodalScaledEndpoint]
+  field_simp [ne_of_gt (show 0 < 1 + σ by linarith)]
+  <;> ring
+
+/-- When σ is the outer-to-inner radius ratio rⱼ/rᵢ, the origin's
+segment parameter is rᵢ/(rᵢ+rⱼ). This is a conditional scalar bridge to
+the Hagalaz relative scale, not an assertion that the source defines
+antipodal endpoints. -/
+theorem origin_anchor_fraction_eq_radius_ratio
+    {r_i r_j : ℝ} (h_i : 0 < r_i) (h_j : 0 < r_j) :
+    1 / (1 + r_j / r_i) = r_i / (r_i + r_j) := by
+  field_simp [ne_of_gt h_i, ne_of_gt (add_pos h_i h_j)]
+  <;> ring
+
+#print axioms origin_on_antipodal_scaled_segment
+#print axioms origin_anchor_fraction_eq_radius_ratio
