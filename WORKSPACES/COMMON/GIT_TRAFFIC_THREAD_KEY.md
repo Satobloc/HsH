@@ -127,4 +127,9 @@ Measured-repository/metric/window mapping is complete for the bounded source set
 
 Exact daily arithmetic verified the HsH 6,856 → 7,178 and Resources 622 → 624 one-day rolling bridges, plus the HsH 54,368 → reconstructed 58,677 → 67,310 sequence. The latest 119,670 HsH series is independently confirmed for 11/10–11/23 but is not bridged to 11/06 because 11/07–09 are absent. A prior catalogue claim was corrected: the daily vector attributed to the 35,651 HsH capture sums to 42,111 and peaks at 7,599, conflicting with its chart maximum 6,534. The direct 35,651/3,640 capture remains, but its exact window/CSV linkage is now UNKNOWN; the vector and 42,111 OCR image remain unlinked leads. See the GTT Tick Ledger for calculations and source hashes.
 
+
+## GTT-01.C September recovery — 2026-11-25
+
+Recovered the historical September clone/unique-cloner CSV blobs from HSH_RESOURCES commit history: HsH 11,912 for 09/08–21 and SAT 1,239 for 09/09–22. These exact series bridge into the Oct 8 HsH 6,856 and SAT 1,048 windows after dropping expired dates and adding the new dates; SAT 1,749 for 09/10–23 also reconciles exactly into 1,048. The 9.8.26 composite's direct daily series independently sum to SAT 698 and HsH 287 for 08/25–09/07. Daily unique-cloner sums remain non-additive. GTT-01.C has also corrected the 35,651 misattached daily series; the capture window is now UNKNOWN. Details and exact blobs/commits are in the Tick Ledger and observation catalogue.
+
 @⌕∑⌕∅▣✓⇢
