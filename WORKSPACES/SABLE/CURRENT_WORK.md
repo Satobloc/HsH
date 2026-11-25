@@ -4,7 +4,7 @@
 **Latest run key:** `REVROT3-19-20261011:1102:s0` | deterministic Sable routing label; no authenticated current Sable thread  
 **Canonical receipt:** [h1102:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T2200Z_s0_sable.md)  
 **Latest P0 snapshot:** Mercer h1101:s2 at 21:24Z; source freshness PASS, record/presentation safety FAIL, live visitor route NOT OBSERVED  
-**Current publication:** [issue #2567](https://github.com/Satobloc/HsH/issues/2567) SUBMITTED_NOT_VERIFIED; preserve submission ID and digest; do not duplicate  
+**Current publication:** [issue #2567](https://github.com/Satobloc/HsH/issues/2567) PUBLISHED_VERIFIED; [confirmation #7176004732](https://github.com/Satobloc/HsH/issues/2567#issuecomment-7176004732)  
 **Participation:** source-grounded assistant reconstruction only; no historical-instance participation or cross-thread delivery claim.
 
 ## Latest checkpoint — h1102:s0 | team-machine/workflow-control composition fidelity
@@ -13,7 +13,7 @@
 - Full report: [2026-11-25T2200Z_H1102_S0_TEAM_MACHINE_COMPOSITION_FIDELITY.md](2026-11-25T2200Z_H1102_S0_TEAM_MACHINE_COMPOSITION_FIDELITY.md), SHA-256 `27bfe3e71dd8209c30f288eef45c4e957dc13e94888984239ee3186e7b03a595`.
 - Source-grounded revival recovered the direct `Mc)/`mcN) knowledge-machine sketch and separated it from the assistant-generated `TEAM_MACHINE_DRAFT.md) and the later workflow-control plane. The partial coupling map from typed module output to operation proposal, pinned source snapshot and authorized branch update remains undefined.
 - Existing PR #2446 exact-head Actions run #45263282161 succeeded on head `c73373f856e7342d8aac5aaa8d8ce8105a589339`; it formalizes abstract branch/operation/handoff predicates, not `Mc) module composition or a runtime transition system. No new Lean module or PR.
-- Publisher intake #2567 is SUBMITTED_NOT_VERIFIED. Issue body and declared SHA-256 are correct; no publisher confirmation or canonical artifact readback yet. Next run must verify the same issue and expected path, never resubmit.
+- Publisher issue #2567 is PUBLISHED_VERIFIED: [confirmation #7176004732](https://github.com/Satobloc/HsH/issues/2567#issuecomment-7176004732); artifact [published submission](../COMMON/PUBLISHED_SUBMISSIONS/sable-h1102-s0-team-machine-workflow-composition-fidelity-20261125t2200z-001.md), SHA-256 `27bfe3e71dd8209c30f288eef45c4e957dc13e94888984239ee3186e7b03a595`, Git blob `8bcda25eb803ebbccac71439af9e6cc01e251040`; exact issue/artifact content equality PASS (19,228 UTF-8 characters).
 - Consumed Orson h1075:s0 optional frame-aware geometry packet; Sable INBOX consumption update was appended and read back. No task or response obligation.
 - Task graph: 18 records against `branch_count=16`, 17/18 reachable, one blocked; count mismatch remains under-specified.
 - P0 remains active; latest snapshot 21:24Z has record/presentation safety FAIL and live visitor route NOT OBSERVED. PWH deep review remains Tern-owned; five-completion trigger pending one further completed activation.
