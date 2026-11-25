@@ -503,12 +503,14 @@ structure PublicAccessHistory where
     ∀ ⦃a b : Nat⦄, scopeStart ≤ a → a ≤ b → b ≤ scopeEnd →
       publiclyAccessible a → publiclyAccessible b
 
-/-- A pair of verified, source-located observations on the same
-    PublicAccessHistory. This establishes a transition window, not by itself
-    a global-first claim. -/
+/-- A selected verified negative observation and a later verified positive
+    observation on the same PublicAccessHistory. The negative observation is
+    a witness, not a claim that it is the latest negative in an external
+    observation set. This establishes a transition window, not by itself a
+    global-first claim. -/
 structure PublicAvailabilityTransitionWindow (H : PublicAccessHistory) where
-  lastNegativeAt : Nat
-  laterPositiveAt : Nat
+  negativeObservationAt : Nat
+  positiveObservationAt : Nat
   lowerEvidenceId : String
   upperEvidenceId : String
   lowerSourceId : String
@@ -531,11 +533,11 @@ structure PublicAvailabilityTransitionWindow (H : PublicAccessHistory) where
   upperLocatorNonempty : upperLocator ≠ ""
   lowerVerified : isVerified lowerStatus = true
   upperVerified : isVerified upperStatus = true
-  lowerInScope : H.scopeStart ≤ lastNegativeAt
-  upperInScope : laterPositiveAt ≤ H.scopeEnd
-  lowerNotPublic : ¬ H.publiclyAccessible lastNegativeAt
-  upperPublic : H.publiclyAccessible laterPositiveAt
-  ordered : lastNegativeAt < laterPositiveAt
+  lowerInScope : H.scopeStart ≤ negativeObservationAt
+  upperInScope : positiveObservationAt ≤ H.scopeEnd
+  lowerNotPublic : ¬ H.publiclyAccessible negativeObservationAt
+  upperPublic : H.publiclyAccessible positiveObservationAt
+  ordered : negativeObservationAt < positiveObservationAt
 
 /-- A first-public-T0 claim scoped to a declared corpus/surface/version and
     finite observation window. Completeness for the declared corpus remains
@@ -552,25 +554,33 @@ theorem transitionWindow_contains_first_accessible_tick
     {H : PublicAccessHistory}
     (w : PublicAvailabilityTransitionWindow H) :
     ∃ t : Nat,
-      w.lastNegativeAt < t ∧
-      t ≤ w.laterPositiveAt ∧
+      w.negativeObservationAt < t ∧
+      t ≤ w.positiveObservationAt ∧
       H.publiclyAccessible t ∧
       ∀ s : Nat, H.scopeStart ≤ s → s < t →
         ¬ H.publiclyAccessible s := by
   classical
   let hExists : ∃ t : Nat,
       H.scopeStart ≤ t ∧ t ≤ H.scopeEnd ∧ H.publiclyAccessible t :=
-    ⟨w.laterPositiveAt, by omega, w.upperInScope, w.upperPublic⟩
+    ⟨w.positiveObservationAt,
+      Nat.le_trans w.lowerInScope (Nat.le_of_lt w.ordered),
+      w.upperInScope,
+      w.upperPublic⟩
   let t : Nat := Nat.find hExists
   have ht : H.scopeStart ≤ t ∧ t ≤ H.scopeEnd ∧ H.publiclyAccessible t :=
     Nat.find_spec hExists
-  have hle : t ≤ w.laterPositiveAt :=
-    Nat.find_min' hExists ⟨by omega, w.upperInScope, w.upperPublic⟩
-  have hgt : w.lastNegativeAt < t := by
+  have hle : t ≤ w.positiveObservationAt :=
+    Nat.find_min' hExists
+      ⟨Nat.le_trans w.lowerInScope (Nat.le_of_lt w.ordered),
+        w.upperInScope,
+        w.upperPublic⟩
+  have hgt : w.negativeObservationAt < t := by
     by_contra hnot
-    have hleLower : t ≤ w.lastNegativeAt := by omega
+    have hleLower : t ≤ w.negativeObservationAt := by omega
+    have hNegativeInScopeEnd : w.negativeObservationAt ≤ H.scopeEnd :=
+      Nat.le_trans (Nat.le_of_lt w.ordered) w.upperInScope
     exact w.lowerNotPublic
-      (H.monotoneWithinScope ht.1 hleLower (by omega) ht.2.2)
+      (H.monotoneWithinScope ht.1 hleLower hNegativeInScopeEnd ht.2.2)
   refine ⟨t, hgt, hle, ht.2.2, ?_⟩
   intro s hsScope hsLt hAccessible
   have hmin : t ≤ s :=
@@ -580,8 +590,8 @@ theorem transitionWindow_contains_first_accessible_tick
 theorem scopedFirstPublicT0_has_first_accessible_tick
     {H : PublicAccessHistory} (w : ScopedFirstPublicT0 H) :
     ∃ t : Nat,
-      w.lastNegativeAt < t ∧
-      t ≤ w.laterPositiveAt ∧
+      w.negativeObservationAt < t ∧
+      t ≤ w.positiveObservationAt ∧
       H.publiclyAccessible t ∧
       ∀ s : Nat, H.scopeStart ≤ s → s < t →
         ¬ H.publiclyAccessible s :=
