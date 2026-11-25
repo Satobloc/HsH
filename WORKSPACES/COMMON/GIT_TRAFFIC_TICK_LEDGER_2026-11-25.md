@@ -3,7 +3,7 @@
 > **Small but significant bites. Don't choke, don't nibble.**
 
 **Created:** 2026-11-25  
-**Status:** IN PROGRESS / GTT-01 active; GTT-01.A closed within its bounded HSH_RESOURCES-first inventory scope; GTT-01.B is now active.
+**Status:** IN PROGRESS / GTT-01 active; GTT-01.A and GTT-01.B complete within the bounded source scope; GTT-01.C active.
 **Parent:** [GIT_TRAFFIC thread key](GIT_TRAFFIC_THREAD_KEY.md)  
 **Evidence catalogue:** [Historical Traffic observations](GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md)  
 **Event ledger:** [Canonical append-only clone ledger](CLONE_LEDGER.jsonl)  
@@ -104,7 +104,7 @@ The canonical `CLONE_LEDGER.jsonl` is shared and append-only across work lanes. 
 
 ## GTT-01.A live source-inventory checkpoint — 2026-11-25
 
-**State:** COMPLETE within the documented HSH_RESOURCES-first source sweep, with explicit search and directory-coverage limits. All discovered Traffic candidates have a disposition (mapped, direct but unwindowed, duplicate, contextual/non-telemetry, excluded, or unresolved).
+**State:** GTT-01.A COMPLETE. GTT-01.B COMPLETE. GTT-01.C ACTIVE at the live cursor.
 
 ### Enumerated source collections
 
@@ -285,4 +285,62 @@ B must now assign or leave unresolved the remaining direct captures and single-r
 
 **GTT-01.B exit condition:** every in-scope artifact is assigned to one measured repository/metric/window with evidence, or left explicitly unresolved with the missing discriminator named. After B, GTT-01.C will reconcile the compatible daily series and rolling-window bridges.
 
-@⌕↦⌕∑⌕∅▣✓⇢
+@⌕∑⌕∅▣✓⇢
+
+
+## GTT-01.B measured-repository / metric / window mapping register — 2026-11-25
+
+### Mapped with direct repository identity and supported observation window
+
+| Measured repository | Metric: clones / window uniques | Window | Evidence chain |
+|---|---:|---|---|
+| Satobloc/HsH | 287 / 146 | 2026-08-25–09-07 | HsH-labeled section in HSH_RESOURCES 9.8.26 -- GITSTATS.txt; embedded daily clone rows sum exactly to 287. Capture timestamp remains approximate/unverified. |
+| SAT_THEORY_ARCHIVE_2023-25 | 698 / 149 | 2026-08-25–09-07 | SAT-labeled section in same composite; embedded daily clone rows sum exactly to 698. |
+| Satobloc/HsH | 11,912 / 1,735 | 2026-09-08–09-21 | HsH_TRAFFIC_23SEP26.txt and the matched HsH daily clone/unique CSVs as recorded in the historical-observation catalogue. Pulse 09/15–22 is not the Traffic window. |
+| SAT_THEORY_ARCHIVE_2023-25 | 1,239 / 338 | 2026-09-09–09-22 | SAT_TRAFFIC_23SEP26.txt and matched (1) daily clone/unique CSVs as recorded in the historical-observation catalogue. |
+| SAT_THEORY_ARCHIVE_2023-25 | 1,749 / 451 | 2026-09-10–09-23 | 23swp42.txt / gtss.txt; clone CSV (4) sums to 1,749 and paired daily-unique CSV (4) matches the 3–170 chart range. Daily unique sum 552 is not the dashboard total 451. |
+| Satobloc/HsH | 6,856 / 1,200 | 2026-09-21–10-04 | GHUBclones.txt explicit HsH section; the single-repository HsH root clone CSV sums to 6,856 and matches its chart range; paired daily unique CSV is consistent in dates/range. |
+| SAT_THEORY_ARCHIVE_2023-25 | 1,048 / 245 | 2026-09-21–10-04 | Same composite, separate SAT section; its own single-repository clone CSV sums to 1,048. |
+| Satobloc/HSH_RESOURCES | 622 / 198 | 2026-09-21–10-04 | Same composite, separate Resources section; its own single-repository clone CSV sums to 622. Treat as visibility-conditioned because Resources may still have been private; do not read as public discovery. |
+| Satobloc/HsH | 35,651 / 3,640 | 2026-10-18–10-31 | hsh_data_nov1_2026.txt and exact 14-row clone series sum as catalogued. Filename is not the exact capture timestamp. |
+| Satobloc/HsH | 54,368 / 5,200 | 2026-10-21–11-03 | HSH_54k.txt and exact 14-row clone CSV sum. |
+| Satobloc/HsH | 58,677 / 5,897 | 2026-10-22–11-04 | 58k.JPG OCR plus reconstructed daily series from overlapping CSVs, as catalogued. |
+| Satobloc/HsH | 67,310 / 6,668 | 2026-10-24–11-06 | HSH_REPO stats 7nov26.txt and exact 14-row CSV sum. |
+| Satobloc/HsH | 119,670 / window uniques UNKNOWN | 2026-11-10–11-23 | User-identified single-repository clone CSV; exact daily sum 119,670. Paired daily unique series is not a deduplicated window total. |
+
+### Direct repository/metric identity established; Traffic window remains unresolved
+
+- HsH JOINT STATS.txt: 12,506 clones / 1,799 unique cloners. Direct repository label; Pulse 09/16–23 is context, not Traffic-window evidence.
+- HsH HSH_gitclones.txt: 7,090 / 1,136. Direct repository label; Pulse 09/09–16 is context, not Traffic-window evidence.
+- HsH HSH_repo_stats.txt: 736 / 309; Pulse 09/04–11 not the Traffic window.
+- HsH HSH_commits.txt: 957 / 367; Pulse 09/05–12 not the Traffic window.
+- HsH HSH ACTIVITY.txt: 2,705 / 665; the file separately reports 1,022 views / 3 unique visitors.
+- HsH 30k.txt: 30,115 / 3,356; chart section repeated in one file. A separate Pulse panel's Oct24–31 interval is not used as the Traffic window.
+- HsH hsh48.JPG: 48,880 / 4,686, EXIF creation time 2026-11-03T13:01:24.465Z; chart window not legible in OCR.
+- SAT MAIN_ARCHIVE_COMMITS.txt: 1,194 / 259; SATOBLOC ACTIVITY.txt: 1,368 / 321; satobloc_repo_7nov26.txt: 430 / 88; SAT_ACTIV.txt: 1,671 / 389; and FACTORY_FLOOR factory_fresh.txt: 13 / 11. These retain their explicit measured-repository labels but their Traffic windows are not established here. FACTORY_FLOOR is outside the three main repositories.
+
+### Unresolved measured-repository/window assignments
+
+| Artifact/series | What is known | Missing discriminator |
+|---|---|---|
+| HSH_RESOURCES root clone CSV 7,178, 09/22–10/05 | 14 daily rows and overlap with the 6,856 HsH series | No directly labelled 7,178 dashboard capture; do not assign measured repository from overlap alone. |
+| HSH_RESOURCES root clone CSV 624, 09/22–10/05 | 14 daily rows and overlap with the Resources 622 series | No directly labelled 624 dashboard capture. |
+| HSH_RESOURCES root clone series 992, 10/04–10/17 | 14 daily rows | No direct repository-labelled capture. |
+| HsH 30SEP dump CSVs: clone sums 13, 7,702, 1,149, 13,217 | Individual single-repository series with recorded dates/ranges; HsH storage path does not identify measured repo | No direct labelled capture match for the 13, 7,702, 1,149 or 13,217 totals. Same-basename Resources file (5) is a different blob/version. |
+| HsH 30SEP dump paired daily unique CSVs | Daily series only | No window-level deduplicated unique total; do not sum daily values. |
+| HSH_RESOURCES controls clone series 5 and 4 | The 4-clone series maps to Satoskills; 5-clone series remains separate | The 5-clone series lacks a direct repository label. |
+| 42.JPG OCR: 42,111 clones | Clone metric visible | Measured repository and window unique count absent. |
+| 3400.JPG OCR: 3,999 unique cloners | Unique-cloner metric visible | Measured repository and clone total absent. |
+| Total views image: 1,022 views, 08/30–09/12 | View count and dates visible | Repository label absent; equality with HSH ACTIVITY view total is insufficient for assignment. |
+| May–June composite daily series | Separate clone and daily-unique blocks; arithmetic visible | Measured repository/source window linkage not explicit. |
+
+### Mapping cautions
+
+- A file's storage repository, folder and basename never substitute for its measured-repository identity.
+- A Pulse date interval is a separate metric context; never use it as the Traffic window without direct chart dates or a matched daily CSV.
+- The HsH dump and HSH_RESOURCES reuse numbered CSV basenames across different file versions. For example, Resources' current (5) clone CSV is the 119,670 Nov 10–23 HsH series; HsH dump's older (5) clone CSV is a distinct 13,217 Sep 10–23 series. Preserve both blob/commit identities; do not treat filename/suffix as identity.
+- The earlier GITHUB_ASSISTANT_CONVO narrative is a historical assistant interpretation, not a source for assigning humans, bots or internal tools to cloners.
+
+**GTT-01.B disposition:** COMPLETE for the bounded candidate set. Sources are mapped where direct evidence supports repository and window; all others are explicitly unresolved with the missing discriminator recorded. **GTT-01.C is now active:** quantitatively reconcile the mapped daily series and rolling-window bridges without adding overlapping 14-day snapshots or daily unique-cloner values.
+
+@⌕∑⌕∅▣✓⇢
