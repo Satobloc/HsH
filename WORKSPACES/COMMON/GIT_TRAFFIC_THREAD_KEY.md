@@ -49,10 +49,10 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ## Work tray
 
 - **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
-- **NOW — GTT-01.B / `@⌕↦`:** map each located Traffic artifact to the repository it measures, metric and observation window. The bounded HSH_RESOURCES source inventory has been recorded; unresolved date windows, unassigned CSV series and image-only identities remain explicit mapping targets.
-- **NEXT — GTT-01.C:** reconcile daily clone arithmetic, rolling windows, duplicate lineages and capture-to-CSV matches after repository identity is grounded.
+- **NOW — GTT-01.C / `@⌕∑`:** reconcile mapped daily clone series, overlapping rolling windows, duplicate families and capture-to-CSV arithmetic. Keep daily unique-cloner sums separate from deduplicated window totals.
+- **NEXT — GTT-01.D:** recover direct window-level unique-cloner totals and exact dashboard capture times where possible; otherwise retain UNKNOWN.
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
-- **RETURN:** reopen GTT-01.A only if a new HSH_RESOURCES source index, file family or source path emerges. Otherwise continue repository/metric/window mapping in GTT-01.B and preserve unresolved candidates.
+- **RETURN:** reopen GTT-01.B only if a newly discovered artifact requires a measured-repository/window assignment. Otherwise continue with quantitative reconciliation and preserve all unresolved mappings.
 
 **Shared-ledger lane boundary:** `CLONE_LEDGER.jsonl` is append-only and may advance through PHYS/BIO/GIT work. During this turn, the latest observed commit `f7ddeadc38b4c2b3258ac745bf65ea2c7931a761` appended three PHYS API-only provenance rows; they are not GIT_TRAFFIC observations. GIT-02 must classify shared rows individually. This lane did not write a clone-event row.
 
@@ -116,4 +116,11 @@ New direct HsH captures include JOINT STATS.txt (12,506/1,799) and HSH_TRAFFIC_2
 
 Additional direct candidates include HsH HSH_repo_stats (736/309), HSH_commits (957/367), 30k (30,115/3,356), hsh_data_nov1 (35,651/3,640), plus OCR-only 42,111-clone and 3,999-unique image candidates. SAT captures and FACTORY_FLOOR traffic were kept separate. May–June composite rows remain unattributed. No newly surfaced candidate was promoted to the historical-observation catalogue, and no canonical clone-event row was written. GTT-01.A remains active.
 
-@⌕↦⌕∑⌕∅▣✓⇢
+@⌕∑⌕∅▣✓⇢
+
+
+## GTT-01.B mapping close — 2026-11-25
+
+Measured-repository/metric/window mapping is complete for the bounded source set. Exact repository/date matches are established for HsH 287, 11,912, 6,856, 35,651, 54,368, 58,677, 67,310 and 119,670 captures, plus separate SAT and Resources observations. Other direct repository-labelled captures have been mapped to repository and metric but retain UNKNOWN Traffic windows; several single-repository CSVs and OCR images remain unassigned because a direct repository/window discriminator is absent. The detailed mapping register is in the GTT Tick Ledger. The live cursor is GTT-01.C / quantitative reconciliation.
+
+@⌕∑⌕∅▣✓⇢
