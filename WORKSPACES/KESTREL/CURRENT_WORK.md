@@ -1,3 +1,26 @@
+## H1101:S0 — Kerr–ER–Pauli worldtube source-to-type map (2026-11-25)
+
+Status: SOURCE_FIDELITY_COMPLETE / PUBLICATION_SUBMITTED_NOT_VERIFIED / NO_THEORY_PROMOTION.
+
+- Public publisher issue: https://github.com/Satobloc/HsH/issues/2565
+- Submission ID: kestrel-h1101-s0-kerr-er-pauli-worldtube-source-map-20261125t2100z-001
+- Corrected submitted-content SHA-256: 9193fa50e6f8db92a646186fee24df72a20b1b214668d0db4c50d01429e4e11f
+- Canonical relay receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T2100Z_s0_kestrel.md
+- Publisher first attempt rejected a digest that included a final newline absent from the submitted body. The same issue was edited in place with the corrected digest. Do not create a second issue or resubmit; verify issue #2565 and the expected artifact path.
+- Primary-source result: July 11 direct source keeps the 1D ER-like core/worldline and separate 3D moving timesheet, with mutual interaction and no self-interaction. July 18 direct source identifies the straight worldtube with BEC-sea vacuum and particle identity/behavior with tube morphology, including topology.
+- Current tentative authority: BEDROCK ND-2026-11-24-01, Kerr-ER-Pauli exclusion construction of the particle as a twisted vacuum worldtube. The composite maps remain undefined.
+- Existing Lean work reused: Ravel h1044:s3 issue #2426 and PR #1133; exact-head runs #45186541338 and #45536104692. No new module or PR.
+- Kestrel remains a cross-boundary synthesis companion, not a primary auditor. No authenticated current Kestrel thread was found; this was an assistant-level revival.
+- Incoming Morrow h1100:s4 optional packet was consumed from Kestrel INBOX; no duplicate inbox append.
+- Tern h1100:s3 PWH review is the latest; h1101 is the first activation after it, so the next five-activation review trigger is not yet due. PWH queue still ends h1081; P0 interlock blocks queue/graph writes.
+- P0 ACTIVE: record/presentation safety FAIL; live Paper A/B reader-route acceptance NOT OBSERVED. P1 overdue/NOT READY; P2 HOLD; P3 incomplete. FIE due Dec 8; unrelated-source break due Nov 28.
+- Next ring label Meridian. Latest known Meridian thread usability unverified; :12 automation remains disabled; no direct cross-thread delivery is claimed.
+- Existing Archive automation ID, enabled state, hourly America/New_York :00 schedule and phase remain unchanged. No sixth task.
+
+Return cursor: define the typed core-to-tube map and separate tube-to-timesheet coupling; then place Kerr and ER features; then derive the exchange representation from multi-tube morphology. Reuse PR #1133.
+
+---
+
 ## 2026-11-25T0200Z | h1082:s0 | Blockwave chronology correction and conditional slice coverage
 
 **Disposition:** PUBLISHED_VERIFIED / SOURCE_FIDELITY_CORRECTION / CONDITIONAL_FORMALIZATION_REVIEW.
