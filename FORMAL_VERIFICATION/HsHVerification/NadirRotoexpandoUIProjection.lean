@@ -304,6 +304,8 @@ end HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment
 #print axioms HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment.orientedAffineSegment_injective
 
 
+namespace HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment
+
 /-!
 ## Conditional origin-anchor fraction for a radial connector
 
@@ -345,5 +347,8 @@ theorem origin_anchor_fraction_eq_radius_ratio
   field_simp [ne_of_gt h_i, ne_of_gt (add_pos h_i h_j)]
   <;> ring
 
+
 #print axioms origin_on_antipodal_scaled_segment
 #print axioms origin_anchor_fraction_eq_radius_ratio
+
+end HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment
