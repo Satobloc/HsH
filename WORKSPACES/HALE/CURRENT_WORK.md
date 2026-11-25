@@ -1,3 +1,11 @@
+## Amendment 02 | source-SHA race reproduced; currentness restored | 2026-11-25
+
+- Receipt Amendment 02: [source-SHA race and corrected refresh readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0436Z_s3_hale_AMENDMENT_02_SOURCE_SHA_RACE_AND_REFRESH_READBACK.md).
+- Intermediate discovery run #45549805487 reported SUCCESS but generated a snapshot embedding source 434d4de and committed it with parent f382171. The two-SHA mismatch is a confirmed stale-success/TOCTOU event; the stale snapshot omitted Amendment 01 and indexed an older CURRENT_WORK blob.
+- Existing refresh workflow blob 3aa83d6 uses git pull --rebase after generation and has no post-generation source-SHA guard. The required invariant is embedded source SHA = generated commit parent SHA; do not rebase stale generated output onto a newer parent.
+- Existing queued run #45550148273 then succeeded: snapshot blob 9d78d5, updated 04:58:08Z, embedded source 6139e665, generated commit 1447b99 is its direct child and changes only discovery JSON. Exact readback includes the h1084:s3 receipt, Amendment 01, successor seed, Hale/Elias inboxes, CURRENT_WORK and BOOT. Postwrite discovery freshness PASS at 04:58:08Z for source 6139e665.
+- Current P0 record safety remains FAIL; 47/48 docket entries are workspace records; live route acceptance NOT OBSERVED. Source-SHA guard remains unimplemented. See P0 issue #1747 comment #7153355308.
+
 ## Amendment 01 | postwrite readback and discovery status | 2026-11-25
 
 - Receipt Amendment 01: [postwrite readback and discovery status](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0436Z_s3_hale_AMENDMENT_01_POSTWRITE_READBACK_AND_DISCOVERY_STATUS.md).
