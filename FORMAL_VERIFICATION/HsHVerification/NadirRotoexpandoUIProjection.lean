@@ -309,12 +309,21 @@ namespace HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment
 /-!
 ## Conditional origin-anchor fraction for a radial connector
 
-The March 2026 direct-source geometry describes a connector joining points on
-two coordinate spheres and passing through the origin. This subsection
-formalizes only the radial, antipodal special case: the second endpoint is a
-positive scalar multiple of the first endpoint with reversed direction.
-It does not assert that the source curves, later R/Q/GrAnn toy, or any physical
-system satisfy this special case.
+The Nathan-attributed PDF `FINDING THE DONUT (nolat).pdf` contains an
+early connector passage between two coordinate spheres, with a ray through
+the origin. Its PDF-container CreationDate and ModDate are
+2026-04-13T08:50:35Z. A 2026-06-09 archival note groups the document with the
+March 2026 NOLAT development packet; Nathan's 2026-06-23 user-role message
+identifies `FINDING THE DONUT` as his original formulation. The underlying
+prose-composition date is not established by those records. The PDF's later
+R/Q page uses the historical label `GrAnn`, corrected by Nathan on
+2026-10-21 to `Analemma`.
+
+This subsection formalizes only the radial, antipodal special case: the
+second endpoint is a positive scalar multiple of the first endpoint with
+reversed direction. It does not assert that the PDF's two curves are
+co-centered or antipodal, that the later R/Q/Analemma/torus construction is
+equivalent, or that any physical system satisfies this special case.
 -/
 
 /-- The opposite-ray endpoint obtained by positive radial scale σ. -/
@@ -335,7 +344,6 @@ theorem origin_on_antipodal_scaled_segment
   funext i
   simp [orientedAffineSegment, antipodalScaledEndpoint]
   field_simp [ne_of_gt (show 0 < 1 + σ by linarith)]
-  <;> ring
 
 /-- When σ is the outer-to-inner radius ratio rⱼ/rᵢ, the origin's
 segment parameter is rᵢ/(rᵢ+rⱼ). This is a conditional scalar bridge to
@@ -345,10 +353,102 @@ theorem origin_anchor_fraction_eq_radius_ratio
     {r_i r_j : ℝ} (h_i : 0 < r_i) (h_j : 0 < r_j) :
     1 / (1 + r_j / r_i) = r_i / (r_i + r_j) := by
   field_simp [ne_of_gt h_i, ne_of_gt (add_pos h_i h_j)]
-  <;> ring
+
+
+/-- The midpoint of the segment from p to -σ p is ((1 - σ) / 2) p. -/
+theorem antipodal_scaled_segment_midpoint
+    {d : ℕ} (p : CoordinatePoint d) (σ : ℝ) :
+    orientedAffineSegment p (antipodalScaledEndpoint p σ)
+      ⟨(1 : ℝ) / 2, by norm_num, by norm_num⟩
+      = fun i => ((1 - σ) / 2) * p i := by
+  funext i
+  simp [orientedAffineSegment, antipodalScaledEndpoint]
+  ring
+
+/-- For a nonzero endpoint, the antipodal segment midpoint is the origin
+iff the two radial scales are equal. -/
+theorem antipodal_scaled_segment_midpoint_eq_origin_iff_scale_eq_one
+    {d : ℕ} (p : CoordinatePoint d) {σ : ℝ}
+    (hp : ∃ i, p i ≠ 0) :
+    orientedAffineSegment p (antipodalScaledEndpoint p σ)
+      ⟨(1 : ℝ) / 2, by norm_num, by norm_num⟩
+      = fun _ => 0 ↔ σ = 1 := by
+  rw [antipodal_scaled_segment_midpoint]
+  constructor
+  · intro h
+    obtain ⟨i, hi⟩ := hp
+    have hmul : ((1 - σ) / 2) * p i = 0 := by
+      simpa using congrFun h i
+    have hcoef : (1 - σ) / 2 = 0 :=
+      (mul_eq_zero.mp hmul).resolve_right hi
+    linarith
+  · intro hσ
+    funext i
+    simp [hσ]
+
+#print axioms antipodal_scaled_segment_midpoint
+#print axioms antipodal_scaled_segment_midpoint_eq_origin_iff_scale_eq_one
 
 
 #print axioms origin_on_antipodal_scaled_segment
 #print axioms origin_anchor_fraction_eq_radius_ratio
 
 end HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment
+
+
+namespace HsHVerification.NadirWhirligigSweepPlane
+
+/-!
+## Shared-meridional-plane contact uniqueness
+
+The current Whirligig browser uses one rotating meridional-plane azimuth α
+and solves bearing_R(t_R) = α and bearing_Q(t_Q) = α separately for its two
+input curves. This theorem formalizes uniqueness of the ordered contact
+parameter pair, conditional on each bearing map being strictly monotone on
+its parameter set and attaining α. It does not prove that the browser's
+finite 513-sample monotonicity check establishes global strict monotonicity,
+that every α is attained, or that the resulting contact pair is continuous.
+It also does not prove source-to-browser fidelity or physical validity.
+-/
+
+/-- A strictly monotone bearing map has at most one parameter for an
+attained sweep-plane azimuth. -/
+theorem unique_parameter_for_bearing
+    {I : Set ℝ} {bearing : ℝ → ℝ} {α : ℝ}
+    (hstrict : StrictMonoOn bearing I)
+    (h_exists : ∃ t, t ∈ I ∧ bearing t = α) :
+    ∃! t, t ∈ I ∧ bearing t = α := by
+  rcases h_exists with ⟨t, htI, hbt⟩
+  refine ⟨t, ⟨htI, hbt⟩, ?_⟩
+  intro s hs
+  by_contra hne
+  rcases lt_or_gt_of_ne hne with hst | hts
+  · have hlt := hstrict hs.1 htI hst
+    linarith [hs.2, hbt]
+  · have hlt := hstrict htI hs.1 hts
+    linarith [hbt, hs.2]
+
+/-- Two strictly monotone bearing maps have a unique ordered contact pair
+for one shared meridional-plane azimuth, provided both attain it. -/
+theorem unique_shared_plane_contact_pair
+    {I_R I_Q : Set ℝ} {bearing_R bearing_Q : ℝ → ℝ} {α : ℝ}
+    (hR : StrictMonoOn bearing_R I_R)
+    (hQ : StrictMonoOn bearing_Q I_Q)
+    (hRhit : ∃ t, t ∈ I_R ∧ bearing_R t = α)
+    (hQhit : ∃ t, t ∈ I_Q ∧ bearing_Q t = α) :
+    ∃! pair : ℝ × ℝ,
+      pair.1 ∈ I_R ∧ bearing_R pair.1 = α ∧
+      pair.2 ∈ I_Q ∧ bearing_Q pair.2 = α := by
+  rcases unique_parameter_for_bearing hR hRhit with ⟨tR, hRvalid, hRuniq⟩
+  rcases unique_parameter_for_bearing hQ hQhit with ⟨tQ, hQvalid, hQuniq⟩
+  refine ⟨(tR, tQ), ⟨hRvalid.1, hRvalid.2, hQvalid.1, hQvalid.2⟩, ?_⟩
+  intro pair hpair
+  rcases hpair with ⟨hRmem, hRangle, hQmem, hQangle⟩
+  apply Prod.ext
+  · exact hRuniq pair.1 ⟨hRmem, hRangle⟩
+  · exact hQuniq pair.2 ⟨hQmem, hQangle⟩
+
+end HsHVerification.NadirWhirligigSweepPlane
+
+#print axioms HsHVerification.NadirWhirligigSweepPlane.unique_parameter_for_bearing
+#print axioms HsHVerification.NadirWhirligigSweepPlane.unique_shared_plane_contact_pair
