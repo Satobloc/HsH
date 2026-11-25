@@ -3,7 +3,7 @@
 > **Small but significant bites. Don't choke, don't nibble.**
 
 **Created:** 2026-11-25
-**Status:** ACTIVE / GTT-02.C and GTT-02.D complete for the bounded primary window; GTT-02.E independent verification in progress.
+**Status:** PARKED / GTT-02.A–E complete for the bounded primary-window evidence; GTT-02.F decision: retain GTT-02 and defer GTT-03 numerical residual work pending direct Traffic attribution evidence.
 **Parent lane:** GIT_TRAFFIC, distinct from the main H(s)H theory work
 **Primary Traffic source:** Satobloc/HSH_RESOURCES, especially EXPOSURE_STATS/
 **Internal event source:** Satobloc/HsH WORKSPACES/COMMON/CLONE_LEDGER.jsonl (read-only)
@@ -96,7 +96,7 @@ The ledger's first HsH record is dated 2026-09-07. Absence of rows in an earlier
 
 ## Current operation
 
-**NOW — GTT-02.E / ✓.** Independently verify the normalized checkout keys and materialization split, six no-job cases, Traffic-attribution field coverage, day coverage, and exact repository readback.
+**NOW — GTT-02.F / ⇢.** Deliberate gate decision: do not calculate internal share or external residual without direct Traffic-attribution evidence and adequate matched-window internal coverage.
 
 **Lane boundary:** This is evidence analysis, not an HsH worker instruction channel, not project-wide WH-01 coordination, and not a replacement for the canonical event ledger or its taxonomy standard.
 
@@ -348,3 +348,46 @@ The following checks were recomputed from the canonical JSONL Contents response 
 **GTT-02.E COMPLETE for the bounded evidence set.** The mechanism partition, checkout identities, materialization states, six no-job cases, field-presence caveat and daily coverage limitation all independently recheck. The core limitation remains: no HsH event has a resolved Traffic COUNTED/NOT_COUNTED attribution, and the event ledger is not a complete daily census across the 119,670-clone window.
 
 @✓⇢
+
+
+## GTT-02.F transition decision: retain and park; do not open GTT-03 numerical residuals
+
+**Decision: GTT-02 is complete for the accessible, bounded internal-activity evidence and is now PARKED. GTT-03 residual arithmetic is NOT opened.**
+
+The evidence is sufficient to state what the current ledger establishes:
+- 284 non-revision HsH evidence records within the Nov 10–23 timestamp window;
+- disjoint disposition: 149 Actions checkout-evidence records, 128 API/connector records, six workflow/provisioning uncertainties and one partial-file materialization;
+- the 149 checkout records resolve to 149 unique normalized run/attempt/job/step keys, with 23 full-history and 126 shallow materializations;
+- six workflow/provisioning cases remain unobserved at the job/checkout level;
+- 231 base rows explicitly carry traffic_attribution=UNKNOWN, 53 omit the field; no base row has COUNTED or NOT_COUNTED;
+- only six of the fourteen dates have any base event-ledger rows; eight dates have no entries, which is a coverage gap, not zero internal activity.
+
+The evidence does **not** support a numeric internal fraction or external residual:
+1. The event ledger has no observed Traffic COUNTED or NOT_COUNTED attribution. A checkout, including a full-history or shallow checkout, is not automatically a Traffic clone.
+2. The event ledger is not a complete daily event census across the 119,670-clone Traffic window; eight dates are unrepresented, many recorded times are batch anchors, and some legacy attribution fields are absent.
+3. Six run/job cases remain unknown; workflow configuration alone does not show that checkout executed.
+4. The 119,670 figure is a historical single-repository clone total for 2026-11-10–11-23. The exact deduplicated unique-cloner total is unknown, conditionally bounded by 6,526–25,011 from the daily unique series; this does not resolve actor or mechanism identity.
+5. The connected GitHub interface in this session does not expose the repository Traffic endpoint. The connector rejected direct /traffic/clones access and no dedicated Traffic-read action is available.
+
+### Authoritative Traffic-data access path and temporal limit
+
+GitHub's official REST documentation says repository Traffic data are available for repositories the authenticated user can write to; the clones endpoint returns a total and per-day or per-week breakdown for the **last 14 days**. A fine-grained personal access token, GitHub App user access token, or installation token requires **Administration: read** repository permission for this endpoint. <Cite ref="turn201813search0"/>
+
+This endpoint is therefore a possible route for a future authorized, contemporaneous capture, but a request on 2026-11-25 cannot be assumed to reconstruct the exact historical 2026-11-10–11-23 window. Any future capture must preserve its UTC day boundaries, retrieval timestamp, response bytes/hash, total clone count, total unique count and daily series. Do not share a token or secret in chat; use a local environment variable or an appropriately authorized integration.
+
+### Actions checkout semantics do not decide Traffic attribution
+
+The official actions/checkout documentation states that the default fetch is a single commit, while fetch-depth: 0 fetches all history. This supports the recorded distinction between the 126 shallow and 23 full-history materializations, but the action documentation does not establish that either class is counted as a GitHub Traffic clone. <Cite ref="turn201813search1"/>
+
+### Reopening condition
+
+Reopen this lane only when one of the following becomes available:
+- an authorized, direct GitHub Traffic clones response captured for a window that can be matched to the internal event evidence;
+- an archived contemporaneous dashboard response/screenshot with the required window-level clone and unique-cloner totals;
+- event-level evidence that explicitly resolves Traffic attribution for particular checkout/provisioning mechanisms, with timestamp and repository identity.
+
+A future last-14-day API response can support a new matched window; it cannot retroactively fill the Nov 10–23 internal ledger gaps by itself. Until the evidence hinge is met, preserve this result as a bounded internal activity census with unresolved Traffic attribution. **No numeric internal share or external residual has been calculated.**
+
+**GTT-02.F disposition: RETAIN / PARK GTT-02. GTT-03 NOT OPENED.** The next cursor is await (...) a source-authorized Traffic observation or independently documented attribution evidence.
+
+@…
