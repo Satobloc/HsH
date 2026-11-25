@@ -415,4 +415,39 @@ Still pending in C:
 - keep the 35,651, 12,506, 7,090 and other unwindowed captures out of exact date-bridge arithmetic until a window/CSV match is found;
 - do not add daily unique-cloner values, sum overlapping windows, or create cross-repository totals.
 
+
+### September historical CSV-version recovery and multi-day rolling bridges
+
+GitHub file history recovered earlier CSV blobs that are no longer the current contents of their paths. The September 23, 2026 source commit is e7b9aad6fd9e350718d0cd1510dbe01ae024a850; the same CSV blobs are still present at commit 841ec2183d7a35c073fca4fbb5dd2dee31f31520 (2026-11-06), before those paths were later overwritten. This is why blob SHA plus commit ref, not filename alone, must identify the data.
+
+| Measured repo / metric | Historic path and blob SHA | Dates | Rows / sum | Dashboard capture match |
+|---|---|---|---:|---|
+| HsH clones | _SAT  Satobloc GitHubStats/Clones in last 14 days.csv; blob 684b37c1f9ba87012856f461eaf97d244c42e063 | 09/08–09/21 | 14 / **11,912** | HSH_TRAFFIC_23SEP26.txt: 11,912 |
+| HsH daily unique cloners | _SAT  Satobloc GitHubStats/Unique cloners in last 14 days.csv; blob b203be2e3f85353e10463df3473d0e857288b897 | 09/08–09/21 | 14 / 3,160 daily-sum | Dashboard: **1,735**; daily sum is not the window unique total; range 53–497 matches |
+| SAT clones | _SAT  Satobloc GitHubStats/Clones in last 14 days (1).csv; blob cbaf4092d81b6f4df7eaf5dc1102dae293c04281 | 09/09–09/22 | 14 / **1,239** | SAT_TRAFFIC_23SEP26.txt: 1,239 |
+| SAT daily unique cloners | _SAT  Satobloc GitHubStats/Unique cloners in last 14 days (1).csv; blob 745987b0bd22bda7d402b55798daa9baebcece98 | 09/09–09/22 | 14 / 402 daily-sum | Dashboard: **338**; daily sum is not the window unique total; range 3–75 matches |
+
+The historic HsH clone series min/max are 79/1,748, matching the direct HsH capture's graph range. The SAT clone series min/max are 12/263, matching its direct capture. Both paired unique daily CSVs match their dashboard's unique-cloner graph range, but not the deduplicated window total by sum.
+
+Three exact multi-day bridges now reconcile successive same-repository windows:
+
+1. **HsH 11,912 (09/08–09/21) → 6,856 (09/21–10/04)**. The windows share 09/21 = 615. Remove the old-only 09/08–09/20 rows (sum 11,297), add the new-only 09/22–10/04 rows (sum 6,241): 11,912 − 11,297 + 6,241 = **6,856**. The shared row is counted once in both windows and is not part of the delta.
+2. **SAT 1,239 (09/09–09/22) → 1,048 (09/21–10/04)**. The windows share 09/21=12 and 09/22=89 (sum 101). Remove the old-only 09/09–09/20 rows (sum 1,138), add the new-only 09/23–10/04 rows (sum 947): 1,239 − 1,138 + 947 = **1,048**.
+3. **SAT 1,749 (09/10–09/23) → 1,048 (09/21–10/04)**. The windows share 09/21–09/23 values 12, 89 and 572 (sum 673). Remove the old-only 09/10–09/20 rows (sum 1,076), add the new-only 09/24–10/04 rows (sum 375): 1,749 − 1,076 + 375 = **1,048**.
+
+All three calculations used the exact daily rows of their measured-repository series. They are different rolling windows, not additive capture totals. HsH and SAT values remain separate.
+
+### Direct daily series inside the 9.8.26 composite
+
+The HSH_RESOURCES source 9.8.26 -- GITSTATS.txt, blob 45daaab1ce989072b895d3cc8824d96da89bbb89, embeds two independently labelled 14-row daily clone sequences for 2026-08-25–09-07:
+- SAT: 0,0,9,2,2,2,0,9,1,0,226,119,48,280; sum **698**, min 0, max 280. Direct SAT dashboard total 698 / 149 unique cloners.
+- HsH: 0,0,0,0,0,0,0,0,0,0,13,66,3,205; sum **287**, min 0, max 205. Direct HsH dashboard total 287 / 146 unique cloners.
+The file separately includes total-view daily series (SAT sum 1,589; HsH sum 268); these are not clone counts. The unique-cloner daily chart series are also separate and must not be added to recreate the dashboard window totals.
+
+### C updated status
+
+The September historical versions now confirm both 11,912 and 1,239 clone totals and establish exact multi-day bridges into the October 8 three-repository composite. The 1,749 SAT source also bridges exactly to the same SAT 1,048 October window. The C pass has exposed and corrected the 35,651 misattribution; it is direct but unwindowed.
+
+Remaining C work: verify duplicate/overwrite lineage for older same-path CSV versions, and close arithmetic/disposition for the remaining 287/698 (now verified) and unassigned series. Exact source and window claims stay limited to direct captures and matched date rows; no attribution to internal/external actors is made in C.
+
 @⌕∑⌕∅▣✓⇢
