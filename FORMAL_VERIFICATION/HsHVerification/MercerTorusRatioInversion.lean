@@ -97,6 +97,25 @@ theorem logAspectRatio_crossInversion_invariant
       = -Real.log (torusAspectRatio R r) := by
   rw [torusAspectRatio_crossInversion_invariant L R r hL hR hr hsum]
 
+/-- Ratio of two labelled circumferences. -/
+def circumferenceRatio (Cinner Couter : ℝ) : ℝ := Cinner / Couter
+
+/-- The assistant's separately written cross-exchange of the two circumferences. -/
+def circumferenceCrossInversion (L Cinner Couter : ℝ) : ℝ × ℝ :=
+  (L ^ 2 / Couter, L ^ 2 / Cinner)
+
+/-- The written cross-exchange of circumferences also preserves their ratio. -/
+theorem circumferenceRatio_crossInversion_invariant
+    (L Cinner Couter : ℝ) (hL : L ≠ 0)
+    (hinner : Cinner ≠ 0) (houter : Couter ≠ 0) :
+    circumferenceRatio
+      (circumferenceCrossInversion L Cinner Couter).1
+      (circumferenceCrossInversion L Cinner Couter).2
+      = circumferenceRatio Cinner Couter := by
+  unfold circumferenceRatio circumferenceCrossInversion
+  have hL2 : L ^ 2 ≠ 0 := pow_ne_zero 2 hL
+  field_simp [hL2, hinner, houter] <;> ring
+
 /-- Separate assistant-proposed Planck-centred mass inversion. -/
 def massInversion (m mP : ℝ) : ℝ := mP ^ 2 / m
 
