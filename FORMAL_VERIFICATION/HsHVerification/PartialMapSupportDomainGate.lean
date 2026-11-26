@@ -17,23 +17,23 @@ namespace HsHVerification.PartialMapSupportDomainGate
 
 open HsHVerification.PartialMapDomainGate
 
-/-- The part of a partial map's definedness domain admitted by source
-    support S. -/
-def supportedDomain {α β : Type*} (S : Set α) (f : α → Option β) : Set α :=
-  S ∩ partialDomain f
+/-- The part of a partial map's definedness domain admitted by a
+    computable Boolean source-support mask S. -/
+def supportedDomain {α β : Type*} (S : α → Bool) (f : α → Option β) : Set α :=
+  {x | S x = true ∧ x ∈ partialDomain f}
 
-/-- Restrict a partial map to an independently declared source support.
-    Decidable membership makes the restriction executable. -/
-def restrictToSupport {α β : Type*} (S : Set α)
-    [DecidablePred (fun x => x ∈ S)] (f : α → Option β) : α → Option β :=
-  fun x => if x ∈ S then f x else none
+/-- Restrict a partial map to an independently declared Boolean source
+    support. The mask is executable and makes the restriction computable. -/
+def restrictToSupport {α β : Type*} (S : α → Bool) (f : α → Option β) :
+    α → Option β :=
+  fun x => if S x then f x else none
 
 /-- Equality of effective domains is exactly equality of definedness on
     the declared source support. -/
 theorem supportedDomain_eq_iff_definedness
-    {α β : Type*} (S : Set α) (f g : α → Option β) :
+    {α β : Type*} (S : α → Bool) (f g : α → Option β) :
     supportedDomain S f = supportedDomain S g ↔
-      ∀ x, x ∈ S → (x ∈ partialDomain f ↔ x ∈ partialDomain g) := by
+      ∀ x, S x = true → (x ∈ partialDomain f ↔ x ∈ partialDomain g) := by
   constructor
   · intro h x hxS
     have hx : x ∈ supportedDomain S f ↔ x ∈ supportedDomain S g := by
@@ -50,8 +50,7 @@ theorem supportedDomain_eq_iff_definedness
 /-- Restricted partial maps are equal iff their effective domains agree
     and their values agree on that effective domain. -/
 theorem restrictToSupport_ext_iff_domain_and_values
-    {α β : Type*} (S : Set α)
-    [DecidablePred (fun x => x ∈ S)] (f g : α → Option β) :
+    {α β : Type*} (S : α → Bool) (f g : α → Option β) :
     restrictToSupport S f = restrictToSupport S g ↔
       supportedDomain S f = supportedDomain S g ∧
       ∀ x, x ∈ supportedDomain S f → f x = g x := by
@@ -59,24 +58,25 @@ theorem restrictToSupport_ext_iff_domain_and_values
   · intro h
     constructor
     · ext x
-      constructor
-      · rintro ⟨hxS, hxF⟩
-        have hfg : f x = g x := by
+      by_cases hxS : S x = true
+      · have hfg : f x = g x := by
           have hxy := congrFun h x
-          simpa [restrictToSupport, hxS] using hxy
-        exact ⟨hxS, by simpa [partialDomain, hfg] using hxF⟩
-      · rintro ⟨hxS, hxG⟩
-        have hfg : f x = g x := by
-          have hxy := congrFun h x
-          simpa [restrictToSupport, hxS] using hxy
-        exact ⟨hxS, by simpa [partialDomain, hfg] using hxG⟩
+          simp [restrictToSupport, hxS] at hxy
+          exact hxy
+        constructor
+        · rintro ⟨_, hxF⟩
+          exact ⟨hxS, by simpa [partialDomain, hfg] using hxF⟩
+        · rintro ⟨_, hxG⟩
+          exact ⟨hxS, by simpa [partialDomain, hfg] using hxG⟩
+      · simp [supportedDomain, hxS]
     · intro x hx
       rcases hx with ⟨hxS, _⟩
       have hxy := congrFun h x
-      simpa [restrictToSupport, hxS] using hxy
+      simp [restrictToSupport, hxS] at hxy
+      exact hxy
   · rintro ⟨hdom, hval⟩
     funext x
-    by_cases hxS : x ∈ S
+    by_cases hxS : S x = true
     · cases hfx : f x with
       | none =>
         have hgx : g x = none := by
@@ -93,26 +93,16 @@ theorem restrictToSupport_ext_iff_domain_and_values
       | some y =>
         have hfg : f x = g x :=
           hval x ⟨hxS, by simp [partialDomain, hfx]⟩
-        simp [restrictToSupport, hxS, hfx, hfg]
+        simp [restrictToSupport, hxS]
+        exact hfg
     · simp [restrictToSupport, hxS]
 
 /-- A route difference entirely outside the declared support is irrelevant
     to the restricted comparison.  This Bool/Unit example is logical only. -/
 def allDefined : Bool → Option Unit := fun _ => some ()
 def trueOnly : Bool → Option Unit := fun b => if b then some () else none
-def trueSupport : Set Bool := {b | b = true}
-
-instance trueSupportDecidable : DecidablePred (fun b : Bool => b ∈ trueSupport) := by
-  intro b
-  change Decidable (b = true)
-  infer_instance
-
-def allSupport : Set Bool := fun _ => True
-
-instance allSupportDecidable : DecidablePred (fun b : Bool => b ∈ allSupport) := by
-  intro b
-  change Decidable True
-  exact isTrue trivial
+def trueSupport : Bool → Bool := fun b => b
+def allSupport : Bool → Bool := fun _ => true
 
 theorem routes_equal_on_true_support :
     restrictToSupport trueSupport allDefined =
