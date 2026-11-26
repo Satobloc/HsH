@@ -17,6 +17,7 @@ import HsHVerification.RevivalEligibilityGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.PartialMapDomainGate
+import HsHVerification.PartialMapSupportDomainGate
 import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
