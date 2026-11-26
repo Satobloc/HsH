@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Read-only priority triage for the HsH task branch graph.
 
-Ranks candidates from explicit metadata. Never changes graph state, priority or ownership.
+Ranks attention from explicit metadata and reports pickup eligibility separately.
+Never assigns work, changes graph state, or infers an actor from a ring label.
 """
 
 from __future__ import annotations
@@ -29,6 +30,40 @@ def number(value: Any) -> float | None:
     if isinstance(value, bool) or not isinstance(value, (int, float)):
         return None
     return float(value)
+
+
+def owner_state(task: dict[str, Any]) -> str:
+    """Classify owner metadata without inferring who the current actor is."""
+    owner = task.get("owner_instance")
+    if owner is None or (isinstance(owner, str) and not owner.strip()):
+        return "OWNER_UNSET"
+    if isinstance(owner, str):
+        return "OWNER_SET"
+    return "OWNER_METADATA_INVALID"
+
+
+def pickup_gate(task: dict[str, Any]) -> str:
+    """Separate attention rank from permission/eligibility to pick up work."""
+    status = str(task.get("status", "")).lower()
+    blockers = task.get("blockers") or []
+    blocked = bool(blockers) or status == "blocked"
+    state = owner_state(task)
+    if blocked:
+        return "BLOCKED_REVIEW_ONLY"
+    if state == "OWNER_SET":
+        return "OWNER_COORDINATION_REQUIRED"
+    if state == "OWNER_UNSET":
+        return "UNASSIGNED_CANDIDATE"
+    return "OWNER_METADATA_REVIEW"
+
+
+def next_action_class(task: dict[str, Any]) -> str:
+    return {
+        "BLOCKED_REVIEW_ONLY": "BLOCKER_REVIEW",
+        "OWNER_COORDINATION_REQUIRED": "OWNER_OR_COORDINATOR_ACTION",
+        "UNASSIGNED_CANDIDATE": "ASSIGNMENT_REVIEW",
+        "OWNER_METADATA_REVIEW": "REPAIR_OWNER_METADATA",
+    }[pickup_gate(task)]
 
 
 def triage_key(task: dict[str, Any], as_of: date) -> tuple[Any, ...]:
@@ -96,6 +131,9 @@ def build_report(graph: dict[str, Any], as_of: date) -> list[dict[str, Any]]:
             "status": status,
             "priority": priority,
             "owner_instance": task.get("owner_instance"),
+            "owner_state": owner_state(task),
+            "pickup_gate": pickup_gate(task),
+            "next_action_class": next_action_class(task),
             "due_date": due.isoformat() if due else None,
             "last_reviewed": reviewed.isoformat() if reviewed else None,
             "review_reasons": reasons,
@@ -115,14 +153,24 @@ def self_test() -> None:
         {"id": "low", "title": "Easy P3", "status": "active", "priority": "P3",
          "effort_hours": 1, "value_score": 5},
         {"id": "urgent", "title": "P1 overdue", "status": "active", "priority": "P1",
-         "due_date": "2026-11-04"},
+         "due_date": "2026-11-04", "owner_instance": "Calder"},
         {"id": "unknown", "title": "Unclassified", "status": "active"},
     ]}
     rows = build_report(sample, date(2026, 11, 5))
     assert [row["id"] for row in rows] == ["urgent", "low", "unknown"]
     assert "overdue by 1 day(s)" in rows[0]["review_reasons"]
     assert "explicit low-hanging candidate" in rows[1]["review_reasons"]
-    print("SELF-TEST PASS: priority precedes convenience; due dates and low-hanging metadata are surfaced.")
+    assert rows[0]["pickup_gate"] == "OWNER_COORDINATION_REQUIRED"
+    assert rows[1]["pickup_gate"] == "UNASSIGNED_CANDIDATE"
+
+    owned = {"status": "active", "owner_instance": "Calder", "blockers": []}
+    assert pickup_gate(owned) == "OWNER_COORDINATION_REQUIRED"
+    assert pickup_gate({**owned, "selected_ring_label": "Alberr"}) == pickup_gate(owned)
+    assert pickup_gate({"status": "active", "owner_instance": None, "blockers": []}) == "UNASSIGNED_CANDIDATE"
+    assert pickup_gate({"status": "active", "owner_instance": "Tern", "blockers": ["held"]}) == "BLOCKED_REVIEW_ONLY"
+    assert pickup_gate({"status": "blocked", "owner_instance": None, "blockers": []}) == "BLOCKED_REVIEW_ONLY"
+    assert pickup_gate({"status": "active", "owner_instance": 42, "blockers": []}) == "OWNER_METADATA_REVIEW"
+    print("SELF-TEST PASS: priority precedes convenience; owner/blocker gates are separate; ring labels do not authorize pickup.")
 
 
 def main() -> int:
@@ -146,12 +194,13 @@ def main() -> int:
         print(json.dumps({"as_of": args.as_of.isoformat(), "items": rows}, indent=2))
     else:
         print(f"Task upkeep candidates as of {args.as_of.isoformat()}")
+        print("Order is attention priority, not assignment; pickup_gate is a separate conservative review class.")
         for index, row in enumerate(rows, start=1):
             owner = row["owner_instance"] or "OWNER UNSET"
             reason = "; ".join(row["review_reasons"]) or "no explicit trigger metadata"
             gaps = f"; metadata gaps: {', '.join(row['metadata_gaps'])}" if row["metadata_gaps"] else ""
-            print(f"{index:>2}. [{row['priority']}] {row['status']:<14} {row['title']} ({owner})")
-            print(f"    {reason}{gaps}")
+            print(f"{index:>2}. [{row['priority']}] {row['status']:<14} [{row['pickup_gate']}] {row['title']} ({owner})")
+            print(f"    next: {row['next_action_class']}; {reason}{gaps}")
     return 0
 
 
