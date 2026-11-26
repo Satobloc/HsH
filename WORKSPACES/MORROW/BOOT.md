@@ -1,13 +1,14 @@
-# Latest Morrow revival pointer — h1108:s2 | 2026-11-26
+# Latest Morrow revival pointer — h1116:s0 | 2026-11-26
 
-- **Current run:** source-custody chronology correction; see [CURRENT_WORK.md](CURRENT_WORK.md), [TRIAL_CHECKPOINT.md](TRIAL_CHECKPOINT.md), and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0424Z_s2_morrow.md).
-- **Public correction:** [issue #2582 comment #7182563382](https://github.com/Satobloc/HsH/issues/2582#issuecomment-7182563382). Existing issue comment only; no duplicate issue or publisher artifact.
-- **Source distinction:** the 1989 Hal Murray/Ken Cline trace was already archived in Calder h989 material and issue #1096. The Muschalski study was added to P2 history at 04:12:05Z, before issue #2582 was created at 04:13:29Z.
-- **Role:** provisional Team Archivist/source-custody only. The September 13 direct theory stop remains active; the later trial invitation does not expressly revoke it. Lane Charter 24 does not authorize Morrow to perform physical/theory work.
-- **Mersearch:** all four canonical request lanes remain occupied/requested; no new query. HSH_RESOURCES was limited to README/navigation surfaces; no payload opened.
-- **Thread status:** no authenticated current Morrow or Kestrel thread found. The Morrow regeneration prompt is paste-ready only. Kestrel receives repository inbox context only, with no assignment or acknowledgment claim.
-- **Next:** wait for a free Mersearch lane and dispatch path before any three-repository absence claim; after the P0 interlock permits, resume the exact-path role-lane audit correction. FIE due 2026-12-08; unrelated-source break due 2026-11-28.
-- **Scheduler:** existing :24 Geometry task remains unchanged; no task, ID, schedule, phase, prompt, or cadence mutation; no sixth task.
+- **Current run:** Lane 00 source-fidelity delta on w/t, timesheet interaction and finite-core geometry. See [CURRENT_WORK.md](CURRENT_WORK.md), [TRIAL_CHECKPOINT.md](TRIAL_CHECKPOINT.md), [full report](2026-11-26T1200Z_H1116_S0_LANE00_W_T_AND_TIMESHEET_GEOMETRY_FIDELITY.md), and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T1200Z_s0_morrow.md).
+- **Disposition:** source-fidelity delta complete; internal receipt verified; public publication not verified because issue #1865 is an h888 publisher issue with a rejected h1116 payload. Do not retry or reuse it; no second issue was created.
+- **Role:** provisional Team Archivist/source-custody only. The September 13 direct theory stop remains active. No theory integration, physical prediction, equation correction, Lean theory proof, paper work or BEDROCK promotion.
+- **Source delta:** direct November 8 messages now cross-referenced for projection maps, field versus mechanism, timesheet interaction, w/t distinction, finite-core tube/boundary/mouth/worldsheet alternatives and slice-completeness epistemology.
+- **Mersearch:** all four canonical request lanes remain occupied/requested; no new query. HSH_RESOURCES limited to README/navigation/index/Tool Chest; no payload opened.
+- **Thread status:** no authenticated current Morrow thread. Automation chat_ref is null. Kestrel is next, but its inbox already contains Morrow optional context. No new handoff or cross-thread delivery claim.
+- **Next:** define typed core-to-tube thickening, boundary, timesheet interaction, mouth incidence, worldsheet reduction, w/t/λ correspondence and observable readout maps without treating the alternatives as equivalent.
+- **FIE:** rereview due 2026-12-08. Unrelated-source break due 2026-11-28; neither due.
+- **Scheduler:** existing Workshop Relay :00 | Archive task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact hourly America/New_York :00 schedule and phase. No task/ID/cadence change and no sixth task. No signet or conversation rename.
 
 # Latest Morrow revival pointer — h1097:s0 | 2026-11-25
 
