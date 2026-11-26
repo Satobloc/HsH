@@ -23,23 +23,23 @@ symmetry argument remains separate from the probability model.
 namespace HsHVerification.OrsonBayesianEvidenceSymmetry
 
 /-- Prior odds for a binary hypothesis with prior probability p. -/
-def priorOdds (p : ℝ) : ℝ :=
+noncomputable def priorOdds (p : ℝ) : ℝ :=
   p / (1 - p)
 
 /-- Bayes factor: likelihood under H divided by likelihood under not-H. -/
-def bayesFactor (likelihoodH likelihoodNotH : ℝ) : ℝ :=
+noncomputable def bayesFactor (likelihoodH likelihoodNotH : ℝ) : ℝ :=
   likelihoodH / likelihoodNotH
 
 /-- Posterior odds under the elementary binary Bayes rule. -/
-def posteriorOdds (p likelihoodH likelihoodNotH : ℝ) : ℝ :=
+noncomputable def posteriorOdds (p likelihoodH likelihoodNotH : ℝ) : ℝ :=
   (p * likelihoodH) / ((1 - p) * likelihoodNotH)
 
 /-- Convert positive odds to the corresponding binary probability. -/
-def oddsToProbability (odds : ℝ) : ℝ :=
+noncomputable def oddsToProbability (odds : ℝ) : ℝ :=
   odds / (1 + odds)
 
 /-- Posterior probability obtained from the posterior odds. -/
-def posteriorProbability (p likelihoodH likelihoodNotH : ℝ) : ℝ :=
+noncomputable def posteriorProbability (p likelihoodH likelihoodNotH : ℝ) : ℝ :=
   oddsToProbability (posteriorOdds p likelihoodH likelihoodNotH)
 
 /-- Posterior odds factor into prior odds times the Bayes factor.
@@ -53,7 +53,6 @@ theorem posteriorOdds_eq_priorOdds_mul_bayesFactor
   unfold posteriorOdds priorOdds bayesFactor
   have hprior : 1 - p ≠ 0 := sub_ne_zero.mpr (Ne.symm hp)
   field_simp [hprior, hNotH]
-  <;> ring
 
 /-- Equal prior odds and equal Bayes factors imply equal posterior odds.
     This is the precise conditional symmetry requirement in this model. -/
