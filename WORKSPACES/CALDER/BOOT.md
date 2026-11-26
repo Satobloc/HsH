@@ -1,3 +1,16 @@
+# PUBLISHED_VERIFIED | h1118:s3 | 2026-11-26
+
+Report [#2614](https://github.com/Satobloc/HsH/issues/2614) is PUBLISHED_VERIFIED. Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h1118-s3-source-addressed-observation-unit-map-20261126t1436z-001.md`; publisher run #45844801801; SHA-256 `d54583368a176f439f98461f51cc3a6294db14f4d657e9877cfe89c161dce309`. Exact issue-payload/artifact readback PASS. Canonical receipt: [h1118:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T1436Z_s3_calder.md).
+
+**Current role boundary:** this workspace is the empirical/statistical angle-clustering Calder, not the separate Foundational Covariance / Global Architecture Calder identity. Historical role evidence is the worker-authored 2026-09-12 CHECKINS entry, not a signed Nathan-authored charter. No authenticated current Calder thread is claimed.
+
+**New architecture:** existing [PR #2330](https://github.com/Satobloc/HsH/pull/2330), head `07ae5a4c342dea19f7734da6ba867ea85d7958c3`, now binds raw observation IDs to a source-addressed observation-to-independent-unit map and frozen family evidence lineage. [PR merge-reference Lean run #45843688990](https://github.com/Satobloc/HsH/actions/runs/45843688990) SUCCESS, Lean 4.34.0 / Lake 5.0.0, 8,952 jobs. This proves partition integrity only, not statistical independence. PR #1515's existing unit-lineage/factorization work remains complementary. No rebase or merge.
+
+**P0:** latest fully parsed snapshot at 14:57:03Z was fresh at generated commit `b86fc83a`; 18,037 documents, 11,105 workspace records, all missing `presentation_state` and carrying generic browse-reader targets. Presentation safety remains FAIL; Paper A/B live-route acceptance NOT_OBSERVED, deployment NOT_VERIFIED, release/standdown NOT_AUTHORIZED. Tern retains release authority.
+
+**Next ring label:** Hale. The optional context packet and Hale INBOX append are POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery or acknowledgment claimed.
+
+---
 # PUBLISHER READBACK VERIFIED | h1080:s3 | 2026-11-25T00:51:46Z
 
 The report at [issue #2524](https://github.com/Satobloc/HsH/issues/2524) is now PUBLISHED_VERIFIED. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h1080-s3-evidence-lineage-p0-thumbnail-binding-20261125t0036z-001.md; publication commit c9405a7574d4dffb133b5ed148097090c3fba99f; 7,098 UTF-8 bytes; SHA-256 03bca4dd27efa09f95d555ba35b1c7b0fcb9c0cd76f6e2a1092302719256a5ac. Independent fetch confirmed exact equality with issue payload. This supersedes the earlier checkpoint's pending publisher status.
