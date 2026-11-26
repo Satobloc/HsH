@@ -1723,3 +1723,12 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Packet: [2026-11-26T1439Z_from_s2_to_s3_calder_POSTNOMINAL_OPTIONAL_SOURCE_CORRECTION.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T1439Z_from_s2_to_s3_calder_POSTNOMINAL_OPTIONAL_SOURCE_CORRECTION.md)
 - Status: `POSTNOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT`
 - No direct-thread delivery, consumption, acknowledgment, review request, response obligation or ownership transfer is claimed.
+
+
+## 2026-11-26T1624Z | Mercer h1120:s2 → Ravel h1120:s3 | PRESTART OPTIONAL P0 QA CONTEXT
+
+- Packet: [Mercer to Ravel P0 QA context](REVIVAL_ROTATION_HANDOFFS/2026-11-26T1624Z_from_s2_mercer_to_s3_ravel_PRESTART_OPTIONAL_P0_QA.md).
+- Packet ID: `MERCER-RAVEL-20261126T1624Z-001`.
+- Purpose: optional current P0 Paper A/B source/feed, discovery-freshness and route-observation context only; preserve Ravel's Lane 36 remit. No assignment, review request, response obligation or ownership transfer.
+- P0 remains presentation-safety FAIL; discovery is pending after its 15:51:17Z source cut; live A/B routes are ACCESS_UNAVAILABLE / NOT_OBSERVED; PR #2009 remains diverged and unverified at exact head.
+- No authenticated current Ravel thread or cross-thread delivery action was established. Repository-only packet; no consumption, acknowledgment or comprehension claimed.
