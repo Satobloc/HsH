@@ -1,18 +1,16 @@
 import Mathlib
-import HsHVerification.NadirRobustReadoutSeparation
 
 /-!
 # Calibration-domain restriction for robust readout separation
 
-The existing Nadir separation theorem assumes a global Lipschitz bound on the
-entire baseline-observable space. A calibration-derived bound is ordinarily
-certified only on a declared domain. This adapter makes that domain part of
-the predictor's type and restricts the tested states to those whose baseline
-readouts lie inside it.
+The published robust-separation test contract bounds the standard-only
+predictor's Lipschitz sensitivity on a declared calibration domain. The
+global theorem in the existing Nadir module assumes a bound over the entire
+baseline-observable space. This module states the corresponding domain-local
+condition directly.
 
-Consequently, the theorem applies to a holdout pair only when both baseline
-readouts are covered by the calibration domain. It does not license
-extrapolation beyond that domain.
+Both holdout baseline observations must lie inside the calibration-certified
+domain. The theorem does not license extrapolation beyond that domain.
 
 This is a conditional formal contract. It does not establish that a real
 calibration procedure has correctly certified the Lipschitz bound, that
@@ -27,45 +25,63 @@ universe u v w
 variable {X : Type u} {Y : Type v} {Z : Type w}
 variable [PseudoMetricSpace Y] [PseudoMetricSpace Z]
 
-/-- States whose baseline readouts are inside the calibration-certified domain. -/
-abbrev CalibrationAdmissibleState (S : X → Y) (D : Set Y) :=
-  {x : X // S x ∈ D}
+/-- A standard-only predictor has a K-Lipschitz bound only on D. -/
+def DistLipschitzWithOn (D : Set Y) (K : NNReal) (f : Y → Z) : Prop :=
+  ∀ y₁ y₂, y₁ ∈ D → y₂ ∈ D →
+    dist (f y₁) (f y₂) ≤ (K : ℝ) * dist y₁ y₂
 
 /--
-A domain-restricted form of Nadir's robust readout-separation theorem.
-
-The standard-only predictor is defined on the subtype of baseline observations
-inside D. The Lipschitz premise therefore needs to hold only on D, while
-the subtype witnesses ensure that both tested holdout states remain inside
-that certified domain.
+A domain-local standard-only predictor cannot fit both proposed readouts
+within tolerance δ when the two baseline observations lie in the
+calibration-certified domain D, are within ε, and the candidate readouts
+are separated by more than K ε + 2 δ.
 -/
 theorem no_lipschitz_standard_predictor_can_fit_both_on_calibration_domain
-    (S : X → Y) (H : X → Z) (D : Set Y)
-    (f : {y : Y // y ∈ D} → Z)
+    (S : X → Y) (H : X → Z) (D : Set Y) (f : Y → Z)
     (K ε δ : NNReal)
-    (hLip :
-      HsHVerification.NadirRobustReadoutSeparation.DistLipschitzWith K f)
-    (x y : CalibrationAdmissibleState S D)
-    (hBaseline : dist (S x.1) (S y.1) ≤ (ε : ℝ))
+    (hLip : DistLipschitzWithOn D K f)
+    (x y : X)
+    (hSx : S x ∈ D)
+    (hSy : S y ∈ D)
+    (hBaseline : dist (S x) (S y) ≤ (ε : ℝ))
     (hSeparation :
       (K : ℝ) * (ε : ℝ) + 2 * (δ : ℝ) <
-        dist (H x.1) (H y.1)) :
-    ¬ (dist (f ⟨S x.1, x.2⟩) (H x.1) ≤ (δ : ℝ) ∧
-       dist (f ⟨S y.1, y.2⟩) (H y.1) ≤ (δ : ℝ)) := by
-  let S_D : CalibrationAdmissibleState S D → {y : Y // y ∈ D} :=
-    fun x => ⟨S x.1, x.2⟩
-  let H_D : CalibrationAdmissibleState S D → Z := fun x => H x.1
-  have hBaseline' :
-      dist (S_D x) (S_D y) ≤ (ε : ℝ) := by
-    simpa [S_D] using hBaseline
-  have hSeparation' :
-      (K : ℝ) * (ε : ℝ) + 2 * (δ : ℝ) <
-        dist (H_D x) (H_D y) := by
-    simpa [H_D] using hSeparation
-  have hNoFit :=
-    HsHVerification.NadirRobustReadoutSeparation.no_lipschitz_standard_predictor_can_fit_both
-      S_D H_D f K ε δ hLip x y hBaseline' hSeparation'
-  simpa [S_D, H_D] using hNoFit
+        dist (H x) (H y)) :
+    ¬ (dist (f (S x)) (H x) ≤ (δ : ℝ) ∧
+       dist (f (S y)) (H y) ≤ (δ : ℝ)) := by
+  rintro ⟨hErrorX, hErrorY⟩
+  have hLipXY :
+      dist (f (S x)) (f (S y)) ≤
+        (K : ℝ) * dist (S x) (S y) := by
+    exact hLip (S x) (S y) hSx hSy
+  have hScaled :
+      (K : ℝ) * dist (S x) (S y) ≤
+        (K : ℝ) * (ε : ℝ) :=
+    mul_le_mul_of_nonneg_left hBaseline (by positivity)
+  have hMiddle :
+      dist (f (S x)) (H y) ≤
+        (K : ℝ) * (ε : ℝ) + (δ : ℝ) := by
+    calc
+      dist (f (S x)) (H y) ≤
+          dist (f (S x)) (f (S y)) +
+            dist (f (S y)) (H y) := dist_triangle _ _ _
+      _ ≤ (K : ℝ) * (ε : ℝ) + (δ : ℝ) :=
+        add_le_add (le_trans hLipXY hScaled) hErrorY
+  have hErrorX' :
+      dist (H x) (f (S x)) ≤ (δ : ℝ) := by
+    simpa [dist_comm] using hErrorX
+  have hBound :
+      dist (H x) (H y) ≤
+        2 * (δ : ℝ) + (K : ℝ) * (ε : ℝ) := by
+    calc
+      dist (H x) (H y) ≤
+          dist (H x) (f (S x)) +
+            dist (f (S x)) (H y) := dist_triangle _ _ _
+      _ ≤ (δ : ℝ) +
+          ((K : ℝ) * (ε : ℝ) + (δ : ℝ)) :=
+        add_le_add hErrorX' hMiddle
+      _ = 2 * (δ : ℝ) + (K : ℝ) * (ε : ℝ) := by ring
+  linarith
 
 #print axioms no_lipschitz_standard_predictor_can_fit_both_on_calibration_domain
 
