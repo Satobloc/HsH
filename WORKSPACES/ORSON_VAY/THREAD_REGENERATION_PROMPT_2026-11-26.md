@@ -47,4 +47,5 @@ P1 issue #564 remains OPEN / FROZEN / NOT READY; PR #850 remains OPEN / DRAFT. D
 3. If a future trial is explicitly authorized outside the P1 freeze, preregister signal ablation/replacement against matched external-cue and equal-budget controls, with calibration/holdout and transfer conditions. Do not start it from this prompt.
 4. Continue source-grounded cognition work and update the workspace checkpoints additively. Do not make unsupported claims about thread identity or cross-thread delivery.
 
+**Discovery boundary:** the latest known discovery snapshot commit `5f1261a37f3a85b49511c7cd4a5a89e26b29a1ae` predates the h1124 report and workspace writes; no postwrite refresh was observed. Do not infer current P0 presentation acceptance or release.
 **Current disposition:** H1124:S3 complete / cognition literature crosswalk published / causal identifiability witness compiled / P1 frozen / no experiment / no authenticated Orson thread / no task mutation.
