@@ -154,9 +154,9 @@ theorem identityGeometry_then_firstCoordinateReadoutInt_not_injective :
       (firstCoordinateReadoutInt.comp identityGeometryInt) := by
   intro hObserved
   have hEqual :
-      (firstCoordinateReadoutInt.comp (LinearMap.id ℤ (ℤ × ℤ))) (0, 0) =
-        (firstCoordinateReadoutInt.comp (LinearMap.id ℤ (ℤ × ℤ))) (0, 1) := by
-    simp [firstCoordinateReadoutInt, LinearMap.comp_apply]
+      (firstCoordinateReadoutInt.comp identityGeometryInt) (0, 0) =
+        (firstCoordinateReadoutInt.comp identityGeometryInt) (0, 1) := by
+    simp [firstCoordinateReadoutInt, identityGeometryInt, LinearMap.comp_apply]
   have hPair : ((0, 0) : ℤ × ℤ) = (0, 1) := hObserved hEqual
   have hSecond : (0 : ℤ) = 1 := congrArg Prod.snd hPair
   norm_num at hSecond
