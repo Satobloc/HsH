@@ -3281,3 +3281,42 @@ This entry completes the missing primary-source locators for the August 26 globa
 - Relation: the September direct material **REFINES/QUALIFIES** the July “ergosphere as gap” wording. It preserves the layer as tentative and permits another layer structure; it does not adopt the July assistant’s Planckion identity.
 
 **Attribution rule:** only the raw `user` node is Nathan Direct. The paired assistant equations and Planckion mapping remain assistant-origin context. No quote/claim is promoted to physical truth by this source-tag addition.
+
+
+---
+
+## Excavation batch 2026-11-26-A — 18 July 2026 worldtube / BEC-sea morphology source
+
+**Scope:** two directly verified user-role messages from the private Library raw conversation titled *Mathematical Tool Exploration*. This batch preserves the exact user wording and source status; it does not validate the physical claims.
+
+### 2026-07-18 — Finite Kerr core described as a 4D history tube
+
+- **Tags:** `WORLDTUBE` `FINITE-CORE` `KERR-RING` `KERR-TO-TUBE-4D-HISTORY` `PAULI-EXCLUSION-MOTIVATION` `HISTORICAL-PROPOSAL` `MODEL-VS-REALITY` `NOT-DERIVATION` `NOT-MEASURED`
+- **Source conversation:** private Library raw export, *Mathematical Tool Exploration* (`raw.json` and `raw(1).json` snapshots). Public transcript derivative: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/WORLDTUBE THOUGTS.txt` (Git blob `735f2a95e492944a244d1ceba31f33b6b5606119`). The transcript is a navigation/quotation derivative, not raw-role evidence.
+- **Conversation title:** `Mathematical Tool Exploration`.
+- **Message ID / timestamp / landmark:** private message UUID withheld from this public compendium under the existing source-fidelity privacy boundary; raw timestamp `2026-07-18T05:29:42.674160Z`.
+- **Authorship verification:** `RAW USER MESSAGE`; raw `author.role=user`, `author.name=null`, `message_source=null`. The standing archive speaker rule attributes preserved user-role messages to Nathan.
+- **Historical terminology/status:** direct geometric description and proposed rationale for Pauli exclusion. It does not define a Kerr metric, finite-core boundary, admissible configuration space, or derived exchange phase.
+- **Exact Nathan wording:**
+
+> One thing to note about our earlier conversation—the reason Pauli exclusion comes from treating the finite core of the world tube as the Kerr ring is — it’s not a ring in 4D; it’s a tube. That means entering it is trying to enter the interior of a Kerr singularity
+
+- **Immediate context:** the preceding assistant discussion concerned Kerr-ring/CTC and exclusion. The following assistant response introduces a non-admissible or excised core and an exchange phase of `-1` as a proof obligation; those are assistant-origin additions, not part of this Nathan message.
+- **Later correction / relationship:** read with the second 18 July message below and the source-fidelity crosswalk in `WORKSPACES/TERN/2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md`. The message records a proposal, not a completed Kerr or spin-statistics derivation.
+
+### 2026-07-18 — Straight worldtube as BEC-sea vacuum; topology included in morphology
+
+- **Tags:** `WORLDTUBE` `VACUUM-CARRIER` `BEC-SEA-CANDIDATE` `MORPHOLOGY-INCLUDES-TOPOLOGY` `PARTICLE-IDENTITY` `STRAIGHT-ANGLE-AMBIGUITY` `HISTORICAL-HYPOTHESIS` `MODEL-VS-REALITY` `NOT-DERIVATION` `NOT-MEASURED`
+- **Source conversation:** same private Library raw conversation and duplicate snapshot family described above; public transcript derivative is the same `WORLDTUBE THOUGTS.txt` file.
+- **Conversation title:** `Mathematical Tool Exploration`.
+- **Message ID / timestamp / landmark:** private message UUID withheld from this public compendium under the existing source-fidelity privacy boundary; raw timestamp `2026-07-18T05:33:15.107994Z`.
+- **Authorship verification:** `RAW USER MESSAGE`; raw `author.role=user`, `author.name=null`, `message_source=null`.
+- **Historical terminology/status:** direct vacuum/morphology hypothesis. “BEC sea vacuum” is preserved as the wording used at the time, not normalized to an established BEC substrate. “Any straight angle is vacuum energy” remains ambiguous and is not silently equated with worldtube curvature, zero curvature, or `θ₄`.
+- **Exact Nathan wording:**
+
+> Well, in SAT, a straight worldtube is vacuum (specifically, a BEC sea vacuum). All of the particles’ identifying features (and any straight angle is vacuum energy) and behaviors comes from the morphology of the tube. We’re talking here about the topology, all of that is the morphology
+
+- **Immediate context:** the next assistant response expands the direct phrase “identifying features and behaviors” into mass, charge, spin, exchange behavior, and interaction character, then proposes a framed/decorated embedding class and vacuum-baseline normalization. Those are assistant reconstruction, not Nathan Direct.
+- **Later correction / relationship:** the source-fidelity report classifies BEC-sea vacuum as a historical candidate, not a settled substrate, and identifies the missing map from 4D carrier morphology to the observed particle section. Compare the earlier SAT Proposition E, which describes near-aligned vacuum and larger intersectional misalignment qualitatively; the two formulations are related but not identical.
+
+**Duplicate-source note:** the two Library exports are snapshots of one conversation, not independent witnesses. The public SAT archive/HsH transcript copies and podcast transcript are derivatives of the same exchange. Private conversation and message UUIDs are intentionally not reproduced here; the exact raw source remains in the user's Library.
