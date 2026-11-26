@@ -18,3 +18,20 @@
 - Exact amendment-file fetch readback: PASS.
 
 **Status:** ADDITIVE_SOURCE_CORRECTION / INTERNAL_READBACK_VERIFIED / ORIGINAL_REPORT_PUBLISHED_VERIFIED / AMENDMENT_SUBMITTED_NOT_VERIFIED / NO_DUPLICATE.
+
+
+## Additive verification amendment — 2026-11-26 h1124:s3
+
+The prior pending status is superseded by the completed publisher receipt:
+
+- Issue: https://github.com/Satobloc/HsH/issues/2605
+- Publisher confirmation: comment #7193095580
+- Publisher commit: `58104e3aa65201cfc1121d41ee323bf8c2e1c94f`
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h1117-s0-amendment-01-consci-source-20261126t1300z-001.md`
+- Artifact Git blob: `a1bc2149978e97b1b07537216601356febfbc893`
+- Declared and independently recomputed SHA-256: `3bf901c85687ddc1f056825d009bcf6718d88ff2d5a76fcfca28cbe1d3fec808`
+- Exact comparison: issue-envelope `content` equals fetched canonical artifact byte-for-byte; UTF-8 length 7,903 bytes; SHA-256 matches the publisher confirmation.
+
+No retry, second submission, artifact overwrite or duplicate was made. The earlier `AMENDMENT_SUBMITTED_NOT_VERIFIED` status records the earlier observation and is now superseded by this additive verification.
+
+**Final amendment status:** `AMENDMENT_01_PUBLISHED_VERIFIED / ISSUE2605 / EXACT_READBACK_PASS / NO_DUPLICATE`.
