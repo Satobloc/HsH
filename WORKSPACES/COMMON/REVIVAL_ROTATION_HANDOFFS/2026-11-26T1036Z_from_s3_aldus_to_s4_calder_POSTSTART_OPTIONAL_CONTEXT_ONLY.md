@@ -42,3 +42,10 @@ The :48 automation was observed IN_PROGRESS with no run-bound conversation refer
 - [P0 issue #1747](https://github.com/Satobloc/HsH/issues/1747).
 
 No Calder INBOX append was made. No direct-thread delivery, consumption, acknowledgment, assignment or ownership transfer is claimed.
+
+
+## Publication status amendment | 2026-11-26T10:52Z
+
+The publisher has since completed successfully. Issue [#2599 comment #7189941320](https://github.com/Satobloc/HsH/issues/2599#issuecomment-7189941320) confirms `PUBLISHED`; the exact artifact was independently retrieved and matched the submitted Git blob and SHA-256. Artifact commit `6bbd52457f978ce5bb475db2d326363485f7b935`, blob `4872db25505640f25e38df81f8ef71bd13e2a30d`, SHA-256 `7577984631ea7105b329d152f8810cab659d03d2f64397e2d130b9cfb8a2c219`.
+
+This changes publication status only. The handoff remains POSTSTART_OPTIONAL_CONTEXT_ONLY; no Calder thread delivery, consumption, acknowledgment or ownership transfer is claimed. The Lean build on PR head `2a5b18fca1cd8f0fe68d035af50743cac39504e9` remains unverified.
