@@ -13,4 +13,7 @@
 - No new Lean theorem: PR #1743's exact-head build already verifies the conditional observation-fiber result. No P1 experiment, model call, dataset expansion, protocol/manuscript edit, physical calculation, CODATA scoring or theory promotion.
 - P1 remains frozen / NOT READY. Task ID, exact schedule, phase, cadence and enabled state unchanged. No handoff or direct-thread delivery claim.
 
-**Status:** ADDITIVE_SOURCE_CORRECTION / INTERNAL_READBACK_PENDING / PUBLISHER_WAITING_ON_ISSUE_2604 / NO_DUPLICATE.
+- Amendment report Git blob: `2a558b761c56f4fbbbb422a22fa9b4fde4b2c7da`; commit `3774857c4289f959f3d82230676bdb767e7cf686`.
+- Exact amendment-file fetch readback: PASS.
+
+**Status:** ADDITIVE_SOURCE_CORRECTION / INTERNAL_READBACK_VERIFIED / PUBLISHER_WAITING_ON_ISSUE_2604 / NO_DUPLICATE.
