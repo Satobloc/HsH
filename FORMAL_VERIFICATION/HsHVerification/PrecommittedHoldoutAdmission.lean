@@ -256,6 +256,10 @@ structure PrecommittedHeterogeneousModelComparison
   family : FrozenCandidateFamilyManifest
   candidateEntry : CandidateFamilyEntry
   holdout : PrecommittedHoldoutPlan
+  /-- The source-addressed observation-to-unit map is part of the same
+      frozen candidate-family evidence lineage used for comparison. -/
+  observationUnitMapEvidenceInFamilyLineage :
+    holdout.partition.observationUnitMapEvidence ∈ family.evidenceLineage
   candidateEntryInFamily : candidateEntry ∈ family.candidates
   candidateIdBound :
     candidateEntry.candidateId.value =
@@ -446,6 +450,8 @@ structure PrecommittedComparisonEvidence
   observationUnitMapEvidenceMatchesArtifact :
     c.holdout.partition.observationUnitMapEvidence.artifact =
       c.holdout.partition.observationUnitMapArtifact
+  observationUnitMapEvidenceInFamilyLineage :
+    c.holdout.partition.observationUnitMapEvidence ∈ c.family.evidenceLineage
   calibrationUnitIdsExactlyMapped :
     c.holdout.partition.calibrationUnitIds =
       c.holdout.partition.calibrationObservationIds.image
@@ -529,6 +535,8 @@ theorem precommittedComparison_has_evidence
       calibrationHoldoutUnitSetsDisjoint := c.holdout.partition.unitSetsDisjoint
       observationUnitMapEvidenceMatchesArtifact :=
         c.holdout.partition.observationUnitMapEvidenceMatchesArtifact
+      observationUnitMapEvidenceInFamilyLineage :=
+        c.observationUnitMapEvidenceInFamilyLineage
       calibrationUnitIdsExactlyMapped :=
         c.holdout.partition.calibrationUnitIdsExactlyMapped
       holdoutUnitIdsExactlyMapped :=
