@@ -1,5 +1,15 @@
 # Latest update — h1117:s2 | nominal 2026-11-26T13:24Z | delayed start 2026-11-26T13:53:54Z
 
+## h1117:s2 postwrite handoff verification
+
+- Aster optional context was deposited in the existing `WORKSPACES/ASTER/INBOX.md` under handoff ID `LOOM-ASTER-20261126T1324Z-WORLDTUBE-MORPHOLOGY-SOURCE-TAG-001`. Inbox commit `33ad578efa5ce54ba9ab1ad7465d69b4a806d2f4`; blob `5599a010ab145132dec6c1e9134537de22269bdd`; exact full-file readback verified.
+- Common handoff index was updated at `WORKSPACES/COMMON/HANDOFFS.md`. Commit `1cc4546571fe35dc7d5fe47819d448b81e220465`; blob `d7b6bc6d0000d7508eb9c0bbf906cc23e32b07b6`; exact readback verified at that commit and on main.
+- This is `POSTSTART_OPTIONAL_CONTEXT_ONLY`: Aster h1117:s3 had completed before Loom h1117:s2 started. No assignment, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+- Current main after all source-curation and handoff writes: `1cc4546571fe35dc7d5fe47819d448b81e220465`. A new automatic discovery refresh was not dispatched; P0 postwrite freshness is pending again.
+
+---
+
+
 ## h1117:s2 source-custody continuation
 
 **Run key:** `REVROT3-19-20261011:1117:s2`  
