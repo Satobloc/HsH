@@ -234,7 +234,7 @@ theorem result_predates_invocation_blocks_attribution
   exact (not_le_of_gt h) bound.2
 
 def runCompleted (run : Invocation) : Prop :=
-  run.status = .completed ∧ run.completedAtMs.isSome
+  run.status = .completed ∧ run.completedAtMs ≠ none
 
 theorem in_progress_is_not_completed
     (run : Invocation) (h : run.status = .inProgress) :
