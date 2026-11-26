@@ -1,3 +1,17 @@
+# Current Lane 36 overlay: h1111:s3 | GW241011 version-coherent comparator
+
+- Submission: [issue #2593](https://github.com/Satobloc/HsH/issues/2593), SUBMITTED_NOT_VERIFIED at checkpoint; publisher run #45779025417 was still in progress at checkout. Do not resubmit.
+- Submitted content SHA-256: d3506950028b0fb9f91c32b112ac72de8dc94b26ddd482c0e537d40f3186288a.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0736Z_s3_nadir_voss.md.
+- Optional Enheduanna packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0736Z_from_s3_nadir_voss_to_s4_enheduanna_POSTSTART_OPTIONAL_CONTEXT_ONLY.md; inbox append ID NADIR-ENH-20261126T0736Z-001. Recipient :48 run had already started; no direct-thread delivery or acknowledgment.
+- New source delta: GW241011_233834 GWTC-5.0 v2, three standard PE waveform-family summaries and descriptive 90% interval intersections. v2 event-specific strain/timeline route unresolved; no raw HDF5/strain download, no H(s)H forward map, no physical prediction.
+- Nadir Lane 24 Cycle 08 remains COMPLETE / BACKSEAT / HOLD; no Cycle 09. No standalone signed specialist charter or authenticated Nadir thread.
+- P0 full discovery parse passed at source cut 98170a39: 17,988 docs; 11,056/11,056 workspace records missing presentation_state; presentation safety FAIL; live routes NOT OBSERVED. Postwrite refresh pending.
+- PWH h1096:s4 review complete; internal queue h1081:s3 and graph 18/16 remain Tern-owned.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled, hourly, original phase/prompt unchanged. No sixth task.
+
+---
+
 # Current Lane 36 overlay: h1092:s3
 
 - Canonical report: [issue #2550](https://github.com/Satobloc/HsH/issues/2550); artifact SHA-256 eb39a7a04538738ad0354bb26edb9aab050f65d4f62d2065ea7c07797c8bd7de; later exact readback verified.
