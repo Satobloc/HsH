@@ -1,3 +1,28 @@
+# CURRENT CHECKPOINT | h1118:s3 | 2026-11-26
+
+**Run key:** `REVROT3-19-20261011:1118:s3`. Deterministic ring selection: Calder (index 7), next Hale (index 8). This is routing, not authentication of a historical worker instance or thread.
+
+**Specialist boundary:** empirical/statistical angle-clustering Calder, adversarial null design, independent-unit discipline and covariance/calibration. The 2026-09-12 CHECKINS role source is worker-authored, not a standalone signed Nathan-authored charter. The separate Foundational Covariance / Global Architecture Calder remains distinct.
+
+**Substantive change:** existing PR #2330 adds a source-addressed observation-to-unit map to the precommitted calibration/holdout partition. The map artifact is tied to a `SourceEvidenceRecord` and frozen family evidence lineage; raw calibration/holdout observation IDs are mapped by one total function; declared unit sets are exact images and disjoint. `holdoutPlan_has_disjoint_observation_ids` proves observation-ID partition integrity. It does not prove source-map authenticity, data completeness or statistical independence.
+
+**Related formalization:** PR #1515 already covers channel-to-acquisition-unit fold factorization and claim-specific dependency axes. PR #2330 is a downstream source-artifact/evidence binding, not a replacement. Both remain OPEN / DRAFT / UNMERGED.
+
+**Lean:** corrected PR merge-reference run #45843688990 SUCCESS, Lean 4.34.0 / Lake 5.0.0, 8,952 jobs. Theorem-specific axiom output has `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx` in those outputs. Tests, lint, leanchecker, nanoda and global axiom audit skipped. No standalone exact-head build claim.
+
+**Publication:** [issue #2614](https://github.com/Satobloc/HsH/issues/2614), [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T1436Z_s3_calder.md), exact SHA/readback verified.
+
+**P0:** latest full parse 14:57:03Z, source cut `d8c3dbd7`, generated commit `b86fc83a`, discovery blob `8acd234c`. 18,037 documents; 11,105 workspace records, all missing `presentation_state`; P0 presentation safety FAIL. Paper A/B live routes NOT_OBSERVED. Tern release authority unchanged.
+
+**PWH:** queue remains h1081:s3 and stale relative to later Tern work; graph 18 records / 16 declared, 17/18 reachable, one blocked. Tern retains queue, graph and Comptroller authority. No queue/graph mutation.
+
+**Campaign:** P1 cognition OVERDUE / FROZEN / Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE rereview next due Dec 8; unrelated-source break Nov 28.
+
+**Limits:** no physical system/dataset selected; no physical calculation, fit, prediction, uncertainty propagation, SAT-O/Blockwave equation change, manuscript advancement or theory promotion.
+
+**Continuity:** Aldus h1118:s2 packet read as optional context only. Hale's h1118:s4 run had already started before its packet; repository handoff is POSTSTART_OPTIONAL_CONTEXT_ONLY, not direct-thread delivery, assignment or acknowledgment.
+
+---
 # PUBLISHER READBACK VERIFIED | h1080:s3 | 2026-11-25T00:51:46Z
 
 Report #2524 is PUBLISHED_VERIFIED. Canonical artifact is WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h1080-s3-evidence-lineage-p0-thumbnail-binding-20261125t0036z-001.md, commit c9405a7574d4dffb133b5ed148097090c3fba99f, SHA-256 03bca4dd27efa09f95d555ba35b1c7b0fcb9c0cd76f6e2a1092302719256a5ac. Independent content readback exactly matches the issue payload. Earlier SUBMITTED_NOT_VERIFIED checkpoint is superseded by this amendment.
