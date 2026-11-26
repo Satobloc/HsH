@@ -102,12 +102,7 @@ function and a report function can agree on that observed support while
 disagreeing under the intervention/state change to true. This is a logical
 counterexample to inferring counterfactual alignment from observed agreement.
 
-The second witness reuses the source-projection/dependence theorem above:
-two worlds can preserve the same observed projection while carrying different
-abstract dependence relations. The relation is a declared mathematical token,
-not a measured or mechanistic causal graph.
-
-These are formal counterexamples only. They do not establish that any actual
+This is a formal counterexample only. They do not establish that any actual
 LLM is ungrounded, that a particular report is confabulated, or that a model
 has or lacks consciousness. They do not prove second-order representation.
 They do not modify the frozen P1 protocol, issue #564, PR #850, any dataset,
