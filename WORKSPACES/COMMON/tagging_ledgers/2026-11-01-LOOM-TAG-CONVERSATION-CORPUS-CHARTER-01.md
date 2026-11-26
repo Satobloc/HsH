@@ -1205,3 +1205,74 @@ The later T0/Bayesian chronology method remains a worker-authored specialization
 The prior Section B value `2026-06-01T15:36:36.139Z` is a date-transcription error. Use the exact raw top-level value above. The archive filename range `24.03.22•26.06.01` remains correct because the existing exporter derives it from the active user/assistant message interval, not the later export metadata update clock. These are different clock domains, not competing event dates.
 
 The corrected June 10 value was already present in the h1075:s3 chronology report and SOURCE_PROVENANCE_GATE Amendment 03; this amendment propagates that correction to the cumulative tag ledger. No new tag rows were added because the source's ten user-role messages were already represented. No shared parser, tagger, workflow, Lean module, SAT-O/Blockwave equation, or theory status was changed. No raw-byte SHA-256 was computed for this source export; the identifier above is its Git blob OID.
+
+
+## AP. 2026-11-26 | Loom h1117:s2 | 18 July worldtube / BEC-sea morphology source tag
+
+**Scope:** source-tagging and chronology integration for two previously unindexed direct user-role messages from the private Library raw conversation *Mathematical Tool Exploration*. Exact wording is now preserved in the existing [Nathan Verified Words Compendium](../NATHAN_VERIFIED_WORDS_COMPENDIUM.md), batch 2026-11-26-A. This section is an additive tag record, not a new theory report.
+
+### Source identity and retrieval
+
+- Primary source: private Library raw exports titled `Mathematical Tool Exploration — raw.json` and `Mathematical Tool Exploration — raw(1).json`. The raw exports were opened through Files; the relevant nodes were read with surrounding assistant context.
+- Both Library exports identify the same conversation and the same two relevant user-role records, with matching timestamps, parent links, and text. They are different snapshots/byte streams and are **not independent witnesses**. The assistant child record after the second user message differs between snapshots; do not use child-node differences to multiply the direct source.
+- The raw records show `author.role=user`, `author.name=null`, and `message_source=null`. Under the standing archive speaker rule, the user-role messages are Nathan Direct. Private conversation and message UUIDs are withheld from this public ledger in accordance with the existing source-fidelity boundary.
+- Relevant raw timestamps: `2026-07-18T05:29:42.674160Z` and `2026-07-18T05:33:15.107994Z`.
+- Public transcript derivative: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/WORLDTUBE THOUGTS.txt`, HsH Git blob `735f2a95e492944a244d1ceba31f33b6b5606119`. The SAT archive/HsH transcript copies resolve to the same blob; the podcast transcript is another derivative. None is an independent raw-role witness.
+- Existing source-fidelity crosswalk: `WORKSPACES/TERN/2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md`. Existing geometry/source-map report: [Kestrel issue #2565](https://github.com/Satobloc/HsH/issues/2565). This Loom entry adds corpus tags and compendium preservation; it does not duplicate those reports.
+
+### Direct-source tag assignments
+
+**Message A — finite Kerr core / 4D history tube**  
+Timestamp: `2026-07-18T05:29:42.674160Z`.
+
+- `WORLDTUBE`
+- `FINITE-CORE`
+- `KERR-RING-TO-HISTORY-TUBE`
+- `PAULI-EXCLUSION-MOTIVATION`
+- `HISTORICAL-PROPOSAL`
+- `MODEL-VS-REALITY`
+- `NOT-DERIVATION`
+- `NOT-MEASURED`
+
+The direct message says the finite Kerr core should be treated as a tube in 4D history rather than a spatial ring, and frames entry into it as entry into the interior of a Kerr singularity. This is a source-faithful proposal, not a specified Kerr metric, a defined excision boundary, a proof of non-admissibility, or a derived spin-statistics result.
+
+**Message B — straight worldtube / BEC-sea vacuum / morphology**  
+Timestamp: `2026-07-18T05:33:15.107994Z`.
+
+- `WORLDTUBE`
+- `VACUUM-CARRIER`
+- `BEC-SEA-CANDIDATE`
+- `MORPHOLOGY-INCLUDES-TOPOLOGY`
+- `PARTICLE-IDENTITY`
+- `STRAIGHT-ANGLE-AMBIGUITY`
+- `HISTORICAL-HYPOTHESIS`
+- `MODEL-VS-REALITY`
+- `NOT-DERIVATION`
+- `NOT-MEASURED`
+
+The direct message identifies a straight worldtube with “BEC sea vacuum” and says particle-identifying features/behavior come from tube morphology, including topology. The phrase “any straight angle is vacuum energy” is ambiguous; it is not normalized to zero curvature, `θ₄=0`, or any other formal quantity. BEC-sea remains a candidate, not an established physical substrate.
+
+### Assistant context — separately tagged, never attributed to Nathan
+
+- The assistant response after Message A adds a non-admissible/excised core, a three-assumption setup, a forbidden configuration, and exchange phase `-1` as a proof obligation. Tags: `ASSISTANT-RECONSTRUCTION`, `EXCISED-CORE-ASSUMPTION`, `CONDITIONAL-EXCLUSION`, `EXCHANGE-PHASE-PROOF-OBLIGATION`, `NOT-NATHAN-DIRECT`.
+- The assistant response after Message B expands “identifying features and behaviors” into mass, charge, spin, exchange, and interaction readouts; proposes a framed/decorated embedding class and vacuum-baseline normalization. Tags: `ASSISTANT-RECONSTRUCTION`, `FORMALIZATION-PROPOSAL`, `READOUT-EXPANSION`, `VACUUM-BASELINE-PROPOSAL`, `NOT-NATHAN-DIRECT`.
+- These assistant additions are useful candidate formalization questions only. They are not retroactively part of the direct user messages.
+
+### Cross-era source relationship
+
+- SAT archive original: `DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt`, blob `0318d803fc4bb948d781d1aa0d9257dc2bcead77`. It includes the `#Update 9/19/2025` annotation and Proposition E's qualitative distinction between near-aligned vacuum filaments and greater intersectional misalignment associated with mass/energy transfer.
+- HsH 30Sep26 dump copy: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/FUNDAMENTAL INTUITIONS.txt`, blob `81ae23a106939cba7e3d134ed5c90a7d7a979a25`. This copy omits the 9/19/2025 annotation. Preserve the version difference; do not treat the copies as byte-identical.
+- The July 18 BEC-sea wording is a later, stronger vacuum-carrier hypothesis. It is related to, but not equivalent to, the earlier near-alignment account. The finite-core worldtube/morphology language also does not replace the earlier filament–timesheet intersection statement.
+
+### Current BEDROCK and formalization boundary
+
+- Current `BEDROCK.md` entry `ND-2026-11-24-01` is a later status/synthesis capture whose cited authority points to Issues #2/#3 and current workflow control. The July 18 raw user messages are antecedent source material for the worldtube/morphology components; they do not directly state the full compound label “Kerr-ER-Pauli”, do not prove a fermionic exchange phase, and do not establish a twisted-vacuum physical model.
+- A possible future interface is a source-defined thickening/embedding from the earlier filament/worldline into a finite-core worldtube, followed by a timesheet/worldtube projection or acquisition map to the observed particle section. These are **missing maps**, not established equivalences. The source supplies no dimensions, domains/codomains, admissibility conditions, morphology equivalence relation, or measured readout.
+- Existing Nadir PR #1189 proves conditional observation-factorization results; it does not supply the missing physical realization or morphology-to-observable map.
+- No new Lean theorem was written: doing so now would require inventing the domains, dimensions, core boundary, and readout semantics. No physical calculation, CODATA comparison, fit, independent prediction, equation change, or theory promotion was performed.
+
+### Non-duplication and next cursor
+
+- The source content is already discussed in the Tern source-fidelity report and Kestrel #2565; this section adds the missing Loom corpus-tag and direct-word-compendium integration. It is not an independent source witness or a duplicate public report.
+- Next source task: obtain a source-defined filament-to-worldtube map and a separately specified timesheet/worldtube observation map, preserving the distinction between direct Nathan wording, assistant reconstruction, standard GR/BEC references, and measured evidence. Do not infer the map from the word “morphology”.
+- FIE rereview remains due 2026-12-08; unrelated-source break next due 2026-11-28. Neither is due in this run.
