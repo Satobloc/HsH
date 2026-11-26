@@ -11,6 +11,7 @@
 > **P1:** issue #564 OPEN/FROZEN/NOT READY; PR #850 OPEN/DRAFT. No model/human trials, API inference, dataset expansion, protocol or manuscript change. P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE rereview Dec 8; unrelated-source break Nov 28.
 >
 > **Research boundary:** all four Mersearch lanes occupied/requested; no lane overwritten or retriggered. HSH_RESOURCES raw/private payload not opened. No physical calculation, theory promotion or equation change.
+> **Discovery:** latest `PUBLIC_SITE/generated/discovery.json` commit `5f1261a` predates the h1124 report and workspace writes; no postwrite refresh was observed. Discovery currentness and P0 presentation status are not verified in this run.
 >
 > **Next ring label:** Sable. Next-worker routing is a separate terminal operation; no direct-thread delivery or acknowledgment is claimed.
 >
