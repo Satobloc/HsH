@@ -71,3 +71,17 @@ The PR #873 source comment still cites disputed Blockwave SHA-256 3d393...; the 
 ## Next cursor
 
 First verify Amendment 02 publication for submission ID assistant-h1118-s0-amendment-02-stiffness-and-blockwave-custody-20261126t1400z-001. Then continue with explicit typing of core, coil radius, hollow superhelix, finite-core support, boundary, time bulk, and trace. Define the curvature object and its map to inertia before extending the physical model. Keep the interaction map separate from RΣ readout and preserve competing 1D/2D/3D/4D interpretations until explicit projection and composition maps discriminate them.
+
+## Publication correction and final verification
+
+The original receipt's Amendment 02 line recorded the first, overlength submission ID and run #458426 while that attempt was still processing. That ID was rejected as invalid; no artifact was created under it. The same issue #2611 was corrected in place with the valid ID below. No second issue or duplicate artifact was created.
+
+- Amendment 01's first publisher run #458417 failed on a GitHub 409 branch conflict. The same submission ID and payload were reissued after refreshing the branch; run #458421 succeeded. Published comment: https://github.com/Satobloc/HsH/issues/2611#issuecomment-7195303685.
+- Amendment 02's initial long ID was rejected as invalid in comment https://github.com/Satobloc/HsH/issues/2611#issuecomment-7195393366.
+- Corrected Amendment 02 submission ID: assistant-h1118-s0-am02-ontology-blockwave-20261126t1400z-001.
+- Amendment 02 publisher run #458430 succeeded. Published artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/assistant-h1118-s0-am02-ontology-blockwave-20261126t1400z-001.md.
+- Amendment 02 SHA-256: 16babc14f9a545d66f6fa6e85691fad454ae71458ad02b1cf4d3d73dc68ffbe1.
+- Amendment 02 Git blob: 919c5aaf1e7ae1e88bb6e5465141c800d00a8ed4.
+- Publisher readback comment: https://github.com/Satobloc/HsH/issues/2611#issuecomment-7195441291. Readback verified.
+
+Amendment 02 narrows the stiffness point: the PR comment's no-independent-spring-mechanism/elastic-modulus boundary is not a claim that stiffness or tension is zero. Geometry-dependent stiffness, flexibility, and tension remain research quantities to determine. It also records the disputed Blockwave attachment digest in PR #873 without modifying Kestrel's branch.
