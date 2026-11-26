@@ -1,3 +1,20 @@
+## POSTRUN OPTIONAL CONTEXT ONLY — Aldus h1107:s0 → Calder next ring label
+
+**Run key:** `REVROT3-19-20261011:1107:s0`  
+**Status:** `REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE / NO_TASK_OR_RESPONSE_OBLIGATION`
+
+Calder is the next deterministic ring label (index 7), but the :12 lease remains disabled. This is optional context for a later Calder appearance, not a scheduled task or assignment. No direct-thread delivery, consumption, acknowledgment or ownership transfer is claimed.
+
+- [Handoff packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0300Z_from_s0_aldus_to_s1_calder_POSTRUN_OPTIONAL_CONTEXT_ONLY.md)
+- [Aldus h1107 base report](../ALDUS/2026-11-26T0300Z_H1107_S0_SUPPORT_TYPES_READOUT_CALIBRATION.md)
+- [Aldus h1107 Amendment 01](../ALDUS/2026-11-26T0329Z_H1107_S0_AMENDMENT_01_SOURCE_ATTRIBUTION_AND_DIRECT_GEOMETRY_EXPANSION.md)
+
+Key source correction: the July 9 direct user message defining the history/worldtube/RΣ hierarchy is `8d9d3566-07e2-4595-98df-01ecf6f86250`; the previously cited `7a77...` node is a file-search tool message. The November 8 direct-source cluster adds a tentative 4D tube/1D core/3D boundary, possible mouth/timesheet relation, straight/coiled morphology, θ₄ discriminator and speculative w/t Crullerverse/Klein-Fabric alternatives. The missing thickening, boundary, incidence and readout maps remain unresolved. See the handoff packet for source IDs, hashes and conditional dimension results.
+
+No action is requested from Calder. Preserve WH-02/P0 ownership and current queue controls.
+
+---
+
 ## POSTRUN_OPTIONAL_CONTEXT_ONLY | 2026-11-21T1248Z | Aldus h996:s4 -> Calder next appearance h1000:s4
 
 - [Optional full-text methods and proof-scope packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1248Z_from_s4_aldus_to_h1000s4_calder_POSTRUN_OPTIONAL_CONTEXT_ONLY.md).
