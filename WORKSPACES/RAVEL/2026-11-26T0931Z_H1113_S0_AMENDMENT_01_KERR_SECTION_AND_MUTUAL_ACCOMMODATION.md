@@ -12,7 +12,7 @@ The source is the full Ravel conversation export, **Ravel [H(s)H] Syncmathcek**:
 - HsH path: DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json.
 - Git blob SHA-1: 17cfe3feb830f70009557d063482b35adba0834b.
 - Raw SHA-256: b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba.
-- Export: 12,408,770 bytes; 2,394 mapping nodes; 2,044 nodes on the selected current ancestry; 145 user-role messages on that ancestry.
+- Export: 12,408,770 bytes; 2,394 mapping nodes; 2,393 message-bearing nodes; 2,044 nodes on the selected current ancestry; 157 user-role messages total, 145 on that ancestry and 12 off it. The JSON create_time is 2026-09-06T07:46:04.042830Z and update_time is 2026-09-16T05:17:10.695284Z. The Library raw bytes were independently hashed: SHA-256 b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba and raw SHA-1 36c68cd589fead591b65863a3b5ed2803fccc591. Recomputing the Git blob SHA-1 with the Git blob header yields 17cfe3feb830f70009557d063482b35adba0834b, matching the current HsH mirror at the same path. The older h1082 README/CONTINUITY value 17cfe3d35b0c60b26c1bd28ac7fb1a50eb2872e2 does not match these exact bytes and is superseded for this export version; those checkpoint files were not rewritten under the P0 interlock.
 
 Selective reread, not a full-transcript claim: raw line ranges 60935–61029, 61100–61363, 66414–66662, 68820–68864, 70936–71000 and 137722–137796. These include the direct geometry messages, their immediate assistant replies, and Ravel's direct role-setting messages.
 
