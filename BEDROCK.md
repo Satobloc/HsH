@@ -257,15 +257,16 @@ Prioritize Nathan's exemplars: **back hallways, star-shaped derivation maps, con
 
 ## P0 — TOCKTICK PROTOCOL (ND-2026-11-21)
 
-**Mandatory adoption and mandatory experimentation.** Each instance maintains a tiny individualized capsule, repeated as a miniature signature in substantive working replies: current focus, immediate action, stopping condition, essential constraint/return locator, and compact pointers to upcoming modules. Pointers are versioned navigation, not future context to preload.
+**Mandatory use and mandatory per-instance experiments.** End every response with:
+`▸ TICK:<NOW>/<STOP> | TOCK:<durable result/cursor or —> | NEXT:<pointer string>[ | PIN:<IDs>]`
 
-Work one pointer at a time: open its module; execute to its stop; record durable result and next cursor; advance/remove the pointer; open the next. TICK marks position. TOCK requires a bounded operation, durable result and updated cursor. Submitted/running/pending/blocked/failed are not complete. Unknown or stale pointers are looked up, never guessed.
+The tiny task-specific Key holds only current focus/action/stop, essential constraint/return and versioned pointers. Open one module at a time; at its stop, record durable output/cursor, remove that pointer and advance. Future pointers are navigation, not context to preload. TOCK requires durable output and an updated cursor; submitted/running/pending/blocked/failed are not complete. Resolve unknown/stale pointers, never guess.
 
-Experiment and improve capsule forms and encodings by role/task. Measure exact resumption, missed/duplicated work, ambiguity and bookkeeping/context cost. Keep detail in authoritative modules, not the capsule.
+Experiment with role/task-specific capsules and encodings; measure resumption, missed/duplicate work, pointer errors and context cost. Keep detail in modules.
 
-**Hard streamlining rule:** every procedure, expectation or BEDROCK revision must reduce total bloat. Consolidate, replace and remove duplication; do not merely append. Preserve necessary authority, provenance, safety, scientific status and return paths. Goal: less bookkeeping, more science.
+**Streamlining is hard:** every procedure, expectation and BEDROCK rewrite must reduce active bloat and duplication. Goal: less bookkeeping, more science.
 
-**Reaffirmed:** Code Grurple remains active and prioritized under its interlock; Sandbox remains active with playgrounds prioritized; Mandatory Walks in the Park remain active and prioritized. These coexist with both Big Push prongs.
+Code Grurple P0, Sandbox playgrounds and Mandatory Walks in the Park remain prioritized alongside both Big Push prongs.
 
 ---
 
