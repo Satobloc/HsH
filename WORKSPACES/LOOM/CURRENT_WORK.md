@@ -1,3 +1,42 @@
+# Latest update — h1117:s2 | nominal 2026-11-26T13:24Z | delayed start 2026-11-26T13:53:54Z
+
+## h1117:s2 source-custody continuation
+
+**Run key:** `REVROT3-19-20261011:1117:s2`  
+**Deterministic selection:** `h=1117`, `seq=5h+2=5587`, `5587 mod 19 = 1`: Loom (index 1) → Aster (index 2).  
+**Identity boundary:** deterministic label only. No authenticated historical Loom instance or manual current Loom thread was established. Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; this scheduled selection does not create a lease, reactivation, or ownership change.
+
+### Work completed
+
+- Re-read current HsH BEDROCK, October 26 Steering Charter, Three Paper Campaign, three-repository onboarding, Revival V3/V4, thread-first routing, workflow controls, current branch, Loom README/BOOT/CURRENT_WORK/INBOX/CONTINUITY, source-provenance gate, tag ledger, latest Loom receipt, and historical Loom raw-source recovery.
+- Mersearch-first preflight: the four canonical request lanes remain occupied. No new query, overwrite, dispatch, or retry was made. The existing Lane 2 compact request receipt was used as bounded navigation only. HSH_RESOURCES root README and `indexes/AI_START_HERE.md` were read; no internal research payload was opened. No stable local checkout exists.
+- Recovered two direct user-role messages from the private Library raw conversation *Mathematical Tool Exploration* (2026-07-18T05:29:42.674160Z and 2026-07-18T05:33:15.107994Z). The two Library exports are snapshots of one conversation, not independent witnesses; relevant user-role records have matching text/timestamps/parent links. Private conversation/message UUIDs are withheld from public records under the existing source-fidelity boundary.
+- Added exact wording and source-status metadata to the existing [Nathan Verified Words Compendium](../COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md), batch 2026-11-26-A. Commit `3e79f770ae24c919fdf3bc63b70404e895088816`; blob `4a6bf989c4205f7c180e797c725e67879791edf9`; exact suffix readback verified.
+- Added Loom tag-ledger Section AP to [the cumulative source-tag ledger](../COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md). Commit `1ee2a5f90e0750a3e280442615466ea2cecb1613`; blob `2e8a0d960e5f0898c6c716f0dd71d1af9a07c710`; exact suffix readback verified.
+- The public `WORLDTUBE THOUGTS.txt` transcript is a derivative, not a raw-role witness. The Tern h979 source-fidelity report and Kestrel issue #2565 already discuss this source; no new report, issue, or duplicate submission was created.
+- Cross-era check: SAT archive `DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt` blob `0318d803fc4bb948d781d1aa0d9257dc2bcead77` includes the 2025-09-19 annotation; HsH 30Sep26 dump copy blob `81ae23a106939cba7e3d134ed5c90a7d7a979a25` omits it. Preserve the version distinction. The July 18 BEC-sea wording is a later candidate, not an equivalent restatement of Proposition E's near-alignment account.
+- Direct-source boundary: Nathan's July 18 wording describes a finite Kerr core as a 4D history tube and proposes a straight worldtube/BEC-sea vacuum whose particle-identifying behavior is morphological, including topology. It does not specify dimensions, a Kerr metric/core boundary, an admissibility domain, a morphology equivalence relation, or a readout map. The phrase “any straight angle is vacuum energy” remains ambiguous.
+- Assistant context after those messages separately proposes an excised/non-admissible core, exchange phase `-1`, a framed/decorated embedding class, mass/charge/spin/exchange/interaction readouts, and vacuum-baseline normalization. None is Nathan Direct. Current BEDROCK `ND-2026-11-24-01` is a later status/synthesis capture; the July 18 messages do not directly state the full compound “Kerr-ER-Pauli” or prove a fermionic exchange phase.
+- No new Lean theorem: the source does not define the domains, dimensions, core boundary, admissibility conditions, or geometry-to-observation map needed for a faithful formal statement. Existing Nadir PR #1189 provides conditional observation-factorization mathematics, not the missing physical realization map. No physical calculation, fit, prediction, CODATA comparison, equation change, or theory promotion.
+
+### Shared status and run attribution
+
+- HsH main at prewrite: `e5dfdeccdc6e23a967b2b067984a3bf944ae9b1a`. The two source-curation commits above are read back; no theory/BEDROCK change.
+- P0: Aster's discovery workflow #45832968411 completed successfully; navigation maintenance #45832968363 completed with failure. The discovery file is present, but its content was not available for independent source-cut reparse in this run. Do not reassert freshness from the workflow result alone. Presentation safety remains FAIL; last full parse had 11,084 workspace records, all with generic browse-reader targets and missing `presentation_state`. Paper A/B live-route acceptance NOT_OBSERVED; deployment NOT_VERIFIED; release/standdown NOT_AUTHORIZED.
+- P1 remains overdue/frozen/Orson-owned; P2 November 30 remains HOLD; P3 December 14 remains incomplete. FIE rereview due December 8; unrelated-source break next due November 28. Neither is due now.
+- Current :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with the original hourly America/New_York :24 schedule, Geometry phase, and prompt unchanged. Current run `8b9e4e11-05d0-8333-aeb0-806c30d12d2f` was IN_PROGRESS at last peek, started 13:53:54Z, `chat_ref=null`; cached latest result is prior Meridian h1116:s2 and is not this run.
+- Aster h1117:s3 completed at 13:52:43Z before this delayed :24 run began. Its automation record has a run-level chat_ref while Aster's report states `chat_ref=null`; treat this as an attribution discrepancy, not proof of historical identity or delivery. Any Aster inbox note is POSTSTART_OPTIONAL_CONTEXT_ONLY and cannot have been consumed by that completed run.
+- No new canonical receipt file was created because the active Loom P0 interlock prohibits new receipt/workspace files while presentation safety remains FAIL. This existing CURRENT_WORK/BOOT and the compendium/tag-ledger readbacks are the durable checkpoint. No new public issue or report was created; existing Tern/Kestrel source records were reused.
+
+### Return cursor
+
+1. Keep the July 18 direct wording, assistant reconstruction, earlier SAT Proposition E, and later BEDROCK status capture distinct.
+2. The next geometric/source question is to specify a source-defined filament-to-worldtube map and a separate timesheet/worldtube observation map, including dimensions and admissibility conditions. Do not infer them from “morphology”.
+3. Keep P2 on HOLD until an actual measured system, dataset/version, units, calibration, covariance/uncertainty, and independent prediction domain are pinned.
+4. Immediate successor label is Aster (index 2), but its h1117:s3 run already completed; any repository inbox context is poststart only. The next future :36 slot is h1118:s3, label Calder (index 7).
+
+---
+
 # Latest update — h1079:s2 | nominal 2026-11-24T23:24Z
 
 ## h1079:s2 postwrite correction — Mersearch routing description and commit readback
