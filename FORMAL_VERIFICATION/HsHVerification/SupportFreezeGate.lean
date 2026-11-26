@@ -16,6 +16,8 @@ truthful, or that holdout access was actually prevented.
 
 namespace HsHVerification.SupportFreezeGate
 
+/-- The generation token is compared exactly below. Its global non-reuse across
+    support versions is an external protocol invariant, not proved here. -/
 structure SupportSpec where
   id : String
   sourceContextId : String
@@ -90,6 +92,12 @@ theorem changed_support_digest_blocks_gate
     confirmatoryGate s h c = false := by
   simp [confirmatoryGate, hd]
 
+theorem changed_support_generation_blocks_gate
+    {s : SupportSpec} {h : HoldoutSpec} {c : ComparisonRecord}
+    (hg : c.supportGeneration ≠ s.generation) :
+    confirmatoryGate s h c = false := by
+  simp [confirmatoryGate, hg]
+
 theorem support_frozen_after_first_access_blocks_gate
     {s : SupportSpec} {h : HoldoutSpec} {c : ComparisonRecord}
     (hlate : h.firstAccessAt ≤ s.frozenAt) :
@@ -132,5 +140,13 @@ def demoComparison : ComparisonRecord :=
 #eval confirmatoryGate
   { demoSupport with frozenAt := 21 }
   demoHoldout demoComparison
+#eval confirmatoryGate
+  { demoSupport with generation := 2 }
+  demoHoldout demoComparison
+
+#print axioms witness_implies_gate_true
+#print axioms changed_support_digest_blocks_gate
+#print axioms changed_support_generation_blocks_gate
+#print axioms support_frozen_after_first_access_blocks_gate
 
 end HsHVerification.SupportFreezeGate
