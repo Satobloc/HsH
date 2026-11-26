@@ -1,0 +1,246 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "15e10359ee1679b5a93b1afc10d309a592e1bc2d2419d8b3ceeb400cf95dc447",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-26T23:20:13.858811+00:00",
+  "query": "(author:user AND (\"Squire of Gothos\" OR \"Tomorrow Is Yesterday\" OR \"This Side of Paradise\" OR \"accumulative Kirk theory of mind\" OR \"episode order\")) OR (author:assistant AND (\"KIRK — ACCUMULATIVE THEORY OF MIND\" OR \"Human Relic Lens\" OR \"Shatner drift\"))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 24200,
+    "records_scanned": 23273608,
+    "hits": 38
+  },
+  "counted_hits": 38,
+  "distinct_sources": 6,
+  "results_by_root": {
+    "hsh-main": 25,
+    "resources": 13
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "author:assistant",
+      25
+    ],
+    [
+      "Shatner drift",
+      12
+    ],
+    [
+      "KIRK — ACCUMULATIVE THEORY OF MIND",
+      9
+    ],
+    [
+      "Squire of Gothos",
+      8
+    ],
+    [
+      "This Side of Paradise",
+      8
+    ],
+    [
+      "Tomorrow Is Yesterday",
+      8
+    ],
+    [
+      "Human Relic Lens",
+      6
+    ],
+    [
+      "episode order",
+      4
+    ],
+    [
+      "accumulative Kirk theory of mind",
+      2
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "title": "ARIADNE",
+      "record_count": 11,
+      "best_score": 234,
+      "first_hit_index": 0,
+      "sample_hit_index": 30,
+      "locator": "message:ffc7ac5b-e5e9-4cde-9e85-2faaeb3c2896",
+      "matched_terms": [
+        "Squire of Gothos",
+        "Tomorrow Is Yesterday",
+        "This Side of Paradise",
+        "accumulative Kirk theory of mind",
+        "episode order",
+        "author:assistant",
+        "Shatner drift"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "title": "ARIADNE",
+      "record_count": 11,
+      "best_score": 234,
+      "first_hit_index": 1,
+      "sample_hit_index": 31,
+      "locator": "message:ffc7ac5b-e5e9-4cde-9e85-2faaeb3c2896",
+      "matched_terms": [
+        "Squire of Gothos",
+        "Tomorrow Is Yesterday",
+        "This Side of Paradise",
+        "accumulative Kirk theory of mind",
+        "episode order",
+        "author:assistant",
+        "Shatner drift"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.10•26.10.17•Meridian Free Build — raw (2).json",
+      "title": "Meridian Free Build",
+      "record_count": 1,
+      "best_score": 75,
+      "first_hit_index": 35,
+      "sample_hit_index": 35,
+      "locator": "message:c324a72a-aa54-4a7d-b87a-1c1ddb887b8e",
+      "matched_terms": [
+        "author:assistant",
+        "KIRK — ACCUMULATIVE THEORY OF MIND"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.10•26.10.15•Meridian Free Build — raw (1).json",
+      "title": "Meridian Free Build",
+      "record_count": 1,
+      "best_score": 75,
+      "first_hit_index": 36,
+      "sample_hit_index": 36,
+      "locator": "message:c324a72a-aa54-4a7d-b87a-1c1ddb887b8e",
+      "matched_terms": [
+        "author:assistant",
+        "KIRK — ACCUMULATIVE THEORY OF MIND"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11•26.10.15•Morrow + Kestrel Free Quarry — raw.json",
+      "title": "Morrow + Kestrel Free Quarry",
+      "record_count": 1,
+      "best_score": 75,
+      "first_hit_index": 37,
+      "sample_hit_index": 37,
+      "locator": "message:4c440769-95c5-481f-a4e1-1011db5151b4",
+      "matched_terms": [
+        "author:assistant",
+        "KIRK — ACCUMULATIVE THEORY OF MIND"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:1ecc7db3-2adc-4998-b711-391a83dbbce3",
+      "matched_terms": [
+        "author:assistant",
+        "Human Relic Lens"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:1ecc7db3-2adc-4998-b711-391a83dbbce3",
+      "matched_terms": [
+        "author:assistant",
+        "Human Relic Lens"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:4fff320a-39a1-4515-8846-6e9a89d169bb",
+      "matched_terms": [
+        "author:assistant",
+        "Shatner drift"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:4fff320a-39a1-4515-8846-6e9a89d169bb",
+      "matched_terms": [
+        "author:assistant",
+        "Shatner drift"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:615f8dd3-f2df-495a-aeee-732ac44d5dbe",
+      "matched_terms": [
+        "author:assistant",
+        "Shatner drift"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:615f8dd3-f2df-495a-aeee-732ac44d5dbe",
+      "matched_terms": [
+        "author:assistant",
+        "Shatner drift"
+      ]
+    },
+    {
+      "hit_index": 9,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:278e80b9-6054-4428-84be-408ce793742e",
+      "matched_terms": [
+        "Squire of Gothos",
+        "Tomorrow Is Yesterday",
+        "This Side of Paradise",
+        "author:assistant",
+        "KIRK — ACCUMULATIVE THEORY OF MIND"
+      ]
+    },
+    {
+      "hit_index": 10,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "locator": "message:278e80b9-6054-4428-84be-408ce793742e",
+      "matched_terms": [
+        "Squire of Gothos",
+        "Tomorrow Is Yesterday",
+        "This Side of Paradise",
+        "author:assistant",
+        "KIRK — ACCUMULATIVE THEORY OF MIND"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
