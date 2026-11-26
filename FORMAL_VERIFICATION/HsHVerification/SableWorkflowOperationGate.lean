@@ -160,3 +160,197 @@ theorem pending_packet_does_not_imply_delivery :
 #print axioms packet_creation_is_not_delivery
 
 end HsHVerification.SableWorkflowOperationGate
+
+
+namespace HsHVerification.SableRunBinding
+
+/-- UTC instants normalized to Unix epoch milliseconds by the external adapter.
+    Correctness of that timestamp conversion is not established by this module. -/
+abbrev InstantMs := Nat
+
+inductive RunStatus where
+  | queued
+  | inProgress
+  | completed
+  | failed
+  | other
+deriving DecidableEq, Repr
+
+/-- A conversation reference is context identity, not evidence of message delivery. -/
+structure ConversationRef where
+  kind : String
+  id : String
+deriving DecidableEq, Repr
+
+/-- One observed automation invocation, corresponding to the live last_run record. -/
+structure Invocation where
+  id : String
+  startedAtMs : InstantMs
+  status : RunStatus
+  completedAtMs : Option InstantMs
+  chatRef : Option ConversationRef
+deriving DecidableEq, Repr
+
+/-- The cached latest_result record. Its runId may refer to an earlier invocation. -/
+structure CachedResult where
+  runId : String
+  createdAtMs : InstantMs
+  completedAtMs : Option InstantMs
+  chatRef : Option ConversationRef
+  contentTruncated : Bool
+  isFailureMessage : Bool
+  requiresUserAction : Bool
+deriving DecidableEq, Repr
+
+/-- A cached result is attributable to an invocation only if both its run identity
+    matches and its creation time is not earlier than that invocation's start.
+    The second condition rejects stale output retained across retries that reuse
+    a run identifier. -/
+def resultBoundToInvocation (run : Invocation) (result : CachedResult) : Prop :=
+  run.id = result.runId ∧ run.startedAtMs ≤ result.createdAtMs
+
+theorem result_binding_requires_matching_run_id
+    (run : Invocation) (result : CachedResult)
+    (h : resultBoundToInvocation run result) :
+    run.id = result.runId := h.1
+
+theorem result_binding_requires_not_older_than_run
+    (run : Invocation) (result : CachedResult)
+    (h : resultBoundToInvocation run result) :
+    run.startedAtMs ≤ result.createdAtMs := h.2
+
+theorem mismatched_run_id_blocks_attribution
+    (run : Invocation) (result : CachedResult)
+    (h : run.id ≠ result.runId) :
+    ¬ resultBoundToInvocation run result := by
+  intro bound
+  exact h bound.1
+
+theorem result_predates_invocation_blocks_attribution
+    (run : Invocation) (result : CachedResult)
+    (h : result.createdAtMs < run.startedAtMs) :
+    ¬ resultBoundToInvocation run result := by
+  intro bound
+  exact (not_le_of_gt h) bound.2
+
+def runCompleted (run : Invocation) : Prop :=
+  run.status = .completed ∧ run.completedAtMs.isSome
+
+theorem in_progress_is_not_completed
+    (run : Invocation) (h : run.status = .inProgress) :
+    ¬ runCompleted run := by
+  simp [runCompleted, h]
+
+/-- A chat context can be associated with an invocation only after result binding
+    and only when both nonempty conversation references agree. This is not delivery. -/
+def chatContextBoundToInvocation
+    (run : Invocation) (result : CachedResult) : Prop :=
+  resultBoundToInvocation run result ∧
+  ∃ ref : ConversationRef,
+    run.chatRef = some ref ∧ result.chatRef = some ref
+
+theorem no_chat_context_when_run_ref_absent
+    (run : Invocation) (result : CachedResult)
+    (h : run.chatRef = none) :
+    ¬ chatContextBoundToInvocation run result := by
+  intro bound
+  rcases bound.2 with ⟨ref, runRef, _⟩
+  simp [h] at runRef
+
+/-- A result may proceed to independent readback only when it is bound to the
+    current invocation, the invocation is completed, completion timestamps agree,
+    the content is not truncated, and the result does not request user action or
+    report a failure. This is eligibility for readback, not verified completion. -/
+def resultEligibleForIndependentReadback
+    (run : Invocation) (result : CachedResult) : Prop :=
+  resultBoundToInvocation run result ∧
+  runCompleted run ∧
+  result.completedAtMs = run.completedAtMs ∧
+  result.contentTruncated = false ∧
+  result.isFailureMessage = false ∧
+  result.requiresUserAction = false
+
+theorem readback_eligibility_requires_run_binding
+    (run : Invocation) (result : CachedResult)
+    (h : resultEligibleForIndependentReadback run result) :
+    resultBoundToInvocation run result := h.1
+
+theorem readback_eligibility_requires_completed_run
+    (run : Invocation) (result : CachedResult)
+    (h : resultEligibleForIndependentReadback run result) :
+    runCompleted run := h.2.1
+
+/-
+Observed software-run fixture from Workshop Relay :36, h1109:s3.
+The actual prior result's non-null chat reference identifier is intentionally
+redacted; only its observed presence is represented. Times are epoch milliseconds
+normalized from the exact UTC strings in the automation readback.
+
+last_run:
+  id         = 1c993f17-2e50-8331-a50e-86da9354252f
+  started_at = 2026-11-26T05:37:04.333183Z
+  status     = in_progress
+  completed  = null
+  chat_ref   = null
+
+latest_result:
+  run_id      = a4df1d5f-0f18-8326-99ff-00dc4c1af383
+  created_at  = 2026-11-26T04:55:25.379867Z
+  completed   = 2026-11-26T04:55:28.022582Z
+  chat_ref    = non-null (prior Kestrel result; identifier redacted)
+  truncated   = true
+-/
+
+def observedCurrentRun : Invocation :=
+  { id := "1c993f17-2e50-8331-a50e-86da9354252f"
+    startedAtMs := 1795671424333
+    status := .inProgress
+    completedAtMs := none
+    chatRef := none }
+
+def observedCachedPriorResult : CachedResult :=
+  { runId := "a4df1d5f-0f18-8326-99ff-00dc4c1af383"
+    createdAtMs := 1795668925379
+    completedAtMs := some 1795668928022
+    chatRef := some { kind := "chatgpt", id := "REDACTED_PRIOR_RUN_REF" }
+    contentTruncated := true
+    isFailureMessage := false
+    requiresUserAction := false }
+
+example : observedCurrentRun.id ≠ observedCachedPriorResult.runId := by decide
+
+example :
+    observedCachedPriorResult.createdAtMs <
+      observedCurrentRun.startedAtMs := by decide
+
+example :
+    ¬ resultBoundToInvocation observedCurrentRun observedCachedPriorResult := by
+  exact mismatched_run_id_blocks_attribution
+    observedCurrentRun observedCachedPriorResult (by decide)
+
+example : ¬ runCompleted observedCurrentRun := by
+  apply in_progress_is_not_completed
+  rfl
+
+example :
+    ¬ chatContextBoundToInvocation observedCurrentRun observedCachedPriorResult := by
+  apply no_chat_context_when_run_ref_absent
+  rfl
+
+example :
+    ¬ resultEligibleForIndependentReadback
+      observedCurrentRun observedCachedPriorResult := by
+  intro h
+  exact mismatched_run_id_blocks_attribution
+    observedCurrentRun observedCachedPriorResult (by decide) h.1
+
+#print axioms result_binding_requires_matching_run_id
+#print axioms result_binding_requires_not_older_than_run
+#print axioms mismatched_run_id_blocks_attribution
+#print axioms result_predates_invocation_blocks_attribution
+#print axioms in_progress_is_not_completed
+#print axioms no_chat_context_when_run_ref_absent
+#print axioms readback_eligibility_requires_run_binding
+#print axioms readback_eligibility_requires_completed_run
+
+end HsHVerification.SableRunBinding
