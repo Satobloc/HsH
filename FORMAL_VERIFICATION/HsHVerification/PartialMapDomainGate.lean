@@ -15,6 +15,9 @@ namespace HsHVerification.PartialMapDomainGate
 def partialDomain {α β : Type*} (f : α → Option β) : Set α :=
   {x | (f x).isSome}
 
+def everywhereDefined : Bool → Option Unit := fun _ => some ()
+def trueOnly : Bool → Option Unit := fun b => if b then some () else none
+
 /-- Extensional equality of partial maps requires both equal definedness
     domains and equal values wherever the maps are defined. -/
 theorem partialMap_ext_iff_domain_and_values
@@ -62,9 +65,5 @@ theorem common_domain_agreement_does_not_imply_partial_map_equality :
       rw [← hdom]
       exact hfalse
     simp [partialDomain, trueOnly] at hfalse'
-
-where
-  everywhereDefined : Bool → Option Unit := fun _ => some ()
-  trueOnly : Bool → Option Unit := fun b => if b then some () else none
 
 end HsHVerification.PartialMapDomainGate
