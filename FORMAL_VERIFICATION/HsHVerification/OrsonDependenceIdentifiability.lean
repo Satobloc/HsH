@@ -203,3 +203,98 @@ theorem observed_fidelity_does_not_identify_counterfactual_alignment :
 #print axioms observed_fidelity_does_not_identify_counterfactual_alignment
 
 end HsHVerification.OrsonSelfReportEvidence
+
+
+/-!
+# Monitoring-control causal identifiability (assistant reconstruction, 2026-11-26)
+
+Primary research motivating this distinction:
+* Kumaran et al., "Causal Evidence that Language Models use Confidence to Drive
+  Behavior" (Nature Machine Intelligence, 2026; arXiv:2603.22161): activation
+  steering changes abstention, a reactive answer/abstain control result.
+* Kumaran et al., "How LLMs Detect and Correct Their Own Errors" (arXiv:2604.22271):
+  post-answer PANL activations predict verification and correction, with
+  activation patching/ablation.
+* Cacioli, "The Metacognitive Monitoring Battery" (arXiv:2604.15702):
+  retrospective KEEP/WITHDRAW monitoring and prospective ANSWER/HINT/DECLINE
+  regulation are measured separately; the reported cross-model association is
+  weak and imprecise (r = .17, n = 20).
+* Al Nazi and Roy Dipta, "TRIAGE" (arXiv:2605.13414): prospective portfolio
+  selection, ordering, and token allocation under a shared budget.
+* Cao et al., "LLMs Know When They Know, but Do Not Act on It"
+  (arXiv:2605.14186): model-originated FOK/JOL signals are consumed by an
+  external per-model SVM harness that selects retry/stop actions.
+
+The finite witness below separates a model-originated monitoring signal from
+an external task-state cue. In the observed regime the two cues are perfectly
+correlated, so a monitor-driven controller and a task-cue-driven controller
+produce exactly the same actions for every observed state. Under an
+intervention that changes only the monitor signal while holding the task cue
+fixed, their actions diverge.
+
+This is a logical identifiability witness, not an LLM measurement, a physical
+calculation, or evidence about any particular model. The theorem shows why
+observational monitor/action association is insufficient to identify which
+input causally drives control; it does not establish that a real system has
+either architecture.
+-/
+
+namespace HsHVerification.OrsonMonitoringControlIdentifiability
+
+/-- A controller receives a model-originated monitor signal and an external
+    task-state cue, then chooses a binary action (e.g. retry versus stop). -/
+structure ControlArchitecture where
+  monitor : Bool → Bool
+  taskStateCue : Bool → Bool
+  choose : Bool → Bool → Bool
+
+/-- The action actually observed when both naturally correlated cues are present. -/
+def observedAction (w : ControlArchitecture) (state : Bool) : Bool :=
+  w.choose (w.monitor state) (w.taskStateCue state)
+
+/-- The action under an intervention on the monitor signal, holding the
+    external task-state cue at its naturally observed value. -/
+def actionUnderMonitorIntervention
+    (w : ControlArchitecture) (state forcedMonitor : Bool) : Bool :=
+  w.choose forcedMonitor (w.taskStateCue state)
+
+/-- The controller causally reads the monitor signal. -/
+def monitorDriven : ControlArchitecture :=
+  ⟨id, id, fun monitor _ => monitor⟩
+
+/-- The controller ignores the monitor and instead reads the perfectly
+    correlated external task-state cue. -/
+def taskCueDriven : ControlArchitecture :=
+  ⟨id, id, fun _ cue => cue⟩
+
+/-- Two architectures agree on every naturally observed state. -/
+def sameObservedActions (left right : ControlArchitecture) : Prop :=
+  ∀ state, observedAction left state = observedAction right state
+
+theorem monitor_and_task_cue_architectures_are_observationally_equal :
+    sameObservedActions monitorDriven taskCueDriven := by
+  intro state
+  rfl
+
+/-- Identical observed actions do not identify whether the model-originated
+    monitor signal causally drives the controller. Intervening on that signal
+    while holding the external cue fixed separates the two architectures. -/
+theorem observed_agreement_does_not_identify_monitor_causation :
+    sameObservedActions monitorDriven taskCueDriven ∧
+    actionUnderMonitorIntervention monitorDriven false true ≠
+      actionUnderMonitorIntervention taskCueDriven false true := by
+  constructor
+  · exact monitor_and_task_cue_architectures_are_observationally_equal
+  · decide
+
+#eval (
+  observedAction monitorDriven false,
+  observedAction taskCueDriven false,
+  actionUnderMonitorIntervention monitorDriven false true,
+  actionUnderMonitorIntervention taskCueDriven false true
+)
+
+#print axioms monitor_and_task_cue_architectures_are_observationally_equal
+#print axioms observed_agreement_does_not_identify_monitor_causation
+
+end HsHVerification.OrsonMonitoringControlIdentifiability
