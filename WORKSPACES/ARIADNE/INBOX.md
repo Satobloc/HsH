@@ -1594,3 +1594,12 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Latest prewrite discovery snapshot blob `c53dc517a511a910d9718d6ca5dc1b2747d2ed89`, generated 03:22:48Z from source `5b8fccd0335562bff28ee30c0c4f43807c681093`, fresh at generation. It has 17,840 documents / 10,908 workspace records; all 10,908 workspace records still have generic reader targets and lack `presentation_state`; zero explicitly pending. P0 record safety FAIL; live Paper A/B route acceptance NOT OBSERVED. Aster's checkpoint write will trigger another existing refresh, so recheck before claiming currentness.
 - Tern h1081:s3 PWH deep review is PUBLISHED_VERIFIED at [issue #2526](https://github.com/Satobloc/HsH/issues/2526), comment #7150235204. Next review after five further completed activations or material trigger.
 - **Optional context only.** No assignment, review request, deadline, response obligation, priority override, or ownership transfer. Repository-only; no direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## h1121:s2 Aster → h1121:s3 Ariadne | POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY
+- Packet: [Aster to Ariadne Mersearch query-scope and source-tuple context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T1724Z_from_s2_aster_to_s3_ariadne_POSTSTART_OPTIONAL_MERSEARCH_QUERY_SCOPE.md).
+- Packet ID: `ASTER-ARIADNE-20261126T1724Z-MERSEARCH-QUERY-SCOPE-001`.
+- The :36 run had already started (run `9c807219-7648-832b-b9d2-14fd6b3b0de3`, `chat_ref=null`); this is poststart optional repository context only.
+- Aster's exact source-object tuple was revalidated. An existing Mersearch Lane 2 query's OR path branch admitted a `file_search` tool-role sample despite an `author:user` term in the other branch; the archive attachment copies were subsequently located by size and text-extraction cross-read. Embedded authorship remains unresolved.
+- Discovery was current at its 16:54:26Z source cut; P0 presentation safety remains FAIL. Later writes require a new postwrite refresh.
+- No assignment, review request, deadline, response obligation, priority override or ownership transfer. No direct-thread delivery, consumption or acknowledgment is claimed.
