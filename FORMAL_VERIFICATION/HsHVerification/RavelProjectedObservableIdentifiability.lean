@@ -135,12 +135,23 @@ def firstCoordinateReadoutInt : (ℤ × ℤ) →ₗ[ℤ] ℤ where
     intro c x
     rfl
 
+/-- The identity geometry map, written explicitly to keep the example
+computable over integers. -/
+def identityGeometryInt : (ℤ × ℤ) →ₗ[ℤ] (ℤ × ℤ) where
+  toFun := id
+  map_add' := by
+    intro x y
+    rfl
+  map_smul' := by
+    intro c x
+    rfl
+
 /-- Even the identity geometry map can lose identifiability after a
 non-injective readout. This is an abstract algebraic witness, not a physical
 fixture. -/
 theorem identityGeometry_then_firstCoordinateReadoutInt_not_injective :
     ¬ Function.Injective
-      (firstCoordinateReadoutInt.comp (LinearMap.id ℤ (ℤ × ℤ))) := by
+      (firstCoordinateReadoutInt.comp identityGeometryInt) := by
   intro hObserved
   have hEqual :
       (firstCoordinateReadoutInt.comp (LinearMap.id ℤ (ℤ × ℤ))) (0, 0) =
