@@ -544,6 +544,256 @@ theorem prediction_separation_excludes_joint_compatibility
       predict window c₁ c₂ hBoth.1 hBoth.2
   exact (not_lt_of_ge hClose) hSeparated
 
+
+/-!
+## Immutable map-implementation bindings
+
+The earlier lineage contract compares map labels. This layer binds each label
+to an exact source revision/artifact, definition span, parameter manifest,
+interface schema, and input/output type identifiers. The parameter manifest
+must be canonical and include units, bounds, uncertainties, and an explicit
+empty manifest when a map has no free parameters.
+
+All digest values are computed externally from exact bytes. Lean does not
+compute SHA-256, retrieve the referenced source, prove that an arbitrary
+function below is implemented by the referenced bytes, or validate a build.
+Independent hash verification and implementation/build attestation remain
+external acceptance steps.
+-/
+
+/-- Immutable external identity for one map definition and its parameters. -/
+structure MapImplementationBinding where
+  mapId : String
+  sourceLocator : String
+  sourceRevision : String
+  sourceArtifactSha256 : String
+  definitionLocator : String
+  definitionSha256 : String
+  parameterManifestSha256 : String
+  interfaceSchemaSha256 : String
+  inputTypeId : String
+  outputTypeId : String
+  constructionStatus : MapConstructionStatus
+  deriving DecidableEq, Repr
+
+/-- Canonical external identifiers for the six objects in the map chain. -/
+structure PipelineTypeIds where
+  source : String
+  candidate : String
+  geometry : String
+  slice : String
+  observable : String
+  measured : String
+  deriving DecidableEq, Repr
+
+/-- Five source-bound implementation records, one for each declared map. -/
+structure PipelineImplementationManifest where
+  sourceSpanKey : String
+  sourceContentKey : SourceSpanContentKey
+  interfaceSchemaSha256 : String
+  typeIds : PipelineTypeIds
+  sourceToCandidate : MapImplementationBinding
+  candidateToGeometry : MapImplementationBinding
+  geometryToSlice : MapImplementationBinding
+  sliceToObservable : MapImplementationBinding
+  instrumentToMeasured : MapImplementationBinding
+  deriving DecidableEq, Repr
+
+/-- Required provenance and digest fields for one implementation binding. -/
+structure MapImplementationBindingComplete
+    (binding : MapImplementationBinding) : Prop where
+  mapId_nonempty : binding.mapId ≠ ""
+  sourceLocator_nonempty : binding.sourceLocator ≠ ""
+  sourceRevision_nonempty : binding.sourceRevision ≠ ""
+  sourceArtifactSha256_nonempty : binding.sourceArtifactSha256 ≠ ""
+  definitionLocator_nonempty : binding.definitionLocator ≠ ""
+  definitionSha256_nonempty : binding.definitionSha256 ≠ ""
+  parameterManifestSha256_nonempty : binding.parameterManifestSha256 ≠ ""
+  interfaceSchemaSha256_nonempty : binding.interfaceSchemaSha256 ≠ ""
+  inputTypeId_nonempty : binding.inputTypeId ≠ ""
+  outputTypeId_nonempty : binding.outputTypeId ≠ ""
+  constructionStatus_known : binding.constructionStatus ≠ .unknown
+
+/-- A complete binding must match one exact map label, signature, and schema. -/
+structure MapImplementationStageMatch
+    (binding : MapImplementationBinding)
+    (expectedMapId expectedInputTypeId expectedOutputTypeId expectedInterfaceSchemaSha256 : String) :
+    Prop where
+  complete : MapImplementationBindingComplete binding
+  mapId_matches : binding.mapId = expectedMapId
+  input_type_matches : binding.inputTypeId = expectedInputTypeId
+  output_type_matches : binding.outputTypeId = expectedOutputTypeId
+  interface_schema_matches : binding.interfaceSchemaSha256 = expectedInterfaceSchemaSha256
+
+/--
+The five implementation records must bind to the exact source lineage and
+pipeline IDs, share one interface schema, and compose through matching
+intermediate type identifiers. This is a metadata/admission contract.
+-/
+structure PipelineImplementationMatch
+    {Source Candidate Geometry Slice Observable Measured : Type*}
+    (lineage : SourceBoundMapLineage)
+    (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured)
+    (manifest : PipelineImplementationManifest) : Prop where
+  lineage_matches : lineageMatchesPipeline lineage pipeline
+  source_span_key_matches : manifest.sourceSpanKey = pipeline.sourceSpanKey
+  source_content_key_matches : manifest.sourceContentKey = pipeline.sourceContentKey
+  interface_schema_nonempty : manifest.interfaceSchemaSha256 ≠ ""
+  source_type_id_nonempty : manifest.typeIds.source ≠ ""
+  candidate_type_id_nonempty : manifest.typeIds.candidate ≠ ""
+  geometry_type_id_nonempty : manifest.typeIds.geometry ≠ ""
+  slice_type_id_nonempty : manifest.typeIds.slice ≠ ""
+  observable_type_id_nonempty : manifest.typeIds.observable ≠ ""
+  measured_type_id_nonempty : manifest.typeIds.measured ≠ ""
+  source_to_candidate :
+    MapImplementationStageMatch manifest.sourceToCandidate
+      pipeline.sourceToCandidateMapId manifest.typeIds.source
+      manifest.typeIds.candidate manifest.interfaceSchemaSha256
+  candidate_to_geometry :
+    MapImplementationStageMatch manifest.candidateToGeometry
+      pipeline.candidateToGeometryMapId manifest.typeIds.candidate
+      manifest.typeIds.geometry manifest.interfaceSchemaSha256
+  geometry_to_slice :
+    MapImplementationStageMatch manifest.geometryToSlice
+      pipeline.geometryToSliceMapId manifest.typeIds.geometry
+      manifest.typeIds.slice manifest.interfaceSchemaSha256
+  slice_to_observable :
+    MapImplementationStageMatch manifest.sliceToObservable
+      pipeline.sliceToObservableMapId manifest.typeIds.slice
+      manifest.typeIds.observable manifest.interfaceSchemaSha256
+  instrument_to_measured :
+    MapImplementationStageMatch manifest.instrumentToMeasured
+      pipeline.instrumentMapId manifest.typeIds.observable
+      manifest.typeIds.measured manifest.interfaceSchemaSha256
+  source_to_candidate_status_matches :
+    manifest.sourceToCandidate.constructionStatus = pipeline.sourceToCandidateStatus
+
+/-- A pipeline admitted by the manifest contract carries its proof object. -/
+structure ManifestBoundObservationPipeline
+    (Source Candidate Geometry Slice Observable Measured : Type*) where
+  pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured
+  lineage : SourceBoundMapLineage
+  manifest : PipelineImplementationManifest
+  evidence : PipelineImplementationMatch lineage pipeline manifest
+
+/--
+Reusing a map label does not preserve implementation identity when the exact
+definition digest changes.
+-/
+theorem same_map_label_different_definition_digest_not_equal
+    (left right : MapImplementationBinding)
+    (hSameLabel : left.mapId = right.mapId)
+    (hDifferentDefinition : left.definitionSha256 ≠ right.definitionSha256) :
+    left ≠ right := by
+  intro hEqual
+  apply hDifferentDefinition
+  exact congrArg (fun binding : MapImplementationBinding => binding.definitionSha256) hEqual
+
+/--
+Reusing a map label and definition digest does not preserve implementation
+identity when its parameter-manifest digest changes.
+-/
+theorem same_map_label_different_parameter_manifest_not_equal
+    (left right : MapImplementationBinding)
+    (hSameLabel : left.mapId = right.mapId)
+    (hSameDefinition : left.definitionSha256 = right.definitionSha256)
+    (hDifferentParameters : left.parameterManifestSha256 ≠ right.parameterManifestSha256) :
+    left ≠ right := by
+  intro hEqual
+  apply hDifferentParameters
+  exact congrArg (fun binding : MapImplementationBinding => binding.parameterManifestSha256) hEqual
+
+/--
+A map label and implementation digest do not fix the interface when the
+interface-schema digest changes.
+-/
+theorem same_map_label_different_interface_schema_not_equal
+    (left right : MapImplementationBinding)
+    (hSameLabel : left.mapId = right.mapId)
+    (hSameDefinition : left.definitionSha256 = right.definitionSha256)
+    (hDifferentInterface : left.interfaceSchemaSha256 ≠ right.interfaceSchemaSha256) :
+    left ≠ right := by
+  intro hEqual
+  apply hDifferentInterface
+  exact congrArg (fun binding : MapImplementationBinding => binding.interfaceSchemaSha256) hEqual
+
+/-- Every stage in a manifest-bound pipeline has a complete identity record. -/
+theorem manifest_bound_pipeline_has_complete_map_bindings
+    {Source Candidate Geometry Slice Observable Measured : Type*}
+    (bound : ManifestBoundObservationPipeline Source Candidate Geometry Slice Observable Measured) :
+    MapImplementationBindingComplete bound.manifest.sourceToCandidate ∧
+    MapImplementationBindingComplete bound.manifest.candidateToGeometry ∧
+    MapImplementationBindingComplete bound.manifest.geometryToSlice ∧
+    MapImplementationBindingComplete bound.manifest.sliceToObservable ∧
+    MapImplementationBindingComplete bound.manifest.instrumentToMeasured := by
+  exact ⟨bound.evidence.source_to_candidate.complete,
+    bound.evidence.candidate_to_geometry.complete,
+    bound.evidence.geometry_to_slice.complete,
+    bound.evidence.slice_to_observable.complete,
+    bound.evidence.instrument_to_measured.complete⟩
+
+/--
+The manifest's intermediate type identifiers compose in the same order as
+the typed observation pipeline.
+-/
+theorem manifest_bound_pipeline_has_type_coherent_composition
+    {Source Candidate Geometry Slice Observable Measured : Type*}
+    (bound : ManifestBoundObservationPipeline Source Candidate Geometry Slice Observable Measured) :
+    bound.manifest.sourceToCandidate.outputTypeId =
+        bound.manifest.candidateToGeometry.inputTypeId ∧
+    bound.manifest.candidateToGeometry.outputTypeId =
+        bound.manifest.geometryToSlice.inputTypeId ∧
+    bound.manifest.geometryToSlice.outputTypeId =
+        bound.manifest.sliceToObservable.inputTypeId ∧
+    bound.manifest.sliceToObservable.outputTypeId =
+        bound.manifest.instrumentToMeasured.inputTypeId := by
+  constructor
+  · calc
+      bound.manifest.sourceToCandidate.outputTypeId =
+          bound.manifest.typeIds.candidate :=
+        bound.evidence.source_to_candidate.output_type_matches
+      _ = bound.manifest.candidateToGeometry.inputTypeId :=
+        bound.evidence.candidate_to_geometry.input_type_matches.symm
+  constructor
+  · calc
+      bound.manifest.candidateToGeometry.outputTypeId =
+          bound.manifest.typeIds.geometry :=
+        bound.evidence.candidate_to_geometry.output_type_matches
+      _ = bound.manifest.geometryToSlice.inputTypeId :=
+        bound.evidence.geometry_to_slice.input_type_matches.symm
+  constructor
+  · calc
+      bound.manifest.geometryToSlice.outputTypeId =
+          bound.manifest.typeIds.slice :=
+        bound.evidence.geometry_to_slice.output_type_matches
+      _ = bound.manifest.sliceToObservable.inputTypeId :=
+        bound.evidence.slice_to_observable.input_type_matches.symm
+  · calc
+      bound.manifest.sliceToObservable.outputTypeId =
+          bound.manifest.typeIds.observable :=
+        bound.evidence.slice_to_observable.output_type_matches
+      _ = bound.manifest.instrumentToMeasured.inputTypeId :=
+        bound.evidence.instrument_to_measured.input_type_matches.symm
+
+/-- The manifest-bound pipeline retains the source and content lineage checks. -/
+theorem manifest_bound_pipeline_preserves_source_lineage
+    {Source Candidate Geometry Slice Observable Measured : Type*}
+    (bound : ManifestBoundObservationPipeline Source Candidate Geometry Slice Observable Measured) :
+    lineageMatchesPipeline bound.lineage bound.pipeline :=
+  bound.evidence.lineage_matches
+
+/-- The source-to-candidate construction status cannot drift from its lineage. -/
+theorem manifest_bound_pipeline_preserves_source_map_status
+    {Source Candidate Geometry Slice Observable Measured : Type*}
+    (bound : ManifestBoundObservationPipeline Source Candidate Geometry Slice Observable Measured) :
+    bound.manifest.sourceToCandidate.constructionStatus = bound.lineage.translationStatus := by
+  calc
+    bound.manifest.sourceToCandidate.constructionStatus =
+        bound.pipeline.sourceToCandidateStatus :=
+      bound.evidence.source_to_candidate_status_matches
+    _ = bound.lineage.translationStatus :=
+      bound.evidence.lineage_matches.2.2.2.1.symm
+
 end HsHVerification.EnheduannaObservedSliceIdentifiability
 
 /-! Theorem-specific dependency reports for exact-head CI inspection. -/
@@ -568,3 +818,11 @@ end HsHVerification.EnheduannaObservedSliceIdentifiability
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.source_map_status_mismatch_breaks_lineage_match
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.ObservationPipeline.predict_apply
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.ObservationPipeline.predictFromSource_apply
+
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.same_map_label_different_definition_digest_not_equal
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.same_map_label_different_parameter_manifest_not_equal
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.same_map_label_different_interface_schema_not_equal
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.manifest_bound_pipeline_has_complete_map_bindings
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.manifest_bound_pipeline_has_type_coherent_composition
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.manifest_bound_pipeline_preserves_source_lineage
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.manifest_bound_pipeline_preserves_source_map_status
