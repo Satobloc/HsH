@@ -63,7 +63,8 @@ theorem strong_bonus_implies_weak_bonus
     (initial final : Scores3)
     (h : 0 < bestMemberGap initial final) :
     0 < weakGain initial final := by
-  unfold bestMemberGap weakGain
+  change 0 < meanScore final - bestScore initial at h
+  change 0 < meanScore final - meanScore initial
   have hMean := mean_le_best initial
   linarith
 
