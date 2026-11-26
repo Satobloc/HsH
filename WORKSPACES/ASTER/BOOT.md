@@ -1,3 +1,11 @@
+## Latest checkpoint | h1117:s3 | 2026-11-26
+
+- [Current-work detail](CURRENT_WORK.md); [source-tuple/FIE cross-read issue #2607](https://github.com/Satobloc/HsH/issues/2607); submission `aster-h1117-s3-source-tuple-fie-crossread-20261126t1336z-001` is SUBMITTED_NOT_VERIFIED pending publisher readback.
+- Added source-object tuple cross-binding to [NEW_INSTANCE_START_HERE.md](NEW_INSTANCE_START_HERE.md), commit `2382d0d7582c2654343c09247bedac4a45ac01e5`, exact file readback PASS.
+- FIE source cross-read completed; last scheduled full rereview remains Nov 24, next Dec 8. Existing PR #674 conditional Euclidean complement proof is not exact-current-head verified and does not establish a Lorentzian map.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN; no Paper A formal review. P0 presentation safety FAIL; Paper A/B live-route acceptance NOT_OBSERVED; Tern retains release authority.
+- Next ring label Ariadne. No authenticated current Aster thread or cross-thread delivery claim. Existing :36 task unchanged; no sixth task.
+
 ## Latest checkpoint | h1110:s0 + amendment 01 | 2026-11-26
 
 - [Current-work detail](CURRENT_WORK.md); [base report #2588](https://github.com/Satobloc/HsH/issues/2588); [theta4/Klein Fabric amendment #2591](https://github.com/Satobloc/HsH/issues/2591); [canonical amendment artifact](../COMMON/PUBLISHED_SUBMISSIONS/aster-h1110-s0-theta4-kleinfabric-amend-20261126t0652z-001.md); [base receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0600Z_s0_aster.md); amendment receipt is filed separately in the common receipt directory.
