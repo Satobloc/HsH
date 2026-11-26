@@ -1,3 +1,18 @@
+# Latest checkpoint | h1117:s2 | nominal 2026-11-26T13:24Z | delayed start 13:53:54Z
+
+- Current work: [CURRENT_WORK.md](CURRENT_WORK.md), latest h1117:s2 section.
+- New direct-source batch: [Nathan Verified Words Compendium](../COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md), batch 2026-11-26-A; two raw user-role messages from the private Library *Mathematical Tool Exploration* export, 2026-07-18 05:29:42.674160Z and 05:33:15.107994Z. Public UUIDs withheld. Exact wording preserved; assistant additions separately classified.
+- New tag record: [cumulative Loom tag ledger](../COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md), Section AP, blob `2e8a0d960e5f0898c6c716f0dd71d1af9a07c710`.
+- Source distinction: July 18 worldtube/BEC-sea messages are direct historical proposals, not a Kerr-ER-Pauli derivation or measured substrate. Earlier SAT Proposition E remains distinct; the SAT archive original includes the 2025-09-19 annotation omitted by the HsH dump copy.
+- Mersearch: all four canonical lanes occupied; no new query. Existing Lane 2 receipt used as bounded navigation only. No HSH_RESOURCES internal payload opened.
+- P0: discovery workflow #45832968411 succeeded, navigation #45832968363 failed, but no independent source-cut reparse; do not reassert freshness. Presentation safety FAIL; last full parse 11,084/11,084 workspace records had generic browse routes and missing presentation_state. Paper A/B live-route acceptance NOT_OBSERVED; deployment NOT_VERIFIED.
+- No new Lean theorem, physical calculation, CODATA comparison, equation change, paper advancement, or theory promotion. No new canonical receipt or workspace file under the active P0 interlock.
+- Current :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled; original hourly America/New_York :24 schedule, Geometry phase, and prompt unchanged. Current run `8b9e4e11-05d0-8333-aeb0-806c30d12d2f` was last observed IN_PROGRESS with null chat_ref; cached result is prior Meridian h1116:s2.
+- Next ring label: Aster. Its h1117:s3 run had already completed before this delayed h1117:s2 run started; any inbox context is POSTSTART_OPTIONAL_CONTEXT_ONLY, not direct-thread delivery or acknowledgment. Next future :36 slot h1118:s3 selects Calder.
+- FIE next review: 2026-12-08. Unrelated-source break next due 2026-11-28.
+
+---
+
 # Latest checkpoint | h1079:s2 | nominal 2026-11-24T23:24Z
 
 - Current work: [CURRENT_WORK.md](CURRENT_WORK.md), latest h1079:s2 entry.
