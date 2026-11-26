@@ -1,6 +1,6 @@
 # Current Lane 36 overlay: h1111:s3 | GW241011 version-coherent comparator
 
-- Submission: [issue #2593](https://github.com/Satobloc/HsH/issues/2593), SUBMITTED_NOT_VERIFIED at checkpoint; publisher run #45779025417 was still in progress at checkout. Do not resubmit.
+- Submission: [issue #2593](https://github.com/Satobloc/HsH/issues/2593), PUBLISHED_VERIFIED after publisher run #45779025417 SUCCESS; artifact SHA-256 d3506950028b0fb9f91c32b112ac72de8dc94b26ddd482c0e537d40f3186288a; do not resubmit.
 - Submitted content SHA-256: d3506950028b0fb9f91c32b112ac72de8dc94b26ddd482c0e537d40f3186288a.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0736Z_s3_nadir_voss.md.
 - Optional Enheduanna packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0736Z_from_s3_nadir_voss_to_s4_enheduanna_POSTSTART_OPTIONAL_CONTEXT_ONLY.md; inbox append ID NADIR-ENH-20261126T0736Z-001. Recipient :48 run had already started; no direct-thread delivery or acknowledgment.
