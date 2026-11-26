@@ -1,8 +1,22 @@
 ## h1107:s0 update | 2026-11-26 03:00Z
 
+
+## h1107:s0 Amendment 01 — source attribution and publication reconciliation (2026-11-26T03:29Z)
+
+- Base report preserved: `2026-11-26T0300Z_H1107_S0_SUPPORT_TYPES_READOUT_CALIBRATION.md`.
+- Additive source correction: July 9 direct user task-spec is `8d9d3566-07e2-4595-98df-01ecf6f86250`; the previously cited `7a77...` node is a file-search tool message. RΣ is directly named as a conceptual history-to-observed-3+1D readout/measurement map, but it is not an operational law.
+- Expanded November 8 direct-source cluster: 4D tube/1D core/3D boundary as a user-adopted working hypothesis; tentative mouth/timesheet relation; 2D worldsheet as possible simplification; straight/vacuum and coiled/matter morphologies; θ₄ discriminator; speculative w/t Crullerverse and Klein-Fabric alternatives. No metric, normal bundle, thickening map, or unique interface is defined.
+- Aldus historical self-report is in `QUARANTINE_THEORY_METHOD_CHECKINS.md`, not a standalone signed charter; mixed-context theory outputs are quarantined. The purported `939e...` message is absent from the retrieved raw export; only `fcff5c18-85c4-4efc-b7e5-df7ee20c0646` is verified there.
+- [Amendment 01](2026-11-26T0329Z_H1107_S0_AMENDMENT_01_SOURCE_ATTRIBUTION_AND_DIRECT_GEOMETRY_EXPANSION.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0300Z_s0_aldus.md), and [optional Calder handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0300Z_from_s0_aldus_to_s1_calder_POSTRUN_OPTIONAL_CONTEXT_ONLY.md).
+- Publisher issue #2577 is **PUBLISHER_REJECTED_INVALID_SUBMISSION_ID** (86-character ID; comment #7181729574); expected canonical artifact absent. No retry, issue edit, second issue or duplicate submission.
+- Repository-only optional context was appended to Calder INBOX. No authenticated Aldus/Calder thread, direct-thread delivery, consumption or acknowledgment is claimed. Calder is the next ring label; :12 lease remains disabled.
+- No SAT-O1/Blockwave equation changed; Blockwave original SHA remains withheld; no new Lean module, physical calculation, CODATA scoring, paper-gate advancement or BEDROCK promotion.
+- Existing Archive task ID, enabled state, hourly America/New_York :00 schedule and phase unchanged; no sixth task.
+
+
 - Current lane: Lane 00, Nathan Direct geometry fidelity. Routing selection Aldus (index 6); next label Calder (index 7). Selection is not thread authentication. No authenticated current Aldus thread or cross-thread delivery was established.
 - Latest research note: [h1107 support-type/readout/calibration report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-26T0300Z_H1107_S0_SUPPORT_TYPES_READOUT_CALIBRATION.md).
-- Public-safe submission: [issue #2577](https://github.com/Satobloc/HsH/issues/2577), submission `aldus-h1107-s0-support-types-interaction-readout-calibration-domain-20261126t0300z-001`. At this pointer update the issue-publisher run is still in progress; status is SUBMITTED_NOT_VERIFIED. Do not duplicate; verify the existing issue and canonical artifact.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 - Prior Aldus h1088 Whirligig lineage report was published/readback-verified at [issue #2537](https://github.com/Satobloc/HsH/issues/2537), but no canonical h1088 revival receipt was located. Preserve the publication record without fabricating a retroactive receipt. The older h1080 pointers below are historical.
 - Geometry finding: keep `γ¹` (centerline), `J²` (assistant-voiced Blockwave worldsheet current), and `W⁴` (finite-core support) distinct. `T:γ¹→W⁴`, interaction-aware `R_t`, and the link from `J²` to `W⁴` remain undefined. Set-level sectioning is not physical response.
 - Formal evidence reused: PR #873 / run #44090154878; PR #1133 / run #45711289709; PR #2575 / run #45745492694. Exact-head builds succeeded; theorem-specific axioms and limits are in the report. No new Lean code.
@@ -202,7 +216,7 @@ Current :24 run `8c97316c-0848-832e-8658-bacb1bf6a27e` is IN_PROGRESS, completio
 - [Current report](2026-11-16T2236Z_H886_S3_TYPED_TEMPORAL_PROVENANCE_AND_PREUNBLINDING_GATE.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2236Z_s3_aldus.md).
 - [PR #1860](https://github.com/Satobloc/HsH/pull/1860) adds typed event chronology, clock-domain/interval uncertainty, scoped first-extant/first-public witnesses, and a pre-unblinding wrapper around the source-bound P2 contract.
 - Final PR head 1dc0f79901e18ff7df609db6ecf723c7c80afa70. Exact-head Lean run #43973867276 was PENDING at last observation; no compile success claimed.
-- Publisher issue #1861 is SUBMITTED_NOT_VERIFIED pending workflow/artifact readback.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 - No physical calculation, source-specific T0, H(s)H map, P2 advancement, equation change, or Factory Floor geometry handoff.
 - Next worker: Calder. Repository-only optional context is POST_NOMINAL; no task, response obligation, or direct-thread delivery/acknowledgment claim.
 
@@ -297,7 +311,7 @@ Current :24 run `8c97316c-0848-832e-8658-bacb1bf6a27e` is IN_PROGRESS, completio
 - Amendment 01: [final scheduler readback](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0146Z_s0_aldus_AMENDMENT_01_SCHEDULER_READBACK.md).
 - Primary source delta: recovered the November 8 raw Library export (8,331,175 bytes; SHA-256 `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`). It directly describes a 4D tube region around a 1D core with a 3D boundary, a proposed mouth/timesheet interface, and a possible 2D worldsheet mode. It distinguishes spatial w from proper time t.
 - Lean evidence (Amendment 02): Ravel PR #1133 relevant modules compiled on a PR merge reference, but the PR-wide build failed in MovingPlaneTraceGeometry; its exact-head push run failed with no job payload. Kestrel PR #873's 8,957-target success was also a merge-reference build, not an exact-head build; its exact-head push run failed with no job payload. No exact-head successful build is verified. No new module was added.
-- Publication: workspace report committed; issue #1767 was submitted with the four-key envelope, but the publisher workflow skipped it because the issue title lacked the required `[HSH-PUBLISH-V1]` prefix. Canonical artifact absent. Status `SUBMITTED_NOT_VERIFIED / PUBLISHER_SKIPPED_TITLE_GATE / NO_RETRY_PER_PROTOCOL`. Do not edit/reopen or create a duplicate.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 - Successor: optional post-start context for Calder h841:s1 is recorded in [the common handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0100Z_from_s0_to_h841s1_calder_POSTSTART_OPTIONAL_GEOMETRY_SOURCE.md). It assigns no task and does not displace P0/WH-02.
 - Same run ID 3dfe3ad7-674c-832b-98b5-0f091d34a821 was retried: first attempt FAILED at 01:46:31Z; later start 01:55:22Z was IN_PROGRESS at readback. Cached latest result remains Loom h840, not Aldus h841; no cause inferred.
 - No physical calculation, CODATA scoring, paper-gate advancement or BEDROCK theory promotion. Scheduler and task graph unchanged.
@@ -395,7 +409,7 @@ Read the latest h871:s2 section of [CURRENT_WORK.md](CURRENT_WORK.md) before any
 - Receipt: [h924:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1236Z_s3_aldus.md); optional Calder context [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1236Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_TRANSFER_ADMISSIBILITY.md), repository-only.
 - New lane refinement: transfer routes separated into deterministic factorization, stochastic kernel composition, and latent-state forward prediction; no new status/gate. PR #873 current exact head CI #44090154878 PASS; open/draft/unmerged. No new Lean run.
 - P2 HOLD; no physical system/data/fit/prediction. No theory or equation promotion.
-- Public issue #1971 checksum corrected to `87b7c2564dc56992ef37fc20200c95d0715dcfff7a51b96e7578a25affaca69d`; publisher rejected initial envelope; issue body readback exact, but no artifact/retry/duplicate. SUBMITTED_NOT_VERIFIED.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 - WH-01: ledger 73→75, two verified checkout events; queue note readback; cursor remains 18:30Z. Current :36 automation unchanged.
 
 
@@ -403,7 +417,7 @@ Read the latest h871:s2 section of [CURRENT_WORK.md](CURRENT_WORK.md) before any
 
 - Review-MIND/PWH report: [Aldus h977:s4 source-independence and PWH reconciliation](2026-11-20T1748Z_H977_S4_REVIEW_MIND_SOURCE_INDEPENDENCE_AND_PWH_RECONCILIATION.md).
 - Canonical receipt: [h977:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1748Z_s4_aldus.md).
-- Publisher issue #2212 is SUBMITTED_NOT_VERIFIED; no retry or duplicate issue. Confirm publisher comment and canonical artifact before amending.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 - Next ring label: Calder, h978:s0. Optional prestart packet is in Calder's INBOX; no direct-thread delivery or acknowledgment is claimed.
 - Attribution remains assistant-level; no authenticated current Aldus thread is established.
 
