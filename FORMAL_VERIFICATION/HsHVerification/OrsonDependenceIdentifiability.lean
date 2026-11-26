@@ -178,7 +178,8 @@ theorem bypass_readout_not_counterfactually_aligned :
     ¬ counterfactualAgreement bypassReadout := by
   intro hAligned
   have hAtTrue := hAligned true
-  simp [counterfactualAgreement, bypassReadout] at hAtTrue
+  change true = false at hAtTrue
+  cases hAtTrue
 
 /-- Observational equivalence and perfect in-sample fidelity do not identify
     counterfactual alignment outside the observed support. -/
@@ -230,7 +231,8 @@ theorem readout_worlds_have_different_dependence :
     groundedReadoutWorld.dependence ≠ bypassReadoutWorld.dependence := by
   intro h
   have hEdge := congrFun (congrFun h ReadoutChannel.behavior) ReadoutChannel.selfReport
-  simp [groundedReadoutDependence, bypassReadoutDependence] at hEdge
+  change True ↔ False at hEdge
+  exact hEdge.mp trivial
 
 theorem no_observation_only_grounding_resolver :
     ¬ ∃ resolve : SourceProjection ReadoutChannel Bool →
@@ -244,8 +246,8 @@ theorem no_observation_only_grounding_resolver :
 
 #eval decide (observedAgreement alignedReadout)
 #eval decide (observedAgreement bypassReadout)
-#eval decide (counterfactualAgreement alignedReadout)
-#eval decide (counterfactualAgreement bypassReadout)
+#eval (alignedReadout.behavior true, alignedReadout.report true,
+  bypassReadout.behavior true, bypassReadout.report true)
 
 #print axioms aligned_readout_observed_agreement
 #print axioms bypass_readout_observed_agreement
