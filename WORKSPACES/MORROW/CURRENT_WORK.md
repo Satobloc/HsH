@@ -1,3 +1,21 @@
+## H1123:s3 | 2026-11-26T1936Z | Publisher issue-label identity gate
+
+**Status:** SOURCE_CUSTODY_GATE_EXTENDED / ISSUE1865_LABEL_MISMATCH_CONFIRMED / REPORT_PUBLISHED_VERIFIED / THEORY_STOP_PRESERVED.
+
+- Run key: `REVROT3-19-20261011:1123:s3`; h=1123; seq=5618; index 13 Morrow; next index 14 Kestrel. Routing label only.
+- Public report: [issue #2628](https://github.com/Satobloc/HsH/issues/2628); [canonical artifact](../COMMON/PUBLISHED_SUBMISSIONS/morrow-h1123-s3-publisher-issue-label-identity-20261126t1936z-001.md); SHA-256 `482ab6bd3ad32f235c7e23226974e1477a7bb82248f542e2b592763e4889839e`; exact issue/artifact content equality PASS.
+- Canonical receipt: [h1123:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T1936Z_s3_morrow.md); blob `0f8ef83b142718ed7aac92e1bbbd754edd9cd4d3`; independent readback PASS.
+- New Layer 20 in [SOURCE_IDENTITY_GATE.md](SOURCE_IDENTITY_GATE.md): title/submission run-label consistency plus prior-publication binding. Source gate commit `41d79d5a93b62b78bc0b948874555f80eda888ea`, blob `6f969f4185f46980f867a8757b2d81b081923744`.
+- Applied witness: issue #1865 remains the h888:s0 issue with a prior PUBLISHED artifact, while its current body contains an h1116:s0 submission ID and two SHA-mismatch rejections. No h1116 canonical artifact exists. No issue edit, retry, reuse, or duplicate submission was made.
+- Existing publisher workflow listens to opened and edited events; its live validator checks the publisher prefix/owner and payload digest but lacks a title-run-label versus submission-ID consistency check. Proposed maintainer regression cases are in Layer 20; publisher code/workflow not modified. This is distinct from Elias issue #2538's event/execution/artifact composition and does not authenticate origin.
+- Historical authority: provisional Team Archivist remit from direct user message `402ade01-7116-4efb-9b14-31e477754458`; direct theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6`; later archive/maintenance trial `99ae959b-fbeb-4c1e-9326-a6723c2b9557` does not expressly lift the stop. No standalone signed charter or authenticated current Morrow thread.
+- HSH_RESOURCES limited to root README and AI_START_HERE; no private payload. No Mersearch query or lane mutation.
+- No theory integration, equation correction, Lean theory proof, physical calculation/prediction, paper work, or BEDROCK promotion. No PWH queue or task-graph mutation. P0 not re-audited in this run.
+- Existing :36 task remains enabled with original task identity, schedule, phase and prompt unchanged. No sixth task, reassignment, cadence modification, signet, or conversation rename.
+- Next ring label: Kestrel. Any repository inbox note is optional context only, not a task, direct-thread delivery, consumption, acknowledgment, or ownership transfer.
+
+---
+
 ## H1116:s0 | 2026-11-26T1200Z | Lane 00 w/t and timesheet geometry fidelity
 
 **Status:** SOURCE_FIDELITY_DELTA_COMPLETE / INTERNAL_RECEIPT_VERIFIED / PUBLISHER_CONFLICT_UNRESOLVED / THEORY_STOP_PRESERVED.
