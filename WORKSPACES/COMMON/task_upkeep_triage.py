@@ -75,7 +75,21 @@ def build_report(graph: dict[str, Any], as_of: date) -> list[dict[str, Any]]:
         priority = raw_priority if raw_priority in PRIORITY_RANK else "UNCLASSIFIED"
         due = parse_date(task.get("due_date"))
         reviewed = parse_date(task.get("last_reviewed"))
+        raw_blockers = task.get("blockers")
+        if isinstance(raw_blockers, list):
+            blocker_summaries = [str(item) for item in raw_blockers]
+        elif raw_blockers:
+            blocker_summaries = [str(raw_blockers)]
+        else:
+            blocker_summaries = []
+        blocked = bool(raw_blockers) or status == "blocked"
+
         reasons = []
+        if blocked:
+            reasons.append(
+                f"blocked by {len(blocker_summaries)} blocker(s)"
+                if blocker_summaries else "status marked blocked"
+            )
         if due and due < as_of:
             reasons.append(f"overdue by {(as_of - due).days} day(s)")
         elif due == as_of:
@@ -96,12 +110,15 @@ def build_report(graph: dict[str, Any], as_of: date) -> list[dict[str, Any]]:
             "status": status,
             "priority": priority,
             "owner_instance": task.get("owner_instance"),
+            "blocked": blocked,
+            "blocker_count": len(blocker_summaries),
+            "blockers": blocker_summaries,
             "due_date": due.isoformat() if due else None,
             "last_reviewed": reviewed.isoformat() if reviewed else None,
             "review_reasons": reasons,
             "metadata_gaps": [
-                field for field in ("priority", "owner_instance", "due_date", "last_reviewed")
-                if not task.get(field)
+                field for field in ("priority", "owner_instance", "due_date", "last_reviewed", "blockers")
+                if field not in task or (field != "blockers" and not task.get(field))
             ],
         })
 
@@ -122,7 +139,24 @@ def self_test() -> None:
     assert [row["id"] for row in rows] == ["urgent", "low", "unknown"]
     assert "overdue by 1 day(s)" in rows[0]["review_reasons"]
     assert "explicit low-hanging candidate" in rows[1]["review_reasons"]
-    print("SELF-TEST PASS: priority precedes convenience; due dates and low-hanging metadata are surfaced.")
+
+    blocker_sample = {"branches": [
+        {"id": "active_blocked", "title": "Active but blocked", "status": "active",
+         "priority": "P2", "blockers": ["reader route pending"]},
+        {"id": "status_blocked", "title": "Status blocked", "status": "blocked",
+         "priority": "P2", "blockers": []},
+        {"id": "unblocked", "title": "Unblocked", "status": "active",
+         "priority": "P2", "blockers": []},
+    ]}
+    blocker_rows = build_report(blocker_sample, date(2026, 11, 5))
+    assert [row["id"] for row in blocker_rows] == ["active_blocked", "status_blocked", "unblocked"]
+    assert blocker_rows[0]["blocked"] is True
+    assert blocker_rows[0]["blockers"] == ["reader route pending"]
+    assert "blocked by 1 blocker(s)" in blocker_rows[0]["review_reasons"]
+    assert blocker_rows[1]["blocked"] is True
+    assert "status marked blocked" in blocker_rows[1]["review_reasons"]
+    assert blocker_rows[2]["blocked"] is False
+    print("SELF-TEST PASS: priority, due-date and low-hanging order; blocker state and summaries are surfaced.")
 
 
 def main() -> int:
@@ -150,8 +184,11 @@ def main() -> int:
             owner = row["owner_instance"] or "OWNER UNSET"
             reason = "; ".join(row["review_reasons"]) or "no explicit trigger metadata"
             gaps = f"; metadata gaps: {', '.join(row['metadata_gaps'])}" if row["metadata_gaps"] else ""
+            blocked_label = f"BLOCKED ({row['blocker_count']})" if row["blocked"] else "unblocked"
             print(f"{index:>2}. [{row['priority']}] {row['status']:<14} {row['title']} ({owner})")
-            print(f"    {reason}{gaps}")
+            print(f"    {blocked_label}; {reason}{gaps}")
+            if row["blockers"]:
+                print("    blockers: " + "; ".join(row["blockers"]))
     return 0
 
 
