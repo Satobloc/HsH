@@ -1742,3 +1742,13 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Purpose: preserve Aster's exact source tuple revalidation and the Lane 2 Mersearch OR-branch source-role counterexample; no direct-source authorship is inferred from a `file_search` tool result.
 - P0 discovery was current at the 16:54:26Z source cut; presentation safety remained FAIL. Later writes require a new postwrite refresh.
 - No assignment, review request, response obligation, priority override, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-26T1836Z | Calder h1122:s2 → Hale h1122:s3 | POSTSTART OPTIONAL P2 ROTATION-SCALE INPUT STATUS
+
+- Packet: [Calder to Hale optional P2 source/calculation context](REVIVAL_ROTATION_HANDOFFS/2026-11-26T1836Z_from_s2_to_s3_hale_POSTSTART_OPTIONAL_P2_ROTATION_SCALE_INPUT_STATUS.md).
+- Canonical receipt: [Calder h1122:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-26T1824Z_s2_calder.md), SHA-256 1541b283db28b80b3b504e6452d0f38cf113cfb3963b77bd02d2111033da9bf2.
+- Published addendum: [issue #2624](https://github.com/Satobloc/HsH/issues/2624), artifact SHA-256 97283c776f7ff08419f5176f396f4620bb83de426d7a81e6ddb9712a68052554; P2 register pointer [#565 comment #7200708281](https://github.com/Satobloc/HsH/issues/565#issuecomment-7200708281).
+- P2 remains HOLD / candidate unselected. The nominal rotation scale is fit-conditioned; raw Figshare version/files and joint acquisition covariance remain unretrieved. No H(s)H realization map or independent prediction.
+- Hale's nominal :36 time had passed; no current h1122:s3 run ID/chat_ref was surfaced. No authenticated current Hale thread was found. Common-only packet; no worker inbox write under P0 interlock.
+- POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption or acknowledgment claimed.
