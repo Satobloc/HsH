@@ -1,7 +1,7 @@
 # Aster h1110:s0 amendment 01: theta4 lineage and Klein Fabric boundary
 
 **Parent report:** [Aster h1110:s0, issue #2588](https://github.com/Satobloc/HsH/issues/2588), already published and verified.  
-**Related source-fidelity work:** [Aster h844, issue #1772](https://github.com/Satobloc/HsH/issues/1772); Calder's theta4/Blockwave audit; Morrow's BR-005 direct-source addendum; Tern's h846 projection/theta4 addendum.  
+**Related source-fidelity work:** [Aster h844, issue #1772](https://github.com/Satobloc/HsH/issues/1772); [Calder theta4/Blockwave audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-theta4-sato-blockwave-fidelity-20261102t1300z-s0-001.md); [Morrow BR-005 direct-source addendum](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MORROW/2026-11-07T1936Z_BR005_AUG27_DIRECT_SOURCE_ADDENDUM.md); [Tern h846 projection/theta4 addendum](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h846-s0-projection-theta4-normal-holonomy-20261115-0600z-001.md).  
 **Classification:** additive source-genealogy and geometry-typing amendment. This is not a duplicate of the h1110 base report. The base report already covers the November 8 Cruller phase model and c-typing. This amendment adds the earlier theta4 source lineage and the distinction between the direct Klein Fabric proposal and an assistant-imported external Klein Bottle cosmology.
 
 ## 1. Specialist authority and limits
@@ -26,17 +26,28 @@ Relevant direct user messages on the archived current ancestry:
 | 2025-05-06 06:26:35 | e3d19608-7439-410a-baaf-8a5bab3f945d | Directly calls theta4 a four-dimensional intersectional angle and describes its proposed role in time-wavefront energy transfer to filaments and mass inception. |
 | 2025-05-06 07:07:32 | b83aca0c-2c91-47b8-bb97-c914716b1a29 | States that SAT still lacks a way to measure theta4; the mass-inception relation is a foundational assertion, not an observed measurement. |
 | 2025-05-06 07:21:19 | 7783c215-7d7a-42f9-ac8a-56a1f9f3816e | Explicitly rejects the attribution that gravity is a theta4 gradient: that assumption did not come from Nathan. |
-| 2025-06-08 23:19:16 | 79082a41-a01a-4ccc-8c04-7989f3fca3cd | Says the theta4-as-mass concept goes back to approximately April 15, 2025. |
 
-The April 15 source surface is therefore the early filament-orientation and angle discussion. The exact first use of the symbol theta4 on April 15 is not established by this message alone. The June 8 user message retrospectively places the theta4/mass concept there.
+The earliest recovered direct geometry is the April 15-17 filament-orientation and time-wavefront-angle discussion. The exact first use of the symbol theta4 on April 15 is not established by this raw source alone.
+
+Assistant reconstruction in the same conversation must be kept separate:
+
+- Assistant message 2c64bea8-f464-48bd-9161-7a0c2d202311, 2025-05-06 04:49:33.805Z, adds a spatial-gradient term for theta4 to a simplified SAT-inspired Lagrangian.
+- Assistant message cee676a8-7a73-44c6-8f38-c7070639f05e, 2025-05-07 08:55:00.569Z, proposes a SAT analogue action depending on theta4 and its gradient, then interprets the gradient as gravitational acceleration or tension gradient.
+
+Those are assistant proposals, not Nathan Direct equations. The direct user message 7783c215 on May 6 explicitly says the theta4-gradient account of gravity did not originate with Nathan. The subsequent assistant action is therefore not merely unverified; it conflicts with an explicit source-attribution correction.
 
 ### June 2025: function/name versus mathematical type
 
 **Geometry in Physics**, conversation 6a25a665-3a10-83ea-a7c0-cebebfdcf1d9, raw HsH blob 2e0c8477873583b92f20a0a3f2af6528643b4a8a, path DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.07•26.06.10•Geometry in Physics — raw.json.
 
+Two distinct June 8 user-role messages matter:
+
+- Message 79082a41-a01a-4ccc-8c04-7989f3fca3cd, 2025-06-08 23:19:16.683Z, says the theta4-as-mass concept goes back to approximately April 15, 2025.
+- Message e1d47786-b19f-4445-9a35-2d487482e02e, 2025-06-08 22:19:52.295Z, reproduces an earlier assistant table that calls theta4 a misalignment angle between a filament tangent and a foliation normal, then asks whether the table is accurate. The embedded table is assistant-authored content quoted for review, not Nathan Direct endorsement.
+
 Direct user message 7c63153a-c483-496f-8ec6-685d294f0375, 2025-06-10 14:30:19.781Z, asks that the major naming convention record theta4 as “filament-time energy transfer”, with “timesheet drag” as a later possible wording. This is a direct functional gloss. It does not by itself change the mathematical type from an angle to an energy-valued scalar.
 
-The June 8 user-role message 79082... reproduces an earlier assistant table that calls theta4 a misalignment angle between a filament tangent and a foliation normal, then asks whether the table is accurate. The embedded table is assistant-authored content quoted for review, not Nathan Direct endorsement. The same conversation's assistant Lagrangian message 41c84c3d-... promotes theta4 into a real scalar background field with kinetic and potential terms. That dynamical field construction is an assistant reconstruction. The direct sources support an angle and a proposed energy-transfer/mass role; they do not establish an independent theta4 field action or potential.
+The stable reading is that theta4 is the geometric angle/control quantity, while energy transfer, mass inception, and timesheet drag describe its proposed physical role. They are not yet a constitutive law.
 
 ### August and September 2026: reference-convention gap
 
@@ -57,7 +68,7 @@ The current symbol registry also contains a LOCAL:TRISWALE theta4 definition, co
 
 The November 8 Workshop Relay :24 | Geometry source is already documented in the Aster h844 and h1110 base reports. Its direct message c0520975-02a0-408f-a250-364b88ab7b30 describes a tentative four-dimensional Crullerverse/Klein Fabric picture: a Kerr-ER bridge whose mouth may become, intersect, or otherwise open onto the timesheet or a coordinated time-wavefront construction. The same message prefers remaining four-dimensional and cautions against importing an outside model's entire structure or interpretation.
 
-The immediately preceding assistant message 2d410029-... introduces an external six-dimensional Klein Bottle cosmology with two compact extra dimensions and additional brane/condensate machinery. That is assistant-supplied comparison material, not Nathan Direct geometry. The shared word “Klein” does not establish an equivalence:
+The immediately preceding assistant message 2d410029-35c3-4a93-9020-6040f55db621 introduces an external six-dimensional Klein Bottle cosmology with two compact extra dimensions and additional brane/condensate machinery. That is assistant-supplied comparison material, not Nathan Direct geometry. The shared word “Klein” does not establish an equivalence:
 
 - **Klein Fabric:** tentative H(s)H/Kerr-ER/timesheet throat or neck-network proposal, with its own unresolved mouth and projection construction.
 - **Klein Bottle cosmology:** external six-dimensional non-orientable compactification model, used by the assistant as a comparator.
@@ -74,7 +85,7 @@ No embedding, quotient, reduction, projection, or composition map between these 
 | Normal-relative theta4 | Current BEDROCK/BR-005 working convention, vacuum at zero | Exact September 16 raw source remains unrecovered |
 | Sheet-relative theta4 | Direct April 16 and August 27 wording, vacuum at 90 degrees | Complementary to normal-relative only under explicit geometric assumptions |
 | Triswale theta4 | Local registry entry relative to a common coplane | No global SAT/H(s)H map |
-| theta4(x) scalar-field action | Historical assistant Lagrangian reconstruction | Kinetic term, potential, and independent field dynamics are not direct-source definitions |
+| Assistant theta4 field/action representation | Historical assistant use of theta4 gradients in a proposed action | Not a direct-source definition or validated physical degree of freedom |
 | Klein Fabric | Tentative 4D Kerr-ER/timesheet mouth or neck-network construction | Topology and incidence map unresolved |
 | Klein Bottle cosmology | External 6D compactification comparator | Not the same object; no H(s)H mapping |
 | Timesheet | Three-dimensional time-surface/bulk or wavefront in the direct geometry | Not interchangeable with a two-dimensional worldsheet |
@@ -84,12 +95,15 @@ No embedding, quotient, reduction, projection, or composition map between these 
 
     filament orientation / tangent
                  |
-                 | theta4: angle relative to a time-wavefront reference
+                 | theta4 relative to a declared time-wavefront reference
                  v
-    time-wavefront surface <----> propagation normal
-                 |
-                 | proposed energy-transfer / mass-regime role
-                 v
+    [surface-relative convention]    [propagation-normal convention]
+                 \                  /
+                  \ complementary only under stated metric conditions
+                   v
+          proposed energy-transfer / mass-regime role
+                   |
+                   v
              matter / vacuum readout
              (measurement law absent)
 
@@ -114,11 +128,11 @@ The angle-reference relation is separately conditional. If a common positive-def
 
 | Primary-source proposition | Historical assistant translation | Fidelity judgment |
 |---|---|---|
-| theta4 is a four-dimensional intersectional angle with a proposed energy-transfer/mass role | theta4 as a scalar background field with kinetic term and potential | Angle is supported; field dynamics are additional |
+| theta4 is a four-dimensional intersectional angle with a proposed energy-transfer/mass role | theta4 gradient terms and a tentative field/action representation | Angle is supported; field dynamics are additional |
 | Surface-relative and propagation-relative angles must not be conflated | A single tangent-to-foliation-normal misalignment angle | One candidate convention, not a source-complete resolution |
 | Vacuum theta4 is tentatively 90 degrees from the time surface | Current BR-005 uses zero from the time normal | Potentially complementary, but the exact later raw source is missing |
 | theta4 is a measure of mass inception, but no measurement method exists | Refractive index or another optical property as a possible proxy | Direct source treats that mapping as unproven, not established |
-| Gravity is not necessarily a theta4 gradient | Assistant field equations can make gravity depend on theta4 gradients | Direct user explicitly rejects attribution of that assumption |
+| Gravity is not necessarily a theta4 gradient | Assistant field equations make gravity depend on theta4 gradients | Direct user explicitly rejects attribution of that assumption |
 | Klein Fabric is a tentative four-dimensional Kerr-ER/timesheet construction | External six-dimensional Klein Bottle cosmology imported as a useful comparator | Comparison is permissible; identification or ontology import is not |
 | Timesheet is an interacting three-dimensional bulk/slice | Passive readout or lower-dimensional worldsheet shorthand | Readout and mechanism must remain distinct |
 
@@ -128,7 +142,7 @@ The angle-reference relation is separately conditional. If a common positive-def
 2. **Complementarity:** the 90-degree sheet-relative and zero-degree normal-relative conventions may be complementary, but only with a shared metric, orthogonality, unit normal, and declared angle domains.
 3. **Functional gloss:** “filament-time energy transfer” and “timesheet drag” describe the proposed physical role; they do not by themselves define a new mathematical type or constitutive law.
 4. **Field ontology:** an angle-valued geometric quantity does not automatically imply an independently dynamical scalar field with its own action.
-5. **Gravity attribution:** the direct user explicitly says the theta4-gradient account did not originate with them.
+5. **Gravity attribution:** the direct user explicitly says the theta4-gradient account did not originate with them; the later assistant action should not be attributed to Nathan.
 6. **Optical measurement:** refractive index is not established as a direct or indirect theta4 measurement. The direct source calls the relation uncertain and asks for first-principles support.
 7. **Local/global symbol scope:** Triswale theta4 is local and unmapped to the global convention.
 8. **Klein name collision:** Klein Fabric and the external six-dimensional Klein Bottle cosmology are different candidate objects. No map connects them.
