@@ -55,7 +55,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Iterable
 
-TOOL_VERSION = "sable-source-inventory/0.2.1"
+TOOL_VERSION = "sable-source-inventory/0.2.2"
 QUARANTINED_COMPONENTS = {"PRIOR_ART"}
 TEXT_SUFFIXES = {
     ".txt", ".md", ".json", ".jsonl", ".csv", ".tsv", ".tex", ".py",
@@ -119,14 +119,39 @@ def contains_quarantined_component(relative: Path) -> bool:
     return any(part in QUARANTINED_COMPONENTS for part in relative.parts)
 
 
-def iter_allowed_files(root: Path) -> tuple[Iterable[Path], int]:
-    """Return allowed files plus count of quarantine roots pruned.
+def contains_symlink_component(root: Path, candidate: Path) -> bool:
+    """Fail closed if any component from root to candidate is a symlink.
+
+    Check with lstat-style Path.is_symlink() before stat/open/hash operations.
+    The root itself is already resolved by the CLI; candidates outside it are
+    rejected rather than normalized into the inventory.
+    """
+    try:
+        relative = candidate.relative_to(root)
+    except ValueError:
+        return True
+
+    current = root
+    for part in relative.parts:
+        current = current / part
+        try:
+            if current.is_symlink():
+                return True
+        except OSError:
+            return True
+    return False
+
+
+def iter_allowed_files(root: Path) -> tuple[Iterable[Path], int, int]:
+    """Return allowed files, quarantine roots pruned, and symlink entries skipped.
 
     ``os.walk`` pruning is intentional: files below PRIOR_ART are never touched.
+    Symlinked files and directories are rejected before traversal or file access.
     """
     allowed: list[Path] = []
     pruned_roots = 0
-    for current, dirs, files in os.walk(root):
+    symlink_entries_skipped = 0
+    for current, dirs, files in os.walk(root, followlinks=False):
         current_path = Path(current)
         relative_current = current_path.relative_to(root)
 
@@ -138,22 +163,35 @@ def iter_allowed_files(root: Path) -> tuple[Iterable[Path], int]:
         for name in dirs:
             if name in QUARANTINED_COMPONENTS:
                 pruned_roots += 1
-            else:
-                kept_dirs.append(name)
+                continue
+            candidate_dir = current_path / name
+            if contains_symlink_component(root, candidate_dir):
+                symlink_entries_skipped += 1
+                continue
+            kept_dirs.append(name)
         dirs[:] = kept_dirs
 
         for name in files:
             path = current_path / name
             rel = path.relative_to(root)
-            if not contains_quarantined_component(rel):
-                allowed.append(path)
-    return allowed, pruned_roots
+            if contains_quarantined_component(rel):
+                continue
+            if contains_symlink_component(root, path):
+                symlink_entries_skipped += 1
+                continue
+            allowed.append(path)
+    return allowed, pruned_roots, symlink_entries_skipped
 
 
-def inventory_repo(label: str, root: Path) -> tuple[list[FileRecord], int]:
-    files, pruned = iter_allowed_files(root)
+def inventory_repo(label: str, root: Path) -> tuple[list[FileRecord], int, int]:
+    files, pruned, symlink_entries_skipped = iter_allowed_files(root)
     records: list[FileRecord] = []
     for path in sorted(files):
+        # Recheck immediately before stat/open in case the local tree changed
+        # after enumeration. A skipped candidate is never dereferenced.
+        if contains_symlink_component(root, path):
+            symlink_entries_skipped += 1
+            continue
         rel = path.relative_to(root)
         stat = path.stat()
         topdir = rel.parts[0] if len(rel.parts) > 1 else "__ROOT__"
@@ -169,7 +207,7 @@ def inventory_repo(label: str, root: Path) -> tuple[list[FileRecord], int]:
                 line_count=line_count(path),
             )
         )
-    return records, pruned
+    return records, pruned, symlink_entries_skipped
 
 
 def stratified_sample(
@@ -433,11 +471,15 @@ def main() -> int:
     all_records: list[FileRecord] = []
     pruned_total = 0
     per_repo_pruned: dict[str, int] = {}
+    symlink_skipped_total = 0
+    per_repo_symlink_skipped: dict[str, int] = {}
     for label, root in roots:
-        records, pruned = inventory_repo(label, root)
+        records, pruned, symlink_skipped = inventory_repo(label, root)
         all_records.extend(records)
         pruned_total += pruned
         per_repo_pruned[label] = pruned
+        symlink_skipped_total += symlink_skipped
+        per_repo_symlink_skipped[label] = symlink_skipped
 
     all_records = sorted(all_records, key=lambda r: (r.repository, r.path))
     sample = stratified_sample(all_records, args.sample_per_stratum, args.seed)
@@ -464,7 +506,9 @@ def main() -> int:
         "repositories": dict(sorted(Counter(r.repository for r in all_records).items())),
         "prior_art_quarantine_roots_pruned": pruned_total,
         "prior_art_pruned_by_repository": per_repo_pruned,
-        "quarantine_policy": "PRIOR_ART path components are pruned before descent; contents are not opened, hashed, sampled, indexed, or listed.",
+        "symlink_entries_skipped": symlink_skipped_total,
+        "symlink_entries_skipped_by_repository": per_repo_symlink_skipped,
+        "quarantine_policy": "PRIOR_ART path components are pruned before descent; any candidate with a symlink component below the repository root is rejected before stat/open/hash/line-count. No symlink target is dereferenced.",
     }
 
     if args.upload:
