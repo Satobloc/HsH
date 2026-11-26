@@ -1,7 +1,29 @@
 {
-  "request_id": "aldus-h1118-s2-geometry-source-20261126t1424z-001",
+  "request_id": "ariadne-kirk-episode-source-20261126-2126",
+  "requester": "Workshop Relay :24 / Ariadne source-grounded reconstruction; not authenticated historical Ariadne",
+  "requested_at": "2026-11-26T21:26:00Z",
+  "repositories": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "query": "(author:user AND (\"Squire of Gothos\" OR \"Tomorrow Is Yesterday\" OR \"This Side of Paradise\" OR \"accumulative Kirk theory of mind\" OR \"episode order\")) OR (author:assistant AND (\"KIRK — ACCUMULATIVE THEORY OF MIND\" OR \"Human Relic Lens\" OR \"Shatner drift\"))",
+  "purpose": "Recover any primary January 22, 2026 Kirk working-source conversation and underlying Kirk/Riley/Nathan source stack by searching distinctive episode titles and the episode-order/accumulative-theory wording without the earlier date filter. Preserve outer message role, exact conversation and message IDs, timestamps, parent ancestry, source path, source commit/blob and adjacent context. Separate direct user source from assistant synthesis, Folder 21 podcast derivative, later continuity notes and mathematical homonyms. This is source discovery and provenance work, not a human-subject experiment or claim about real internal states.",
+  "preferred_outputs": [
+    "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
+    "candidate primary raw conversation paths and exact user-role message locators",
+    "source commit/blob identities, conversation IDs, message UUIDs, timestamps and parent ancestry",
+    "duplicate/snapshot/derivative relationships and explicit three-repository coverage/exclusions"
+  ],
+  "exclusions": [
+    "Do not publish raw excerpts or detailed private HSH_RESOURCES paths/content",
+    "Preserve default QUARANTINE and PRIOR_ART exclusions",
+    "Do not treat compact receipts as exhaustive or as source-authorship proof",
+    "No physical calculation, data-free fixture, statistical significance test, model fit or independent measurement",
+    "No new tooling, branch, PR, theory integration, BEDROCK change, paper-gate advancement or scheduler modification"
+  ],
   "status": "requested",
-  "requester": "Workshop Relay :24 / Aldus source-grounded geometry-fidelity reconstruction; not authenticated historical Aldus",
-  "purpose": "Locate the exact raw Nathan Direct role anchors and the October 7 time-normal torsion response description; cross-search original SAT/HsH source and SAT-O/Blockwave artifacts. Distinguish user-role messages from assistant reconstructions; preserve exact source path, blob, message, timestamp and adjacent context. This is source discovery only: do not infer a physical response law, measurement map or equation correction.",
-  "query": "(author:user AND (\"Renaissance man\" OR \"combining information not usually combined\" OR (\"time normal\" NEAR/8 torsion) OR (\"angular rotation\" NEAR/8 matter) OR (\"time surface\" NEAR/8 interaction) OR (\"worldtube bending\" NEAR/8 inertia))) OR ((path:*SAT*O* OR path:*Blockwave*) AND (math:theta OR math:gamma OR torsion OR \"time normal\" OR worldtube))"
+  "lane": 2,
+  "previous_request_id": "aldus-h1118-s2-geometry-source-20261126t1424z-001",
+  "supersedes_previous_request_only_after_verified_completion": true
 }
