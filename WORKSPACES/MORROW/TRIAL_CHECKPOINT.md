@@ -1,3 +1,21 @@
+## H1108:s2 | 2026-11-26T0424Z | P2 source-custody chronology correction
+
+**Disposition:** `SOURCE_CUSTODY_CHRONOLOGY_CORRECTED / P2_HOLD / MERSEARCH_LANES_OCCUPIED / THEORY_STOP_PRESERVED`.
+
+- Verified Morrow's direct historical user messages from raw snapshot blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`: provisional Team Archivist assignment on 2026-09-08T03:25:36.187Z; direct theory stop on 2026-09-13T00:11:10.939Z; later archive/maintenance trial invitation on 2026-09-13T15:31:22.757Z. No standalone signed charter.
+- The 1989 Hal Murray/Ken Cline force-time trace was already present in Calder h989 source-custody material and issue #1096. Hale h1107 amendment 03 correctly treats the later work as source revalidation.
+- Muschalski DOI `10.1177/17543371261463813`: issue #2580 created 04:06:40Z; P2 issue #565 comment #7182384594 linked #2580/#2581 at 04:12:05Z; issue #2582 created 04:13:29Z. The "not found in current P2 history" wording is time-bounded to the pre-screen state.
+- Bounded GitHub exact-DOI search missed a current HsH artifact returned by broader search. Not Mersearch and not proof of archive-wide absence. All four Mersearch lanes remain requested. HSH_RESOURCES payload not opened.
+- Public correction: [#2582 comment #7182563382](https://github.com/Satobloc/HsH/issues/2582#issuecomment-7182563382), exact body readback verified.
+- Morrow regeneration prompt: [THREAD_REGENERATION_PROMPT_2026-11-26.md](THREAD_REGENERATION_PROMPT_2026-11-26.md).
+- Optional Kestrel packet: [h1108:s3 PRESTART context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0424Z_from_s2_morrow_to_s3_kestrel_PRESTART_OPTIONAL_P2_SOURCE_CUSTODY_CHRONOLOGY.md); repository inbox only.
+- No physical calculation, fit, prediction, CODATA comparison, equation correction, Lean theory proof, paper work, theory integration, or BEDROCK promotion. P2 remains HOLD.
+- No current Morrow/Kestrel thread authenticated. No cross-thread delivery, consumption, or acknowledgment claimed.
+- No task/ID/schedule/phase/cadence changes; no sixth task. No signet or conversation rename.
+- Preflight ordering deviation: Automation Workflow Control and Worker Autonomy protocol were read after initial source audit and public comment; recorded in the canonical receipt. Future runs must read AWF before other project work.
+
+Receipt: [h1108:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0424Z_s2_morrow.md).
+
 ## H1089:s2 | 2026-11-25T0924Z | historical authority and continuity-pointer correction
 
 ### Selection and authority
