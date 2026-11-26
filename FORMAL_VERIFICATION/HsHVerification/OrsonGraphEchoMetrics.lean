@@ -210,6 +210,46 @@ theorem no_echo_rate_only_source_recall_resolver :
     _ = f (echoWalkRate fullCoverageTrace) := by rw [hSameEcho]
     _ = uniqueSourceRecall fullCoverageTrace := hFullResult
 
+/-- A single-root claim lineage. Relaying a claim records a new carrier
+    without changing the original evidence root or the root's truth label. -/
+inductive ClaimChain where
+  | root : Nat → Bool → ClaimChain
+  | relay : Nat → ClaimChain → ClaimChain
+  deriving DecidableEq, Repr
+
+def lineageOrigin : ClaimChain → Nat
+  | .root origin _ => origin
+  | .relay _ parent => lineageOrigin parent
+
+def lineageTruth : ClaimChain → Bool
+  | .root _ isTrue => isTrue
+  | .relay _ parent => lineageTruth parent
+
+def relayDepth : ClaimChain → Nat
+  | .root _ _ => 0
+  | .relay _ parent => relayDepth parent + 1
+
+theorem relay_preserves_origin_and_root_truth (agent : Nat) (claim : ClaimChain) :
+    lineageOrigin (.relay agent claim) = lineageOrigin claim ∧
+    lineageTruth (.relay agent claim) = lineageTruth claim := by
+  rfl
+
+theorem relay_increases_lineage_depth (agent : Nat) (claim : ClaimChain) :
+    relayDepth (.relay agent claim) = relayDepth claim + 1 := by
+  rfl
+
+def falseRoot : ClaimChain :=
+  .root 99 false
+
+def falseRootAfterTwoRelays : ClaimChain :=
+  .relay 3 (.relay 2 falseRoot)
+
+theorem two_relays_preserve_one_false_root :
+    lineageOrigin falseRootAfterTwoRelays = 99 ∧
+    lineageTruth falseRootAfterTwoRelays = false ∧
+    relayDepth falseRootAfterTwoRelays = 2 := by
+  decide
+
 /-- A small recursive provenance expression. Alternative derivations and
     joint use are represented by different constructors. This is a two-projection
     reconstruction, not a complete provenance-semiring implementation. -/
