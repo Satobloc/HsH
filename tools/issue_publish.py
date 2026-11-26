@@ -76,7 +76,11 @@ def publish(sid, content, digest, number):
 def main():
     event = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text())
     try:
-        sid, content, digest, number = validate(event)
+        # Event payloads are snapshots. Re-fetch the current issue so a queued
+        # opened/edited run cannot publish an older body after a later edit.
+        issue_number = event["issue"]["number"]
+        current_issue = api("GET", f"/repos/{REPO}/issues/{issue_number}")
+        sid, content, digest, number = validate({"issue": current_issue})
     except (ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
         print("REJECTED:", exc)
         if event.get("issue", {}).get("title", "").startswith(PREFIX):
