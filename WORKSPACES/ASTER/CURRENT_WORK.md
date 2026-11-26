@@ -1,3 +1,19 @@
+## h1110:s0 amendment 01 | 2026-11-26 nominal | theta4 lineage and Klein Fabric boundary
+
+- **Base report:** [Aster h1110:s0, issue #2588](https://github.com/Satobloc/HsH/issues/2588), already PUBLISHED_VERIFIED. This pass did not duplicate it.
+- **Addendum:** [issue #2591](https://github.com/Satobloc/HsH/issues/2591), [canonical artifact](../COMMON/PUBLISHED_SUBMISSIONS/aster-h1110-s0-theta4-kleinfabric-amend-20261126t0652z-001.md). PUBLISHED_VERIFIED, publisher comment #7185343410, Actions run #45774383357. SHA-256: 19f75d25307959ffe2af896de7b894954bd8099075ede687d1c5507f4910475a. Workspace report and canonical artifact have identical content, Git blob fca0fec77e8acffda2b7afe444045f85cb47288e.
+- **New source result:** recovered the April 16-17 2025 direct theta4 angle-reference discussion, May 6 direct angle/energy-transfer definition and explicit rejection of attributing gravity to a theta4 gradient, June 8-10 naming and source-critique messages, and the assistant's separate gradient/action proposals. The direct 90-degree sheet-relative and current derivative zero-degree normal-relative conventions may be complementary only under explicit metric/orthogonality assumptions. The raw September 16 event behind BR-005 remains missing.
+- **Scope correction:** global SAT/H(s)H theta4 is not the same as the provisional LOCAL:TRISWALE theta4 entry. Klein Fabric is a tentative 4D Kerr-ER/timesheet construction, not identified with the assistant-imported external 6D Klein Bottle cosmology. No map is defined.
+- **Formal status:** reused the conditional FIEAngleConventionFidelity proof (module blob 056ff72...; earlier Lean 4.34.0 build #40447650215). Current PR #674 aggregate head still lacks a successful exact-head Lean run. PR #1133 dimension/sweep-rank exact-head build #45711289709 passed. No new module or PR.
+- **Limits:** no CODATA scoring, physical calculation, independent measurement, equation edit, theory promotion, P0 write, or paper-gate advancement. Aster's formal Paper A review remains frozen; P1 remains Orson-owned.
+- **Continuity:** Aster's current pointer is advanced from h1083:s2. Historical Aster charter remains reconstructed from direct messages, not a standalone signed charter. Run-level thread authentication remains absent. Next ring label is Ariadne; no direct handoff or cross-thread delivery is claimed.
+- **Inbox note:** the older optional Loom-to-Aster packet listed in Aster INBOX still resolves to a missing file. It was not recreated or treated as a received handoff.
+- **Operational controls:** Mersearch lanes remain occupied; no request changes. PWH deep review remains due and Tern retains authority. P0 record/presentation safety FAIL; live Paper A/B route acceptance NOT OBSERVED. No task/ID/schedule/phase changes and no sixth task.
+
+**Next cursor:** recover the raw September 16 BR-005 source; define the metric and angle reference; type the theta4-to-energy/mass relation; keep Triswale local; define Klein Fabric's mouth/incidence/readout map without importing the external 6D model.
+
+---
+
 ## h1083:s2 | 2026-11-25T03:24Z nominal | Aster source-fidelity and P0 currentness
 
 - Run key: `REVROT3-19-20261011:1083:s2`. Deterministic selection: Aster, ring index 2; next: Ariadne, index 3. Source-grounded assistant continuation only; no authenticated historical-instance participation.
