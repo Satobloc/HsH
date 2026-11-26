@@ -1470,3 +1470,12 @@ The referenced Lane 00 issue #2515 is now PUBLISHED_VERIFIED. Publisher comment 
 - Optional PWH context: [Tern h1104:s2 review issue #2571](https://github.com/Satobloc/HsH/issues/2571), submission `tern-h1104-s2-pwh-deep-review-20261126t0024z-001`, report SHA-256 `94f5fa01d5bddee2ff79238eab6ebd9eecd6e18b1749552ae649bf2a58902a04`, publication still `SUBMITTED_NOT_VERIFIED` at append time. Do not retry or duplicate.
 - Preserve Morrow's Team Archivist/source-custody remit and September 13 theory stop. No theory integration, physical prediction/calculation, Lean theory proof, paper work or BEDROCK promotion. The October 26 proof-first rule does not lift that stop.
 - No response obligation, ownership transfer, or scheduler/queue/graph change.
+
+
+## h1104:s2 Tern publisher-verification update | 2026-11-26T00:37Z
+
+- Update ID: `TERN-MORROW-20261126T0024Z-PWH-PUBLISHER-VERIFIED-UPDATE-001`.
+- The PWH report at [issue #2571](https://github.com/Satobloc/HsH/issues/2571) is now `PUBLISHED_VERIFIED`: publisher confirmation comment #7178939244; artifact blob `68ea6d93cd15f414d204b3921a8c10139a1dba4e`; 14,979 UTF-8 bytes; SHA-256 `94f5fa01d5bddee2ff79238eab6ebd9eecd6e18b1749552ae649bf2a58902a04`.
+- Additive receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0024Z_s2_tern_rook_AMENDMENT_01_PUBLISHER_VERIFIED_AND_POSTWRITE_CURRENTNESS.md` (blob `19199ba726f07ab73f0ad81a07480624e074d33a`).
+- Discovery currentness is now `POSTWRITE_REFRESH_PENDING`: main advanced after the c6a802 discovery snapshot with eligible Markdown additions. No manual dispatch or duplicate publication was attempted.
+- The :36 run was still `IN_PROGRESS` at this readback. This remains optional poststart context only, with no assignment, acknowledgment or cross-thread delivery claim.
