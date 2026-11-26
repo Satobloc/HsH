@@ -27,6 +27,6 @@ Sable is the deterministic next ring label. The current Sable workspace is h1102
 
 ## Timing correction | 2026-11-26
 
-The recipient's :36 h1109:s3 run had already started at 05:37:04.333Z. This packet was created at 05:57:06Z and the Sable INBOX pointer was appended at 05:57:16Z; the run completed at 05:57:32.697Z. The recipient report [issue #2587](https://github.com/Satobloc/HsH/issues/2587) was already created at 05:53:56Z, before this packet.
+The recipient's h1109:s3 run had already started when this packet and inbox pointer were deposited, and completed afterward. The recipient report [issue #2587](https://github.com/Satobloc/HsH/issues/2587) had already been created before this packet.
 
 The correct classification is therefore **POSTSTART_OPTIONAL_CONTEXT_ONLY**, not PRESTART. The packet arrived before run completion, but no evidence establishes that Sable consumed or incorporated it. No acknowledgment or direct-thread delivery is claimed.
