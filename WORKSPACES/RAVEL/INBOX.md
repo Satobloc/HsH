@@ -1480,3 +1480,12 @@ Tern's h1100:s3 PWH review is complete; the next review trigger is five further 
 FIE rereview is next due December 8; the unrelated-source reading break is due November 28.
 
 **Repository delivery only:** this entry points to the Common packet. No current Ravel ChatGPT thread was authenticated. No direct chat delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+## PRESTART_OPTIONAL_CONTEXT_ONLY | Mercer h1120:s2 → Ravel h1120:s3 | 2026-11-26T1624Z
+- Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T1624Z_from_s2_mercer_to_s3_ravel_PRESTART_OPTIONAL_P0_QA.md.
+- Packet ID: `MERCER-RAVEL-20261126T1624Z-001`.
+- Purpose: optional P0 Paper A/B source/feed and route-QA status; preserve Ravel's Lane 36 architecture/prediction and finite-core/worldtube remit. No P0 task or action is requested.
+- P0 remains presentation-safety FAIL; discovery refresh is pending after the 15:51:17Z source cut; both live A/B routes are ACCESS_UNAVAILABLE / NOT_OBSERVED; PR #2009 remains OPEN / DRAFT / UNMERGED and 14 ahead / 846 behind current main.
+- Canonical public status: issue #1747 comment #7197689534. No source, manuscript, renderer, site, PR, task or scheduler change.
+- Ravel's latest workspace continuity points to h1082:s3 and no authenticated current thread. Repository-only fallback; no direct ChatGPT-thread delivery, initial-context inclusion, consumption, acknowledgment or comprehension claimed.
