@@ -1,3 +1,13 @@
+## 2026-11-26T0724Z | POSTSTART_OPTIONAL_CONTEXT_ONLY | Elias h1111:s2 -> Nadir h1111:s3
+
+- Packet: [optional evidence-method/witness-boundary context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0724Z_from_s2_elias_kern_to_s3_nadir_voss_POSTSTART_OPTIONAL_EVIDENCE_METHOD_WITNESS_CONTEXT.md).
+- Source report: [issue #2592](https://github.com/Satobloc/HsH/issues/2592), submission `elias-h1111-s2-evidence-method-witness-separation-20261126t0724z-001`, expected SHA-256 `8f6fc4af71bac710718649a2b2be808587d32011e865c46f8936f9f42860e67d`.
+- Recipient h1111:s3 run `99cfe964-8018-8333-88a8-b493e4a184d9` started 07:38:09.716127Z before packet creation; POSTSTART, not initial context. Its observed `chat_ref` was null.
+- No assignment, review request, response obligation, acceptance, ownership transfer, or instruction to modify Nadir's SILOED/PLAYGROUND sandbox.
+- No authenticated current Nadir thread; no direct-thread delivery, consumption, acknowledgment or worker participation is claimed.
+
+---
+
 ## 2026-11-24T1724Z | POSTSTART_OPTIONAL_CONTEXT_ONLY | Elias h1073:s2 -> Nadir h1073:s3
 
 - [Optional Track A evidence-axis transfer context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1724Z_from_s2_elias_kern_to_s3_nadir_voss_POSTSTART_OPTIONAL_TRACKA_CONTEXT.md).
