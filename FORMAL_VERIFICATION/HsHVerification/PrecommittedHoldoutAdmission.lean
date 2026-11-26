@@ -242,6 +242,29 @@ structure PrecommittedHoldoutPlan where
   familyDigestMatchesEvaluation :
     familyDigestAtEvaluation.value = familyDigest.value
 
+/-- Because one total observation-to-unit map is used on both sides,
+    disjoint unit sets imply that no raw observation ID appears in both
+    calibration and holdout. This is partition integrity, not statistical
+    independence between the declared units. -/
+theorem holdoutPlan_has_disjoint_observation_ids
+    (plan : PrecommittedHoldoutPlan) :
+    Disjoint plan.partition.calibrationObservationIds
+      plan.partition.holdoutObservationIds := by
+  refine Finset.disjoint_left.mpr ?_
+  intro observation hCalibration hHoldout
+  have hCalibrationUnit :
+      plan.partition.observationToUnit observation ∈
+        plan.partition.calibrationUnitIds := by
+    rw [plan.partition.calibrationUnitIdsExactlyMapped]
+    exact Finset.mem_image.mpr ⟨observation, hCalibration, rfl⟩
+  have hHoldoutUnit :
+      plan.partition.observationToUnit observation ∈
+        plan.partition.holdoutUnitIds := by
+    rw [plan.partition.holdoutUnitIdsExactlyMapped]
+    exact Finset.mem_image.mpr ⟨observation, hHoldout, rfl⟩
+  exact (Finset.disjoint_left.mp plan.partition.unitSetsDisjoint)
+    hCalibrationUnit hHoldoutUnit
+
 /-- A heterogeneous comparison admitted only when its candidate belongs to
     the frozen family, its model/projection sources match that family, and
     the precommitted holdout plan binds to the same packet and carrier. -/
@@ -567,29 +590,6 @@ theorem holdoutPlan_has_disjoint_unit_partition
     ⟨plan.partition.calibrationUnitsNonempty,
       plan.partition.holdoutUnitsNonempty,
       plan.partition.unitSetsDisjoint⟩
-
-/-- Because one total observation-to-unit map is used on both sides,
-    disjoint unit sets imply that no raw observation ID appears in both
-    calibration and holdout. This is partition integrity, not statistical
-    independence between the declared units. -/
-theorem holdoutPlan_has_disjoint_observation_ids
-    (plan : PrecommittedHoldoutPlan) :
-    Disjoint plan.partition.calibrationObservationIds
-      plan.partition.holdoutObservationIds := by
-  refine Finset.disjoint_left.mpr ?_
-  intro observation hCalibration hHoldout
-  have hCalibrationUnit :
-      plan.partition.observationToUnit observation ∈
-        plan.partition.calibrationUnitIds := by
-    rw [plan.partition.calibrationUnitIdsExactlyMapped]
-    exact Finset.mem_image.mpr ⟨observation, hCalibration, rfl⟩
-  have hHoldoutUnit :
-      plan.partition.observationToUnit observation ∈
-        plan.partition.holdoutUnitIds := by
-    rw [plan.partition.holdoutUnitIdsExactlyMapped]
-    exact Finset.mem_image.mpr ⟨observation, hHoldout, rfl⟩
-  exact (Finset.disjoint_left.mp plan.partition.unitSetsDisjoint)
-    hCalibrationUnit hHoldoutUnit
 
 /-- Abstract counterexample: distinct set labels can still designate the
     same nonempty unit set. This is a logical witness, not a physical dataset
