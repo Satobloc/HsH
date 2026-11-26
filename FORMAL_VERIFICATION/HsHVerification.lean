@@ -15,6 +15,7 @@ import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.RevivalEligibilityGate
 import HsHVerification.NadirFrameTelescoping
+import HsHVerification.EnheduannaTimeNormalProjectorBridge
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
