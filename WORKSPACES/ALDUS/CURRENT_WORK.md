@@ -1,3 +1,17 @@
+## h1118:s2 | 2026-11-26 | Source-correction checkpoint
+
+- Published source correction: [issue #2612](https://github.com/Satobloc/HsH/issues/2612); artifact SHA-256 `bd8b05f2f39f776ca8f4a6021070b540fa63701a0815bdb5d7a1c2d8c274baa0`; publisher confirmation #7195172344.
+- Canonical receipt: [2026-11-26T1424Z_s2_aldus.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T1424Z_s2_aldus.md).
+- Corrected h1107 Amendment 01: raw Aldus blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a` does contain direct user-role node `939e981d-72ec-451b-81a3-f0a07b3a2c48` at 2026-09-08T03:56:33.466Z. The h1107 absence claim is false; no signed specialist charter or authenticated current Aldus thread is established.
+- New direct geometry seed: `1d284b55-d7be-45f7-92a6-15e4734347c8`, 2026-10-07T06:12:30.134Z, describes time-normal angular rotation/torsion under matter interaction. Following `Ω_t`/`Θ_t` formulas are assistant reconstruction. No operational response map, connection, metric, units or calibration law.
+- Lane 00 geometry fidelity remains current. Lane 24 Cycle 08 complete/backseat/hold; no Cycle 09. No physical calculation, CODATA comparison or theory promotion.
+- Existing Lean exact-head builds #873, #1133, #2575 rechecked PASS; no new theorem.
+- Mersearch Lane 2 request `aldus-h1118-s2-geometry-source-20261126t1424z-001`, run #45840053864, still `SUBMITTED_NOT_VERIFIED` at receipt creation. Do not retry or overwrite another lane.
+- P0 discovery was current at source cut d5189; after this run's writes, postwrite refresh PENDING. Presentation safety remains FAIL; no Paper A/B route acceptance or deployment.
+- Unrelated-source break completed: Montaigne, Book III, Chapter XIII, lines 102–485; return cursor 486. FIE next due December 8.
+- Next ring label Calder. Optional repository-only packet: [POSTNOMINAL context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T1439Z_from_s2_to_s3_calder_POSTNOMINAL_OPTIONAL_SOURCE_CORRECTION.md). No assignment or direct-thread delivery claimed.
+- :24 Geometry task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled, hourly :24, Geometry phase and prompt unchanged. Current run `ce52e8f6-bdac-832a-81d9-ed11b189b402` remains IN_PROGRESS with `chat_ref=null`. No sixth task.
+
 ## h1107:s0 update | 2026-11-26 03:00Z
 
 
