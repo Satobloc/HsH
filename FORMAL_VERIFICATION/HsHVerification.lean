@@ -25,6 +25,7 @@ import Mathlib
 /-! Smoke test for the HsH formal-verification pipeline.
     Compilation proves only the stated mathematics, not a physical model. -/
 
+import HsHVerification.HaleAnalemmaRollCompatibility
 namespace HsHVerification
 
 theorem relative_map_triangle_closure {G : Type*} [Group G]
