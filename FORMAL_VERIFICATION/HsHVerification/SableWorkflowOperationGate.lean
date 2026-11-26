@@ -354,3 +354,174 @@ example :
 #print axioms readback_eligibility_requires_completed_run
 
 end HsHVerification.SableRunBinding
+
+
+/-!
+2026-11-26 h1113:s2 proposed extension.
+
+This extension keeps route destination separate from the coarse HandoffStage,
+and supplies a typed bridge between OperationEvidence and run-bound readback.
+
+The hostAccepted, independentFetch, and exactBytesMatched fields are external
+adapter observations. Lean proves only the conditional contract over those
+supplied values. It does not authenticate a ChatGPT thread, execute a post,
+retrieve bytes, or verify the SHA-256 implementation.
+-/
+
+namespace HsHVerification.SableOperationReadbackBridge
+
+open HsHVerification.SableWorkflowOperationGate
+open HsHVerification.SableRunBinding
+
+/-- A route records where a handoff was actually directed. -/
+inductive HandoffDestination where
+  | repositoryInbox (path : String) (commitSha : String) (blobSha : String)
+  | issueComment (issueUrl : String) (commentId : String)
+  | chatThreadPost (conversationId : String) (turnId : String) (hostAccepted : Bool)
+deriving DecidableEq, Repr
+
+/-- The old coarse stage projection records only that something was routed. -/
+def routeStageOf (_ : HandoffDestination) : HandoffStage := .routed
+
+/-- This is a host-acceptance receipt predicate, not recipient acknowledgment
+    or proof of consumption. The host result remains an external premise. -/
+def chatThreadPostAccepted : HandoffDestination → Prop
+  | .chatThreadPost conversationId turnId hostAccepted =>
+      conversationId ≠ "" ∧ turnId ≠ "" ∧ hostAccepted = true
+  | _ => False
+
+theorem repository_inbox_is_not_chat_thread_post
+    (path commitSha blobSha : String) :
+    ¬ chatThreadPostAccepted (.repositoryInbox path commitSha blobSha) := by
+  simp [chatThreadPostAccepted]
+
+theorem issue_comment_is_not_chat_thread_post
+    (issueUrl commentId : String) :
+    ¬ chatThreadPostAccepted (.issueComment issueUrl commentId) := by
+  simp [chatThreadPostAccepted]
+
+theorem chat_thread_post_requires_host_acceptance
+    (conversationId turnId : String) :
+    ¬ chatThreadPostAccepted (.chatThreadPost conversationId turnId false) := by
+  simp [chatThreadPostAccepted]
+
+/-- Two different destinations can share the same coarse routed stage.
+    Therefore HandoffStage alone cannot establish cross-thread delivery. -/
+theorem routed_stage_does_not_determine_destination :
+    ∃ repositoryRoute chatRoute : HandoffDestination,
+      routeStageOf repositoryRoute = routeStageOf chatRoute ∧
+      ¬ chatThreadPostAccepted repositoryRoute ∧
+      chatThreadPostAccepted chatRoute := by
+  refine
+    ⟨ .repositoryInbox "WORKSPACES/SABLE/INBOX.md" "commit" "blob"
+    , .chatThreadPost "conversation" "turn" true
+    , rfl
+    , ?_
+    , ?_ ⟩
+  · simp [chatThreadPostAccepted]
+  · simp [chatThreadPostAccepted]
+
+/-- External readback receipt. Digests and retrieval assertions are inputs
+    supplied by the adapter; this structure does not implement SHA-256. -/
+structure IndependentReadbackReceipt where
+  invocationId : String
+  resultRunId : String
+  artifactPath : String
+  expectedDigest : String
+  observedDigest : String
+  independentFetch : Bool
+  exactBytesMatched : Bool
+deriving DecidableEq, Repr
+
+/-- A typed witness binds the external receipt to one completed invocation
+    and its eligible cached result. -/
+structure VerifiedReadbackWitness
+    (run : Invocation) (result : CachedResult) where
+  receipt : IndependentReadbackReceipt
+  resultEligible : resultEligibleForIndependentReadback run result
+  invocationMatches : receipt.invocationId = run.id
+  resultMatches : receipt.resultRunId = result.runId
+  artifactPathPresent : receipt.artifactPath ≠ ""
+  expectedDigestPresent : receipt.expectedDigest ≠ ""
+  digestMatches : receipt.observedDigest = receipt.expectedDigest
+  independentFetchRecorded : receipt.independentFetch = true
+  exactBytesMatchRecorded : receipt.exactBytesMatched = true
+
+/-- A branch-state operation now carries both the original operation gate
+    and a run/result-bound independent-readback witness. -/
+structure OperationReadbackLink where
+  operation : OperationEvidence
+  run : Invocation
+  result : CachedResult
+  readback : VerifiedReadbackWitness run result
+  operationReady : operationReadyForStateCommit operation
+
+theorem linked_operation_has_run_bound_result
+    (link : OperationReadbackLink) :
+    resultBoundToInvocation link.run link.result :=
+  link.readback.resultEligible.1
+
+theorem linked_operation_has_completed_run
+    (link : OperationReadbackLink) :
+    runCompleted link.run :=
+  link.readback.resultEligible.2.1
+
+theorem linked_operation_has_matching_digest
+    (link : OperationReadbackLink) :
+    link.readback.digestMatches :=
+  link.readback.digestMatches
+
+theorem linked_operation_requires_readback_flag
+    (link : OperationReadbackLink) :
+    link.operation.independentReadback = true :=
+  link.operationReady.2.2.2.2.2.1
+
+/-- Counterexample to treating the old boolean operation gate as if it were
+    already coupled to a particular live run/result. -/
+def optimisticOperationEvidence : OperationEvidence :=
+  { plannedSnapshotMatches := true
+    authorityGranted := true
+    preconditionsSatisfied := true
+    executionRecorded := true
+    artifactDigestBound := true
+    independentReadback := true
+    exitCriteriaVerified := true
+    stage := .readbackVerified }
+
+def inProgressInvocation : Invocation :=
+  { id := "run-current"
+    startedAtMs := 100
+    status := .inProgress
+    completedAtMs := none
+    chatRef := none }
+
+def inProgressCachedResult : CachedResult :=
+  { runId := "run-current"
+    createdAtMs := 101
+    completedAtMs := none
+    chatRef := none
+    contentTruncated := false
+    isFailureMessage := false
+    requiresUserAction := false }
+
+theorem legacy_boolean_gate_can_pass_without_run_readback_eligibility :
+    operationReadyForStateCommit optimisticOperationEvidence ∧
+    ¬ resultEligibleForIndependentReadback
+      inProgressInvocation inProgressCachedResult := by
+  constructor
+  · simp [operationReadyForStateCommit, optimisticOperationEvidence]
+  · intro eligible
+    exact in_progress_is_not_completed
+      inProgressInvocation rfl eligible.2.1
+
+#print axioms repository_inbox_is_not_chat_thread_post
+#print axioms issue_comment_is_not_chat_thread_post
+#print axioms chat_thread_post_requires_host_acceptance
+#print axioms routed_stage_does_not_determine_destination
+#print axioms linked_operation_has_run_bound_result
+#print axioms linked_operation_has_completed_run
+#print axioms linked_operation_has_matching_digest
+#print axioms linked_operation_requires_readback_flag
+#print axioms legacy_boolean_gate_can_pass_without_run_readback_eligibility
+
+end HsHVerification.SableOperationReadbackBridge
