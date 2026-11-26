@@ -1,31 +1,7 @@
 {
-  "request_id": "phy01-internal-first-worldtube-hinton-highercats-20261125-01",
-  "requester": "ChatGPT physics research thread / bounded PHY-01 internal-first source reconstruction; not an authenticated historical worker identity",
-  "requested_at": "2026-11-25T05:30:45.753Z",
-  "lane": 2,
-  "repositories": [
-    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-    "Satobloc/HsH",
-    "Satobloc/HSH_RESOURCES"
-  ],
-  "query": "(author:user AND ((worldtube NEAR/12 (timesheet OR filament OR curvature OR Kerr)) OR (timesheet NEAR/12 (worldtube OR filament OR wavefront OR intersection)) OR (\"Kerr-ER-Pauli\" NEAR/15 (exclusion OR vacuum OR particle)) OR (\"Minkowski\" NEAR/12 (worldline OR worldtube)))) OR ((name:*HINTON* OR path:*HISTORICAL*) AND (filament OR section OR tessaract OR \"fourth dimension\" OR \"higher space\")) OR ((\"higher category\" OR \"higher Cartan\" OR \"higher gauge\" OR \"braid category\" OR groupoid OR homotopy) AND (Minkowski OR worldline OR worldsheet OR brane OR gauge))",
-  "purpose": "Internal-first three-repository recovery for PHY-01. Recover Nathan-authored SAT/H(s)H geometrical source material and status-preserving theory context first; locate primary Hinton historical source families and their exact in-archive representation; identify existing internal work on higher categories, higher Cartan/higher gauge geometry, braids, groupoids and homotopy in mathematical physics. Preserve source paths, repositories, source commits, blob hashes, exact locators, role/speaker distinctions and chronology where supplied. This is an archive-discovery request, not a conclusion that apparent matches are equivalent or historically causally connected.",
-  "preferred_outputs": [
-    "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate source paths with repository identity, source commit, blob SHA, exact locator and record type",
-    "Nathan Direct role-authenticated material distinguished from assistant-authored summaries and generated text",
-    "SAT/H(s)H theory statements with current epistemic status and surrounding assumptions/dependencies",
-    "Hinton primary-source locations distinguished from later commentary and prior-art synthesis",
-    "higher-category, homotopy, braid, groupoid and higher-gauge records with exact source locators",
-    "explicit three-repository coverage, exclusions, version and limits"
-  ],
-  "exclusions": [
-    "Preserve default QUARANTINE and PRIOR_ART search exclusions",
-    "Do not publish raw excerpts or detailed private HSH_RESOURCES paths/content",
-    "Treat compact receipts as bounded navigation, not exhaustive result inventories",
-    "Do not infer influence from similarity or assume a direct Hinton-to-category-theory lineage",
-    "Do not promote SAT/H(s)H propositions or claim external confirmation",
-    "No calculation, model fitting, empirical claim, new theory integration, BEDROCK edit, paper-gate change, scheduler change, or additional automation"
-  ],
-  "status": "requested"
+  "request_id": "aldus-h1118-s2-geometry-source-20261126t1424z-001",
+  "status": "requested",
+  "requester": "Workshop Relay :24 / Aldus source-grounded geometry-fidelity reconstruction; not authenticated historical Aldus",
+  "purpose": "Locate the exact raw Nathan Direct role anchors and the October 7 time-normal torsion response description; cross-search original SAT/HsH source and SAT-O/Blockwave artifacts. Distinguish user-role messages from assistant reconstructions; preserve exact source path, blob, message, timestamp and adjacent context. This is source discovery only: do not infer a physical response law, measurement map or equation correction.",
+  "query": "(author:user AND (\"Renaissance man\" OR \"combining information not usually combined\" OR (\"time normal\" NEAR/8 torsion) OR (\"angular rotation\" NEAR/8 matter) OR (\"time surface\" NEAR/8 interaction) OR (\"worldtube bending\" NEAR/8 inertia))) OR ((path:*SAT*O* OR path:*Blockwave*) AND (math:theta OR math:gamma OR torsion OR \"time normal\" OR worldtube))"
 }
