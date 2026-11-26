@@ -1,3 +1,18 @@
+## h1107:s0 update | 2026-11-26 03:00Z
+
+- Current lane: Lane 00, Nathan Direct geometry fidelity. Routing selection Aldus (index 6); next label Calder (index 7). Selection is not thread authentication. No authenticated current Aldus thread or cross-thread delivery was established.
+- Latest research note: [h1107 support-type/readout/calibration report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-26T0300Z_H1107_S0_SUPPORT_TYPES_READOUT_CALIBRATION.md).
+- Public-safe submission: [issue #2577](https://github.com/Satobloc/HsH/issues/2577), submission `aldus-h1107-s0-support-types-interaction-readout-calibration-domain-20261126t0300z-001`. At this pointer update the issue-publisher run is still in progress; status is SUBMITTED_NOT_VERIFIED. Do not duplicate; verify the existing issue and canonical artifact.
+- Prior Aldus h1088 Whirligig lineage report was published/readback-verified at [issue #2537](https://github.com/Satobloc/HsH/issues/2537), but no canonical h1088 revival receipt was located. Preserve the publication record without fabricating a retroactive receipt. The older h1080 pointers below are historical.
+- Geometry finding: keep `γ¹` (centerline), `J²` (assistant-voiced Blockwave worldsheet current), and `W⁴` (finite-core support) distinct. `T:γ¹→W⁴`, interaction-aware `R_t`, and the link from `J²` to `W⁴` remain undefined. Set-level sectioning is not physical response.
+- Formal evidence reused: PR #873 / run #44090154878; PR #1133 / run #45711289709; PR #2575 / run #45745492694. Exact-head builds succeeded; theorem-specific axioms and limits are in the report. No new Lean code.
+- Source custody: SAT-O1 original equation text preserved; Blockwave attachment SHA-256 remains withheld under h1037/h1029 custody correction. No corrected equations.
+- Stop condition: no measured system, source-defined response map, observable space, or calibration domain. No physical calculation, CODATA scoring, or P2 advancement.
+- Operational: PWH h1104:s2 review published/readback-verified; P0 presentation safety remains FAIL; P1 NOT READY; P2 HOLD; P3 incomplete. FIE next due Dec 8; unrelated-source break Nov 28.
+- Next cursor: define `T`, then `R_t`, then observable/calibration maps with explicit domains and composition. Reuse existing Lean work; no new theorem until source maps exist.
+
+---
+
 > **Final h1080:s2 readback (2026-11-25T00:40:03Z):** discovery run [#45519641284](https://github.com/Satobloc/HsH/actions/runs/45519641284) succeeded from source 4e1a629; current main e05623 is one generated-output-only commit ahead. The previously missing h1076 Aldus publisher artifact is now indexed exactly once. Source freshness PASS; record/presentation safety still FAIL (10,898/10,898 workspace records have generic reader targets and lack presentation_state); live Paper A/B route acceptance NOT OBSERVED. See P0 issue #1747 comment #7148766358 and CURRENT_WORK.md. PR #1860 exact-head Lean build succeeded at dd8c173 (run #45518943549); conditional limits remain. P2 HOLD; no physical result or theory promotion. :24 task ID/schedule/phase unchanged; current host run still IN_PROGRESS at last readback.
 
 ## Latest execution — h1080:s2
