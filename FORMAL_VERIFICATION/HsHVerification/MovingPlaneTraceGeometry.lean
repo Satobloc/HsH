@@ -193,6 +193,34 @@ theorem parabolicSeparation_strictly_increases_with_positive_slice
   have hz2 : 0 ≤ z2 := le_trans hz1 (le_of_lt hz12)
   nlinarith
 
+/-- Separation along a constant-speed z-normal slice z(t) = z0 + v*t.
+    This is a formal reconstruction of the standard opposite-parabola case,
+    not a Nathan-direct equation or a physical spring model. -/
+def movingParabolicSeparation (z0 v t : ℝ) : ℝ :=
+  parabolicSeparation (z0 + v * t)
+
+/-- The secant rate depends on the interval endpoints; it is not a constant
+    speed for a nontrivial affine slice. -/
+theorem movingParabolicSeparation_secant_rate
+    (z0 v t1 t2 : ℝ) (ht : t1 ≠ t2) :
+    (movingParabolicSeparation z0 v t2
+      - movingParabolicSeparation z0 v t1) / (t2 - t1)
+      = 2 * v * (2 * z0 + v * (t1 + t2)) := by
+  have hdt : t2 - t1 ≠ 0 := sub_ne_zero.mpr (Ne.symm ht)
+  simp only [movingParabolicSeparation, parabolicSeparation_eq]
+  field_simp [hdt]
+  ring
+
+/-- With z(t)=1-t, the parabolic separation rates on the first and second
+    halves of the approach to the origin are -3 and -1, respectively. -/
+theorem parabolicApproach_secant_rates_differ :
+    (movingParabolicSeparation 1 (-1) (1 / 2)
+      - movingParabolicSeparation 1 (-1) 0) / ((1 / 2) - 0)
+      ≠
+    (movingParabolicSeparation 1 (-1) 1
+      - movingParabolicSeparation 1 (-1) (1 / 2)) / (1 - (1 / 2)) := by
+  norm_num [movingParabolicSeparation, parabolicSeparation, parabolaA, parabolaB]
+
 /-- Oblique projection of a circular cross-section into a fixed z-normal
     slice. Here c is the cosine of the axis tilt and (u,v) is a unit-circle
     parameter. -/
@@ -224,6 +252,8 @@ theorem obliqueCircleSection_vertical_semiaxis (r c : ℝ) :
 #print axioms parabolicSeparation_positive
 #print axioms parabolicSeparation_even
 #print axioms parabolicSeparation_strictly_increases_with_positive_slice
+#print axioms movingParabolicSeparation_secant_rate
+#print axioms parabolicApproach_secant_rates_differ
 #print axioms obliqueCircleSection_on_ellipse
 #print axioms obliqueCircleSection_vertical_semiaxis
 
