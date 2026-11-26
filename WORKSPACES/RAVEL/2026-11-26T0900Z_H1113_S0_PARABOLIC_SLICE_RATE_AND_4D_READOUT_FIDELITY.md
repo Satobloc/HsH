@@ -36,14 +36,14 @@ Relevant direct user messages:
 
 | Message | UTC | Direct proposition |
 |---|---|---|
-| aaa2d58f-3738-44f9-9fcc-d4c054b23c2a | 16:08:08 | Rejects a perfect helix as the construction for two points that must approach, meet and separate; a perfect helix has bounded, constant radial separation |
+| aaa2d0b1-017d-453e-b95a-b23915f87d32 | 15:29:30 | Says a moving plane perpendicular to the straight axis leaves S stationary while H traces a circular path; phase speed depends on helix pitch and slice speed |\n| aaa2d58f-3738-44f9-9fcc-d4c054b23c2a | 16:08:08 | Rejects a perfect helix for two points that must approach, meet and separate; its fixed-radius trace keeps the points equidistant |
 | aaa2d04a-8549-4458-9381-65efb44ec6be | 16:11:26 | Reasserts that one fixed line/plane intersection gives one point, not a trail of points in the plane |
 | aaa2fa79-70eb-46b0-928e-ce38246f52e2 | 16:20:56 | Proposes two parabolas opening in opposite directions as a candidate for converging/diverging intersection points |
 | aaa276dc-6f4b-47cb-9bc3-3af62e81797a | 16:54:51 | Offers a provisional shape-to-motion vocabulary: straight, angled, curved, wavy, helical and irregular carriers produce different apparent point motions |
 | aaa2a868-90fa-439f-9d9d-4cf95519ab91 | 16:57:54 | Lifts the toy one dimension: 4D strings and a 3D time surface; particles are described as intersections |
 | aaa28a9a-dcfc-4835-8359-e7da7b36911c | 17:07:55 | Calls “now” the current string/time-surface intersection and compares the surface to a propagating wavefront; the string-theory intuition is explicitly vague |
 | aaa246c9-e52c-4650-84e8-b078149df0cc | 18:05:42 | Describes a static 4D construction with a propagating 3D time surface; braiding rules remain unspecified |
-| aaa26f3d-e831-49cd-976e-a85c5e3b749d | 2024-03-23 03:44:22 | Says spherical expansion is optional and the construction is an abstraction/heuristic, not an assertion of the universe's true nature |
+| aaa26f3d-e831-49cd-976e-a85c5e3b749d | 2024-03-23 03:44:26 | Says spherical expansion is optional and the construction is an abstraction/heuristic, not an assertion of the universe's true nature |
 
 The already-published Tern crosswalk covers the earlier perfect-helix/moving-plane geometry, the radius-versus-pitch correction, the 4D heuristic lift and the existing Nadir formalization. This report does not reproduce that analysis.
 
@@ -51,18 +51,18 @@ The already-published Tern crosswalk covers the earlier perfect-helix/moving-pla
 
 - Conversation: 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f.
 - Raw Git blob: 17cfe3feb830f70009557d063482b35adba0834b.
-- Raw SHA-256 recorded in the earlier Ravel custody report: b3be... (the raw-export digest is retained there; no replacement digest is asserted here).
+- Raw SHA-256: b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba.
 
 Relevant direct user messages:
 
-- 00d87203-f1bd-4c86-bf7d-6f6f426c895f: standard physics first, Minkowski geometric grammar, and no added primitive merely to make the representation work.
+- 00d87203-f1bd-4c86-bf7d-6f6f426c895f (2026-09-06 08:52:53.559Z): standard physics first, Minkowski geometric grammar, and no added primitive merely to make the representation work.
 - af313567-c917-4188-86b0-caea0f3398e2: asks for a broad parameter inventory for a simple spring, including non-round barrels and multiple superimposed helices.
-- 8a1fa455-4d37-4d93-8b7c-4e5aef6d7d11: says nothing is built on the spring; it is a representation obtained by plotting a 4D oscillation. The raw wording contains “for dimensions”; context suggests “four dimensions,” but the transcript is preserved rather than silently corrected.
-- 381b1288-...: treats spring diameter and intrinsic oscillation rate as candidate descriptors of particle properties, including an oscillation that persists at ground state. This is a proposal, not a derived equation.
+- 8a1fa455-6d8a-4f33-aa41-92294b373d8d (2026-09-06 08:27:04.802Z): says nothing is built on the spring; it is a representation obtained by plotting a 4D oscillation. The raw wording contains “for dimensions”; context suggests “four dimensions,” but the transcript is preserved rather than silently corrected.
+- bb4913a7-1244-4818-bbac-b8c7e279a004 (2026-09-06 08:57:41.174Z): treats spring diameter and intrinsic oscillation rate as candidate descriptors of particle properties, including an oscillation that persists at ground state. This is a proposal, not a derived equation.\n- a63b981d-d614-4da8-9cd3-7a018ed221e3 (2026-09-06 20:10:29.947Z): corrects the ontology: a filament is the totality of a 4D particle trajectory, not an object that simply has a trajectory; the block representation is a construction choice, not a claim that the universe is a pure block.
 - b9805319-9d77-4b43-874a-5af50c0b6ef7: identifies force as primitive and describes mutual accommodation.
 - 496a15ea-0263-459d-b815-908f52155b90: distinguishes a 3D Minkowski/worldworm diagram, the full 4D bulk and an actual 4D view with a 3D slice.
 
-The historical assistant message c8739b3c-d88a-447b-a4c5-779fcd396144 supplies a large mechanical-spring catalogue: wire diameter, modulus, density, yield, fatigue, spring index, stiffness and energy. Those are valid comparator quantities for a material spring under their own assumptions, but they are not direct H(s)H primitives. The direct correction makes the category boundary explicit: the spring is a representation, not the material substrate. Its geometric diameter and intrinsic oscillation rate remain candidate readouts; material elasticity and spring constants do not automatically transfer.
+The historical assistant message c8739b3c-d88a-447b-a4c5-779fcd396144 (2026-09-06 08:22:04.365Z) supplies a large mechanical-spring catalogue: wire diameter, modulus, density, yield, fatigue, spring index, stiffness and energy. Those are valid comparator quantities for a material spring under their own assumptions, but they are not direct H(s)H primitives. The direct correction makes the category boundary explicit: the spring is a representation, not the material substrate. Its geometric diameter and intrinsic oscillation rate remain candidate readouts; material elasticity and spring constants do not automatically transfer. The direct filament correction also means the 4D filament is the complete history-object; the current intersection point and the 3D spring trace are readouts of it, not alternate names for the filament.
 
 ## 4. Source-faithful geometry map
 
@@ -94,13 +94,13 @@ The earlier 3D toy and the later 4D representation are related by a possible rea
 - Mutual accommodation and force as a primitive.
 - θ₄ defined relative to the local time-surface normal.
 
-For a transverse 1D curve and a 3D hypersurface in a 4D ambient manifold, the generic intersection dimension is zero. The affine line/hyperplane case is formalized in the existing Nadir module. The 2024 source does not specify a metric signature, smooth embedding, global timesheet, incidence map or readout operator. Its “static 4D bulk / propagating time surface” picture is therefore preserved as an early heuristic, not silently identified with the current mutual-accommodation model.
+For a transverse 1D curve and a 3D hypersurface in a 4D ambient manifold, the generic intersection dimension is zero. The affine line/hyperplane case is formalized in the existing Nadir module. The 2024 source does not specify a metric signature, smooth embedding, global timesheet, incidence map or readout operator. Its “static 4D bulk / propagating time surface” picture is therefore preserved as an early heuristic, not silently identified with the current mutual-accommodation model. The 2024 use of “strings” is explicitly described as a vague early intuition; the assistant's later imports from standard string theory are not direct-source commitments. The March 23 user-posted outline is a user-provided text of uncertain underlying authorship and is not treated as an original Nathan-authored ontology.
 
 The 2026 current BEDROCK defines θ₄ relative to the local time-surface normal and records a proposed at-rest relationship to inverse helical pitch. That does not identify θ₄ with the assistant's 3D Euclidean spring pitch: the latter is axial rise per turn in a chosen spatial representation, while θ₄ is a 4D angle requiring a metric and time-normal map. No map between them has been recovered.
 
 ## 5. New mathematical result: the parabolic steady-rate claim
 
-The direct user proposal at aaa2fa79 does not specify a parabola equation. The immediate assistant response 5fff3c44-... affirms that opposite-opening parabolas produce steady-rate convergence, but changes the previously defined slice direction to negative y without explaining the axis change and supplies no parameterization.
+The direct user proposal at aaa2fa79 does not specify a parabola equation. The immediate assistant response 5fff3c44-6847-41ad-874a-bb7233df1fa6 (2024-03-22 16:21:03.651Z) affirms the desired result, but changes the previously defined slice direction to negative y without explaining the axis change and supplies no parameterization. The user had specified the desired steady-rate approach in the preceding direct message aaa2d58f.
 
 The later formal reconstruction in MovingPlaneTraceGeometry.lean uses the standard pair y=±z². For that specific reconstruction:
 
