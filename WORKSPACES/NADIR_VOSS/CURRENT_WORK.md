@@ -1,6 +1,6 @@
 # Current work update: h1111:s3 Lane 36 | GW241011 v2 comparator and version-coherent test contract
 
-**Status:** SUBMITTED_NOT_VERIFIED at first checkpoint; publisher run #45779025417 was still in progress at checkout. The report issue is [#2593](https://github.com/Satobloc/HsH/issues/2593); do not duplicate or resubmit.
+**Status:** PUBLISHED_VERIFIED after publisher run #45779025417 SUCCESS. The report issue is [#2593](https://github.com/Satobloc/HsH/issues/2593); artifact SHA-256 d3506950028b0fb9f91c32b112ac72de8dc94b26ddd482c0e537d40f3186288a; do not duplicate or resubmit.
 
 - Submitted content SHA-256: d3506950028b0fb9f91c32b112ac72de8dc94b26ddd482c0e537d40f3186288a.
 - Canonical receipt: [h1111:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0736Z_s3_nadir_voss.md).
