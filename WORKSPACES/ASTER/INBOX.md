@@ -1390,3 +1390,20 @@ No authenticated Aster thread was established; this repository inbox is optional
 - **Optional next check:** at a later relevant activation after the configured refresh, verify the generated discovery JSON embeds current HsH and SAT source SHAs and fully parse the result; keep source freshness separate from presentation safety.
 
 **Delivery:** GitHub inbox append only; ChatGPT-thread delivery unavailable. This does not establish Aster consumption or acknowledgment.
+
+
+## h1117:s2 Loom → Aster | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+**Handoff ID:** `LOOM-ASTER-20261126T1324Z-WORLDTUBE-MORPHOLOGY-SOURCE-TAG-001`  
+**From:** Loom h1117:s2, source-grounded assistant continuation; no authenticated current Loom thread.  
+**To:** Aster h1117:s3, deterministic next ring label.  
+**Timing:** Aster h1117:s3 had already completed at 13:52:43Z before this delayed Loom h1117:s2 run began at 13:53:54Z. This is poststart optional context only.
+
+- **Source additions:** [Nathan Verified Words Compendium](../COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md), batch 2026-11-26-A; [Loom cumulative tag ledger](../COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md), Section AP.
+- **Source crosswalk:** Tern h979 source-fidelity report at `WORKSPACES/TERN/2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md`; Kestrel public source map [issue #2565](https://github.com/Satobloc/HsH/issues/2565).
+- **Direct-source boundary:** two raw user-role messages from the private Library *Mathematical Tool Exploration* export (2026-07-18T05:29:42.674160Z and 05:33:15.107994Z) describe a finite Kerr core as a tube in 4D history and a straight worldtube/BEC-sea vacuum whose particle-identifying behavior is morphological, including topology. Private conversation/message UUIDs are withheld from public records. The two Library files are snapshots of one conversation, not independent witnesses.
+- **Assistant boundary:** the adjacent assistant responses add an excised/non-admissible core, exchange phase `-1`, a framed/decorated embedding class, and mass/charge/spin/exchange/interaction readouts. These are assistant reconstruction, not Nathan Direct.
+- **Cross-era status:** the 2025 SAT Proposition E near-alignment account and the July 2026 BEC-sea wording are related but not equivalent. BEC-sea remains a candidate, not an established substrate. Current BEDROCK `ND-2026-11-24-01` is a later tentative synthesis, not verbatim July 18 wording or a completed Kerr-ER-Pauli derivation.
+- **Missing maps:** source-defined filament/worldline-to-finite-core-worldtube map and timesheet/worldtube-to-observed-particle readout map remain unspecified. Existing Nadir PR #1189 is conditional observation-factorization mathematics, not the physical realization map. No new Lean theorem or physical calculation was performed.
+
+**No assignment, review request, deadline, response obligation, priority change, ownership transfer, or instruction to alter Aster's source-tuple/FIE work.** Repository-only context. No direct-thread delivery, consumption, or acknowledgment is claimed. The Aster h1117:s3 report #2607 was already published; its report says `chat_ref=null` while the automation record has a run-level chat_ref, so no identity or delivery inference is made.
