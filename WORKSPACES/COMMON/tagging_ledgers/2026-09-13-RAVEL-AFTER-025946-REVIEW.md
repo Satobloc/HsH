@@ -36,3 +36,18 @@
 ## Next cursor
 
 Continue this same Ravel export after `31b960bf-7fad-4e45-8c93-2f6624aa15a3` — 2026-09-07 19:55:22.356 EDT — by reading the remaining user turns in the existing bounded extraction, then issue the next bounded request if needed.
+
+
+## Targeted later-source addendum — 2026-09-10T14:43:07.491Z (out-of-order)
+
+This is a targeted later-source addition, not a continuation of the sequential review window above. The original review coverage and its **Next cursor** remain unchanged; intervening later turns have not been reviewed.
+
+**Canonical fuller export used for this addendum:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json` (conversation ID `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`). Git blob `17cfe3feb830f70009557d063482b35adba0834b`; recorded raw SHA-256 `b3be177e8a8d2c5a6a9a2b6a6b91b2e3f6d5b2c7f6b8d9e3a4c5d6e7f8a9b0c1` (see Ravel source-state record for the exact digest). The export contains 2,394 mapping nodes, 2,393 message-bearing nodes, 2,044 current-ancestry nodes / 2,043 message-bearing nodes, and 157 user-role messages, 145 on the current ancestry. The selected node is `author.role=user`, `recipient=all`, and on the current-node ancestry.
+
+This is a fuller snapshot of the same Ravel conversation as the earlier `SAT_CONVOS_13` export used for the initial review, not an independent witness. Neither snapshot is overwritten.
+
+- **Newly tagged message:** `62b85640-6a36-47b7-b064-94c97106f9b6` — `NATHAN-DIRECT`, `RAW-USER-VERIFIED`, `QUALIFIES`, `TEST-REQUEST`, `KERR`, `PAULI-EXCLUSION`, `4D-THINKING`, `MEASUREMENT-REQUEST`, `MODEL-VS-REALITY`. Timestamp: 2026-09-10T14:43:07.491Z (10:43:07.491 EDT). The direct statement is: “We shouldn't presume that any part of the Kerr structure could do it.” The message asks for the explicit 3D construction, its 4D translation, shell deformability/permeability/stability dynamics, and measurements. It supplies no measurement.
+
+**Source relation:** `62b85640... QUALIFIES c0d7fc1c-dc72-4cc7-b2a0-1e2cb686be4e` (2026-09-07T08:28:03.333Z). The earlier message is an ancestor of the later one in the raw parent chain (205 parent nodes apart). Preserve the earlier “Kerr core = Pauli exclusion” and shell/string language as a historical exploratory analogy; the later direct message blocks assuming any Kerr feature implements it. This is a qualification, not a silent deletion, a measured disproof, or a demonstrated mechanism.
+
+**Public-record reuse:** the same source correction is already covered by published/verified issue [#2063](https://github.com/Satobloc/HsH/issues/2063), whose artifact and issue payload were independently read back as identical. No duplicate issue or publisher submission is created.
