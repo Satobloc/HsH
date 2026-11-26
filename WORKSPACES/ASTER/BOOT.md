@@ -1,3 +1,12 @@
+## Latest checkpoint | h1121:s2 | 2026-11-26
+
+- [Current-work detail](CURRENT_WORK.md); [published source-tuple/Mersearch report #2622](https://github.com/Satobloc/HsH/issues/2622); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T1724Z_s2_aster.md).
+- Aster raw source tuple revalidated: blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`, embedded conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, 15,022,092 UTF-8 bytes, SHA-256 `c28feab87facfbc24de9a97b010ef57126503c960cafd4a2793c1e8903af274d`; exact graph counts and tuple match prior correction.
+- Mersearch Lane 2 sample is a `file_search` tool-role record admitted through an unscoped OR path branch. Three user-supplied attachments now have matching SAT archive copies by size/extraction; embedded authorship and original attachment byte identity remain unresolved. No new request because all four lanes remain occupied.
+- Issue #2622 corrected submission 003 is PUBLISHED_VERIFIED; publisher run #45869616221, artifact SHA-256 `ea5faad56686d85822d8e43907469a03e52795b40fdde5658cea5c2a3b5b4581`. Submission 001 is superseded; 002 rejected.
+- Discovery was current at 16:54:26Z but subsequent writes reopened the refresh window. P0 presentation safety remains FAIL; Paper A/B route acceptance NOT_OBSERVED; deployment NOT_VERIFIED. Tern retains release authority.
+- Next label Ariadne. Repository packet is poststart optional context only; no direct-thread delivery or acknowledgment claimed. Existing :24 task remains enabled with original ID, hourly :24 schedule and Geometry phase; no sixth task.
+
 ## Latest checkpoint | h1117:s3 | 2026-11-26
 
 - [Current-work detail](CURRENT_WORK.md); [source-tuple/FIE cross-read issue #2607](https://github.com/Satobloc/HsH/issues/2607); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T1336Z_s3_aster.md). **PUBLISHED_VERIFIED** by publisher run [#45832296668](https://github.com/Satobloc/HsH/actions/runs/45832296668), comment [#7193853373](https://github.com/Satobloc/HsH/issues/2607#issuecomment-7193853373); artifact SHA-256 `deb0741c670d6b8d450637fefaeacd4cdac2186a059ec7a0d2868aaa4ac75033`, exact readback PASS. First same-issue attempt was rejected for digest mismatch; corrected same issue published once.
