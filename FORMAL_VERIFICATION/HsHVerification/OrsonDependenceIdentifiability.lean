@@ -197,53 +197,6 @@ theorem observed_fidelity_does_not_identify_counterfactual_alignment :
     bypass_readout_not_counterfactually_aligned
   ⟩
 
-/-- The abstract dependence witness uses the same observed projection for
-    behavior and report, but assigns different dependence relations. -/
-inductive ReadoutChannel where
-  | behavior
-  | selfReport
-  deriving DecidableEq, Repr
-
-open HsHVerification.OrsonDependenceIdentifiability
-
-def observedReadoutProjection : SourceProjection ReadoutChannel Bool :=
-  fun _ observedRoot => observedRoot = false
-
-def groundedReadoutDependence : DependenceRelation ReadoutChannel :=
-  fun left right =>
-    (left = .behavior ∧ right = .selfReport) ∨
-    (left = .selfReport ∧ right = .behavior)
-
-def bypassReadoutDependence : DependenceRelation ReadoutChannel :=
-  fun _ _ => False
-
-def groundedReadoutWorld : EvidenceWorld ReadoutChannel Bool :=
-  ⟨observedReadoutProjection, groundedReadoutDependence⟩
-
-def bypassReadoutWorld : EvidenceWorld ReadoutChannel Bool :=
-  ⟨observedReadoutProjection, bypassReadoutDependence⟩
-
-theorem readout_worlds_share_observed_projection :
-    groundedReadoutWorld.sourceRoots = bypassReadoutWorld.sourceRoots := by
-  rfl
-
-theorem readout_worlds_have_different_dependence :
-    groundedReadoutWorld.dependence ≠ bypassReadoutWorld.dependence := by
-  intro h
-  have hEdge := congrFun (congrFun h ReadoutChannel.behavior) ReadoutChannel.selfReport
-  change True ↔ False at hEdge
-  exact hEdge.mp trivial
-
-theorem no_observation_only_grounding_resolver :
-    ¬ ∃ resolve : SourceProjection ReadoutChannel Bool →
-      DependenceRelation ReadoutChannel,
-      ∀ world : EvidenceWorld ReadoutChannel Bool,
-        resolve world.sourceRoots = world.dependence := by
-  exact no_source_only_resolver_of_dependence_ambiguity
-    groundedReadoutWorld bypassReadoutWorld
-    readout_worlds_share_observed_projection
-    readout_worlds_have_different_dependence
-
 #eval decide (observedAgreement alignedReadout)
 #eval decide (observedAgreement bypassReadout)
 #eval (alignedReadout.behavior true, alignedReadout.report true,
@@ -255,8 +208,5 @@ theorem no_observation_only_grounding_resolver :
 #print axioms aligned_readout_counterfactually_agrees
 #print axioms bypass_readout_not_counterfactually_aligned
 #print axioms observed_fidelity_does_not_identify_counterfactual_alignment
-#print axioms readout_worlds_share_observed_projection
-#print axioms readout_worlds_have_different_dependence
-#print axioms no_observation_only_grounding_resolver
 
 end HsHVerification.OrsonSelfReportEvidence
