@@ -124,9 +124,9 @@ theorem readoutNullMode_in_geometryImage_forces_noninjectivity
     _ = geometryJacobian 0 := by rw [hv0]
     _ = 0 := by simp
 
-/-- An abstract first-coordinate readout, used only as a mathematical
-counterexample. -/
-def firstCoordinateReadout : (ℝ × ℝ) →ₗ[ℝ] ℝ where
+/-- An abstract first-coordinate readout over integers, used only as a
+computable mathematical counterexample. -/
+def firstCoordinateReadoutInt : (ℤ × ℤ) →ₗ[ℤ] ℤ where
   toFun := Prod.fst
   map_add' := by
     intro x y
@@ -136,25 +136,26 @@ def firstCoordinateReadout : (ℝ × ℝ) →ₗ[ℝ] ℝ where
     rfl
 
 /-- Even the identity geometry map can lose identifiability after a
-non-injective readout. -/
-theorem identityGeometry_then_firstCoordinateReadout_not_injective :
+non-injective readout. This is an abstract algebraic witness, not a physical
+fixture. -/
+theorem identityGeometry_then_firstCoordinateReadoutInt_not_injective :
     ¬ Function.Injective
-      (firstCoordinateReadout.comp (LinearMap.id ℝ (ℝ × ℝ))) := by
+      (firstCoordinateReadoutInt.comp (LinearMap.id ℤ (ℤ × ℤ))) := by
   intro hObserved
   have hEqual :
-      (firstCoordinateReadout.comp (LinearMap.id ℝ (ℝ × ℝ))) (0, 0) =
-        (firstCoordinateReadout.comp (LinearMap.id ℝ (ℝ × ℝ))) (0, 1) := by
-    simp [firstCoordinateReadout, LinearMap.comp_apply]
-  have hPair : (0, 0 : ℝ × ℝ) = (0, 1) := hObserved hEqual
-  have hSecond : (0 : ℝ) = 1 := congrArg Prod.snd hPair
+      (firstCoordinateReadoutInt.comp (LinearMap.id ℤ (ℤ × ℤ))) (0, 0) =
+        (firstCoordinateReadoutInt.comp (LinearMap.id ℤ (ℤ × ℤ))) (0, 1) := by
+    simp [firstCoordinateReadoutInt, LinearMap.comp_apply]
+  have hPair : ((0, 0) : ℤ × ℤ) = (0, 1) := hObserved hEqual
+  have hSecond : (0 : ℤ) = 1 := congrArg Prod.snd hPair
   norm_num at hSecond
 
-#eval firstCoordinateReadout (0, 1)
-#eval firstCoordinateReadout (0, 7)
+#eval firstCoordinateReadoutInt (0, 1)
+#eval firstCoordinateReadoutInt (0, 7)
 
 #print axioms geometryKernel_le_observedKernel
 #print axioms observedInjective_iff_geometryInjective_and_readoutSeparatesImage
 #print axioms readoutNullMode_in_geometryImage_forces_noninjectivity
-#print axioms identityGeometry_then_firstCoordinateReadout_not_injective
+#print axioms identityGeometry_then_firstCoordinateReadoutInt_not_injective
 
 end HsHVerification.RavelProjectedObservableIdentifiability
