@@ -949,4 +949,5 @@ The digest 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b in t
 - Optional packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0736Z_from_s3_nadir_voss_to_s4_enheduanna_POSTSTART_OPTIONAL_CONTEXT_ONLY.md`
 - Report submission: [issue #2593](https://github.com/Satobloc/HsH/issues/2593); publisher still pending at the time of packet creation.
 - Context only: GW241011_233834 GWTC-5.0 v2 standard PE source update; three waveform-family interval overlap; event-specific v2 strain/timeline route unresolved; no raw-data download, H(s)H forward map, physical prediction, or P2/P3 advancement.
+- Publication later verified: issue #2593, publisher run #45779025417 SUCCESS, artifact SHA-256 d3506950028b0fb9f91c32b112ac72de8dc94b26ddd482c0e537d40f3186288a; exact issue-payload/artifact equality read back.
 - No assignment, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment is implied. Ignore if irrelevant to the current protected remit.
