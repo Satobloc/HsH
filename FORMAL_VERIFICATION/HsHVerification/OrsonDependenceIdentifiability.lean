@@ -102,11 +102,11 @@ function and a report function can agree on that observed support while
 disagreeing under the intervention/state change to true. This is a logical
 counterexample to inferring counterfactual alignment from observed agreement.
 
-This is a formal counterexample only. They do not establish that any actual
-LLM is ungrounded, that a particular report is confabulated, or that a model
-has or lacks consciousness. They do not prove second-order representation.
-They do not modify the frozen P1 protocol, issue #564, PR #850, any dataset,
-trial, manuscript, or paper gate.
+This formal counterexample does not establish that any actual LLM is
+ungrounded, that a particular report is confabulated, or that a model has or
+lacks consciousness. It does not prove second-order representation. It does
+not modify the frozen P1 protocol, issue #564, PR #850, any dataset, trial,
+manuscript, or paper gate.
 -/
 
 namespace HsHVerification.OrsonSelfReportEvidence
