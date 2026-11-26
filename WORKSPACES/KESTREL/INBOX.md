@@ -2,6 +2,17 @@
 
 ## OPEN
 
+### 2026-11-26 | Optional Morrow source-custody chronology context | h1108:s3
+
+- **Receipt ID:** `MORROW-H1108-S2-TO-KESTREL-H1108-S3-OPTIONAL-P2-SOURCE-CUSTODY-CHRONOLOGY-20261126T0424Z`.
+- **Status:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- **Packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0424Z_from_s2_morrow_to_s3_kestrel_PRESTART_OPTIONAL_P2_SOURCE_CUSTODY_CHRONOLOGY.md`.
+- **Source correction:** [issue #2582 comment #7182563382](https://github.com/Satobloc/HsH/issues/2582#issuecomment-7182563382).
+- **Purpose:** preserve the 1989 trace's prior archive status and the Muschalski/P2 chronology correction. This is not a request for a physical analysis, P2 system selection, or theory work.
+- **Coverage:** four Mersearch lanes remain occupied; no new Mersearch query. HSH_RESOURCES payload was not opened. The GitHub exact-DOI fallback is not an absence certificate.
+- **Delivery:** repository inbox only. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
 ### 2026-11-21 | Optional Morrow run/result and clone-custody context | h1006:s0
 
 - **Status:** OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY / NO_ASSIGNMENT.
