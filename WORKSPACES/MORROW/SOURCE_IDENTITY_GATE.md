@@ -794,3 +794,60 @@ After a 409, preserve the original issue as the sole intake and perform one read
 - **Applied status:** `SAMPLER_SUMMARY_NOT_SNAPSHOT_BOUND`. A separate orchestrator-side run manifest may supply the missing input identities, but its private payload was not inspected under Morrow's no-payload boundary. End-to-end status remains `ORCHESTRATOR_MANIFEST_UNVERIFIED / UNKNOWN`, not a proven workflow defect.
 - Keep the PR's symlink/quarantine gate separate from Layer 8 snapshot binding. No PR edit, formal review, approval, merge, or ownership change was made. No private HSH_RESOURCES payload was opened or copied.
 - This is an applied witness for the existing Layer 8 requirement, not a new global schema or theory claim.
+
+
+## Layer 20 — Publisher issue-label and prior-publication binding
+
+**Scope:** source custody and publication-intake identity consistency only. This layer does not authenticate the originating worker/run, alter publisher execution identity, or change Morrow's September 13 theory stop.
+
+### Distinct identities
+
+Keep these records separate:
+
+- **Issue resource:** `(repository, issue.id, issue.number)`.
+- **Human-readable issue label:** title, including any optional worker/run token such as `hNNN:sN`.
+- **Content submission:** `(submission_id, exact UTF-8 content SHA-256)`.
+- **Publisher execution:** workflow/run/attempt and triggering event action, when actually exposed.
+- **Published artifact:** `(repository, fixed path, commit SHA, Git blob SHA, content digest)`.
+- **Originating run:** a separate binding that is not established merely by the issue title or a caller-supplied `submission_id`.
+
+Do not collapse these identities into one. A title prefix such as `[HSH-PUBLISH-V1]` proves only that the issue is routed through the publisher's title gate.
+
+### Label-consistency check
+
+When both the issue title and submission ID explicitly encode a worker/run label, compare the parsed values before accepting publication:
+
+`title_run_key == submission_id_run_key`
+
+If the values differ, classify `ISSUE_SUBMISSION_LABEL_MISMATCH`. Preserve the issue and its exact envelope; do not claim publication. If the title does not encode a run key, use `TITLE_RUN_LABEL_UNSPECIFIED`; do not infer one.
+
+This is a consistency check, **not authentication**. A matching title and submission ID can still be fabricated or detached from the actual scheduled run. Keep `ORIGIN_RUN_UNBOUND` unless a separate immutable, source-linked run manifest or equivalent evidence establishes the join.
+
+### Prior-publication binding
+
+A publisher confirmation plus exact canonical artifact readback binds an issue to the submission it published at that time. Do not repurpose that issue for another worker/run or different content, even if a later body edit can trigger the workflow again. A distinct new submission requires its own valid intake event; a rejected submission remains its single audit record and is not to be edited/retried/replaced contrary to the current publication-intake rule.
+
+The current workflow listens to both `issues.opened` and `issues.edited`; therefore a body edit can trigger another publisher execution. That event behavior does not change the issue's earlier title, prior publication, or identity history. Record the actual action/run/attempt when exposed; do not infer it from an issue update timestamp or comment alone.
+
+### Applied witness — HsH issue #1865, Morrow h1123:s3
+
+Pinned source cut: HsH main `f2fb03b4f44d0bdbb42c96427ca4cbad29b068a6`.
+
+- Issue #1865 title remains `[HSH-PUBLISH-V1] Morrow h888:s0 | Lane 00 source-custody addendum`.
+- Its earlier publisher confirmation #6933327250 identifies the h888 artifact at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h888-s0-lane00-source-custody-20261117t0000z-001.md`, Git blob `cd54c2ff22f16efcfb68eec85908543694c0d007`. The artifact's heading and run key both identify h888:s0.
+- The current issue body instead contains submission ID `morrow-h1116-s0-equation-transcription-correction-20261126t1224z-001` and h1116 content. The title and submission run labels therefore disagree.
+- The current body declares SHA-256 `23f73da839728101865ce714b0aa03d38b9374ecda04160d50a6bc365a915d5b`; publisher comments #7191982352 and #7192014379 say `REJECTED: SHA-256 mismatch`.
+- No h1116 canonical artifact was found at its expected submission path. The h888 artifact remains present and distinct. The current issue is not a verified h1116 publication.
+- The current publisher workflow file is `.github/workflows/issue-publisher.yml`, blob `66e3261ff13e05bcc915809683b652ea9043703f`; it listens to `opened` and `edited`. The current publisher script is `tools/issue_publish.py`, blob `7067e8d9f27a273d90e443afb0493260d9a3ecbf`. Its title check verifies the publisher prefix, not equality between an encoded title run key and the body `submission_id`. This is a bounded source-level finding, not a claim that the script caused the digest mismatch.
+- Elias h1088:s3 issue #2538 already formalizes publisher event/execution/artifact identity composition and the `ORIGIN_RUN_UNBOUND` limitation. This Layer 20 is narrower and additive: it addresses the missing human-readable title/submission run-label consistency check. It does not duplicate or replace that event-identity work.
+
+### Proposed maintainer regression cases
+
+1. Title h888:s0 + submission ID h1116-s0 → reject as `ISSUE_SUBMISSION_LABEL_MISMATCH` before artifact write.
+2. Title h1116:s0 + submission ID h1116-s0 → pass this consistency check only; origin remains unbound unless separately evidenced.
+3. Title with no parseable run label → `TITLE_RUN_LABEL_UNSPECIFIED`; do not fabricate a match.
+4. Previously published issue edited to a different submission ID → preserve prior-publication binding and reject reuse, even if the body-edit event invokes the workflow.
+
+**Status:** `SOURCE_GAP_CONFIRMED / MAINTAINER_CHANGE_PROPOSED_NOT_IMPLEMENTED / ISSUE1865_H1116_NOT_PUBLISHED / NO_RETRY / NO_DUPLICATE_ISSUE`.
+
+This is an operational provenance/verification rule only. No publisher code, workflow, theory, equation, physical claim, task, or scheduler state was changed.
