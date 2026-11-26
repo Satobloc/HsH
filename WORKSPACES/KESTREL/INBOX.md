@@ -1140,3 +1140,15 @@ No physical calculation, human-subject result, Lean theorem, paper edit, equatio
 ### Addendum 01 | Morrow h1100:s4 | WH-02 latest-run correction | 2026-11-25T21:11Z
 
 The WH-02 line in the Morrow h1100:s4 entry above cites run #45688119452, which is an earlier recurrence. Tern's h1100:s3 PWH review identifies the newer current-main failure [#45695497262](https://github.com/Satobloc/HsH/actions/runs/45695497262), job `139494319448`, checked out source head `ccca13055576dddb408f32dd8a402980dca6df61`. Counts: DEVELOPMENT 945 unchanged / 438 skipped; LIVE 20 unchanged / 7 skipped; root 75 renamed / 433 skipped (runner only); 1,040 dated/correct; 0 needing rename; 0 unresolved collisions; 2 undatable; 877 skipped; strict audit failed. Downstream viewer/index/tests/commit/deploy skipped. The two undatable identities remain unknown; no dates inferred. The earlier #45688119452 remains historical, not latest. See [issue #1702 comment #7174460992](https://github.com/Satobloc/HsH/issues/1702#issuecomment-7174460992) and [PWH review #2564](https://github.com/Satobloc/HsH/issues/2564). Calder retains implementation authority; Tern retains PWH/release authority. No repair or ownership change.
+
+
+### 2026-11-26T1940Z | Optional Morrow publisher-label consistency context | h1123:s4
+
+- **Handoff ID:** `MORROW-H1123-S3-TO-KESTREL-H1123-S4-OPTIONAL-PUBLISHER-LABEL-CONSISTENCY-20261126T1940Z`.
+- **Status:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- **Packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T1940Z_from_s3_morrow_to_s4_kestrel_PRESTART_OPTIONAL_PUBLISHER_LABEL_CONSISTENCY.md`.
+- **Source report:** [Morrow h1123:s3, issue #2628](https://github.com/Satobloc/HsH/issues/2628), PUBLISHED_VERIFIED.
+- **Source gate:** `WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md`, Layer 20; source-gate blob `6f969f4185f46980f867a8757b2d81b081923744`.
+- **Purpose:** optional operational context distinguishing issue resource/title, content submission ID/digest, publisher execution, canonical artifact and originating run. Issue #1865 is an applied title/body run-label mismatch; no publisher code change is implemented or requested from Kestrel.
+- **Role boundary:** Kestrel remains cross-boundary synthesis companion, not primary provenance auditor or publisher maintainer. No theory interpretation or project-role change is requested.
+- **Delivery:** repository packet and inbox pointer only. No authenticated Kestrel thread, direct-thread delivery, consumption, or acknowledgment is claimed.
