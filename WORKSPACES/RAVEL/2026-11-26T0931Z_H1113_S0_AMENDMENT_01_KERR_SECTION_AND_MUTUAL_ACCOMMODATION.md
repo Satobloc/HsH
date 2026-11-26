@@ -91,7 +91,35 @@ The existing h1113 report's equation-custody section remains controlling; this a
 
 - SAT-O1: SAT archive file SATOBLOC/SAT O1 4D.txt; Git blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc; source-custodied SHA-256 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937. FileIndex creation June 7, 2025; last write June 9, 2025 18:44:50 local; first extant Git commit October 27, 2025 00:40:28Z. The file is unbylined and no equation-composition date is established. Its displayed γ(λ) is a one-parameter curve, while its prose describes a 4D swept volume; no thickening map or normal-bundle construction is supplied.
 - Blockwave: located assistant-voiced copy at DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt; Git blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d. The user-supplied attachment event is September 16, 2025 16:31:26.687Z, not a composition date. Embedded authorship remains unresolved and the original attachment-byte digest remains withheld under the prior custody correction.
-- Verbatim equations retained in the original report include SAT-O1 γᵘ(λ) and S[γ], and Blockwave J^{μν} = ½ ε^{μνρσ}∇ρBσ with ∇μJ^{μν}=0. No corrected equation set is issued. The Blockwave two-form is not identified with the direct induction-current connection or with the 4D sweep support.
+- Exact source-token fidelity correction to the prior report's prose transcription:
+
+- SAT-O1 uses \(\gamma^\mu(\lambda)\), not the Unicode transcription \(\gamma^u\). The exact source equations are:
+
+  \[
+  \gamma^\mu(\lambda)=\left(\lambda, A_x\sin(k_x\lambda+\phi_x), A_y\sin(k_y\lambda+\phi_y), A_z\sin(k_z\lambda+\phi_z)\right)
+  \]
+  \[
+  v^\mu(\lambda)=\frac{d\gamma^\mu}{d\lambda},\qquad
+  S[\gamma]=\int d\lambda\,L(\gamma^\mu,v^\mu),\qquad
+  L=\frac12 m v^\mu v_\mu-V_{\mathrm{tension}}(\gamma).
+  \]
+
+- Blockwave uses \(A_\mu(\theta)\equiv\alpha_*\nabla_\mu\theta\), with a subscript star, not \(\alpha^*\). Its located-copy equations are:
+  \[
+  J^{\mu\nu}=\frac12\epsilon^{\mu\nu\rho\sigma}\nabla_\rho B_\sigma,\qquad
+  \nabla_\mu J^{\mu\nu}=0,
+  \]
+  \[
+  F_{\mu\nu}(\theta)\equiv\nabla_{[\mu}A_{\nu]}(\theta),\qquad
+  A_\mu(\theta)\equiv\alpha_*\nabla_\mu\theta.
+  \]
+- The source projector token \(P^\mu{}^\nu\) at Blockwave lines 9 and 85 remains verbatim, including its malformed index placement. No corrected projector is adopted.
+
+SAT-O1 is in SATOBLOC/SAT O1 4D.txt, blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc, SHA-256 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937. FileIndex creation is June 7, 2025; last write June 9, 2025 18:44:50 local; first extant Git commit October 27, 2025 00:40:28Z. It is unbylined and has no demonstrated equation-composition date. The larger SAT4D_LIVE_DRAFT.txt carries a June 2025 document byline and AI-assistance acknowledgment, but that does not establish equation-level authorship.
+
+The located Blockwave copy is DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt, blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d, with located-copy SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664. Its attachment event is September 16, 2025 16:31:26.687Z, not a composition date. The original attachment-byte digest remains withheld under the prior custody correction; embedded authorship remains unresolved.
+
+These are transcription corrections to the report, not mathematical corrections to either source. No corrected equation set is issued. The Blockwave two-form remains assistant-voiced and is not identified with the direct induction-current connection or the Kerr-section sweep support.
 
 Existing PR #1133 was reused without modification. Its exact head 95f508ed2625b169f36803479b9c1484b3e93374 passed Actions run #45711289709 (Lean 4.34.0 / Mathlib, 8,959 jobs). Relevant modules:
 
