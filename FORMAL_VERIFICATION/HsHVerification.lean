@@ -28,7 +28,6 @@ import HsHVerification.OrsonRouteIdentity
 import HsHVerification.OrsonEvidenceFlow
 import HsHVerification.OrsonEvidenceFlowScope
 import HsHVerification.OrsonDependenceIdentifiability
-import HsHVerification.OrsonGraphEchoMetrics
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
