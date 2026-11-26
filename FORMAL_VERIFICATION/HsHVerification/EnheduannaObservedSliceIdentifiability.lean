@@ -684,10 +684,12 @@ theorem same_map_label_different_definition_digest_not_equal
     (left right : MapImplementationBinding)
     (hSameLabel : left.mapId = right.mapId)
     (hDifferentDefinition : left.definitionSha256 ≠ right.definitionSha256) :
-    left ≠ right := by
-  intro hEqual
-  apply hDifferentDefinition
-  exact congrArg (fun binding : MapImplementationBinding => binding.definitionSha256) hEqual
+    left.mapId = right.mapId ∧ left ≠ right := by
+  constructor
+  · exact hSameLabel
+  · intro hEqual
+    apply hDifferentDefinition
+    exact congrArg (fun binding : MapImplementationBinding => binding.definitionSha256) hEqual
 
 /--
 Reusing a map label and definition digest does not preserve implementation
@@ -698,7 +700,9 @@ theorem same_map_label_different_parameter_manifest_not_equal
     (hSameLabel : left.mapId = right.mapId)
     (hSameDefinition : left.definitionSha256 = right.definitionSha256)
     (hDifferentParameters : left.parameterManifestSha256 ≠ right.parameterManifestSha256) :
-    left ≠ right := by
+    left.mapId = right.mapId ∧
+    left.definitionSha256 = right.definitionSha256 ∧ left ≠ right := by
+  refine ⟨hSameLabel, hSameDefinition, ?_⟩
   intro hEqual
   apply hDifferentParameters
   exact congrArg (fun binding : MapImplementationBinding => binding.parameterManifestSha256) hEqual
@@ -712,7 +716,9 @@ theorem same_map_label_different_interface_schema_not_equal
     (hSameLabel : left.mapId = right.mapId)
     (hSameDefinition : left.definitionSha256 = right.definitionSha256)
     (hDifferentInterface : left.interfaceSchemaSha256 ≠ right.interfaceSchemaSha256) :
-    left ≠ right := by
+    left.mapId = right.mapId ∧
+    left.definitionSha256 = right.definitionSha256 ∧ left ≠ right := by
+  refine ⟨hSameLabel, hSameDefinition, ?_⟩
   intro hEqual
   apply hDifferentInterface
   exact congrArg (fun binding : MapImplementationBinding => binding.interfaceSchemaSha256) hEqual
