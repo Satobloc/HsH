@@ -1,5 +1,13 @@
 # Latest checkpoint | h1117:s2 | nominal 2026-11-26T13:24Z | delayed start 13:53:54Z
 
+## h1117:s2 postwrite handoff verification
+
+- Aster INBOX append: `LOOM-ASTER-20261126T1324Z-WORLDTUBE-MORPHOLOGY-SOURCE-TAG-001`, commit `33ad578efa5ce54ba9ab1ad7465d69b4a806d2f4`, blob `5599a010ab145132dec6c1e9134537de22269bdd`, exact readback PASS.
+- Common HANDOFFS commit `1cc4546571fe35dc7d5fe47819d448b81e220465`, blob `d7b6bc6d0000d7508eb9c0bbf906cc23e32b07b6`, exact readback PASS.
+- POSTSTART_OPTIONAL_CONTEXT_ONLY; Aster h1117:s3 had already completed. No direct-thread delivery or consumption claimed.
+- Main after writes: `1cc4546571fe35dc7d5fe47819d448b81e220465`; postwrite discovery freshness pending; no manual dispatch.
+
+
 - Current work: [CURRENT_WORK.md](CURRENT_WORK.md), latest h1117:s2 section.
 - New direct-source batch: [Nathan Verified Words Compendium](../COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md), batch 2026-11-26-A; two raw user-role messages from the private Library *Mathematical Tool Exploration* export, 2026-07-18 05:29:42.674160Z and 05:33:15.107994Z. Public UUIDs withheld. Exact wording preserved; assistant additions separately classified.
 - New tag record: [cumulative Loom tag ledger](../COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md), Section AP, blob `2e8a0d960e5f0898c6c716f0dd71d1af9a07c710`.
