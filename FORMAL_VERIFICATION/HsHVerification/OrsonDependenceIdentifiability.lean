@@ -192,8 +192,6 @@ theorem observed_fidelity_does_not_identify_counterfactual_alignment :
     bypass_readout_not_counterfactually_aligned
   ⟩
 
-#eval decide (observedAgreement alignedReadout)
-#eval decide (observedAgreement bypassReadout)
 #eval (alignedReadout.behavior true, alignedReadout.report true,
   bypassReadout.behavior true, bypassReadout.report true)
 
