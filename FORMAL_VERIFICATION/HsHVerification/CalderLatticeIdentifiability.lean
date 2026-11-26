@@ -1,6 +1,8 @@
 import Mathlib
 import HsHVerification.NadirProjectionCoarseGrainFactorization
 
+open HsHVerification.NadirProjectionCoarseGrainFactorization
+
 /-!
 # Lattice dimension/degree non-identifiability
 
@@ -59,9 +61,7 @@ theorem dimension_coefficient_not_descend :
         (HsHVerification.NadirProjectionCoarseGrainFactorization.imageProjection
           identifiedCombination β) =
         dimensionCoefficient β := by
-  exact
-    HsHVerification.NadirProjectionCoarseGrainFactorization
-      .no_inducedCoarseGraining_of_fiber_mismatch
+  exact no_inducedCoarseGraining_of_fiber_mismatch
       identifiedCombination id dimensionCoefficient
       (0, 0) (2, -1)
       (by norm_num [identifiedCombination])
@@ -75,9 +75,7 @@ theorem degree_coefficient_not_descend :
         (HsHVerification.NadirProjectionCoarseGrainFactorization.imageProjection
           identifiedCombination β) =
         degreeCoefficient β := by
-  exact
-    HsHVerification.NadirProjectionCoarseGrainFactorization
-      .no_inducedCoarseGraining_of_fiber_mismatch
+  exact no_inducedCoarseGraining_of_fiber_mismatch
       identifiedCombination id degreeCoefficient
       (0, 0) (2, -1)
       (by norm_num [identifiedCombination])
