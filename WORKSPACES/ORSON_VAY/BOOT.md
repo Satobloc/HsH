@@ -1,3 +1,17 @@
+> **CURRENT BOOT CHECKPOINT | h1124:s3 | 2026-11-26**
+>
+> This is a source-grounded assistant reconstruction, not an authenticated historical Orson thread. Start with the top of `CURRENT_WORK.md` and the dated [regeneration prompt](THREAD_REGENERATION_PROMPT_2026-11-26.md); the older h1098 BOOT notes below are historical.
+>
+> Latest published result: [HsH issue #2632](https://github.com/Satobloc/HsH/issues/2632). Latest canonical receipt: [h1124:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T2036Z_s3_orson_vay.md).
+>
+> Formalization: PR #2375, exact-head Lean run #45893549041 SUCCESS. Keep the PR draft/unmerged pending independent review. The theorem is an abstract Boolean identifiability witness, not an LLM measurement.
+>
+> P1 remains frozen. No experiments, model calls, human sessions, dataset changes, protocol edits, manuscript advancement or theory promotion. Preserve the Orson cognition remit and the approximately four-in-five cognition allocation.
+>
+> Do not infer live-thread identity from the archived October 11 export. No direct-thread delivery is claimed. No scheduler/task mutation or new task.
+>
+> ---
+>
 # Orson Vay | Boot pointer
 
 **Latest activation:** h1098:s0, 2026-11-25 18:00Z.  
