@@ -103,11 +103,149 @@ def build_report(graph: dict[str, Any], as_of: date) -> list[dict[str, Any]]:
                 field for field in ("priority", "owner_instance", "due_date", "last_reviewed")
                 if not task.get(field)
             ],
+            # Preserve raw graph relationships; this report does not interpret their semantics.
+            "parent": task.get("parent"),
+            "children": task.get("children") or [],
+            "blockers": task.get("blockers") or [],
+            "unblocks": task.get("unblocks") or [],
+            "dependencies": task.get("dependencies") or [],
         })
 
     by_id = {task.get("id"): task for task in branches}
     rows.sort(key=lambda row: triage_key(by_id.get(row["id"], {}), as_of))
     return rows
+
+
+
+def audit_graph(graph: dict[str, Any]) -> dict[str, Any]:
+    """Return a read-only structural audit; do not infer dependency or edge semantics."""
+    branches = graph.get("branches", [])
+    if not isinstance(branches, list):
+        branches = []
+
+    ids = [task.get("id") for task in branches if isinstance(task, dict) and task.get("id")]
+    known = set(ids)
+    by_id = {task.get("id"): task for task in branches if isinstance(task, dict) and task.get("id")}
+    duplicate_ids = sorted({item for item in ids if ids.count(item) > 1})
+
+    status_counts: dict[str, int] = {}
+    roots: list[str] = []
+    dangling_parents: list[dict[str, Any]] = []
+    dangling_children: list[dict[str, Any]] = []
+    asymmetries: list[dict[str, Any]] = []
+    malformed_children: list[str] = []
+    malformed_dependencies: list[str] = []
+    parent_pointer_count = 0
+    child_edge_count = 0
+    dependency_entry_count = 0
+    dependency_id_matches = 0
+    dependency_free_text_or_external = 0
+
+    for task in branches:
+        if not isinstance(task, dict):
+            continue
+        task_id = task.get("id")
+        status = str(task.get("status", "UNCLASSIFIED")).lower()
+        status_counts[status] = status_counts.get(status, 0) + 1
+
+        parent = task.get("parent")
+        if parent:
+            parent_pointer_count += 1
+            if parent not in known:
+                dangling_parents.append({"id": task_id, "parent": parent})
+            elif task_id not in (by_id[parent].get("children") or []):
+                asymmetries.append({
+                    "kind": "parent_pointer_without_child_edge",
+                    "id": task_id,
+                    "parent": parent,
+                })
+        else:
+            roots.append(task_id)
+
+        children = task.get("children") or []
+        if not isinstance(children, list):
+            malformed_children.append(str(task_id))
+            children = []
+        for child in children:
+            child_edge_count += 1
+            if child not in known:
+                dangling_children.append({"parent_id": task_id, "child_id": child})
+            elif by_id[child].get("parent") != task_id:
+                asymmetries.append({
+                    "kind": "child_edge_without_matching_parent_pointer",
+                    "id": child,
+                    "parent": task_id,
+                    "child_parent": by_id[child].get("parent"),
+                })
+
+        dependencies = task.get("dependencies") or []
+        if not isinstance(dependencies, list):
+            malformed_dependencies.append(str(task_id))
+            continue
+        for dependency in dependencies:
+            dependency_entry_count += 1
+            if isinstance(dependency, str) and dependency in known:
+                dependency_id_matches += 1
+            else:
+                dependency_free_text_or_external += 1
+
+    reachable = set(roots)
+    stack = [item for item in roots if item in by_id]
+    while stack:
+        current = stack.pop()
+        for child in by_id[current].get("children") or []:
+            if child in by_id and child not in reachable:
+                reachable.add(child)
+                stack.append(child)
+
+    unreachable = [item for item in ids if item not in reachable]
+    declared = graph.get("branch_count")
+    findings = []
+    if declared != len(branches):
+        findings.append({"code": "DECLARED_COUNT_MISMATCH", "declared": declared, "actual": len(branches)})
+    if duplicate_ids:
+        findings.append({"code": "DUPLICATE_IDS", "ids": duplicate_ids})
+    if dangling_parents:
+        findings.append({"code": "DANGLING_PARENT_REFERENCES", "items": dangling_parents})
+    if dangling_children:
+        findings.append({"code": "DANGLING_CHILD_REFERENCES", "items": dangling_children})
+    if asymmetries:
+        findings.append({"code": "PARENT_CHILD_ASYMMETRIES", "items": asymmetries})
+    if unreachable:
+        findings.append({"code": "UNREACHABLE_FROM_ROOTS_VIA_CHILD_EDGES", "ids": unreachable})
+    if dependency_free_text_or_external:
+        findings.append({
+            "code": "DEPENDENCIES_INCLUDE_FREE_TEXT_OR_EXTERNAL_REFERENCES",
+            "count": dependency_free_text_or_external,
+        })
+    if malformed_children or malformed_dependencies:
+        findings.append({
+            "code": "MALFORMED_RELATIONSHIP_FIELDS",
+            "children": malformed_children,
+            "dependencies": malformed_dependencies,
+        })
+
+    return {
+        "declared_branch_count": declared,
+        "record_count": len(branches),
+        "declared_count_matches": declared == len(branches),
+        "status_counts": status_counts,
+        "root_ids": roots,
+        "parent_pointer_count": parent_pointer_count,
+        "child_edge_count": child_edge_count,
+        "reachable_via_child_edges": sorted(reachable),
+        "unreachable_ids": unreachable,
+        "dangling_parent_references": dangling_parents,
+        "dangling_child_references": dangling_children,
+        "parent_child_asymmetries": asymmetries,
+        "duplicate_ids": duplicate_ids,
+        "dependency_entry_count": dependency_entry_count,
+        "dependency_entries_matching_graph_ids": dependency_id_matches,
+        "dependency_entries_free_text_or_external": dependency_free_text_or_external,
+        "malformed_children_fields": malformed_children,
+        "malformed_dependency_fields": malformed_dependencies,
+        "findings": findings,
+    }
 
 
 def self_test() -> None:
@@ -122,7 +260,32 @@ def self_test() -> None:
     assert [row["id"] for row in rows] == ["urgent", "low", "unknown"]
     assert "overdue by 1 day(s)" in rows[0]["review_reasons"]
     assert "explicit low-hanging candidate" in rows[1]["review_reasons"]
-    print("SELF-TEST PASS: priority precedes convenience; due dates and low-hanging metadata are surfaced.")
+
+    fixture = {"branch_count": 5, "branches": [
+        {"id": "root", "title": "Root", "status": "active",
+         "children": ["child", "missing"], "blockers": ["awaiting source"],
+         "unblocks": ["child"], "dependencies": ["child", "external note"]},
+        {"id": "child", "title": "Child", "status": "blocked", "parent": "root", "children": []},
+        {"id": "parent-only", "title": "Parent-only relation", "status": "active",
+         "parent": "root", "children": []},
+        {"id": "orphan", "title": "Orphan", "status": "active", "children": []},
+    ]}
+    audit = audit_graph(fixture)
+    assert audit["record_count"] == 4 and not audit["declared_count_matches"]
+    assert audit["root_ids"] == ["root", "orphan"]
+    assert audit["reachable_via_child_edges"] == ["child", "orphan", "root"]
+    assert audit["unreachable_ids"] == ["parent-only"]
+    assert audit["dangling_child_references"] == [{"parent_id": "root", "child_id": "missing"}]
+    assert any(item["kind"] == "parent_pointer_without_child_edge"
+               for item in audit["parent_child_asymmetries"])
+    assert audit["dependency_entry_count"] == 2
+    assert audit["dependency_entries_matching_graph_ids"] == 1
+    assert audit["dependency_entries_free_text_or_external"] == 1
+    root_row = next(row for row in build_report(fixture, date(2026, 11, 5)) if row["id"] == "root")
+    assert root_row["blockers"] == ["awaiting source"]
+    assert root_row["dependencies"] == ["child", "external note"]
+
+    print("SELF-TEST PASS: priority order, raw relationship preservation, count mismatch, dangling edge, asymmetry, reachability and free-text dependency classification.")
 
 
 def main() -> int:
@@ -131,6 +294,8 @@ def main() -> int:
     parser.add_argument("--as-of", type=date.fromisoformat, default=date.today())
     parser.add_argument("--limit", type=int, default=25)
     parser.add_argument("--json", action="store_true", help="Emit JSON instead of a text report")
+    parser.add_argument("--graph-audit", action="store_true",
+                        help="Include a read-only graph-integrity and relationship summary")
     parser.add_argument("--self-test", action="store_true")
     args = parser.parse_args()
 
@@ -142,10 +307,25 @@ def main() -> int:
 
     graph = json.loads(args.graph.read_text(encoding="utf-8"))
     rows = build_report(graph, args.as_of)[:max(0, args.limit)]
+    audit = audit_graph(graph) if args.graph_audit else None
     if args.json:
-        print(json.dumps({"as_of": args.as_of.isoformat(), "items": rows}, indent=2))
+        payload = {"as_of": args.as_of.isoformat(), "items": rows}
+        if audit is not None:
+            payload["graph_audit"] = audit
+        print(json.dumps(payload, indent=2))
     else:
         print(f"Task upkeep candidates as of {args.as_of.isoformat()}")
+        if audit is not None:
+            print(
+                "Graph audit: "
+                f"{audit['record_count']} records / declared {audit['declared_branch_count']}; "
+                f"{len(audit['root_ids'])} roots; "
+                f"{len(audit['reachable_via_child_edges'])}/{audit['record_count']} reachable; "
+                f"{audit['dependency_entries_matching_graph_ids']} dependency IDs / "
+                f"{audit['dependency_entries_free_text_or_external']} free-text or external."
+            )
+            for finding in audit["findings"]:
+                print(f"    REVIEW: {finding['code']}")
         for index, row in enumerate(rows, start=1):
             owner = row["owner_instance"] or "OWNER UNSET"
             reason = "; ".join(row["review_reasons"]) or "no explicit trigger metadata"
