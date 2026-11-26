@@ -468,7 +468,7 @@ theorem linked_operation_has_completed_run
 
 theorem linked_operation_has_matching_digest
     (link : OperationReadbackLink) :
-    link.readback.digestMatches :=
+    link.readback.receipt.observedDigest = link.readback.receipt.expectedDigest :=
   link.readback.digestMatches
 
 theorem linked_operation_requires_readback_flag
