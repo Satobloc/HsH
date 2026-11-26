@@ -2,7 +2,7 @@
 
 **Amends:** `2026-11-26T1300Z_H1117_S0_OBSERVATION_SYMMETRY_AND_PANAGNOSTICISM_SOURCE_FIDELITY.md`  
 **Run key:** `REVROT3-19-20261011:1117:s0`  
-**Status:** ADDITIVE_SOURCE_CORRECTION / NO_THEORY_CHANGE / NO_SECOND_PUBLISHER_SUBMISSION_PENDING_ISSUE_2604.
+**Status:** ADDITIVE_SOURCE_CORRECTION / NO_THEORY_CHANGE / ISSUE_2604_PUBLISHED_VERIFIED / DISTINCT_AMENDMENT_READY.
 
 ## 1. Newly recovered direct source
 
@@ -78,13 +78,12 @@ No P1 experiment, model call, dataset change, protocol amendment, manuscript edi
 
 ## 7. Publication handling and return cursor
 
-The initial h1117 submission is still pending under [issue #2604](https://github.com/Satobloc/HsH/issues/2604), with no publisher comment or canonical artifact at the latest check. This amendment is recorded internally and is **not** submitted as a second publisher issue while #2604 remains unresolved. Do not duplicate or overwrite the pending submission.
+The initial h1117 report is now **PUBLISHED_VERIFIED** under [issue #2604](https://github.com/Satobloc/HsH/issues/2604). Publisher comment [#7192971022](https://github.com/Satobloc/HsH/issues/2604#issuecomment-7192971022) confirms canonical artifact path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h1117-s0-observation-symmetry-source-fidelity-20261126t1300z-001.md`, commit `22c417e9367a2d0aea8297f9f62760c8bed63e61`, SHA-256 `698fa7a660cee304ce47e26e203013f9ad5d69b7bf7e6d501f97dc5524f447eb`, and exact readback. This amendment is a distinct additive source correction, not a duplicate of the original report. It is eligible for its own submission through the existing publisher with a unique submission ID.
 
 Next:
-1. Verify the final state of issue #2604 and its expected artifact before any publication action.
-2. If the original report publishes, submit this additive source correction as a distinct amendment artifact through the existing publisher.
-3. If the original submission is rejected, reconcile the rejection before deciding whether a corrected combined submission is warranted.
-4. Recover the raw conversation ID, message UUID and source timestamp for the `CONSCI.txt` message if an authorized raw export can be located.
-5. Define evidence-quality equivalence and probability assumptions before claiming equal posterior assessments.
+1. Submit this additive source correction through the existing publisher using its own submission ID and exact SHA-256.
+2. Verify the canonical artifact and exact readback; do not retry or duplicate if pending.
+3. Recover the raw conversation ID, message UUID and source timestamp for the `CONSCI.txt` message if an authorized raw export can be located.
+4. Define evidence-quality equivalence and probability assumptions before claiming equal posterior assessments.
 
-**Amendment status:** SOURCE_RECOVERED / DIRECT_ATTRIBUTION_STRENGTHENED / PUBLISHER_WAITING_ON_ISSUE_2604 / NO_DUPLICATE / P1_FROZEN.
+**Amendment status:** SOURCE_RECOVERED / DIRECT_ATTRIBUTION_STRENGTHENED / ORIGINAL_REPORT_PUBLISHED_VERIFIED / DISTINCT_AMENDMENT_READY / P1_FROZEN.
