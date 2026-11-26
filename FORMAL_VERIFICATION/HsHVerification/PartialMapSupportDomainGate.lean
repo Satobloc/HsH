@@ -77,32 +77,42 @@ theorem restrictToSupport_ext_iff_domain_and_values
   · rintro ⟨hdom, hval⟩
     funext x
     by_cases hxS : x ∈ S
-    · simp [restrictToSupport, hxS]
-      by_cases hxF : x ∈ partialDomain f
-      · exact hval x ⟨hxS, hxF⟩
-      · have hxG : x ∉ partialDomain g := by
-          intro hxG
-          have hxG' : x ∈ supportedDomain S g := ⟨hxS, hxG⟩
-          have hxF' : x ∈ supportedDomain S f := by
-            rw [hdom]
-            exact hxG'
-          exact hxF hxF'.2
-        have hf : f x = none := by
-          cases hfx : f x with
+    · cases hfx : f x with
+      | none =>
+        have hgx : g x = none := by
+          cases hg : g x with
           | none => rfl
-          | some y => exact (hxF (by simp [partialDomain, hfx])).elim
-        have hg : g x = none := by
-          cases hgx : g x with
-          | none => rfl
-          | some y => exact (hxG (by simp [partialDomain, hgx])).elim
-        rw [hf, hg]
+          | some y =>
+            have hxG : x ∈ supportedDomain S g := by
+              exact ⟨hxS, by simp [partialDomain, hg]⟩
+            have hxF : x ∈ supportedDomain S f := by
+              rw [hdom]
+              exact hxG
+            exact (by simpa [partialDomain, hfx] using hxF.2).elim
+        simp [restrictToSupport, hxS, hfx, hgx]
+      | some y =>
+        have hfg : f x = g x :=
+          hval x ⟨hxS, by simp [partialDomain, hfx]⟩
+        simp [restrictToSupport, hxS, hfx, hfg]
     · simp [restrictToSupport, hxS]
 
 /-- A route difference entirely outside the declared support is irrelevant
     to the restricted comparison.  This Bool/Unit example is logical only. -/
 def allDefined : Bool → Option Unit := fun _ => some ()
 def trueOnly : Bool → Option Unit := fun b => if b then some () else none
-def trueSupport : Set Bool := {true}
+def trueSupport : Set Bool := {b | b = true}
+
+instance trueSupportDecidable : DecidablePred (fun b : Bool => b ∈ trueSupport) := by
+  intro b
+  change Decidable (b = true)
+  infer_instance
+
+def allSupport : Set Bool := fun _ => True
+
+instance allSupportDecidable : DecidablePred (fun b : Bool => b ∈ allSupport) := by
+  intro b
+  change Decidable True
+  exact isTrue trivial
 
 theorem routes_equal_on_true_support :
     restrictToSupport trueSupport allDefined =
@@ -118,11 +128,11 @@ theorem routes_not_equal_globally : allDefined ≠ trueOnly := by
 /-- If the excluded state belongs to the source support, restriction does
     not hide the route's missing value. -/
 theorem supported_exclusion_remains_visible :
-    restrictToSupport (Set.univ : Set Bool) allDefined ≠
-      restrictToSupport Set.univ trueOnly := by
+    restrictToSupport allSupport allDefined ≠
+      restrictToSupport allSupport trueOnly := by
   intro h
   have hfalse := congrFun h false
-  simp [restrictToSupport, allDefined, trueOnly] at hfalse
+  simp [restrictToSupport, allSupport, allDefined, trueOnly] at hfalse
 
 #eval
   ( restrictToSupport trueSupport allDefined false
