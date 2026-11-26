@@ -210,6 +210,54 @@ theorem no_echo_rate_only_source_recall_resolver :
     _ = f (echoWalkRate fullCoverageTrace) := by rw [hSameEcho]
     _ = uniqueSourceRecall fullCoverageTrace := hFullResult
 
+/-- A small recursive provenance expression. Alternative derivations and
+    joint use are represented by different constructors. This is a two-projection
+    reconstruction, not a complete provenance-semiring implementation. -/
+inductive ProvenanceExpr where
+  | atom : Nat → ProvenanceExpr
+  | alternative : ProvenanceExpr → ProvenanceExpr → ProvenanceExpr
+  | joint : ProvenanceExpr → ProvenanceExpr → ProvenanceExpr
+  deriving DecidableEq, Repr
+
+/-- Projection from a nested provenance expression to distinct source IDs. -/
+def sourceSet : ProvenanceExpr → Finset Nat
+  | .atom source => {source}
+  | .alternative left right => sourceSet left ∪ sourceSet right
+  | .joint left right => sourceSet left ∪ sourceSet right
+
+/-- Number of derivation combinations: alternatives add; joint derivations
+    multiply. This is not a measure of statistical independence. -/
+def derivationCount : ProvenanceExpr → Nat
+  | .atom _ => 1
+  | .alternative left right => derivationCount left + derivationCount right
+  | .joint left right => derivationCount left * derivationCount right
+
+theorem repeated_alternative_preserves_source_set (e : ProvenanceExpr) :
+    sourceSet (.alternative e e) = sourceSet e := by
+  simp [sourceSet]
+
+theorem repeated_alternative_doubles_derivation_count (e : ProvenanceExpr) :
+    derivationCount (.alternative e e) = 2 * derivationCount e := by
+  simp [derivationCount, two_mul]
+
+theorem joint_source_set_is_union (left right : ProvenanceExpr) :
+    sourceSet (.joint left right) = sourceSet left ∪ sourceSet right := rfl
+
+def repeatedOriginAlternative : ProvenanceExpr :=
+  .alternative (.atom 7) (.atom 7)
+
+def twoOriginJointUse : ProvenanceExpr :=
+  .joint (.atom 7) (.atom 8)
+
+theorem repeated_origin_two_derivations_one_source :
+    sourceSet repeatedOriginAlternative = {7} ∧
+    derivationCount repeatedOriginAlternative = 2 := by
+  decide
+
+theorem joint_use_contains_both_origin_ids :
+    sourceSet twoOriginJointUse = {7, 8} := by
+  decide
+
 def oneSourceFivePaths : Finset EvidencePath :=
   { ⟨1, 7, true, true, true⟩,
     ⟨2, 7, true, true, true⟩,
