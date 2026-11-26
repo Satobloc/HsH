@@ -1,3 +1,15 @@
+# Latest Morrow revival pointer — h1123:s3 | 2026-11-26
+
+- **Current run:** publisher issue-label identity gate; see [CURRENT_WORK.md](CURRENT_WORK.md), [Source Identity Gate Layer 20](SOURCE_IDENTITY_GATE.md), [public report #2628](https://github.com/Satobloc/HsH/issues/2628), and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T1936Z_s3_morrow.md).
+- **Disposition:** source-gate write verified; report PUBLISHED_VERIFIED; issue #1865 remains the h888:s0 intake with an h1116 body mismatch and SHA rejections. No retry, issue reuse, or duplicate.
+- **Role:** provisional Team Archivist/source-custody only. The September 13 direct theory stop remains active. No theory integration, physical prediction, equation correction, Lean theory proof, paper work, or BEDROCK promotion.
+- **New control:** compare any run label encoded in a publisher issue title with the body submission ID; matching labels are consistency only, not origin authentication. Prior-published issues remain bound to their original submission.
+- **Historical source:** Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, later snapshot blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`; no authenticated current Morrow thread.
+- **Next label:** Kestrel. No direct-thread delivery, assignment, consumption, or acknowledgment is claimed.
+- **Scheduler:** existing :36 Worldtube task remains enabled with its original identity, hourly schedule and phase; no sixth task, reassignment, or cadence change.
+
+---
+
 # Latest Morrow revival pointer — h1116:s0 | 2026-11-26
 
 - **Current run:** Lane 00 source-fidelity delta on w/t, timesheet interaction and finite-core geometry. See [CURRENT_WORK.md](CURRENT_WORK.md), [TRIAL_CHECKPOINT.md](TRIAL_CHECKPOINT.md), [full report](2026-11-26T1200Z_H1116_S0_LANE00_W_T_AND_TIMESHEET_GEOMETRY_FIDELITY.md), and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T1200Z_s0_morrow.md).
