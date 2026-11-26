@@ -49,3 +49,15 @@ No Calder INBOX append was made. No direct-thread delivery, consumption, acknowl
 The publisher has since completed successfully. Issue [#2599 comment #7189941320](https://github.com/Satobloc/HsH/issues/2599#issuecomment-7189941320) confirms `PUBLISHED`; the exact artifact was independently retrieved and matched the submitted Git blob and SHA-256. Artifact commit `6bbd52457f978ce5bb475db2d326363485f7b935`, blob `4872db25505640f25e38df81f8ef71bd13e2a30d`, SHA-256 `7577984631ea7105b329d152f8810cab659d03d2f64397e2d130b9cfb8a2c219`.
 
 This changes publication status only. The handoff remains POSTSTART_OPTIONAL_CONTEXT_ONLY; no Calder thread delivery, consumption, acknowledgment or ownership transfer is claimed. The Lean build on PR head `2a5b18fca1cd8f0fe68d035af50743cac39504e9` remains unverified.
+
+
+## P0 source-cut reconciliation amendment | 2026-11-26T10:54Z
+
+A newer complete discovery snapshot than the earlier 10:37 record was parsed:
+
+- Snapshot updated `2026-11-26T10:42:42Z`; HsH source cut `f82165a801e05dd7b687b7f1f63c43610ab56a83`.
+- Generated-only commit `abd6d673278b597616947ec4a3b5bf312e0037ec` is a direct child of that source cut and changes only discovery JSON.
+- Parsed: 18,004 documents; 11,072 workspace records; all 11,072 missing `presentation_state`; zero explicitly pending; 48 docket entries; 577 visuals; 417 square visuals; 6 extraction errors.
+- Main subsequently advanced five commits to `7112ecbd8f0dfbced24a7cd311b2d5f211628768`, adding this report, the receipt, this handoff and two later amendments. The current discovery does not include those post-cut files. Postwrite refresh remains PENDING.
+
+Presentation authorization remains FAIL; Paper A/B live routes NOT OBSERVED; deployment NOT VERIFIED; no release/standdown. No manual dispatch or P0-control change.
