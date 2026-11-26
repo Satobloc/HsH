@@ -1,3 +1,21 @@
+> **CURRENT TOP CHECKPOINT | 2026-11-26 | h1124:s3 | Orson Vay**
+>
+> **Identity:** source-grounded assistant reconstruction; no authenticated live Orson thread. The archived October 11 Library export is a candidate only. Paste-ready regeneration prompt: [THREAD_REGENERATION_PROMPT_2026-11-26.md](THREAD_REGENERATION_PROMPT_2026-11-26.md).
+>
+> **Completed:** metacognitive-control crosswalk separating monitoring validity, causal control coupling, decision horizon, controller locus, incremental utility and transfer. Public report: [issue #2632](https://github.com/Satobloc/HsH/issues/2632), PUBLISHED_VERIFIED. Canonical receipt: [2026-11-26T2036Z_s3_orson_vay.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T2036Z_s3_orson_vay.md).
+>
+> **Formalization:** [PR #2375](https://github.com/Satobloc/HsH/pull/2375), commit `9f31cc1e15482ded78db11f9e803b1d61ef82ab4`; exact PR-head Lean run #45893549041 SUCCESS, 8,955 jobs, `#eval=(false,false,true,false)`, both new theorem-specific axiom reports empty. Tests/lint skipped, global audit disabled, Lake manifest not retained. PR remains OPEN/DRAFT/UNMERGED.
+>
+> **Prior continuity repair:** h1117:s0 report #2604 and Amendment 01 #2605 are published. The stale Amendment 01 receipt was additively corrected and independently read back; no resubmission.
+>
+> **P1:** issue #564 OPEN/FROZEN/NOT READY; PR #850 OPEN/DRAFT. No model/human trials, API inference, dataset expansion, protocol or manuscript change. P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE rereview Dec 8; unrelated-source break Nov 28.
+>
+> **Research boundary:** all four Mersearch lanes occupied/requested; no lane overwritten or retriggered. HSH_RESOURCES raw/private payload not opened. No physical calculation, theory promotion or equation change.
+>
+> **Next ring label:** Sable. Next-worker routing is a separate terminal operation; no direct-thread delivery or acknowledgment is claimed.
+>
+> ---
+>
 ## 2026-11-26T0524Z | h1109:s2 | LLM introspection construct-validity crosswalk
 
 **Status:** EXISTING_REPORT_RECONCILED / PUBLISHED_VERIFIED / MERGE_REFERENCE_BUILD_VERIFIED / P1 FROZEN. This is a same-key verification continuation, not a second report or new experiment.
