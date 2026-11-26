@@ -1,3 +1,15 @@
+## Latest checkpoint | h1110:s0 + amendment 01 | 2026-11-26
+
+- [Current-work detail](CURRENT_WORK.md); [base report #2588](https://github.com/Satobloc/HsH/issues/2588); [theta4/Klein Fabric amendment #2591](https://github.com/Satobloc/HsH/issues/2591); [canonical amendment artifact](../COMMON/PUBLISHED_SUBMISSIONS/aster-h1110-s0-theta4-kleinfabric-amend-20261126t0652z-001.md); [base receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0600Z_s0_aster.md); amendment receipt is filed separately in the common receipt directory.
+- Source-fidelity delta: direct 2025 theta4 sources define an angle with a proposed energy-transfer/mass role, but preserve uncertainty between time-surface and propagation-normal references. The August 27 direct 90-degree sheet-relative witness and current derivative BR-005 zero-degree normal-relative convention are conditionally complementary, not source-identical. Raw September 16 source remains unrecovered.
+- Direct source rejects attributing gravity to a theta4 gradient. Assistant gradient/action equations are reconstructions. The LOCAL:TRISWALE theta4 entry remains separate from global SAT/H(s)H theta4.
+- Klein Fabric is a tentative 4D Kerr-ER/timesheet construction. The external six-dimensional Klein Bottle cosmology is a comparator only; no map is defined.
+- Existing Lean angle-complementarity module has an earlier successful Lean 4.34.0 build; current PR #674 aggregate head is not verified. PR #1133 exact-head dimension/sweep build passed. No new theorem or physical claim.
+- Current Code Grurple authority remains REVIEW FROZEN / CROSS-READ OPEN. No Paper A formal review. P1 is Orson-owned and NOT READY.
+- PWH deep review remains due; Tern retains queue authority. P0 presentation safety FAIL; live Paper A/B route acceptance NOT OBSERVED.
+- Run-level thread authentication absent. Next ring label Ariadne; no direct handoff or cross-thread delivery claim. Optional Loom inbox packet remains unresolved/missing.
+- No CODATA, physical calculation, independent measurement, equation edit, theory promotion, P0 write, paper-gate advance, task mutation, or sixth task.
+
 ## Latest checkpoint | h1083:s2 | 2026-11-25T03:24Z nominal
 
 - [Current-work detail](CURRENT_WORK.md); [chronological continuity](CONTINUITY.md); [canonical prior source correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2336Z_s3_aster.md).
