@@ -37,14 +37,14 @@ Selected user-role messages, all from the same conversation and therefore not in
 
 | Message | UTC timestamp | Direct-source content relevant to geometry |
 |---|---|---|
-| 32e60e03-... | 2026-11-08 03:17:36.710Z | Requests explicit maps between worldtube structure, centerline and observables. Questions whether field descriptions are mechanisms. Calls for force-transmission/accounting rather than a merely descriptive field. The climbing-rope/WWRD picture is an initial heuristic, not a physical equivalence. |
-| 139e1e11-... | 2026-11-08 07:07:41Z | Distinguishes the complete history from an observer's limited slice. An observer cannot establish from within that slice whether information was lost or whether the observed description is complete. This is an epistemic limit, not an information-conservation theorem. |
+| 32e60e03-541b-4232-b607-bc7698b26c18 | 2026-11-08 03:17:36.710Z | Requests explicit maps between worldtube structure, centerline and observables. Questions whether field descriptions are mechanisms. Calls for force-transmission/accounting rather than a merely descriptive field. The climbing-rope/WWRD picture is an initial heuristic, not a physical equivalence. |
+| 139e1e11-99f1-459b-a6ac-cb865015d0ff | 2026-11-08 07:07:41Z | Distinguishes the complete history from an observer's limited slice. An observer cannot establish from within that slice whether information was lost or whether the observed description is complete. This is an epistemic limit, not an information-conservation theorem. |
 | bcbe9ee8-b621-4a40-9edb-b34c17783be5 | 2026-11-08 18:05:28.410Z | Proposes a four-dimensional tube region around a one-dimensional core, with a three-dimensional boundary; asks whether it may have a mouth onto the timesheet and whether a two-dimensional worldsheet is a simplification. |
 | f9356192-0ec6-4a9c-ab53-ab76bf75c42e | 2026-11-08 18:36:17.885Z | Restricts pants topology to a special splitting case, not the general tube. Distinguishes straight/vacuum from coiled/matter morphology and proposes Alexander's horned sphere only as a possible split/merge heuristic. |
-| 6db8c5e8-... | 2026-11-08 18:58:38.020Z | Says the timesheet may differ from standard spacetime fabric; identifies θ₄ as the canonical vacuum/matter discriminator; says any third primitive or medium would need its own conservation/source-law accounting. |
-| c0520975-... | 2026-11-08 20:18:10.172Z | Tentatively distinguishes a fourth spatial coordinate w from proper time t, with time moving along w; explores alternative Crullerverse/timesheet constructions. This is a proposal, not a settled coordinate convention. |
+| 6db8c5e8-a2db-4621-922e-adab214e025e | 2026-11-08 18:58:38.020Z | Says the timesheet may differ from standard spacetime fabric; identifies θ₄ as the canonical vacuum/matter discriminator; says any third primitive or medium would need its own conservation/source-law accounting. |
+| c0520975-02a0-408f-a250-364b88ab7b30 | 2026-11-08 20:18:10.172Z | Tentatively distinguishes a fourth spatial coordinate w from proper time t, with time moving along w; explores alternative Crullerverse/timesheet constructions. This is a proposal, not a settled coordinate convention. |
 
-The full message UUIDs are preserved where available in the source export. The shortened identifiers above are locators, not substitute authorship claims. The archive's outer user role is the basis for the project's Nathan Direct convention; external identity authentication is not asserted.
+The archive's outer user role is the basis for the project's Nathan Direct convention; external identity authentication is not asserted.
 
 ### 2.2 Current status reference
 
@@ -135,7 +135,7 @@ flowchart TD
   W -->|"boundary map ?" | B
   W -->|"incidence ?" | S
   B -->|"transverse intersection ?" | M
-  W -.->|"reduction / projection ?" | K
+  W -.->|"reduction / projection ?"| K
   S -->|"interaction law ?" | W
   S -->|"readout ?" | R
   W -->|"readout input ?" | R
