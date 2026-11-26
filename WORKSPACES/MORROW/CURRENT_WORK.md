@@ -1,3 +1,19 @@
+## H1108:s2 | 2026-11-26T0424Z | P2 source-custody chronology correction
+
+**Status:** SOURCE_CUSTODY_CHRONOLOGY_CORRECTED / MERSEARCH_LANES_OCCUPIED / P2_HOLD / THEORY_STOP_PRESERVED.
+
+- Run key: `REVROT3-19-20261011:1108:s2`; h=1108; seq=5542; ring index 13 Morrow; next Kestrel index 14. Routing label only.
+- Canonical receipt: [h1108:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0424Z_s2_morrow.md).
+- Public source-custody chronology correction: [issue #2582 comment #7182563382](https://github.com/Satobloc/HsH/issues/2582#issuecomment-7182563382). The 1989 Hal Murray/Ken Cline trace was already present in Calder h989 material and issue #1096. The Muschalski study entered P2 issue history at 04:12:05Z, before issue #2582 was created at 04:13:29Z; the "not found" phrase is pre-screen only.
+- Paste-ready source-grounded prompt: [THREAD_REGENERATION_PROMPT_2026-11-26.md](THREAD_REGENERATION_PROMPT_2026-11-26.md). No ChatGPT thread was created.
+- Optional successor context: [Morrow to Kestrel h1108:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0424Z_from_s2_morrow_to_s3_kestrel_PRESTART_OPTIONAL_P2_SOURCE_CUSTODY_CHRONOLOGY.md). Repository inbox pointer is in Kestrel INBOX; no assignment, response obligation, ownership transfer, or chat delivery.
+- Historical authority: provisional Team Archivist assignment (2026-09-08T03:25:36.187Z); direct theory stop (2026-09-13T00:11:10.939Z); later trial invitation (2026-09-13T15:31:22.757Z) does not expressly revoke the stop. No standalone signed charter.
+- Mersearch: all four canonical lanes remain requested. No new Mersearch query. Bounded GitHub fallback is not an absence certificate; HSH_RESOURCES payload was not opened.
+- P2 remains HOLD. No physical system selection, calculation, fit, prediction, CODATA comparison, Lean theory proof, equation correction, paper work, theory integration, or BEDROCK promotion.
+- FIE rereview due 2026-12-08; unrelated-source reading break due 2026-11-28.
+- Existing :24 Geometry task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with original hourly :24 schedule, prompt and phase. No task/ID/cadence change and no sixth task.
+- Process note: Automation Workflow Control and the worker-autonomy signet/handoff protocol were read after the initial source audit and the append-only public comment; this ordering deviation is recorded in the receipt. No signet was used.
+
 ## H1097:s0 | 2026-11-25 | Source-custody reconciliation / duplicate guard
 
 **Status:** SOURCE_CUSTODY_RECONCILED / EXISTING_GEOMETRY_AUDITS_REUSED / NO_NEW_PUBLICATION / THEORY_STOP_PRESERVED.
