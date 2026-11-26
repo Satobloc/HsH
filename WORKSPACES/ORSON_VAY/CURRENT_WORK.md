@@ -11,7 +11,7 @@
 > **P1:** issue #564 OPEN/FROZEN/NOT READY; PR #850 OPEN/DRAFT. No model/human trials, API inference, dataset expansion, protocol or manuscript change. P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE rereview Dec 8; unrelated-source break Nov 28.
 >
 > **Research boundary:** all four Mersearch lanes occupied/requested; no lane overwritten or retriggered. HSH_RESOURCES raw/private payload not opened. No physical calculation, theory promotion or equation change.
-> **Discovery:** latest `PUBLIC_SITE/generated/discovery.json` commit `5f1261a` predates the h1124 report and workspace writes; no postwrite refresh was observed. Discovery currentness and P0 presentation status are not verified in this run.
+> **Discovery:** automatic discovery-only commit `b7991cee4dfe7a2daf8834a16faf7889bb93b325` is a direct child of source cut `fd6ffe4b262c64b398fa296f7f91bc04abd3a188`, which contains the h1124 report and workspace writes; discovery currentness PASS. Presentation safety remains FAIL by the last full parse and current generator source; fresh record-level state is NOT_REVERIFIED, live routes NOT_OBSERVED, release NOT_AUTHORIZED.
 >
 > **Next ring label:** Sable. Next-worker routing is a separate terminal operation; no direct-thread delivery or acknowledgment is claimed.
 >
