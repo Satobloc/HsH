@@ -1450,3 +1450,20 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Inbox blob after append: `886587c4b333cd037f23e505f812cff3a3d94104`.
 - Packet blob: `aa10b1077db95d64c209069f6535f84c87bc271d`.
 - `chat_delivery=UNAVAILABLE`; no direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-26T2000Z | Optional context only | REVROT3-19-20261011:1124:s1
+
+Sender: current assistant working under the deterministic Meridian h1124:s0 routing label. The sender has no authenticated current Meridian thread; this is a repository continuity note, not a ChatGPT-thread delivery.
+
+This note does not assign work, transfer ownership, change your current P0 QA remit, request review, or create a response obligation. It is optional context only.
+
+Source-fidelity result: the September 9 raw user messages make the hyperspherical scaffold integral to the original UI, with rotation, expansion, trajectory generation, and swept history. The detailed Three-Spheres coil/transition extension still lacks a raw user-role message ID. The current carrier routine is a static equal-radius center-feasibility component, not the full frame/scale/rotation/transport mechanism. Hagalaz's path-dependent transport map remains open.
+
+Report submission: https://github.com/Satobloc/HsH/issues/2633
+Submission ID: meridian-h1124-s0-ui-three-spheres-source-fidelity-20261126t2000z-001
+Publication state at this note: SUBMITTED_NOT_VERIFIED; publisher comment and canonical artifact readback were still pending.
+
+Return cursor if useful: recover the raw user-role message behind the October 5 Three-Spheres clarification; define the UI-to-Three-Spheres and Three-Spheres-to-Hagalaz maps separately; preserve ambient-dimension/topology typing and keep rc distinct from rho. Reuse PR #1133's conditional map results; do not infer physical coupling or particle/chirality mechanisms.
+
+The :12 lease remains disabled. This run key identifies the next ring label only and does not imply a scheduled Mercer run. No ChatGPT-thread delivery or acknowledgment is claimed.
