@@ -1,8 +1,22 @@
 ## h1107:s0 update | 2026-11-26 03:00Z
 
+
+## h1107:s0 Amendment 01 — source attribution and publication reconciliation (2026-11-26T03:29Z)
+
+- Base report preserved: `2026-11-26T0300Z_H1107_S0_SUPPORT_TYPES_READOUT_CALIBRATION.md`.
+- Additive source correction: July 9 direct user task-spec is `8d9d3566-07e2-4595-98df-01ecf6f86250`; the previously cited `7a77...` node is a file-search tool message. RΣ is directly named as a conceptual history-to-observed-3+1D readout/measurement map, but it is not an operational law.
+- Expanded November 8 direct-source cluster: 4D tube/1D core/3D boundary as a user-adopted working hypothesis; tentative mouth/timesheet relation; 2D worldsheet as possible simplification; straight/vacuum and coiled/matter morphologies; θ₄ discriminator; speculative w/t Crullerverse and Klein-Fabric alternatives. No metric, normal bundle, thickening map, or unique interface is defined.
+- Aldus historical self-report is in `QUARANTINE_THEORY_METHOD_CHECKINS.md`, not a standalone signed charter; mixed-context theory outputs are quarantined. The purported `939e...` message is absent from the retrieved raw export; only `fcff5c18-85c4-4efc-b7e5-df7ee20c0646` is verified there.
+- [Amendment 01](2026-11-26T0329Z_H1107_S0_AMENDMENT_01_SOURCE_ATTRIBUTION_AND_DIRECT_GEOMETRY_EXPANSION.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0300Z_s0_aldus.md), and [optional Calder handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0300Z_from_s0_aldus_to_s1_calder_POSTRUN_OPTIONAL_CONTEXT_ONLY.md).
+- Publisher issue #2577 is **PUBLISHER_REJECTED_INVALID_SUBMISSION_ID** (86-character ID; comment #7181729574); expected canonical artifact absent. No retry, issue edit, second issue or duplicate submission.
+- Repository-only optional context was appended to Calder INBOX. No authenticated Aldus/Calder thread, direct-thread delivery, consumption or acknowledgment is claimed. Calder is the next ring label; :12 lease remains disabled.
+- No SAT-O1/Blockwave equation changed; Blockwave original SHA remains withheld; no new Lean module, physical calculation, CODATA scoring, paper-gate advancement or BEDROCK promotion.
+- Existing Archive task ID, enabled state, hourly America/New_York :00 schedule and phase unchanged; no sixth task.
+
+
 - Current lane: Lane 00, Nathan Direct geometry fidelity. Routing selection Aldus (index 6); next label Calder (index 7). Selection is not thread authentication. No authenticated current Aldus thread or cross-thread delivery was established.
 - Latest research note: [h1107 support-type/readout/calibration report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-26T0300Z_H1107_S0_SUPPORT_TYPES_READOUT_CALIBRATION.md).
-- Public-safe submission: [issue #2577](https://github.com/Satobloc/HsH/issues/2577), submission `aldus-h1107-s0-support-types-interaction-readout-calibration-domain-20261126t0300z-001`. At this pointer update the issue-publisher run is still in progress; status is SUBMITTED_NOT_VERIFIED. Do not duplicate; verify the existing issue and canonical artifact.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 - Prior Aldus h1088 Whirligig lineage report was published/readback-verified at [issue #2537](https://github.com/Satobloc/HsH/issues/2537), but no canonical h1088 revival receipt was located. Preserve the publication record without fabricating a retroactive receipt. The older h1080 pointers below are historical.
 - Geometry finding: keep `γ¹` (centerline), `J²` (assistant-voiced Blockwave worldsheet current), and `W⁴` (finite-core support) distinct. `T:γ¹→W⁴`, interaction-aware `R_t`, and the link from `J²` to `W⁴` remain undefined. Set-level sectioning is not physical response.
 - Formal evidence reused: PR #873 / run #44090154878; PR #1133 / run #45711289709; PR #2575 / run #45745492694. Exact-head builds succeeded; theorem-specific axioms and limits are in the report. No new Lean code.
@@ -263,7 +277,7 @@ Scheduler: existing :24 task 6abda4c8eda88191bf23a6f2849e9a17 remains enabled wi
 
 ## Latest run — h886:s3 — 2026-11-16T22:36Z
 
-**Return pin:** `H886:S3 / ALDUS / CALDER-NEXT / TEMPORAL-PROVENANCE-SPEC / PR1860-OPEN-DRAFT / FINAL-HEAD-1DC0F799 / ACTIONS43973867276-PENDING / ISSUE1861-SUBMITTED_NOT_VERIFIED / NO-PHYSICAL-RESULT / P2-HOLD / NO-SIXTH-TASK`.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 
 - Report: [typed temporal provenance and pre-unblinding gate](2026-11-16T2236Z_H886_S3_TYPED_TEMPORAL_PROVENANCE_AND_PREUNBLINDING_GATE.md).
 - Canonical receipt: [h886:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2236Z_s3_aldus.md).
@@ -365,7 +379,7 @@ SAT-O1 and Blockwave custody is reused from the existing Mercer h824 audit; orig
 
 The Kestrel #873 successful run was a PR merge-reference build, not an exact-head build. The exact-head push run failed with no job payload. Ravel #1133 compiled relevant modules on a merge reference but failed PR-wide in MovingPlaneTraceGeometry; its exact-head push run also failed with no job payload. Exact-head success is not verified.
 
-The h841 publication remains SUBMITTED_NOT_VERIFIED because issue #1767 was skipped at the title gate. No retry, title edit, duplicate issue, or direct bypass. The same automation run ID was retried; the later attempt was IN_PROGRESS at the pre-final readback. No task or schedule mutation.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 
 
 ## New source-fidelity result
@@ -384,7 +398,7 @@ Canonical receipt: [Aldus h841:s0](https://github.com/Satobloc/HsH/blob/main/WOR
 
 Scheduler amendment: [final h841 readback](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0146Z_s0_aldus_AMENDMENT_01_SCHEDULER_READBACK.md).
 
-Workspace report commit is recorded in the repository history. Issue #1767 was submitted, but the issue publisher skipped the workflow because the title did not start with `[HSH-PUBLISH-V1]`. No canonical artifact exists. Do not retry or create a duplicate issue; retain `SUBMITTED_NOT_VERIFIED`.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 
 Optional post-start context for Calder h841:s1: [common handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0100Z_from_s0_to_h841s1_calder_POSTSTART_OPTIONAL_GEOMETRY_SOURCE.md). No assignment, response obligation or ownership transfer.
 
@@ -609,7 +623,7 @@ No physical dataset, calibration package, P2 system, H(s)H observable map, physi
 
 - Run key: REVROT3-19-20261011:753:s3; nominal 09:36Z; selected Aldus (index 6), successor Calder (index 7).
 - Report: WORKSPACES/ALDUS/2026-11-11T0936Z_STOCHASTIC_LAW_FACTORISATION_AND_INSTRUMENT_MASKING_GATE.md; blob 36082c0306fbd513019f21c7b96b1e940432f706; SHA-256 394c3f5a0330566242d99c58ac7ef601b877e60a699bdd67bf5e9da776ea55ee.
-- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T0936Z_s3_aldus.md; Amendment 01 records publisher issue #1591 as SUBMITTED_NOT_VERIFIED.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 - New architecture: law-valued fiber factorization distinguishes physical-law sufficiency, observed-law sufficiency, and instrument masking. It extends Aster h737's deterministic readout gate without duplicating it.
 - Formalization: existing Kestrel PR #873 generic codomain theorem reused; exact-head Actions run #41468951678 / job #125357139451 SUCCESS was rechecked. No new Lean code/build; local Lean/Lake/Elan absent.
 - Real candidate: Estepa-Cantero et al., JFM 1045 A27 (2026), DOI 10.1017/jfm.2026.12078. Full 4D-LPT tracks, per-run calibration, acquisition IDs and joint covariance remain unavailable. No data calculation, H(s)H prediction, or P2 selection; P2 HOLD.
@@ -806,7 +820,7 @@ The existing :24 automation remains enabled with its original task ID, exact hou
 ### Publication and successor update | h753:s3 | 2026-11-11T09:45Z
 
 - Issue #1591 is PUBLISHED_VERIFIED. Publisher comment #6792533123; commit 7164ae8db682bc9e55ff3d9ed38ad7a44c55ab92; artifact blob 36082c0306fbd513019f21c7b96b1e940432f706; SHA-256 394c3f5a0330566242d99c58ac7ef601b877e60a699bdd67bf5e9da776ea55ee. Issue-envelope content, workspace report, and published artifact are exact matches.
-- The prior SUBMITTED_NOT_VERIFIED state in the first publication amendment is preserved as a timestamped earlier observation; Amendment 02 records the later verified state.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 - Calder h753:s4 run 23673df3-e894-8327-8f4a-c1b210261d5f started at 09:45:06.555293Z after the repository handoff had been committed. This is pre-start repository context, not direct thread delivery.
 
 
@@ -943,7 +957,7 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 - Receipt: [h924:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1236Z_s3_aldus.md); optional Calder context [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1236Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_TRANSFER_ADMISSIBILITY.md), repository-only.
 - New lane refinement: transfer routes separated into deterministic factorization, stochastic kernel composition, and latent-state forward prediction; no new status/gate. PR #873 current exact head CI #44090154878 PASS; open/draft/unmerged. No new Lean run.
 - P2 HOLD; no physical system/data/fit/prediction. No theory or equation promotion.
-- Public issue #1971 checksum corrected to `87b7c2564dc56992ef37fc20200c95d0715dcfff7a51b96e7578a25affaca69d`; publisher rejected initial envelope; issue body readback exact, but no artifact/retry/duplicate. SUBMITTED_NOT_VERIFIED.
+Publisher status reconciled: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID (issue #2577 comment #7181729574); no canonical artifact, no retry or duplicate submission.
 - WH-01: ledger 73→75, two verified checkout events; queue note readback; cursor remains 18:30Z. Current :36 automation unchanged.
 
 
