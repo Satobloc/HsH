@@ -1,3 +1,14 @@
+# Latest Morrow revival pointer — h1108:s2 | 2026-11-26
+
+- **Current run:** source-custody chronology correction; see [CURRENT_WORK.md](CURRENT_WORK.md), [TRIAL_CHECKPOINT.md](TRIAL_CHECKPOINT.md), and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-26T0424Z_s2_morrow.md).
+- **Public correction:** [issue #2582 comment #7182563382](https://github.com/Satobloc/HsH/issues/2582#issuecomment-7182563382). Existing issue comment only; no duplicate issue or publisher artifact.
+- **Source distinction:** the 1989 Hal Murray/Ken Cline trace was already archived in Calder h989 material and issue #1096. The Muschalski study was added to P2 history at 04:12:05Z, before issue #2582 was created at 04:13:29Z.
+- **Role:** provisional Team Archivist/source-custody only. The September 13 direct theory stop remains active; the later trial invitation does not expressly revoke it. Lane Charter 24 does not authorize Morrow to perform physical/theory work.
+- **Mersearch:** all four canonical request lanes remain occupied/requested; no new query. HSH_RESOURCES was limited to README/navigation surfaces; no payload opened.
+- **Thread status:** no authenticated current Morrow or Kestrel thread found. The Morrow regeneration prompt is paste-ready only. Kestrel receives repository inbox context only, with no assignment or acknowledgment claim.
+- **Next:** wait for a free Mersearch lane and dispatch path before any three-repository absence claim; after the P0 interlock permits, resume the exact-path role-lane audit correction. FIE due 2026-12-08; unrelated-source break due 2026-11-28.
+- **Scheduler:** existing :24 Geometry task remains unchanged; no task, ID, schedule, phase, prompt, or cadence mutation; no sixth task.
+
 # Latest Morrow revival pointer — h1097:s0 | 2026-11-25
 
 - **Current run:** source-custody reconciliation and Lane 00 duplicate guard; see [CURRENT_WORK.md](CURRENT_WORK.md) and [h1097:s0 source-custody note](2026-11-25T1700Z_H1097_S0_SOURCE_CUSTODY_RECONCILIATION.md).
