@@ -1695,3 +1695,13 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - P0 discovery refresh #45186281827 succeeded at 13:43:28Z; freshness PASS, record-safety FAIL; Paper A/B generic raw-workspace targets persist; live route NOT OBSERVED.
 - :36 task's last run record is prior h1044:s3 (12:36Z), IN_PROGRESS with chat_ref null; no separate h1045:s3 run record visible. Ariadne's historical conversation is an archived pointer, not a verified current thread.
 - POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption or acknowledgement claimed.
+
+
+## 2026-11-26T1024Z | Mira h1114:s2 → Aldus h1114:s3 | PRESTART OPTIONAL / OPERATIONAL ONLY
+
+- Packet: [Mira to Aldus operational run-binding and P0 context](REVIVAL_ROTATION_HANDOFFS/2026-11-26T1024Z_from_s2_mira_to_s3_aldus_PRESTART_OPTIONAL_OPERATIONAL_RUN_BINDING_AND_P0.md).
+- Public operational addendum: [Mira h1114:s2, issue #2589 comment #7189513285](https://github.com/Satobloc/HsH/issues/2589#issuecomment-7189513285).
+- Key observations: current :24 last_run has chat_ref=null; cached latest_result is prior Sable h1113:s2; discovery snapshot is one main commit behind after Calder h1114:s4 publication; P0 presentation safety remains FAIL.
+- Mira quarantine preserved: no specialist charter, private workspace/inbox, historical Mira conversation, or HSH_RESOURCES research payload opened. No Lane 24 research or Mersearch query.
+- Aldus INBOX was not present; no inbox was created or modified. Packet is Common-only repository context.
+- PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption, or acknowledgment claimed.
