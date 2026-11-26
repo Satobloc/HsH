@@ -1,0 +1,708 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "3ccff017dafaf12978b39dedd365826388b8ca22a7e8630eb14f417fe87912de",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-26T16:20:37.188481+00:00",
+  "query": "(author:user AND (\"Renaissance man\" OR \"combining information not usually combined\" OR (\"time normal\" NEAR/8 torsion) OR (\"angular rotation\" NEAR/8 matter) OR (\"time surface\" NEAR/8 interaction) OR (\"worldtube bending\" NEAR/8 inertia))) OR ((path:*SAT*O* OR path:*Blockwave*) AND (math:theta OR math:gamma OR torsion OR \"time normal\" OR worldtube))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 24150,
+    "records_scanned": 23269886,
+    "hits": 370987
+  },
+  "counted_hits": 370987,
+  "distinct_sources": 2968,
+  "results_by_root": {
+    "archive": 181005,
+    "hsh-main": 163121,
+    "resources": 26861
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "path:*SAT*O*",
+      341655
+    ],
+    [
+      "math:theta",
+      293477
+    ],
+    [
+      "torsion",
+      38415
+    ],
+    [
+      "interaction",
+      18917
+    ],
+    [
+      "matter",
+      18304
+    ],
+    [
+      "worldtube",
+      16560
+    ],
+    [
+      "math:gamma",
+      14455
+    ],
+    [
+      "time surface",
+      8052
+    ],
+    [
+      "inertia",
+      5862
+    ],
+    [
+      "path:*Blockwave*",
+      3134
+    ],
+    [
+      "author:user",
+      2507
+    ],
+    [
+      "time normal",
+      522
+    ],
+    [
+      "worldtube bending",
+      69
+    ],
+    [
+      "angular rotation",
+      34
+    ],
+    [
+      "Renaissance man",
+      32
+    ],
+    [
+      "combining information not usually combined",
+      5
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.06.01•26.06.03•SATNet and Neural Networks — raw.json",
+      "title": "SATNet and Neural Networks",
+      "record_count": 76,
+      "best_score": 152,
+      "first_hit_index": 12553,
+      "sample_hit_index": 12596,
+      "locator": "message:51716b1b-dd11-4f21-ada2-be14088eb827",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "angular rotation",
+        "matter",
+        "time surface",
+        "interaction",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.01•26.06.03•[B] SATNet and Neural Networks — raw.json",
+      "title": "[B] SATNet and Neural Networks",
+      "record_count": 72,
+      "best_score": 152,
+      "first_hit_index": 12552,
+      "sample_hit_index": 12595,
+      "locator": "message:51716b1b-dd11-4f21-ada2-be14088eb827",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "angular rotation",
+        "matter",
+        "time surface",
+        "interaction",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/HsH-SAT Roundup 2/H(s)H—Ouroboros.txt",
+      "title": "H(s)H—Ouroboros",
+      "record_count": 116,
+      "best_score": 151,
+      "first_hit_index": 71301,
+      "sample_hit_index": 71407,
+      "locator": "line:6908",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "angular rotation",
+        "matter",
+        "time surface",
+        "interaction",
+        "path:*SAT*O*",
+        "math:theta",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsH-SAT Roundup 2/H(s)H—Ouroboros.txt",
+      "title": "H(s)H—Ouroboros",
+      "record_count": 116,
+      "best_score": 151,
+      "first_hit_index": 219636,
+      "sample_hit_index": 219742,
+      "locator": "line:6908",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "angular rotation",
+        "matter",
+        "time surface",
+        "interaction",
+        "path:*SAT*O*",
+        "math:theta",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_23/26.11.01•26.11.05•Workshop Relay _00 _ Archive - raw (2).json",
+      "title": "Workshop Relay :00 | Archive",
+      "record_count": 92,
+      "best_score": 141,
+      "first_hit_index": 28168,
+      "sample_hit_index": 28182,
+      "locator": "message:dee380de-d7a2-4df3-b830-e317099360ee",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "angular rotation",
+        "matter",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.11.01•26.11.05•Workshop Relay _00 _ Archive - raw (1).json",
+      "title": "Workshop Relay :00 | Archive",
+      "record_count": 89,
+      "best_score": 141,
+      "first_hit_index": 28166,
+      "sample_hit_index": 28180,
+      "locator": "message:dee380de-d7a2-4df3-b830-e317099360ee",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "angular rotation",
+        "matter",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.11.01•26.11.04•Workshop Relay _00 _ Archive - raw.json",
+      "title": "Workshop Relay :00 | Archive",
+      "record_count": 89,
+      "best_score": 141,
+      "first_hit_index": 28167,
+      "sample_hit_index": 28181,
+      "locator": "message:dee380de-d7a2-4df3-b830-e317099360ee",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "angular rotation",
+        "matter",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy.txt",
+      "title": "26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy",
+      "record_count": 147,
+      "best_score": 137,
+      "first_hit_index": 299089,
+      "sample_hit_index": 299212,
+      "locator": "line:6818",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 87,
+      "best_score": 137,
+      "first_hit_index": 16662,
+      "sample_hit_index": 16805,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 87,
+      "best_score": 137,
+      "first_hit_index": 16663,
+      "sample_hit_index": 16806,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 87,
+      "best_score": 137,
+      "first_hit_index": 16665,
+      "sample_hit_index": 16808,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 87,
+      "best_score": 137,
+      "first_hit_index": 16666,
+      "sample_hit_index": 16809,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.10•26.10.15•Meridian Free Build — raw (1).json",
+      "title": "Meridian Free Build",
+      "record_count": 83,
+      "best_score": 137,
+      "first_hit_index": 27702,
+      "sample_hit_index": 27719,
+      "locator": "message:5d037ae0-1af3-4bcf-80dc-c641b3b45e17",
+      "matched_terms": [
+        "torsion",
+        "time surface",
+        "interaction",
+        "worldtube bending",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.03.06•26.06.11•Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 58,
+      "best_score": 130,
+      "first_hit_index": 10901,
+      "sample_hit_index": 10912,
+      "locator": "message:09fcea29-f55a-4426-b799-1d36e6c82be5",
+      "matched_terms": [
+        "author:user",
+        "angular rotation",
+        "matter",
+        "time surface",
+        "interaction",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Daily Action — raw.json",
+      "title": "SAT Daily Action",
+      "record_count": 148,
+      "best_score": 121,
+      "first_hit_index": 16395,
+      "sample_hit_index": 16830,
+      "locator": "message:e1f8b3ad-6e18-4ad4-842f-a683a7973791",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Freeze SAT Object Hierarchy — raw.json",
+      "title": "Freeze SAT Object Hierarchy",
+      "record_count": 4,
+      "best_score": 121,
+      "first_hit_index": 16405,
+      "sample_hit_index": 16414,
+      "locator": "message:7a77a470-3b73-443f-9bee-43ddd4edf71a",
+      "matched_terms": [
+        "time normal",
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/[[SAT26 TOOLBOX]]/HSH Convo NLM.txt",
+      "title": "HSH Convo NLM",
+      "record_count": 10,
+      "best_score": 111,
+      "first_hit_index": 168957,
+      "sample_hit_index": 168964,
+      "locator": "line:300",
+      "matched_terms": [
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Meridian Free Build — raw.json",
+      "title": "Meridian Free Build",
+      "record_count": 1,
+      "best_score": 104,
+      "first_hit_index": 27291,
+      "sample_hit_index": 27291,
+      "locator": "message:1d284b55-d7be-45f7-92a6-15e4734347c8",
+      "matched_terms": [
+        "author:user",
+        "time normal",
+        "torsion",
+        "angular rotation",
+        "matter",
+        "interaction"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 196,
+      "best_score": 102,
+      "first_hit_index": 14265,
+      "sample_hit_index": 14418,
+      "locator": "message:25f35950-762c-41aa-a971-c7c116e160d3",
+      "matched_terms": [
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT_H(s)H Skill Development — raw.json",
+      "title": "SAT/H(s)H Skill Development",
+      "record_count": 14,
+      "best_score": 101,
+      "first_hit_index": 16642,
+      "sample_hit_index": 16650,
+      "locator": "message:46079dec-f141-419a-b23d-e1f7f2476b53",
+      "matched_terms": [
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Framework Evaluation — raw.json",
+      "title": "SAT Framework Evaluation",
+      "record_count": 42,
+      "best_score": 99,
+      "first_hit_index": 11338,
+      "sample_hit_index": 11338,
+      "locator": "message:25fc2aa5-b254-454e-acd9-da39d98c6a25",
+      "matched_terms": [
+        "author:user",
+        "matter",
+        "time surface",
+        "interaction",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "title": "SAT Framework Analysis",
+      "record_count": 97,
+      "best_score": 95,
+      "first_hit_index": 138,
+      "sample_hit_index": 322,
+      "locator": "message:5ea32d9a-1124-48c8-9026-243d15cc500f",
+      "matched_terms": [
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "math:gamma"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT_H(s)H Skill Development — raw - .TXT",
+      "title": "SAT_H(s)H Skill Development — raw -",
+      "record_count": 20,
+      "best_score": 94,
+      "first_hit_index": 148613,
+      "sample_hit_index": 148617,
+      "locator": "line:1445",
+      "matched_terms": [
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta",
+        "worldtube"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/[[SAT26 TOOLBOX]]/COMPOSITE 1.txt",
+      "title": "COMPOSITE 1",
+      "record_count": 221,
+      "best_score": 92,
+      "first_hit_index": 167525,
+      "sample_hit_index": 167589,
+      "locator": "line:29664",
+      "matched_terms": [
+        "torsion",
+        "matter",
+        "time surface",
+        "interaction",
+        "inertia",
+        "path:*SAT*O*",
+        "math:theta"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.12•23.04.12•Epistemology of the World — raw.json",
+      "locator": "message:a2d7bc39-a58d-45d9-8f2b-cb13e14fa05c",
+      "matched_terms": [
+        "path:*SAT*O*",
+        "math:theta"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.12•23.04.12•Epistemology of the World — raw.json",
+      "locator": "message:ab67abf7-3fac-42ac-8eae-57738596b948",
+      "matched_terms": [
+        "author:user",
+        "path:*SAT*O*",
+        "math:theta"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "locator": "message:aaa279ed-6062-4857-bd04-248cbcaf3dda",
+      "matched_terms": [
+        "author:user",
+        "path:*SAT*O*",
+        "math:theta"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "locator": "message:f750471f-3a99-48a9-85dc-0599140b83bf",
+      "matched_terms": [
+        "path:*SAT*O*",
+        "math:theta"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/23.07.07•26.09.12•Spacetime Curvature and Rigidity — raw.json",
+      "locator": "message:d3749fb7-3618-430f-98a6-b9c5eea30ef1",
+      "matched_terms": [
+        "matter",
+        "path:*SAT*O*",
+        "math:theta"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/23.07.07•26.09.12•Spacetime Curvature and Rigidity — raw.json",
+      "locator": "message:c6f29680-2f5d-4f32-8faf-f3bb8d00e09d",
+      "matched_terms": [
+        "matter",
+        "path:*SAT*O*",
+        "math:theta"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.08.15•23.08.15•Quirky Life Journey — raw.json",
+      "locator": "message:b47eae94-9126-422e-9115-b71fa81b11fd",
+      "matched_terms": [
+        "path:*SAT*O*",
+        "math:theta"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "locator": "message:91a6591d-b37d-4291-9bae-e1143ac84c1a",
+      "matched_terms": [
+        "path:*SAT*O*",
+        "math:gamma"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
