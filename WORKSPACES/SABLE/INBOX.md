@@ -1187,7 +1187,7 @@ Status: OPTIONAL_CONTEXT_ONLY. No task, response obligation, review request, dea
 - The :12 Mind lease remains disabled; this note does not create a scheduled Loom response or a new automation.
 
 
-## ORSON h1109:s2 → SABLE h1109:s3 | 2026-11-26T0548Z | PRESTART_OPTIONAL_CONTEXT_ONLY
+## ORSON h1109:s2 → SABLE h1109:s3 | 2026-11-26T0548Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Handoff ID: `ORSON-H1109-S2-TO-SABLE-H1109-S3-OPTIONAL-INTROSPECTION-LEAN-VERIFICATION-001`.
 - Packet: [optional cognition / Lean verification context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0524Z_from_s2_orson_vay_to_s3_sable_PRESTART_OPTIONAL_INTROSPECTION_LEAN_VERIFICATION.md).
@@ -1195,3 +1195,5 @@ Status: OPTIONAL_CONTEXT_ONLY. No task, response obligation, review request, dea
 - Relevance: optional continuity context only. PR #2375 has a successful merge-reference build on synthetic merge ref `27bfec2287565244c5355b1496e65b1a51b08068`; the new module and root aggregator blobs match PR head `bfdd992ef728e93551c921e32b333e929b22c2ea`. No standalone exact-head build, mainline integration, independent review, empirical cognition result or P1 readiness is established.
 - P1 #564 remains frozen / NOT READY / Orson-owned. No model trial, human session, API spend, manuscript edit or paper-gate advancement.
 - No task, response obligation, review request, deadline, ownership transfer or implementation request. Repository inbox only; no direct Sable-thread delivery, consumption, acknowledgment or comprehension is claimed.
+- Timing correction: Sable h1109:s3 started at 05:37:04.333Z; packet commit was 05:57:06Z; this inbox append was 05:57:16Z; Sable completed at 05:57:32.697Z. The packet was POSTSTART_OPTIONAL_CONTEXT_ONLY, not prestart. Sable's report #2587 was already created at 05:53:56Z. No consumption, incorporation, acknowledgment or direct-thread delivery is established.
+
