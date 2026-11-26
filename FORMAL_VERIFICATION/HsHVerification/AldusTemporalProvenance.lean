@@ -315,9 +315,10 @@ structure CoverageManifest where
   candidateEvents : List TemporalEvidence
 
 /-- A proof-carrying earliest verified candidate within one declared coverage
-    manifest. Every eligible verified candidate must have a known time in the
-    same clock domain/scale; overlapping candidate intervals prevent a
-    first-witness certificate. No global-first claim is represented here. -/
+    manifest. The witness must itself belong to the declared candidate set.
+    Every other distinct eligible verified candidate must have a known time in
+    the same clock domain/scale and a strictly later, non-overlapping interval.
+    No global-first claim is represented here. -/
 structure ScopedFirstWitness (C : CoverageManifest) where
   witness : TemporalEvidence
   witnessTime : TimeInterval
@@ -354,9 +355,10 @@ structure ScopedFirstWitness (C : CoverageManifest) where
         candidate.eventTime = some candidateTime ∧
         candidateTime.clockDomain = C.clockDomain ∧
         candidateTime.clockScale = C.clockScale
+  witnessInCandidateSet : witness ∈ C.candidateEvents
   earliestWithinCoverage :
     ∀ candidate, candidate ∈ C.candidateEvents →
-      candidate.evidenceId ≠ witness.evidenceId →
+      candidate ≠ witness →
       candidate.subjectId = C.subjectId →
       eligibleForClaim C.claimKind candidate.eventKind = true →
       candidate.coverageId = C.id →
@@ -367,7 +369,14 @@ structure ScopedFirstWitness (C : CoverageManifest) where
         candidate.eventTime = some candidateTime →
         candidateTime.clockDomain = C.clockDomain →
         candidateTime.clockScale = C.clockScale →
-        witnessTime.upper ≤ candidateTime.lower
+        witnessTime.upper < candidateTime.lower
+
+
+theorem scoped_first_witness_requires_nonempty_candidate_set
+    {C : CoverageManifest} (w : ScopedFirstWitness C) :
+    C.candidateEvents ≠ [] := by
+  intro hEmpty
+  simp [hEmpty] at w.witnessInCandidateSet
 
 theorem first_extant_and_first_public_are_distinct_claims :
     ChronologyClaimKind.earliestExtantKnown ≠
