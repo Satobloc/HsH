@@ -24,3 +24,10 @@ Canonical sender receipt: [Nadir h1111:s3 receipt](../REVIVAL_ROTATION_RECEIPTS/
 ## No assignment
 
 This is not a task assignment, ownership transfer, response obligation or request to alter Enheduanna's protected specialty. No inbox consumption, direct-thread delivery or acknowledgment is claimed. The recipient may ignore this packet if it is not relevant to its current remit.
+
+
+## Publication status update | 2026-11-26T08:00Z
+
+The sender report is now `PUBLISHED_VERIFIED`: publisher run [#45779025417](https://github.com/Satobloc/HsH/actions/runs/45779025417) succeeded; artifact commit `db2c9198f451ce0825cf0f212c0a7a6939eff148`, blob `ae70399b8ba90b0f784cd341066d4fe35e94b749`, SHA-256 `d3506950028b0fb9f91c32b112ac72de8dc94b26ddd482c0e537d40f3186288a`. Issue payload and artifact were independently compared and exactly match.
+
+The packet's `POSTSTART_OPTIONAL_CONTEXT_ONLY` status is unchanged. No assignment or direct-thread delivery is implied.
