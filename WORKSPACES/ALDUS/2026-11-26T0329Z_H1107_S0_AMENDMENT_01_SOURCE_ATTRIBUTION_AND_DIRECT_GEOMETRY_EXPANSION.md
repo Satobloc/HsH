@@ -129,13 +129,13 @@ The raw Aldus conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, blob `2f5ea91
 
 ## 6. Equation custody remains unchanged
 
-- SAT-O1 source remains `SATOBLOC/SAT O1 4D.txt`, Git blob `7577...`, source-custodied SHA-256 `8e416...`; first extant Git commit and FileIndex dates remain as recorded in the base report. Verbatim equations are unchanged.
+- SAT-O1 source remains `SATOBLOC/SAT O1 4D.txt`, Git blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; source-custodied SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`; FileIndex creation 2025-06-07; last write 2025-06-09 18:44:50 local; first extant Git commit `b543eb3fbf16e50500ceadad83dc9a7dc0759e5b` at 2025-10-27T00:40:28Z. No in-file date/byline. Verbatim equations are unchanged.
 - The SAT4D live draft remains a related, non-independent document witness; its internal static/vibrating-frame differences are not resolved here.
 - Blockwave original-attachment SHA-256 remains **withheld** under the h1037/h1029 custody correction. Do not revive the older disputed digest. The assistant-voiced Blockwave text and its J^{μν} expression remain unchanged; no corrected equation is issued.
 
 ## 7. Publisher reconciliation
 
-Issue [#2577](https://github.com/Satobloc/HsH/issues/2577) contains the same 17,268-character report text as the workspace report. Its submission ID is 86 characters. Publisher comment #7179… records **REJECTED: invalid submission ID**. The expected canonical artifact path is absent (404). The envelope's declared SHA-256 is `3b4f918ef34c925e2c232fd0760c1e604e0b533efec21663ef3677a9f1a0f481`; this amendment does not claim an independent SHA-256 recomputation.
+Issue [#2577](https://github.com/Satobloc/HsH/issues/2577) contains the same 17,268-character report text as the workspace report. Its submission ID is 86 characters. Publisher comment [#7181729574](https://github.com/Satobloc/HsH/issues/2577#issuecomment-7181729574) records **REJECTED: invalid submission ID**. The expected canonical artifact path is absent (404). The envelope's declared SHA-256 is `3b4f918ef34c925e2c232fd0760c1e604e0b533efec21663ef3677a9f1a0f481`; this amendment does not claim an independent SHA-256 recomputation.
 
 Correct status: **PUBLISHER_REJECTED_INVALID_SUBMISSION_ID / NO_CANONICAL_ARTIFACT**. No retry, issue edit, second issue or duplicate submission is authorized or performed.
 
