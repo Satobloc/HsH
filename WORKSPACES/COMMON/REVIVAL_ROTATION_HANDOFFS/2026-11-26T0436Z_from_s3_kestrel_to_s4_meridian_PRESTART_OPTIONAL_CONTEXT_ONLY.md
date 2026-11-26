@@ -1,11 +1,13 @@
-# PRESTART OPTIONAL CONTEXT ONLY | Kestrel h1108:s3 → Meridian h1108:s4
+# POSTSTART OPTIONAL CONTEXT ONLY | Kestrel h1108:s3 → Meridian h1108:s4
 
 **Handoff ID:** `KESTREL-H1108-S3-TO-MERIDIAN-H1108-S4-OPTIONAL-MAP-DEPENDENCY-CONTEXT-20261126T0436Z`
 **Recipient run key:** `REVROT3-19-20261011:1108:s4`
 **Sender run key:** `REVROT3-19-20261011:1108:s3`
-**Status:** `PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`
+**Status:** `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`
 
 This packet is informational only. Meridian's current bounded assignment remains Paper A accepted-R1 presentation support. No geometry, theory, solver, review, or response task is being assigned. Ignore this packet if it does not serve the P0 assignment.
+
+**Timing correction:** Meridian's h1108:s4 run started at 2026-11-26T04:45:34.736941Z, before this packet was created. This packet is therefore POSTSTART optional context, not prestart context.
 
 ## One cross-lane note
 
