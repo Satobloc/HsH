@@ -15,7 +15,13 @@ ledger, and an evaluation result to the same source packet and common carrier.
 The temporal fields are ordered ticks in one declared time base. Lean checks
 the supplied order relations; it does not authenticate clocks, hashes, source
 artifacts, event-log completeness, data independence, or the truth of the
-recorded outcome. The ordinary one-shot wrapper requires zero pre-evaluation
+recorded outcome.
+
+The partition also carries a source-addressed observation-to-independent-unit
+map, and the declared calibration/holdout unit sets must be exactly the images
+of their listed observation IDs under that same map. This is mapping
+traceability, not proof of source-map authenticity, data completeness, or
+statistical independence. The ordinary one-shot wrapper requires zero pre-evaluation
 queries and feedback. Named adaptive-holdout mechanisms need a separate,
 mechanism-specific contract and are not admitted by this wrapper.
 
@@ -95,6 +101,26 @@ structure CalibrationHoldoutPartition where
   holdoutUnitIds : Finset String
   calibrationUnitsNonempty : calibrationUnitIds.Nonempty
   holdoutUnitsNonempty : holdoutUnitIds.Nonempty
+  /-- Exact source artifact and evidence for the observation-to-unit map.
+      Source review must verify that this artifact implements the declared
+      function below for this dataset and unit definition. -/
+  observationUnitMapArtifact : SourceArtifactRef
+  observationUnitMapEvidence : SourceEvidenceRecord
+  observationUnitMapEvidenceMatchesArtifact :
+    observationUnitMapEvidence.artifact = observationUnitMapArtifact
+  /-- Stable raw observation IDs on each side of the split. -/
+  calibrationObservationIds : Finset String
+  holdoutObservationIds : Finset String
+  /-- One total declared map assigns every listed observation to its
+      independence unit. Exact-image equalities prevent orphan declared
+      units and observations mapped outside the declared partition. -/
+  observationToUnit : String → String
+  calibrationObservationIdsNonempty : calibrationObservationIds.Nonempty
+  holdoutObservationIdsNonempty : holdoutObservationIds.Nonempty
+  calibrationUnitIdsExactlyMapped :
+    calibrationUnitIds = calibrationObservationIds.image observationToUnit
+  holdoutUnitIdsExactlyMapped :
+    holdoutUnitIds = holdoutObservationIds.image observationToUnit
   unitSetsDisjoint : Disjoint calibrationUnitIds holdoutUnitIds
   predictionTarget : NonEmptyText
   predictorDomainGoal : PredictorDomainGoal
@@ -417,6 +443,20 @@ structure PrecommittedComparisonEvidence
   calibrationHoldoutUnitSetsDisjoint :
     Disjoint c.holdout.partition.calibrationUnitIds
       c.holdout.partition.holdoutUnitIds
+  observationUnitMapEvidenceMatchesArtifact :
+    c.holdout.partition.observationUnitMapEvidence.artifact =
+      c.holdout.partition.observationUnitMapArtifact
+  calibrationUnitIdsExactlyMapped :
+    c.holdout.partition.calibrationUnitIds =
+      c.holdout.partition.calibrationObservationIds.image
+        c.holdout.partition.observationToUnit
+  holdoutUnitIdsExactlyMapped :
+    c.holdout.partition.holdoutUnitIds =
+      c.holdout.partition.holdoutObservationIds.image
+        c.holdout.partition.observationToUnit
+  calibrationHoldoutObservationIdsDisjoint :
+    Disjoint c.holdout.partition.calibrationObservationIds
+      c.holdout.partition.holdoutObservationIds
   calibrationBeforeAccess :
     c.holdout.calibrationFrozenAt < c.holdout.firstHoldoutAccessAt
   familyBeforeAccess :
@@ -487,6 +527,14 @@ theorem precommittedComparison_has_evidence
       calibrationUnitsNonempty := c.holdout.partition.calibrationUnitsNonempty
       holdoutUnitsNonempty := c.holdout.partition.holdoutUnitsNonempty
       calibrationHoldoutUnitSetsDisjoint := c.holdout.partition.unitSetsDisjoint
+      observationUnitMapEvidenceMatchesArtifact :=
+        c.holdout.partition.observationUnitMapEvidenceMatchesArtifact
+      calibrationUnitIdsExactlyMapped :=
+        c.holdout.partition.calibrationUnitIdsExactlyMapped
+      holdoutUnitIdsExactlyMapped :=
+        c.holdout.partition.holdoutUnitIdsExactlyMapped
+      calibrationHoldoutObservationIdsDisjoint :=
+        holdoutPlan_has_disjoint_observation_ids c.holdout
       calibrationBeforeAccess := c.holdout.calibrationBeforeAccess
       familyBeforeAccess := c.holdout.familyBeforeAccess
       predictionBeforeAccess := c.holdout.predictionBeforeAccess
@@ -511,6 +559,29 @@ theorem holdoutPlan_has_disjoint_unit_partition
     ⟨plan.partition.calibrationUnitsNonempty,
       plan.partition.holdoutUnitsNonempty,
       plan.partition.unitSetsDisjoint⟩
+
+/-- Because one total observation-to-unit map is used on both sides,
+    disjoint unit sets imply that no raw observation ID appears in both
+    calibration and holdout. This is partition integrity, not statistical
+    independence between the declared units. -/
+theorem holdoutPlan_has_disjoint_observation_ids
+    (plan : PrecommittedHoldoutPlan) :
+    Disjoint plan.partition.calibrationObservationIds
+      plan.partition.holdoutObservationIds := by
+  refine Finset.disjoint_left.mpr ?_
+  intro observation hCalibration hHoldout
+  have hCalibrationUnit :
+      plan.partition.observationToUnit observation ∈
+        plan.partition.calibrationUnitIds := by
+    rw [plan.partition.calibrationUnitIdsExactlyMapped]
+    exact Finset.mem_image.mpr ⟨observation, hCalibration, rfl⟩
+  have hHoldoutUnit :
+      plan.partition.observationToUnit observation ∈
+        plan.partition.holdoutUnitIds := by
+    rw [plan.partition.holdoutUnitIdsExactlyMapped]
+    exact Finset.mem_image.mpr ⟨observation, hHoldout, rfl⟩
+  exact (Finset.disjoint_left.mp plan.partition.unitSetsDisjoint)
+    hCalibrationUnit hHoldoutUnit
 
 /-- Abstract counterexample: distinct set labels can still designate the
     same nonempty unit set. This is a logical witness, not a physical dataset
@@ -642,6 +713,7 @@ theorem tieBreak_requires_no_greater_complexity
 
 #print axioms precommittedComparison_has_evidence
 #print axioms holdoutPlan_has_disjoint_unit_partition
+#print axioms holdoutPlan_has_disjoint_observation_ids
 #print axioms distinct_set_labels_do_not_imply_unit_disjointness
 #print axioms holdoutPlan_has_precommitment_order
 #print axioms tieBreak_requires_both_precommitted_evidence
