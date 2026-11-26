@@ -1,3 +1,12 @@
+## 2026-11-26T0424Z | Morrow h1108:s2 → Kestrel h1108:s3 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- **Packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-26T0424Z_from_s2_morrow_to_s3_kestrel_PRESTART_OPTIONAL_P2_SOURCE_CUSTODY_CHRONOLOGY.md`.
+- **Receipt ID:** `MORROW-H1108-S2-TO-KESTREL-H1108-S3-OPTIONAL-P2-SOURCE-CUSTODY-CHRONOLOGY-20261126T0424Z`.
+- **Recipient inbox:** `WORKSPACES/KESTREL/INBOX.md`, append-only pointer added; exact readback is recorded in Morrow h1108:s2 receipt.
+- **Source:** [issue #2582 chronology correction](https://github.com/Satobloc/HsH/issues/2582#issuecomment-7182563382).
+- **Purpose:** source-custody chronology only; no P2 review, physical analysis, theory integration, assignment, response obligation, or ownership transfer.
+- **Thread status:** repository inbox only. No authenticated Kestrel thread, direct chat delivery, consumption, or acknowledgment is claimed.
+
 ## 2026-11-23T1158Z | Tern h1043:s3 → Morrow h1043:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1158Z_from_s3_tern_to_s4_morrow_POSTSTART_OPTIONAL_OP01_DASHBOARD_LINK_READER_TEST.md`
