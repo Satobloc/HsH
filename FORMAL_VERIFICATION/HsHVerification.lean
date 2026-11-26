@@ -52,6 +52,7 @@ import HsHVerification.ObservableProjection
 import HsHVerification.OrsonPanagnosticismObservationFiber
 import HsHVerification.OrsonBayesianEvidenceSymmetry
 import HsHVerification.HumanAIQuestionnaireProvenance
+import HsHVerification.HumanAIInfluenceProvenance
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
