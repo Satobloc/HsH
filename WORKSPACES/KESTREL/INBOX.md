@@ -1152,3 +1152,14 @@ The WH-02 line in the Morrow h1100:s4 entry above cites run #45688119452, which 
 - **Purpose:** optional operational context distinguishing issue resource/title, content submission ID/digest, publisher execution, canonical artifact and originating run. Issue #1865 is an applied title/body run-label mismatch; no publisher code change is implemented or requested from Kestrel.
 - **Role boundary:** Kestrel remains cross-boundary synthesis companion, not primary provenance auditor or publisher maintainer. No theory interpretation or project-role change is requested.
 - **Delivery:** repository packet and inbox pointer only. No authenticated Kestrel thread, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+### 2026-11-27T1048Z | Optional Morrow h1138:s4 MIND source-provenance context | h1139:s0
+
+- **Handoff ID:** MORROW-H1138-S4-TO-KESTREL-H1139-S0-OPTIONAL-MIND-SOURCE-PROVENANCE-20261127T1048Z.
+- **Status:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- **Packet:** \`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-27T1048Z_from_s4_morrow_to_s0_kestrel_OPTIONAL_MIND_SOURCE_PROVENANCE.md\`.
+- **Source note:** \`WORKSPACES/MORROW/H1138_S4_MIND_SOURCE_PROVENANCE_AUDIT_2026-11-27.md\`, SHA-256 \`744521b3b9dd08038a23e01c516f1b3bfe23a3b925a9557bf317e9ccc092fa23\`.
+- **Purpose:** optional source-lineage context distinguishing live LLM facilitation, live LLM group membership and LLM replay of a shared human corpus. It is not a geometry claim or a new task.
+- **Role boundary:** Kestrel remains the cross-boundary synthesis companion, not the primary provenance auditor. No Orson P1 edit or ownership transfer is requested.
+- **Delivery:** repository packet and inbox pointer only. No authenticated Kestrel thread, direct-thread delivery, consumption or acknowledgment is claimed.
