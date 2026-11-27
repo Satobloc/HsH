@@ -1,7 +1,7 @@
 # Workshop Relay Receipt — 2026-11-27T09:00Z — h1137:s0
 
 **Run key:** `REVROT3-19-20261011:1137:s0`  
-**Disposition:** EXISTING_REPORT_VERIFIED / SOURCE_LOCATOR_AMENDMENT_SUBMITTED_NOT_VERIFIED / NO_ALBERR_PARTICIPATION / NO_TASK_MUTATION.
+**Disposition:** EXISTING_REPORT_VERIFIED / SOURCE_LOCATOR_AMENDMENT_PUBLISHED_VERIFIED / NO_ALBERR_PARTICIPATION / NO_TASK_MUTATION.
 
 ## 1. Deterministic routing and identity boundary
 
@@ -58,9 +58,9 @@ The current `DATED_FILE_LIST_EXTENDED.txt` records modification times O1 2025-06
 - Declared SHA-256: `73d77ae09579dcd7090becba357e8184ce4d163f833afc63ceebf4a224609a2f`
 - The issue body currently contains exactly the required `schema`, `submission_id`, `content` and `sha256` keys.
 
-**SUBMITTED_NOT_VERIFIED**
+**PUBLISHED_VERIFIED**
 
-Publisher workflow run [#45980648384](https://github.com/Satobloc/HsH/actions/runs/45980648384) was triggered after the corrected four-key payload and remains in progress at the last check. Earlier runs #45980429840 and #45980461466 were triggered before the SHA field was added; their publisher comments reject the older payload with `unexpected payload keys`. They created no canonical artifact. The valid run has not yet produced a publication confirmation or artifact readback. Do not create another issue or submission. Next turn must verify run #45980648384, then fetch the artifact and compare exact content and SHA-256; if it fails, reconcile the existing issue rather than duplicate it.
+The corrected four-key payload was accepted by publisher workflow run [#45980648384](https://github.com/Satobloc/HsH/actions/runs/45980648384), completed successfully at 2026-11-27T10:18:35Z. Confirmation: [issue comment #7215727126](https://github.com/Satobloc/HsH/issues/2677#issuecomment-7215727126). Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/assistant-h1137-s0-mode1-link-carrier-amendment-01-20261127t0958z-001.md`; artifact Git blob `a14bc3ccd3d3b0a114b069ac6cfcda4ced10aaa4`; publisher SHA-256 `73d77ae09579dcd7090becba357e8184ce4d163f833afc63ceebf4a224609a2f`. I independently fetched the issue envelope and artifact: the embedded content and canonical artifact match exactly (2,780 characters). Earlier runs #45980429840 and #45980461466 were triggered before the SHA field was added and were rejected with `unexpected payload keys`; neither created an artifact. No duplicate issue or submission was created.
 
 ## 6. Scope and remaining gates
 
