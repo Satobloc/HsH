@@ -2745,11 +2745,27 @@ mistaken for the same worker.
 
 namespace HsHVerification.RevivalRingSelection
 
-def ring : List String :=
-  [ "Sable", "Loom", "Aster", "Ariadne", "Alberr", "Mira", "Aldus",
-    "Calder", "Hale", "Elias Kern", "Nadir Voss", "Enheduanna",
-    "Tern Rook", "Morrow", "Kestrel", "Meridian", "Mercer", "Ravel",
-    "Orson Vay" ]
+def ringName : Nat → Option String
+  | 0 => some "Sable"
+  | 1 => some "Loom"
+  | 2 => some "Aster"
+  | 3 => some "Ariadne"
+  | 4 => some "Alberr"
+  | 5 => some "Mira"
+  | 6 => some "Aldus"
+  | 7 => some "Calder"
+  | 8 => some "Hale"
+  | 9 => some "Elias Kern"
+  | 10 => some "Nadir Voss"
+  | 11 => some "Enheduanna"
+  | 12 => some "Tern Rook"
+  | 13 => some "Morrow"
+  | 14 => some "Kestrel"
+  | 15 => some "Meridian"
+  | 16 => some "Mercer"
+  | 17 => some "Ravel"
+  | 18 => some "Orson Vay"
+  | _ => none
 
 def seq (h slot : Nat) : Nat := 5 * h + slot
 def ringIndex (h slot : Nat) : Nat := seq h slot % 19
@@ -2757,24 +2773,24 @@ def ringIndex (h slot : Nat) : Nat := seq h slot % 19
 theorem h1142_s2_seq : seq 1142 2 = 5712 := by decide
 theorem h1142_s2_worker_index : ringIndex 1142 2 = 12 := by decide
 theorem h1142_s2_worker_label :
-    ring.get? (ringIndex 1142 2) = some "Tern Rook" := by decide
+    ringName (ringIndex 1142 2) = some "Tern Rook" := by decide
 theorem h1142_s2_next_label :
-    ring.get? ((ringIndex 1142 2 + 1) % 19) = some "Morrow" := by decide
+    ringName ((ringIndex 1142 2 + 1) % 19) = some "Morrow" := by decide
 
 theorem h1142_s3_seq : seq 1142 3 = 5713 := by decide
 theorem h1142_s3_worker_index : ringIndex 1142 3 = 13 := by decide
 theorem h1142_s3_worker_label :
-    ring.get? (ringIndex 1142 3) = some "Morrow" := by decide
+    ringName (ringIndex 1142 3) = some "Morrow" := by decide
 theorem h1142_s3_next_index :
     (ringIndex 1142 3 + 1) % 19 = 14 := by decide
 theorem h1142_s3_next_label :
-    ring.get? ((ringIndex 1142 3 + 1) % 19) = some "Kestrel" := by decide
+    ringName ((ringIndex 1142 3 + 1) % 19) = some "Kestrel" := by decide
 
 #eval ringIndex 1142 2
-#eval ring.get? (ringIndex 1142 2)
+#eval ringName (ringIndex 1142 2)
 #eval ringIndex 1142 3
-#eval ring.get? (ringIndex 1142 3)
-#eval ring.get? ((ringIndex 1142 3 + 1) % 19)
+#eval ringName (ringIndex 1142 3)
+#eval ringName ((ringIndex 1142 3 + 1) % 19)
 
 #print axioms h1142_s2_seq
 #print axioms h1142_s2_worker_index
