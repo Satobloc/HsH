@@ -32,6 +32,8 @@ winding condition. No physical system or empirical claim is represented.
 
 namespace HsHVerification.AsterDonutCandidateAngle
 
+noncomputable section
+
 abbrev Vec3 := ℝ × ℝ × ℝ
 
 /-- Euclidean dot product on the nested product representation of R^3. -/
@@ -84,7 +86,7 @@ theorem theta_comm (u v : Vec3) : theta u v = theta v u := by
 
 theorem normSq_liftR (t : ℝ) :
     normSq3 (liftR t) = 2 := by
-  simp [normSq3, dot3, liftR, pow_two]
+  simp [normSq3, dot3, liftR]
   nlinarith [Real.sin_sq_add_cos_sq t]
 
 theorem normSq_liftQ (t : ℝ) :
@@ -165,5 +167,7 @@ theorem candidateTrace_not_order_decodable (major minor : ℝ) :
 #print axioms candidateTrace_swap
 #print axioms no_left_inverse_of_swap_invariant
 #print axioms candidateTrace_not_order_decodable
+
+end -- noncomputable section
 
 end HsHVerification.AsterDonutCandidateAngle
