@@ -2510,3 +2510,226 @@ theorem same_run_and_slot_without_attempt_id_has_no_verified_attempt_witness
 #print axioms same_run_and_slot_without_attempt_id_has_no_verified_attempt_witness
 
 end HsHVerification.TernAttemptIdentityGate
+
+/-!
+## Run/result association gate
+
+A task's cached latest_result is not accepted as the current invocation's
+result merely because it is exposed beside last_run. The conservative
+association predicate below requires a completed run, exact run-ID and
+nominal-slot agreement, a shared nonempty attempt ID, and a result creation /
+completion interval ordered within the run.
+
+The provider may omit attempt IDs. Their absence blocks a positive
+same-attempt result witness; it does not prove that a retry or distinct
+attempt occurred. Task-level conversation references and chat_ref are
+deliberately excluded: they are not attempt identifiers.
+-/
+
+namespace HsHVerification.TernRunResultBindingGate
+
+inductive BindingRunStatus where
+  | inProgress
+  | completed
+  deriving DecidableEq, Repr
+
+/-- A run and its task-container's cached latest-result observation. -/
+structure ResultBindingObservation where
+  taskId : String
+  phase : Nat
+  enabled : Bool
+  scheduleMinute : Nat
+  runId : String
+  runScheduledUs : Nat
+  runStartedUs : Nat
+  runCompletedUs : Option Nat
+  runStatus : BindingRunStatus
+  runAttemptId : Option String
+  resultRunId : Option String
+  resultScheduledUs : Option Nat
+  resultCreatedUs : Option Nat
+  resultCompletedUs : Option Nat
+  resultAttemptId : Option String
+  deriving Repr
+
+/-- UTC clock-of-day in microseconds. Date is source-level block metadata. -/
+def clockUs (hour minute second micros : Nat) : Nat :=
+  ((hour * 3600 + minute * 60 + second) * 1000000) + micros
+
+/--
+A positive result-association witness. It requires:
+* a completed current run;
+* a result carrying the same run ID and nominal slot;
+* the same nonempty attempt ID on both records; and
+* result creation/completion ordered after run start and at run completion.
+
+This is a conservative evidence predicate, not a definition of backend truth.
+-/
+def verifiedResultBinding (o : ResultBindingObservation) : Prop :=
+  o.runStatus = .completed ∧
+  ∃ runCompleted attempt created,
+    o.runCompletedUs = some runCompleted ∧
+    o.resultRunId = some o.runId ∧
+    o.resultScheduledUs = some o.runScheduledUs ∧
+    o.runAttemptId = some attempt ∧
+    o.resultAttemptId = some attempt ∧
+    o.resultCreatedUs = some created ∧
+    o.resultCompletedUs = some runCompleted ∧
+    o.runStartedUs ≤ created ∧
+    created ≤ runCompleted
+
+theorem verifiedResultBinding_requires_same_run_and_slot
+    (o : ResultBindingObservation) (h : verifiedResultBinding o) :
+    o.resultRunId = some o.runId ∧
+    o.resultScheduledUs = some o.runScheduledUs := by
+  rcases h with ⟨_hStatus, _runCompleted, _attempt, _created,
+    _hRunCompleted, hRunId, hSlot, _hRunAttempt, _hResultAttempt,
+    _hCreated, _hResultCompleted, _hStart, _hOrder⟩
+  exact ⟨hRunId, hSlot⟩
+
+theorem verifiedResultBinding_requires_same_attempt
+    (o : ResultBindingObservation) (h : verifiedResultBinding o) :
+    ∃ attempt,
+      o.runAttemptId = some attempt ∧
+      o.resultAttemptId = some attempt := by
+  rcases h with ⟨_hStatus, _runCompleted, attempt, _created,
+    _hRunCompleted, _hRunId, _hSlot, hRunAttempt, hResultAttempt,
+    _hCreated, _hResultCompleted, _hStart, _hOrder⟩
+  exact ⟨attempt, hRunAttempt, hResultAttempt⟩
+
+theorem verifiedResultBinding_requires_ordered_result_times
+    (o : ResultBindingObservation) (h : verifiedResultBinding o) :
+    ∃ runCompleted created,
+      o.runCompletedUs = some runCompleted ∧
+      o.resultCreatedUs = some created ∧
+      o.resultCompletedUs = some runCompleted ∧
+      o.runStartedUs ≤ created ∧
+      created ≤ runCompleted := by
+  rcases h with ⟨_hStatus, runCompleted, _attempt, created,
+    hRunCompleted, _hRunId, _hSlot, _hRunAttempt, _hResultAttempt,
+    hCreated, hResultCompleted, hStart, hOrder⟩
+  exact ⟨runCompleted, created, hRunCompleted, hCreated,
+    hResultCompleted, hStart, hOrder⟩
+
+theorem no_verified_binding_without_run_attempt_id
+    (o : ResultBindingObservation) (hNone : o.runAttemptId = none) :
+    ¬ verifiedResultBinding o := by
+  intro h
+  rcases h with ⟨_hStatus, _runCompleted, _attempt, _created,
+    _hRunCompleted, _hRunId, _hSlot, hRunAttempt, _hResultAttempt,
+    _hCreated, _hResultCompleted, _hStart, _hOrder⟩
+  rw [hNone] at hRunAttempt
+  cases hRunAttempt
+
+theorem no_verified_binding_without_result_attempt_id
+    (o : ResultBindingObservation) (hNone : o.resultAttemptId = none) :
+    ¬ verifiedResultBinding o := by
+  intro h
+  rcases h with ⟨_hStatus, _runCompleted, _attempt, _created,
+    _hRunCompleted, _hRunId, _hSlot, _hRunAttempt, hResultAttempt,
+    _hCreated, _hResultCompleted, _hStart, _hOrder⟩
+  rw [hNone] at hResultAttempt
+  cases hResultAttempt
+
+theorem no_verified_binding_for_in_progress
+    (o : ResultBindingObservation) (hInProgress : o.runStatus = .inProgress) :
+    ¬ verifiedResultBinding o := by
+  intro h
+  have hStatus := h.1
+  rw [hInProgress] at hStatus
+  cases hStatus
+
+/-!
+## h1142:s3 exact task-service cross-section
+
+Readback source: existing Workshop Relay :36 task ID
+6a9f52b69ec08191b0a2ba24a074f781, observed 2026-11-27. The current run was
+scheduled for 14:36:00Z, started at 14:32:07.041741Z, and remained
+IN_PROGRESS with no completion and no run-level chat_ref. The task container's
+latest_result still referred to the completed 13:36Z run. The provider exposed
+no attempt identifier on either record.
+
+The run and cached-result IDs are retained as separate literals. No String
+inequality theorem is asserted. The task-level conversation reference and
+chat_ref are not used as worker or attempt authentication.
+-/
+
+def h1142S3Observation : ResultBindingObservation := {
+  taskId := "6a9f52b69ec08191b0a2ba24a074f781"
+  phase := 3
+  enabled := true
+  scheduleMinute := 36
+  runId := "49a8b57d-178c-8324-b3c9-aae51b442618"
+  runScheduledUs := clockUs 14 36 0 0
+  runStartedUs := clockUs 14 32 7 41741
+  runCompletedUs := none
+  runStatus := .inProgress
+  runAttemptId := none
+  resultRunId := some "45fd36e2-ce0c-832d-9ddb-c7c5f926a561"
+  resultScheduledUs := some (clockUs 13 36 0 0)
+  resultCreatedUs := some (clockUs 13 57 36 602435)
+  resultCompletedUs := some (clockUs 13 57 38 446227)
+  resultAttemptId := none
+}
+
+theorem h1142_s3_task_configuration :
+    h1142S3Observation.taskId = "6a9f52b69ec08191b0a2ba24a074f781" ∧
+    h1142S3Observation.phase = 3 ∧
+    h1142S3Observation.enabled = true ∧
+    h1142S3Observation.scheduleMinute = 36 := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h1142_s3_run_and_cached_result_ids :
+    h1142S3Observation.runId =
+      "49a8b57d-178c-8324-b3c9-aae51b442618" ∧
+    h1142S3Observation.resultRunId =
+      some "45fd36e2-ce0c-832d-9ddb-c7c5f926a561" := by
+  exact ⟨rfl, rfl⟩
+
+theorem h1142_s3_run_started_before_nominal_us :
+    h1142S3Observation.runScheduledUs -
+      h1142S3Observation.runStartedUs = 232958259 := by
+  decide
+
+theorem h1142_s3_cached_result_is_previous_slot :
+    h1142S3Observation.runScheduledUs -
+      h1142S3Observation.resultScheduledUs.getD 0 = 3600000000 := by
+  decide
+
+theorem h1142_s3_cached_result_completed_before_current_start :
+    h1142S3Observation.resultCreatedUs.getD 0 <
+      h1142S3Observation.resultCompletedUs.getD 0 ∧
+    h1142S3Observation.resultCompletedUs.getD 0 <
+      h1142S3Observation.runStartedUs ∧
+    h1142S3Observation.runCompletedUs = none := by
+  decide
+
+theorem h1142_s3_attempt_ids_not_exposed :
+    h1142S3Observation.runAttemptId = none ∧
+    h1142S3Observation.resultAttemptId = none := by
+  exact ⟨rfl, rfl⟩
+
+theorem h1142_s3_no_verified_current_result_binding :
+    ¬ verifiedResultBinding h1142S3Observation := by
+  apply no_verified_binding_for_in_progress
+  rfl
+
+#eval h1142S3Observation.runStatus == .inProgress
+#eval h1142S3Observation.runAttemptId == none
+#eval h1142S3Observation.resultAttemptId == none
+
+#print axioms verifiedResultBinding_requires_same_run_and_slot
+#print axioms verifiedResultBinding_requires_same_attempt
+#print axioms verifiedResultBinding_requires_ordered_result_times
+#print axioms no_verified_binding_without_run_attempt_id
+#print axioms no_verified_binding_without_result_attempt_id
+#print axioms no_verified_binding_for_in_progress
+#print axioms h1142_s3_task_configuration
+#print axioms h1142_s3_run_and_cached_result_ids
+#print axioms h1142_s3_run_started_before_nominal_us
+#print axioms h1142_s3_cached_result_is_previous_slot
+#print axioms h1142_s3_cached_result_completed_before_current_start
+#print axioms h1142_s3_attempt_ids_not_exposed
+#print axioms h1142_s3_no_verified_current_result_binding
+
+end HsHVerification.TernRunResultBindingGate
