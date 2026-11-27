@@ -206,30 +206,15 @@ theorem augmentedUnview_augmentedView
 theorem augmentedView_injective :
     Function.Injective (augmentedView (Center := Center) (Frame := Frame)) := by
   intro s t h
-  cases s with
-  | mk sCenters sRadius sFrames =>
-    cases t with
-    | mk tCenters tRadius tFrames =>
-      change (⟨sCenters, sRadius⟩, sFrames) =
-        (⟨tCenters, tRadius⟩, tFrames) at h
-      have hCarrier : (⟨sCenters, sRadius⟩ : CarrierInput Center) =
-          ⟨tCenters, tRadius⟩ := congrArg Prod.fst h
-      have hFrames : sFrames = tFrames := congrArg Prod.snd h
-      have hCenters : sCenters = tCenters :=
-        congrArg CarrierInput.centers hCarrier
-      have hRadius : sRadius = tRadius :=
-        congrArg CarrierInput.radius hCarrier
-      cases hCenters
-      cases hRadius
-      cases hFrames
-      rfl
+  have h' := congrArg augmentedUnview h
+  simpa only [augmentedUnview_augmentedView] using h'
 
 /-- Candidate left-acting relative frames compose in reverse edge order:
     Q_12 * Q_01 = Q_02. Reuses Nadir's already-formalized group identity. -/
 theorem relativeFrame_comp [Group Frame]
     (s : Run099State Center Frame) :
     relativeFrame s 1 2 * relativeFrame s 0 1 = relativeFrame s 0 2 := by
-  simpa [relativeFrame] using
+  simp [relativeFrame] using
     HsHVerification.NadirFrameTelescoping.leftRelative_comp
       (s.frames 0) (s.frames 1) (s.frames 2)
 
