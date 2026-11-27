@@ -1306,3 +1306,91 @@ The direct message identifies a straight worldtube with “BEC sea vacuum” and
 The raw export has 515 mapping nodes, 514 message-bearing nodes, and 10 outer user-role messages; nine user messages are on the selected current ancestry and one is off-ancestry. A message-ID cross-check of this ledger found nine of the ten IDs already represented; this message was the one missing current-ancestry acknowledgment. This additive entry corrects the broader “all ten already represented” coverage statement in the earlier h1117 receipt/current-work narrative. It does not alter the existing tags or the separate off-ancestry classification of message `a620a5cb-66cf-4f12-bf99-17ff232d2559`.
 
 No new theory interpretation, source-origin claim, worker assignment, or Loom recurrence reactivation follows from this tag. The workspace remains PAUSED / ACCESSIBLE-UNSCHEDULED.
+
+
+## AR. 2026-11-27 | Loom h1144:s0 | DIMENSIONAL GRAVITY continuation — moving-slice geometry, taxonomy and cross-temporal propagation
+
+**Source identity:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`; conversation ID `252d05c0-22ed-4ea2-a474-7966ab13145a`; HsH Git blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`. The raw export has 466 mapping nodes, 455 message-bearing nodes on the selected ancestry, and 138 user-role messages. This is a historical exploratory conversation, not current theory authority.
+
+**Read extent:** all 138 user-role message identities were extracted; substantive user-message review covered turns 1–131, with selected adjacent assistant replies for turns 1–15, 81–90 and 117–127. Turns 132–138 were not semantically reviewed. The direct messages contain descriptive geometry and hypotheses, not explicit coordinate equations. Equations in later Lean modules are assistant reconstructions, not verbatim Nathan equations.
+
+**Prior-coverage check:** the existing ledger already covers the first 30 messages in Section B and other previously tagged spans, including 31–60, 72, 75–78, 80, 91–110 and 128. This section adds only 34 previously untagged direct messages; no existing message tag was duplicated.
+
+### Direct user-role additions
+
+| Turn | Message ID | Timestamp | Source-level summary | Tags |
+|---:|---|---|---|---|
+| 71 | `aaa2491d-58f7-4fa3-8ee2-0734e0e071f8` | 2024-03-23T05:33:52.769Z | Proposes discrete confirmation/invalidation statements for gravitational deviations and dark-matter alternatives | PREDICTION-SET; DARK-MATTER-ALTERNATIVE; CONFIRMATION-INVALIDATION-CRITERIA; HYPOTHESIS |
+| 73 | `aaa2aa48-b2de-4981-9f05-1e093d8b3d5f` | 2024-03-23T05:41:20.163Z | Distinguishes SAT filaments from string-theory strings while asking about partial behavioral subsumption | SAT-STRING-THEORY-RELATION; NONIDENTITY-OF-STRING-ONTOLOGIES; SUBSUMPTION-QUESTION |
+| 74 | `aaa20582-a9f0-40fb-92e7-6d16587f644f` | 2024-03-23T05:43:15.328Z | Requests a distinct name to prevent string-theory conflation | TERMINOLOGY-RENAME-REQUEST; STRING-VS-FILAMENT |
+| 79 | `aaa2c975-9114-4226-8c7a-6b2505f16368` | 2024-03-23T05:49:42.982Z | Adopts “filaments” as the replacement term | FILAMENT-NAMING-DECISION; TERMINOLOGY |
+| 81 | `aaa24791-27b2-4b58-8f1a-19ee7e30d650` | 2024-03-23T06:14:56.575Z | Corrects causal attribution: structural complexity comes from 4D-structure interactions; time-surface intersection is 3D manifestation | COMPLEXITY-FROM-STRUCTURE-INTERACTIONS; TIME-SURFACE-AS-3D-MANIFESTATION; CORRECTIVE-CLARIFICATION |
+| 82 | `aaa20b64-380f-453d-ab4c-9f1d92c7f4a6` | 2024-03-23T06:16:30.609Z | Requests definitions of the 4D composite-structure levels | FOUR-D-STRUCTURE-GLOSSARY-REQUEST |
+| 83 | `aaa26108-2beb-4a76-b4bc-c2cb89a7fe5e` | 2024-03-23T06:28:03.113Z | Separates discrete bundles from large spheroidal ropes | BUNDLE-ROPE-DISTINCTION; DISCRETE-OBJECTS; SPHEROIDAL-ROPE; 3D-MANIFESTATION |
+| 84 | `aaa20da7-fb1e-4842-88e2-1b68509c043e` | 2024-03-23T06:28:43.957Z | Requests a concise taxonomy | FOUR-D-STRUCTURE-DEFINITIONS-REQUEST |
+| 85 | `aaa262cd-9631-42c9-842c-d96b698b2bab` | 2024-03-23T06:29:35.398Z | Reclassifies heloids, loops and tethers as rope morphologies | HELOID-LOOP-TETHER-AS-ROPE-MORPHOLOGIES; CLASSIFICATION-CORRECTION |
+| 86 | `aaa28f08-eb30-4f37-b94e-def30a789983` | 2024-03-23T06:39:08.878Z | Introduces 4D lacework and a collective “strands” term | FOUR-D-LACEWORK; STRANDS-COLLECTIVE-TERM; CROSS-TEMPORAL-TUG; GRAVITATIONAL-BINDING-HYPOTHESIS |
+| 87 | `aaa2ca24-b946-4878-a6e0-e74d235ab01c` | 2024-03-23T07:27:08.324Z | Presents an edited working taxonomy and time-surface/filament account | ELEMENTARY-STRUCTURES-DRAFT; TIME-SURFACE; FILAMENT-INTERSECTION; COMPOSITE-STRANDS; STRAND-COMPLEXES; GRAVITY-AS-CUMULATIVE-TUG; WORKING-DRAFT |
+| 88 | `aaa20ba7-c362-43a5-aeda-74db3669fd0d` | 2024-03-23T07:28:10.054Z | Requests concise editing without losing detail | EDITING-REQUEST; TERMINOLOGY-REFINEMENT |
+| 89 | `aaa28ab2-069c-43af-b93f-ecd00f671f85` | 2024-03-23T07:33:18.013Z | Requests an intuitive full-framework exposition | FULL-FRAMEWORK-SUMMARY-REQUEST |
+| 90 | `aaa22429-c2d9-40a9-81a6-056970044a9a` | 2024-03-23T07:39:11.980Z | Flags unresolved terminology/classification confusion | CLASSIFICATION-CONFUSION-REPORTED; ASSISTANT-SUMMARY-NOT-FINAL |
+| 111 | `aaa256ce-8c31-45a2-a424-af69f0947a5e` | 2024-03-28T05:26:10.684Z | Connects a particle's past/future interaction history to proposed present gravitational properties | PARTICLE-HISTORY; PAST-FUTURE-INTERACTION; GRAVITATIONAL-PROPERTIES |
+| 112 | `aaa2346b-4494-40da-9208-30f5aec56da3` | 2024-03-28T05:30:24.336Z | Extends cross-temporal energy-bleed hypothesis to complex astronomical systems | CROSS-TEMPORAL-ENERGY-TRANSFER; COMPLEXITY; ENERGY-BLEED-HYPOTHESIS; COSMOLOGICAL-AGE |
+| 113 | `aaa25db4-b18c-4325-b921-40d573be6b95` | 2024-03-28T05:32:44.251Z | Asks for age-estimation error directions and magnitudes | AGE-ESTIMATION-ERROR; PREDICTION-REQUEST |
+| 114 | `aaa267d7-6538-4461-968c-83ec04f5da17` | 2024-03-28T05:35:25.741Z | Asks whether age-method disparity could estimate changing energy bleed | AGE-UNDERESTIMATION; ENERGY-BLEED-MAGNITUDE; OBSERVATION-DISTANCE |
+| 115 | `aaa2f8cc-419e-4e7d-bab4-1b467e5e61f9` | 2024-03-28T05:36:25.544Z | Asks for magnitude of the proposed bleed | ENERGY-BLEED-MAGNITUDE-QUESTION |
+| 116 | `aaa276f9-78b7-4124-bf80-21fd0b54528c` | 2024-03-28T05:38:58.784Z | Proposes increasing pastward bleed as lacework becomes more complex | LACEWORK-GROWTH; TEMPORAL-ASYMMETRY; PASTWARD-PUSH-HYPOTHESIS |
+| 117 | `aaa28561-acfa-496d-a231-4e2975577c1e` | 2024-03-28T05:43:27.637Z | Asks how a pluck propagates through strings radiating from a central knot | CENTRAL-KNOT; RADIAL-FILAMENTS; PLUCKED-WAVE-PROPAGATION |
+| 118 | `aaa2ff3b-9c90-483a-a926-efdfe18f1339` | 2024-03-28T05:45:23.733Z | Defines a physical-string toy model with central knot and spherical boundary | PHYSICAL-STRING-TOY-MODEL; SPHERICAL-BOUNDARY; SYMMETRY-QUESTION; NOT-OBSERVATIONAL |
+| 119 | `aaa2fcdd-0206-4155-b016-47c30bd385c1` | 2024-03-28T05:46:22.708Z | Asks whether knot transfer creates directional bias | KNOT-COUPLING; NETWORK-TRANSFER; DIRECTIONAL-BIAS-QUESTION |
+| 120 | `aaa2f0e9-81de-4472-8ce3-a363ce11064d` | 2024-03-28T05:48:20.578Z | Imposes symmetry/perfect transfer and a midpoint pluck | SYMMETRY-ASSUMPTION; PERFECT-TRANSFER; MIDPOINT-PLUCK |
+| 121 | `aaa278f3-ccec-49b6-8908-46b8cd157d28` | 2024-03-28T05:50:26.673Z | Introduces contact/tangling as an asymmetry | CONTACT-COUPLING; TANGLED-STRANDS; ASYMMETRY |
+| 122 | `aaa21222-d2c0-473f-a4ab-d367b9d6cadf` | 2024-03-28T05:53:46.151Z | Lifts the string toy model to a 4D filament network and moving time surface | FOUR-D-FILAMENT-NETWORK; TIME-SURFACE; CROSS-TEMPORAL-ENERGY-PROPAGATION |
+| 123 | `aaa29248-4634-440a-82ed-1d04d759a6ef` | 2024-03-28T05:57:29.040Z | Proposes energy transfer into structures along the past-directed filament | PASTWARD-TRANSFER; INTERACTION-HISTORY; PARTICLE-STATE-COUPLING |
+| 124 | `aaa2fd9d-6fcb-4f8b-8395-5b667d5773e4` | 2024-03-28T06:00:01.928Z | Asks whether greater future-side complexity biases transfer toward the past | PAST-FUTURE-STRUCTURE-DENSITY; DIRECTIONAL-BIAS-HYPOTHESIS |
+| 125 | `aaa272aa-330d-43f2-a8e5-4f5bd5c0eb6c` | 2024-03-28T06:01:30.607Z | Proposes net pastward transfer as a possible expansion mechanism | NET-PASTWARD-TRANSFER; UNIVERSAL-EXPANSION-HYPOTHESIS |
+| 126 | `aaa2f9ca-d910-4986-9e0d-73ecfe64e972` | 2024-03-28T06:02:25.848Z | Asks whether future-side tangling increases inward transfer | FUTURE-ENTANGLEMENT; PASTWARD-TRANSFER-HYPOTHESIS |
+| 127 | `aaa2bc89-9d93-465f-bb74-6e40b3352af5` | 2024-03-28T06:05:01.463Z | Proposes high-energy events as a source of cross-temporal energy flux | HIGH-ENERGY-EVENT; CROSS-TEMPORAL-ENERGY-FLUX; PREDICTION |
+| 129 | `aaa26227-0c05-4cf7-8b37-7091cf0cd942` | 2024-03-28T06:14:32.797Z | Proposes interaction-history-dependent gravitational enhancement | INTERACTION-COMPLEXITY; GRAVITATIONAL-ENHANCEMENT-PREDICTION |
+| 130 | `aaa27672-5fe2-4227-8a2c-03e053aac37b` | 2024-03-28T06:15:55.873Z | Asks about planetary-scale observability | PLANETARY-SCALE-TESTABILITY-QUESTION |
+| 131 | `aaa28191-40e2-4583-abe1-ed9d90c7761b` | 2024-03-28T06:19:15.753Z | Uses Jupiter migration as a candidate differential-perturbation prediction | JUPITER-MIGRATION-HISTORY; DIFFERENTIAL-PERTURBATION-PREDICTION |
+
+### Selected assistant-message provenance (not Nathan Direct)
+
+| Assistant message ID | Timestamp | Tag | Source-fidelity note |
+|---|---|---|---|
+| `24509575-aa05-4b76-9eea-999ea8d1be69` | 2024-03-22T16:08:08Z | ASSISTANT-HELIX-MAXIMUM-RADIUS-ERROR | Treats a constant-radius helix as if it had a maximum-radius contact point; user immediately rejects this construction. |
+| `e7abb2e5-0991-408c-a5bb-4abbe26c6f55` | 2024-03-22T15:47:03Z | ASSISTANT-SLICE-SPEED-OVERCLAIM | Equates projected y-motion with slice speed without the required slope ratio. |
+| `5fff3c44-6847-41ad-874a-bb7233df1fa6` | 2024-03-22T16:21:03Z | ASSISTANT-AXIS-DRIFT / STEADY-RATE-OVERCLAIM | Changes the slice direction to negative y despite earlier z-slice context and accepts parabolas as steady-rate without checking. |
+| `0cea4943-2e90-4b95-9c01-bac0e2f71b6c` | 2024-03-23T06:15:04Z | ASSISTANT-CONTRADICTS-DIRECT-COMPLEXITY-CLARIFICATION | Recasts complexity as arising from interaction with the time surface after the direct user correction says otherwise. |
+| `b8a79785-924b-409e-98a1-3daee530d937` | 2024-03-23T06:16:38Z | ASSISTANT-PARTICLE-CLASSIFICATION-DRIFT | Places electrons among threads despite earlier direct placement of electrons at filament intersections. |
+| `5291b48c-f342-439e-9d17-613b1406edf6` | 2024-03-23T06:28:50Z | ASSISTANT-HELOID-AS-INDEPENDENT-LEVEL | Lists heloids separately before the user reclassifies them as rope morphologies. |
+| `38757fd9-6e35-4dc5-9a90-d67893c39995` | 2024-03-23T06:39:16Z | ASSISTANT-MORPHOLOGY-REVISION | Adopts heloid/loop/tether as rope morphologies and “strands” as a collective term. |
+| `658fcf34-fe17-4032-89e3-14c63544586e` | 2024-03-23T07:33:34Z | ASSISTANT-RADIAL-ASSUMPTION-PROMOTED | Presents the central radial origin as defining without preserving the earlier optional-geometry caveat. |
+| `c876ce4c-c867-491b-9034-243e488dc70b` | 2024-03-23T07:39:30Z | ASSISTANT-TAXONOMY-DUPLICATION / RADIAL-ASSUMPTION-PROMOTED | Repeats the radial origin and duplicates/overlaps bundle/rope classifications after the user flags terminology confusion. |
+| `e7f9f0e0-98e5-4e05-8bb2-147acecd5e25` | 2024-03-28T05:45:29Z | ASSISTANT-SYMMETRIC-TOY-ANSWER | Claims symmetric propagation for the physical-string toy under the user's symmetry assumption. |
+| `976408fd-a1e2-4be6-8976-b101c0dfda44` | 2024-03-28T05:46:26Z | ASSISTANT-KNOT-BIAS-SUGGESTION | Introduces a possible directional bias at the knot without material/geometry parameters. |
+| `9d4ee832-b6c2-4b91-9b06-f1b8086417dc` | 2024-03-28T05:53:51Z | ASSISTANT-SYMMETRY-REASSERTION | Reverts to no overall directionality for the network. |
+| `a1b382d2-8ffd-4a59-99e9-2bd1817ddb6d` | 2024-03-28T06:00:07Z | ASSISTANT-PASTWARD-BIAS-ACCOMMODATION | Accepts future-side complexity as a pastward bias without deriving a transfer law. |
+| `0458db06-5e78-45f7-9aef-bdfa0a430217` | 2024-03-28T06:01:34Z | ASSISTANT-EXPANSION-MECHANISM-ACCOMMODATION | Affirms net pastward transfer as a possible expansion driver without a model equation. |
+| `21367033-a856-41fc-9783-84323ba86039` | 2024-03-28T06:02:29Z | ASSISTANT-PASTWARD-BIAS-ACCOMMODATION | Again affirms the directional bias from future-side tangling without a defined mechanism. |
+
+### Historical Loom remit applied
+
+The separate `Tag Conversation Corpus` raw source (conversation ID `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`) contains ten direct user-role instructions: nine on its selected ancestry and one off-ancestry. They support cumulative tagging, chronology/earliest-occurrence recovery, selectivity review, frequency sorting, and SAT↔standard terminology crosswalks using interlinked definitions. No standalone signed Loom specialist charter or authenticated current Loom thread was recovered. The off-ancestry message remains historical context, not a current-thread instruction.
+
+**Attribution caution:** the current Training Source Map lists DIMENSIONAL GRAVITY as an early raw-conversation candidate, not current authority. The selected passages are native raw user-role messages in a ChatGPT conversation and contain no embedded alternate-speaker transcript in the passages reviewed; they are recorded as historical user-authored proposals, while assistant responses remain separately tagged. This does not promote them into BEDROCK.
+
+### Source-level geometry and unresolved structure
+
+- The early 3D toy begins with a straight axis, a helix and a moving plane. The direct corrections establish one intersection per curve/plane pair at a given slice, a stationary axial intersection in the chosen setup, and a circular trace for the fixed-radius helix as the plane advances.
+- The proposed two-parabola contact/separation construction is descriptive only. The direct source does not provide equations, coordinate orientation for every axis, a complete slice family, or a rate law. The user explicitly preferred visual/conceptual exploration at this stage.
+- The 4D lift proposes one-dimensional filaments and a three-dimensional “time surface” in a four-dimensional ambient structure. A filament/surface intersection is proposed as a particle readout. Multiple intersections are also contemplated, so a universal single-valued readout is not source-defined.
+- A spherical/radial origin is introduced as a simplifying assumption; the source later says the spherical form is not necessary and treats the whole construction as a heuristic.
+- The later taxonomy remains a working draft. The user explicitly flags classification confusion. The direct source places heloids/loops/tethers as rope morphologies and “strands” as a collective term for thread/twine/yarn/bundle levels, but the exact constructors and inclusion relations are not defined.
+- The user directly distinguishes complexity generated by interactions among 4D structures from the time-surface intersection that manifests them in 3D. The adjacent assistant summary reverses that causal attribution.
+- The later “tug” and cross-temporal energy-transfer proposals contain no defined force/energy tensor, constitutive law, units, boundary conditions, conservation statement, or measured system. They remain historical hypotheses, not equations or physical results.
+
+### Return cursor
+
+Continue at direct user turn 132 in the raw conversation, then crosswalk the 2024 time-surface/filament language against the later SAT4D and current H(s)H source genealogy. Do not infer a global foliation, Lorentzian metric, spherical topology, unique particle identity, braid-group action, or energy-transfer law from these messages alone.
