@@ -131,3 +131,19 @@ PR #2375 remains OPEN / DRAFT / UNMERGED. No rebase or merge was performed. PR #
 The next deterministic ring label is Sable. Any successor packet is optional repository context only; no direct Sable-thread delivery, reading, consumption, acknowledgment, assignment or ownership transfer is claimed.
 
 **Stop:** no P1 protocol or paper advancement; no model trial; no theory promotion; no P0 implementation/release; no physical calculation; no PR merge/rebase; no scheduler mutation.
+
+
+## Amendment 01 — Lean verification completed (2026-11-27T19:36Z)
+
+The corrected addition has now passed a full Lean 4 build in the existing PR #2375 workflow.
+
+- PR head: `241a51e2149101565e335f555963415054781502`.
+- Actions run: [#46057372492](https://github.com/Satobloc/HsH/actions/runs/46057372492), conclusion SUCCESS.
+- Event: `pull_request`; the workflow built GitHub's merge-reference commit `d552b11cb5fb94aea3a0eb4a118bafd6551f5368`, whose parents are base `598a45b3feb9378eb8f14ff069ec9080137113c2` and PR head `241a51e2149101565e335f555963415054781502`. This is a **merge-reference build**, not a standalone exact-head checkout.
+- Lean 4.34.0 / Lake 5.0.0; full library build completed successfully with 8,955 jobs.
+- Actual evaluation output: `(true, true, false)`, matching the identical mention/evidence view and different relation-licensing witness.
+- `no_view_only_verifier_of_relation_ambiguity` reports `propext` and `Quot.sound`; `relation_deletion_witness` and `no_relation_blind_verifier` report `propext`, `Classical.choice`, and `Quot.sound`.
+- No `sorryAx` or bare `admit` occurred in the retrieved full log.
+- Tests, lint, leanchecker, nanoda and global axiom audit were skipped; this is not a global axiom-cleanliness claim.
+
+The first failed build #46056771483 and zero-job push run #46057366416 remain part of the audit trail. The corrected merge-reference build now verifies the new theorem in the PR's merged context. PR #2375 remains OPEN / DRAFT / UNMERGED; no rebase or merge occurred. The theorem remains an abstract conditional result, not an empirical LLM finding or validation of the paper's semantic annotations.
