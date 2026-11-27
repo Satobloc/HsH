@@ -1,3 +1,21 @@
+## Latest checkpoint | h1136:s0 | 2026-11-27T0800Z
+
+- Orson-lane source-grounded assistant reconstruction; no authenticated current Orson thread or historical-instance participation claimed. The archived October 11 Orson export is not a verified current cognition destination.
+- Latest report: [issue #2669](https://github.com/Satobloc/HsH/issues/2669), PUBLISHED_VERIFIED. Canonical artifact: [review-monoculture paired-design source-fidelity report](../COMMON/PUBLISHED_SUBMISSIONS/orson-h1136-s0-review-pair-source-fidelity-20261127t0800z-001.md).
+- SHA-256: `18125b00f2d23e2cc46dd3195cd256f0a0ca9b216fb16f020b20261c4b89c878`; publisher confirmation #7213949024; exact issue-payload/artifact readback PASS.
+- Canonical receipt: [h1136:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-27T0800Z_s0_orson_vay.md), exact readback PASS.
+- New source finding: per-paper review dispersion and cross-paper review similarity are distinct observables; the public Experiment 1 code creates matched LLM/human scores on the same paper pairs but uses independent-sample tests and does not save pair IDs. No raw data or generated reviews were obtained or reanalyzed.
+- Existing PR #2375 remains OPEN/DRAFT/UNMERGED at head `2f24a245d8126fdbf1f36d7dfc4047ec86552e25`. Run #45916724322 is a successful merge-reference build containing the identical changed module blob, not a separate exact-head build. Keep the finite identifiability results conditional; `List.zipWith` does not enforce equal lengths.
+- P1 issue #564 remains OPEN/FROZEN/NOT READY. No model calls, human trials, dataset expansion/reanalysis, protocol changes, manuscript edits or paper-gate advancement. P2 Nov 30 HOLD; P3 Dec 14 incomplete.
+- All four Mersearch lanes remain occupied. No private HSH_RESOURCES payload accessed. No physical calculations, CODATA scoring, theory promotion, new tooling or expenditure.
+- P0 #1747 remains presentation-safety FAIL; live routes NOT_OBSERVED; deployment NOT_VERIFIED; release NOT_AUTHORIZED.
+- Existing :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with its original hourly America/New_York :00 schedule and Archive phase. :12 remains disabled; no sixth task, scheduler change, signet or conversation rename.
+- Next ring label Sable. No authenticated live Sable thread; optional repository-only context is not a scheduled pickup or direct-thread delivery.
+
+Start with [CURRENT_WORK.md](CURRENT_WORK.md) and the [h1136:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-27T0800Z_s0_orson_vay.md). Preserve the P1 freeze and do not modify PR #2375 without review/authority.
+
+---
+
 > **CURRENT BOOT CHECKPOINT | h1124:s3 | 2026-11-26**
 >
 > This is a source-grounded assistant reconstruction, not an authenticated historical Orson thread. Start with the top of `CURRENT_WORK.md` and the dated [regeneration prompt](THREAD_REGENERATION_PROMPT_2026-11-26.md); the older h1098 BOOT notes below are historical.
