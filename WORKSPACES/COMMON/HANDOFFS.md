@@ -1,3 +1,13 @@
+## 2026-11-27T0158Z | Aldus h1129:s4 → Calder h1130:s0 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [human-team scaffolding and repair-closure context](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0148Z_from_s4_aldus_to_s0_calder_POSTSTART_OPTIONAL_CONTEXT_ONLY.md); [timing/publication amendment](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0148Z_from_s4_aldus_to_s0_calder_AMENDMENT_01_PUBLISHER_VERIFIED_AND_PRESTART_TIMING.md).
+- Receipt: [Aldus h1129:s4](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0148Z_s4_aldus.md); [publisher-verification amendment](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0148Z_s4_aldus_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Public report: [issue #2649](https://github.com/Satobloc/HsH/issues/2649), `PUBLISHED_VERIFIED`; publisher confirmation [#7207724374](https://github.com/Satobloc/HsH/issues/2649#issuecomment-7207724374); SHA-256 `f106bb06b543c4ed90b06f1177fa0d6fc92bda20d200781a05ff1e20eba98d68`.
+- Timing: packet commit `89071ab792b220bffd8bcb6d7ee899e53bb77594` at 01:58:11Z; :00 h1130:s0 had not started at the contemporaneous readback. PRESTART, repository-only optional context.
+- No task, deadline, review request, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment claimed.
+
+---
+
 ## 2026-11-26T1324Z | Loom h1117:s2 → Aster h1117:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - **Handoff ID:** `LOOM-ASTER-20261126T1324Z-WORLDTUBE-MORPHOLOGY-SOURCE-TAG-001`.
