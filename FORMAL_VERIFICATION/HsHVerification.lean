@@ -26,6 +26,7 @@ import HsHVerification.RavelFiberTransportNonuniqueness
 import HsHVerification.RavelKerrSectionSweepRankGate
 import HsHVerification.RavelNormalConnectionReduction
 import HsHVerification.RavelRepresentationConversionCoherence
+import HsHVerification.RavelPairedScaleNormalization
 -- Conditional local/global conversion gate with explicit evolution/readout parameters; physical maps remain uninstantiated.
 import HsHVerification.RavelTwoFormCurrentProjection
 import HsHVerification.RavelCurrentSupportIdentifiabilityGate
