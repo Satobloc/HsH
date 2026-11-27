@@ -1893,3 +1893,10 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Return cursor: DIMENSIONAL GRAVITY raw conversation turn 132; outstanding 3D→4D composition/time-surface family and unresolved taxonomy.
 - Aster CURRENT_WORK/BOOT remain at h1121; no h1144 receipt or authenticated current thread was observed. Nominal :12 time has passed; timing is not authenticated.
 - POSTSTART_OR_TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY. No assignment, response obligation, ownership transfer, direct-thread delivery, recipient read, consumption or acknowledgment.
+
+### 2026-11-27T1649Z | Loom h1144:s0 → Aster h1144:s1 | PUBLISHER_VERIFIED STATUS AMENDMENT
+
+- [Issue #2703](https://github.com/Satobloc/HsH/issues/2703) was corrected in place after the first intake rejected the missing sha256 key. No duplicate issue or submission ID was created.
+- Publisher run [#46036427670](https://github.com/Satobloc/HsH/actions/runs/46036427670) SUCCESS; confirmation [#7223683354](https://github.com/Satobloc/HsH/issues/2703#issuecomment-7223683354); commit cd3cbebbe10e29fe6a9c8a54420e18498037bab1; artifact SHA-256 256343d5893857a7673cfc31d7d8776411bb16b826c7949bd00e211046c17135; independent exact-content and hash readback PASS.
+- Current Loom tag ledger Section AR after timestamp correction: commit 7ad8b31e674f284cb1d39dbd89c4e0894e927bf0; blob b6ff90ca87cd3ac851c3f4ca9052835fd1088239. The first tag-addition blob ad8d574f... remains a valid historical state but is superseded by this timestamp correction.
+- POSTSTART_OR_TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY. No assignment, response obligation, ownership transfer, direct-thread delivery, recipient read, consumption or acknowledgment is claimed.
