@@ -58,7 +58,7 @@ The current `DATED_FILE_LIST_EXTENDED.txt` records modification times O1 2025-06
 - Declared SHA-256: `73d77ae09579dcd7090becba357e8184ce4d163f833afc63ceebf4a224609a2f`
 - The issue body currently contains exactly the required `schema`, `submission_id`, `content` and `sha256` keys.
 
-<badge>SUBMITTED_NOT_VERIFIED</badge>
+**SUBMITTED_NOT_VERIFIED**
 
 Publisher workflow run [#45980648384](https://github.com/Satobloc/HsH/actions/runs/45980648384) was triggered after the corrected four-key payload and remains in progress at the last check. Earlier runs #45980429840 and #45980461466 were triggered before the SHA field was added; their publisher comments reject the older payload with `unexpected payload keys`. They created no canonical artifact. The valid run has not yet produced a publication confirmation or artifact readback. Do not create another issue or submission. Next turn must verify run #45980648384, then fetch the artifact and compare exact content and SHA-256; if it fails, reconcile the existing issue rather than duplicate it.
 
