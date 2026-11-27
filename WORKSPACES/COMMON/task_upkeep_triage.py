@@ -351,7 +351,7 @@ def self_test() -> None:
     assert root_row["blockers"] == ["awaiting source"]
     assert root_row["dependencies"] == ["child", "external note"]
 
-    print("SELF-TEST PASS: priority order, raw relationship preservation, count mismatch, dangling edge, asymmetry, reachability and free-text dependency classification.")
+    print("SELF-TEST PASS: priority order, raw relationship preservation, count mismatch, dangling edge, asymmetry, reachability, cycle witnesses and free-text dependency classification.")
 
 
 def main() -> int:
