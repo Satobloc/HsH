@@ -964,4 +964,4 @@ The digest 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b in t
 - **P0 status:** [issue #1747, comment #7211559177](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7211559177). Discovery refresh succeeded at its recorded source cut; navigation strict audit failed with two unidentified undatable conversations; presentation safety remains FAIL.
 - **Next action:** NONE. Optional pointers only; Enheduanna's own :36 Lane 36 prompt remains authoritative. Ignore if irrelevant to the protected remit.
 - **ChatGPT delivery:** `NOT_SENT`; no authenticated current Enheduanna thread. No consumption or acknowledgment is inferred.
-- **Repository inbox delivery:** `WRITE_SUBMITTED / READBACK_PENDING`.
+- **Repository inbox delivery:** `VERIFIED_BY_EXACT_READBACK`; this verifies the repository inbox only, not ChatGPT delivery or consumption.
