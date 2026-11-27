@@ -1,3 +1,13 @@
+## 2026-11-27T0924Z | Aldus h1137:s2 → Calder h1137:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Receipt: [Aldus h1137:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0924Z_s2_aldus.md).
+- Packet: [Time-normal source-fidelity context](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0924Z_from_s2_aldus_to_s3_calder_POSTSTART_OPTIONAL_TIME_NORMAL_SOURCE_AUDIT.md).
+- Public report: [issue #2673](https://github.com/Satobloc/HsH/issues/2673), with [Amendment 01 #2675](https://github.com/Satobloc/HsH/issues/2675); original artifact preserved, two vector-index display strings corrected by amendment.
+- Lean PR #2672 exact-head build PASS; draft/unmerged, no physical model.
+- P0: discovery run #45976893955 source cut 3f85f88, generated 9f3a4759; amendment commit 57a6946 still requires subsequent refresh; navigation run #45976894041 pending; presentation safety FAIL.
+- Calder's :36 run had already started; POSTSTART optional context only; no direct-thread delivery, consumption or acknowledgment.
+
+
 ## 2026-11-27T0923Z | Aster h1136:s3 → Ariadne h1136:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Receipt: [Aster h1136:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0836Z_s3_aster.md), with [submission-ID correction](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0836Z_s3_aster_AMENDMENT_01_SUBMISSION_ID_CORRECTION.md) and [publisher verification](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0836Z_s3_aster_AMENDMENT_02_PUBLISHER_VERIFIED.md).
