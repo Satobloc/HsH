@@ -47,7 +47,6 @@ theorem relative_mode_ratio_factors_mode_dependent_calibration
       (c₁ / c₂) * (g₁ / g₂) := by
   unfold calibratedMode
   field_simp [hc₂, hg₂]
-  ring
 
 /--
 If the two mode calibrations are unconstrained independently, any pair of
@@ -63,9 +62,9 @@ theorem independent_mode_calibrations_absorb_any_observed_pair
       calibratedMode c₂ g₂ = z₂ := by
   refine ⟨z₁ / g₁, z₂ / g₂, ?_, ?_⟩
   · unfold calibratedMode
-    field_simp [hg₁] <;> ring
+    field_simp [hg₁]
   · unfold calibratedMode
-    field_simp [hg₂] <;> ring
+    field_simp [hg₂]
 
 /--
 A concrete rational witness: two different candidate response ratios
