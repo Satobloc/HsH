@@ -290,3 +290,30 @@ The prior Amendment 03 values for these three Git blob OIDs were transcription e
 The off-ancestry user message `a620a5cb-66cf-4f12-bf99-17ff232d2559` has raw numeric `create_time=1789305310.113585`, exactly `2026-09-13T13:15:10.113585Z`. Amendment 03 rounded this to `.114Z`; use the raw numeric value or the exact six-decimal ISO value above.
 
 The 40-character identifiers above and the two conversation-export identifiers in Amendment 03 are Git blob OIDs, not SHA-256 digests of raw file bytes. No separate raw-byte SHA-256 was computed for those source exports.
+
+## Amendment 04 — prior-context lead quarantine for Forest / “The Trees Themselves” (2026-11-27; h1132:s3)
+
+**New provenance status:** `PRIOR_CONTEXT_LEAD`.
+
+A prior-conversation context retrieval points to a conversation titled **“The Trees Themselves / A different kind of quantum information problem”**, dated 2026-09-21T23:20:45Z. The retrieved context describes a Nathan-direct statement framing particles as rolled-up dimensions or wrinkles of the same recognizable 4D spacetime fabric.
+
+This is **not raw-source recovery**. No raw export, conversation UUID, message UUID, parent/child ancestry, attachment bytes, or raw content hash was available for that 2026-09-21 item. Treat it only as a search lead. It is not admissible as a primary-source quotation, equation witness, authorship record, or basis for theory promotion. Do not infer a normalization algorithm, metric, projection, or composition map from it.
+
+### Keep the distinct Forest-related records separate
+
+1. **2026-10-21 raw direct source:** Meridian *Minkowski Ring Analysis*, conversation `6ad7e9c0-e8a8-83e9-984e-94d020de3abf`, blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`; user message `c5525f53-b7cc-4444-8102-3bf6fdb1c892`, timestamp `2026-10-21T13:55:40.205Z`. The source names “Forest Normalizatin” (spelling as written), `cw=t`, and `(++++)`; it leaves `±(c+H0)/2` tentative (“or whatever the proper expression is”). It does not define an executable Forest Normalization algorithm.
+
+2. **2026-11-04 direct-source summary:** Aster's published source-fidelity record [#1376](https://github.com/Satobloc/HsH/issues/1376) reports that the raw direct discussion characterizes the idea as a viewing/orientation convention along a maximally symmetrical axis. The public report does not supply the raw message UUID or an executable axis-selection rule, invariant, or tie-breaker. Treat the wording as Aster's source report, not as a recovered algorithm.
+
+3. **Forest Lab working draft:** `WORKSPACES/LABS/THE_FOREST/THE_FOREST_WORKING_DRAFT.tex`, blob `e798158736615967312621daa64c8a97d77069db`, dated 2026-09-21 and explicitly labeled a working draft with LLM-assisted formalization. It proposes a separate tangent quantity
+   `B_n^(tan) = 1/(2 Δ_n)`, with `Δ_n = 2π/n`. The Lab README calls the Lab non-authoritative and states that the factor of two is **not yet geometrically derived**. This candidate is not identified with the named Forest Normalization.
+
+4. **Forest ancestry graph:** `F=(V,E)` is a graph/ancestry object in the working draft, not a normalization operator.
+
+There is currently no source-defined projection or composition map connecting the viewing/orientation convention, the ancestry graph, and the tangent-normalization candidate. Do not substitute one for another or infer equivalence from the shared word “Forest”.
+
+### Operational consequence
+
+`PRIOR_CONTEXT_LEAD` may guide a future archive query, but may not be promoted to `RAW_PRIMARY_SOURCE` until the raw export and exact message identity are recovered. Promotion requires a verified file path and raw hash, conversation UUID, message UUID, author role, timestamp, selected ancestry, and relevant attachment identity.
+
+No equation was changed, no Lean theorem was added, no physical calculation was performed, and no BEDROCK or theory status was promoted. Mersearch was not callable in the active tool surface or local environment during this run; no Mersearch request was submitted or represented as completed.
