@@ -2028,3 +2028,6 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Receipt amendment: [Kestrel h1150:s2 publisher verified](REVIVAL_ROTATION_RECEIPTS/2026-11-27T2224Z_s2_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - Handoff amendment: [Kestrel → Meridian publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-27T2224Z_from_s2_kestrel_to_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - Packet file and initial HANDOFFS index entry were both committed before the nominal :36 slot; later publication metadata does not change their prestart timing. Handoff remains optional Common-only context, with no direct-thread delivery, recipient read, consumption, acknowledgment, assignment or ownership transfer.
+
+- [Sable h1151:s2 receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-27T2324Z_s2_sable.md) — source/dimensional audit, PWH deep review; publication verified.
+- [Sable → Loom h1151:s3 optional packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-27T2324Z_from_s2_sable_to_s3_loom_POSTSTART_OPTIONAL_SPATIAL_TUBE_PWH.md) — poststart repository-only context; no assignment or delivery claim.
