@@ -58,7 +58,6 @@ theorem axialSliceCoordinate_turn_increment (pitch phase : ℝ) :
   unfold axialSliceCoordinate
   have h2pi : 2 * Real.pi ≠ 0 := by positivity
   field_simp [h2pi]
-  ring
 
 /-- A nonzero pitch makes the axial coordinate distinguish successive turns. -/
 theorem axialSliceCoordinate_turn_changes
@@ -121,15 +120,10 @@ theorem axialSliceCoordinate_injective
     Function.Injective (axialSliceCoordinate pitch) := by
   intro a b h
   have h2pi : 2 * Real.pi ≠ 0 := by positivity
-  have hmul : pitch * a = pitch * b := by
-    have h' := h
-    unfold axialSliceCoordinate at h'
-    field_simp [h2pi] at h'
-    exact h'
-  have hzero : pitch * (a - b) = 0 := by nlinarith [hmul]
-  rcases mul_eq_zero.mp hzero with hp | hab
-  · exact (hpitch hp).elim
-  · linarith
+  have h' := h
+  unfold axialSliceCoordinate at h'
+  field_simp [hpitch, h2pi] at h'
+  exact h'
 
 /-- Adding the slice coordinate restores injectivity of the ideal helix
     parameterization when pitch is nonzero. -/
@@ -160,7 +154,6 @@ theorem readout_factors_through_slice_resolved_observation
       axialSliceCoordinate pitch phase * (2 * Real.pi) / pitch = phase := by
     unfold axialSliceCoordinate
     field_simp [hpitch, h2pi]
-    ring
   dsimp [decode, sliceResolvedObservation]
   rw [hphase]
 
