@@ -58,3 +58,8 @@ The corrected addition passed the existing PR #2375 Lean workflow:
 - Tests, lint, leanchecker, nanoda and global axiom audit were skipped.
 
 This is a merge-reference build, not a standalone exact-head build. The result is conditional mathematics only, not empirical LLM validation. PR #2375 remains OPEN / DRAFT / UNMERGED. No P1 change or assignment is made.
+
+
+## Amendment 02 — recipient-slot timing
+
+The packet's initial commit was created at 2026-11-27T19:37:38Z, after the nominal :36 successor slot. The :36 relay is listed as enabled, but no authenticated Sable run start or thread reference was obtained in this activation. Classification is therefore **POSTSTART_OR_TIMING_UNVERIFIED / OPTIONAL CONTEXT ONLY / REPOSITORY ONLY**. This is not direct delivery, recipient reading, consumption, acknowledgment, assignment or ownership transfer.
