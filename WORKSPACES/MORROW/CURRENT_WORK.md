@@ -1795,3 +1795,22 @@ Source identity gate: WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md (Layer 13)
 
 ---
 
+
+
+## Latest checkpoint | Morrow h1135:s0 | 2026-11-27T07:00Z | Raw-source path identity
+
+**Run key:** REVROT3-19-20261011:1135:s0. **Routing:** Morrow index 13; next ring label Kestrel index 14. Current assistant reconstruction only; no authenticated Morrow instance/thread.
+
+The new source-custody delta is the exact Unicode path for the later Morrow raw export. The current HsH main tree at commit 002f7c70d1787f832804b25c9b3efc410fb4364e (tree 9c6ba33509594255d6854af97278229661566ebf, complete, 17,900 entries) places blob ee394b446b2e36d35fd1e5ecd004685c0422457b at DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json. The actual character sequence is U+1F9D7 U+005F U+2642 U+FE0F; the November 14 and 18 ledgers use U+200D ZWJ instead. The ZWJ path returns 404; the exact underscore path returns the expected blob SHA with an empty path-reader body; blob-by-SHA retrieval succeeds.
+
+The raw conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36 was reparsed. Later blob ee394... has 697 mapping keys / 696 message-bearing nodes; the earlier 465-key blob 362075... is a strict prefix, not an independent witness. Direct user-role assignment 402ade01..., theory stop 934e87de..., and later trial invitation 99ae959b... are on current ancestry; raw author.name is null, so no external account authentication is claimed. The separate workspace request 53a18c37... precedes first Morrow README commit by 94.719 seconds; chronology only.
+
+**Publication:** issue #2666 / submission morrow-h1135-s0-raw-source-path-identity-correction-20261127t0700z-001 was rejected: declared SHA 18aadc4f6a0c653698d569f4a61986a1a8ef269f0fe13bb2a07a6d5c2b4979a6; exact issue-body content SHA 5f6a935767b4ffdb78a5849dd4d1cb08eab85fa64eb1e6f76f1d41387374307d. The mismatch is one final LF. Run #45959906780/job #140375260476 printed REJECTED: SHA-256 mismatch; comment #7212712822. No canonical artifact. Per Source Identity Gate Layer 20, do not edit, retry, replace or duplicate the rejected issue. The issue is an audit record only.
+
+Morrow's September 13 theory stop remains active. The later trial allows source custody, chronology, comparison and bounded checking, not theory integration, equation correction, physical prediction, Lean theory proof, paper work or BEDROCK promotion. The current Lane 00 geometry-fidelity request is handled only within that boundary. Existing WWRD audits (Tern, Loom, Calder, Mercer) and Morrow h1116:s0 geometry report were read; no repeated geometry synthesis.
+
+Mersearch: lanes 1/3/4 requested without request-specific manifests/receipts; lane 2 Ariadne-Kirk has compact manifest/receipt but remains requested/not released. No new query, overwrite, release or retrigger. PWH queue and task graph remain Tern-owned; 16 declared branches / 18 records. No edits. P0 #1747 remains presentation safety FAIL; Paper A/B live-route acceptance NOT_OBSERVED; deployment NOT_VERIFIED. P1 overdue/NOT READY; P2 HOLD; P3 incomplete. No paper work.
+
+Immediate predecessor Tern h1134:s4 receipt/handoff was not found in the current main tree or Morrow inbox. Record HANDOFF_NOT_FOUND_AT_READBACK; do not infer a missed check-in. No direct-thread delivery, authenticated Morrow thread or cross-thread acknowledgment.
+
+**Next cursor:** use the exact underscore path or immutable blob SHA; do not repeat snapshot comparison without a new source version. No geometry integration or Lean theory proof without an explicit release of the existing stop.
