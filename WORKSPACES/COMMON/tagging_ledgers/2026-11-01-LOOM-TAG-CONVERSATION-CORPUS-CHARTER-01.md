@@ -1359,8 +1359,8 @@ No new theory interpretation, source-origin claim, worker assignment, or Loom re
 
 | Assistant message ID | Timestamp | Tag | Source-fidelity note |
 |---|---|---|---|
-| `24509575-aa05-4b76-9eea-999ea8d1be69` | 2024-03-22T16:08:08Z | ASSISTANT-HELIX-MAXIMUM-RADIUS-ERROR | Treats a constant-radius helix as if it had a maximum-radius contact point; user immediately rejects this construction. |
-| `e7abb2e5-0991-408c-a5bb-4abbe26c6f55` | 2024-03-22T15:47:03Z | ASSISTANT-SLICE-SPEED-OVERCLAIM | Equates projected y-motion with slice speed without the required slope ratio. |
+| `24509575-aa05-4b76-9eea-999ea8d1be69` | 2024-03-22T15:58:46.441Z | ASSISTANT-HELIX-MAXIMUM-RADIUS-ERROR | Treats a constant-radius helix as if it had a maximum-radius contact point; user immediately rejects this construction. |
+| `e7abb2e5-0991-408c-a5bb-4abbe26c6f55` | 2024-03-22T15:47:09.141Z | ASSISTANT-SLICE-SPEED-OVERCLAIM | Equates projected y-motion with slice speed without the required slope ratio. |
 | `5fff3c44-6847-41ad-874a-bb7233df1fa6` | 2024-03-22T16:21:03Z | ASSISTANT-AXIS-DRIFT / STEADY-RATE-OVERCLAIM | Changes the slice direction to negative y despite earlier z-slice context and accepts parabolas as steady-rate without checking. |
 | `0cea4943-2e90-4b95-9c01-bac0e2f71b6c` | 2024-03-23T06:15:04Z | ASSISTANT-CONTRADICTS-DIRECT-COMPLEXITY-CLARIFICATION | Recasts complexity as arising from interaction with the time surface after the direct user correction says otherwise. |
 | `b8a79785-924b-409e-98a1-3daee530d937` | 2024-03-23T06:16:38Z | ASSISTANT-PARTICLE-CLASSIFICATION-DRIFT | Places electrons among threads despite earlier direct placement of electrons at filament intersections. |
