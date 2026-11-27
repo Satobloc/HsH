@@ -128,20 +128,20 @@ theorem grouped_dependency_path_preserves_fold
       foldOf u = foldOf v := by
   intro u v hPath
   induction hPath with
-  | refl u => rfl
-  | step hEdge hTail ih =>
-      rcases hEdge with ⟨edge, hMem, hGroup, hOrientation⟩
-      have hEdgeEq : foldOf u = foldOf v := by
+  | refl x => rfl
+  | @step x y z hxy hyz ih =>
+      have hxyFold : foldOf x = foldOf y := by
+        rcases hxy with ⟨edge, hMem, hGroup, hOrientation⟩
         rcases hOrientation with ⟨hLeft, hRight⟩ | ⟨hLeft, hRight⟩
         · calc
-            foldOf u = foldOf edge.left := congrArg foldOf hLeft.symm
+            foldOf x = foldOf edge.left := congrArg foldOf hLeft.symm
             _ = foldOf edge.right := hSafe edge hMem hGroup
-            _ = foldOf v := congrArg foldOf hRight
+            _ = foldOf y := congrArg foldOf hRight
         · calc
-            foldOf u = foldOf edge.right := congrArg foldOf hRight.symm
+            foldOf x = foldOf edge.right := congrArg foldOf hRight.symm
             _ = foldOf edge.left := (hSafe edge hMem hGroup).symm
-            _ = foldOf v := congrArg foldOf hLeft
-      exact hEdgeEq.trans ih
+            _ = foldOf y := congrArg foldOf hLeft
+      exact hxyFold.trans ih
 
 /--
 Composes with the existing channel-to-acquisition factorization: if channel
@@ -177,6 +177,108 @@ theorem cross_fold_excludes_grouped_dependency_path
     ¬ DependencyPath (MustGroupRelation edges) u v := by
   intro hPath
   exact hDifferent (grouped_dependency_path_preserves_fold edges foldOf hSafe hPath)
+
+/--
+A complete claim-conditioned holdout evidence bundle.
+
+The bundle composes three distinct requirements:
+1. channel folds factor through the declared acquisition-unit map;
+2. every declared dependency edge is admissible under its claim-specific
+   treatment (unresolved edges fail; shared-nuisance edges carry a covariance
+   model locator);
+3. every co-group edge is respected by the unit-level fold assignment.
+
+The policy, unit-map, fold-plan, edge and covariance locators are metadata.
+Their authenticity and semantic correctness remain external source-review
+obligations. This bundle is not a proof of statistical independence.
+-/
+structure ClaimConditionedHoldoutPlan
+    (Channel Unit Fold : Type*) where
+  claimPolicySource : EvidenceLocator
+  unitMapSource : EvidenceLocator
+  foldPlanSource : EvidenceLocator
+  unitOf : Channel → Unit
+  channelFold : Channel → Fold
+  unitFold : Unit → Fold
+  edges : List (DependencyEdge Unit)
+  channelFoldFactors : ∀ c, channelFold c = unitFold (unitOf c)
+  everyDependencyEdgeAdmissible :
+    ∀ edge, edge ∈ edges → DependencyEdgeAdmissible edge
+  coGroupFoldSafe : FoldRespectsCoGroupEdges edges unitFold
+
+/-- Every edge in an admitted plan is non-unresolved. -/
+theorem plan_excludes_unresolved_edges
+    {Channel Unit Fold : Type*}
+    (plan : ClaimConditionedHoldoutPlan Channel Unit Fold)
+    (edge : DependencyEdge Unit)
+    (hMem : edge ∈ plan.edges) :
+    edge.treatment ≠ .unresolved :=
+  (plan.everyDependencyEdgeAdmissible edge hMem).1
+
+/-- A shared nuisance may cross folds only with a declared covariance-model locator. -/
+theorem plan_shared_nuisance_requires_covariance_model
+    {Channel Unit Fold : Type*}
+    (plan : ClaimConditionedHoldoutPlan Channel Unit Fold)
+    (edge : DependencyEdge Unit)
+    (hMem : edge ∈ plan.edges)
+    (hShared : edge.treatment = .modelSharedNuisance) :
+    edge.covarianceModel.isSome = true :=
+  (plan.everyDependencyEdgeAdmissible edge hMem).2 hShared
+
+/--
+The complete plan composes channel-to-unit factorization with transitive
+co-group closure: channels whose units are connected by required dependency
+edges cannot be assigned to different folds.
+-/
+theorem plan_channel_path_preserves_fold
+    {Channel Unit Fold : Type*}
+    (plan : ClaimConditionedHoldoutPlan Channel Unit Fold)
+    {c₁ c₂ : Channel}
+    (hPath :
+      DependencyPath (MustGroupRelation plan.edges)
+        (plan.unitOf c₁) (plan.unitOf c₂)) :
+    plan.channelFold c₁ = plan.channelFold c₂ :=
+  channel_fold_constant_on_dependency_path
+    plan.unitOf plan.channelFold plan.unitFold plan.channelFoldFactors
+    plan.edges plan.coGroupFoldSafe hPath
+
+/-- A cross-fold pair cannot be connected by a required co-group path in an admitted plan. -/
+theorem plan_cross_fold_excludes_dependency_path
+    {Channel Unit Fold : Type*}
+    (plan : ClaimConditionedHoldoutPlan Channel Unit Fold)
+    {c₁ c₂ : Channel}
+    (hDifferent : plan.channelFold c₁ ≠ plan.channelFold c₂) :
+    ¬ DependencyPath (MustGroupRelation plan.edges)
+      (plan.unitOf c₁) (plan.unitOf c₂) := by
+  intro hPath
+  exact hDifferent (plan_channel_path_preserves_fold plan hPath)
+
+/-! Finite logical contract smoke checks; these are not physical fixtures or measurements. -/
+private def contractTestLocator : EvidenceLocator :=
+  ⟨"contract-test", by decide⟩
+
+private def unresolvedContractTestEdge : DependencyEdge Bool :=
+  { left := false, right := true, kind := .sharedInstrument,
+    treatment := .unresolved, source := contractTestLocator }
+
+private def sharedNuisanceWithoutModelTestEdge : DependencyEdge Bool :=
+  { left := false, right := true, kind := .sharedCalibrationDataset,
+    treatment := .modelSharedNuisance, source := contractTestLocator,
+    covarianceModel := none }
+
+private def sharedNuisanceWithModelTestEdge : DependencyEdge Bool :=
+  { left := false, right := true, kind := .sharedCalibrationDataset,
+    treatment := .modelSharedNuisance, source := contractTestLocator,
+    covarianceModel := some contractTestLocator }
+
+#eval decide (DependencyEdgeAdmissible unresolvedContractTestEdge)
+#eval decide (DependencyEdgeAdmissible sharedNuisanceWithoutModelTestEdge)
+#eval decide (DependencyEdgeAdmissible sharedNuisanceWithModelTestEdge)
+
+#print axioms plan_excludes_unresolved_edges
+#print axioms plan_shared_nuisance_requires_covariance_model
+#print axioms plan_channel_path_preserves_fold
+#print axioms plan_cross_fold_excludes_dependency_path
 
 #print axioms unresolved_dependency_edge_blocks_admission
 #print axioms shared_nuisance_without_covariance_blocks_admission
