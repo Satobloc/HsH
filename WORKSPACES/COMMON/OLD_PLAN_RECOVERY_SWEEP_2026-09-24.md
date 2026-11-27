@@ -222,12 +222,12 @@ Existing implementations to reconcile, not duplicate:
 
 ### Ordered priorities after the current search segment
 
-**FIRST — WORKFLOW / LLM METHODOLOGY SOURCE RECOVERY.**
+**FIRST — WORKFLOW / LLM METHODOLOGY SOURCE RECOVERY (TARGET: UP TO ABOUT ONE DAY, POSSIBLY LESS).**
 - Search for and compile the source material bearing on workflow, LLM remit, worker roles, repository use, capture/shelving/resumption, routing, checks and handoffs.
 - Preserve source pointers and distinguish Nathan's statements from assistant reconstruction, inference and proposals.
 - This is source collection and compilation, not yet a claim that we have a complete or precise workflow theory.
 
-**SECOND — SCIENTIFIC / EPISTEMIC METHODOLOGY CONSOLIDATION.**
+**SECOND — SCIENTIFIC / EPISTEMIC METHODOLOGY CONSOLIDATION (TARGET: ABOUT ONE DAY).**
 - Restate and codify the scientific and epistemic method precisely from source material and corrections. Search for `Hale`, `tier` / `tiers`, `SAT Rigorous` and similar podcast transcripts (manual transcript search if necessary), `RMS`, and `epistemology`. Preserve source chronology and distinguish Nathan's original statements, assistant reconstructions, inference and new proposals.
 - Include the recovered scientific-method vocabulary: anomaly-led discovery of structural problems; backhallway searches; constant torquing; torque-wrench normalisation; the star-shaped derivation map; propagation of known constraints into unknowns; and consistency within each Level of Description.
 - Deliverable: a precise, source-grounded scientific / epistemic method statement, reviewed with Nathan and then committed and independently read back.
