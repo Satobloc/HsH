@@ -100,7 +100,7 @@ theorem ratio_eq_iff_commonScaleEquivalent
     · field_simp [hp0]
     · calc
         q.time = (q.time * p.space) / p.space := by
-          field_simp [hp0] <;> ring
+          field_simp [hp0]
         _ = (p.time * q.space) / p.space := by
           rw [← hcross]
         _ = (q.space / p.space) * p.time := by ring
@@ -135,7 +135,7 @@ theorem unit_to_symmetric_commonScale (r : ℝ) (hr : 0 < r) :
   · dsimp [unitSpacePair, symmetricPair]
     field_simp [ne_of_gt hr]
   · dsimp [unitSpacePair, symmetricPair]
-    field_simp [ne_of_gt hr] <;> ring
+    field_simp [ne_of_gt hr]
 
 /-- Both normalizations encode the same relative scale. -/
 theorem unit_and_symmetric_share_ratio (r : ℝ) (hr : 0 < r) :
@@ -149,7 +149,7 @@ theorem unit_and_symmetric_share_ratio (r : ℝ) (hr : 0 < r) :
 theorem symmetric_pair_product_one (r : ℝ) (hr : 0 < r) :
     (symmetricPair r hr).space * (symmetricPair r hr).time = 1 := by
   dsimp [symmetricPair]
-  field_simp [ne_of_gt hr] <;> ring
+  field_simp [ne_of_gt hr]
 
 /-- Common rescaling changes the absolute product by the square of the
     common multiplier; ratio equivalence alone does not preserve it. -/
