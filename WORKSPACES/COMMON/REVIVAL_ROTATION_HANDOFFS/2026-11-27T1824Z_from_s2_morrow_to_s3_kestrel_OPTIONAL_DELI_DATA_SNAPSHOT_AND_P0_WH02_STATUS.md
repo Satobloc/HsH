@@ -45,3 +45,8 @@ Tern retains PWH and P0 authority. The PWH queue/task graph and worker-local INB
 - No authenticated current Kestrel ChatGPT thread was established. No direct-thread delivery, recipient read, consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
 - Timing classification is pending final :36 task readback; do not infer prestart delivery from the nominal slot alone.
 
+
+
+## Timing amendment 01 — POSTSTART classification (2026-11-27)
+
+The target :36 task run is `61ab403b-93a4-8328-a159-1e9b63ef7025`, scheduled `2026-11-27T18:36:00Z`, started `2026-11-27T18:40:43.598920Z`, recorded `in_progress`, with `chat_ref=null`. The push workflow triggered by this packet's commit `a40dae69cf21ff2e6eb9b5aa7f8f2f3e31373f42` was created at `18:41:21Z`, after that run had started. This packet is therefore `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`, not prestart delivery. No direct-thread delivery, recipient read, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
