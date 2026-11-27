@@ -15,7 +15,8 @@ Lean proves only that, if those typed inputs and binding attestations are
 correct, an accepted disclosure predicate contains the required visible
 sandbox label, review-state text, and an accessible, visible provenance link in the same captured tree. The link projection records accessibility-tree membership, semantic role, and the browser-computed accessible name.
 It does not authenticate the browser, compute SHA-256, derive the accessibility tree, parse live DOM, or
-establish a live reader route.
+establish a live reader route. The adapter must also bind the visible navigation-label projection and its
+link-node association into the same capture-digest/parser-binding projection.
 -/
 
 namespace HsHVerification.AsterCaptureBoundDisclosure
@@ -58,6 +59,16 @@ structure CapturedElement where
   href : Option String
 deriving DecidableEq, Repr
 
+/-- A visible navigation label explicitly associated by the capture adapter with one source-link node.
+    The label and association must be part of the same capture-digest projection. Lean checks the
+    declared node relation; it does not infer visual grouping or DOM/ARIA relationships. -/
+structure CapturedNavigationLabel where
+  nodeId : String
+  sourceLinkNodeId : String
+  visible : Bool
+  text : String
+deriving DecidableEq, Repr
+
 def visibleTextPresent (elements : List CapturedElement) (expected : String) : Bool :=
   elements.any fun element =>
     nonemptyString element.nodeId &&
@@ -74,6 +85,27 @@ def visibleLinkTargetPresent (elements : List CapturedElement) (expectedTarget :
     match element.href with
     | some target => nonemptyString target && decide (target = expectedTarget)
     | none => false
+
+/-- Require nonempty visible navigation text to be explicitly associated with the same captured
+    semantic link whose accessible name and exact target pass the provenance-link predicate.
+    A label may be the link's own visible text or a separate visible label for an icon-only link. -/
+def visibleNavigationLabelForTargetPresent (elements : List CapturedElement)
+    (labels : List CapturedNavigationLabel) (expectedTarget : String) : Bool :=
+  labels.any fun label =>
+    nonemptyString label.nodeId &&
+    nonemptyString label.sourceLinkNodeId &&
+    label.visible &&
+    nonemptyString label.text &&
+    elements.any fun element =>
+      nonemptyString element.nodeId &&
+      decide (element.nodeId = label.sourceLinkNodeId) &&
+      element.visible &&
+      element.accessibilityTreeIncluded &&
+      isInheritingLinkRole element.semanticRole &&
+      nonemptyString element.computedAccessibleName &&
+      match element.href with
+      | some target => nonemptyString target && decide (target = expectedTarget)
+      | none => false
 
 /-- Icon-only links are allowed only when their computed accessible name is
     nonempty and the link is actually included in the accessibility tree. -/
@@ -133,6 +165,48 @@ def hiddenLink : CapturedElement :=
     computedAccessibleName := "Open source"
     href := some "pinned-source" }
 
+def iconNavigationLabel : CapturedNavigationLabel :=
+  { nodeId := "navigation-label-1"
+    sourceLinkNodeId := "source-link-1"
+    visible := true
+    text := "Open accepted Paper A source" }
+
+def visibleTextNavigationLabel : CapturedNavigationLabel :=
+  { nodeId := "source-link-2"
+    sourceLinkNodeId := "source-link-2"
+    visible := true
+    text := "Open source" }
+
+def orphanNavigationLabel : CapturedNavigationLabel :=
+  { nodeId := "orphan-label"
+    sourceLinkNodeId := "other-link"
+    visible := true
+    text := "Open accepted Paper A source" }
+
+def hiddenNavigationLabel : CapturedNavigationLabel :=
+  { nodeId := "hidden-label"
+    sourceLinkNodeId := "source-link-1"
+    visible := false
+    text := "Open accepted Paper A source" }
+
+def emptyNavigationLabel : CapturedNavigationLabel :=
+  { nodeId := "empty-label"
+    sourceLinkNodeId := "source-link-1"
+    visible := true
+    text := "" }
+
+def ariaHiddenNavigationLabel : CapturedNavigationLabel :=
+  { nodeId := "aria-hidden-label"
+    sourceLinkNodeId := "source-link-3"
+    visible := true
+    text := "Open accepted Paper A source" }
+
+def wrongRoleNavigationLabel : CapturedNavigationLabel :=
+  { nodeId := "wrong-role-label"
+    sourceLinkNodeId := "source-link-5"
+    visible := true
+    text := "Open accepted Paper A source" }
+
 #eval visibleLinkTargetPresent [accessibleIconLink] "pinned-source"
 #eval visibleLinkTargetPresent [visibleTextLink] "pinned-source"
 #eval visibleLinkTargetPresent [ariaHiddenLink] "pinned-source"
@@ -140,6 +214,15 @@ def hiddenLink : CapturedElement :=
 #eval visibleLinkTargetPresent [wrongRoleLink] "pinned-source"
 #eval visibleLinkTargetPresent [hiddenLink] "pinned-source"
 #eval visibleLinkTargetPresent [accessibleIconLink] "different-source"
+
+#eval visibleNavigationLabelForTargetPresent [accessibleIconLink] [iconNavigationLabel] "pinned-source"
+#eval visibleNavigationLabelForTargetPresent [visibleTextLink] [visibleTextNavigationLabel] "pinned-source"
+#eval visibleNavigationLabelForTargetPresent [accessibleIconLink] [orphanNavigationLabel] "pinned-source"
+#eval visibleNavigationLabelForTargetPresent [accessibleIconLink] [hiddenNavigationLabel] "pinned-source"
+#eval visibleNavigationLabelForTargetPresent [accessibleIconLink] [emptyNavigationLabel] "pinned-source"
+#eval visibleNavigationLabelForTargetPresent [ariaHiddenLink] [ariaHiddenNavigationLabel] "pinned-source"
+#eval visibleNavigationLabelForTargetPresent [wrongRoleLink] [wrongRoleNavigationLabel] "pinned-source"
+#eval visibleNavigationLabelForTargetPresent [accessibleIconLink] [iconNavigationLabel] "different-source"
 
 theorem accessibility_tree_regression_matrix :
     visibleLinkTargetPresent [accessibleIconLink] "pinned-source" = true ∧
@@ -149,6 +232,17 @@ theorem accessibility_tree_regression_matrix :
     visibleLinkTargetPresent [wrongRoleLink] "pinned-source" = false ∧
     visibleLinkTargetPresent [hiddenLink] "pinned-source" = false ∧
     visibleLinkTargetPresent [accessibleIconLink] "different-source" = false := by
+  decide
+
+theorem navigation_label_regression_matrix :
+    visibleNavigationLabelForTargetPresent [accessibleIconLink] [iconNavigationLabel] "pinned-source" = true ∧
+    visibleNavigationLabelForTargetPresent [visibleTextLink] [visibleTextNavigationLabel] "pinned-source" = true ∧
+    visibleNavigationLabelForTargetPresent [accessibleIconLink] [orphanNavigationLabel] "pinned-source" = false ∧
+    visibleNavigationLabelForTargetPresent [accessibleIconLink] [hiddenNavigationLabel] "pinned-source" = false ∧
+    visibleNavigationLabelForTargetPresent [accessibleIconLink] [emptyNavigationLabel] "pinned-source" = false ∧
+    visibleNavigationLabelForTargetPresent [ariaHiddenLink] [ariaHiddenNavigationLabel] "pinned-source" = false ∧
+    visibleNavigationLabelForTargetPresent [wrongRoleLink] [wrongRoleNavigationLabel] "pinned-source" = false ∧
+    visibleNavigationLabelForTargetPresent [accessibleIconLink] [iconNavigationLabel] "different-source" = false := by
   decide
 
 /-- The expected public review/sandbox labels are bound to one exact feed blob.
@@ -180,6 +274,7 @@ structure CapturedReaderTree where
   sourceBlob : GitBlobSha1
   feedBlob : GitBlobSha1
   elements : List CapturedElement
+  navigationLabels : List CapturedNavigationLabel
   parserBindingVerified : Bool
 deriving DecidableEq, Repr
 
@@ -189,7 +284,8 @@ def disclosureTreePasses (tree : CapturedReaderTree)
   tree.parserBindingVerified &&
   visibleTextPresent tree.elements review.sandboxClassificationText &&
   visibleTextPresent tree.elements review.reviewStateText &&
-  visibleLinkTargetPresent tree.elements source.canonicalTarget
+  visibleLinkTargetPresent tree.elements source.canonicalTarget &&
+  visibleNavigationLabelForTargetPresent tree.elements tree.navigationLabels source.canonicalTarget
 
 /-- The disclosure tree must be the same capture, route, deployment, source,
     and feed as the existing route observation and state. -/
@@ -287,6 +383,20 @@ theorem disclosure_tree_pass_requires_visible_pinned_source_target
     cases h5 : visibleLinkTargetPresent tree.elements sourceBinding.canonicalTarget <;>
     simp_all
 
+theorem disclosure_tree_pass_requires_visible_navigation_label
+    (tree : CapturedReaderTree) (review : ReviewStateBinding)
+    (sourceBinding : SourceTargetBinding)
+    (h : disclosureTreePasses tree review sourceBinding = true) :
+    visibleNavigationLabelForTargetPresent tree.elements tree.navigationLabels sourceBinding.canonicalTarget = true := by
+  unfold disclosureTreePasses at h
+  cases h1 : sha256Shape tree.captureDigest <;>
+    cases h2 : tree.parserBindingVerified <;>
+    cases h3 : visibleTextPresent tree.elements review.sandboxClassificationText <;>
+    cases h4 : visibleTextPresent tree.elements review.reviewStateText <;>
+    cases h5 : visibleLinkTargetPresent tree.elements sourceBinding.canonicalTarget <;>
+    cases h6 : visibleNavigationLabelForTargetPresent tree.elements tree.navigationLabels sourceBinding.canonicalTarget <;>
+    simp_all
+
 theorem accepted_with_disclosure_requires_capture_binding
     (s : State) (e : WorkflowTriggerEvidence)
     (observation : Option RouteObservationWitness) (tree : CapturedReaderTree)
@@ -320,5 +430,7 @@ theorem accepted_with_disclosure_requires_capture_binding
 #print axioms disclosure_tree_pass_requires_visible_pinned_source_target
 #print axioms accepted_with_disclosure_requires_capture_binding
 #print axioms accessibility_tree_regression_matrix
+#print axioms navigation_label_regression_matrix
+#print axioms disclosure_tree_pass_requires_visible_navigation_label
 
 end HsHVerification.AsterCaptureBoundDisclosure
