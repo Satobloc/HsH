@@ -119,7 +119,10 @@ theorem no_frame_decoder_from_carrier_solver
   intro h
   rcases h with ⟨decode, hdecode⟩
   apply no_relativeFrame01_factorization s f hf
-  exact ⟨fun input => decode (solver input), hdecode⟩
+  refine ⟨fun input => decode (solver input.1), ?_⟩
+  intro t
+  simpa [HsHVerification.NadirProjectionCoarseGrainFactorization.imageProjection] using
+    hdecode t
 
 /-- A lossless candidate adapter carries the carrier input and the frame
     channel separately. -/
