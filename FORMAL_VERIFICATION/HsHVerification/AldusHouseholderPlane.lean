@@ -51,26 +51,26 @@ theorem timeNormalPlaneMetric_involutive (θ : ℝ) :
     nlinarith [Real.sin_sq_add_cos_sq (2 * θ)]
 
 /-- General metric-induction form g(v,w)=⟪v,w⟫-2⟪v,u⟫⟪u,w⟫. -/
-def timeNormalInducedForm {E : Type*} [InnerProductSpace ℝ E]
+def timeNormalInducedForm {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E]
     (u v w : E) : ℝ :=
   inner ℝ v w - 2 * inner ℝ v u * inner ℝ u w
 
 /-- The induced form is symmetric. -/
 theorem timeNormalInducedForm_symmetric
-    {E : Type*} [InnerProductSpace ℝ E] (u v w : E) :
+    {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E] (u v w : E) :
     timeNormalInducedForm u v w = timeNormalInducedForm u w v := by
   simp [timeNormalInducedForm, real_inner_comm, mul_comm, mul_left_comm, mul_assoc]
 
 /-- A unit normal is the negative direction of the induced form. -/
 theorem timeNormalInducedForm_normal_negative
-    {E : Type*} [InnerProductSpace ℝ E] {u : E}
+    {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E] {u : E}
     (hu : inner ℝ u u = 1) :
     timeNormalInducedForm u u u = -1 := by
   simp [timeNormalInducedForm, hu]
 
 /-- Directions orthogonal to the unit normal retain the positive background form. -/
 theorem timeNormalInducedForm_spatial_positive
-    {E : Type*} [InnerProductSpace ℝ E] {u v : E}
+    {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E] {u v : E}
     (hu : inner ℝ u u = 1) (hv : inner ℝ v u = 0) :
     timeNormalInducedForm u v v = inner ℝ v v := by
   simp [timeNormalInducedForm, hv, real_inner_comm]
