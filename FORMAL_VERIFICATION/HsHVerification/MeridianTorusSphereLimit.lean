@@ -5,6 +5,7 @@ namespace HsHVerification.MeridianTorusSphereLimit
 noncomputable section
 
 /-- A Cartesian point used only for the standard Euclidean torus parameterization. -/
+@[ext]
 structure Point3 where
   x : ℝ
   y : ℝ
