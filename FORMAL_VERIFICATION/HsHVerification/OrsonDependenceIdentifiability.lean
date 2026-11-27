@@ -426,3 +426,95 @@ theorem marginal_samples_do_not_identify_pairwise_differences :
 #print axioms marginal_samples_do_not_identify_pairwise_differences
 
 end HsHVerification.OrsonReviewFeatureErrorIdentifiability
+
+
+/-!
+# Semantic memory derivation: relation-deletion identifiability
+Assistant reconstruction, 2026-11-27.
+
+Primary source: Liu and Zhao, "Memory Is a Derivation: The Distributed-Evidence
+Paradox in Long-Term Agents", arXiv:2609.36130, Appendix A, Lemma 1.
+
+The source's representation-deletion boundary says that if two candidate
+memories differ in a truth-conditional relation but the verifier receives
+the same mention-only representation and evidence, a verifier factoring
+only through that representation cannot distinguish the candidates.
+
+The finite schema below keeps an abstract relation-licensing bit separate
+from the view delivered to a verifier. It is a logical witness only:
+not a model output, measured cognition, human annotation, empirical
+verification result, or reproduction of DerivAudit.
+-/
+
+namespace HsHVerification.OrsonMemoryDerivation
+
+/-- A candidate memory has mentioned entities, an evidence view, and a
+    separate truth-conditional relation-licensing status. -/
+structure MemoryCandidate where
+  mentions : Finset Nat
+  evidence : Finset Nat
+  relationLicensed : Bool
+  deriving DecidableEq
+
+/-- The verifier's input projection omits the relation-licensing status. -/
+def mentionEvidenceView (m : MemoryCandidate) : Finset Nat × Finset Nat :=
+  (m.mentions, m.evidence)
+
+/-- A verifier is correct on every candidate only if its output equals the
+    candidate's relation-licensing status for the supplied view. -/
+def relationVerifierCorrect
+    (verify : (Finset Nat × Finset Nat) → Bool) : Prop :=
+  ∀ m : MemoryCandidate, verify (mentionEvidenceView m) = m.relationLicensed
+
+/-- If two candidates have the same verifier-visible projection but different
+    relation-licensing statuses, no verifier using only that projection can
+    classify both correctly. This is a generic fiber-identifiability result
+    for the declared projection, not an empirical claim about any model. -/
+theorem no_view_only_verifier_of_relation_ambiguity
+    (left right : MemoryCandidate)
+    (sameView : mentionEvidenceView left = mentionEvidenceView right)
+    (differentLicense : left.relationLicensed ≠ right.relationLicensed) :
+    ¬ ∃ verify : (Finset Nat × Finset Nat) → Bool,
+        relationVerifierCorrect verify := by
+  rintro ⟨verify, hcorrect⟩
+  apply differentLicense
+  calc
+    left.relationLicensed = verify (mentionEvidenceView left) :=
+      (hcorrect left).symm
+    _ = verify (mentionEvidenceView right) := by rw [sameView]
+    _ = right.relationLicensed := hcorrect right
+
+/-- Two candidates retain the same mentions and evidence but differ in
+    whether the relation between those mentions is licensed. -/
+def licensedRelationCandidate : MemoryCandidate :=
+  ⟨{1, 2}, {10, 20}, true⟩
+
+def unlicensedRelationCandidate : MemoryCandidate :=
+  ⟨{1, 2}, {10, 20}, false⟩
+
+theorem relation_deletion_witness :
+    mentionEvidenceView licensedRelationCandidate =
+      mentionEvidenceView unlicensedRelationCandidate ∧
+    licensedRelationCandidate.relationLicensed ≠
+      unlicensedRelationCandidate.relationLicensed := by
+  constructor <;> decide
+
+theorem no_relation_blind_verifier :
+    ¬ ∃ verify : (Finset Nat × Finset Nat) → Bool,
+        relationVerifierCorrect verify := by
+  exact no_view_only_verifier_of_relation_ambiguity
+    licensedRelationCandidate unlicensedRelationCandidate
+    relation_deletion_witness.1 relation_deletion_witness.2
+
+#eval (
+  mentionEvidenceView licensedRelationCandidate =
+    mentionEvidenceView unlicensedRelationCandidate,
+  licensedRelationCandidate.relationLicensed,
+  unlicensedRelationCandidate.relationLicensed
+)
+
+#print axioms no_view_only_verifier_of_relation_ambiguity
+#print axioms relation_deletion_witness
+#print axioms no_relation_blind_verifier
+
+end HsHVerification.OrsonMemoryDerivation
