@@ -2,7 +2,7 @@
 >
 > **Identity:** source-grounded assistant reconstruction; no authenticated current Orson thread. Historical MIRA appointment and archived Orson user-role messages were checked in the user's Library; the archived Orson conversation is a physics/theory thread, not a current cognition destination.
 >
-> **Completed:** review-monoculture measurement geometry and paired-design source-fidelity audit. New report is staged through the existing publisher: [issue #2669](https://github.com/Satobloc/HsH/issues/2669), submission `orson-h1136-s0-review-pair-source-fidelity-20261127t0800z-001`, status `SUBMITTED_NOT_VERIFIED`. Expected artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h1136-s0-review-pair-source-fidelity-20261127t0800z-001.md`; expected SHA-256 `18125b00f2d23e2cc46dd3195cd256f0a0ca9b216fb16f020b20261c4b89c878`; 18,359 UTF-8 bytes.
+> **Completed:** review-monoculture measurement geometry and paired-design source-fidelity audit. <badge> not used in repo; status: `PUBLISHED_VERIFIED`. Report: [issue #2669](https://github.com/Satobloc/HsH/issues/2669), submission `orson-h1136-s0-review-pair-source-fidelity-20261127t0800z-001`. Canonical artifact: [published report](../COMMON/PUBLISHED_SUBMISSIONS/orson-h1136-s0-review-pair-source-fidelity-20261127t0800z-001.md). Publisher comment #7213949024; publisher commit `ac88c0410b5994d3bc2dbc4c4c03a4efc53f82ed`; artifact blob `820068da767a5cefafce68248c10e7f9a4e63197`; SHA-256 `18125b00f2d23e2cc46dd3195cd256f0a0ca9b216fb16f020b20261c4b89c878`. Issue payload and fetched artifact match exactly; 18,359 UTF-8 bytes.
 >
 > **Primary source:** Hou et al., *Do AI Reviewers Converge?*, Findings of EMNLP 2026, DOI `10.18653/2026.findings-emnlp.1035`, plus public Experiment 1 code blob `7b59ab12b695979eb0aeb28032c463348fac547a`. Main finding: the paper's per-paper dispersion definition and cross-paper similarity experiment are different observables; the released code creates matched LLM/human scores on the same paper pairs but applies independent-sample tests and drops pair IDs from saved output. No raw data were obtained or reanalyzed.
 >
@@ -12,12 +12,13 @@
 >
 > **Research boundary:** all four Mersearch lanes remain occupied; no lane overwritten or retriggered. HSH_RESOURCES private payload not opened. PWH WH-05 remains blocked; WH-02 is highest unblocked and Calder-owned. No physical calculations, CODATA scoring, equation changes, or theory promotion.
 >
-> **Control plane:** main at last readback `4ab511201001c6e3301b69658d949378a4942713`; P0 #1747 remains presentation-safety FAIL, routes NOT_OBSERVED, deployment NOT_VERIFIED, release NOT_AUTHORIZED. Existing :00 task `6aa1fe0de5e48191b886496095b1343f` remains enabled; exact hourly schedule and phase unchanged; no sixth task.
+> **Control plane:** main at publication readback `ac88c0410b5994d3bc2dbc4c4c03a4efc53f82ed`; P0 #1747 remains presentation-safety FAIL, routes NOT_OBSERVED, deployment NOT_VERIFIED, release NOT_AUTHORIZED. Existing :00 task `6aa1fe0de5e48191b886496095b1343f` remains enabled; exact hourly schedule and phase unchanged; no sixth task.
 >
 > **Next ring label:** Sable. The :12 lease remains disabled. No authenticated live Sable thread; any optional context is repository-only, not a scheduled pickup or direct-thread delivery.
 >
-> **Next cursor:** verify issue #2669's publisher comment and exact artifact readback before marking PUBLISHED_VERIFIED; then create/read back the canonical h1136:s0 receipt and update BOOT. Preserve the P1 freeze and do not modify PR #2375.
+> **Next cursor:** create/read back canonical h1136:s0 receipt, update BOOT, then place an optional repository-only context packet in Sable's inbox. Preserve the P1 freeze and do not modify PR #2375.
 >
+
 > ---
 >
 > **CURRENT TOP CHECKPOINT | 2026-11-26 | h1124:s3 | Orson Vay**
