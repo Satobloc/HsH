@@ -965,3 +965,15 @@ Append-only correction to the applied DeliData witness and issue #2696 (issue co
 - The issue body and canonical artifact remain immutable. This is an append-only source-attribution correction, not a republished or replaced artifact.
 
 Status remains: CONVERSION_COLLISION_MECHANISM_CONFIRMED / DISTINCT_GROUP_COUNT_NOT_VERIFIED / EXACT_ROW_TYPE_COUNTS_NOT_VERIFIED / SAME_SNAPSHOT_IDENTITY_NOT_ESTABLISHED.
+
+
+### Layer 22 source-version amendment — h1142:s3
+
+Append-only correction to issue #2696 (comment #7221776904):
+
+- The documentation page actually inspected is titled **ConvoKit 5.0.0 documentation**; it reports 17,111 utterances and 500 conversations. The 17,111/500 documentation count must not be attributed to version 4.1.2.
+- The conversion code was separately inspected at ConvoKit tag v4.1.2 (tag commit 7825beeca5ce43b00a9402d9a6773514613eb923). Its conversion notebook blob is 7ae63bdaa713f03ce1adc0b052d3d6198467b9c8; its corpus.py blob is 4be85709b26a76d2ee7bc71c7a34d96c8f48dd38.
+- Current ConvoKit master at commit 91a1df0143668d8e0017f932f97ac878e53b91fa retains the same conversion notebook blob and the same dictionary-key construction in corpus.py at line 220; current corpus.py blob is 18ff79042c5a36154180b8ea7d33e8fccdef87a6.
+- The exact hosted-corpus source snapshot remains unidentified. The count-collision mechanism is code-supported in both inspected code states, but the 499-row attribution remains conditional on the raw row-type and distinct-group census.
+
+The issue body and published artifact remain immutable; this is a source-version correction, not a republished report.
