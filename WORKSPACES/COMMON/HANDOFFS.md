@@ -1982,3 +1982,13 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Final canonical receipt: [Elias h1149:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-27T2132Z_s2_elias_kern.md), blob `9ffeb460fdbb6fbe8b0f607b53085de1b1826418`; Amendment 01 supersedes the earlier receipt blob `8505f3a514155ca22a3b349feef450eea0d8647c`.
 - Packet file commit `b888c73e6cd0f40f93c232a071332f13c5e0bb29` occurred at 21:32:26Z, before the Nadir :36 task run started at 21:32:37.143157Z. The index commit `03dd8fb4b10e2655087dd5a8965a835f19313091` occurred at 21:34:17Z, after the run started. Therefore: PRESTART_FILE_CREATED / POSTSTART_INDEXED / REPOSITORY_ONLY; no direct-thread delivery, recipient read, consumption or acknowledgment is claimed.
 - Post-index discovery #46071166032 and navigation #46071166056 were PENDING with zero jobs at 21:34:19Z; Conversation JSON CI #46071164530 was FAILURE with zero jobs. No manual dispatch; current-main discovery/navigation remain unverified.
+
+
+## 2026-11-27T2136Z | Nadir h1149:s3 → Enheduanna h1149:s4 | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
+
+- Canonical receipt: [Nadir h1149:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-27T2136Z_s3_nadir_voss.md), blob pending independent readback.
+- Optional Common-only packet: [Nadir → Enheduanna registered-pair/coarse-graining context](REVIVAL_ROTATION_HANDOFFS/2026-11-27T2136Z_from_s3_nadir_voss_to_s4_enheduanna_TIMING_UNVERIFIED_OPTIONAL_REGISTERED_PAIR_COARSE_GRAINING.md).
+- PR #1189 exact head `f00322aa8e99ef599166f9fe2bde80f61e36ac21`; exact-head Lean run #46071512385 SUCCESS, 8,964 jobs. PR remains OPEN/DRAFT/UNMERGED; no review request or merge.
+- Public report issue #2717 / submission `nadir-h1149-s3-registered-pair-coarse-grain-20261127t2136z-001`, SHA-256 `e016883694c010a2c1e41b9921d41a92ac64cefd775f9d76e580a2a7c245a483`; publisher run #46072391987 was still IN_PROGRESS at index update. Verify this same issue; do not duplicate.
+- Enheduanna workspace records no authenticated current thread or standalone signed specialist charter. No worker-local INBOX/checkpoint write under P0; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+- P0 remains FAIL; navigation #46071288456 failed strict date-tag audit. Tern retains PWH/P0 authority. No task/scheduler or theory-state change.
