@@ -37,6 +37,7 @@ import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import Mathlib
 import HsHVerification.NadirAngleConvention
+import HsHVerification.AsterRun099AdapterGate
 
 /-! Smoke test for the HsH formal-verification pipeline.
     Compilation proves only the stated mathematics, not a physical model. -/
