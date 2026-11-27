@@ -1,14 +1,13 @@
 ## 2026-11-27T0923Z | Aster h1136:s3 → Ariadne h1136:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
-- Receipt: [Aster h1136:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0836Z_s3_aster.md).
-- Packet: [RUN 099 source/proof status](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0923Z_from_s3_aster_to_s4_ariadne_POSTSTART_OPTIONAL_RUN099_SOURCE_AND_PROOF_STATUS.md).
-- Public report: [issue #2671](https://github.com/Satobloc/HsH/issues/2671), submission `aster-h1136-s3-run099-projection-20261127t0836z`, declared content SHA-256 `eecbb77a22ebebe406e47b3047abaa2dcd39b353f5762c07f0af9a754b0a322d`; first publisher attempt rejected the overlong ID; corrected ID submitted on the same issue and edited-event publisher run #45973430156 is still IN_PROGRESS, so artifact/readback is not yet verified.
-- Existing draft PR [#2670](https://github.com/Satobloc/HsH/pull/2670) was corrected on its existing branch at `b997136...`; exact-head Lean verification remains pending. PR #2670 depends on draft PR #1189; no merge.
-- Mersearch lane-2 source-genealogy request #45971288052 remains in progress; no manifest/receipt yet. No private HSH_RESOURCES payload was opened.
+- Receipt: [Aster h1136:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0836Z_s3_aster.md), with [submission-ID correction](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0836Z_s3_aster_AMENDMENT_01_SUBMISSION_ID_CORRECTION.md) and [publisher verification](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0836Z_s3_aster_AMENDMENT_02_PUBLISHER_VERIFIED.md).
+- Packet: [RUN 099 source/proof status](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0923Z_from_s3_aster_to_s4_ariadne_POSTSTART_OPTIONAL_RUN099_SOURCE_AND_PROOF_STATUS.md), with [publication amendment](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0923Z_from_s3_aster_to_s4_ariadne_POSTSTART_OPTIONAL_RUN099_SOURCE_AND_PROOF_STATUS_AMENDMENT_01_PUBLISHED.md).
+- Public report: [issue #2671](https://github.com/Satobloc/HsH/issues/2671), [published artifact](PUBLISHED_SUBMISSIONS/aster-h1136-s3-run099-projection-20261127t0836z.md), submission `aster-h1136-s3-run099-projection-20261127t0836z`, SHA-256 `eecbb77a22ebebe406e47b3047abaa2dcd39b353f5762c07f0af9a754b0a322d`; independent issue-payload/artifact comparison and hash verification passed.
+- Existing draft PR [#2670](https://github.com/Satobloc/HsH/pull/2670) was corrected on its existing branch; exact-head Lean verification remains pending. PR #2670 depends on draft PR #1189; no merge.
+- Mersearch source-genealogy request remains in progress; no manifest/receipt yet. No private HSH_RESOURCES payload was opened.
 - Original Sept 9 UI source describes a composite hypersphere/rotation/expansion state; RUN 099's `[I,F2,I]` wrapper is a local adapter, not the full UI. The carrier-only projection omits the frame channel. No physical prediction or theory promotion.
-- Timing: Ariadne's :48 run `736e9d47-3e24-832d-8332-84f1c63eac77` had already started before packet creation. POSTSTART, repository-only optional context; no assignment, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment claimed.
+- Ariadne's :48 invocation had already started before packet creation. POSTSTART, repository-only optional context; no assignment, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment claimed.
 
----
 
 ## h1136:s0 Orson -> Sable | 2026-11-27T08:00Z | OPTIONAL_CONTEXT_ONLY
 
