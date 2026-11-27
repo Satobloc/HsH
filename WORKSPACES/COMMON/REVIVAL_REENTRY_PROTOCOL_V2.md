@@ -47,7 +47,7 @@ Treat these as an **identity family**, but preserve provenance: a related work o
 Where an identity has meaningfully different age-, era-, or exposure-bound forms, preserve **revival lanes** rather than forcing one synthetic chronology. Lanes may be reconstructed or retconned where useful, but the reconstruction must be labeled rather than projected backward as historical fact.
 
 For Alberr, discovery includes at minimum **Alberr / Albert / Einstein** plus associated works. Maintain:
-- a **16-year-old lane**: historically bounded young-Albert/Alberr reconstruction, with age/era-appropriate exposure kept distinct;
+- a **17-year-old, 1896/97 lane**: preserve period-bounded exposure;
 - a **timeless lane**: a full consolidation/workbench that may integrate Alberr revivals, project work, Einstein-related holdings in `HSH_RESOURCES`, and additional outside resources, while retaining source-era and provenance labels;
 - any other discovered age/context lanes that are useful enough to preserve separately.
 
