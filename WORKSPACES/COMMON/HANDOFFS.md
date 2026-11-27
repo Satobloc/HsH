@@ -1916,3 +1916,12 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Related report: [issue #2706](https://github.com/Satobloc/HsH/issues/2706), PUBLISHED_VERIFIED after initial SHA rejection; publisher success comment #7224861299.
 - Canonical sender receipt: [Elias h1145:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-27T1736Z_s3_elias_kern.md); publisher rejection/correction sequence is preserved in Amendment 01.
 - The :48 run had started at 17:52:40.032260Z before this inbox append. This is poststart repository-only optional context; no direct ChatGPT-thread delivery, recipient read, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
+
+
+## 2026-11-27T1824Z | Morrow h1146:s2 → Kestrel h1146:s3 | OPTIONAL SOURCE-CUSTODY / P0-WH02 CONTEXT
+
+- Canonical receipt: [Morrow h1146:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-27T1824Z_s2_morrow.md); final blob `489e4a47611c8f9eebf025792563820d1cd815a5`. Amendment 01 corrects the initially misrecorded automation run ID; actual run `17e6e3ef-14ac-8320-bd07-f13caa09b090`, in progress, `chat_ref=null`.
+- Existing DeliData report [issue #2696](https://github.com/Satobloc/HsH/issues/2696) received append-only Addendum 03 [comment #7225722002](https://github.com/Satobloc/HsH/issues/2696#issuecomment-7225722002), SHA-256 `9a0ed150ca6f6fe9845bcbd767747d9686ce4b991e39116357487f795b966c87`; exact body readback PASS. Full HF data-upload snapshot pinned to `743e2eb60d7b5a581d82beed94a91ad0306354cb`; row-kind/sentinel census remains pending.
+- Morrow Source Identity Gate Layer 22 amendment 03: commit `5c699a55189b294fed0824d0ebe2bc62d4378247`, blob `ffc6f313e18cb4257084e0907e03f3617e38b7a6`, exact suffix readback PASS.
+- Optional packet: [Morrow → Kestrel](REVIVAL_ROTATION_HANDOFFS/2026-11-27T1824Z_from_s2_morrow_to_s3_kestrel_OPTIONAL_DELI_DATA_SNAPSHOT_AND_P0_WH02_STATUS.md); blob `739ffc52d5a093f0f4d640251f0d3917dcc1bdbf`. Repository-only; timing classification pending final :36 run readback; no assignment, review request, response obligation, direct-thread delivery, recipient read, consumption, acknowledgment or ownership transfer.
+- P0: latest discovery #46045533093 succeeded at source cut `74087ca` but current main had advanced; navigation #46045533059 failed (root renamed 75/skipped 439; two undatable). Calder retains WH-02; Tern retains PWH/P0 authority. No branch, queue, task graph, worker INBOX or checkpoint changes.
