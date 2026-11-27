@@ -214,7 +214,7 @@ theorem augmentedView_injective :
 theorem relativeFrame_comp [Group Frame]
     (s : Run099State Center Frame) :
     relativeFrame s 1 2 * relativeFrame s 0 1 = relativeFrame s 0 2 := by
-  simp [relativeFrame] using
+  simpa [relativeFrame] using
     HsHVerification.NadirFrameTelescoping.leftRelative_comp
       (s.frames 0) (s.frames 1) (s.frames 2)
 
