@@ -323,7 +323,7 @@ def relationship_detail_lines(values: Any, known_ids: set[str], label: str,
                    if not (isinstance(value, str) and value in known_ids)]
 
     def preview(items: list[Any]) -> str:
-        shown = [str(item).replace("\\n", " ")[:180] for item in items[:max_items]]
+        shown = [str(item).replace("\n", " ")[:180] for item in items[:max_items]]
         if len(items) > max_items:
             shown.append(f"+{len(items) - max_items} more")
         return "; ".join(shown)
@@ -387,6 +387,9 @@ def self_test() -> None:
     assert relationship_detail_lines(root_row["dependencies"], known_ids, "DEPENDENCIES") == [
         "DEPENDENCIES IDs: child",
         "DEPENDENCIES text/external (1): external note",
+    ]
+    assert relationship_detail_lines(["line one\\nline two"], known_ids, "BLOCKERS") == [
+        "BLOCKERS text/external (1): line one line two"
     ]
 
     print("SELF-TEST PASS: priority order, relationship detail, count mismatch, dangling edge, asymmetry, reachability, cycle witnesses and dependency classification.")
