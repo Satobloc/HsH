@@ -376,7 +376,9 @@ theorem scoped_first_witness_requires_nonempty_candidate_set
     {C : CoverageManifest} (w : ScopedFirstWitness C) :
     C.candidateEvents ≠ [] := by
   intro hEmpty
-  simp [hEmpty] at w.witnessInCandidateSet
+  have hWitness : w.witness ∈ C.candidateEvents :=
+    w.witnessInCandidateSet
+  simp [hEmpty] at hWitness
 
 theorem first_extant_and_first_public_are_distinct_claims :
     ChronologyClaimKind.earliestExtantKnown ≠
