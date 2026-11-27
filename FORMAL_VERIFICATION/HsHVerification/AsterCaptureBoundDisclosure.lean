@@ -13,8 +13,8 @@ verification flags are inputs, not facts established by Lean.
 
 Lean proves only that, if those typed inputs and binding attestations are
 correct, an accepted disclosure predicate contains the required visible
-sandbox label, review-state text, and source link in the same captured tree.
-It does not authenticate the browser, compute SHA-256, parse live DOM, or
+sandbox label, review-state text, and an accessible, visible provenance link in the same captured tree. The link projection records accessibility-tree membership, semantic role, and the browser-computed accessible name.
+It does not authenticate the browser, compute SHA-256, derive the accessibility tree, parse live DOM, or
 establish a live reader route.
 -/
 
@@ -30,12 +30,31 @@ def nonemptyString (s : String) : Bool :=
 theorem bool_and_true_parts {a b : Bool} (h : a && b = true) : a = true ∧ b = true := by
   cases a <;> cases b <;> simp_all
 
-/-- One flattened, source-locatable element from a captured accessibility/DOM tree.
-    Visibility is the result of the external browser-capture adapter. -/
+/-- The semantic role recorded by the browser's computed accessibility tree.
+    docBiblioref is included because it inherits the semantic link role. -/
+inductive CapturedSemanticRole where
+  | link
+  | docBiblioref
+  | other
+deriving DecidableEq, Repr
+
+def isInheritingLinkRole : CapturedSemanticRole → Bool
+  | .link => true
+  | .docBiblioref => true
+  | .other => false
+
+/-- One source-locatable element from the same browser capture.
+    visible is the product's visible-affordance requirement.
+    accessibilityTreeIncluded, semanticRole, and computedAccessibleName
+    must come from the browser accessibility tree, not DOM inference.
+    The adapter must include all these fields in the capture-digest projection. -/
 structure CapturedElement where
   nodeId : String
   visible : Bool
+  accessibilityTreeIncluded : Bool
+  semanticRole : CapturedSemanticRole
   text : String
+  computedAccessibleName : String
   href : Option String
 deriving DecidableEq, Repr
 
@@ -49,9 +68,88 @@ def visibleLinkTargetPresent (elements : List CapturedElement) (expectedTarget :
   elements.any fun element =>
     nonemptyString element.nodeId &&
     element.visible &&
+    element.accessibilityTreeIncluded &&
+    isInheritingLinkRole element.semanticRole &&
+    nonemptyString element.computedAccessibleName &&
     match element.href with
     | some target => nonemptyString target && decide (target = expectedTarget)
     | none => false
+
+/-- Icon-only links are allowed only when their computed accessible name is
+    nonempty and the link is actually included in the accessibility tree. -/
+def accessibleIconLink : CapturedElement :=
+  { nodeId := "source-link-1"
+    visible := true
+    accessibilityTreeIncluded := true
+    semanticRole := .link
+    text := ""
+    computedAccessibleName := "Open accepted Paper A source"
+    href := some "pinned-source" }
+
+/-- A visible text link whose computed accessible name comes from its text. -/
+def visibleTextLink : CapturedElement :=
+  { nodeId := "source-link-2"
+    visible := true
+    accessibilityTreeIncluded := true
+    semanticRole := .link
+    text := "Open source"
+    computedAccessibleName := "Open source"
+    href := some "pinned-source" }
+
+/-- DOM-visible but aria-hidden: excluded from the accessibility tree. -/
+def ariaHiddenLink : CapturedElement :=
+  { nodeId := "source-link-3"
+    visible := true
+    accessibilityTreeIncluded := false
+    semanticRole := .link
+    text := ""
+    computedAccessibleName := ""
+    href := some "pinned-source" }
+
+def emptyNameLink : CapturedElement :=
+  { nodeId := "source-link-4"
+    visible := true
+    accessibilityTreeIncluded := true
+    semanticRole := .link
+    text := ""
+    computedAccessibleName := ""
+    href := some "pinned-source" }
+
+def wrongRoleLink : CapturedElement :=
+  { nodeId := "source-link-5"
+    visible := true
+    accessibilityTreeIncluded := true
+    semanticRole := .other
+    text := "Open source"
+    computedAccessibleName := "Open source"
+    href := some "pinned-source" }
+
+def hiddenLink : CapturedElement :=
+  { nodeId := "source-link-6"
+    visible := false
+    accessibilityTreeIncluded := true
+    semanticRole := .link
+    text := "Open source"
+    computedAccessibleName := "Open source"
+    href := some "pinned-source" }
+
+#eval visibleLinkTargetPresent [accessibleIconLink] "pinned-source"
+#eval visibleLinkTargetPresent [visibleTextLink] "pinned-source"
+#eval visibleLinkTargetPresent [ariaHiddenLink] "pinned-source"
+#eval visibleLinkTargetPresent [emptyNameLink] "pinned-source"
+#eval visibleLinkTargetPresent [wrongRoleLink] "pinned-source"
+#eval visibleLinkTargetPresent [hiddenLink] "pinned-source"
+#eval visibleLinkTargetPresent [accessibleIconLink] "different-source"
+
+theorem accessibility_tree_regression_matrix :
+    visibleLinkTargetPresent [accessibleIconLink] "pinned-source" = true ∧
+    visibleLinkTargetPresent [visibleTextLink] "pinned-source" = true ∧
+    visibleLinkTargetPresent [ariaHiddenLink] "pinned-source" = false ∧
+    visibleLinkTargetPresent [emptyNameLink] "pinned-source" = false ∧
+    visibleLinkTargetPresent [wrongRoleLink] "pinned-source" = false ∧
+    visibleLinkTargetPresent [hiddenLink] "pinned-source" = false ∧
+    visibleLinkTargetPresent [accessibleIconLink] "different-source" = false := by
+  decide
 
 /-- The expected public review/sandbox labels are bound to one exact feed blob.
     feedValuesSourceVerified is an external source-review attestation. -/
