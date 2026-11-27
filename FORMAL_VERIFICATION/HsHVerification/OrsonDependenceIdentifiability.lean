@@ -298,3 +298,131 @@ theorem observed_agreement_does_not_identify_monitor_causation :
 #print axioms observed_agreement_does_not_identify_monitor_causation
 
 end HsHVerification.OrsonMonitoringControlIdentifiability
+
+
+/-!
+# Review-feature monoculture and error identifiability (assistant reconstruction, 2026-11-27)
+
+External source:
+* Hou, Zhang, Stacy, Black & Chandrasekaran, "Do AI Reviewers Converge?
+  Diversity Collapse in Model-Generated Peer Review", Findings of EMNLP 2026,
+  DOI: 10.18653/2026.findings-emnlp.1035.
+* Public implementation: jackshengxinz/Review_Monoculture,
+  ICLR_600/inter-review_similarity_eval/run_experiment1_random_pairwise.py,
+  Git blob 7b59ab12b695979eb0aeb28032c463348fac547a.
+
+The study measures review-text features and cross-paper embedding similarity.
+Its own limitations state that these automated metrics do not fully measure
+review correctness or quality, and that textual-output analysis is not the
+full peer-review process. The public code additionally samples paper pairs
+with replacement across pair draws and applies independent-sample tests
+(ttest_ind, mannwhitneyu) to LLM and human scores generated from the same
+pair set. The data files/results are not present in the inspected public
+repository, so no reanalysis or corrected p-value is claimed.
+
+The finite witnesses below establish two logical boundaries:
+1. Maximal cross-paper feature similarity does not identify within-paper
+   reviewer error agreement.
+2. Marginal score multisets do not identify paired differences when the
+   pairing map is discarded.
+
+These are conditional mathematical counterexamples, not claims about the
+actual ICLR-REVIEWS records, any model's correctness, or the empirical size
+of the reported effects. They do not amend the frozen P1 protocol or paper.
+-/
+
+namespace HsHVerification.OrsonReviewFeatureErrorIdentifiability
+
+abbrev Reviewer := Fin 2
+abbrev Submission := Fin 2
+
+def reviewerZero : Reviewer := ⟨0, by decide⟩
+def reviewerOne : Reviewer := ⟨1, by decide⟩
+
+/-- A deliberately constant measured feature projection for review text. -/
+def constantReviewFeature (_reviewer : Reviewer) (_submission : Submission) : Nat := 0
+
+/-- Number of ordered, distinct-paper pairs with matching projected features. -/
+def crossPaperFeatureMatchCount
+    (feature : Reviewer → Submission → Nat) : Nat :=
+  (Finset.univ.filter (fun pair : Submission × Submission =>
+    pair.1 ≠ pair.2 ∧
+    feature reviewerZero pair.1 = feature reviewerZero pair.2)).card
+
+/-- Number of submissions on which two reviewers have the same error status. -/
+def errorAgreementCount
+    (errors : Reviewer → Submission → Bool) : Nat :=
+  (Finset.univ.filter (fun submission =>
+    errors reviewerZero submission = errors reviewerOne submission)).card
+
+/-- A world in which both reviewers share the same error status per submission. -/
+def alignedErrors (_reviewer : Reviewer) (submission : Submission) : Bool :=
+  decide (submission.val = 1)
+
+/-- A world in which the two reviewers have opposite error status per submission. -/
+def opposedErrors (reviewer : Reviewer) (submission : Submission) : Bool :=
+  decide (reviewer.val = submission.val)
+
+theorem constant_feature_is_maximally_cross_paper_matching :
+    crossPaperFeatureMatchCount constantReviewFeature = 2 := by
+  decide
+
+theorem aligned_error_world_has_full_agreement :
+    errorAgreementCount alignedErrors = 2 := by
+  decide
+
+theorem opposed_error_world_has_no_agreement :
+    errorAgreementCount opposedErrors = 0 := by
+  decide
+
+/-- The same maximal cross-paper feature statistic is compatible with
+    different within-paper error-agreement structures. -/
+theorem maximal_feature_similarity_does_not_identify_error_agreement :
+    crossPaperFeatureMatchCount constantReviewFeature = 2 ∧
+    errorAgreementCount alignedErrors = 2 ∧
+    errorAgreementCount opposedErrors = 0 := by
+  exact ⟨
+    constant_feature_is_maximally_cross_paper_matching,
+    aligned_error_world_has_full_agreement,
+    opposed_error_world_has_no_agreement
+  ⟩
+
+/-- A paired difference sequence retains the pairing of two score lists. -/
+def pairedDifferences (left right : List Int) : List Int :=
+  List.zipWith (fun x y => x - y) left right
+
+def baselineScores : List Int := [0, 1]
+def alignedComparisonScores : List Int := [0, 1]
+def crossedComparisonScores : List Int := [1, 0]
+
+theorem comparison_marginals_are_the_same :
+    alignedComparisonScores.Perm crossedComparisonScores := by
+  decide
+
+theorem same_marginals_can_have_different_paired_differences :
+    pairedDifferences baselineScores alignedComparisonScores ≠
+      pairedDifferences baselineScores crossedComparisonScores := by
+  decide
+
+/-- Discarding pair identity loses information needed to reconstruct
+    paired differences, even when the two comparison samples have identical
+    marginal multisets. -/
+theorem marginal_samples_do_not_identify_pairwise_differences :
+    alignedComparisonScores.Perm crossedComparisonScores ∧
+    pairedDifferences baselineScores alignedComparisonScores ≠
+      pairedDifferences baselineScores crossedComparisonScores := by
+  exact ⟨comparison_marginals_are_the_same,
+    same_marginals_can_have_different_paired_differences⟩
+
+#eval (
+  crossPaperFeatureMatchCount constantReviewFeature,
+  errorAgreementCount alignedErrors,
+  errorAgreementCount opposedErrors,
+  pairedDifferences baselineScores alignedComparisonScores,
+  pairedDifferences baselineScores crossedComparisonScores
+)
+
+#print axioms maximal_feature_similarity_does_not_identify_error_agreement
+#print axioms marginal_samples_do_not_identify_pairwise_differences
+
+end HsHVerification.OrsonReviewFeatureErrorIdentifiability
