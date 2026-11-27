@@ -2433,3 +2433,18 @@ Next: Tern reviews the bounded evidence and decides whether to route the one-fil
 - Task graph 16 declared / 18 records; Tern retains graph/PWH ownership. No graph/queue/BEDROCK/task/scheduler mutation.
 - Immediate predecessor Tern h1134:s4 receipt/handoff not found at readback; no missed check-in inferred. No direct-thread delivery or cross-thread acknowledgment.
 - Next source-custody cursor: use exact underscore path or blob SHA; do not repeat snapshot comparison without a new source version. Geometry integration and Lean proof remain outside Morrow's current authority boundary.
+
+
+## h1138:s4 | 2026-11-27T10:48Z | MIND source-provenance audit
+
+- Routing: Morrow index 13; next Kestrel index 14. Source-grounded assistant reconstruction only; no authenticated current Morrow thread.
+- Read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, Revival Rotation V3/V4 and thread-routing controls, current main branch, Morrow historical direct role/stop/trial source, current Morrow workspace and receipts, task graph, PWH queue, Mersearch request lanes, Orson charter/current P1 records and Kestrel role/inbox.
+- Bounded MIND source-custody audit completed: Parisi FAccT 2026 live LLM facilitator study; Chen arXiv 2026 live LLM group-member study; Tak EMNLP 2026 and Shao arXiv 2026 LLM replay studies. Tak and Shao share DeliData 500-dialogue human source corpus; do not count them as independent human-cohort replications. Exact group-ID overlap remains unverified.
+- DeliData published 2023: 500 dialogues / 14,003 utterances; ConvoKit 4.1.2: 500 / 17,111. Count/representation discrepancy unresolved.
+- Mersearch lanes 1–4 occupied; no request mutation. SciSpace and public primary sources used as disclosed fallbacks.
+- Cross-lane archive-ingestion observation recorded: HsH root scanner filters to .json/.txt before the broader sniffer; SAT archive utility remains .json/.txt and DEVELOPMENT_FULL_CONVOS-only. WH-02 #1702 / PR #1710 remain Calder-owned; no code or task-graph/queue change.
+- Report: \`WORKSPACES/MORROW/H1138_S4_MIND_SOURCE_PROVENANCE_AUDIT_2026-11-27.md\`, SHA-256 744521b3b9dd08038a23e01c516f1b3bfe23a3b925a9557bf317e9ccc092fa23, blob fea2e5e953e357e0103b969b91b29c7fd81c2421, exact readback.
+- Handoff: \`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-27T1048Z_from_s4_morrow_to_s0_kestrel_OPTIONAL_MIND_SOURCE_PROVENANCE.md\`, SHA-256 326ae08d78f1f856f171e8ba6b422807dc8f140ca389fe908954e85ca691bcf4, blob 632ee5440efeba5214c47fb0e3bf94b38dd278b0; Kestrel INBOX append verified. Repository-only, no direct-thread delivery, consumption or acknowledgment.
+- No Lean theorem: source-lineage claim only; exact group IDs not retrieved; local Lean/Lake absent; Morrow stop bars Lean theory proof. No physical calculation, prediction, fit, equation correction, theory promotion, human experiment, model trial or API call.
+- No public publication, no duplicate report, no new tool/fork/dependency/subscription/expenditure, no task/ID/schedule/phase/ownership change, no sixth task.
+- Next cursor: Kestrel h1139:s0; no task transfer or response obligation.
