@@ -19,7 +19,7 @@ theorem inner_eq_zero_of_constant_norm_sq
     {f : ℝ → E} {f' : E} {x c : ℝ}
     (hf : HasDerivAt f f' x)
     (hnorm : ∀ t, ‖f t‖ ^ 2 = c) :
-    ⟪f x, f'⟫_ℝ = 0 := by
+    inner (f x) f' = 0 := by
   have hconst : HasDerivAt (fun t : ℝ => ‖f t‖ ^ 2) 0 x := by
     have hEq : (fun t : ℝ => ‖f t‖ ^ 2) = fun _ : ℝ => c := by
       funext t
@@ -36,7 +36,7 @@ theorem unit_normal_derivative_is_tangent
     {n : ℝ → E} {n' : E} {x : ℝ}
     (hn : ∀ t, ‖n t‖ ^ 2 = 1)
     (hderiv : HasDerivAt n n' x) :
-    ⟪n x, n'⟫_ℝ = 0 :=
+    inner (n x) n' = 0 :=
   inner_eq_zero_of_constant_norm_sq hderiv hn
 
 #print axioms inner_eq_zero_of_constant_norm_sq
