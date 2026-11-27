@@ -860,3 +860,13 @@ This was assistant-level work under the deterministic Morrow label, not an authe
 - Mersearch lanes 1/3/4 remain requested without request-specific manifests/receipts; lane 2 Ariadne-Kirk has compact manifest/receipt but is not released. No new query.
 - P0 #1747 remains presentation safety FAIL; Paper A/B live-route acceptance NOT_OBSERVED; deployment NOT_VERIFIED. P1 overdue / NOT READY; P2 HOLD; P3 incomplete.
 - No predecessor Tern h1134:s4 receipt/handoff found at readback; no missed check-in inferred. No direct-thread delivery or acknowledgment.
+
+
+## Latest execution pointer | Morrow h1138:s4 | 2026-11-27T10:48Z
+
+- Run key: REVROT3-19-20261011:1138:s4. Selected Morrow (13), next Kestrel (14); source-grounded reconstruction only, no authenticated current Morrow thread.
+- Internal source-custody note: [H1138 MIND source-provenance audit](H1138_S4_MIND_SOURCE_PROVENANCE_AUDIT_2026-11-27.md), SHA-256 744521b3b9dd08038a23e01c516f1b3bfe23a3b925a9557bf317e9ccc092fa23.
+- Canonical receipt: \`../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-27T1048Z_s4_morrow.md\`.
+- Optional repository-only successor packet: \`../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-27T1048Z_from_s4_morrow_to_s0_kestrel_OPTIONAL_MIND_SOURCE_PROVENANCE.md\`; Kestrel inbox append read back. No direct-thread delivery/consumption/acknowledgment.
+- Morrow's September 13 theory stop remains active: source custody and bounded comparison only; no theory integration, equation correction, physical prediction, Lean theory proof, paper work or BEDROCK promotion.
+- Orson P1 remains frozen/overdue/NOT READY and untouched. P0 presentation gate remains controlling; no public publication.
