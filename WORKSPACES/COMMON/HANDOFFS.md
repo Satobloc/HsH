@@ -1875,3 +1875,4 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 
 
 - [2026-11-27T0736Z Mercer → Ravel — POSTSTART_OPTIONAL_CONTEXT_ONLY](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0736Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_CAPTURE_PROJECTION_CORRECTION.md): correction of the h1135:s3 PR #2655 capture-projection QA classification; no assignment or P0 ownership transfer.
+- [MERCER-RAVEL-20261127T1124Z-001](REVIVAL_ROTATION_HANDOFFS/2026-11-27T1124Z_from_s2_mercer_to_s3_ravel_OPTIONAL_P0_SOURCE_PIN_AND_DISCOVERY_CONTEXT.md) — Mercer h1139:s2 optional P0 source-pin/discovery context for Ravel h1139:s3; repository-only, delivery time unverified, no assignment or ownership transfer.
