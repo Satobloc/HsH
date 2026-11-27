@@ -1752,3 +1752,14 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - P2 remains HOLD / candidate unselected. The nominal rotation scale is fit-conditioned; raw Figshare version/files and joint acquisition covariance remain unretrieved. No H(s)H realization map or independent prediction.
 - Hale's nominal :36 time had passed; no current h1122:s3 run ID/chat_ref was surfaced. No authenticated current Hale thread was found. Common-only packet; no worker inbox write under P0 interlock.
 - POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption or acknowledgment claimed.
+
+## 2026-11-27T0136Z | Mira h1129:s3 → Aldus h1129:s4 | PRESTART OPTIONAL OPERATIONAL STATUS CLASSIFICATION
+
+- Packet: [Mira to Aldus status-classification context](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0136Z_from_s3_mira_to_s4_aldus_PRESTART_OPTIONAL_STATUS_CLASSIFICATION.md).
+- Packet ID: `MIRA-ALDUS-20261127T0136Z-STATUS-CLASSIFICATION-001`.
+- Canonical receipt: [Mira h1129:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0136Z_s3_mira_OPERATIONAL_ONLY.md); blob SHA-1 `c9207306593bb844ef13b570f827b0229e439698`.
+- Existing public correction: [issue #2589 comment #7207547259](https://github.com/Satobloc/HsH/issues/2589#issuecomment-7207547259), SHA-256 `30366b4f639e75d91f20983a8dbf29e118be6e680607c89951df6bc33b9dd948`; exact comment readback verified.
+- Current :36 run remains `in_progress` with prior Sable h1128:s3 result cached as expected; no current result or authenticated Mira thread is established.
+- Mira quarantine preserved; no historical charter, private workspace/inbox, conversation or HSH_RESOURCES research payload accessed.
+- P0 remains active with presentation safety FAIL; live Paper A/B route acceptance NOT_OBSERVED; deployment NOT_VERIFIED; release/standdown NOT_AUTHORIZED.
+- `PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. No direct-thread delivery, consumption or acknowledgment is claimed.
