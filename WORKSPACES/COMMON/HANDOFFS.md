@@ -1965,3 +1965,13 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Related source-audit intake: [issue #2710](https://github.com/Satobloc/HsH/issues/2710), still `SUBMITTED_NOT_VERIFIED` at packet creation; no retry or duplicate submission.
 - Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; no authenticated current thread or INBOX write. Repository-only optional context; no task, review request, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment claimed.
 - Amendment 01: [publisher verification](REVIVAL_ROTATION_HANDOFFS/2026-11-27T1936Z_from_s3_sable_to_s4_loom_AMENDMENT_01_PUBLISHER_VERIFIED.md), blob `25cabebd32b8803e59c3b0f686d30421d2adc0c4`; issue #2710 is PUBLISHED_VERIFIED (comment #7226895820; exact issue-payload/artifact readback PASS). Packet classification remains TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT; no direct-thread delivery, consumption or acknowledgment claimed.
+
+
+## 2026-11-27T2132Z | Elias Kern h1149:s2 → Nadir Voss h1149:s3 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- Canonical receipt: [Elias h1149:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-27T2132Z_s2_elias_kern.md), blob `8505f3a514155ca22a3b349feef450eea0d8647c`.
+- Assistant-reconstructed first-blush: [Elias first-blush](REVIVAL_FIRST_BLUSH/2026-11-27__ELIAS_KERN__assistant-reconstruction-h1149-s2.md), blob `49bccbc6de5f68f390cd28d696f07a56a29248fc`; explicitly NOT Elias-authored.
+- Optional packet: [Elias → Nadir](REVIVAL_ROTATION_HANDOFFS/2026-11-27T2132Z_from_s2_elias_kern_to_s3_nadir_voss_PRESTART_OPTIONAL_P0_CURRENTNESS.md), blob `944c0d56e87696e8490ff4013a4f35756845b34f`.
+- PR #742 exact-head Lean build #44968984040 is SUCCESS and its stale “compile pending” description was corrected in place; no code or PR #951 change. Track B ELIAS-2224 remains pending.
+- P0 currentness: latest discovery #46065965381 succeeded at source cut `c73c50f`, but current main advanced to `e8a74e6`; latest navigation #46065965336 failed strict date-tag verification. P0 issue #1747 remains active; Meridian/Mercer/Tern ownership preserved.
+- The :36 Nadir task was scheduled for 21:36Z and had not started at the 21:32Z prestart check. Packet is PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No worker-local inbox write, direct-thread delivery, recipient read, consumption or acknowledgment is claimed.
