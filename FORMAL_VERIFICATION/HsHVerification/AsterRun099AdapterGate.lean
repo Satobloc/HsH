@@ -236,6 +236,15 @@ theorem residualCarrierRadius_sq
 def swap01 : Equiv.Perm (Fin 3) := Equiv.swap (0 : Fin 3) 1
 def swap12 : Equiv.Perm (Fin 3) := Equiv.swap (1 : Fin 3) 2
 
+/-- Abstract finite-group state used only to execute the carrier-fibre witness. -/
+def demoState : Run099State Unit (Equiv.Perm (Fin 3)) :=
+  { centers := fun _ => ()
+    radius := 1
+    frames := fun _ => 1 }
+
+#eval decide
+  (relativeFrame01 (replaceFrame1 demoState swap12) ≠ relativeFrame01 demoState)
+
 #eval decide
   (HsHVerification.NadirFrameTelescoping.leftRelative
     (1 : Equiv.Perm (Fin 3)) swap12 =
