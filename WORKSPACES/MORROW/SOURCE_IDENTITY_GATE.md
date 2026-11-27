@@ -851,3 +851,53 @@ Pinned source cut: HsH main `f2fb03b4f44d0bdbb42c96427ca4cbad29b068a6`.
 **Status:** `SOURCE_GAP_CONFIRMED / MAINTAINER_CHANGE_PROPOSED_NOT_IMPLEMENTED / ISSUE1865_H1116_NOT_PUBLISHED / NO_RETRY / NO_DUPLICATE_ISSUE`.
 
 This is an operational provenance/verification rule only. No publisher code, workflow, theory, equation, physical claim, task, or scheduler state was changed.
+
+
+## Layer 21 — h1135:s0 exact Unicode path and rejected publisher intake
+
+**Scope:** raw-source custody and publication-intake readback only. This layer does not release Morrow's September 13 theory stop, authenticate a worker instance, or authorize geometry integration.
+
+### Raw source and snapshot identity
+
+- Conversation: 6a9ee7ca-d340-83ea-b99d-6a3097429f36.
+- Earlier blob: 362075c5e32ec9e97579bd1de58fba7f612cb6bb; 465 mapping keys.
+- Later blob: ee394b446b2e36d35fd1e5ecd004685c0422457b; 697 mapping keys, 696 message-bearing nodes, 17 user-role messages, one null root node.
+- The earlier mapping is a strict key-prefix of the later mapping: 465 shared keys, zero older-only keys, 232 later-only keys (145 assistant, 84 tool, 3 user). These are snapshots of one conversation, not independent witnesses.
+- Reparsed current ancestry reaches all 697 mapping nodes. Direct user-role records 402ade01-7116-4efb-9b14-31e477754458 (2026-09-08T03:25:36.187Z), 934e87de-4e61-4622-a0ea-e5047aa235c6 (2026-09-13T00:11:10.939Z), and 99ae959b-fbeb-4c1e-9326-a6723c2b9557 (2026-09-13T15:31:22.757Z) are on that ancestry. Each has author.name=null; raw author fields do not externally authenticate the human account.
+- The later trial invitation permits source custody, provenance, chronology, source comparison, theory-material reading/note-taking and bounded mathematical/equation checking. It does not expressly rescind the earlier stop or authorize theory integration, equation correction, physical prediction, Lean theory proof, paper work or BEDROCK promotion.
+- Separate workspace-creation conversation 6a9dea2e-bb98-83ea-a74f-4beb4baa3153, direct message 53a18c37-9c45-4616-b67d-25fe2e36a6c5 at 2026-09-13T09:12:50.281Z, precedes first Morrow README commit c18c66a26de2660d7336df7569dd4a5d656f39be at 09:14:25Z by 94.719 seconds. This is chronology, not proof of runtime identity or causation.
+
+### Exact path correction
+
+Pinned current HsH main at readback: commit 002f7c70d1787f832804b25c9b3efc410fb4364e; tree 9c6ba33509594255d6854af97278229661566ebf; recursive tree complete, 17,900 entries, truncated=false.
+
+The tree places blob ee394b446b2e36d35fd1e5ecd004685c0422457b (3,017,953 bytes) at:
+
+~~~text
+DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json
+~~~
+
+The actual path uses U+1F9D7 U+005F U+2642 U+FE0F. The November 14 and November 18 ledgers record the visually similar U+1F9D7 U+200D U+2642 U+FE0F path. The ZWJ variant returns 404; the exact underscore path returns the correct blob SHA but an empty path-reader body; blob-by-SHA retrieval succeeds. This is a path-locator correction, not a blob-identity correction. Do not silently normalize the underscore to a ZWJ.
+
+### Publisher rejection witness — issue #2666
+
+- Issue: #2666, title and submission run label both identify Morrow h1135:s0.
+- Submission ID: morrow-h1135-s0-raw-source-path-identity-correction-20261127t0700z-001.
+- Declared content SHA-256: 18aadc4f6a0c653698d569f4a61986a1a8ef269f0fe13bb2a07a6d5c2b4979a6.
+- SHA-256 of the exact content string read back from the issue envelope: 5f6a935767b4ffdb78a5849dd4d1cb08eab85fa64eb1e6f76f1d41387374307d.
+- The mismatch is one final LF present in the Python draft used for the declared digest but absent from the submitted issue content.
+- Publisher workflow run #45959906780, job #140375260476, completed with process conclusion success but printed REJECTED: SHA-256 mismatch. Issue comment #7212712822 records the rejection.
+- The run event head was e0cb305c5f9cb4dc08ce860ca177329b1d331e4a; the job log shows checkout of main at 88ce490d49214b3b209da41a96b7f1046ccd2d29. Current main later advanced to 002f7c70d1787f832804b25c9b3efc410fb4364e. Keep event head, job checkout and current branch distinct.
+- Expected canonical artifact path is absent. The issue body is an audit record, not a published artifact.
+- Apply Layer 20: do not edit, retry, replace or duplicate rejected issue #2666. No publisher success or artifact readback is claimed.
+
+### Lane and repetition controls
+
+- Mersearch request lanes 1, 2, 3 and 4 remain occupied. Lane 1 Calder-angle, Lane 3 Calder-IRI and Lane 4 Kestrel-finite-core have request files but no request-specific manifest/receipt. Lane 2 Ariadne-Kirk has a compact manifest/receipt (24,200 files, 23,273,608 records, 38 hits, six paths) but remains requested/not released; no raw-hit inventory was used. No new query, overwrite, release or retrigger.
+- Existing WWRD source-fidelity work already covers the first-blush heuristic and its boundaries: Tern 2026-11-01 audit; Loom June-22 source correction; Calder h807 moving-slice crosswalk; Mercer h824 SAT-O1/Blockwave/WWRD audit; published rope contact/torsion comparator. No WWRD audit was repeated.
+- The h1116:s0 Morrow geometry report already covers the November 8 time-normal/worldtube/timesheet source family. No geometry integration was repeated.
+- Task graph remains 16 declared branches / 18 records; Tern retains reconciliation. Tern's PWH queue remains under Tern ownership; no queue or graph edit.
+- No predecessor Tern h1134:s4 receipt or handoff was found in the current main tree or Morrow inbox. This is HANDOFF_NOT_FOUND_AT_READBACK, not evidence of a missed check-in.
+- No authenticated current Morrow thread; no direct-thread delivery or cross-thread acknowledgment.
+
+**Status:** PATH_VARIANT_CORRECTED / RAW_BLOB_REPARSED / PUBLISHER_REJECTED / NO_CANONICAL_ARTIFACT / NO_RETRY / SOURCE_CUSTODY_ONLY / THEORY_STOP_PRESERVED.
