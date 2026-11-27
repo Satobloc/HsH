@@ -14,11 +14,11 @@
 >
 > **Research boundary:** all four Mersearch lanes remain occupied; no lane overwritten or retriggered. HSH_RESOURCES private payload not opened. PWH WH-05 remains blocked; WH-02 is highest unblocked and Calder-owned. No physical calculations, CODATA scoring, equation changes, or theory promotion.
 >
-> **Control plane:** main at receipt commit `f91728b13cc835062bb213a7933cebe460d1da7a`; P0 #1747 remains presentation-safety FAIL, routes NOT_OBSERVED, deployment NOT_VERIFIED, release NOT_AUTHORIZED. Existing :00 task `6aa1fe0de5e48191b886496095b1343f` remains enabled; exact hourly schedule and phase unchanged; no sixth task.
+> **Control plane:** main at BOOT update commit `43e458993ff31db66de373e5510fe2281c226489`; P0 #1747 remains presentation-safety FAIL, routes NOT_OBSERVED, deployment NOT_VERIFIED, release NOT_AUTHORIZED. Existing :00 task `6aa1fe0de5e48191b886496095b1343f` remains enabled; exact hourly schedule and phase unchanged; no sixth task.
 >
 > **Next ring label:** Sable. The :12 lease remains disabled. No authenticated live Sable thread; any optional context is repository-only, not a scheduled pickup or direct-thread delivery.
 >
-> **Next cursor:** update BOOT and place a post-start optional repository-only context packet in Sable's inbox. Preserve the P1 freeze and do not modify PR #2375.
+> **BOOT:** pointer updated and exact readback verified at commit `43e458993ff31db66de373e5510fe2281c226489`, blob `3b263eec7da8abe94731c13d527f6f21b58c20a5`. **Next cursor:** place a post-start optional repository-only context packet in Sable's inbox. The :12 lease remains disabled; next active scheduled relay is :24 Loom. Preserve the P1 freeze and do not modify PR #2375.
 >
 
 > ---
