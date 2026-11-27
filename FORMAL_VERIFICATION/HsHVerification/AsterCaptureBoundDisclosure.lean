@@ -319,5 +319,6 @@ theorem accepted_with_disclosure_requires_capture_binding
 #print axioms disclosure_tree_pass_requires_visible_review_state
 #print axioms disclosure_tree_pass_requires_visible_pinned_source_target
 #print axioms accepted_with_disclosure_requires_capture_binding
+#print axioms accessibility_tree_regression_matrix
 
 end HsHVerification.AsterCaptureBoundDisclosure
