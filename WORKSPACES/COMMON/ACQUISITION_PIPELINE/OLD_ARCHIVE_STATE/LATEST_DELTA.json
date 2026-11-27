@@ -1,5 +1,27 @@
 {
-  "source_commit": "2b6f18d515e5bbdd3b1276cb62c6f4c10f76b19e",
-  "observed_utc": "2026-11-26T19:41:07.770133+00:00",
-  "changes": []
+  "source_commit": "4b3961a6b8b38e58f103a9b224665d53d385f1a8",
+  "observed_utc": "2026-11-27T19:30:43.081304+00:00",
+  "changes": [
+    {
+      "change": "CHANGED",
+      "path": "..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt",
+      "old_blob_sha": "68e1cbdfb7161e717a969cadecf1d22b7f21b0d2",
+      "new_blob_sha": "c3000a60661f7848923b442c6abbc5d272b13605",
+      "bytes": 7716106
+    },
+    {
+      "change": "CHANGED",
+      "path": "..findex.txt",
+      "old_blob_sha": "0991ad7a7aaf30817cb77c60dd36140d4e9ef900",
+      "new_blob_sha": "e9e4c7a53256fb41dcc5065dfb3f3d96eeeecf0d",
+      "bytes": 221043
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20261127_190402.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "78242444e506cfed73712941bc68f0ecc5915053",
+      "bytes": 301
+    }
+  ]
 }
