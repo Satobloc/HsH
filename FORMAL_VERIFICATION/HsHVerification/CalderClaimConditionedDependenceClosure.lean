@@ -271,10 +271,28 @@ private def sharedNuisanceWithModelTestEdge : DependencyEdge Bool :=
     treatment := .modelSharedNuisance, source := contractTestLocator,
     covarianceModel := some contractTestLocator }
 
-#eval decide (DependencyEdgeAdmissible unresolvedContractTestEdge)
-#eval decide (DependencyEdgeAdmissible sharedNuisanceWithoutModelTestEdge)
-#eval decide (DependencyEdgeAdmissible sharedNuisanceWithModelTestEdge)
+/--
+Executable Boolean form of the dependency-edge admission predicate. This is
+kept separate from the proposition so the contract can be evaluated without
+requiring a global Decidable instance for evidence-bearing propositions.
+-/
+def DependencyEdgeAdmissibleBool {Unit : Type*} (edge : DependencyEdge Unit) : Bool :=
+  decide (edge.treatment ≠ .unresolved) &&
+    (if decide (edge.treatment = .modelSharedNuisance)
+      then edge.covarianceModel.isSome else true)
 
+/-- The executable classifier agrees with the evidence-admission proposition. -/
+theorem dependencyEdgeAdmissibleBool_correct
+    {Unit : Type*} (edge : DependencyEdge Unit) :
+    DependencyEdgeAdmissibleBool edge = true ↔ DependencyEdgeAdmissible edge := by
+  cases hTreatment : edge.treatment <;>
+    simp [DependencyEdgeAdmissibleBool, DependencyEdgeAdmissible, hTreatment]
+
+#eval DependencyEdgeAdmissibleBool unresolvedContractTestEdge
+#eval DependencyEdgeAdmissibleBool sharedNuisanceWithoutModelTestEdge
+#eval DependencyEdgeAdmissibleBool sharedNuisanceWithModelTestEdge
+
+#print axioms dependencyEdgeAdmissibleBool_correct
 #print axioms plan_excludes_unresolved_edges
 #print axioms plan_shared_nuisance_requires_covariance_model
 #print axioms plan_channel_path_preserves_fold
