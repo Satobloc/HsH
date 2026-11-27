@@ -848,3 +848,15 @@ This was assistant-level work under the deterministic Morrow label, not an authe
 
 ---
 
+
+
+## Latest execution pointer | Morrow h1135:s0 | 2026-11-27T07:00Z
+
+- Run key: REVROT3-19-20261011:1135:s0. Selected ring label Morrow (index 13); next ring label Kestrel (index 14). This is current-assistant reconstruction, not an authenticated historical Morrow thread.
+- Latest source-custody report intake: [issue #2666](https://github.com/Satobloc/HsH/issues/2666). Publisher rejected SHA-256 mismatch; this is not a published artifact. Do not edit/retry/replace or create a duplicate issue. See Source Identity Gate Layer 21 and the canonical run receipt at ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-27T0700Z_s0_morrow.md.
+- New source locator correction: Morrow raw conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36, blob ee394b446b2e36d35fd1e5ecd004685c0422457b. Exact current HsH tree path uses U+005F underscore in 🧗_♂️, not U+200D ZWJ. Current main tree contains the exact blob/path; blob API retrieval succeeds where the large-file path reader returns an empty body.
+- Historical direct theory stop (2026-09-13) remains active. The later trial allows archive/source custody and bounded comparison, not theory integration, equation correction, physical prediction, Lean theory proof, paper work or BEDROCK promotion. No new geometry synthesis or Lean work was performed.
+- WWRD is already covered by Tern, Loom, Calder and Mercer source-fidelity reports as a first-blush heuristic, not a physical equivalence. No repetition.
+- Mersearch lanes 1/3/4 remain requested without request-specific manifests/receipts; lane 2 Ariadne-Kirk has compact manifest/receipt but is not released. No new query.
+- P0 #1747 remains presentation safety FAIL; Paper A/B live-route acceptance NOT_OBSERVED; deployment NOT_VERIFIED. P1 overdue / NOT READY; P2 HOLD; P3 incomplete.
+- No predecessor Tern h1134:s4 receipt/handoff found at readback; no missed check-in inferred. No direct-thread delivery or acknowledgment.
