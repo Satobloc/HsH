@@ -203,45 +203,69 @@ Build one cross-repository portfolio register with a ranked global view plus lan
 
 ---
 
-## 2026-11-27 — Nathan Direct catch-up docket: Mysearch first; backlog captured, not over-ranked
+## 2026-11-27 — Nathan Direct catch-up docket: Mysearch first; science forward; backlog rolling
 
-**Authority / scope:** Nathan's direct instruction in the 2026-11-27 conversation. This is the execution order for the current catch-up work. It does not silently rewrite the wider project priority hierarchy or alter other workers' remits.
+**Authority / scope:** Nathan's direct instruction, 2026-11-27, updated with the current sequence. Use this as the active catch-up order. Do not create another tracker or let this docket become a prerequisite to research.
 
-### Ordered work
+### Current cursor — Mysearch / first archive pass
 
-**NOW — G0 / Mysearch operationalisation (start: 2026-11-27).** Make the dedicated Nathan Direct search lane actually usable. Reuse the existing stable Mersearch 1.0 engine and existing Mysearch work; do not create another plan, queue, or engine. Search must run in its own exclusive lane, independently of ordinary Mersearch traffic, across the three authorised source repositories: `Satobloc/SAT_THEORY_ARCHIVE_2023-25`, `Satobloc/HsH`, and `Satobloc/HSH_RESOURCES`. Keep the existing `QUARANTINE`, `PRIOR_ART`, and `mersearch_requests` exclusions and all source/privacy boundaries.
+**NOW — Mysearch first SAT-archive search and result review.** The private push-triggered Mysearch runner was found and modified in place; the first SAT-archive query was submitted as request `mysearch-procedural-archive-20261127-01` (request commit `bd5cdc56eb32bdc77cddcd985e996992fc6dc185`). At the last verified read, the private result locator had not appeared. Status is **SUBMITTED / RESULT NOT VERIFIED**: no run completion, hit count or result content is claimed. Continue from this request; do not submit a duplicate merely because the receipt has not yet appeared.
 
-Existing parts to reconcile rather than duplicate:
-- Main-branch scaffold: `.github/workflows/mysearch-nathan-direct.yml`, `WORKSPACES/COMMON/MYSEARCH_STATUS.md`, and `MYSEARCH_IMPLEMENTATION_PLAN.md`.
-- Existing draft implementation: [HsH PR #2226](https://github.com/Satobloc/HsH/pull/2226), branch `mysearch`; it is open/draft, not merged or a production service.
-- Separate private control-plane work: `Satobloc/SANDBOX`, branch `mysearch-private-engine`; `mysearch/supervisor.py` exists there, but it is not integrated into the HsH main-branch runner.
+The runner now checks out the full HSH_RESOURCES repository privately rather than the earlier targeted 12-file subset; request-output newline/delimiter handling was repaired; a private artifact locator is written after upload. Latest workflow commit at the last verified read: `9451ef02104d7fc9cd5b08584025f5b3228e2e9a`. These source changes have been read back, but the end-to-end service is not yet acceptance-verified. Coverage remains bounded by stable Mersearch 1.0 supported record types, the 25 MB per-file default, and the documented exclusions.
 
-**Execution update, 2026-11-27:** HsH's main-branch Mysearch workflow remains manual-dispatch-only, and this connector has no workflow-dispatch action. A push-triggered private Mysearch runner was found in the existing private SANDBOX branch `mysearch-private-engine`. Its workflow was modified in place to (a) check out the full HSH_RESOURCES repository privately rather than the previous targeted 12-file RMS subset, (b) fix request-output newline/delimiter handling, and (c) write a durable private locator for the full-results artifact after upload. Latest workflow commit: `9451ef02104d7fc9cd5b08584025f5b3228e2e9a`; independent file readback succeeded. The full resource checkout is still bounded by Mersearch 1.0's supported record types, 25 MB per-file default, and exclusions; the manifest records this limitation.
- 
-A first Nathan Direct request was then submitted through the push-triggered lane:
-- Request: `mysearch-procedural-archive-20261127-01`
-- Request commit: `bd5cdc56eb32bdc77cddcd985e996992fc6dc185`
-- Query stage: exact initial terminology, restricted to `archive/*` for the first SAT archive pass.
-- State at last readback: **SUBMITTED / RESULT NOT VERIFIED**. The expected private artifact locator had not yet appeared; no run completion, hit count, or result content is claimed. The request file/commit is confirmed, but that alone does not prove execution. Do not substitute generic GitHub code search, a shared Mersearch lane, or a compact receipt for a Mysearch result. Full hit inventory must remain in the authorized private artifact; do not publish raw HSH_RESOURCES hits or private paths to public HsH.
+First query is restricted to `archive/*` and the exact initial vocabulary: `backhalls`, `back hallways`, `backhall`, `constant torquing`, `torque wrench normalization`, and `star-shaped derivation map`. After dinner / on return: retrieve and inspect the full private hit inventory with Nathan; select what matters; then search HsH using the same and source-expanded vocabulary; finally search all three repositories with the accumulated terminology. Preserve complete hit inventories, exact locators, source dates/authorship fields, repository revisions and content identity. Raw results and private HSH_RESOURCES paths remain private.
 
-**Exit test:** an actual Nathan Direct Mysearch execution searches all three repositories with the pinned stable engine and recorded source SHAs; preserves full results in authorised private retrieval; publishes a safe, independently readable manifest/receipt with query and engine provenance, exclusions, output digests and truthful run status; and demonstrates the lane is independent of ordinary Mersearch requests. Until that test passes, status remains NOT OPERATIONAL / NOT VERIFIED.
+Existing implementations to reconcile, not duplicate:
+- HsH main-branch scaffold: `.github/workflows/mysearch-nathan-direct.yml`, `WORKSPACES/COMMON/MYSEARCH_STATUS.md`, and `MYSEARCH_IMPLEMENTATION_PLAN.md`.
+- HsH draft implementation: [PR #2226](https://github.com/Satobloc/HsH/pull/2226), branch `mysearch`; open/draft, not merged or production.
+- Private control-plane and runner: `Satobloc/SANDBOX`, branch `mysearch-private-engine`.
 
-**NEXT — G1 / procedural-source archaeology (start trigger: G0 exit test passes).** Use Mysearch, not generic GitHub search, to recover the full hit inventory in the source order already established: first `SAT_THEORY_ARCHIVE_2023-25`, then `HsH`; use terminology and corrections recovered in those first two sources to expand the query set, then search all three repositories. Initial exact terms and variants: `backhalls`, `back hallways`, `backhall`, `constant torquing`, `torque wrench normalization`, and `star-shaped derivation map`. Preserve every hit and its source locator, date, speaker/author, repository revision and content identity; do not replace the full hit set with a handful of excerpts. Review and classify the results with Nathan before synthesising them.
+### Ordered priorities after the current search segment
 
-**THEN — G2 / concise methodology reconstruction (start trigger: G1 source review completed).** Reconstruct the method from original statements and surrounding corrections, including anomaly-led discovery of structural problems, backhallway searches, constant torquing, torque-wrench normalisation, the star-shaped derivation map, propagation of known constraints into unknowns, and consistency within each Level of Description. Keep source statements, assistant reconstruction, inference and new proposals distinct. Produce one compact, usable method document, review it with Nathan, commit it, and independently read it back. This is the postponed methodology/theory-adjacent work; it does not jump ahead of G0 or G1.
+**PRIMARY PRIORITY — METHODOLOGY CONSOLIDATION [WORKFLOW + SCIENTIFIC].**
+- **Workflow methodology:** rough out a distinctly tentative, usable working procedure. Test and adjust it while doing the work; do not freeze speculative workflow details into non-negotiable rules.
+- **Scientific methodology:** restate and codify the scientific method precisely from source material and corrections. Search for `Hale`, `tier` / `tiers`, `SAT Rigorous` and similar podcast transcripts (manual transcript search if necessary), `RMS`, and `epistemology`. Preserve source chronology and distinguish Nathan's original statements, assistant reconstructions, inference and new proposals.
+- The recovered procedural vocabulary remains part of this work: anomaly-led discovery of structural problems; backhallway searches; constant torquing; torque-wrench normalisation; the star-shaped derivation map; propagation of known constraints into unknowns; and consistency within each Level of Description.
+- Deliverable: one economical, usable methodology consolidation, with workflow procedure marked tentative where it remains so and scientific methodology stated precisely. Review with Nathan; then commit and independently read back.
 
-### Captured backlog — separate items, priority review deferred until after G0
+**TERTIARY PRIORITY — PRIORITIZE AND SORT [ROLLING / ONGOING].**
+- Keep triage running as a rolling process, not a once-only phase and not a gate that delays the primary work or science.
+- Pull the dated planning documents from the SAT Dashboard. Skim them for potentially important dropped, stalled or never-reentered projects; add relevant source pointers and candidates to this rolling sort.
+- Fold other backlog items into the same sorting pass as they arise. Use post-segment check-ins to catch omissions; put missed items back on the shelf or move them into the workflow when appropriate.
+- Detailed ranking, owner/start-date assignment and re-entry decisions occur as needed during this rolling pass. Do not force a giant up-front inventory.
 
-The following are individually preserved as work items, not rejected, merged together, or promoted ahead of G0. Capture date for each: **2026-11-27**. Detailed priority/start-date review is deliberately deferred until the first Mysearch operational test is passed.
+**QUATERNARY PRIORITY — FULL SAT CONSOLIDATION AND ROUGH SYNTHESIS.**
+- Recover and synthesize the full SAT theory documents.
+- Approximately incorporate the relevant sorted materials into the SAT consolidation; do not wait for every possible backlog item to be completely triaged.
+- Work through the existing rough outline, checking the mathematical, conceptual, geometric, evidential and documentary plumbing as we go.
+- Reinterpret the three mainstream works by **Levin, Greene and Susskind** through the SAT lens. Work toward reproducing the relevant results sufficiently to establish what the comparison actually requires.
+- Incorporate the relevant MIT and Royal Society work.
+- Conduct a prior-art / attribution pass: distinguish what should be credited to the Hintonian era, what belongs to the braid-theory underground, and which accomplishments are genuinely ours. Make no attribution or influence claim without source support.
+- Assess the geometric solvers in their current recoverable state when useful; decide as we go whether they materially accelerate the work. Their use is not a prerequisite to beginning consolidation.
+- Write the paper.
 
-- **B1 — SAT Dashboard plan recovery.** Recover the dated planning documents and outstanding actions in the SAT Dashboard that Nathan says have not received execution. Compare each against current artifacts and actual work; record original date, present status, overlap, and next action. Do not merely summarise the Dashboard or create a replacement dashboard.
-- **B2 — archive-ingest and reconciliation machinery.** Resume Nathan's prior request to process, date-stamp and index all JSON, JSON-formatted and otherwise date-stamped archive materials, including files in the archive root; reconcile branches and resolve/close genuinely completed open issues. Preserve source records and distinguish an issue being discussed from being resolved.
-- **B3 — Universal Indicatrix / Whirlygig / Hagalaz geometry and address system.** Preserve the proposed two-sphere rotating/scaling model, sphere-fixed grids, functorial transformations, origin-translation role for Hagalaz, coupling to worldtube curvature, and the possible three-sphere / complete higher-dimensional construction. Explore geometric addressing of spacetime locations and histories, with physical, abstract and hypothetical applications kept distinct. No claim of physical validity follows from a useful address representation.
-- **B4 — variable-length Unicode/string addressing.** Investigate whether arbitrary-length strings can be mapped injectively and reversibly to compact variable-length numeral/glyph representations over a very large Unicode alphabet. Separate ordinary lossless encoding and address lookup from cryptography, security, and impossible fixed-width compression claims.
-- **B5 — LLM remit and internal-parameter research.** Study the controllable parameter space of remit, personality, priorities and task lanes; investigate black-box behavioural sensitivity / contextual salience and what can or cannot be inferred about token weighting. Distinguish observed prompt-response behaviour, accessible API statistics, and internal activations/weights. Retain the possible research-paper outcome.
-- **B6 — external-paper comparison.** Recover the exact papers and public statements Nathan flagged from Brian, Jana/Jenna (name as spoken is not yet resolved), and Leo; compare their actual claims with the three SAT components. Treat this as a source-comparison question, not evidence of influence, equivalence, community recognition, or independent confirmation unless the papers support those conclusions.
-- **B7 — workflow minimality and rule retirement.** Develop the smallest working procedure that catches and routes project work without drowning science in administrative repetition. When Nathan explicitly retires a rule, retire it in the operative control surface; do not preserve it as a live constraint by inventing caveats or paraphrased replacements. Retain historical provenance only where needed to explain the change, not as a mechanism that resurrects the rule.
+### Shelf note — economical edits and ticker protocol
 
-**Operating instruction:** catch each item once in this existing recovery docket; do not create a parallel queue or a document-per-document filing exercise. No fine-grained ranking of B1–B7 is implied here. The next active work remains G0.
+Use the rough-and-ready (or, as it develops, improved) ticker protocol to carry the current cursor and major steps. Assign finer notation only when the workflow reaches a point where it is useful.
 
-**Tocktick:** NOW G0 / Mysearch; NEXT G1 / three-archive procedural search; THEN G2 / method reconstruction; PARKED B1–B7 / priority review after G0.
+For every edit, ask what it is for and whether it can reduce word count **without deleting or smoothing over information**:
+- leave redundant explanation and breathless justification on the floor;
+- demote process-language such as "in order to prove" when it is not central, while retaining any distinct consideration carried by the sentence;
+- remove unnecessary statements about what is not being claimed;
+- prefer economical constructions and compact bullets, without imposing a rigid word-count quota.
+
+This is a shelf note for progressive use, not a new gate or an instruction to rewrite every existing artifact immediately.
+
+### Other captured backlog — retain separately; sort as the rolling process reaches it
+
+- **B2 — archive-ingest and reconciliation machinery.** Process, date-stamp and index JSON, JSON-formatted and otherwise date-stamped archive materials, including root-directory files; reconcile branches and resolve/close genuinely completed open issues. Preserve original records and distinguish discussion from actual resolution.
+- **B3 — Universal Indicatrix / Whirlygig / Hagalaz geometry and address system.** Preserve the proposed two-sphere rotating/scaling model, sphere-fixed grids, functorial transformations, origin-translation role for Hagalaz, coupling to worldtube curvature, and possible three-sphere / complete higher-dimensional construction. Explore geometric addressing of spacetime locations and histories. Keep physical, abstract and hypothetical applications distinct.
+- **B4 — variable-length Unicode/string addressing.** Investigate injective, reversible variable-length string/glyph representations over a large Unicode alphabet. Distinguish ordinary lossless encoding and address lookup from cryptography/security and fixed-width compression limits.
+- **B5 — LLM remit and internal-parameter research.** Study controllable remit, personality, priority and lane parameters; investigate black-box behavioural sensitivity / contextual salience and the limits of claims about token weighting. Distinguish observed behaviour, accessible API statistics, and internal activations/weights. Retain possible paper.
+- **B6 — external-paper comparison.** Recover the exact papers/public statements from Brian, Jana/Jenna (name unresolved), and Leo; compare actual claims against SAT's three components. Do not infer influence, equivalence, recognition or confirmation without evidence.
+- **B7 — workflow minimality and rule retirement.** Keep reducing workflow overhead. When Nathan explicitly retires a live rule, remove its operative effect; do not preserve it through invented caveats or paraphrased replacements. Preserve historical provenance only where useful to explain the change.
+- **B8 — ticker and economical-language practice.** The shelf note above; use progressively, without interrupting the current search.
+
+**Check-in rule:** after each substantial segment, briefly ask what was missed. Capture it once, then either shelf it or route it into the workflow. No comprehensive priority audit is required before the next scientific step.
+
+**Tocktick:** `@⌕` Mysearch / SAT-archive hits and review → **PRIMARY** Methodology Consolidation [workflow tentative + scientific precise] → **TERTIARY ↻** Prioritize and Sort [including Dashboard-plan skim] → **QUATERNARY** Full SAT Consolidation / Rough Synthesis → outline plumbing / Levin–Greene–Susskind / MIT–Royal Society / prior art → paper.
