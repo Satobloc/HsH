@@ -528,35 +528,20 @@ end HsHVerification.SableOperationReadbackBridge
 
 
 /-!
-2026-11-27 h1128:s0 source-bound invocation/result snapshot.
+2026-11-27 h1128:s3 source-bound invocation/result snapshot.
 
-Observed from the existing :36 automation at 2026-11-27T00:32:41Z.
-The nominal slot is 00:36Z (h=1128); the invocation began 3m19.516452s
-before the nominal slot. Ring selection is computed from scheduled_for, not
-started_at, and remains a deterministic routing label rather than identity.
+The scheduler readback showed a current invocation still in progress, with no
+run-level chat reference, while the cached latest result belonged to a different,
+already-completed prior invocation. Its creation and completion both preceded
+the current invocation start. The task-level conversation pointer was not
+substituted for the absent current-run reference.
 
-last_run:
-  id         = fb622fd3-2b3c-8328-9d5e-d398b215dbf3
-  scheduled  = 2026-11-27T00:36:00Z
-  started    = 2026-11-27T00:32:40.483548Z
-  status     = in_progress
-  completed  = null
-  chat_ref   = null
-
-latest_result:
-  run_id      = e8b9860c-2e00-8333-9511-c10dbc78f7cc (prior h1127:s3 Kestrel result)
-  created_at  = 2026-11-26T23:44:19.201100Z
-  completed   = 2026-11-26T23:44:20.948718Z
-  chat_ref    = non-null prior task-level conversation reference (redacted)
-  truncated   = false
-  failure     = false
-  user_action = false
-
-The task-level conversation_id is present in the task record, but it is not
-substituted for the current run's null chat_ref. The cached result is 48m21.282448s
-older than the current invocation start. Microsecond timestamps are retained
-in this source note; Nat millisecond fields below truncate to integer ms.
-This is an observed software-state witness, not a physical fixture or LLM
+Exact scheduler identifiers, wall-clock timestamps, task pointer and prior
+conversation reference are withheld from this public formal witness. The
+ordinal values 1 < 2 < 3 below preserve only the observed temporal ordering:
+prior result creation < prior result completion < current invocation start.
+The run label is deterministic routing metadata, not worker identity. This is
+a source-grounded software-state witness, not a physical fixture or LLM
 identity claim.
 -/
 
@@ -565,16 +550,16 @@ namespace HsHVerification.SableRunBinding.H1128Snapshot
 open HsHVerification.SableRunBinding
 
 def observedCurrentRun : Invocation :=
-  { id := "fb622fd3-2b3c-8328-9d5e-d398b215dbf3"
-    startedAtMs := 1795739560483
+  { id := "CURRENT_INVOCATION_REDACTED"
+    startedAtMs := 3
     status := .inProgress
     completedAtMs := none
     chatRef := none }
 
 def observedCachedPriorResult : CachedResult :=
-  { runId := "e8b9860c-2e00-8333-9511-c10dbc78f7cc"
-    createdAtMs := 1795736659201
-    completedAtMs := some 1795736660948
+  { runId := "PRIOR_CACHED_RESULT_REDACTED"
+    createdAtMs := 1
+    completedAtMs := some 2
     chatRef := some { kind := "chatgpt", id := "REDACTED_PRIOR_TASK_REFERENCE" }
     contentTruncated := false
     isFailureMessage := false
