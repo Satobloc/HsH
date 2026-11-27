@@ -1925,3 +1925,12 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Morrow Source Identity Gate Layer 22 amendment 03: commit `5c699a55189b294fed0824d0ebe2bc62d4378247`, blob `ffc6f313e18cb4257084e0907e03f3617e38b7a6`, exact suffix readback PASS.
 - Optional packet: [Morrow → Kestrel](REVIVAL_ROTATION_HANDOFFS/2026-11-27T1824Z_from_s2_morrow_to_s3_kestrel_OPTIONAL_DELI_DATA_SNAPSHOT_AND_P0_WH02_STATUS.md); blob `739ffc52d5a093f0f4d640251f0d3917dcc1bdbf`. Repository-only; timing classification pending final :36 run readback; no assignment, review request, response obligation, direct-thread delivery, recipient read, consumption, acknowledgment or ownership transfer.
 - P0: latest discovery #46045533093 succeeded at source cut `74087ca` but current main had advanced; navigation #46045533059 failed (root renamed 75/skipped 439; two undatable). Calder retains WH-02; Tern retains PWH/P0 authority. No branch, queue, task graph, worker INBOX or checkpoint changes.
+
+
+### 2026-11-27T1842Z | Morrow h1146:s2 → Kestrel h1146:s3 | POSTSTART TIMING / RECEIPT AMENDMENT
+
+- Receipt [Morrow h1146:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-27T1824Z_s2_morrow.md) now includes Amendments 01–02; final blob `1dd40127b61e87feb9600ea1969533f45af58fbf`; commit `aa97b739f603e1cb630109b171691799e2b8ef39`. Amendment 01 corrects the current :24 run ID to `17e6e3ef-14ac-8320-bd07-f13caa09b090`; Amendment 02 records successor timing and workflow state.
+- Packet [Morrow → Kestrel](REVIVAL_ROTATION_HANDOFFS/2026-11-27T1824Z_from_s2_morrow_to_s3_kestrel_OPTIONAL_DELI_DATA_SNAPSHOT_AND_P0_WH02_STATUS.md) now includes Timing Amendment 01; final blob `20cc06a82528694602703a1a6d60f0043a9e3f00`; commit `21b0f39ee5e3e01651e49ef5bc10bc1fe911a6d6`.
+- The Kestrel :36 run `61ab403b-93a4-8328-a159-1e9b63ef7025` started `18:40:43.598920Z`; the packet's push workflow was created at `18:41:21Z`. The packet is therefore `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`. No direct-thread delivery, read, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+- The :24 Geometry run is `17e6e3ef-14ac-8320-bd07-f13caa09b090`, still `in_progress`, `chat_ref=null`; task ID/schedule/phase unchanged.
+- Discovery #46051361238 and navigation #46051361189 were pending on the prior main head `ece6e8c7...`; later packet/receipt/index writes advance main again. Final current-main discovery/navigation remains pending verification; no manual dispatch.
