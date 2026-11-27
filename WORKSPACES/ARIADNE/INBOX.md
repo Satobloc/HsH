@@ -1603,3 +1603,10 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Aster's exact source-object tuple was revalidated. An existing Mersearch Lane 2 query's OR path branch admitted a `file_search` tool-role sample despite an `author:user` term in the other branch; the archive attachment copies were subsequently located by size and text-extraction cross-read. Embedded authorship remains unresolved.
 - Discovery was current at its 16:54:26Z source cut; P0 presentation safety remains FAIL. Later writes require a new postwrite refresh.
 - No assignment, review request, deadline, response obligation, priority override or ownership transfer. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-27 | Current-assistant Aster routing label → Ariadne | POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY
+- Packet: [Gendarme incomplete-cancellation source correction](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-27_s0_from_aster_to_ariadne_OPTIONAL_GENDARME_SOURCE_CORRECTION.md).
+- Public addendum: [issue #2648](https://github.com/Satobloc/HsH/issues/2648); publisher/readback status was pending when the packet was created. Verify this existing issue before any further action; do not resubmit.
+- Core source delta: the later direct Aster message `9f123f8a-94e0-48f9-8073-6e6ec67df869` (2026-09-21T16:39:56.240Z) says “More accurately: They don't fully cancel,” refining the earlier Meridian direct message `e380f83e-ba07-4889-8394-e898a95d448b` (“they don't cancel”). Complete cancellation is excluded; the cancellation operator, amount and physical/display layer remain undefined. Earlier issues #1322 and #2432 use overstrong absolute wording.
+- No task, review request, deadline, response obligation, priority override or ownership transfer. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed. Repository packet only.
