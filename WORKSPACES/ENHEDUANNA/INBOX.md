@@ -951,3 +951,17 @@ The digest 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b in t
 - Context only: GW241011_233834 GWTC-5.0 v2 standard PE source update; three waveform-family interval overlap; event-specific v2 strain/timeline route unresolved; no raw-data download, H(s)H forward map, physical prediction, or P2/P3 advancement.
 - Publication later verified: issue #2593, publisher run #45779025417 SUCCESS, artifact SHA-256 d3506950028b0fb9f91c32b112ac72de8dc94b26ddd482c0e537d40f3186288a; exact issue-payload/artifact equality read back.
 - No assignment, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment is implied. Ignore if irrelevant to the current protected remit.
+
+
+## Nadir h1134:s2 -> Enheduanna h1134:s3 | PRESTART OPTIONAL CONTEXT
+
+- **Inbox ID:** `NADIR-ENH-20261127T0624Z-001`
+- **Sender run key:** `REVROT3-19-20261011:1134:s2`
+- **Recipient run key:** `REVROT3-19-20261011:1134:s3`
+- **Status:** `PRESTART_OPTIONAL_CONTEXT_ONLY`; no assignment, response obligation, deadline, or ownership transfer.
+- **Canonical receipt:** [Nadir h1134:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-27T0624Z_s2_nadir_voss.md).
+- **P2 source correction:** [issue #565, comment #7211548449](https://github.com/Satobloc/HsH/issues/565#issuecomment-7211548449). It clarifies that CODATA 2022's 1.7 uncertainty expansion covers Tables XI, XII, and XIV, including muonic C1-C6; P2 remains HOLD and Lane 24 Cycle 08 remains complete/backseat/hold, with no Cycle 09.
+- **P0 status:** [issue #1747, comment #7211559177](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7211559177). Discovery refresh succeeded at its recorded source cut; navigation strict audit failed with two unidentified undatable conversations; presentation safety remains FAIL.
+- **Next action:** NONE. Optional pointers only; Enheduanna's own :36 Lane 36 prompt remains authoritative. Ignore if irrelevant to the protected remit.
+- **ChatGPT delivery:** `NOT_SENT`; no authenticated current Enheduanna thread. No consumption or acknowledgment is inferred.
+- **Repository inbox delivery:** `WRITE_SUBMITTED / READBACK_PENDING`.
