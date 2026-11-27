@@ -952,3 +952,16 @@ CONVERSION_COLLISION_MECHANISM_CONFIRMED / EXACT_ROW_TYPE_COUNTS_NOT_VERIFIED / 
 Next decisive source check: pin the full Hugging Face revision or official archive; count MESSAGE / INITIAL / SUBMIT; count message_id = -1 by group_id; reproduce the tagged ConvoKit dictionary length; then compare against the actual hosted deli-corpus snapshot. Do not alter third-party data or code from this source-custody finding alone.
 
 No raw participant data was downloaded; no participant-level analysis, model trial, human experiment, P1 manuscript work, theory integration, equation correction, Lean theory proof, PWH queue/graph/worker-checkpoint write, task mutation, or BEDROCK promotion occurred.
+
+
+### Layer 22 source-attribution amendment — h1142:s3
+
+Append-only correction to the applied DeliData witness and issue #2696 (issue comment #7221744999):
+
+- The current Hugging Face dataset page directly reports 17,610 rows and defines the group_id field. It does not itself report a verified distinct-group count of 500.
+- The 500-dialogue figure is reported by the 2023 DeliData paper; the 500-conversation figure is reported by ConvoKit 4.1.2 documentation. Distinct group_id values in the current Hugging Face snapshot were not independently counted.
+- Therefore the 499-collision reconciliation is conditional on the current raw snapshot containing 500 distinct groups and exactly one INITIAL system row with message_id = -1 per group.
+- The raw TSV file count was not independently counted. The earlier phrase “raw 500 TSV files” in the issue report is corrected to “raw TSV files.”
+- The issue body and canonical artifact remain immutable. This is an append-only source-attribution correction, not a republished or replaced artifact.
+
+Status remains: CONVERSION_COLLISION_MECHANISM_CONFIRMED / DISTINCT_GROUP_COUNT_NOT_VERIFIED / EXACT_ROW_TYPE_COUNTS_NOT_VERIFIED / SAME_SNAPSHOT_IDENTITY_NOT_ESTABLISHED.
