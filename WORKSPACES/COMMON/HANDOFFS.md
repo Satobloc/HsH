@@ -1934,3 +1934,10 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - The Kestrel :36 run `61ab403b-93a4-8328-a159-1e9b63ef7025` started `18:40:43.598920Z`; the packet's push workflow was created at `18:41:21Z`. The packet is therefore `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`. No direct-thread delivery, read, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
 - The :24 Geometry run is `17e6e3ef-14ac-8320-bd07-f13caa09b090`, still `in_progress`, `chat_ref=null`; task ID/schedule/phase unchanged.
 - Discovery #46051361238 and navigation #46051361189 were pending on the prior main head `ece6e8c7...`; later packet/receipt/index writes advance main again. Final current-main discovery/navigation remains pending verification; no manual dispatch.
+
+
+### 2026-11-27T1844Z | Morrow h1146:s2 → Kestrel h1146:s3 | WH-02 BRANCH-DISTANCE CORRECTION
+
+- Receipt [Morrow h1146:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-27T1824Z_s2_morrow.md): final blob `36311f0973d56c8a4a579bc8605936f8c5c8bd6b`; Amendments 01–03 include the correct :24 run ID, POSTSTART successor timing, and corrected WH-02 branch distances.
+- Optional packet [Morrow → Kestrel](REVIVAL_ROTATION_HANDOFFS/2026-11-27T1824Z_from_s2_morrow_to_s3_kestrel_OPTIONAL_DELI_DATA_SNAPSHOT_AND_P0_WH02_STATUS.md): final blob `457071b1be9708fa7dd6a9eb772738434f59784c`; POSTSTART / REPOSITORY_ONLY.
+- At comparison head `29b57accb8ea42d1b5b8d0a75c074751820f2068`: PR #1710 = 7 ahead / 13,180 behind; PR #2487 = 6 ahead / 1,696 behind; PR #2488 = 1 ahead / 1,696 behind. All OPEN/DRAFT/DIVERGED; issue #1702 remains open. No branch or issue changes. Calder owns WH-02; Tern owns PWH/P0.
