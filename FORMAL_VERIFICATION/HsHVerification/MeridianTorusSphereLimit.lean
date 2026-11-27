@@ -2,12 +2,13 @@ import Mathlib
 
 namespace HsHVerification.MeridianTorusSphereLimit
 
+noncomputable section
+
 /-- A Cartesian point used only for the standard Euclidean torus parameterization. -/
 structure Point3 where
   x : ℝ
   y : ℝ
   z : ℝ
-deriving DecidableEq
 
 /-- Standard ring-torus parameterization in Euclidean 3-space. -/
 def torusPoint (R r θ φ : ℝ) : Point3 :=
@@ -72,14 +73,20 @@ theorem sphereDeck_twice (θ φ : ℝ) :
     sphereDeck (sphereDeck θ φ).1 (sphereDeck θ φ).2 =
       (θ, φ + 2 * Real.pi) := by
   dsimp [sphereDeck]
-  constructor <;> ring
+  apply Prod.ext
+  · ring
+  · ring
 
 /-- The R=0 parameterization is invariant under the branch identification. -/
 theorem sphereLimit_deck_invariant (r θ φ : ℝ) :
     torusPoint 0 r (sphereDeck θ φ).1 (sphereDeck θ φ).2 =
       torusPoint 0 r θ φ := by
-  ext <;>
-    simp [torusPoint, sphereDeck, Real.cos_sub, Real.sin_sub,
+  apply Point3.ext
+  · simp [torusPoint, sphereDeck, Real.cos_sub, Real.sin_sub,
+      Real.cos_add, Real.sin_add]
+  · simp [torusPoint, sphereDeck, Real.cos_sub, Real.sin_sub,
+      Real.cos_add, Real.sin_add]
+  · simp [torusPoint, sphereDeck, Real.cos_sub, Real.sin_sub,
       Real.cos_add, Real.sin_add]
 
 /-- The azimuthal coordinate scale vanishes at the horn-torus inner equator R=r. -/
@@ -143,5 +150,7 @@ theorem tangentPlane_orientedTriple_zero
 #print axioms sphereLimit_deck_invariant
 #print axioms ringTorus_azimuthalMetric_positive
 #print axioms tangentPlane_orientedTriple_zero
+
+end
 
 end HsHVerification.MeridianTorusSphereLimit
