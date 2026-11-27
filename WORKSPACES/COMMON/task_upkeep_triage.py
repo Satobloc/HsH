@@ -310,6 +310,33 @@ def audit_graph(graph: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def relationship_detail_lines(values: Any, known_ids: set[str], label: str,
+                              max_items: int = 4) -> list[str]:
+    """Render bounded relationship details without interpreting free-text semantics."""
+    if not isinstance(values, list):
+        return [f"{label} malformed: {type(values).__name__}"]
+    if not values:
+        return []
+
+    exact_ids = [value for value in values if isinstance(value, str) and value in known_ids]
+    descriptive = [value for value in values
+                   if not (isinstance(value, str) and value in known_ids)]
+
+    def preview(items: list[Any]) -> str:
+        shown = [str(item).replace("\\n", " ")[:180] for item in items[:max_items]]
+        if len(items) > max_items:
+            shown.append(f"+{len(items) - max_items} more")
+        return "; ".join(shown)
+
+    lines = []
+    if exact_ids:
+        lines.append(f"{label} IDs: {preview(exact_ids)}")
+    if descriptive:
+        lines.append(f"{label} text/external ({len(descriptive)}): {preview(descriptive)}")
+    return lines
+
+
+
 def self_test() -> None:
     sample = {"branches": [
         {"id": "low", "title": "Easy P3", "status": "active", "priority": "P3",
@@ -350,8 +377,19 @@ def self_test() -> None:
     root_row = next(row for row in build_report(fixture, date(2026, 11, 5)) if row["id"] == "root")
     assert root_row["blockers"] == ["awaiting source"]
     assert root_row["dependencies"] == ["child", "external note"]
+    known_ids = {"root", "child", "parent-only", "orphan"}
+    assert relationship_detail_lines(root_row["blockers"], known_ids, "BLOCKERS") == [
+        "BLOCKERS text/external (1): awaiting source"
+    ]
+    assert relationship_detail_lines(root_row["unblocks"], known_ids, "UNBLOCKS") == [
+        "UNBLOCKS IDs: child"
+    ]
+    assert relationship_detail_lines(root_row["dependencies"], known_ids, "DEPENDENCIES") == [
+        "DEPENDENCIES IDs: child",
+        "DEPENDENCIES text/external (1): external note",
+    ]
 
-    print("SELF-TEST PASS: priority order, raw relationship preservation, count mismatch, dangling edge, asymmetry, reachability, cycle witnesses and free-text dependency classification.")
+    print("SELF-TEST PASS: priority order, relationship detail, count mismatch, dangling edge, asymmetry, reachability, cycle witnesses and dependency classification.")
 
 
 def main() -> int:
@@ -374,6 +412,10 @@ def main() -> int:
     graph = json.loads(args.graph.read_text(encoding="utf-8"))
     rows = build_report(graph, args.as_of)[:max(0, args.limit)]
     audit = audit_graph(graph) if args.graph_audit else None
+    known_ids = {
+        task.get("id") for task in graph.get("branches", [])
+        if isinstance(task, dict) and task.get("id")
+    }
     if args.json:
         payload = {"as_of": args.as_of.isoformat(), "items": rows}
         if audit is not None:
@@ -401,6 +443,14 @@ def main() -> int:
             gaps = f"; metadata gaps: {', '.join(row['metadata_gaps'])}" if row["metadata_gaps"] else ""
             print(f"{index:>2}. [{row['priority']}] {row['status']:<14} {row['title']} ({owner})")
             print(f"    {reason}{gaps}")
+            if audit is not None:
+                for field, label in (
+                    ("blockers", "BLOCKERS"),
+                    ("unblocks", "UNBLOCKS"),
+                    ("dependencies", "DEPENDENCIES"),
+                ):
+                    for detail in relationship_detail_lines(row.get(field), known_ids, label):
+                        print(f"    {detail}")
     return 0
 
 
