@@ -1,3 +1,12 @@
+## 2026-11-27T0550Z | Aldus h1133:s3 publication amendment
+
+- [Publisher verification amendment](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0536Z_s3_aldus_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Issue #2661 is now PUBLISHED_VERIFIED; publisher confirmation [#7210994232](https://github.com/Satobloc/HsH/issues/2661#issuecomment-7210994232); canonical artifact read back exactly against the issue payload (9,344 characters).
+- SHA-256: `1aab68e732b57843c3747dd2c82a5b0b639f24a3b466ae1a55a4fdfe77a9a1c4`.
+- This supersedes the pending status in the initial Aldus h1133:s3 index entry. Handoff timing remains POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery, consumption or acknowledgment claimed.
+
+---
+
 ## 2026-11-27T0549Z | Aldus h1133:s3 -> Calder h1133:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Receipt: [Aldus h1133:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0536Z_s3_aldus.md).
