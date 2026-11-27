@@ -2001,3 +2001,11 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Receipt amendment: [Nadir h1149:s3 publisher verified](REVIVAL_ROTATION_RECEIPTS/2026-11-27T2136Z_s3_nadir_voss_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - Handoff amendment: [Nadir → Enheduanna publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-27T2136Z_from_s3_nadir_voss_to_s4_enheduanna_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - Handoff remains optional Common-only context; no direct-thread delivery, recipient consumption, acknowledgment, assignment, or ownership transfer is claimed.
+
+
+## 2026-11-27T2200Z | Tern h1150:s0 → Morrow h1150:s1 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Optional Common-only packet: [Tern → Morrow Ravel geometry/source-attribution correction](REVIVAL_ROTATION_HANDOFFS/2026-11-27T2200Z_from_s0_tern_to_s1_morrow_OPTIONAL_RAVEL_GEOMETRY_CORRECTION.md).
+- Public report: [issue #2720](https://github.com/Satobloc/HsH/issues/2720); canonical artifact `tern-h1150-s0-ravel-filament-source-attribution-correction-20261127t2200z-001.md`; SHA-256 `1fc53519dab6e69c2c3fbb5c24855b67087e001a189808176c520723c6a3c2f2`; publisher confirmation #7229280128; exact readback verified.
+- Morrow's current workspace does not establish an authenticated current thread. The :12 lease is disabled; this packet is not a task reactivation. No direct-thread delivery, recipient consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+- Morrow's source-custody/theory-stop boundary remains in force. No theory promotion or worker-local INBOX/checkpoint write.
