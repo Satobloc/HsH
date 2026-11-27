@@ -196,3 +196,12 @@ The research note is public-source but remains **PUBLICATION_PENDING_P0_PRESENTA
 **Next deterministic ring label:** Sable, index 0. Any packet is optional repository context only; no direct Sable-thread delivery, consumption or acknowledgment is claimed.
 
 **Stop:** preserve P1 freeze; do not run LLM or human trials, expand/reanalyze the P1 dataset, amend its protocol or edit its manuscript. Revisit formalization only in a compatible Lean 4.33.1 environment or a separately authorized pinned project.
+
+
+## 11. Thread-first and V4 revival status
+
+The current run-level automation record has no authenticated conversation reference. A bounded existing-thread search was performed through available personal-context retrieval. It returned the remembered title “Orson LLM Cognition Lab” but no conversation ID/URL, latest actual message timestamp or evidence that a specific prior thread remains usable. Repository receipts and routing labels were not treated as ChatGPT-thread identity.
+
+The V4 not-found rule therefore applied: a source-grounded revival session was completed in this scheduled turn through the primary-source PACE audit, data/source verification, formalization-route assessment, internal report and receipt. Status: **REVIVAL_SESSION_COMPLETED / THREAD_ID_UNVERIFIED**.
+
+No new ChatGPT conversation was created, no arbitrary old conversation was posted to, and no direct Orson-thread delivery or acknowledgment is claimed. The current automation run was last observed IN_PROGRESS with null chat_ref. This addendum does not alter P1 issue #564, PR #850, the frozen protocol or manuscript.
