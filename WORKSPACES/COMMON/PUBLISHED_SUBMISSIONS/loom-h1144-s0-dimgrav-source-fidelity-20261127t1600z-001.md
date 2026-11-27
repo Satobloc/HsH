@@ -1,0 +1,197 @@
+# Loom — h1144:s0 source-fidelity audit
+## 2024 DIMENSIONAL GRAVITY: moving slices, filament taxonomy and cross-temporal transfer
+
+**Nominal slot:** 2026-11-27T16:00Z  
+**Run key:** REVROT3-19-20261011:1144:s0  
+**Routing:** h=1144; seq=5720; 5720 mod 19 = 1. Selected routing label: Loom (index 1); next ring label: Aster (index 2).  
+**Disposition:** SOURCE_RECOVERY_COMPLETE / 34_NEW_TAGS_VERIFIED / EXISTING_LEAN_FORMALIZATION_REUSED / TRANSLATION_LIMITS_IDENTIFIED / NO_THEORY_PROMOTION.
+
+This is assistant-level, source-grounded work under the deterministic Loom routing label. It is not authenticated historical Loom participation or a claim of direct-thread continuation.
+
+## 1. Authority and Loom's historical remit
+
+The historical Loom role was reconstructed from the raw Tag Conversation Corpus conversation:
+
+- Conversation ID: 6aa67478-541c-83e9-b8fa-32d6d575eeb9.
+- Git blob: 6668ca60e451f8737903423727da7f9a430484e1.
+- 515 mapping nodes; ten direct user-role messages, nine on the selected ancestry and one off-ancestry.
+- No standalone signed specialist charter was recovered.
+
+Those direct instructions support cumulative conversation tagging, chronological/earliest-occurrence recovery, tag-selectivity review, frequency sorting, and a crosswalk between SAT terms and standard scientific/mathematical terminology using interlinked definitions. The off-ancestry message is retained as historical context, not treated as a current-thread instruction.
+
+Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED in its own workspace. No authenticated current Loom thread was found. This scheduled Archive selection does not create a Loom lease, reactivate the historical instance, or change ownership.
+
+## 2. Primary-source recovery
+
+The principal source is the raw ChatGPT export:
+
+- Path: DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json
+- Conversation ID: 252d05c0-22ed-4ea2-a474-7966ab13145a
+- HsH Git blob: 2cea1924266418e19b825b95ae51e6b7cbace7e1
+- 466 mapping nodes; 455 message-bearing nodes on the selected ancestry; 138 user-role messages.
+
+The current Training Source Map identifies this as an early dimensional-geometry conversation, not current theory authority. The selected passages are native user-role messages in the raw conversation and contain no embedded alternate-speaker transcript in the passages reviewed. The current provenance rule still requires more than role=user alone: source path, conversation identity, ancestry, adjacency and later correction were retained. These messages are treated as historical user-authored proposals, not as BEDROCK.
+
+**Read extent:** all 138 user-message identities were extracted; substantive direct-message review covered turns 1–131, with selected assistant replies for turns 1–15, 81–90 and 117–127. Turns 132–138 were not semantically reviewed. The direct source passages contain descriptive geometry and hypotheses, not explicit coordinate equations.
+
+The cumulative Loom tag ledger was extended in its existing file, Section AR, with 34 previously untagged direct messages: turns 71, 73–74, 79, 81–90, 111–127 and 129–131. Existing coverage was checked by exact message ID; no tag was duplicated.
+
+- Ledger path: WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md
+- Update commit: 5fc887bd2cac7feb4764e42b3bf495e37444f991
+- New blob: ad8d574f374adcf20dc65eda243e470c9bc29945
+- Independent readback: exact content-blob match; 34 direct-message entries and 15 selected assistant-message provenance entries.
+
+## 3. Nathan Direct geometry, independently extracted
+
+### 3.1 The 3D moving-slice toy
+
+The early construction begins with a straight axis, a helical curve and a plane moving along a specified normal direction. The direct corrections establish these local intentions:
+
+1. A fixed plane intersects a regular helix at one point, not a spiral of points.
+2. As the plane advances, the helix intersection traces a circle around the axis when the helix radius is fixed.
+3. The axial intersection remains stationary in the chosen setup; only the helical intersection moves.
+4. For a straight line intersected by a moving plane, the projected point's direction is set by the line's slope relative to the plane normal.
+5. A two-curve arrangement can create approach, contact and separation, but the direct source does not give complete coordinates or a rate law.
+
+The user explicitly preferred conceptual/visual exploration over exact coordinates at this early stage. No source equation for the helix, plane, parabolas or their motion was written in the selected direct messages.
+
+### 3.2 The 4D lift
+
+The later description proposes:
+
+- A four-dimensional ambient structure.
+- One-dimensional filaments embedded in that structure.
+- A three-dimensional time surface/wavefront, whose intersection with filaments is proposed as the particle readout in the experienced three-dimensional slice.
+- A distinction between complexity generated by interactions among the 4D structures and the 3D manifestation produced at the time-surface intersection.
+- Multiple intersections as possible, so the source does not establish a universal single-valued particle readout.
+
+A conservative mathematical reading would be a family of embedded three-dimensional hypersurfaces Στ inside an ambient four-manifold M⁴, together with filament curves γa:Ia→M⁴. A candidate readout is the intersection set γa(Ia)∩Στ. It is a single point only under additional existence, uniqueness and transversality conditions. This notation is an assistant reconstruction, not a Nathan Direct equation.
+
+The source does not define a global foliation, the parameter τ, the embedding or topology of Στ, a metric/signature, the identity map that follows a particle between slices, or the handling of multiple intersections. A spherical/radial expansion is introduced as a simplifying assumption; the source later explicitly allows other geometries and calls the model a heuristic.
+
+### 3.3 The composite-structure taxonomy
+
+The working vocabulary evolves through:
+
+- Filament: the basic stringlike entity; the user adopts this name to distinguish it from string-theory strings.
+- Thread: a composite of filaments, proposed at the simple composite-particle scale.
+- Twine: an atomic-scale composite.
+- Yarn: a molecular-scale composite.
+- Bundle: a discrete everyday object or interacting molecular system.
+- Rope: a larger cohesive structure, proposed for spheroidal astronomical bodies.
+- Heloid, loop and tether: later classified as rope morphologies, not independent compositional levels.
+- Strand: a collective term for thread/twine/yarn/bundle levels.
+- Lacework: the interweaving of these structures through four-dimensional space.
+
+This is a provisional glossary, not a validated ontology. The direct source itself later flags confusion in the terminology/classification. It also gives inconsistent particle assignments across turns: electrons are described at the filament-intersection level in one passage, while muons are placed among threads in another. The exact composition maps and Standard Model correspondence are unresolved.
+
+### 3.4 Cross-temporal tugs and energy transfer
+
+The later conversation proposes that interactions among filaments and composite structures may exert reciprocal tugs across past and future portions of the 4D structure. It then explores a physical-string analogy: strings attached to a central knot and spherical boundary, with a pluck transmitting energy along a string and potentially through contacts into other strings.
+
+The source later hypothesizes that more future-side entanglement could bias transfer toward the past and perhaps contribute to expansion. These are exploratory hypotheses. No force/energy tensor, constitutive law, units, material parameters, boundary conditions, conservation equation, measured system or fitted/predicted quantity is defined.
+
+The current methodology does not authorize turning this historical proposal into a universal information-retention or energy-transfer law. No such law is inferred here.
+
+## 4. Historical LLM mathematics and fidelity comparison
+
+The existing assistant-generated Lean work is useful precisely because it separates valid local geometry from the much larger source interpretation.
+
+### 4.1 Existing formalization
+
+PR #262, branch infra/lean4-verification-20261023:
+
+- Current PR head: 08b73a3f60003b5b245cb8f012faa13ff045154c
+- PR state: OPEN / UNMERGED; current head is not on main.
+- NadirHelixSliceGeometry.lean blob: 3e47ffa6d6bcd534abdedf18ea865fb2941a0947
+- MovingPlaneTraceGeometry.lean blob: 80115a0d6ffc580ea4c775056b808bd008c6a5e0
+
+Exact-head Actions run #45790453366 succeeded on the same head, job #139807829995. The run used Lean 4.34.0 / Lake 5.0.0 and completed 8,947 build jobs. The axiom-audit step was skipped; theorem-specific reports include standard dependencies such as propext, Classical.choice and Quot.sound. This is a compiled formalization, not an axiom-free claim, not an empirical test, and not a source-translation proof.
+
+The files are PR-only; fetching both paths from current main returned NOT_FOUND. No new Lean module or duplicate PR was created.
+
+### 4.2 What the existing modules establish
+
+**NadirHelixSliceGeometry** uses an all-plus Euclidean Fin 4 model. It defines an affine hyperplane by a dot-product equation and a line by an affine parameter. A nonzero normal-direction pairing gives a unique line/hyperplane intersection. It also defines a standard circular helix and proves that its slice radius is constant while its phase changes at a rate proportional to slice speed divided by pitch.
+
+This is a faithful conditional subcase of the early fixed-radius helix discussion. It does not define a curved time surface, a global foliation, a Lorentzian metric, a finite-core tube, or the complete 4D filament ontology. The source did not specify the all-plus metric.
+
+**MovingPlaneTraceGeometry** formalizes a separate three-dimensional toy model:
+
+- For a line with direction components dy and dz, and a z-slice moving at speed v, the projected y-rate is (dy/dz)v. It equals the slice speed only when dy=dz.
+- The module supplies a finite witness where the rates differ.
+- For the chosen standard parabolas y=+z² and y=−z², the separation is 2z². With z(t)=z₀+vt, its secant rate is 2v(2z₀+v(t₁+t₂)), which is not constant across intervals.
+- An oblique projection of a circle into a fixed z-normal slice is an ellipse under the specified projection map. This is not a complete tilted-helix intersection theorem.
+
+The formulas are assistant-selected mathematical models. They are not equations extracted from Nathan's messages.
+
+### 4.3 Source-to-translation results
+
+| Direct proposition | Historical translation | Fidelity assessment |
+|---|---|---|
+| A fixed-radius helix cut by a moving plane gives one moving point tracing a circle | Standard circular-helix parametrization and constant-radius/phase-rate lemmas | Faithful local subcase |
+| A tilted line's intersection motion depends on its slope | Assistant initially says projected rate equals slice speed without the slope factor | Overclaim; the Lean module supplies the correct conditional ratio |
+| Two parabolas can approach, meet and separate | Assistant accepts the arrangement as producing the requested steady rate | Partial; the later standard y=±z² model produces contact/separation but variable rate |
+| A 1D filament intersects a 3D time surface to give a particle readout | Affine line/hyperplane intersection in Euclidean R⁴ | Valid conditional local model; no global time-surface family or multi-intersection identity map |
+| Complexity comes from interactions among 4D structures; the surface intersection manifests them in 3D | Assistant later attributes complexity to interaction with the time surface | Direct contradiction |
+| Spherical/radial origin is a simplifying assumption, not required | Assistant summaries present radial extension from a central point as defining | Optional assumption promoted |
+| Heloids/loops/tethers are rope morphologies; strands are a collective term | Assistant first lists heloids as a separate level, then revises; later summaries duplicate/overlap bundle/rope classifications | Taxonomy drift; user explicitly flags confusion |
+| Past/future tugs and cross-temporal transfer are hypotheses | Assistant alternates between symmetric propagation, possible knot bias, no network bias, then net pastward bias | Over-accommodation; no transfer law is derived |
+
+## 5. Geometry map and missing compositions
+
+The source-faithful candidate map is:
+
+M⁴ ambient structure  
+→ filament curves γa  
+→ intersection sets γa(Ia)∩Στ on a three-dimensional time surface  
+→ observed particle/readout points or, when multiple intersections occur, a set of candidates.
+
+Separately:
+
+filaments  
+→ intertwining/composition map  
+→ threads  
+→ twines  
+→ yarns  
+→ bundles  
+→ ropes  
+→ rope morphologies: heloids / loops / tethers.
+
+The second chain is descriptive only. Every arrow requires an explicit composition map, admissible inputs, output type and conditions. The map from the 3D moving-plane toy to the 4D time-surface construction is also missing. The existing 3D and 4D Lean modules are separate formalizations; no projection/composition map joins them.
+
+## 6. Discrepancy ledger
+
+1. **Direct-source ambiguity:** “four-dimensionally expanding wavefront” and “three-dimensional surface” are not given a precise embedding or parameterization.
+2. **Assistant intersection error:** an early response describes a spiral-like plane intersection where the direct geometry requires one point; later responses correct it.
+3. **Assistant rate error:** the projected speed depends on line slope; the earlier unqualified equality is false in general.
+4. **Assistant helix error:** a constant-radius helix has no unique maximum-radius point at which two intersections meet; the proposed contact construction was misdescribed.
+5. **Parabola rate gap:** the standard symmetric parabolas satisfy contact and separation, but not the requested constant-rate behavior.
+6. **Lift gap:** no explicit map carries the 3D toy into the 4D time-surface geometry.
+7. **Metric gap:** the PR module uses Euclidean R⁴; the direct source does not specify a metric/signature.
+8. **Readout gap:** multiple intersections are contemplated, but particle identity/continuity across slices is undefined.
+9. **Taxonomy gap:** the user’s own working definitions are inconsistent and explicitly flagged as needing correction; assistant summaries further drift.
+10. **Causal-attribution mismatch:** the assistant reverses the user's explicit distinction between structural interactions and their time-surface manifestation.
+11. **Dynamical gap:** “tugs” and cross-temporal energy transfer have no defined force law, units, boundary conditions or independent observation.
+12. **Directional-bias gap:** the assistant's pastward-transfer answers change with the prompt and do not follow from the symmetric toy model.
+
+## 7. Current controls
+
+- Mersearch stable release is Mercer_Searcher 1.0 at 89933c358b67ccbfbbaa680aadeb1f35d22d91b2. All four canonical request lanes are occupied. Lane 4 request kestrel-finite-core-geometry-source-fidelity-20261102-2200 remains requested and has no request-scoped manifest or compact receipt. Lane 2 Aster RUN099 has a manifest and compact receipts for a different query; those do not answer this source question. No query, overwrite, retrigger or release was attempted. GitHub immutable-blob retrieval was a disclosed fallback, not Mersearch execution. No private HSH_RESOURCES payload was opened.
+- Math Hopper and Whirligig existing documentation was checked; the existing Lean PR was reused. No new tool, fork, dependency, subscription or expense.
+- Current HsH main before the tag-ledger append was 83f5438c58d094d6dc9c8b561607fe8c04afff3a; after the append it is 5fc887bd2cac7feb4764e42b3bf495e37444f991.
+- P0 issue #1747 remains ACTIVE. Latest prewrite comment #7223401699 reported discovery success on the then-current main and navigation failure; presentation safety remains FAIL, Paper A/B live-route acceptance NOT_OBSERVED, deployment NOT_VERIFIED, release/standdown NOT_AUTHORIZED. The tag-ledger commit creates a new postwrite discovery-freshness window; no manual dispatch was made.
+- PWH queue and Tern CURRENT_WORK remain at h1081. Tern retains queue/graph authority; no queue or graph mutation was made. The live graph remains 18 records / branch_count 16 / seven roots / 11 parent pointers / 10 child edges / 17 children-reachable.
+- P1 November 9 remains overdue / frozen / NOT READY / Orson-owned. P2 November 30 remains HOLD. P3 December 14 remains incomplete. No paper gate advanced.
+- FIE rereview next due December 8. Unrelated-source break next due November 28.
+- No CODATA scoring, physical calculation, fit, prediction, independent measurement, SAT-O/Blockwave equation change, BEDROCK edit or theory promotion.
+
+## 8. Next deeper cursor
+
+1. Resume at direct user turn 132 of the raw DIMENSIONAL GRAVITY conversation; turns 132–138 were not semantically reviewed.
+2. Recover the exact later SAT4D source and compare its metric/signature and time-surface language against the 2024 proposal without assuming equivalence.
+3. Define the 4D ambient object, the family of three-dimensional surfaces Στ, filament embeddings, transversality, multiple-intersection handling and particle-identity map before claiming a full readout construction.
+4. Resolve the direct taxonomy against its later corrections before defining any nested composition maps.
+5. Keep cross-temporal transfer as a hypothesis until an actual constitutive law and measured system are supplied. No data-free physical calculation is authorized by this source audit.
+
+**Tocktick:** Current focus: source-faithful moving-slice/filament geometry. Immediate action: continue from turn 132 and recover the later SAT4D primary source. Stop: no full 4D composition, physical force law or theory promotion until the missing maps and evidence exist. Return locator: raw conversation ID 252d05c0-22ed-4ea2-a474-7966ab13145a, turn 132; Loom tag ledger Section AR; PR #262 exact head 08b73a3f60003b5b245cb8f012faa13ff045154c.
