@@ -57,7 +57,8 @@ Marginal independence for the uniform four-point sample space.
 After clearing denominators, P(X=x,Y=y)=P(X=x)P(Y=y) is
 4 * jointCount = marginalCountX * marginalCountY.
 -/
-def independent {α β : Type*} [DecidableEq α] [DecidableEq β]
+def independent {α β : Type*} [Fintype α] [Fintype β]
+    [DecidableEq α] [DecidableEq β]
     (X : Sample → α) (Y : Sample → β) : Prop :=
   ∀ x y,
     count (fun ω => (X ω, Y ω)) (x, y) * 4 =
@@ -69,6 +70,7 @@ After clearing denominators,
 P(X=x,H=h,S=s)P(S=s)=P(X=x,S=s)P(H=h,S=s).
 -/
 def conditionallyIndependent {α β γ : Type*}
+    [Fintype α] [Fintype β] [Fintype γ]
     [DecidableEq α] [DecidableEq β] [DecidableEq γ]
     (X : Sample → α) (H : Sample → β) (S : Sample → γ) : Prop :=
   ∀ x h s,
@@ -132,17 +134,30 @@ theorem weak_marginal_independence_is_insufficient :
     protocolCoin_not_independent_of_joint_input,
     transcript_not_conditionally_independent⟩
 
-/-- Executable finite checks: pairwise independence, zero private dependence,
-    failure of full-tuple independence, and transcript conditional dependence. -/
-#eval decide (independent target protocolCoin)
-#eval decide (independent sharedEvidence protocolCoin)
-#eval decide (conditionallyIndependent target privateEvidence sharedEvidence)
-#eval decide (independent (fun ω => (target ω, sharedEvidence ω)) protocolCoin)
-#eval decide (conditionallyIndependent target transcript sharedEvidence)
-
 #print axioms protocolCoin_independent_of_target
 #print axioms privateEvidence_conditionally_independent
 #print axioms protocolCoin_not_independent_of_joint_input
 #print axioms transcript_not_conditionally_independent
 
 end HsHVerification.OrsonPACEProtocolRandomness
+
+/-- Executable finite checks: pairwise independence, zero private dependence,
+    failure of full-tuple independence, and transcript conditional dependence. -/
+#eval decide (HsHVerification.OrsonPACEProtocolRandomness.independent
+  HsHVerification.OrsonPACEProtocolRandomness.target
+  HsHVerification.OrsonPACEProtocolRandomness.protocolCoin)
+#eval decide (HsHVerification.OrsonPACEProtocolRandomness.independent
+  HsHVerification.OrsonPACEProtocolRandomness.sharedEvidence
+  HsHVerification.OrsonPACEProtocolRandomness.protocolCoin)
+#eval decide (HsHVerification.OrsonPACEProtocolRandomness.conditionallyIndependent
+  HsHVerification.OrsonPACEProtocolRandomness.target
+  HsHVerification.OrsonPACEProtocolRandomness.privateEvidence
+  HsHVerification.OrsonPACEProtocolRandomness.sharedEvidence)
+#eval decide (HsHVerification.OrsonPACEProtocolRandomness.independent
+  (fun ω => (HsHVerification.OrsonPACEProtocolRandomness.target ω,
+    HsHVerification.OrsonPACEProtocolRandomness.sharedEvidence ω))
+  HsHVerification.OrsonPACEProtocolRandomness.protocolCoin)
+#eval decide (HsHVerification.OrsonPACEProtocolRandomness.conditionallyIndependent
+  HsHVerification.OrsonPACEProtocolRandomness.target
+  HsHVerification.OrsonPACEProtocolRandomness.transcript
+  HsHVerification.OrsonPACEProtocolRandomness.sharedEvidence)
