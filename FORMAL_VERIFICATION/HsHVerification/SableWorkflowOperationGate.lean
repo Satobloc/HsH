@@ -525,3 +525,95 @@ theorem legacy_boolean_gate_can_pass_without_run_readback_eligibility :
 #print axioms legacy_boolean_gate_can_pass_without_run_readback_eligibility
 
 end HsHVerification.SableOperationReadbackBridge
+
+
+/-!
+2026-11-27 h1128:s0 source-bound invocation/result snapshot.
+
+Observed from the existing :36 automation at 2026-11-27T00:32:41Z.
+The nominal slot is 00:36Z (h=1128); the invocation began 3m19.516452s
+before the nominal slot. Ring selection is computed from scheduled_for, not
+started_at, and remains a deterministic routing label rather than identity.
+
+last_run:
+  id         = fb622fd3-2b3c-8328-9d5e-d398b215dbf3
+  scheduled  = 2026-11-27T00:36:00Z
+  started    = 2026-11-27T00:32:40.483548Z
+  status     = in_progress
+  completed  = null
+  chat_ref   = null
+
+latest_result:
+  run_id      = e8b9860c-2e00-8333-9511-c10dbc78f7cc (prior h1127:s3 Kestrel result)
+  created_at  = 2026-11-26T23:44:19.201100Z
+  completed   = 2026-11-26T23:44:20.948718Z
+  chat_ref    = non-null prior task-level conversation reference (redacted)
+  truncated   = false
+  failure     = false
+  user_action = false
+
+The task-level conversation_id is present in the task record, but it is not
+substituted for the current run's null chat_ref. The cached result is 48m21.282448s
+older than the current invocation start. Microsecond timestamps are retained
+in this source note; Nat millisecond fields below truncate to integer ms.
+This is an observed software-state witness, not a physical fixture or LLM
+identity claim.
+-/
+
+namespace HsHVerification.SableRunBinding.H1128Snapshot
+
+open HsHVerification.SableRunBinding
+
+def observedCurrentRun : Invocation :=
+  { id := "fb622fd3-2b3c-8328-9d5e-d398b215dbf3"
+    startedAtMs := 1795739560483
+    status := .inProgress
+    completedAtMs := none
+    chatRef := none }
+
+def observedCachedPriorResult : CachedResult :=
+  { runId := "e8b9860c-2e00-8333-9511-c10dbc78f7cc"
+    createdAtMs := 1795736659201
+    completedAtMs := some 1795736660948
+    chatRef := some { kind := "chatgpt", id := "REDACTED_PRIOR_TASK_REFERENCE" }
+    contentTruncated := false
+    isFailureMessage := false
+    requiresUserAction := false }
+
+theorem current_snapshot_has_mismatched_run_id :
+    observedCurrentRun.id ≠ observedCachedPriorResult.runId := by
+  decide
+
+theorem cached_result_predates_current_invocation :
+    observedCachedPriorResult.createdAtMs < observedCurrentRun.startedAtMs := by
+  decide
+
+theorem current_snapshot_not_completed :
+    ¬ runCompleted observedCurrentRun := by
+  apply in_progress_is_not_completed
+  rfl
+
+theorem current_snapshot_has_no_bound_chat_context :
+    ¬ chatContextBoundToInvocation observedCurrentRun observedCachedPriorResult := by
+  apply no_chat_context_when_run_ref_absent
+  rfl
+
+theorem current_snapshot_not_readback_eligible :
+    ¬ resultEligibleForIndependentReadback
+      observedCurrentRun observedCachedPriorResult := by
+  exact mismatched_run_id_blocks_attribution
+    observedCurrentRun observedCachedPriorResult (by decide)
+
+#eval decide (observedCurrentRun.id = observedCachedPriorResult.runId)
+#eval decide (observedCachedPriorResult.createdAtMs < observedCurrentRun.startedAtMs)
+#eval decide (runCompleted observedCurrentRun)
+#eval decide (chatContextBoundToInvocation observedCurrentRun observedCachedPriorResult)
+#eval decide (resultEligibleForIndependentReadback observedCurrentRun observedCachedPriorResult)
+
+#print axioms current_snapshot_has_mismatched_run_id
+#print axioms cached_result_predates_current_invocation
+#print axioms current_snapshot_not_completed
+#print axioms current_snapshot_has_no_bound_chat_context
+#print axioms current_snapshot_not_readback_eligible
+
+end HsHVerification.SableRunBinding.H1128Snapshot
