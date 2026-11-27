@@ -1394,3 +1394,42 @@ The separate `Tag Conversation Corpus` raw source (conversation ID `6aa67478-541
 ### Return cursor
 
 Continue at direct user turn 132 in the raw conversation, then crosswalk the 2024 time-surface/filament language against the later SAT4D and current H(s)H source genealogy. Do not infer a global foliation, Lorentzian metric, spherical topology, unique particle identity, braid-group action, or energy-transfer law from these messages alone.
+
+
+## Section AS — 2026-11-27 | Optional normal-plane boundary sector and unrelated-source read
+
+### A. Required lateral reading (transcript-only)
+
+- HsH path: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt
+- Read extent: lines 1721–1760; next cursor 1761.
+- HsH blob: f33eb29fbac65efa1db054239bb9c28a04a13a42.
+- SAT archive counterpart: 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt; exact same blob and identical excerpt.
+- Content: a short language-guessing game involving Nahuatl, Jacaltec, Mam, Cree, Ganda, Dom, Hai||om, Yuchi, Malayalam, Muskogee, and Quechua.
+- Tags: LATERAL-READING, UNRELATED-LANGUAGE-GUESSING-GAME, TRANSCRIPT-ONLY, SPEAKER-LABELS-NOT-RAW-ROLE-METADATA, LANGUAGE-RELATEDNESS-CLAIM-UNVERIFIED.
+- The visible “You said” / “ChatGPT said” labels are transcript labels, not raw author.role metadata. The assistant's Dom/Ganda and Yuchi/Muskogee assertions were not externally validated in this reading. No linguistic fact-check or theory claim is made.
+
+### B. Additive geometry crosswalk (analyst proposal, not Nathan Direct)
+
+The existing Compendium entries remain authoritative for the direct wording and original authorship:
+- bcbe9ee8-b621-4a40-9edb-b34c17783be5 (2026-11-08T18:05:28.410Z): 4D tube region, 1D core, 3D boundary; mouth and 2D worldsheet mode are possibilities.
+- c0520975-02a0-408f-a250-364b88ab7b30 (2026-11-08T20:18:10.172Z): fourth spatial coordinate w distinguished from proper time t.
+- de5227a7-022f-495e-9682-1cb16a7461b1 was already tagged in the existing ledger/Compendium as a current-variant qualification; it is not duplicated here.
+
+Additive analyst tags for the crosswalk: ANALYST-PROPOSAL-NORMAL-2-PLANE-SUBBUNDLE, OPTIONAL-S1-BOUNDARY-SECTOR, MOUTH-VS-SELECTED-SURFACE-DISTINCT, SUBBUNDLE-SELECTION-REQUIRED, WORLDSHEET-ROLE-REQUIRES-BASE-INTERPRETATION, NO-SOURCE-AUTHORIZED-IDENTIFICATION.
+
+**Conditional construction:** for a smooth embedded \(\Gamma^1\hookrightarrow X^4\), the normal bundle has rank three. With an auxiliary metric and a radius inside a tubular injectivity neighbourhood, the normal exponential map gives a disk-bundle tube \(W^4=\operatorname{Exp}^{\perp}(D_\rho(\nu))\) and sphere-bundle boundary \(B^3=\operatorname{Exp}^{\perp}(S_\rho(\nu))\). The full boundary has \(S^2\) fibers.
+
+A chosen smooth rank-two subbundle \(\eta\subset\nu\) has unit-circle bundle \(S(\eta)\) with one-dimensional fibers over the one-dimensional core, hence a two-dimensional total space. Its fiberwise inclusion \(S(\eta)\hookrightarrow S(\nu)\) followed by the tubular embedding gives a candidate 2D boundary sector. This is an analyst-supplied map, not a source-defined worldsheet.
+
+The metric splitting \(\nu=\eta\oplus L\) reduces the normal-frame structure group to a block-preserving subgroup. A fixed normal axis and oriented \(\eta\) leave an \(SO(2)\) action on the selected plane. A connection/holonomy is additional; thickness does not force twist.
+
+The mouth candidate \(M^2=B^3\cap\Sigma^3\) is a different object, two-dimensional only under the stated smooth-hypersurface/transversality conditions. Equality with the selected sector requires an extra incidence condition. A projection \(W^4\to W^2\) is a third, quotient-like construction and must not be conflated with the subbundle inclusion.
+
+### C. Existing formal work reused; no new proof claimed
+
+- Kestrel PR #873, exact head 94b6d96c91806a95505260a3c52220f4af294185, Actions run #44090154878, successfully builds KestrelIntersectionDimensionGate.
+- Its finite-dimensional tangent-space theorem supports the conditional intersection counts used in the crosswalk. It does not prove existence of \(\eta\), a smooth sphere subbundle, the tubular-neighbourhood map, physical transversality, or a detector response.
+- No new Lean module, #eval, physical fixture, calculation, fit, prediction, or measurement was created. The selected 2-plane construction remains unformalized and unvalidated.
+- Cross-read context: Loom/Enheduanna issue #2703, Kestrel PR #873, Ravel issue #2723, and Sable issue #2724. These prior analyses are not overwritten or reattributed.
+
+This section is additive. It does not alter earlier direct-source tags, assistant-origin records, source chronology, or any SAT-O/Blockwave equation.
