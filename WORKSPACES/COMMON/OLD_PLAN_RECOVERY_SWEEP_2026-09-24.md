@@ -222,11 +222,17 @@ Existing implementations to reconcile, not duplicate:
 
 ### Ordered priorities after the current search segment
 
-**PRIMARY PRIORITY — METHODOLOGY CONSOLIDATION [WORKFLOW + SCIENTIFIC].**
-- **Workflow methodology:** rough out a distinctly tentative, usable working procedure. Test and adjust it while doing the work; do not freeze speculative workflow details into non-negotiable rules.
-- **Scientific methodology:** restate and codify the scientific method precisely from source material and corrections. Search for `Hale`, `tier` / `tiers`, `SAT Rigorous` and similar podcast transcripts (manual transcript search if necessary), `RMS`, and `epistemology`. Preserve source chronology and distinguish Nathan's original statements, assistant reconstructions, inference and new proposals.
-- The recovered procedural vocabulary remains part of this work: anomaly-led discovery of structural problems; backhallway searches; constant torquing; torque-wrench normalisation; the star-shaped derivation map; propagation of known constraints into unknowns; and consistency within each Level of Description.
-- Deliverable: one economical, usable methodology consolidation, with workflow procedure marked tentative where it remains so and scientific methodology stated precisely. Review with Nathan; then commit and independently read back.
+**PRIMARY PRIORITY — WORKFLOW / LLM METHODOLOGY (TARGET: NO MORE THAN ABOUT ONE DAY).**
+- Keep this as its own work package, separate from scientific or epistemic methodology.
+- Develop a rough, usable procedure for how the work is captured, shelved, resumed, routed, checked and handed off; include the LLM/worker remit and practical interaction with the repository.
+- Test and adjust the procedure while working. Keep it tentative where it is still being learned; do not freeze speculative workflow details into non-negotiable rules.
+- Keep the machinery minimal. The deliverable is a compact working method, reviewed with Nathan and then committed and independently read back.
+
+**NEXT, A SEPARATE WORK PACKAGE — SCIENTIFIC / EPISTEMIC METHODOLOGY (TARGET: ABOUT ONE DAY).**
+- This is distinct from workflow / LLM methodology, not a subheading or combined deliverable.
+- Restate and codify the scientific and epistemic method precisely from source material and corrections. Search for `Hale`, `tier` / `tiers`, `SAT Rigorous` and similar podcast transcripts (manual transcript search if necessary), `RMS`, and `epistemology`. Preserve source chronology and distinguish Nathan's original statements, assistant reconstructions, inference and new proposals.
+- Include the recovered scientific-method vocabulary: anomaly-led discovery of structural problems; backhallway searches; constant torquing; torque-wrench normalisation; the star-shaped derivation map; propagation of known constraints into unknowns; and consistency within each Level of Description.
+- The deliverable is a precise, source-grounded scientific / epistemic method statement, reviewed with Nathan and then committed and independently read back.
 
 **GOAL 4 — TERTIARY PRIORITY — PRIORITIZE AND SORT [ROLLING / ONGOING].**
 - Keep triage running as a rolling process, not a once-only phase and not a gate that delays the primary work or science.
@@ -268,4 +274,4 @@ This is a shelf note for progressive use, not a new gate or an instruction to re
 
 **Check-in rule:** after each substantial segment, briefly ask what was missed. Capture it once, then either shelf it or route it into the workflow. No comprehensive priority audit is required before the next scientific step.
 
-**Tocktick:** `@⌕` Mysearch / SAT-archive hits and review → **PRIMARY** Methodology Consolidation [workflow tentative + scientific precise] → **TERTIARY ↻** Prioritize and Sort [including Dashboard-plan skim] → **QUATERNARY** Full SAT Consolidation / Rough Synthesis → outline plumbing / Levin–Greene–Susskind / MIT–Royal Society / prior art → paper.
+**Current sequence:** Mysearch / SAT-archive result verification and review; workflow / LLM methodology (primary, up to about one day); scientific / epistemic methodology (separate work package, about one day); Prioritize and Sort (tertiary, rolling); full SAT consolidation and rough synthesis; paper.
