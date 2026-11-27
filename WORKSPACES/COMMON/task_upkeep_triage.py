@@ -117,6 +117,58 @@ def build_report(graph: dict[str, Any], as_of: date) -> list[dict[str, Any]]:
 
 
 
+def child_edge_cycle_witnesses(by_id: dict[str, dict[str, Any]]) -> list[list[str]]:
+    """Return deterministic directed cycle witnesses in the child-edge relation."""
+    state: dict[str, int] = {}
+    witnesses: dict[tuple[str, ...], list[str]] = {}
+
+    def children_for(task_id: str) -> list[Any]:
+        children = by_id[task_id].get("children") or []
+        return children if isinstance(children, list) else []
+
+    for root in sorted(by_id):
+        if state.get(root, 0) != 0:
+            continue
+
+        path = [root]
+        path_index = {root: 0}
+        state[root] = 1
+        stack = [(root, iter(children_for(root)))]
+
+        while stack:
+            task_id, children = stack[-1]
+            try:
+                child = next(children)
+            except StopIteration:
+                stack.pop()
+                state[task_id] = 2
+                path_index.pop(task_id, None)
+                path.pop()
+                continue
+
+            if child not in by_id:
+                continue
+
+            child_state = state.get(child, 0)
+            if child_state == 0:
+                state[child] = 1
+                path_index[child] = len(path)
+                path.append(child)
+                stack.append((child, iter(children_for(child))))
+            elif child_state == 1:
+                cycle_core = path[path_index[child]:]
+                rotations = [
+                    tuple(cycle_core[index:] + cycle_core[:index])
+                    for index in range(len(cycle_core))
+                ]
+                canonical = min(rotations)
+                witness = list(canonical) + [canonical[0]]
+                witnesses[tuple(witness)] = witness
+
+    return [witnesses[key] for key in sorted(witnesses)]
+
+
+
 def audit_graph(graph: dict[str, Any]) -> dict[str, Any]:
     """Return a read-only structural audit; do not infer dependency or edge semantics."""
     branches = graph.get("branches", [])
@@ -199,6 +251,8 @@ def audit_graph(graph: dict[str, Any]) -> dict[str, Any]:
                 stack.append(child)
 
     unreachable = [item for item in ids if item not in reachable]
+    cycle_witnesses = child_edge_cycle_witnesses(by_id)
+    cycle_audit_complete = not duplicate_ids and not malformed_children
     declared = graph.get("branch_count")
     findings = []
     if declared != len(branches):
@@ -213,6 +267,12 @@ def audit_graph(graph: dict[str, Any]) -> dict[str, Any]:
         findings.append({"code": "PARENT_CHILD_ASYMMETRIES", "items": asymmetries})
     if unreachable:
         findings.append({"code": "UNREACHABLE_FROM_ROOTS_VIA_CHILD_EDGES", "ids": unreachable})
+    if cycle_witnesses:
+        findings.append({"code": "CHILD_EDGE_CYCLE_WITNESSES", "cycles": cycle_witnesses})
+    if not cycle_audit_complete:
+        findings.append({"code": "CHILD_EDGE_CYCLE_AUDIT_INCOMPLETE",
+                         "duplicate_ids": duplicate_ids,
+                         "malformed_children_fields": malformed_children})
     if dependency_free_text_or_external:
         findings.append({
             "code": "DEPENDENCIES_INCLUDE_FREE_TEXT_OR_EXTERNAL_REFERENCES",
@@ -235,6 +295,8 @@ def audit_graph(graph: dict[str, Any]) -> dict[str, Any]:
         "child_edge_count": child_edge_count,
         "reachable_via_child_edges": sorted(reachable),
         "unreachable_ids": unreachable,
+        "child_edge_cycle_witnesses": cycle_witnesses,
+        "child_edge_cycle_audit_complete": cycle_audit_complete,
         "dangling_parent_references": dangling_parents,
         "dangling_child_references": dangling_children,
         "parent_child_asymmetries": asymmetries,
@@ -265,10 +327,10 @@ def self_test() -> None:
         {"id": "root", "title": "Root", "status": "active",
          "children": ["child", "missing"], "blockers": ["awaiting source"],
          "unblocks": ["child"], "dependencies": ["child", "external note"]},
-        {"id": "child", "title": "Child", "status": "blocked", "parent": "root", "children": []},
+        {"id": "child", "title": "Child", "status": "blocked", "parent": "root", "children": ["root"]},
         {"id": "parent-only", "title": "Parent-only relation", "status": "active",
          "parent": "root", "children": []},
-        {"id": "orphan", "title": "Orphan", "status": "active", "children": []},
+        {"id": "orphan", "title": "Orphan", "status": "active", "children": ["orphan"]},
     ]}
     audit = audit_graph(fixture)
     assert audit["record_count"] == 4 and not audit["declared_count_matches"]
@@ -279,6 +341,10 @@ def self_test() -> None:
     assert any(item["kind"] == "parent_pointer_without_child_edge"
                for item in audit["parent_child_asymmetries"])
     assert audit["dependency_entry_count"] == 2
+    assert audit["child_edge_cycle_audit_complete"]
+    cycle_witnesses = {tuple(cycle) for cycle in audit["child_edge_cycle_witnesses"]}
+    assert ("root", "child", "root") in cycle_witnesses
+    assert ("orphan", "orphan") in cycle_witnesses
     assert audit["dependency_entries_matching_graph_ids"] == 1
     assert audit["dependency_entries_free_text_or_external"] == 1
     root_row = next(row for row in build_report(fixture, date(2026, 11, 5)) if row["id"] == "root")
@@ -322,10 +388,13 @@ def main() -> int:
                 f"{len(audit['root_ids'])} roots; "
                 f"{len(audit['reachable_via_child_edges'])}/{audit['record_count']} reachable; "
                 f"{audit['dependency_entries_matching_graph_ids']} dependency IDs / "
-                f"{audit['dependency_entries_free_text_or_external']} free-text or external."
+                f"{audit['dependency_entries_free_text_or_external']} free-text or external; "
+                f"{len(audit['child_edge_cycle_witnesses'])} child-edge cycle witness(es)."
             )
             for finding in audit["findings"]:
                 print(f"    REVIEW: {finding['code']}")
+            for cycle in audit["child_edge_cycle_witnesses"]:
+                print("    CYCLE: " + " -> ".join(cycle))
         for index, row in enumerate(rows, start=1):
             owner = row["owner_instance"] or "OWNER UNSET"
             reason = "; ".join(row["review_reasons"]) or "no explicit trigger metadata"
