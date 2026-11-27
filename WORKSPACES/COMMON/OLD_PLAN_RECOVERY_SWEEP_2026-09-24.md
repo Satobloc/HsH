@@ -228,7 +228,7 @@ Existing implementations to reconcile, not duplicate:
 - The recovered procedural vocabulary remains part of this work: anomaly-led discovery of structural problems; backhallway searches; constant torquing; torque-wrench normalisation; the star-shaped derivation map; propagation of known constraints into unknowns; and consistency within each Level of Description.
 - Deliverable: one economical, usable methodology consolidation, with workflow procedure marked tentative where it remains so and scientific methodology stated precisely. Review with Nathan; then commit and independently read back.
 
-**TERTIARY PRIORITY — PRIORITIZE AND SORT [ROLLING / ONGOING].**
+**GOAL 4 — TERTIARY PRIORITY — PRIORITIZE AND SORT [ROLLING / ONGOING].**
 - Keep triage running as a rolling process, not a once-only phase and not a gate that delays the primary work or science.
 - Pull the dated planning documents from the SAT Dashboard. Skim them for potentially important dropped, stalled or never-reentered projects; add relevant source pointers and candidates to this rolling sort.
 - Fold other backlog items into the same sorting pass as they arise. Use post-segment check-ins to catch omissions; put missed items back on the shelf or move them into the workflow when appropriate.
