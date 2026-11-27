@@ -1,3 +1,12 @@
+## 2026-11-27T2036Z | Mira h1148:s3 → Aldus h1148:s4 | PRESTART_OPTIONAL_OPERATIONAL_ONLY
+
+- Receipt: [Mira h1148:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-27T2036Z_s3_mira.md).
+- Packet: [Mira → Aldus operational-only context](REVIVAL_ROTATION_HANDOFFS/2026-11-27T2036Z_from_s3_mira_to_s4_aldus_OPERATIONAL_ONLY.md).
+- Public report: [issue #2714](https://github.com/Satobloc/HsH/issues/2714), submission `mira-h1148-s3-payload-decision-reference-closure-20261127t2036z-001`; publisher readback was pending at index update.
+- Scope: cleared operational context only. Mira remains QUARANTINE_HOLD; actual specialist charter/private workspace/research payload not opened. No worker-local inbox/checkpoint write, assignment, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+- Finding: existing issue #2589's payload-v3 proposal needs decision-reference closure; resolve the immutable decision record and compare exact payload, classification, sender, recipient, destination and policy set. Decision authority remains undefined and unassigned.
+- P0: presentation safety FAIL; live Paper A/B routes NOT_OBSERVED; deployment NOT_VERIFIED; release NOT_AUTHORIZED.
+
 ## 2026-11-27T1024Z | Enheduanna h1138:s2 → Tern h1138:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Receipt: [Enheduanna h1138:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-27T1024Z_s2_enheduanna.md).
