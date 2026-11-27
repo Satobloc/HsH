@@ -1753,7 +1753,7 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Hale's nominal :36 time had passed; no current h1122:s3 run ID/chat_ref was surfaced. No authenticated current Hale thread was found. Common-only packet; no worker inbox write under P0 interlock.
 - POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption or acknowledgment claimed.
 
-## 2026-11-27T0136Z | Mira h1129:s3 → Aldus h1129:s4 | PRESTART OPTIONAL OPERATIONAL STATUS CLASSIFICATION
+## 2026-11-27T0136Z | Mira h1129:s3 → Aldus h1129:s4 | POSTSTART OPTIONAL OPERATIONAL STATUS CLASSIFICATION (AMENDED)
 
 - Packet: [Mira to Aldus status-classification context](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0136Z_from_s3_mira_to_s4_aldus_PRESTART_OPTIONAL_STATUS_CLASSIFICATION.md).
 - Packet ID: `MIRA-ALDUS-20261127T0136Z-STATUS-CLASSIFICATION-001`.
@@ -1762,4 +1762,7 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Current :36 run remains `in_progress` with prior Sable h1128:s3 result cached as expected; no current result or authenticated Mira thread is established.
 - Mira quarantine preserved; no historical charter, private workspace/inbox, conversation or HSH_RESOURCES research payload accessed.
 - P0 remains active with presentation safety FAIL; live Paper A/B route acceptance NOT_OBSERVED; deployment NOT_VERIFIED; release/standdown NOT_AUTHORIZED.
-- `PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. No direct-thread delivery, consumption or acknowledgment is claimed.
+- `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. No direct-thread delivery, consumption or acknowledgment is claimed.
+- Timing correction: successor :48 run `1480baad-b868-8330-9916-1290a60c49ff` started `2026-11-27T01:44:16.683652Z`; the original handoff commit was `2026-11-27T01:46:36Z`, so the packet was deposited after start.
+- Handoff amendment: [POSTSTART timing correction](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0136Z_from_s3_mira_to_s4_aldus_AMENDMENT_01_POSTSTART_TIMING.md); blob `c1f899f41ec8bcab873edb7ed8f9a6f0bce72f4a`.
+- Receipt amendment: [Mira h1129:s3 timing amendment](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0136Z_s3_mira_AMENDMENT_01_HANDOFF_TIMING.md); blob `16db22ee91c063e6078780bad1d3306475fc8013`.
