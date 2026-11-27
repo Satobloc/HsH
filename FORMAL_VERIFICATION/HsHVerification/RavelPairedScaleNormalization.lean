@@ -64,7 +64,7 @@ structure PositiveScalePair where
   time_pos : 0 < time
 
 /-- The pointwise time-to-space scale ratio. -/
-def relativeScale (p : PositiveScalePair) : ℝ :=
+noncomputable def relativeScale (p : PositiveScalePair) : ℝ :=
   p.time / p.space
 
 /-- Two positive scale pairs related by a common positive multiplier. -/
@@ -97,7 +97,7 @@ theorem ratio_eq_iff_commonScaleEquivalent
       field_simp [hp0, hq0] at h
       nlinarith [h]
     refine ⟨q.space / p.space, div_pos q.space_pos p.space_pos, ?_, ?_⟩
-    · field_simp [hp0] <;> ring
+    · field_simp [hp0]
     · calc
         q.time = (q.time * p.space) / p.space := by
           field_simp [hp0] <;> ring
@@ -115,7 +115,7 @@ def unitSpacePair (r : ℝ) (hr : 0 < r) : PositiveScalePair :=
     time_pos := by positivity }
 
 /-- The symmetric option, with reciprocal space and direct time scales. -/
-def symmetricPair (r : ℝ) (hr : 0 < r) : PositiveScalePair :=
+noncomputable def symmetricPair (r : ℝ) (hr : 0 < r) : PositiveScalePair :=
   { space := 1 / r
     time := r
     space_pos := div_pos zero_lt_one hr
@@ -133,7 +133,7 @@ theorem unit_to_symmetric_commonScale (r : ℝ) (hr : 0 < r) :
     CommonScaleEquivalent (unitSpacePair r hr) (symmetricPair r hr) := by
   refine ⟨1 / r, div_pos zero_lt_one hr, ?_, ?_⟩
   · dsimp [unitSpacePair, symmetricPair]
-    field_simp [ne_of_gt hr] <;> ring
+    field_simp [ne_of_gt hr]
   · dsimp [unitSpacePair, symmetricPair]
     field_simp [ne_of_gt hr] <;> ring
 
