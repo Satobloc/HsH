@@ -222,25 +222,33 @@ Existing implementations to reconcile, not duplicate:
 
 ### Ordered priorities after the current search segment
 
-**PRIMARY PRIORITY — WORKFLOW / LLM METHODOLOGY (TARGET: NO MORE THAN ABOUT ONE DAY).**
-- Keep this as its own work package, separate from scientific or epistemic methodology.
-- Develop a rough, usable procedure for how the work is captured, shelved, resumed, routed, checked and handed off; include the LLM/worker remit and practical interaction with the repository.
-- Test and adjust the procedure while working. Keep it tentative where it is still being learned; do not freeze speculative workflow details into non-negotiable rules.
-- Keep the machinery minimal. The deliverable is a compact working method, reviewed with Nathan and then committed and independently read back.
+**FIRST — WORKFLOW / LLM METHODOLOGY SOURCE RECOVERY.**
+- Search for and compile the source material bearing on workflow, LLM remit, worker roles, repository use, capture/shelving/resumption, routing, checks and handoffs.
+- Preserve source pointers and distinguish Nathan's statements from assistant reconstruction, inference and proposals.
+- This is source collection and compilation, not yet a claim that we have a complete or precise workflow theory.
 
-**NEXT, A SEPARATE WORK PACKAGE — SCIENTIFIC / EPISTEMIC METHODOLOGY (TARGET: ABOUT ONE DAY).**
-- This is distinct from workflow / LLM methodology, not a subheading or combined deliverable.
+**SECOND — SCIENTIFIC / EPISTEMIC METHODOLOGY CONSOLIDATION.**
 - Restate and codify the scientific and epistemic method precisely from source material and corrections. Search for `Hale`, `tier` / `tiers`, `SAT Rigorous` and similar podcast transcripts (manual transcript search if necessary), `RMS`, and `epistemology`. Preserve source chronology and distinguish Nathan's original statements, assistant reconstructions, inference and new proposals.
 - Include the recovered scientific-method vocabulary: anomaly-led discovery of structural problems; backhallway searches; constant torquing; torque-wrench normalisation; the star-shaped derivation map; propagation of known constraints into unknowns; and consistency within each Level of Description.
-- The deliverable is a precise, source-grounded scientific / epistemic method statement, reviewed with Nathan and then committed and independently read back.
+- Deliverable: a precise, source-grounded scientific / epistemic method statement, reviewed with Nathan and then committed and independently read back.
+
+**THIRD — WORK THROUGH THE TWO METHODOLOGIES SIDE-BY-SIDE.**
+- Use the compiled workflow/LLM sources alongside the scientific/epistemic method, refining their interfaces and practical use together rather than forcing them into one document or one level of certainty.
+- Treat workflow / LLM methodology as more approximate and provisional; state uncertainty plainly and let experience refine it.
+- Keep the scientific / epistemic methodology more exacting and source-grounded.
+- This is a bounded methodology pass, not the full workflow/theory workshop buildout.
+
+**POST-PAPER PHASE — WORKFLOW / THEORY WORKSHOP BUILDOUT.**
+- The comprehensive workshop buildout is a substantial undertaking in its own right. Start it immediately after we have a decent paper in hand; do not let it become a prerequisite or diversion from reaching that paper.
+- Carry forward the side-by-side methodology work as its starting foundation, while allowing the buildout to develop into a larger dedicated project.
 
 **GOAL 4 — TERTIARY PRIORITY — PRIORITIZE AND SORT [ROLLING / ONGOING].**
-- Keep triage running as a rolling process, not a once-only phase and not a gate that delays the primary work or science.
+- Keep triage running as a rolling process, not a once-only phase and not a gate that delays the current methodology work or science.
 - Pull the dated planning documents from the SAT Dashboard. Skim them for potentially important dropped, stalled or never-reentered projects; add relevant source pointers and candidates to this rolling sort.
 - Fold other backlog items into the same sorting pass as they arise. Use post-segment check-ins to catch omissions; put missed items back on the shelf or move them into the workflow when appropriate.
 - Detailed ranking, owner/start-date assignment and re-entry decisions occur as needed during this rolling pass. Do not force a giant up-front inventory.
 
-**QUATERNARY PRIORITY — FULL SAT CONSOLIDATION AND ROUGH SYNTHESIS.**
+**NEXT MAJOR RESEARCH PHASE — FULL SAT CONSOLIDATION AND ROUGH SYNTHESIS.**
 - Recover and synthesize the full SAT theory documents.
 - Approximately incorporate the relevant sorted materials into the SAT consolidation; do not wait for every possible backlog item to be completely triaged.
 - Work through the existing rough outline, checking the mathematical, conceptual, geometric, evidential and documentary plumbing as we go.
@@ -274,4 +282,4 @@ This is a shelf note for progressive use, not a new gate or an instruction to re
 
 **Check-in rule:** after each substantial segment, briefly ask what was missed. Capture it once, then either shelf it or route it into the workflow. No comprehensive priority audit is required before the next scientific step.
 
-**Current sequence:** Mysearch / SAT-archive result verification and review; workflow / LLM methodology (primary, up to about one day); scientific / epistemic methodology (separate work package, about one day); Prioritize and Sort (tertiary, rolling); full SAT consolidation and rough synthesis; paper.
+**Current sequence:** Mysearch / SAT-archive result verification and review; compile workflow / LLM methodology sources; consolidate scientific / epistemic methodology; work the two side-by-side (workflow provisional); Prioritize and Sort (tertiary, rolling); full SAT consolidation and paper; then workflow / theory workshop buildout.
