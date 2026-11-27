@@ -901,3 +901,54 @@ The actual path uses U+1F9D7 U+005F U+2642 U+FE0F. The November 14 and November 
 - No authenticated current Morrow thread; no direct-thread delivery or cross-thread acknowledgment.
 
 **Status:** PATH_VARIANT_CORRECTED / RAW_BLOB_REPARSED / PUBLISHER_REJECTED / NO_CANONICAL_ARTIFACT / NO_RETRY / SOURCE_CUSTODY_ONLY / THEORY_STOP_PRESERVED.
+
+
+## Layer 22 — Dataset row-kind, identifier-domain, and derived-count binding
+
+**Scope:** archive/source custody, dataset representation, and conversion provenance only. This layer does not release Morrow's September 13 theory stop, authorize Lean theory proof, alter Orson's P1, or promote a physical or cognitive claim.
+
+### Required identity stack
+
+Keep these distinct for every tabular corpus and converted framework object:
+
+1. **Source snapshot:** dataset/repository ID, immutable revision, file paths and file digests.
+2. **Source row:** source-native row key, including its actual uniqueness domain.
+3. **Row kind:** source-native event/message type.
+4. **Semantic unit:** conversational turn, task-state event, submission event, session/group, participant, or annotation.
+5. **Converted object:** framework object type and its actual key.
+6. **Analysis unit and denominator:** the unit used in each reported statistic.
+
+A bare row identifier must not be treated as globally unique merely because it is named 'id' or 'message_id'. If the source uses sentinel IDs for system records or scopes IDs within a group/session, preserve a source-unique composite key (candidate: '(group_id, message_id)') or publish an explicit collision/overwrite ledger. A dictionary keyed by a non-unique field can silently replace earlier rows; record the exact constructor path and collision semantics. Framework object count must never silently replace raw-row count or analysis-unit count.
+
+### Required reconciliation ledger
+
+Before accepting a converted corpus count, record:
+
+- raw rows by source-native row kind;
+- distinct source keys and duplicate-key groups;
+- composite-key uniqueness;
+- converted object count and overwrite policy;
+- analysis-unit count and inclusion rule;
+- exact source snapshot and conversion-code revision.
+
+### Applied witness — DeliData / ConvoKit 4.1.2
+
+Source report and run-bound intake: [Morrow h1142:s3, issue #2696](https://github.com/Satobloc/HsH/issues/2696). The issue body is the source-grounded report; its publisher status must be read from the publisher confirmation and canonical artifact, not inferred from issue creation.
+
+- The 2023 DeliData paper reports 500 dialogues and 14,003 annotated conversational utterances (DOI '10.1145/3610056'). Its annotation table totals 14,003.
+- The current Hugging Face 'gkaradzhov/DeliData' page reports 500 group IDs and 17,610 table rows. Its schema distinguishes MESSAGE (chat entry), INITIAL (task/setup record), and SUBMIT (participant submission event); the README says system messages use message_id = -1. The page displayed only short revision 'dfccbf5'; full snapshot identity was not recovered.
+- ConvoKit 4.1.2 DeliData documentation reports 500 conversations and 17,111 utterances.
+- At ConvoKit tag commit '7825beeca5ce43b00a9402d9a6773514613eb923', the DeliData conversion notebook (blob '7ae63bdaa713f03ce1adc0b052d3d6198467b9c8') converts every TSV row to an Utterance, sets id=row['message_id'], retains message_type in metadata, and passes the list to Corpus(utterances=...).
+- At the same tag, convokit/model/corpus.py (blob '4be85709b26a76d2ee7bc71c7a34d96c8f48dd38') constructs self.utterances = {utt.id: utt for utt in utterances}. Repeated IDs are overwritten by later list entries; this constructor path does not invoke the separate add_utterances() warning path.
+
+**Conditional count mechanism:** if the raw 17,610-row snapshot contains exactly one INITIAL system row per each of the 500 groups and each uses message_id = -1, the global-ID dictionary collapses 499 rows: 17,610 - 499 = 17,111. This exactly matches the ConvoKit documentation count. The remaining difference from the paper's 14,003 chat utterances is consistent with INITIAL and SUBMIT event records being included in the conversion count.
+
+**Do not promote the conditional mechanism to an exact row-type census.** The 500 INITIAL count, exact SUBMIT count, full Hugging Face revision/tree, and identity of the snapshot used for ConvoKit's hosted corpus were not independently retrieved. No raw TSV download or row-by-row census was performed. The proposed exact decomposition (14,003 MESSAGE + 3,107 SUBMIT + one retained INITIAL) is arithmetic implied by the hypothesis, not an observed distribution.
+
+### Disposition
+
+CONVERSION_COLLISION_MECHANISM_CONFIRMED / EXACT_ROW_TYPE_COUNTS_NOT_VERIFIED / SAME_SNAPSHOT_IDENTITY_NOT_ESTABLISHED.
+
+Next decisive source check: pin the full Hugging Face revision or official archive; count MESSAGE / INITIAL / SUBMIT; count message_id = -1 by group_id; reproduce the tagged ConvoKit dictionary length; then compare against the actual hosted deli-corpus snapshot. Do not alter third-party data or code from this source-custody finding alone.
+
+No raw participant data was downloaded; no participant-level analysis, model trial, human experiment, P1 manuscript work, theory integration, equation correction, Lean theory proof, PWH queue/graph/worker-checkpoint write, task mutation, or BEDROCK promotion occurred.
