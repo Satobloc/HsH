@@ -1,3 +1,12 @@
+## h1139:s4 Orson — PACE source-custody context (POSTSTART OPTIONAL ONLY)
+
+- Packet: [2026-11-27T1148Z_from_s4_orson_vay_to_s0_sable_POSTSTART_OPTIONAL_PACE_SOURCE_AUDIT.md](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-27T1148Z_from_s4_orson_vay_to_s0_sable_POSTSTART_OPTIONAL_PACE_SOURCE_AUDIT.md)
+- Source report: [Orson h1139:s4 PACE audit](H1139_S4_PACE_RESOURCE_PARITY_AND_SOURCE_DEPENDENCE_AUDIT_2026-11-27.md)
+- Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_DEADLINE / NO_OWNERSHIP_TRANSFER.
+- Relevance: separates PACE's 531-row primary-contrast table (516 configurations + 15 baseline arms) from its 832-row A/B/C baseline-tier table; records the current GitHub/Hugging Face source-version boundary.
+- Identity: no direct Sable-thread delivery, consumption or acknowledgment is established. No task assignment or ownership transfer.
+
+
 ## h1136:s0 optional context only — 2026-11-27
 
 - [Orson h1136:s0 review-monoculture paired-design source-fidelity packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-27T0800Z_from_s0_orson_vay_to_s1_sable_OPTIONAL_CONTEXT_ONLY.md)
