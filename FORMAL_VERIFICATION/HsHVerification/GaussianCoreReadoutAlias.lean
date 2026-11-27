@@ -31,7 +31,6 @@ theorem common_shift_alias
       twoInstrumentVarianceMap (coreVariance + δ)
         (blurVariance₁ - δ) (blurVariance₂ - δ) := by
   simp [twoInstrumentVarianceMap, observedVariance]
-  constructor <;> ring
 
 /-- If the shift is positive and smaller than both blur variances, the
 alternative parameter triple remains positive and has a different core
@@ -39,8 +38,6 @@ variance while producing exactly the same two observed variances. -/
 theorem positive_two_instrument_alias
     (coreVariance blurVariance₁ blurVariance₂ δ : ℝ)
     (hcore : 0 < coreVariance)
-    (hblur₁ : 0 < blurVariance₁)
-    (hblur₂ : 0 < blurVariance₂)
     (hδ : 0 < δ)
     (hδ₁ : δ < blurVariance₁)
     (hδ₂ : δ < blurVariance₂) :
