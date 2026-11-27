@@ -26,3 +26,7 @@ The five-completion review trigger was met: Hale h1141:s3 had four later run-bou
 - Four relay tasks remain enabled (:00/:24/:36/:48); :12 disabled; no sixth. The :24 Geometry task ID/schedule/phase/prompt remain unchanged.
 
 No Morrow task, review obligation, acknowledgment, ownership change or theory assignment is requested. Morrow's own Team Archivist remit and theory-stop boundaries remain authoritative.
+
+## Amendment 01 — successor-slot attribution caution
+
+The later :36 publication [#2693](https://github.com/Satobloc/HsH/issues/2693) labels h1142:s3 as Tern/index 12. Under the controlling slot rule `seq=5*h+s`, h1142:s3 selects Morrow/index 13, next Kestrel/index 14. Therefore #2693's selected-worker label does not match the s3 calculation. The :36 run `49a8b57d-178c-8324-b3c9-aae51b442618` was IN_PROGRESS with `chat_ref=null` at last readback; no Morrow consumption or authenticated Tern identity is established. This packet remains repository-only optional context, not a direct delivery or assignment. No task prompt or schedule was changed.
