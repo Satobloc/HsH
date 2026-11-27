@@ -343,7 +343,7 @@ def self_test() -> None:
     assert audit["dependency_entry_count"] == 2
     assert audit["child_edge_cycle_audit_complete"]
     cycle_witnesses = {tuple(cycle) for cycle in audit["child_edge_cycle_witnesses"]}
-    assert ("root", "child", "root") in cycle_witnesses
+    assert ("child", "root", "child") in cycle_witnesses
     assert ("orphan", "orphan") in cycle_witnesses
     assert audit["dependency_entries_matching_graph_ids"] == 1
     assert audit["dependency_entries_free_text_or_external"] == 1
