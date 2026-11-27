@@ -210,8 +210,15 @@ theorem augmentedView_injective :
   | mk sCenters sRadius sFrames =>
     cases t with
     | mk tCenters tRadius tFrames =>
-      simp [augmentedView, carrierProjection] at h
-      rcases h with ⟨hCenters, hRadius, hFrames⟩
+      change (⟨sCenters, sRadius⟩, sFrames) =
+        (⟨tCenters, tRadius⟩, tFrames) at h
+      have hCarrier : (⟨sCenters, sRadius⟩ : CarrierInput Center) =
+          ⟨tCenters, tRadius⟩ := congrArg Prod.fst h
+      have hFrames : sFrames = tFrames := congrArg Prod.snd h
+      have hCenters : sCenters = tCenters :=
+        congrArg CarrierInput.centers hCarrier
+      have hRadius : sRadius = tRadius :=
+        congrArg CarrierInput.radius hCarrier
       cases hCenters
       cases hRadius
       cases hFrames
@@ -291,7 +298,6 @@ theorem residualCarrierRadius_sq
   rw [residualCarrierRadius, mul_pow, Real.sq_sqrt hG]
   unfold carrierDiscriminant
   field_simp [hRne]
-  <;> ring
 
 #print axioms relativeFrame_comp
 #print axioms no_relativeFrame01_factorization
