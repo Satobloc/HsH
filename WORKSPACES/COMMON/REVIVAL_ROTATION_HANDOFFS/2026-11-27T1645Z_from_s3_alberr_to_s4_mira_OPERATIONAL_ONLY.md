@@ -22,7 +22,7 @@ If this packet is consumed, it is optional operational context only. It does not
 ## Delivery state
 
 - `chat_delivery_state=UNAVAILABLE`: no authenticated cross-ChatGPT-thread posting action exists here.
-- `fallback_delivery_state=TO_BE_READBACK_VERIFIED`: this file is a repository packet only.
+- `fallback_delivery_state=VERIFIED_REPO_PACKET`: this file is a repository packet only.
 - `participation_class=ASSISTANT_OPERATIONAL_CONTEXT`.
 - `assignment=NONE`; `response_obligation=NONE`; `ownership_transfer=NONE`.
 - No claim of recipient delivery, read, consumption, acknowledgment, or participation.
