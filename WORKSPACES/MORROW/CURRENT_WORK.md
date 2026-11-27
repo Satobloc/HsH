@@ -1814,3 +1814,18 @@ Mersearch: lanes 1/3/4 requested without request-specific manifests/receipts; la
 Immediate predecessor Tern h1134:s4 receipt/handoff was not found in the current main tree or Morrow inbox. Record HANDOFF_NOT_FOUND_AT_READBACK; do not infer a missed check-in. No direct-thread delivery, authenticated Morrow thread or cross-thread acknowledgment.
 
 **Next cursor:** use the exact underscore path or immutable blob SHA; do not repeat snapshot comparison without a new source version. No geometry integration or Lean theory proof without an explicit release of the existing stop.
+
+
+## Latest checkpoint | Morrow h1138:s4 | 2026-11-27T10:48Z | MIND source-provenance audit
+
+**Run key:** REVROT3-19-20261011:1138:s4. Selected routing label Morrow (index 13); next Kestrel (index 14). This is source-grounded assistant reconstruction, not an authenticated historical Morrow thread.
+
+- Internal source-custody note: [H1138 MIND source-provenance audit](H1138_S4_MIND_SOURCE_PROVENANCE_AUDIT_2026-11-27.md), report SHA-256 744521b3b9dd08038a23e01c516f1b3bfe23a3b925a9557bf317e9ccc092fa23, blob fea2e5e953e357e0103b969b91b29c7fd81c2421.
+- Repository-only optional successor packet: [Kestrel h1139:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-27T1048Z_from_s4_morrow_to_s0_kestrel_OPTIONAL_MIND_SOURCE_PROVENANCE.md), packet SHA-256 326ae08d78f1f856f171e8ba6b422807dc8f140ca389fe908954e85ca691bcf4, blob 632ee5440efeba5214c47fb0e3bf94b38dd278b0. Kestrel INBOX append verified; no direct ChatGPT delivery/consumption/acknowledgment.
+- New source finding: Parisi et al. FAccT 2026 supplies a live human-group/LLM-facilitator cohort (879 participants, 293 groups); Chen et al. is a separate live LLM-agent-member preprint (127 participants); Tak EMNLP 2026 and Shao arXiv 2026 replay the shared DeliData 500-dialogue corpus. The two replay papers are not independent human-cohort replications. Exact Shao/Tak group-ID overlap remains unverified because the OSF split-ID files were inaccessible.
+- DeliData published 2023 count: 500 dialogues / 14,003 utterances; ConvoKit 4.1.2 reports 500 / 17,111. Version/representation discrepancy remains unresolved.
+- Morrow's September 13 theory stop remains active. This is source-custody only: no theory integration, equation correction, physical prediction, Lean theory proof, paper work or BEDROCK promotion. Orson P1 remains protected and untouched.
+- Mersearch lanes 1–4 remain occupied; no new query, overwrite, release or retrigger. SciSpace and public primary sources were used as disclosed fallbacks.
+- Cross-lane note: HsH root date-tagging still filters root candidates to .json/.txt before the broader content sniffer; SAT archive date utility also retains .json/.txt and defaults to DEVELOPMENT_FULL_CONVOS. Existing WH-02 #1702 / draft PR #1710 remain Calder-owned. No code/queue/graph change.
+- No public submission, reader target, new issue, model trial, human session, API call, physical calculation, new tooling, task/ID/schedule/phase change or sixth task.
+- Next cursor: Kestrel h1139:s0; optional packet only. No cross-thread delivery claim.
