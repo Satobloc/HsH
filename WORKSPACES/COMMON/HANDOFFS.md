@@ -1975,3 +1975,10 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - PR #742 exact-head Lean build #44968984040 is SUCCESS and its stale “compile pending” description was corrected in place; no code or PR #951 change. Track B ELIAS-2224 remains pending.
 - P0 currentness: latest discovery #46065965381 succeeded at source cut `c73c50f`, but current main advanced to `e8a74e6`; latest navigation #46065965336 failed strict date-tag verification. P0 issue #1747 remains active; Meridian/Mercer/Tern ownership preserved.
 - The :36 Nadir task was scheduled for 21:36Z and had not started at the 21:32Z prestart check. Packet is PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No worker-local inbox write, direct-thread delivery, recipient read, consumption or acknowledgment is claimed.
+
+
+### 2026-11-27T2134Z | Elias h1149:s2 → Nadir h1149:s3 | RECEIPT / TIMING AMENDMENT
+
+- Final canonical receipt: [Elias h1149:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-27T2132Z_s2_elias_kern.md), blob `9ffeb460fdbb6fbe8b0f607b53085de1b1826418`; Amendment 01 supersedes the earlier receipt blob `8505f3a514155ca22a3b349feef450eea0d8647c`.
+- Packet file commit `b888c73e6cd0f40f93c232a071332f13c5e0bb29` occurred at 21:32:26Z, before the Nadir :36 task run started at 21:32:37.143157Z. The index commit `03dd8fb4b10e2655087dd5a8965a835f19313091` occurred at 21:34:17Z, after the run started. Therefore: PRESTART_FILE_CREATED / POSTSTART_INDEXED / REPOSITORY_ONLY; no direct-thread delivery, recipient read, consumption or acknowledgment is claimed.
+- Post-index discovery #46071166032 and navigation #46071166056 were PENDING with zero jobs at 21:34:19Z; Conversation JSON CI #46071164530 was FAILURE with zero jobs. No manual dispatch; current-main discovery/navigation remain unverified.
