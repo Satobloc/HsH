@@ -61,6 +61,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Test Mersearch publisher failure guard
+        run: python hsh-main/tools/test_mersearch_push_failure_guard.py
       - name: Record exact inputs
         id: inputs
         shell: bash
@@ -178,6 +180,17 @@ jobs:
               data['outputs'][filename]=hashlib.sha256((out/filename).read_bytes()).hexdigest()
           manifest.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
           PY
+      - name: Preserve compact outputs for failure diagnosis (not canonical publication)
+        if: always() && steps.req.outputs.request_id != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: mersearch-${{ steps.req.outputs.request_id }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            /tmp/mersearch-request/RUN_MANIFEST.json
+            /tmp/mersearch-request/SEARCH_RECEIPT.json
+            /tmp/mersearch-request/SEARCH_RECEIPT.md
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Publish auditable request-scoped results from fresh main
         shell: bash
         env:
@@ -213,21 +226,50 @@ jobs:
           git add "$dest"
           test "$(git diff --cached --name-only | grep -vc "^$dest/")" -eq 0
           git commit -m "Run Mersearch request $REQUEST_ID [skip mersearch-request]"
-          # Main receives frequent independent worker commits. Rebase ONLY this
-          # generated-results commit, without discarding or overwriting others.
+          # Rebase only when the failed push is explicitly non-fast-forward AND
+          # origin/main advanced as a descendant of the exact pre-push base.
+          # GH001, policy, permission, unknown, or unchanged-remote failures stop.
+          base_before_push=$(git rev-parse origin/main)
+          push_log="$RUNNER_TEMP/mersearch-push.log"
           for attempt in 1 2 3 4 5; do
-            if git push origin HEAD:main; then
+            if git push origin HEAD:main > "$push_log" 2>&1; then
+              cat "$push_log"
               echo "Published after attempt $attempt"
               exit 0
             fi
-            echo "Concurrent main-branch update; rebasing generated artifact commit (attempt $attempt)"
+            cat "$push_log"
             git fetch origin main
+            base_after_push=$(git rev-parse origin/main)
+            if git merge-base --is-ancestor "$base_before_push" "$base_after_push"; then
+              remote_descendant=true
+            else
+              remote_descendant=false
+            fi
+            if decision=$(python tools/mersearch_push_failure_guard.py \
+              --log "$push_log" \
+              --base-before "$base_before_push" \
+              --base-after "$base_after_push" \
+              --remote-descendant "$remote_descendant"); then
+              if [ "$decision" != "REBASE" ]; then
+                echo "::error::Unexpected publisher-guard result: $decision"
+                exit 1
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                echo "::error::Five push attempts exhausted after verified non-fast-forward; no sixth attempt"
+                exit 1
+              fi
+              echo "Confirmed non-fast-forward with remote advance; rebasing generated artifact commit (attempt $attempt)"
+            else
+              echo "::error::Publisher guard stopped automatic retry: $decision"
+              exit 1
+            fi
             if ! git rebase origin/main; then
               git rebase --abort || true
               echo "::error::Rebase conflict: refuse to overwrite existing results"
               exit 1
             fi
+            base_before_push=$(git rev-parse origin/main)
             sleep "$attempt"
           done
-          echo "::error::Generated-results push failed after bounded retries"
+          echo "::error::Generated-results push failed after bounded verified non-fast-forward rebases"
           exit 1
