@@ -826,3 +826,5 @@ The report identifies a formal-contract gap in Sable PR #2446: `handoffDelivered
 - Latest discovery/navigation runs observed remain #45930760345 and #45930760365 at 02:51Z. No newer run appears in the first 100 Actions records through 04:26Z; the 03:17Z and 04:17Z scheduled ticks are NOT_OBSERVED, not proven failed or disabled.
 - This is source-custody context only. No P0 implementation, route, deployment, release, or standdown authority; no manual refresh; no task, review request, response obligation, ownership transfer, or work reassignment.
 - `chat_delivery=UNAVAILABLE / NOT_SENT`; repository inbox verification pending; recipient consumption and acknowledgment are unverified.
+
+**Repository inbox receipt for `SABLE-LOOM-20261127T0424Z-P0-SNAPSHOT-DELTA-001`:** commit `acab562e25a407411a008d13fa0f66166d2086f0`, blob `0ac856fa1ee630297f7edc25335d4b47e1c0c326`; exact content readback PASS at 2026-11-27T04:31Z. `github_inbox_delivery=VERIFIED`; `chat_delivery=UNAVAILABLE / NOT_SENT`; consumption and acknowledgment remain unverified.
