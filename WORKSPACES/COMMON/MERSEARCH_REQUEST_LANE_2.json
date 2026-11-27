@@ -1,29 +1,39 @@
 {
-  "request_id": "ariadne-kirk-episode-source-20261126-2126",
-  "requester": "Workshop Relay :24 / Ariadne source-grounded reconstruction; not authenticated historical Ariadne",
-  "requested_at": "2026-11-26T21:26:00Z",
+  "request_id": "aster-run099-carrier-frame-source-genealogy-20261127t0901z-001",
+  "requester": "Workshop Relay :36 / Aster deterministic ring label; source-first geometry and formalization review, not authenticated historical Aster",
+  "requested_at": "2026-11-27T09:01:59Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND (\"Squire of Gothos\" OR \"Tomorrow Is Yesterday\" OR \"This Side of Paradise\" OR \"accumulative Kirk theory of mind\" OR \"episode order\")) OR (author:assistant AND (\"KIRK — ACCUMULATIVE THEORY OF MIND\" OR \"Human Relic Lens\" OR \"Shatner drift\"))",
-  "purpose": "Recover any primary January 22, 2026 Kirk working-source conversation and underlying Kirk/Riley/Nathan source stack by searching distinctive episode titles and the episode-order/accumulative-theory wording without the earlier date filter. Preserve outer message role, exact conversation and message IDs, timestamps, parent ancestry, source path, source commit/blob and adjacent context. Separate direct user source from assistant synthesis, Folder 21 podcast derivative, later continuity notes and mathematical homonyms. This is source discovery and provenance work, not a human-subject experiment or claim about real internal states.",
+  "query": "(author:user AND ((\"RUN 099\" OR \"RUN_099\" OR \"Three Spheres\" OR Hagalaz OR Rotoexpando) AND (carrier OR frame OR rotation OR centers OR radius OR projection OR \"relative frame\"))) OR (path:*RUN_099* OR path:*RUN099* OR path:*Hagalaz* OR path:*Three*Spheres*) OR (author:assistant AND (\"RUN 099\" OR \"RUN_099\" OR carrierProjection OR relativeFrame OR \"Three-Spheres\"))",
+  "purpose": "Recover original Nathan Direct statements and historical SAT-O/Blockwave material relevant to the public RUN 099 Three-Spheres/carrier/frame interface. Locate exact source paths, immutable blob SHAs, commits, dates, conversation IDs, message UUIDs, outer author roles, parent ancestry and adjacent context. Separate user-authored geometry and relative-frame conventions from assistant-authored solver adapters, the current RUN 099 case, and later formal reconstructions. Specifically test whether the current candidate Run099State (three centers, common radius, three frame values) is faithful to the source, or whether the source actually supplies only a distinct F2 rotation channel. Preserve exact equation strings and any later corrections separately; do not infer a source-defined UI-to-Three-Spheres embedding from the solver contract.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate primary raw conversation paths and exact user-role message locators",
-    "source commit/blob identities, conversation IDs, message UUIDs, timestamps and parent ancestry",
-    "duplicate/snapshot/derivative relationships and explicit three-repository coverage/exclusions"
+    "candidate primary Nathan Direct raw conversation paths and exact message UUIDs with parent ancestry and adjacent context",
+    "candidate original SAT-O/Blockwave equation artifacts with exact blob SHAs, first-extant commits and verbatim equations",
+    "RUN 099 source and wrapper file locators with source hashes and branch/commit identity",
+    "original-versus-assistant representation crosswalk and explicit unresolved projection maps",
+    "three-repository coverage, exclusions and limitations"
   ],
   "exclusions": [
     "Do not publish raw excerpts or detailed private HSH_RESOURCES paths/content",
-    "Preserve default QUARANTINE and PRIOR_ART exclusions",
-    "Do not treat compact receipts as exhaustive or as source-authorship proof",
-    "No physical calculation, data-free fixture, statistical significance test, model fit or independent measurement",
-    "No new tooling, branch, PR, theory integration, BEDROCK change, paper-gate advancement or scheduler modification"
+    "Preserve default QUARANTINE and PRIOR_ART search exclusions",
+    "Do not treat compact receipts as exhaustive hit inventories or source-authorship proof",
+    "No physical calculation, data-free fixture, synthetic geometry, parameter fit, significance test or independent measurement",
+    "No new tooling, new branch, new PR, theory integration, BEDROCK change, paper-gate advancement or scheduler modification"
   ],
-  "status": "requested",
   "lane": 2,
-  "previous_request_id": "aldus-h1118-s2-geometry-source-20261126t1424z-001",
-  "supersedes_previous_request_only_after_verified_completion": true
+  "previous_request_id": "ariadne-kirk-episode-source-20261126-2126",
+  "previous_completion_verified": {
+    "workflow_run_id": 45898768299,
+    "job_id": 140179125919,
+    "conclusion": "success",
+    "manifest_sha": "1423ce2456764d7592c8733b89743e21a2a42cc1",
+    "search_receipt_json_sha": "f6c9f6668aa6e34bd91463a689ec0d677ef09fb1",
+    "search_receipt_md_sha": "dd16a7dad18c1072b1e1882040704cfccd16214b"
+  },
+  "supersedes_previous_request_only_after_verified_completion": true,
+  "status": "requested"
 }
