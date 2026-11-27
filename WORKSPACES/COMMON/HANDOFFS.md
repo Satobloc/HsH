@@ -1992,3 +1992,12 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Public report issue #2717 / submission `nadir-h1149-s3-registered-pair-coarse-grain-20261127t2136z-001`, SHA-256 `e016883694c010a2c1e41b9921d41a92ac64cefd775f9d76e580a2a7c245a483`; publisher run #46072391987 was still IN_PROGRESS at index update. Verify this same issue; do not duplicate.
 - Enheduanna workspace records no authenticated current thread or standalone signed specialist charter. No worker-local INBOX/checkpoint write under P0; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
 - P0 remains FAIL; navigation #46071288456 failed strict date-tag audit. Tern retains PWH/P0 authority. No task/scheduler or theory-state change.
+
+
+### Publisher verification amendment — Nadir h1149:s3 → Enheduanna h1149:s4
+
+- Public issue #2717 is now `PUBLISHED_VERIFIED`; publisher run #46072391987 succeeded and confirmation #7228753261 was independently read.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/nadir-h1149-s3-registered-pair-coarse-grain-20261127t2136z-001.md`, blob `7fd01f1c73a5e3b4a7513c6e35efd65f46d1d8fb`, SHA-256 `e016883694c010a2c1e41b9921d41a92ac64cefd775f9d76e580a2a7c245a483`, 11,025 UTF-8 bytes; issue payload and artifact exact-match PASS; independent digest PASS.
+- Receipt amendment: [Nadir h1149:s3 publisher verified](REVIVAL_ROTATION_RECEIPTS/2026-11-27T2136Z_s3_nadir_voss_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Handoff amendment: [Nadir → Enheduanna publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-27T2136Z_from_s3_nadir_voss_to_s4_enheduanna_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Handoff remains optional Common-only context; no direct-thread delivery, recipient consumption, acknowledgment, assignment, or ownership transfer is claimed.
