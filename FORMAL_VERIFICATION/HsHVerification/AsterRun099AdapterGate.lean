@@ -7,29 +7,46 @@ import HsHVerification.NadirProjectionCoarseGrainFactorization
 
 This module is an assistant-authored, source-bounded adapter contract.
 
-The public RUN 099 case supplies three equal-radius centers and a separate
-frame channel. The existing carrier function accepts only the centers and
-common radius. The historical Rotoexpando/Hagalaz convention records
-Q_ij = F_j * F_i^{-1}. The source-defined embedding from the full UI
-construction into a Three-Spheres state remains unspecified.
+The RUN 099 case manifest supplies three equal-radius centers, a common
+hypersphere radius, and one independent F2 x-w frame perturbation. The
+current wrapper maps that single F2 channel to the list [I, F2, I].
+The identity endpoints are wrapper conventions; the case manifest does not
+define a three-frame ontology.
 
-Accordingly, Run099State below is only a candidate solver-side state for the
-existing case. It is not the full UI state, a source-defined UI-to-Three-
-Spheres map, a physical model, or an SO(4) instantiation.
+The existing carrier function accepts only centers and the common radius.
+The candidate left-acting relative-frame convention Q_ij = F_j * F_i^{-1}
+is recorded in NadirFrameTelescoping.lean. That formalization cites a
+historical SAT file and a Rotoexpando manuscript locator, but the primary
+source text has not been independently read in this run; no new Nathan
+Direct attribution is asserted here.
+
+Run099State below is only a candidate solver-side state for the existing
+case. It is not the full UI state, a source-defined UI-to-Three-Spheres map,
+a physical model, or an SO(4) instantiation.
 
 The results establish:
 * the carrier projection forgets frame data;
-* a relative-frame readout cannot be decoded from carrier input alone when
-  that frame varies;
+* the wrapper's single F2 channel has an explicit [I, F2, I] encoding;
+* a candidate relative-frame readout cannot be decoded from carrier input
+  alone when that frame varies;
 * carrying the frame channel alongside the carrier input is lossless for
   this declared state;
-* the RUN 099 identity-endpoint fixture cannot distinguish right increments
-  from left-acting Hagalaz relative frames;
-* the declared residual-radius formula has the stated squared identity on
-  its real domain.
+* the RUN 099 identity-endpoint adapter cannot distinguish right increments
+  from the candidate left-acting relative frames;
+* the case manifest's residual-radius formula has the stated squared
+  identity on its real domain.
+
+The case notation G, R, r_c, and rho is LOCAL:RUN099. G is the case
+discriminant, not Newton's gravitational constant; r_c is the center
+circumradius, while rho is the residual common-intersection radius. The
+current carrier solver returns G and r_c but does not emit rho, and the
+current wrapper does not compute or assert rho. The final theorem below
+therefore proves the manifest's algebraic relation only, not an
+implementation output.
 
 These are formal statements about the types and assumptions below. They do
-not establish source fidelity of an external adapter or physical truth.
+not establish source fidelity of an external adapter, the missing
+UI-to-Three-Spheres projection, physical truth, or dynamic holonomy.
 -/
 
 namespace HsHVerification.AsterRun099AdapterGate
@@ -54,13 +71,51 @@ structure Run099State (Center : Type u) (Frame : Type v) where
 def carrierProjection (s : Run099State Center Frame) : CarrierInput Center :=
   ⟨s.centers, s.radius⟩
 
-/-- Source-convention relative frame Q_ij = F_j * F_i^{-1}. -/
+/-- Adapter-only encoding of the single RUN 099 F2 channel as [I, F2, I].
+    The identity endpoint frames come from the current wrapper, not from a
+    source-defined three-frame state. -/
+def run099FrameAssignment [One Frame] (F2 : Frame) : Fin 3 → Frame :=
+  fun i => if i = (1 : Fin 3) then F2 else 1
+
+@[simp] theorem run099FrameAssignment_zero [One Frame] (F2 : Frame) :
+    run099FrameAssignment F2 0 = 1 := by
+  simp [run099FrameAssignment]
+
+@[simp] theorem run099FrameAssignment_one [One Frame] (F2 : Frame) :
+    run099FrameAssignment F2 1 = F2 := by
+  simp [run099FrameAssignment]
+
+@[simp] theorem run099FrameAssignment_two [One Frame] (F2 : Frame) :
+    run099FrameAssignment F2 2 = 1 := by
+  simp [run099FrameAssignment]
+
+/-- Candidate state produced by the current wrapper's F2-to-[I,F2,I]
+    assignment. This is an adapter map, not a source-defined UI embedding. -/
+def run099AdapterState [One Frame]
+    (centers : Fin 3 → Center) (radius : ℝ) (F2 : Frame) :
+    Run099State Center Frame :=
+  { centers := centers
+    radius := radius
+    frames := run099FrameAssignment F2 }
+
+@[simp] theorem carrierProjection_run099AdapterState [One Frame]
+    (centers : Fin 3 → Center) (radius : ℝ) (F2 : Frame) :
+    carrierProjection (run099AdapterState centers radius F2) =
+      ⟨centers, radius⟩ := by
+  rfl
+
+/-- Candidate left-acting relative frame Q_ij = F_j * F_i^{-1}. -/
 def relativeFrame [Group Frame] (s : Run099State Center Frame)
     (i j : Fin 3) : Frame :=
   s.frames j * (s.frames i)⁻¹
 
 def relativeFrame01 [Group Frame] (s : Run099State Center Frame) : Frame :=
   relativeFrame s 0 1
+
+@[simp] theorem run099AdapterState_relativeFrame01 [Group Frame]
+    (centers : Fin 3 → Center) (radius : ℝ) (F2 : Frame) :
+    relativeFrame01 (run099AdapterState centers radius F2) = F2 := by
+  simp [run099AdapterState, run099FrameAssignment, relativeFrame01, relativeFrame]
 
 /-- Change only the second frame, preserving the carrier input. -/
 def replaceFrame1 (s : Run099State Center Frame) (f : Frame) :
@@ -77,7 +132,7 @@ def replaceFrame1 (s : Run099State Center Frame) (f : Frame) :
     relativeFrame01 (replaceFrame1 s f) = f * (s.frames 0)⁻¹ := by
   simp [relativeFrame01, relativeFrame, replaceFrame1]
 
-/-- If the second frame changes, the source-convention relative frame changes. -/
+/-- If the second frame changes, the candidate relative frame changes. -/
 theorem relativeFrame01_changed [Group Frame]
     (s : Run099State Center Frame) (f : Frame)
     (hf : f ≠ s.frames 1) :
@@ -88,26 +143,30 @@ theorem relativeFrame01_changed [Group Frame]
   simpa [relativeFrame01, relativeFrame, replaceFrame1, mul_assoc] using h'
 
 /-- No deterministic readout on the carrier projection image can recover
-    Q_01 when a frame variation is hidden in one carrier fibre. This is a
-    source-specific specialization of the existing generic fibre-mismatch
-    theorem, not a new general factorization theorem. -/
+    the candidate Q_01 when a frame variation is hidden in one carrier
+    fibre. This specializes the existing generic fibre-mismatch theorem. -/
 theorem no_relativeFrame01_factorization
     [Group Frame]
     (s : Run099State Center Frame) (f : Frame)
     (hf : f ≠ s.frames 1) :
-    ¬ ∃ induced : Set.range carrierProjection → Frame,
-      ∀ t, induced
-        (HsHVerification.NadirProjectionCoarseGrainFactorization.imageProjection
-          carrierProjection t) = relativeFrame01 t := by
+    ¬ ∃ induced :
+      Set.range (fun t : Run099State Center Frame => carrierProjection t) → Frame,
+      ∀ t : Run099State Center Frame,
+        induced
+          (HsHVerification.NadirProjectionCoarseGrainFactorization.imageProjection
+            (fun t : Run099State Center Frame => carrierProjection t) t) =
+          relativeFrame01 t := by
   exact
     HsHVerification.NadirProjectionCoarseGrainFactorization.no_inducedCoarseGraining_of_fiber_mismatch
-      carrierProjection (fun t => t) relativeFrame01
+      (fun t : Run099State Center Frame => carrierProjection t)
+      (fun t : Run099State Center Frame => t)
+      (fun t : Run099State Center Frame => relativeFrame01 t)
       (replaceFrame1 s f) s
       (carrierProjection_replaceFrame1 s f)
       (relativeFrame01_changed s f hf)
 
 /-- Consequently, no decoder after an arbitrary deterministic carrier solver
-    can reconstruct Q_01 from the carrier result alone. -/
+    can reconstruct the candidate Q_01 from carrier input alone. -/
 theorem no_frame_decoder_from_carrier_solver
     [Group Frame]
     {Output : Type w}
@@ -115,7 +174,8 @@ theorem no_frame_decoder_from_carrier_solver
     (s : Run099State Center Frame) (f : Frame)
     (hf : f ≠ s.frames 1) :
     ¬ ∃ decode : Output → Frame,
-      ∀ t, decode (solver (carrierProjection t)) = relativeFrame01 t := by
+      ∀ t : Run099State Center Frame,
+        decode (solver (carrierProjection t)) = relativeFrame01 t := by
   intro h
   rcases h with ⟨decode, hdecode⟩
   apply no_relativeFrame01_factorization s f hf
@@ -146,10 +206,18 @@ theorem augmentedUnview_augmentedView
 theorem augmentedView_injective :
     Function.Injective (augmentedView (Center := Center) (Frame := Frame)) := by
   intro s t h
-  have h' := congrArg augmentedUnview h
-  simpa [augmentedUnview, augmentedView, carrierProjection] using h'
+  cases s with
+  | mk sCenters sRadius sFrames =>
+    cases t with
+    | mk tCenters tRadius tFrames =>
+      simp [augmentedView, carrierProjection] at h
+      rcases h with ⟨hCenters, hRadius, hFrames⟩
+      cases hCenters
+      cases hRadius
+      cases hFrames
+      rfl
 
-/-- Source-convention relative frames compose in reverse edge order:
+/-- Candidate left-acting relative frames compose in reverse edge order:
     Q_12 * Q_01 = Q_02. Reuses Nadir's already-formalized group identity. -/
 theorem relativeFrame_comp [Group Frame]
     (s : Run099State Center Frame) :
@@ -158,8 +226,9 @@ theorem relativeFrame_comp [Group Frame]
     HsHVerification.NadirFrameTelescoping.leftRelative_comp
       (s.frames 0) (s.frames 1) (s.frames 2)
 
-/-- Left-acting Hagalaz relative frame Q_ij = F_j F_i^{-1} equals the right
-    increment E_ij = F_i^{-1} F_j exactly when the endpoint frames commute. -/
+/-- Candidate left-acting relative frame Q_ij = F_j F_i^{-1} equals the
+    right increment E_ij = F_i^{-1} F_j exactly when the endpoint frames
+    commute. -/
 theorem leftRelative_eq_edge_iff_commute [Group Frame]
     (a b : Frame) :
     HsHVerification.NadirFrameTelescoping.leftRelative a b =
@@ -188,8 +257,8 @@ theorem leftRelative_eq_edge_of_identity_end [Group Frame] (a : Frame) :
   simp [HsHVerification.NadirFrameTelescoping.leftRelative,
     HsHVerification.NadirFrameTelescoping.edge]
 
-/-- The RUN 099 frame assignment (I, F, I) has an identity endpoint on each
-    edge, so its loop test cannot distinguish the two conventions. -/
+/-- The current RUN 099 wrapper assignment [I, F2, I] has identity endpoints,
+    so its loop test cannot distinguish the two conventions. -/
 theorem run099_identity_endpoint_conventions_coincide [Group Frame]
     (f : Frame) :
     (HsHVerification.NadirFrameTelescoping.leftRelative (1 : Frame) f =
@@ -202,57 +271,35 @@ theorem run099_identity_endpoint_conventions_coincide [Group Frame]
     leftRelative_eq_edge_of_identity_end f,
     leftRelative_eq_edge_of_identity_start (1 : Frame)⟩
 
-/-- RUN 099 defines G = 1 - (r_c/R)^2. -/
-def carrierDiscriminant (R r_c : ℝ) : ℝ :=
+/-- LOCAL:RUN099:G = 1 - (r_c/R)^2, where G is the case discriminant. -/
+noncomputable def carrierDiscriminant (R r_c : ℝ) : ℝ :=
   1 - (r_c / R) ^ 2
 
-/-- Candidate residual common-intersection radius rho = R * sqrt(G).
-    This is meaningful as a real radius only on the declared G >= 0 domain. -/
-def residualCarrierRadius (R r_c : ℝ) : ℝ :=
+/-- LOCAL:RUN099:rho = R * sqrt(G). The case manifest declares this
+    residual common-intersection radius, but the current solver/wrapper does
+    not emit it. This definition formalizes the manifest contract only. -/
+noncomputable def residualCarrierRadius (R r_c : ℝ) : ℝ :=
   R * Real.sqrt (carrierDiscriminant R r_c)
 
-/-- On the real domain and for positive R, rho^2 = R^2 - r_c^2. -/
+/-- On the manifest's real domain and for positive R,
+    rho^2 = R^2 - r_c^2. -/
 theorem residualCarrierRadius_sq
     (R r_c : ℝ) (hR : 0 < R)
     (hG : 0 ≤ carrierDiscriminant R r_c) :
     (residualCarrierRadius R r_c) ^ 2 = R ^ 2 - r_c ^ 2 := by
-  unfold residualCarrierRadius carrierDiscriminant
-  rw [Real.sq_sqrt hG]
   have hRne : R ≠ 0 := ne_of_gt hR
+  rw [residualCarrierRadius, mul_pow, Real.sq_sqrt hG]
+  unfold carrierDiscriminant
   field_simp [hRne]
-  ring
+  <;> ring
 
 #print axioms relativeFrame_comp
 #print axioms no_relativeFrame01_factorization
 #print axioms no_frame_decoder_from_carrier_solver
 #print axioms augmentedView_injective
+#print axioms run099AdapterState_relativeFrame01
 #print axioms leftRelative_eq_edge_iff_commute
 #print axioms run099_identity_endpoint_conventions_coincide
 #print axioms residualCarrierRadius_sq
-
-/-- Abstract finite-group witness: the identity-start case agrees, while
-    a noncommuting pair in S3 distinguishes the two conventions. This is a
-    group-theoretic execution check, not a physical rotation fixture. -/
-def swap01 : Equiv.Perm (Fin 3) := Equiv.swap (0 : Fin 3) 1
-def swap12 : Equiv.Perm (Fin 3) := Equiv.swap (1 : Fin 3) 2
-
-/-- Abstract finite-group state used only to execute the carrier-fibre witness. -/
-def demoState : Run099State Unit (Equiv.Perm (Fin 3)) :=
-  { centers := fun _ => ()
-    radius := 1
-    frames := fun _ => 1 }
-
-#eval decide
-  (relativeFrame01 (replaceFrame1 demoState swap12) ≠ relativeFrame01 demoState)
-
-#eval decide
-  (HsHVerification.NadirFrameTelescoping.leftRelative
-    (1 : Equiv.Perm (Fin 3)) swap12 =
-   HsHVerification.NadirFrameTelescoping.edge
-    (1 : Equiv.Perm (Fin 3)) swap12)
-
-#eval decide
-  (HsHVerification.NadirFrameTelescoping.leftRelative swap01 swap12 =
-   HsHVerification.NadirFrameTelescoping.edge swap01 swap12)
 
 end HsHVerification.AsterRun099AdapterGate
