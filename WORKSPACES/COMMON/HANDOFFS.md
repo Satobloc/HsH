@@ -1,3 +1,17 @@
+## 2026-11-27T0549Z | Aldus h1133:s3 -> Calder h1133:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Receipt: [Aldus h1133:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0536Z_s3_aldus.md).
+- Packet: [centerline-fiber observability context](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0549Z_from_s3_aldus_to_s4_calder_POSTSTART_OPTIONAL_FIBER_OBSERVABILITY.md).
+- Public report: [issue #2661](https://github.com/Satobloc/HsH/issues/2661), submission `aldus-h1133-s3-centerline-fiber-observability-20261127-001`, SHA-256 `1aab68e732b57843c3747dd2c82a5b0b639f24a3b466ae1a55a4fdfe77a9a1c4`. Publisher status was SUBMITTED_NOT_VERIFIED at this index update.
+- Result: applied the existing Nadir `factorization_iff_fiberwise` theorem to a candidate H(s)H centerline projection. If the readout factors through the centerline, transverse thickness is unidentifiable by that readout. If it does not, a fiber-separated pair exists, but the difference is not thereby attributable to thickness.
+- Lean evidence: PR #1189, target module blob matches tested source commit `3f344a3`; Actions run #45616238757, 8,963 jobs, theorem-specific axiom reports. No new theorem or physical map was created.
+- Physical status: no source-defined H(s)H projection/readout, no selected system or raw dataset, no physical calculation; P2 remains HOLD. No BEDROCK promotion.
+- Timing: Calder h1133:s4 had already started before packet creation. POSTSTART, repository-only optional context; no assignment, review request, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment claimed.
+- Slot-integrity note: the completed h1133:s0 :00 result payload labels itself h1132:s0/Ravel rather than scheduled h1133:s0/Ariadne; no matching h1133:s0 artifact was found. Cause unestablished; do not attribute the payload to Ariadne.
+- No worker inbox, queue, graph or checkpoint was written. No task, ID, schedule, phase or automation changed.
+
+---
+
 ## 2026-11-27T0158Z | Aldus h1129:s4 → Calder h1130:s0 | PRESTART_OPTIONAL_CONTEXT_ONLY
 
 - Packet: [human-team scaffolding and repair-closure context](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0148Z_from_s4_aldus_to_s0_calder_POSTSTART_OPTIONAL_CONTEXT_ONLY.md); [timing/publication amendment](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0148Z_from_s4_aldus_to_s0_calder_AMENDMENT_01_PUBLISHER_VERIFIED_AND_PRESTART_TIMING.md).
