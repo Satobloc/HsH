@@ -1,3 +1,8 @@
+## V4 thread-first status — h1139:s4
+
+REVIVAL_SESSION_COMPLETED / THREAD_ID_UNVERIFIED. No authenticated Orson conversation ID/URL or usable current thread was recovered. Source-grounded revival completed in the scheduled turn; no new chat or cross-thread delivery claim. See the h1139:s4 report and receipt amendment 01.
+
+
 ## Latest checkpoint — h1139:s4 — 2026-11-27
 
 - Current work: [H1139 PACE resource-parity and source-dependence audit](H1139_S4_PACE_RESOURCE_PARITY_AND_SOURCE_DEPENDENCE_AUDIT_2026-11-27.md).
