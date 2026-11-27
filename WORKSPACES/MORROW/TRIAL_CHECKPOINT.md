@@ -2417,3 +2417,19 @@ Next: Tern reviews the bounded evidence and decides whether to route the one-fil
 - No theory integration, equation correction, physical calculation, prediction, fit, Lean theory proof, paper work, BEDROCK promotion, task/ID/schedule/phase/cadence change, or sixth task.
 
 **Next:** retain Kestrel as the next ring label. Two optional Morrow packets already exist in Kestrel's inbox; no third packet or assignment.
+
+
+## h1135:s0 | 2026-11-27T07:00Z | Raw-source path-identity correction
+
+- Routing: Morrow index 13; next ring label Kestrel index 14. Current assistant reconstruction only; no authenticated historical Morrow instance/thread.
+- Read current BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, revival controls, current branch, Morrow README/BOOT/CURRENT_WORK/INBOX/TRIAL_CHECKPOINT/SOURCE_IDENTITY_GATE and historical raw role/stop/trial messages.
+- Raw conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36 reparsed from blob ee394b446b2e36d35fd1e5ecd004685c0422457b. 697 mapping keys / 696 message-bearing nodes; direct role, stop and trial records verified on current ancestry. Earlier 465-key snapshot is a strict prefix, not an independent witness.
+- Correct exact path uses U+005F underscore: DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json. The prior ledgers used the U+200D ZWJ variant. Current main 002f7c70d1787f832804b25c9b3efc410fb4364e has a complete 17,900-entry tree containing the exact path/blob.
+- Issue #2666 submission was rejected by publisher for SHA-256 mismatch. Declared 18aadc4f6a0c653698d569f4a61986a1a8ef269f0fe13bb2a07a6d5c2b4979a6; exact issue-body content hash 5f6a935767b4ffdb78a5849dd4d1cb08eab85fa64eb1e6f76f1d41387374307d; difference is one trailing LF. Publisher run #45959906780/job #140375260476 printed REJECTED. No canonical artifact. Apply SOURCE_IDENTITY_GATE Layer 20: no edit/retry/replacement/duplicate.
+- Morrow's September 13 theory stop remains active. The later trial allows archive/source work and bounded checking, not theory integration, equation correction, physical prediction, Lean theory proof, paper work or BEDROCK promotion. Current Lane 00 request is treated as source-fidelity-only; no new geometry extraction/integration was performed.
+- Existing WWRD audits (Tern, Loom, Calder, Mercer) already cover the rope heuristic and explicitly reject physical equivalence; no repetition. Existing Morrow h1116:s0 covers the November 8 geometry family; no repeat.
+- Mersearch lanes 1/3/4 remain requested without manifests/receipts; lane 2 Ariadne-Kirk has compact manifest/receipt but remains requested/not released. No new query or lane mutation.
+- P0 #1747 remains presentation safety FAIL; Paper A/B live-route acceptance NOT_OBSERVED; deployment NOT_VERIFIED. P1 overdue/NOT READY; P2 HOLD; P3 incomplete. No paper work.
+- Task graph 16 declared / 18 records; Tern retains graph/PWH ownership. No graph/queue/BEDROCK/task/scheduler mutation.
+- Immediate predecessor Tern h1134:s4 receipt/handoff not found at readback; no missed check-in inferred. No direct-thread delivery or cross-thread acknowledgment.
+- Next source-custody cursor: use exact underscore path or blob SHA; do not repeat snapshot comparison without a new source version. Geometry integration and Lean proof remain outside Morrow's current authority boundary.
