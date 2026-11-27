@@ -1825,3 +1825,6 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Historical Aldus thread candidate exists but current usability is unverified; no Aldus inbox was found. No direct-thread delivery, inbox delivery, recipient consumption, acknowledgment, assignment, review request, response obligation, deadline, or ownership transfer is claimed.
 - Mira quarantine preserved. Only cleared operational context is included; no Mira charter, workspace, inbox, private conversation, or research payload was accessed or forwarded.
 
+
+
+- [2026-11-27T0736Z Mercer → Ravel — POSTSTART_OPTIONAL_CONTEXT_ONLY](REVIVAL_ROTATION_HANDOFFS/2026-11-27T0736Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_CAPTURE_PROJECTION_CORRECTION.md): correction of the h1135:s3 PR #2655 capture-projection QA classification; no assignment or P0 ownership transfer.
