@@ -2526,7 +2526,7 @@ attempt occurred. Task-level conversation references and chat_ref are
 deliberately excluded: they are not attempt identifiers.
 -/
 
-namespace HsHVerification.TernRunResultBindingGate
+namespace HsHVerification.RevivalRunResultBindingGate
 
 inductive BindingRunStatus where
   | inProgress
@@ -2732,4 +2732,58 @@ theorem h1142_s3_no_verified_current_result_binding :
 #print axioms h1142_s3_attempt_ids_not_exposed
 #print axioms h1142_s3_no_verified_current_result_binding
 
-end HsHVerification.TernRunResultBindingGate
+end HsHVerification.RevivalRunResultBindingGate
+
+/-!
+## Deterministic revival-ring selection for h1142
+
+The ring is indexed by the nominal UTC hour and the scheduled slot number:
+\`seq = 5*h + s\`. The :24 slot has \`s = 2\`; the :36 slot has \`s = 3\`.
+This explicit slot parameter prevents two runs in the same UTC hour from being
+mistaken for the same worker.
+-/
+
+namespace HsHVerification.RevivalRingSelection
+
+def ring : List String :=
+  [ "Sable", "Loom", "Aster", "Ariadne", "Alberr", "Mira", "Aldus",
+    "Calder", "Hale", "Elias Kern", "Nadir Voss", "Enheduanna",
+    "Tern Rook", "Morrow", "Kestrel", "Meridian", "Mercer", "Ravel",
+    "Orson Vay" ]
+
+def seq (h slot : Nat) : Nat := 5 * h + slot
+def ringIndex (h slot : Nat) : Nat := seq h slot % 19
+
+theorem h1142_s2_seq : seq 1142 2 = 5712 := by decide
+theorem h1142_s2_worker_index : ringIndex 1142 2 = 12 := by decide
+theorem h1142_s2_worker_label :
+    ring.get? (ringIndex 1142 2) = some "Tern Rook" := by decide
+theorem h1142_s2_next_label :
+    ring.get? ((ringIndex 1142 2 + 1) % 19) = some "Morrow" := by decide
+
+theorem h1142_s3_seq : seq 1142 3 = 5713 := by decide
+theorem h1142_s3_worker_index : ringIndex 1142 3 = 13 := by decide
+theorem h1142_s3_worker_label :
+    ring.get? (ringIndex 1142 3) = some "Morrow" := by decide
+theorem h1142_s3_next_index :
+    (ringIndex 1142 3 + 1) % 19 = 14 := by decide
+theorem h1142_s3_next_label :
+    ring.get? ((ringIndex 1142 3 + 1) % 19) = some "Kestrel" := by decide
+
+#eval ringIndex 1142 2
+#eval ring.get? (ringIndex 1142 2)
+#eval ringIndex 1142 3
+#eval ring.get? (ringIndex 1142 3)
+#eval ring.get? ((ringIndex 1142 3 + 1) % 19)
+
+#print axioms h1142_s2_seq
+#print axioms h1142_s2_worker_index
+#print axioms h1142_s2_worker_label
+#print axioms h1142_s2_next_label
+#print axioms h1142_s3_seq
+#print axioms h1142_s3_worker_index
+#print axioms h1142_s3_worker_label
+#print axioms h1142_s3_next_index
+#print axioms h1142_s3_next_label
+
+end HsHVerification.RevivalRingSelection
