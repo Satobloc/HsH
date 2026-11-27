@@ -1276,3 +1276,33 @@ The direct message identifies a straight worldtube with “BEC sea vacuum” and
 - The source content is already discussed in the Tern source-fidelity report and Kestrel #2565; this section adds the missing Loom corpus-tag and direct-word-compendium integration. It is not an independent source witness or a duplicate public report.
 - Next source task: obtain a source-defined filament-to-worldtube map and a separately specified timesheet/worldtube observation map, preserving the distinction between direct Nathan wording, assistant reconstruction, standard GR/BEC references, and measured evidence. Do not infer the map from the word “morphology”.
 - FIE rereview remains due 2026-12-08; unrelated-source break next due 2026-11-28. Neither is due in this run.
+
+
+## AQ. 2026-11-27 | Loom h1136:s2 | Tag Conversation Corpus continuation acknowledgment
+
+### Exact source identity
+
+- **Repository/path:** `Satobloc/HsH/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Tag Conversation Corpus` (raw JSON export; exact source path recovered from the prior source record).
+- **Conversation ID:** `6aa67478-541c-83e9-b8fa-32d6d575eeb9`.
+- **Raw export blob:** `6668ca60e451f8737903423727da7f9a430484e1`.
+- **Message ID:** `0060977b-f2c9-4234-b157-391a4c694930`.
+- **Raw timestamp:** `2026-09-13T15:44:07.310Z` (`create_time=1789314247.31`).
+- **Authorship:** raw outer `author.role=user`; under the current Training Source Map this is Nathan-authored. The message is on the selected 459-node current ancestry.
+- **Exact text:** “Excellent, continue”.
+- **Immediate parent:** tool-role `continue_in_work` result, `status=declined`, `reason=user_kept_chat`. This is immediate conversational context, not a theory claim.
+
+### Additive tag assignment
+
+- `CONTINUATION-ACKNOWLEDGMENT`
+- `THREAD-CONTINUITY`
+- `WORKFLOW-CONTINUATION`
+- `USER-KEPT-CHAT`
+- `NOT-THEORY-CLAIM`
+
+**Interpretation:** a brief direct acknowledgment to continue the existing conversation after the continuation tool reported that the user had kept the chat. It contributes no new physical, mathematical, chronological, or terminology proposition. Preserve it as a workflow/continuity instruction rather than inflating its conceptual content.
+
+### Coverage correction
+
+The raw export has 515 mapping nodes, 514 message-bearing nodes, and 10 outer user-role messages; nine user messages are on the selected current ancestry and one is off-ancestry. A message-ID cross-check of this ledger found nine of the ten IDs already represented; this message was the one missing current-ancestry acknowledgment. This additive entry corrects the broader “all ten already represented” coverage statement in the earlier h1117 receipt/current-work narrative. It does not alter the existing tags or the separate off-ancestry classification of message `a620a5cb-66cf-4f12-bf99-17ff232d2559`.
+
+No new theory interpretation, source-origin claim, worker assignment, or Loom recurrence reactivation follows from this tag. The workspace remains PAUSED / ACCESSIBLE-UNSCHEDULED.
