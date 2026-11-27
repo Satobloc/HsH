@@ -4,13 +4,13 @@ namespace HsHVerification
 
 /-- The radicand appearing in the published Kelvin/Rankine dispersion definition
     beta = k * sqrt(4 * Omega0^2 / tildeOmega^2 - 1). -/
-def kelvinBetaRadicand (omega0 tildeOmega : ℝ) : ℝ :=
+noncomputable def kelvinBetaRadicand (omega0 tildeOmega : ℝ) : ℝ :=
   4 * omega0 ^ 2 / tildeOmega ^ 2 - 1
 
 /-- Necessary real-beta domain: positive rotation, nonzero shifted frequency,
     and a nonnegative square-root radicand. This is not the full Bessel-function
     domain of the displayed dispersion equation. -/
-def kelvinRealBetaDomain (omega0 tildeOmega : ℝ) : Prop :=
+noncomputable def kelvinRealBetaDomain (omega0 tildeOmega : ℝ) : Prop :=
   0 < omega0 ∧ tildeOmega ≠ 0 ∧ 0 ≤ kelvinBetaRadicand omega0 tildeOmega
 
 /-- For positive Omega0 and nonzero shifted frequency, the real-beta condition
@@ -43,7 +43,7 @@ theorem kelvinRealBetaDomain_iff_squared_bound
 
     This intentionally does not encode the Bessel denominators, root selection,
     or any limiting/analytic-continuation extension. -/
-def kelvinM2DisplayedScalarDomain
+noncomputable def kelvinM2DisplayedScalarDomain
     (omega0 omega tildeOmega : ℝ) : Prop :=
   kelvinRealBetaDomain omega0 tildeOmega ∧
     omega ≠ 0 ∧
