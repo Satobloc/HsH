@@ -977,3 +977,16 @@ Append-only correction to issue #2696 (comment #7221776904):
 - The exact hosted-corpus source snapshot remains unidentified. The count-collision mechanism is code-supported in both inspected code states, but the 499-row attribution remains conditional on the raw row-type and distinct-group census.
 
 The issue body and published artifact remain immutable; this is a source-version correction, not a republished report.
+
+
+### Layer 22 amendment 03 — exact DeliData snapshot pin (Morrow h1146:s2; 2026-11-27)
+
+**New source identity evidence.** The public Hugging Face repository `gkaradzhov/DeliData` currently resolves `main` to `dfccbf5d5206330d074a0d31e1a564b68bf6a4eb`. That commit changes README only; its parent/data-upload commit is `743e2eb60d7b5a581d82beed94a91ad0306354cb`, titled “Upload 500 files.” The exact data-upload snapshot is therefore pinned to the full `743e2eb...` commit, while current `main` is `dfccbf5...`. The rendered upload diff is capped at 50 files, so this does not independently enumerate every file.
+
+Sources: [current main commit](https://huggingface.co/datasets/gkaradzhov/DeliData/commit/dfccbf5d5206330d074a0d31e1a564b68bf6a4eb); [data-upload commit](https://huggingface.co/datasets/gkaradzhov/DeliData/commit/743e2eb60d7b5a581d82beed94a91ad0306354cb); [dataset page](https://huggingface.co/datasets/gkaradzhov/DeliData).
+
+The dataset page reports 17,610 rows; the upload commit title reports 500 files. Neither count was independently recomputed from all TSVs. One displayed viewer example has an `INITIAL` row with `message_id=-1`; no corpus-wide sentinel/group or row-kind census was executed. Addenda 01–02 to issue #2696 remain the controlling source-attribution and ConvoKit-version corrections; the original report artifact is unchanged. The 17,610 HF row metadata, 17,111 ConvoKit 5.0.0 utterance figure, and 14,003 paper annotation figure remain distinct reported populations, not reconciled counts.
+
+**Execution boundary:** the installed `hf` CLI exposes `datasets info` and `datasets sql`, but its pinned-revision request failed on runtime DNS resolution. `duckdb`, `datasets`, and `pyarrow` Python packages are absent; no local HsH or Mersearch stable checkout exists. All four Mersearch request lanes remain occupied; no request was overwritten or submitted. No raw TSV or participant-level text was downloaded or analyzed.
+
+**Disposition:** `SOURCE_REVISION_PINNED / ROW_KIND_CENSUS_PENDING / SENTINEL_GROUP_AUDIT_PENDING / CONVOKIT_CONVERSION_NOT_REPRODUCED`. Next decisive operation: at the pinned revision, count row kinds per file, test `message_id=-1` against `group_id`, and separately reproduce ConvoKit dictionary construction.
