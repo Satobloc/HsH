@@ -43,3 +43,18 @@ Existing Orson sandbox [PR #2375](https://github.com/Satobloc/HsH/pull/2375) was
 - No task, schedule, phase, ID, cadence or ownership mutation.
 
 This is optional context only. No work is assigned to Sable.
+
+
+## Amendment 01 — Lean verification completed
+
+The corrected addition passed the existing PR #2375 Lean workflow:
+
+- PR head: `241a51e2149101565e335f555963415054781502`.
+- [Actions #46057372492](https://github.com/Satobloc/HsH/actions/runs/46057372492): SUCCESS.
+- Built merge-reference commit `d552b11cb5fb94aea3a0eb4a118bafd6551f5368`, with parents PR head `241a51e2149101565e335f555963415054781502` and base `598a45b3feb9378eb8f14ff069ec9080137113c2`.
+- Lean 4.34.0 / Lake 5.0.0; full library 8,955 jobs.
+- `#eval`: `(true, true, false)`.
+- New theorem axiom report: `propext`, `Quot.sound`; witness and derived theorem additionally use `Classical.choice`. No `sorryAx` or bare `admit` in the retrieved full log.
+- Tests, lint, leanchecker, nanoda and global axiom audit were skipped.
+
+This is a merge-reference build, not a standalone exact-head build. The result is conditional mathematics only, not empirical LLM validation. PR #2375 remains OPEN / DRAFT / UNMERGED. No P1 change or assignment is made.
