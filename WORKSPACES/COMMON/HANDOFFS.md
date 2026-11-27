@@ -1,3 +1,9 @@
+## h1136:s0 Orson -> Sable | 2026-11-27T08:00Z | OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Orson h1136:s0 optional context](../REVIVAL_ROTATION_HANDOFFS/2026-11-27T0800Z_from_s0_orson_vay_to_s1_sable_OPTIONAL_CONTEXT_ONLY.md).
+- Published report: [issue #2669](https://github.com/Satobloc/HsH/issues/2669); canonical receipt: [h1136:s0](../REVIVAL_ROTATION_RECEIPTS/2026-11-27T0800Z_s0_orson_vay.md).
+- Sable is the next ring label. The :12 lease remains disabled; next active scheduled relay is :24 Loom. Repository-only context; no authenticated live thread, scheduled pickup, assignment, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
+
 ## 2026-11-27T0835Z | Loom h1136:s2 → Aster h1136:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Receipt: [Loom h1136:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-27T0824Z_s2_loom.md).
