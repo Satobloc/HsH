@@ -29,6 +29,25 @@ noncomputable def timeNormalPlaneMetric (θ : ℝ) :
   !![Real.cos (2 * θ), -Real.sin (2 * θ);
      -Real.sin (2 * θ), -Real.cos (2 * θ)]
 
+/-- Unit normal direction used by the 2D Householder representation. -/
+def timeNormalPlaneNormal (θ : ℝ) : Fin 2 → ℝ
+  | 0 => Real.sin θ
+  | 1 => Real.cos θ
+
+/-- Explicit outer-product form I - 2 n nᵀ in the chosen orthonormal basis. -/
+def timeNormalPlaneHouseholder (θ : ℝ) : Matrix (Fin 2) (Fin 2) ℝ :=
+  fun i j => (if i = j then 1 else 0) -
+    2 * timeNormalPlaneNormal θ i * timeNormalPlaneNormal θ j
+
+/-- The trigonometric matrix is exactly the Householder outer-product matrix. -/
+theorem timeNormalPlaneMetric_eq_householder (θ : ℝ) :
+    timeNormalPlaneMetric θ = timeNormalPlaneHouseholder θ := by
+  ext i j
+  fin_cases i <;> fin_cases j <;>
+    simp [timeNormalPlaneMetric, timeNormalPlaneHouseholder, timeNormalPlaneNormal,
+      Real.cos_two_mul, Real.sin_two_mul] <;>
+    nlinarith [Real.sin_sq_add_cos_sq θ]
+
 /-- The matrix is symmetric entry by entry. -/
 theorem timeNormalPlaneMetric_symmetric (θ : ℝ) :
     ∀ i j, timeNormalPlaneMetric θ i j = timeNormalPlaneMetric θ j i := by
@@ -59,22 +78,24 @@ def timeNormalInducedForm {E : Type*} [NormedAddCommGroup E] [InnerProductSpace 
 theorem timeNormalInducedForm_symmetric
     {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E] (u v w : E) :
     timeNormalInducedForm u v w = timeNormalInducedForm u w v := by
-  simp [timeNormalInducedForm, real_inner_comm, mul_comm, mul_left_comm, mul_assoc]
+  simp [timeNormalInducedForm, real_inner_comm, mul_comm, mul_left_comm]
 
 /-- A unit normal is the negative direction of the induced form. -/
 theorem timeNormalInducedForm_normal_negative
     {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E] {u : E}
     (hu : inner ℝ u u = 1) :
     timeNormalInducedForm u u u = -1 := by
-  simp [timeNormalInducedForm, hu]
+  have hnorm : ‖u‖ ^ 2 = 1 := by simpa using hu
+  simp [timeNormalInducedForm, hnorm]
 
 /-- Directions orthogonal to the unit normal retain the positive background form. -/
 theorem timeNormalInducedForm_spatial_positive
     {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E] {u v : E}
-    (hu : inner ℝ u u = 1) (hv : inner ℝ v u = 0) :
+    (hv : inner ℝ v u = 0) :
     timeNormalInducedForm u v v = inner ℝ v v := by
-  simp [timeNormalInducedForm, hv, real_inner_comm]
+  simp [timeNormalInducedForm, hv]
 
+#print axioms timeNormalPlaneMetric_eq_householder
 #print axioms timeNormalPlaneMetric_symmetric
 #print axioms timeNormalPlaneMetric_det
 #print axioms timeNormalPlaneMetric_involutive
