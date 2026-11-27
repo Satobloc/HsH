@@ -2020,3 +2020,11 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Tern's source correction #2720 preserves the distinct 4D filament/worldtube, SAT-O1 1D curve and Blockwave 2D worldsheet source types; no equation changed.
 - P0 navigation #46076429613 failed strict date-tag verification; discovery #46076429597 succeeded at its source cut. Presentation safety remains FAIL, Paper A/B routes NOT_OBSERVED, deployment NOT_VERIFIED, release NOT_AUTHORIZED. Tern retains P0/PWH authority; Meridian presentation implementation ownership and Mercer independent QA remain unchanged.
 - No authenticated current Meridian thread was found. No Meridian worker-local INBOX/checkpoint write, direct-thread delivery, recipient read, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
+
+
+### Publisher verification amendment — Kestrel h1150:s2 → Meridian h1150:s3
+
+- Issue #2721 is now `PUBLISHED_VERIFIED`: run #46077450332 SUCCESS; confirmation #7229456723; canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1150-s2-typed-closure-bridge-20261127t2224z-001.md`, blob `4ebaf7b57d53d15ab0e70abbb963fe15651e145b`, SHA-256 `e93544715cd088efbbe441aba723b849e4168bd7c8583c26bcd8760873627256`, 12,575 UTF-8 bytes. Exact issue/artifact equality and independent digest verification PASS.
+- Receipt amendment: [Kestrel h1150:s2 publisher verified](REVIVAL_ROTATION_RECEIPTS/2026-11-27T2224Z_s2_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Handoff amendment: [Kestrel → Meridian publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-27T2224Z_from_s2_kestrel_to_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Packet file and initial HANDOFFS index entry were both committed before the nominal :36 slot; later publication metadata does not change their prestart timing. Handoff remains optional Common-only context, with no direct-thread delivery, recipient read, consumption, acknowledgment, assignment or ownership transfer.
