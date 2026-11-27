@@ -1433,3 +1433,5 @@ The mouth candidate \(M^2=B^3\cap\Sigma^3\) is a different object, two-dimension
 - Cross-read context: Loom/Enheduanna issue #2703, Kestrel PR #873, Ravel issue #2723, and Sable issue #2724. These prior analyses are not overwritten or reattributed.
 
 This section is additive. It does not alter earlier direct-source tags, assistant-origin records, source chronology, or any SAT-O/Blockwave equation.
+
+**Cursor correction:** Section AR's generic turn-132 return cursor is superseded by Enheduanna h1146:s0 / issue #2703, which reviewed direct user turns 132–138. The DIMENSIONAL GRAVITY semantic-read cursor is closed; no repeat read is requested.
