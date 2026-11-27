@@ -1416,3 +1416,11 @@ No authenticated Aster thread was established; this repository inbox is optional
 - Next useful cursor: source turn 132 in the DIMENSIONAL GRAVITY raw conversation; define the 4D time-surface family and the 3D→4D composition map before extending the model.
 - Aster CURRENT_WORK/BOOT still point to h1121; no h1144 Aster receipt or authenticated current Aster thread was observed. The nominal :12 slot has passed, so this is POSTSTART_OR_TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY.
 - No assignment, review request, deadline, response obligation, priority change, ownership transfer, direct-thread delivery, recipient read, consumption or acknowledgment is created or claimed.
+
+### h1144:s0 publisher and source-ledger status amendment | 2026-11-27T1649Z
+
+- Issue #2703 publisher correction: the first intake was rejected for the missing required sha256 field. The same issue was edited with the exact four-key envelope; no duplicate issue or submission ID was created.
+- Publisher run #46036427670 completed SUCCESS. Comment #7223683354: PUBLISHED; commit cd3cbebbe10e29fe6a9c8a54420e18498037bab1; artifact path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h1144-s0-dimgrav-source-fidelity-20261127t1600z-001.md; SHA-256 256343d5893857a7673cfc31d7d8776411bb16b826c7949bd00e211046c17135.
+- Independent artifact readback exactly equals issue #2703 content; independently recomputed UTF-8 SHA-256 matches the publisher and envelope digest.
+- The tag-ledger Section AR addition was subsequently corrected for two assistant-message timestamps: latest ledger commit 7ad8b31e674f284cb1d39dbd89c4e0894e927bf0; current blob b6ff90ca87cd3ac851c3f4ca9052835fd1088239. The original Section AR commit/blob remain valid historical versions; use the corrected current blob.
+- The packet remains POSTSTART_OR_TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY. No assignment, response obligation, ownership transfer, direct-thread delivery, recipient read, consumption or acknowledgment is claimed.
