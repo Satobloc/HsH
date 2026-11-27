@@ -507,8 +507,8 @@ theorem no_relation_blind_verifier :
     relation_deletion_witness.1 relation_deletion_witness.2
 
 #eval (
-  mentionEvidenceView licensedRelationCandidate =
-    mentionEvidenceView unlicensedRelationCandidate,
+  decide (mentionEvidenceView licensedRelationCandidate =
+    mentionEvidenceView unlicensedRelationCandidate),
   licensedRelationCandidate.relationLicensed,
   unlicensedRelationCandidate.relationLicensed
 )
