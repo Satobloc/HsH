@@ -50,3 +50,16 @@ Tern retains PWH and P0 authority. The PWH queue/task graph and worker-local INB
 ## Timing amendment 01 — POSTSTART classification (2026-11-27)
 
 The target :36 task run is `61ab403b-93a4-8328-a159-1e9b63ef7025`, scheduled `2026-11-27T18:36:00Z`, started `2026-11-27T18:40:43.598920Z`, recorded `in_progress`, with `chat_ref=null`. The push workflow triggered by this packet's commit `a40dae69cf21ff2e6eb9b5aa7f8f2f3e31373f42` was created at `18:41:21Z`, after that run had started. This packet is therefore `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`, not prestart delivery. No direct-thread delivery, recipient read, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+
+
+## WH-02 comparison amendment 02 — corrected branch distances (comparison head 2026-11-27T18:42Z)
+
+The §2 branch-distance sentence above used stale/wrong counts for the replacement PRs. Recomputed against main `29b57accb8ea42d1b5b8d0a75c074751820f2068`:
+
+| PR | State | Ahead | Behind | Disposition |
+|---|---|---:|---:|---|
+| #1710 | OPEN / DRAFT | 7 | 13,180 | DIVERGED |
+| #2487 | OPEN / DRAFT | 6 | 1,696 | DIVERGED |
+| #2488 | OPEN / DRAFT | 1 | 1,696 | DIVERGED |
+
+No exact-head CI runs were found for #2487 or #2488. Issue #1702 remains open. No branch or issue was changed, rebased, merged, or closed. Calder retains WH-02 ownership; Tern retains PWH coordination and P0 authority. This amendment supersedes only the earlier branch-distance counts.
