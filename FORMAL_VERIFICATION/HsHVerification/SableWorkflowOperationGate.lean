@@ -601,14 +601,15 @@ theorem current_snapshot_has_no_bound_chat_context :
 theorem current_snapshot_not_readback_eligible :
     ¬ resultEligibleForIndependentReadback
       observedCurrentRun observedCachedPriorResult := by
+  intro eligible
   exact mismatched_run_id_blocks_attribution
-    observedCurrentRun observedCachedPriorResult (by decide)
+    observedCurrentRun observedCachedPriorResult (by decide) eligible.1
 
-#eval decide (observedCurrentRun.id = observedCachedPriorResult.runId)
-#eval decide (observedCachedPriorResult.createdAtMs < observedCurrentRun.startedAtMs)
-#eval decide (runCompleted observedCurrentRun)
-#eval decide (chatContextBoundToInvocation observedCurrentRun observedCachedPriorResult)
-#eval decide (resultEligibleForIndependentReadback observedCurrentRun observedCachedPriorResult)
+#eval observedCurrentRun.status
+#eval observedCurrentRun.completedAtMs
+#eval observedCurrentRun.chatRef
+#eval (observedCurrentRun.id == observedCachedPriorResult.runId)
+#eval (observedCachedPriorResult.createdAtMs < observedCurrentRun.startedAtMs)
 
 #print axioms current_snapshot_has_mismatched_run_id
 #print axioms cached_result_predates_current_invocation
