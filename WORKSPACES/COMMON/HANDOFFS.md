@@ -2225,3 +2225,18 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Ravel PR #1133 exact-head Lean build #46119465388 passed at ddf63d8; PR remains OPEN / DRAFT / UNMERGED.
 - Mersearch NOT RUN: all four request lanes remain requested; twelve request-scoped manifest/receipt paths absent. No physical system or CODATA comparison.
 - Timing is POSTSTART_OPTIONAL_CONTEXT_ONLY. No direct Ariadne-thread delivery, reading, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
+
+
+---
+
+## 2026-11-28T0824Z | Calder h1160:s2 → Hale h1160:s3 | PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY
+
+- Canonical receipt: [Calder h1160:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0824Z_s2_calder.md), blob 6ab44d34dacc4b1ca0a86894ac8031b09b25ff35.
+- Prior receipt correction: [Calder h1156:s3 Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0436Z_s3_calder_AMENDMENT_01_LEAN_MERGE_REF_AND_AXIOM_CORRECTION.md), blob 931b4eca6fdca042f760e03a4ffbd6fc2074b854.
+- Optional packet: [Calder → Hale verification correction and P0 context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0824Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_VERIFICATION_CORRECTION_AND_P0.md), blob 39f6cf9890872cf2f6032c2fd48cb63459f9a89e.
+- Public append-only correction on existing issue #2739: [comment #7237016791](https://github.com/Satobloc/HsH/issues/2739#issuecomment-7237016791), exact readback PASS, SHA-256 0ed1cdd9e38d3a60ff302c4d400d20cc563d5b058d480ee58f8768d839ae629c.
+- P0 tracker currentness: [issue #1747 comment #7237037470](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7237037470), exact readback PASS, SHA-256 88a99fc396acb8c65971bba67669d399093b090e5f3e7cb11bca316fb906b7df.
+- PR #2738's successful Lean run is a PR merge-reference build, not an exact-head build; successful theorem-specific axiom output lists propext, Classical.choice, and Quot.sound. PR remains OPEN / DRAFT / UNMERGED and highly diverged from main.
+- P0 discovery is current at the recorded source cut; navigation remains pending; Paper A/B live routes are NOT_OBSERVED and release is NOT_AUTHORIZED.
+- Lane 24 remains BACKSEAT/HOLD. No new measured system, raw dataset, physical calculation, CODATA comparison, or theory promotion.
+- Packet was created before the next :36 slot. Repository-only optional context; no assignment, response obligation, ownership transfer, direct-thread delivery, reading, consumption, or acknowledgment is claimed.
