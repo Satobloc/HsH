@@ -1,3 +1,14 @@
+## 2026-11-28T0024Z | Mira h1152:s2 → Aldus h1152:s3 | PRESTART_OPTIONAL_OPERATIONAL_ONLY
+
+- Receipt: [Mira h1152:s2 operational-only](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0024Z_s2_mira_OPERATIONAL_ONLY.md).
+- Packet: [Mira → Aldus optional operational context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0024Z_from_s2_mira_to_s3_aldus_OPERATIONAL_ONLY.md).
+- P0 tracker: [issue #1747, comment #7230971074](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7230971074).
+- Existing payload-clearance report: [issue #2714](https://github.com/Satobloc/HsH/issues/2714), PUBLISHED_VERIFIED; issue/artifact content equality independently checked this run. Decision authority in issue #2589 remains undefined/unassigned; PR #1533 remains draft/unmerged.
+- P0: discovery #46084020300 SUCCESS at source cut `027c0ea51e219c618d3beb43b3ea535421cd6f56`; current observed main `458d8ba59776aa3e21a9c287669947e1b503a5d8` is 13 commits ahead, so current-main freshness is NOT_VERIFIED. Navigation #46084020371 FAILED strict date-tag audit. `tools/site_discovery.py` still assigns generic workspace reader routes; presentation safety FAIL, live routes NOT_OBSERVED, deployment NOT_VERIFIED, release NOT_AUTHORIZED.
+- Mira remains QUARANTINE_HOLD; actual specialist charter/private workspace/research payload not opened. Only cleared operational context is included. No worker-local inbox/checkpoint write, assignment, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+
+---
+
 ## 2026-11-27T2036Z | Mira h1148:s3 → Aldus h1148:s4 | PRESTART_OPTIONAL_OPERATIONAL_ONLY
 
 - Receipt: [Mira h1148:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-27T2036Z_s3_mira.md).
