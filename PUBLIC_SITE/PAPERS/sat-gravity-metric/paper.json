@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "sat-gravity-metric",
+  "title": "SAT / H(s)H Source Equation Compendium — Gravity & Metric",
+  "authors": [
+    "Archive source compilation"
+  ],
+  "date": "2026-11-27",
+  "status": "historical source compilation; no theory promotion",
+  "preface": "This source packet transcribes equations and source-defined symbols from two June 2025 SAT-O records, O2 and O6. Source notation is retained. Definitions not supplied by the sources are identified as such; no correction or theory promotion is applied.",
+  "pdf": "PUBLIC_SITE/PAPERS/sat-gravity-metric/paper.pdf",
+  "source": "PUBLIC_SITE/PAPERS/sat-gravity-metric/source.tex",
+  "published": true,
+  "reader_id": "sat-gravity-metric"
+}

@@ -1,0 +1,159 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[margin=0.82in]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,longtable,tabularx,array}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.18}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\title{SAT / H(s)H Source Equation Compendium\\[3pt]\large Gravity and Metric}
+\author{Archive source compilation}
+\date{27 November 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section*{SAT.O2 --- Emergent Gravitational Action}
+
+\textbf{Source byline:} SATO.4D Coherence Project\\
+\textbf{Source date as printed:} June 2025\\
+\textbf{Archive path:} \texttt{EARLY LOGGED/2025-10-24\_12\%EF\%80\%A218\_SAT\_O2.tex}\\
+\textbf{Git blob:} \texttt{9e742f74ddd01032937dea3fadb7f74db5ff6541}\\
+\textbf{Source:} \url{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/EARLY%20LOGGED/2025-10-24_12%EF%80%A218_SAT_O2.tex}
+
+\subsection*{Source-defined symbols}
+\begin{longtable}{L{0.22\linewidth}L{0.72\linewidth}}
+\toprule
+\textbf{Symbol} & \textbf{Definition in source}\\
+\midrule
+\endhead
+$M$ & 4D manifold.\\
+$\gamma:\mathbb{R}\to M$ & 1D physical filament.\\
+$F(x)$ & Set of filaments intersecting point $x$.\\
+$\lambda$ & Affine parameter of a filament.\\
+$v^\mu(\lambda)$ & Tangent vector of filament $\gamma$ at affine parameter $\lambda$.\\
+$\Sigma_t$ & Resolving surface providing the time foliation field.\\
+$u^\mu(x)$ & Time foliation field supplied by $\Sigma_t$.\\
+$\widetilde g_{\mu\nu}(x)$ & Emergent co-metric defined by ensemble averaging of filament tangent vectors.\\
+$g^{\mu\nu}(x)$ & Inverse metric; the source states that it exists under statistical isotropy and sufficient density.\\
+$g_{\mu\nu}(x)$ & Defined in the source as $(\widetilde g_{\mu\nu}(x))^{-1}$.\\
+$\Gamma^\lambda_{\mu\nu}(x)$ & Levi-Civita connection.\\
+$R^\rho{}_{\sigma\mu\nu}(x)$ & Curvature tensor.\\
+$R_{\mu\nu}(x)$ & Ricci tensor.\\
+$R(x)$ & Ricci scalar.\\
+$E_{\mathrm{vib}}(x)$ & Vibrational energy density.\\
+$L_{\mathrm{link}}(x)$ & Topological linking density.\\
+$T_{\mu\nu}(x)$ & Stress-energy tensor defined by the source's ensemble average of $E_{\mathrm{vib}}$ and $L_{\mathrm{link}}$.\\
+$\kappa$ & Defined as $8\pi G/c^4$.\\
+$S_{\mu\nu}(x)$ & Strain tensor, defined as $\nabla_\mu u_\nu+\nabla_\nu u_\mu$.\\
+$\theta_4(x)$ & Mentioned as a diagnostic of local inertial deviation; no definition is supplied in this source.\\
+$G$, $c$ & Occur in the definition of $\kappa$; no definitions are supplied in this source.\\
+\bottomrule
+\end{longtable}
+
+\subsection*{Equations}
+\begin{equation*}
+ v^\mu(\lambda)=\frac{d\gamma^\mu}{d\lambda}
+\end{equation*}
+\begin{equation*}
+ \widetilde g_{\mu\nu}(x)=\left\langle v_\mu v_\nu\right\rangle_{F(x)}
+\end{equation*}
+\begin{equation*}
+ g_{\mu\nu}(x)=\left(\widetilde g_{\mu\nu}(x)\right)^{-1}
+\end{equation*}
+\begin{equation*}
+ \Gamma^\lambda_{\mu\nu}(x)=\frac{1}{2}g^{\lambda\rho}
+ \left(\partial_\mu g_{\rho\nu}+\partial_\nu g_{\rho\mu}-\partial_\rho g_{\mu\nu}\right)
+\end{equation*}
+\begin{equation*}
+ \nabla_\lambda g_{\mu\nu}=0
+\end{equation*}
+\begin{equation*}
+ R^\rho{}_{\sigma\mu\nu}(x)=\partial_\mu\Gamma^\rho_{\nu\sigma}
+ -\partial_\nu\Gamma^\rho_{\mu\sigma}
+ +\Gamma^\lambda_{\nu\sigma}\Gamma^\rho_{\mu\lambda}
+ -\Gamma^\lambda_{\mu\sigma}\Gamma^\rho_{\nu\lambda}
+\end{equation*}
+\begin{equation*}
+ R_{\mu\nu}(x)=R^\rho{}_{\mu\rho\nu},\qquad
+ R(x)=g^{\mu\nu}R_{\mu\nu}
+\end{equation*}
+\begin{equation*}
+ T_{\mu\nu}(x)=\left\langle E_{\mathrm{vib}}(x),L_{\mathrm{link}}(x)\right\rangle_{F(x)}
+\end{equation*}
+\begin{equation*}
+ \left\langle R_{\mu\nu}-\frac{1}{2}g_{\mu\nu}R\right\rangle_F
+ =\kappa\,T_{\mu\nu}(x)
+\end{equation*}
+\begin{equation*}
+ \kappa=\frac{8\pi G}{c^4}
+\end{equation*}
+\begin{equation*}
+ S_{\mu\nu}(x)=\nabla_\mu u_\nu+\nabla_\nu u_\mu
+\end{equation*}
+
+\clearpage
+\section*{SAT.O6 --- Unified Emergent Action: Gravity and Gauge Fields}
+
+\textbf{Source byline:} SATO.4D Coherence Project\\
+\textbf{Source date as printed:} June 2025\\
+\textbf{Archive path:} \texttt{EARLY LOGGED/2025-10-24\_12\%EF\%80\%A229\_SAT\_O6.tex}\\
+\textbf{Git blob:} \texttt{19fa30ed3c0d8a85b4729c98aa11b9f73984d0b0}\\
+\textbf{Source:} \url{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/EARLY%20LOGGED/2025-10-24_12%EF%80%A229_SAT_O6.tex}
+
+\subsection*{Source-defined symbols}
+\begin{longtable}{L{0.22\linewidth}L{0.72\linewidth}}
+\toprule
+\textbf{Symbol} & \textbf{Definition in source}\\
+\midrule
+\endhead
+$g_{\mu\nu}(x)$ & Emergent metric from filament tangent statistics.\\
+$R(x)$ & Ricci scalar from the emergent Levi-Civita connection.\\
+$F^{\mu\nu}_{(G)}$ & Emergent field strength for gauge group $G$ from linking structures.\\
+$G$ & Gauge-group index in the sum; the source lists $U(1)$, $SU(2)$ and $SU(3)$.\\
+$\ell_f$ & Filament transverse scale, defined as $(2A/T)^{1/3}$.\\
+$S_{\mathrm{unified}}$ & Unified action.\\
+$\kappa$ & Defined as $8\pi G/c^4$.\\
+$\Lambda(x)$ & Local cosmological energy from filament configuration.\\
+$g_G$ & Gauge coupling for group $G$.\\
+$\rho_{U(1)}$ & Winding density, $\rho_{\mathrm{wind}}$.\\
+$\rho_{SU(2)}$ & Linking density, $\rho_{\mathrm{link}}$.\\
+$\rho_{SU(3)}$ & Triplet density, $\rho_{\mathrm{triplet}}$.\\
+$A$, $T$ & Occur in the definition of $\ell_f$; their individual symbol definitions are not supplied in this source.\\
+$\operatorname{Tr}$ & Occurs in the gauge term; no definition is supplied in this source.\\
+$g$ in $\sqrt{-g}$ & No separate determinant definition is supplied in this source.\\
+\bottomrule
+\end{longtable}
+
+\subsection*{Equations}
+\begin{equation*}
+ S_{\text{unified}}=\int d^4x\,\sqrt{-g(x)}\left[
+ \frac{1}{2\kappa}R(x)
+ +\sum_G\frac{1}{4g_G^2}\operatorname{Tr}\left(F^{\mu\nu}_{(G)}F_{\mu\nu}^{(G)}\right)
+ +\Lambda(x)\right]
+\end{equation*}
+\begin{equation*}
+ \kappa=\frac{8\pi G}{c^4},\qquad
+ \Lambda(x)=\text{local cosmological energy from filament configuration}
+\end{equation*}
+\begin{equation*}
+ g_G^{-2}(x)\sim\rho_G(x)\cdot\ell_f^2
+\end{equation*}
+\begin{equation*}
+ \ell_f=\left(\frac{2A}{T}\right)^{1/3}
+\end{equation*}
+\begin{equation*}
+ \rho_{U(1)}=\rho_{\mathrm{wind}},\qquad
+ \rho_{SU(2)}=\rho_{\mathrm{link}},\qquad
+ \rho_{SU(3)}=\rho_{\mathrm{triplet}}
+\end{equation*}
+
+\end{document}
