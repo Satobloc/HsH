@@ -87,6 +87,45 @@ theorem quotientEquivChosenSector_apply_mk
     (Submodule.quotientEquivOfIsCompl_apply_mk_right
       (containedCoreSectorIsCompl L U W hLU hLW) x)
 
+/-- Under the one-dimensional-core / three-dimensional-timesheet
+assumptions, the quotient U/L is two-dimensional without choosing an
+ambient complement. -/
+theorem quotientFinrankTwo
+    [FiniteDimensional K V]
+    (L U : Submodule K V)
+    (hLU : L ≤ U)
+    (hL : finrank K L = 1)
+    (hU : finrank K U = 3) :
+    finrank K (U ⧸ corePart L U) = 2 := by
+  letI : FiniteDimensional K U :=
+    Submodule.finiteDimensional_of_le (le_top : U ≤ ⊤)
+  have hcore : finrank K (corePart L U) = 1 := by
+    change finrank K (L.comap U.subtype) = 1
+    rw [LinearEquiv.finrank_eq (Submodule.comapSubtypeEquivOfLe hLU)]
+    exact hL
+  have hsum :=
+    Submodule.finrank_quotient_add_finrank (corePart L U)
+  omega
+
+/-- Any selected complement representative has the same two-dimensional
+rank as the canonical quotient. The representative depends on W; the
+quotient rank does not. -/
+theorem chosenSectorFinrankTwo
+    [FiniteDimensional K V]
+    (L U W : Submodule K V)
+    (hLU : L ≤ U)
+    (hLW : IsCompl L W)
+    (hL : finrank K L = 1)
+    (hU : finrank K U = 3) :
+    finrank K (chosenSector U W) = 2 := by
+  letI : FiniteDimensional K U :=
+    Submodule.finiteDimensional_of_le (le_top : U ≤ ⊤)
+  calc
+    finrank K (chosenSector U W) =
+        finrank K (U ⧸ corePart L U) :=
+      (quotientEquivChosenSector L U W hLU hLW).finrank_eq.symm
+    _ = 2 := quotientFinrankTwo L U hLU hL hU
+
 #print axioms containedCoreSectorIsCompl
 #print axioms quotientEquivChosenSector_apply_mk
 
