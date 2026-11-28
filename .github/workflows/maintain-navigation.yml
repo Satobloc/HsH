@@ -11,6 +11,7 @@ on:
       - "indexes/LIVE_CONVERSATION_CHRONOLOGY.md"
       - "indexes/manifests/**"
       - "indexes/autotag/**"
+      - "PUBLIC_SITE/**"
       - "CONVERSATION_VIEWER/data/conversations.json"
       - "CONVERSATION_VIEWER/data/curated/**"
 
