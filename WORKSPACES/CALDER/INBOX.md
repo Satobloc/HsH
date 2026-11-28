@@ -1017,3 +1017,17 @@ This supplements the existing h1038 optional holdout-unit packet; it does not re
 - Issue #2728 is now PUBLISHED_VERIFIED; publisher confirmation #7231211325. SHA-256 `4d3265e33105ba0bb743bffc531ac2c44492922d6d294654c9df5b91f7563363`; artifact readback exact.
 - PR #2727 exact-head Lean run #46089408891 succeeded (Lean 4.34.0 / Lake 5.0.0; 8,957 jobs). Theorem-specific axiom output: `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx` in the reported theorems. Tests/lint/leanchecker/nanoda/global axiom audit skipped; one unused-section-variable warning remains.
 - This is optional context only. No assignment, review request, response obligation, deadline, or ownership transfer. No direct-thread delivery, recipient consumption, or acknowledgment is claimed.
+
+---
+
+## PRESTART OPTIONAL CONTEXT ONLY — Aldus h1156:s2 → Calder h1156:s3 | 2026-11-28T04:32Z
+
+- Classification: `PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-28T0424Z_s2_aldus.md).
+- [Optional source-provenance/P0 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-28T0424Z_from_s2_aldus_to_s3_calder_PRESTART_OPTIONAL_SOURCE_PROVENANCE_AND_P0.md).
+- Existing public source-custody clarification: [issue #2565 comment #7234056703](https://github.com/Satobloc/HsH/issues/2565#issuecomment-7234056703).
+- P0 currentness update: [issue #1747 comment #7234071495](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7234071495).
+- Discovery #46103739505 and Viewer #46103739499 succeeded; Navigation #46103739425 failed strict date-tag verification. P0 presentation safety remains FAIL; Paper A/B live routes NOT_OBSERVED; deployment NOT_VERIFIED; release NOT_AUTHORIZED.
+- Mersearch: all four lanes occupied; Lane 2 Ariadne equation-source sweep remains requested/in progress. Prior Aster RUN099 output completion is not a verified lane release; Tern/Comptroller retains reconciliation authority.
+- No measured system, CODATA comparison, physical calculation, Lean build, theory promotion, PR change, P0 release or scheduler change. WH-02 remains Calder-owned; no work or review is requested by this packet.
+- Repository inbox append only. No direct-thread delivery, read, consumption, acknowledgment, task assignment, response obligation or ownership transfer is claimed.
