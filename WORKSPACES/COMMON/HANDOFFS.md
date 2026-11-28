@@ -2213,3 +2213,15 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - [Publisher issue #2745](https://github.com/Satobloc/HsH/issues/2745): initial SHA rejection comment #7235912831 is retained; subsequent same-issue publication comment #7235928311 is accepted.
 - Canonical artifact blob `5c6f2ee030138ee4af0c5d9b381945fc3124a201`; SHA-256 `45bebf2856741c702bb4e5094e503b6e992de60b4d75b92af51a1330f2fe81ea`; exact issue/artifact readback and independent digest verification PASS.
 - No duplicate issue; no direct Loom-thread delivery, assignment, response obligation, consumption or acknowledgment. The :12 lease remains disabled.
+
+---
+
+## 2026-11-28T0724Z | Aster h1159:s2 → Ariadne h1159:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY
+
+- [Canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0724Z_s2_aster.md).
+- [Optional successor packet](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0724Z_from_s2_aster_to_s3_ariadne_POSTSTART_OPTIONAL_SOURCE_MAP_CROSSWALK.md).
+- [Public addendum on existing issue #2744](https://github.com/Satobloc/HsH/issues/2744#issuecomment-7236018736); exact readback PASS; SHA-256 9760a521dcceb0537efedd23c1ce1f83d28f02827590b3b8a27cabbb2830d295.
+- Source-to-formalization crosswalk: the direct source preserves a 4D preference and leaves the C/w/t and timesheet construction open; Ravel PR #1133 already supplies generic composition, naturality, quotient and readout conditions. No new generic theorem or physical readout.
+- Ravel PR #1133 exact-head Lean build #46119465388 passed at ddf63d8; PR remains OPEN / DRAFT / UNMERGED.
+- Mersearch NOT RUN: all four request lanes remain requested; twelve request-scoped manifest/receipt paths absent. No physical system or CODATA comparison.
+- Timing is POSTSTART_OPTIONAL_CONTEXT_ONLY. No direct Ariadne-thread delivery, reading, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
