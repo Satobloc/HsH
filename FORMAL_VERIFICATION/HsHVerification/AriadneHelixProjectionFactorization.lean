@@ -157,6 +157,42 @@ theorem readout_factors_through_slice_resolved_observation
   dsimp [decode, sliceResolvedObservation]
   rw [hphase]
 
+/-- The 2026 assistant's x-parameterized ideal helix. This is an assistant
+    reconstruction, not a Nathan Direct equation. -/
+def assistantHelix (radius frequency axial : ℝ) : ℝ × (ℝ × ℝ) :=
+  (axial, (radius * Real.cos (frequency * axial),
+           radius * Real.sin (frequency * axial)))
+
+/-- Reorder a phase/pitch observation into the axial-first coordinates used
+    by the 2026 assistant reconstruction. -/
+def axialFirstObservation (observation : (ℝ × ℝ) × ℝ) :
+    ℝ × (ℝ × ℝ) :=
+  (observation.2, observation.1)
+
+/-- The 2026 assistant's x-parameterized helix is a reparameterization of the
+    phase/pitch helix above, after moving the axial coordinate to the first
+    slot. Conditions: pitch ≠ 0, frequency = 2π/pitch, and
+    axial = pitch*phase/(2π).
+
+    This is only a coordinate equivalence between two assistant-generated
+    ideal 3D curves. It does not identify x or phase with the direct source's
+    fourth spatial coordinate w or proper time t, and it does not construct
+    the direct 4D tube region, its core, or its boundary. -/
+theorem assistantHelix_reparam_equiv
+    (r pitch phase : ℝ) (hpitch : pitch ≠ 0) :
+    assistantHelix r (2 * Real.pi / pitch)
+      (axialSliceCoordinate pitch phase) =
+      axialFirstObservation (sliceResolvedObservation r pitch phase) := by
+  have h2pi : 2 * Real.pi ≠ 0 := by positivity
+  have hphase :
+      (2 * Real.pi / pitch) *
+        axialSliceCoordinate pitch phase = phase := by
+    unfold axialSliceCoordinate
+    field_simp [hpitch, h2pi]
+  simp [assistantHelix, axialFirstObservation,
+    sliceResolvedObservation, crossSectionPoint, hphase]
+
+
 #print axioms crossSectionPoint_turn_periodic
 #print axioms axialSliceCoordinate_turn_increment
 #print axioms axialSliceCoordinate_turn_changes
