@@ -1,6 +1,6 @@
 # Visual archaeology — thumbnail review
 
-**Run 271 · 2026-11-28T04:59:09.405566+00:00**  
+**Run 272 · 2026-11-28T14:33:00.284275+00:00**  
 **Classifier set:** 26 images · **broad review-only sample:** 96 additional repo images.
 
 The left column is the object; the right column is the compact inspection record. Machine confidence and repeated pseudo-label stability are not empirical accuracy. The broad sample is deliberately review-only and cannot update validation merely by appearing here.
