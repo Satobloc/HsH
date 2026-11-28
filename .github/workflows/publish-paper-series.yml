@@ -7,6 +7,7 @@ on:
       - 'PUBLIC_SITE/PAPERS/**'
       - 'SAT_VISUALS/**'
       - 'tools/publish_papers.py'
+      - 'tools/compile_paper_tex.py'
       - '.github/workflows/publish-paper-series.yml'
   schedule:
     - cron: '7 * * * *'
@@ -18,12 +19,17 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
+      - name: Install LaTeX toolchain
+        if: github.event_name != 'schedule'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -34,10 +40,13 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           for attempt in 1 2 3; do
             git pull --ff-only origin main
+            if [ "$GITHUB_EVENT_NAME" != "schedule" ]; then
+              python tools/compile_paper_tex.py
+            fi
             python tools/publish_papers.py
-            git add PUBLIC_SITE/generated/papers.json
+            git add PUBLIC_SITE/PAPERS/ PUBLIC_SITE/generated/papers.json
             if git diff --cached --quiet; then exit 0; fi
-            git commit -m 'Publish paper and ordered addendum index'
+            git commit -m 'Publish compiled LaTeX papers and ordered index [skip ci]'
             if git push origin HEAD:main; then exit 0; fi
             git fetch origin main
             git reset --hard origin/main

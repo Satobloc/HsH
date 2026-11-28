@@ -36,3 +36,8 @@ Typeset the paper/addendum before publication, preferably with LaTeX/RevTeX for 
 The indexer **does not convert raw Markdown/TeX into a polished PDF** and will not publish those as substitutes. Do not claim visual review, calculation, external review or publication you have not performed. Source files can accompany the PDF for provenance; normal site links go through the reader. Only explicit Raw PDF buttons open original bytes.
 
 Local check before committing: `python tools/publish_papers.py --check`. Publication command: `python tools/publish_papers.py`. Never hand-edit the generated index.
+
+
+## LaTeX source packets
+
+Published packets with a sibling `source.tex` are compiled by the paper-series workflow with pdfLaTeX on push or manual dispatch before PDF validation and indexing. The hourly schedule validates and reindexes existing compiled PDFs; it does not reinstall or run the TeX toolchain.
