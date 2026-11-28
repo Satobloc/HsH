@@ -72,7 +72,7 @@ theorem same_published_key_does_not_imply_event_head_binding :
     ⟨⟨⟨0, 0⟩, 1, 1, 1, 2, 2, true⟩,
      ⟨⟨0, 0⟩, 1, 2, 2, 3, 3, true⟩,
      rfl, rfl, ?_⟩
-  decide
+  simp [eventHeadPinned]
 
 /--
 Source-cut binding alone does not establish that the generated artifact is
@@ -83,7 +83,7 @@ theorem source_cut_binding_does_not_imply_current_at_readback :
       generatedDirectChild w ∧
       ¬ currentAtReadback w := by
   refine ⟨⟨⟨0, 0⟩, 1, 1, 1, 2, 3, true⟩, rfl, ?_⟩
-  decide
+  simp [currentAtReadback]
 
 /--
 A generated artifact can be the current branch head while its source checkout
@@ -95,6 +95,11 @@ theorem current_at_readback_does_not_imply_event_head_binding :
       generatedDirectChild w ∧
       ¬ eventHeadPinned w := by
   refine ⟨⟨⟨0, 0⟩, 1, 2, 2, 3, 3, true⟩, rfl, rfl, ?_⟩
-  decide
+  simp [eventHeadPinned]
+
+#print axioms safe_publication_binds_generated_parent_to_event_head
+#print axioms same_published_key_does_not_imply_event_head_binding
+#print axioms source_cut_binding_does_not_imply_current_at_readback
+#print axioms current_at_readback_does_not_imply_event_head_binding
 
 end HsHVerification.DiscoveryEventCheckout
