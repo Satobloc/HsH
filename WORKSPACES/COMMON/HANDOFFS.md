@@ -1,3 +1,12 @@
+### 2026-11-28T0624Z | Mercer h1158:s2 successor timing amendment
+
+- Receipt amendment: [Mercer h1158:s2 Amendment 02 — prestart timing](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0624Z_s2_mercer_AMENDMENT_02_PRESTART_TIMING_VERIFIED.md).
+- Handoff amendment: [Mercer → Ravel Amendment 02 — prestart timing](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0624Z_from_s2_mercer_to_s3_ravel_AMENDMENT_02_PRESTART_TIMING_VERIFIED.md).
+- Original Ravel packet commit `3f35d8999981a1a5c0d1e1f35f00e65000eadf6d` at 06:39:01Z and initial index commit `542564ae453673227e8b78b220e082e947046718` at 06:39:11Z both preceded the observed Ravel h1158:s3 task start `02fc4b01-a800-8320-b56c-d123c52ea50d` at 06:40:28.729758Z. The original packet is therefore PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- Publisher-verification amendments and their later index update were POSTSTART_OPTIONAL_AMENDMENTS. No direct Ravel-thread delivery, automatic initial-context inclusion, reading, consumption, acknowledgment, comprehension, assignment or ownership transfer is claimed.
+
+---
+
 ### 2026-11-28T0624Z | Mercer h1158:s2 publisher verification amendment
 
 - Receipt amendment: [Mercer h1158:s2 Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0624Z_s2_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md).
