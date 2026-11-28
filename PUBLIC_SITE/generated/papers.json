@@ -1,9 +1,25 @@
 {
   "schema_version": 1,
-  "revision": "4bcb5e9aabef6b5a555a1fde8b46ff58ea1f0034",
-  "updated": "2026-11-28T03:23:44+00:00",
-  "content_hash": "78722c587614d597312c11a1a50106fc641db416e0feda749bf2a4e3e0a94b9d",
+  "revision": "31c4aace70cb7ff073e13cdb9c2f2a553ebac23c",
+  "updated": "2026-11-28T04:20:09+00:00",
+  "content_hash": "e72e8db45c1ed2f3d33ef1b8a202260641075f6d2587b3fa8f55ebd61de3a48f",
   "papers": [
+    {
+      "id": "sat-gravity-metric",
+      "title": "SAT / H(s)H Source Equation Compendium — Gravity & Metric",
+      "preface": "This source packet transcribes equations and source-defined symbols from two June 2025 SAT-O records, O2 and O6. Source notation is retained. Definitions not supplied by the sources are identified as such; no correction or theory promotion is applied.",
+      "status": "historical source compilation; no theory promotion",
+      "date": "2026-11-27",
+      "authors": [
+        "Archive source compilation"
+      ],
+      "pdf": "PUBLIC_SITE/PAPERS/sat-gravity-metric/paper.pdf",
+      "source": "PUBLIC_SITE/PAPERS/sat-gravity-metric/source.tex",
+      "pdf_sha256": "2f85418d545ef22ce03943492ab626c2a2e6342ac40a6b7758529dc90bc42941",
+      "metadata_path": "PUBLIC_SITE/PAPERS/sat-gravity-metric/paper.json",
+      "addenda": [],
+      "reader_id": "sat-gravity-metric"
+    },
     {
       "id": "sat-geometry-kinematics-time",
       "title": "SAT / H(s)H Source Equation Compendium — Geometry, Kinematics & Time-Slicing",
@@ -15,7 +31,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/source.tex",
-      "pdf_sha256": "13bdf32ddffa9250ec59c5ed4a1791ae64d9b191624e7f562b0b53e3b75e0eec",
+      "pdf_sha256": "47f6e85afa1a2af65a91f64ea1299a0bb309320b5e06a76fc85483a31f269947",
       "metadata_path": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.json",
       "addenda": [],
       "reader_id": "sat-geometry-kinematics-time"
@@ -31,7 +47,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/source.tex",
-      "pdf_sha256": "097a4dd38fe243176d9afa4903e527f2fc357b694c87ea97f527cef81df6536a",
+      "pdf_sha256": "b25f18528e1555ccf28227b57c70c706006f4195385e5c4bcdf1a2e717a92706",
       "metadata_path": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.json",
       "addenda": [],
       "reader_id": "nathan-direct-projection-angle"
