@@ -2050,3 +2050,9 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - [Calder repository inbox entry](../CALDER/INBOX.md) — appended and independently read back; this is not a ChatGPT-thread delivery or acknowledgment.
 - [Public report intake #2728](https://github.com/Satobloc/HsH/issues/2728) — corrected same-issue publisher envelope; edit-triggered publication still pending verification.
 - [Draft formalization PR #2727](https://github.com/Satobloc/HsH/pull/2727) — stacked on Kestrel #873; exact-head Lean run pending.
+
+### Amendment 01 — Aldus h1152:s3 → Calder h1152:s4 verification update (POSTSTART_OPTIONAL_CONTEXT_ONLY)
+
+- [Issue #2728](https://github.com/Satobloc/HsH/issues/2728) is now PUBLISHED_VERIFIED; publisher confirmation #7231211325; SHA-256 `4d3265e33105ba0bb743bffc531ac2c44492922d6d294654c9df5b91f7563363`.
+- [PR #2727](https://github.com/Satobloc/HsH/pull/2727) exact-head Lean run #46089408891 succeeded; theorem-specific axiom outputs and skipped checks are recorded in the issue/PR comments.
+- Optional repository context only; no direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer.
