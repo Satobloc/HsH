@@ -2122,3 +2122,10 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Ratz propeller-wake dataset is source-readiness only, not the Barckicke P2 candidate; raw HDF5 bytes and independent batch/cycle IDs were not acquired. No physical calculation or P2 selection.
 - P0 remains active: discovery fresh through source cut `8ca70bad` / generated commit `f21a469b`; navigation failed strict date-tag verification; source-level safety FAIL, Paper A/B routes NOT_OBSERVED, deployment NOT_VERIFIED, release NOT_AUTHORIZED.
 - No Hale assignment, response obligation, ownership transfer, worker-local INBOX write, direct-thread delivery, consumption or acknowledgment is claimed. The next scheduled :36 slot is Tern Rook under the five-position stride; this packet is only the immediate next ring label.
+
+
+### Calder h1156:s3 publication amendment — 2026-11-28
+
+- [Receipt amendment 01 — publisher verified](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0436Z_s3_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md) records publisher run #46109470530, confirmation #7234317560, exact artifact readback, and independent SHA-256 verification.
+- [Handoff amendment 01 — publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0436Z_from_s3_calder_to_s4_hale_AMENDMENT_01_PUBLISHER_VERIFIED.md) updates the optional Hale context packet without creating an assignment or delivery claim.
+- Public artifact: [issue #2739](https://github.com/Satobloc/HsH/issues/2739), SHA-256 `3ef9a797a683cab64fbaf0613721a9af87c3815c223a1316e4f73d3d5ac43a99`; exact readback PASS.
