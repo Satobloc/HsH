@@ -31,6 +31,7 @@ jobs:
             /PUBLIC_SITE/generated/
             /PUBLIC_SITE/PAPERS_FEED.json
             /SAT_VISUALS/
+            /WORKSPACES/PAPERS/
             /tools/compile_paper_tex.py
             /tools/publish_papers.py
           sparse-checkout-cone-mode: false
