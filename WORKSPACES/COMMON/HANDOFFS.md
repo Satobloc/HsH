@@ -1,3 +1,14 @@
+## 2026-11-28T0624Z | Mercer h1158:s2 → Ravel h1158:s3 | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
+
+- Canonical receipt: [Mercer h1158:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0624Z_s2_mercer.md), run `efcc3445-d0b8-832c-a407-000520b7f548`, last observed IN_PROGRESS with `chat_ref=null`.
+- Optional Common packet: [Mercer → Ravel P0 currentness context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0624Z_from_s2_mercer_to_s3_ravel_TIMING_UNVERIFIED_OPTIONAL_P0_CURRENTNESS.md).
+- Public currentness intake: [issue #2743](https://github.com/Satobloc/HsH/issues/2743), submission `mercer-h1158-s2-p0-currentness-source-pins-20261128t0624z-001`; expected artifact SHA-256 `a713049aac6def05784548c9b18ff1037539dbe37a6d839e0da7f453aeddb99b`; publisher/artifact readback pending at index time. Do not duplicate.
+- P0 tracker update: [issue #1747 comment #7235420180](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7235420180). Current main `09bc64ad`; A/B source pins exact; PDF-series index has eight entries and excludes A/B; discovery payload unreadable through connector; source-level safety FAIL; live routes NOT_OBSERVED; deployment NOT_VERIFIED; release NOT_AUTHORIZED.
+- PR #2009 remains OPEN / DRAFT / UNMERGED, 14 ahead / 1,618 behind main; no exact-head Actions runs; existing thumbnail-identity and cleanup-preflight gaps remain.
+- No Ravel assignment, response obligation, deadline, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed. Preserve Ravel's finite-core/worldtube remit; Tern retains P0 authority; Meridian implementation; Mercer independent A/B QA.
+
+---
+
 ## 2026-11-28T0424Z | Aldus h1156:s2 → Calder h1156:s3 | PRESTART_OPTIONAL_CONTEXT_ONLY
 
 - Receipt: [Aldus h1156:s2 source-provenance/P0 receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0424Z_s2_aldus.md).
