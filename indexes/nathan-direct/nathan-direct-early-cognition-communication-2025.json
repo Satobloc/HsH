@@ -75,7 +75,7 @@
         "information",
         "communication"
       ],
-      "text_verbatim": "I think signals encompass all of the operations of the universe, ultimately "
+      "text_verbatim": "I think signals encompass all of the operations of the universe, ultimately \n"
     },
     {
       "source_id": "S1",
@@ -135,7 +135,7 @@
         "network",
         "communication"
       ],
-      "text_verbatim": "What does a signal traveling across that network look like "
+      "text_verbatim": "What does a signal traveling across that network look like \n"
     },
     {
       "source_id": "S1",
@@ -154,7 +154,7 @@
         "signal_propagation",
         "particle_view"
       ],
-      "text_verbatim": "And in the particle view?"
+      "text_verbatim": "And in the particle view?\n"
     },
     {
       "source_id": "S1",
@@ -308,5 +308,7 @@
     "lean_status": "LEAN_NOT_RUN",
     "reason": "The excerpts describe filament/particle correspondence, phase modulation, resonance, signal propagation, integration, and cognition/communication chains, but do not define a metric, filament parameterization, signal operator, particle-state map, or operational cognitive-state variables. A faithful formalization is blocked on source definitions; no mathematical structure is invented here."
   },
-  "attribution_boundary": "The source exports contain additional user-role records that include copied or model-generated material. Only the selected direct turns are included; the first record is explicitly a user-authored prompt to NotebookLM and is not treated as a settled proposition."
+  "attribution_boundary": "The source exports contain additional user-role records that include copied or model-generated material. Only the selected direct turns are included; the first record is explicitly a user-authored prompt to NotebookLM and is not treated as a settled proposition.",
+  "exact_source_text_verified": true,
+  "source_verification": "All 13 message IDs, user roles, timestamps, and text fields were checked against the original raw conversation blobs identified by Git blob SHA."
 }
