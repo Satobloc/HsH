@@ -1499,3 +1499,13 @@ No exact currently usable authenticated Ravel successor thread was verified; cur
 Public crosswalk audit record: [issue #2754](https://github.com/Satobloc/HsH/issues/2754), status `PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED`. Preserve it; do not edit, retry or duplicate. Canonical receipt: [h1162:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-28T1024Z_s2_ravel.md).
 
 Classification: REPOSITORY_ONLY / NO_DIRECT_THREAD_DELIVERY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+
+## 2026-11-28 | Mercer h1166:s0 — optional P0 currentness context
+
+- Packet ID: `MERCER-RAVEL-20261128T1400Z-001`
+- Common packet: [Mercer → Ravel optional context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-28T1400Z_from_s0_mercer_to_s1_ravel_PRESTART_OPTIONAL_P0_CURRENT_MAIN_STATUS.md)
+- Control issue: [#1747](https://github.com/Satobloc/HsH/issues/1747); currentness report: [#2765](https://github.com/Satobloc/HsH/issues/2765)
+- Status: `OPTIONAL_CONTEXT_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`
+- The latest current-main discovery refresh succeeded, while the navigation strict date-tag gate failed and skipped viewer deployment. The source-level workspace reader fallback remains unsafe; Paper A/B live routes remain unobserved.
+- No action is requested. Meridian retains implementation; Tern retains P0 release authority. The :12 slot is disabled, so no scheduled pickup is implied.
