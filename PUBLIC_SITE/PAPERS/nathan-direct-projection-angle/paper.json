@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "nathan-direct-projection-angle",
+  "title": "Nathan Direct — Projection Angle and 0.239 rad",
+  "authors": [
+    "Archive source compilation"
+  ],
+  "date": "2026-11-27",
+  "status": "historical source compilation; direct user-role excerpts; no theory promotion",
+  "preface": "Ten verbatim direct user-role messages from two archived conversations, dated 25–28 February 2026. UTC timestamps and source message identifiers are supplied. Embedded model-generated material is excluded where the archived user-role record contains pasted output.",
+  "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.pdf",
+  "source": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/source.tex",
+  "published": true,
+  "reader_id": "nathan-direct-projection-angle"
+}
