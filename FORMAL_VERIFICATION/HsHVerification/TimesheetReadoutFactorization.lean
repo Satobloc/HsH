@@ -49,24 +49,27 @@ theorem quotient_readout_split_independent
     (h₁ : L.mkQ.comp s₁ = LinearMap.id)
     (h₂ : L.mkQ.comp s₂ = LinearMap.id) :
     F.comp s₁ = F.comp s₂ := by
-  ext q
-  have h₁q : L.mkQ (s₁ q) = q := by
-    have h := congrArg (fun f : (U ⧸ L) →ₗ[K] (U ⧸ L) => f q) h₁
+  apply LinearMap.ext
+  intro q
+  refine Submodule.Quotient.induction_on L q ?_
+  intro x
+  have h₁q : L.mkQ (s₁ (L.mkQ x)) = L.mkQ x := by
+    have h := congrArg (fun f : (U ⧸ L) →ₗ[K] (U ⧸ L) => f (L.mkQ x)) h₁
     simpa using h
-  have h₂q : L.mkQ (s₂ q) = q := by
-    have h := congrArg (fun f : (U ⧸ L) →ₗ[K] (U ⧸ L) => f q) h₂
+  have h₂q : L.mkQ (s₂ (L.mkQ x)) = L.mkQ x := by
+    have h := congrArg (fun f : (U ⧸ L) →ₗ[K] (U ⧸ L) => f (L.mkQ x)) h₂
     simpa using h
-  have hF₁ : G (L.mkQ (s₁ q)) = F (s₁ q) := by
-    have h := congrArg (fun f : U →ₗ[K] Y => f (s₁ q)) hF
+  have hF₁ : G (L.mkQ (s₁ (L.mkQ x))) = F (s₁ (L.mkQ x)) := by
+    have h := congrArg (fun f : U →ₗ[K] Y => f (s₁ (L.mkQ x))) hF
     simpa using h
-  have hF₂ : G (L.mkQ (s₂ q)) = F (s₂ q) := by
-    have h := congrArg (fun f : U →ₗ[K] Y => f (s₂ q)) hF
+  have hF₂ : G (L.mkQ (s₂ (L.mkQ x))) = F (s₂ (L.mkQ x)) := by
+    have h := congrArg (fun f : U →ₗ[K] Y => f (s₂ (L.mkQ x))) hF
     simpa using h
   calc
-    F (s₁ q) = G (L.mkQ (s₁ q)) := hF₁.symm
-    _ = G q := by rw [h₁q]
-    _ = G (L.mkQ (s₂ q)) := by rw [h₂q]
-    _ = F (s₂ q) := hF₂
+    F (s₁ (L.mkQ x)) = G (L.mkQ (s₁ (L.mkQ x))) := hF₁.symm
+    _ = G (L.mkQ x) := by rw [h₁q]
+    _ = G (L.mkQ (s₂ (L.mkQ x))) := by rw [h₂q]
+    _ = F (s₂ (L.mkQ x)) := hF₂
 
 #print axioms readout_factors_through_quotient_iff
 #print axioms quotient_readout_split_independent
