@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-27",
+  "snapshot_date": "2026-11-28",
   "status": "site-facing derivative; linked controlling sources govern",
   "headline": "SAT / H(s)H Source Compendium",
-  "summary": "The first verified sector tranche comprises 24 source equation occurrences across three source documents. The Geometry, Kinematics & Time-Slicing LaTeX source has been compiled and every page visually inspected; public publisher verification is pending. The previous 69-occurrence compressed seed and staged packet tarball were malformed and are being replaced. Archive coverage remains incomplete; inclusion does not promote a theory claim.",
+  "summary": "The first source-equation sector packet, Geometry, Kinematics & Time-Slicing, contains 24 equation occurrences across three source documents. Its LaTeX source and PDF are compiled and the PDF is now included in the generated public papers index. A separate Nathan Direct projection-angle seed contains ten verbatim direct user-role messages from two archived conversations; its four-page PDF is also compiled and indexed. A private machine seed is present with a README reporting 69 equation occurrences, 15 source documents and six sector-document mappings; gzip/JSON integrity validation is in progress. The archive sweep has identified a June 2025 SAT4D live draft with 40 explicit equation environments, plus separate SAT-O8 and O8-audit variants for further sector compilation. Coverage remains incomplete; equation inclusion does not promote a theory claim or imply physical validation.",
   "controlling_sources": [
     {
       "path": "BEDROCK.md",
@@ -27,15 +27,15 @@
       "order": "P0",
       "title": "SAT / H(s)H equation compendium",
       "audience_summary": "Consolidate SAT-O-era equations and historical variants into one machine-readable source register and sector PDFs; expand backward and forward through the archive.",
-      "status": "active — first verified sector tranche (24 equation occurrences, 3 sources) compiled and visually checked locally; publisher verification pending; archive expansion ongoing",
+      "status": "active — 24 source equation occurrences across three documents are compiled and indexed in the Geometry, Kinematics & Time-Slicing PDF; private machine seed reports 69 occurrences across 15 sources and six sector mappings, with integrity validation in progress; next source candidates include the June 2025 SAT4D live draft and distinct O8 variants.",
       "source": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.json"
     },
     {
       "order": "P1",
       "title": "Nathan Direct commentary compendium",
       "audience_summary": "Harvest direct and context-attributable Nathan commentary on the same equations and physics sectors, preserving exact message and source locators.",
-      "status": "active — valid 10-message explicit direct-role projection-angle seed; broader sector and context-attributable Nathan Direct harvest ongoing",
-      "source": "HSH_RESOURCES/indexes/equation_compendium_seed/NATHAN_DIRECT_PROJECTION_ANGLE_SEED.json.gz"
+      "status": "active — ten verbatim direct user-role messages from two archived conversations are compiled as a four-page projection-angle PDF and included in the generated public papers index; broader sector-by-sector and context-attributable harvest remains incomplete.",
+      "source": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.json"
     },
     {
       "order": "P2",
@@ -56,18 +56,19 @@
     {
       "title": "SAT / H(s)H Reading Gallery",
       "lane": "source compilation",
-      "description": "The reading gallery already lists six sector destinations. The first verified sector PDF packet is compiled and visually checked locally; publisher verification is pending. Five other sector documents and the broader Nathan Direct harvest remain in progress.",
+      "description": "The generated public papers index now contains three PDFs: the 24-occurrence geometry/kinematics/time-slicing source compendium, the ten-message Nathan Direct projection-angle compilation, and the Cruller-Rubin sandbox manuscript. Additional physics-sector documents remain to be compiled. The repository reader routes are registered; live site rendering and CDN propagation were not independently verified in this run.",
       "sources": [
         "reader.html",
         "PUBLIC_SITE/generated/papers.json",
         "PUBLIC_SITE/PAPERS_FEED.json",
-        "reader.html?paper=sat-geometry-kinematics-time"
+        "reader.html?paper=sat-geometry-kinematics-time",
+        "reader.html?paper=nathan-direct-projection-angle"
       ]
     }
   ],
   "display_notes": [
     "This is a source-compilation phase; equation inclusion does not promote theory claims or imply physical validation.",
-    "The prior 69-occurrence compressed seed and staged publication tarball failed integrity checks; use the current validated machine index and sector source packets instead.",
-    "Original source citations and links appear in the sector documents."
+    "The private machine seed README reports 69 equation occurrences, 15 source documents and six sector-document mappings; its compressed JSON integrity check is still running.",
+    "Original source citations and links appear in the sector documents; the generated public index supplies the reading-gallery entries."
   ]
 }
