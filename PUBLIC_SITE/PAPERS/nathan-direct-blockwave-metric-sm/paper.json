@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "nathan-direct-blockwave-metric-sm",
+  "title": "Nathan Direct — Blockwave, Metric and Standard Model Recoverability",
+  "authors": [
+    "Archive source compilation"
+  ],
+  "date": "2026-11-28",
+  "status": "historical source compilation; direct user-role excerpts; source-date discrepancy noted; no theory promotion",
+  "preface": "Twenty-four direct user-role message texts from two archived conversations dated 13–14 September 2025. The Blockwave Theory Redubbed filename begins 25.09.12, but its raw metadata begins 13 September; message timestamps follow the raw metadata. Pasted model-generated assessments/plans are excluded. One source message is incomplete in the export.",
+  "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-blockwave-metric-sm/paper.pdf",
+  "source": "PUBLIC_SITE/PAPERS/nathan-direct-blockwave-metric-sm/source.tex",
+  "published": true,
+  "reader_id": "nathan-direct-blockwave-metric-sm"
+}
