@@ -2160,3 +2160,10 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - [Receipt amendment 01 — Lean exact-head verified](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0536Z_s3_tern_rook_AMENDMENT_01_LEAN_VERIFIED.md) records exact PR-head checkout and successful 8,948-job Lean 4.34.0 / Lake 5.0.0 build for PR #2741.
 - [Handoff amendment 01 — Lean exact-head verified](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0536Z_from_s3_tern_rook_to_s4_morrow_AMENDMENT_01_LEAN_VERIFIED.md) supersedes the optional Morrow packet's pending-build status without creating a delivery or acknowledgment claim.
 - PR #2741 remains OPEN / DRAFT / UNMERGED; tests, lint, leanchecker, nanoda and global axiom audit were skipped.
+
+
+### Tern h1157:s3 postwrite P0 currentness amendment — 2026-11-28
+
+- [Receipt amendment 02 — postwrite P0 status](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0536Z_s3_tern_rook_AMENDMENT_02_POSTWRITE_P0_STATUS.md) records discovery #46109618535 SUCCESS through source cut 356433d / generated fb04dadc, navigation #46109618513 with no jobs, and postwrite current-main freshness NOT_VERIFIED.
+- [Handoff amendment 02 — postwrite P0 status](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0536Z_from_s3_tern_rook_to_s4_morrow_AMENDMENT_02_POSTWRITE_P0_STATUS.md) mirrors the P0 state without creating a delivery or acknowledgment claim.
+- P0 tracker: [issue #1747 comment #7235005551](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7235005551).
