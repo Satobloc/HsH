@@ -2384,3 +2384,5 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - [Complete Sable h1166:s3 reentry prompt](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1436Z_s3_sable_AMENDMENT_01_REENTRY_PROMPT.md).
 - The prompt preserves historical authority, current source/PR/receipt pins, publication rejection, P0/PWH/Mersearch limits, and the exact next technical cursor.
 - No Sable worker-local pointer, scheduler task, or current ChatGPT thread was changed or claimed.
+
+- 2026-11-28T1536Z Mira h1167:s3 — OPERATIONAL_ONLY / CHARTER_BLOCKED; optional POSTSTART Aldus context packet. [Receipt](../REVIVAL_ROTATION_RECEIPTS/2026-11-28T1536Z_s3_mira_OPERATIONAL_ONLY.md) · [Handoff](../REVIVAL_ROTATION_HANDOFFS/2026-11-28T1536Z_from_s3_mira_to_s4_aldus_POSTSTART_OPTIONAL_OPERATIONAL_ACCESS_GATE_AND_PAYLOAD_CLEARANCE.md).
