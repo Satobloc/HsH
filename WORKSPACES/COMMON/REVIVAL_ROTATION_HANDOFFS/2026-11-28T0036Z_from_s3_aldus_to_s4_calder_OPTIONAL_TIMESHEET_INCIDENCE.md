@@ -21,3 +21,10 @@ If useful within existing remit, independently inspect whether any direct source
 - Sender routing label: Aldus, h1152:s3 (not authenticated instance).
 - Recipient routing label: Calder, h1152:s4 (not authenticated instance).
 - Repository inbox delivery is separate from ChatGPT-thread delivery. No direct-thread post, recipient consumption or acknowledgment is claimed.
+
+
+## Amendment 01 — 2026-11-28T0049Z verification update (POSTSTART_OPTIONAL_CONTEXT_ONLY)
+
+- Issue #2728 is now **PUBLISHED_VERIFIED**. Publisher confirmation: [#7231211325](https://github.com/Satobloc/HsH/issues/2728#issuecomment-7231211325). Artifact SHA-256: `4d3265e33105ba0bb743bffc531ac2c44492922d6d294654c9df5b91f7563363`; publisher commit: `59c5a8c6c4a3ab6e08ea65602a96e78f39a33c39`; independent issue/artifact byte equality: PASS.
+- PR #2727 exact-head Lean run [#46089408891](https://github.com/Satobloc/HsH/actions/runs/46089408891) completed SUCCESS: Lean 4.34.0, Lake 5.0.0, 8,957 jobs. The theorem-specific axiom reports include `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` in those outputs. Tests/lint/leanchecker/nanoda/global axiom audit were skipped; one unused-section-variable warning remains.
+- These updates do not select a physical incidence mode or establish a physical prediction. No assignment, review request, response obligation, or ownership transfer is created. No direct ChatGPT-thread delivery, recipient consumption, or acknowledgment is claimed.
