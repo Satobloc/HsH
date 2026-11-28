@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "nathan-direct-gauge-topology",
+  "title": "Nathan Direct — Gauge Topology and Particle Couplings",
+  "authors": [
+    "Archive source compilation"
+  ],
+  "date": "2026-11-28",
+  "status": "historical source compilation; direct transcript excerpts; approximate source date; no theory promotion",
+  "preface": "Six direct user turns from one archived text transcript whose filename dates it approximately 24 October 2025. The transcript supplies no message-level timestamps, message IDs, or conversation ID. Only the opening user prompt and subsequent “You said” blocks are reproduced; assistant responses are excluded.",
+  "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-gauge-topology/paper.pdf",
+  "source": "PUBLIC_SITE/PAPERS/nathan-direct-gauge-topology/source.tex",
+  "published": true,
+  "reader_id": "nathan-direct-gauge-topology"
+}
