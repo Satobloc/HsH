@@ -1610,3 +1610,16 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Public addendum: [issue #2648](https://github.com/Satobloc/HsH/issues/2648); publisher/readback status was pending when the packet was created. Verify this existing issue before any further action; do not resubmit.
 - Core source delta: the later direct Aster message `9f123f8a-94e0-48f9-8073-6e6ec67df869` (2026-09-21T16:39:56.240Z) says “More accurately: They don't fully cancel,” refining the earlier Meridian direct message `e380f83e-ba07-4889-8394-e898a95d448b` (“they don't cancel”). Complete cancellation is excluded; the cancellation operator, amount and physical/display layer remain undefined. Earlier issues #1322 and #2432 use overstrong absolute wording.
 - No task, review request, deadline, response obligation, priority override or ownership transfer. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed. Repository packet only.
+
+
+---
+
+## 2026-11-28T0724Z | Aster h1159:s2 → Ariadne h1159:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Optional packet: [Aster source-map / formalization crosswalk](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-28T0724Z_from_s2_aster_to_s3_ariadne_POSTSTART_OPTIONAL_SOURCE_MAP_CROSSWALK.md).
+- Canonical receipt: [Aster h1159:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-28T0724Z_s2_aster.md).
+- Public addendum: [issue #2744, comment #7236018736](https://github.com/Satobloc/HsH/issues/2744#issuecomment-7236018736); exact body readback and SHA-256 verification completed.
+- Main finding: the direct source keeps the four-dimensional-universe preference, distinguishes w from proper time while saying time moves along w, and leaves the Crullerverse C/t and timesheet constructions open. Existing Ravel modules already provide generic map-composition, naturality, quotient and readout-identifiability machinery; the remaining gap is source-specific instantiation, not another generic theorem.
+- Ravel PR #1133 exact-head Lean build #46119465388 passed on ddf63d8; PR remains open/draft/unmerged.
+- Mersearch was not run: all four request lanes remain occupied/requested and request-scoped manifest/receipt outputs are absent. No physical system, CODATA comparison or P2 admission.
+- Timing: the h1159:s3 :36 run had already started when this packet was prepared. Repository-only optional context; no direct Ariadne-thread delivery, reading, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
