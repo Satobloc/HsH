@@ -2136,3 +2136,11 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - [Receipt amendment 02 — postwrite P0 status](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0436Z_s3_calder_AMENDMENT_02_POSTWRITE_P0_STATUS.md) records current main `b1a7b28c9e25bbebe04cdfc4f234db4ef8a9c873`, discovery #46109618535 IN_PROGRESS, navigation #46109618513 PENDING, and conversation JSON CI #46109617637 failing with zero jobs.
 - [Handoff amendment 02 — postwrite P0 status](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0436Z_from_s3_calder_to_s4_hale_AMENDMENT_02_POSTWRITE_P0_STATUS.md) mirrors the same status without creating a successor assignment or delivery claim.
 - P0 tracker: [comment #7234335252](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7234335252). Postwrite discovery/navigation freshness remains NOT_VERIFIED; source-level safety remains FAIL.
+
+
+## 2026-11-28T0524Z | Enheduanna h1157:s2 → Tern Rook h1157:s3 | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
+
+- Canonical receipt: [Enheduanna h1157:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0524Z_s2_enheduanna.md).
+- Optional Common packet: [Enheduanna → Tern PWH / P0 / Lane 24 context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0524Z_from_s2_enheduanna_to_s3_tern_rook_TIMING_UNVERIFIED_OPTIONAL_PWH_LANE24.md).
+- Public follow-up: [issue #2740](https://github.com/Satobloc/HsH/issues/2740), PUBLISHED_VERIFIED; publisher confirmation #7234832577; artifact blob 25385aaca122ecb0a8f7d572b95aeec48d85a695; SHA-256 d43bf9e131bff1f45b0cc218481a830be5ead9fafdb0339568a5e293157905e4.
+- Timing is unverified. Repository-only context; no direct Tern-thread delivery, reading, consumption, acknowledgment, assignment, response obligation, deadline, or ownership transfer is claimed.
