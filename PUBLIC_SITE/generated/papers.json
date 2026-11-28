@@ -1,9 +1,41 @@
 {
   "schema_version": 1,
-  "revision": "464a4e0237a760a6f127c364ac9fffee5f135ccb",
-  "updated": "2026-11-28T04:25:48+00:00",
-  "content_hash": "ed367f7599bbd056076970d468b7d040df866a022661169163c11fcd262e84cd",
+  "revision": "90854ad4fa9a8a07ac19eda03862169b3dea2bd1",
+  "updated": "2026-11-28T05:07:00+00:00",
+  "content_hash": "e69c8bd7fcd11b3963821bd8dc0f12b28b2f67d3e748e2800a9eea50c9f31916",
   "papers": [
+    {
+      "id": "nathan-direct-geometry-projection",
+      "title": "Nathan Direct — Geometry, Projection and θ₄",
+      "preface": "Forty-three direct user-role message texts from four archived conversations, dated 2 June 2025 and 25–28 February 2026. Original wording, punctuation, UTC timestamps and source message identifiers are retained. Pasted code of unresolved or model-generated authorship is excluded; only separable direct instructions are reproduced.",
+      "status": "historical source compilation; direct user-role excerpts; no theory promotion",
+      "date": "2026-11-28",
+      "authors": [
+        "Archive source compilation"
+      ],
+      "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-geometry-projection/paper.pdf",
+      "source": "PUBLIC_SITE/PAPERS/nathan-direct-geometry-projection/source.tex",
+      "pdf_sha256": "3a9b3aba980ffc7b033fab6643c382b6990cc1c65723270bf5a0f4bc7e90665f",
+      "metadata_path": "PUBLIC_SITE/PAPERS/nathan-direct-geometry-projection/paper.json",
+      "addenda": [],
+      "reader_id": "nathan-direct-geometry-projection"
+    },
+    {
+      "id": "nathan-direct-gauge-topology",
+      "title": "Nathan Direct — Gauge Topology and Particle Couplings",
+      "preface": "Six direct user turns from one archived text transcript whose filename dates it approximately 24 October 2025. The transcript supplies no message-level timestamps, message IDs, or conversation ID. Only the opening user prompt and subsequent “You said” blocks are reproduced; assistant responses are excluded.",
+      "status": "historical source compilation; direct transcript excerpts; approximate source date; no theory promotion",
+      "date": "2026-11-28",
+      "authors": [
+        "Archive source compilation"
+      ],
+      "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-gauge-topology/paper.pdf",
+      "source": "PUBLIC_SITE/PAPERS/nathan-direct-gauge-topology/source.tex",
+      "pdf_sha256": "05dd793893f54cad77419dd32e33b06582792a007416cad316ee5dcd8baea050",
+      "metadata_path": "PUBLIC_SITE/PAPERS/nathan-direct-gauge-topology/paper.json",
+      "addenda": [],
+      "reader_id": "nathan-direct-gauge-topology"
+    },
     {
       "id": "sat-gravity-metric",
       "title": "SAT / H(s)H Source Equation Compendium — Gravity & Metric",
@@ -15,7 +47,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/sat-gravity-metric/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/sat-gravity-metric/source.tex",
-      "pdf_sha256": "828bdd6e694499fdda2f7fb271ebedfaa210c4b7019005cf7c9f45ea03fab1ae",
+      "pdf_sha256": "05ed38ba0682249935476442b9a1cffcbe22ba491c530bc52fe05e735ebcd909",
       "metadata_path": "PUBLIC_SITE/PAPERS/sat-gravity-metric/paper.json",
       "addenda": [],
       "reader_id": "sat-gravity-metric"
@@ -31,7 +63,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/source.tex",
-      "pdf_sha256": "f9856af472571eeae0fe499a03d8b677424c46c0bdd961bf0927616e152dd24d",
+      "pdf_sha256": "9cd9ca0c0409b5923a62bd9d0b341df59051c6324e3950ddd7cd64f8192902ce",
       "metadata_path": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.json",
       "addenda": [],
       "reader_id": "sat-geometry-kinematics-time"
@@ -47,7 +79,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/sat-gauge-topology/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/sat-gauge-topology/source.tex",
-      "pdf_sha256": "197d533e3b48870cd50f282ea684f3d12b8e8d768d0cb8014d90463ff584f0c2",
+      "pdf_sha256": "dd63176b36612d3ac38ff528d98008b286c528252e51181e7b26ae6663caf279",
       "metadata_path": "PUBLIC_SITE/PAPERS/sat-gauge-topology/paper.json",
       "addenda": [],
       "reader_id": "sat-gauge-topology"
@@ -63,7 +95,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/source.tex",
-      "pdf_sha256": "9eaa89f9774cf831600634b7019dad65ca0bbae6850fe54af70ac6ee4bc883e1",
+      "pdf_sha256": "aa4c204c10b21b68eb81be976144ffec78228a0365089155c94e57a9906013f2",
       "metadata_path": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.json",
       "addenda": [],
       "reader_id": "nathan-direct-projection-angle"
