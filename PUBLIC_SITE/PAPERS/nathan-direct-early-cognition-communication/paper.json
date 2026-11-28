@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "nathan-direct-early-cognition-communication",
+  "title": "Nathan Direct — Early Particle Basis of Cognition and Communication",
+  "authors": [
+    "Archive source compilation"
+  ],
+  "date": "2026-11-28",
+  "status": "historical source compilation; direct user-role excerpts; no theory promotion",
+  "preface": "Thirteen selected user-role excerpts from two archived conversations dated 20 March 2025 and 4 April 2025 local / 5 April 2025 UTC. Original wording, punctuation, UTC timestamps and source message identifiers are retained. The first excerpt is a user-authored prompt to NotebookLM and is identified as a prompt, not a settled proposition. Copied model-generated text is excluded. This is an initial selective source tranche, not an exhaustive corpus.",
+  "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-early-cognition-communication/paper.pdf",
+  "source": "PUBLIC_SITE/PAPERS/nathan-direct-early-cognition-communication/source.tex",
+  "published": true,
+  "reader_id": "nathan-direct-early-cognition-communication"
+}
