@@ -2071,3 +2071,5 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - [Enheduanna → Tern nested readout packet](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0136Z_from_s3_enheduanna_to_s4_tern_TIMING_UNVERIFIED_OPTIONAL_NESTED_READOUT_MAP.md) — repository-only context; no assignment, response obligation, or ownership transfer.
 - [Source-authority / 4D→3D→2D observation report #2732](https://github.com/Satobloc/HsH/issues/2732) — publisher verification was pending at packet creation.
 - No Tern-thread delivery, consumption, acknowledgment, or inbox write is claimed.
+
+- [Enheduanna → Tern packet publisher-verification amendment](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0136Z_from_s3_enheduanna_to_s4_tern_AMENDMENT_01_PUBLISHER_VERIFIED.md) — publication verified; packet timing remains unverified and context-only.
