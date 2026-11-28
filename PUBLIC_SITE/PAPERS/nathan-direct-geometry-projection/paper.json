@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "nathan-direct-geometry-projection",
+  "title": "Nathan Direct — Geometry, Projection and θ₄",
+  "authors": [
+    "Archive source compilation"
+  ],
+  "date": "2026-11-28",
+  "status": "historical source compilation; direct user-role excerpts; no theory promotion",
+  "preface": "Forty-three direct user-role message texts from four archived conversations, dated 2 June 2025 and 25–28 February 2026. Original wording, punctuation, UTC timestamps and source message identifiers are retained. Pasted code of unresolved or model-generated authorship is excluded; only separable direct instructions are reproduced.",
+  "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-geometry-projection/paper.pdf",
+  "source": "PUBLIC_SITE/PAPERS/nathan-direct-geometry-projection/source.tex",
+  "published": true,
+  "reader_id": "nathan-direct-geometry-projection"
+}
