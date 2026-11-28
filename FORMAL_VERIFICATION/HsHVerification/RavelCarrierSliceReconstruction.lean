@@ -717,12 +717,15 @@ end HsHVerification.RavelObliqueSliceAngleConvention
 /-!
 ## Independent spatial-plus-proper-time branch: 5D domain gate
 
-The November 8 source anchor records a fourth spatial direction w and proper
-time as distinct or possibly emergent along w. It does not choose whether
-proper time is an independent factor. The following structure formalizes
-only the independent-factor branch: a four-dimensional spatial tangent
-carrier crossed with a one-dimensional real parameter, mapped toward a
-four-dimensional target.
+The November 8 source anchor is recorded in
+RavelKerrSectionSweepRankGate.lean: message
+c0520975-02a0-408f-a250-364b88ab7b30 (2026-11-08T20:18:10.172Z).
+That source is summarized as a fourth spatial direction w with proper time
+described as distinct or possibly emergent along w. It does not choose
+whether proper time is an independent factor. The following structure
+formalizes only the independent-factor branch: a four-dimensional spatial
+tangent carrier crossed with a one-dimensional real parameter, mapped toward
+a four-dimensional target.
 
 The target has no declared metric or signature. This is a local
 finite-dimensional linearization, not a supplied derivative of a smooth
@@ -733,25 +736,27 @@ gate does not apply.
 
 namespace HsHVerification.RavelCarrierSliceReconstruction
 
-variable {SpatialCarrier : Type*}
-  [AddCommGroup SpatialCarrier] [Module ℝ SpatialCarrier]
-  [FiniteDimensional ℝ SpatialCarrier]
-variable {TargetTangent : Type*}
-  [AddCommGroup TargetTangent] [Module ℝ TargetTangent]
-  [FiniteDimensional ℝ TargetTangent]
-
 /-- A candidate linearization from a four-dimensional spatial carrier crossed
     with an independent one-dimensional proper-time parameter into a
     four-dimensional target. The target signature is deliberately unspecified. -/
-structure IndependentSpatialTimeLinearization where
+structure IndependentSpatialTimeLinearization
+    (SpatialCarrier TargetTangent : Type*)
+    [AddCommGroup SpatialCarrier] [Module ℝ SpatialCarrier]
+    [FiniteDimensional ℝ SpatialCarrier]
+    [AddCommGroup TargetTangent] [Module ℝ TargetTangent]
+    [FiniteDimensional ℝ TargetTangent] where
   spatialDimension_eq : Module.finrank ℝ SpatialCarrier = 4
   targetDimension_eq : Module.finrank ℝ TargetTangent = 4
   differential : (SpatialCarrier × ℝ) →ₗ[ℝ] TargetTangent
 
 namespace IndependentSpatialTimeLinearization
 
-variable (S : IndependentSpatialTimeLinearization
-  (SpatialCarrier := SpatialCarrier) (TargetTangent := TargetTangent))
+variable {SpatialCarrier TargetTangent : Type*}
+    [AddCommGroup SpatialCarrier] [Module ℝ SpatialCarrier]
+    [FiniteDimensional ℝ SpatialCarrier]
+    [AddCommGroup TargetTangent] [Module ℝ TargetTangent]
+    [FiniteDimensional ℝ TargetTangent]
+variable (S : IndependentSpatialTimeLinearization SpatialCarrier TargetTangent)
 
 /-- The independent spatial-time product has five tangent dimensions. -/
 theorem domain_dimension :
@@ -759,7 +764,7 @@ theorem domain_dimension :
   calc
     Module.finrank ℝ (SpatialCarrier × ℝ) =
         Module.finrank ℝ SpatialCarrier + 1 :=
-      product_with_time_line_adds_one_dimension SpatialCarrier
+      HsHVerification.RavelCarrierSliceReconstruction.product_with_time_line_adds_one_dimension SpatialCarrier
     _ = 5 := by rw [S.spatialDimension_eq]
 
 /-- Rank-nullity for the supplied candidate linearization. -/
