@@ -200,3 +200,88 @@ Build one cross-repository portfolio register with a ranked global view plus lan
 **Guardrails:** discovery first; no mass cleanup. Do not alter scheduler IDs/cadences/leases or assign workers as a side effect of this plan. Do not silently displace current paper deadlines or protected worker remits. Keep scientific status separate from project activity: an active sandbox is not a validated result, and an inactive project is not necessarily obsolete.
 
 **Deliverable:** a source-linked, deduplicated cross-repository project inventory and a defensible global priority stack, with a short “return to workflow” docket and explicit parked/resume records. This plan is adopted; the sweep and ranking remain pending.
+
+---
+
+## 2026-11-27 — Nathan Direct catch-up docket: Mysearch first; science forward; backlog rolling
+
+**Authority / scope:** Nathan's direct instruction, 2026-11-27, updated with the current sequence. Use this as the active catch-up order. Do not create another tracker or let this docket become a prerequisite to research.
+
+### Current cursor — Mysearch / first archive pass
+
+**NOW — Mysearch first SAT-archive search and result review.** The private push-triggered Mysearch runner was found and modified in place; the first SAT-archive query was submitted as request `mysearch-procedural-archive-20261127-01` (request commit `bd5cdc56eb32bdc77cddcd985e996992fc6dc185`). At the last verified read, the private result locator had not appeared. Status is **SUBMITTED / RESULT NOT VERIFIED**: no run completion, hit count or result content is claimed. Continue from this request; do not submit a duplicate merely because the receipt has not yet appeared.
+
+The runner now checks out the full HSH_RESOURCES repository privately rather than the earlier targeted 12-file subset; request-output newline/delimiter handling was repaired; a private artifact locator is written after upload. Latest workflow commit at the last verified read: `9451ef02104d7fc9cd5b08584025f5b3228e2e9a`. These source changes have been read back, but the end-to-end service is not yet acceptance-verified. Coverage remains bounded by stable Mersearch 1.0 supported record types, the 25 MB per-file default, and the documented exclusions.
+
+**Execution repair / current retry (2026-11-28):** The first attempt, run `46071042463` on request commit `bd5cdc56eb32bdc77cddcd985e996992fc6dc185`, completed with failure and produced no artifact. Its job stopped while the full `HSH_RESOURCES` checkout was in progress; that repository is approximately 2.35 GB. Detailed logs were not retrievable, so repository size is a likely bottleneck, not a confirmed failure message. The retry keeps the same request ID and exact query, adds an explicit SAT-archive-only source selection, and uses a workflow that checks out and searches only selected roots. Retry request commit: `9b275fc79f884ceed59a6010cd5baa7572f4f0cb`; run `46104108053`. Latest verified state: request validation and supervisor passed; HsH source checkout was skipped; pinned engine and SAT archive checkouts completed; the search step was running; no result artifact yet. A sparse checkout of only `tools/search_archive_content.py` was committed separately for subsequent runs (`9b3343b74aef0220bc4e8bceeb8e460acc7e231a)); this later workflow change does not alter the already-running retry. Continue checking run `46104108053` and its private result locator; do not submit another retry unless this run reaches a confirmed terminal failure with no artifact.
+
+First query is restricted to `archive/*` and the exact initial vocabulary: `backhalls`, `back hallways`, `backhall`, `constant torquing`, `torque wrench normalization`, and `star-shaped derivation map`. After dinner / on return: retrieve and inspect the full private hit inventory with Nathan; select what matters; then search HsH using the same and source-expanded vocabulary; finally search all three repositories with the accumulated terminology. Preserve complete hit inventories, exact locators, source dates/authorship fields, repository revisions and content identity. Raw results and private HSH_RESOURCES paths remain private.
+
+Existing implementations to reconcile, not duplicate:
+- HsH main-branch scaffold: `.github/workflows/mysearch-nathan-direct.yml`, `WORKSPACES/COMMON/MYSEARCH_STATUS.md`, and `MYSEARCH_IMPLEMENTATION_PLAN.md`.
+- HsH draft implementation: [PR #2226](https://github.com/Satobloc/HsH/pull/2226), branch `mysearch`; open/draft, not merged or production.
+- Private control-plane and runner: `Satobloc/SANDBOX`, branch `mysearch-private-engine`.
+
+### Ordered priorities after the current search segment
+
+**FIRST — WORKFLOW / LLM METHODOLOGY SOURCE RECOVERY (TARGET: UP TO ABOUT ONE DAY, POSSIBLY LESS).**
+- Search for and compile the source material bearing on workflow, LLM remit, worker roles, repository use, capture/shelving/resumption, routing, checks and handoffs.
+- Preserve source pointers and distinguish Nathan's statements from assistant reconstruction, inference and proposals.
+- This is source collection and compilation, not yet a claim that we have a complete or precise workflow theory.
+
+**SECOND — SCIENTIFIC / EPISTEMIC METHODOLOGY CONSOLIDATION (TARGET: ABOUT ONE DAY).**
+- Restate and codify the scientific and epistemic method precisely from source material and corrections. Search for `Hale`, `tier` / `tiers`, `SAT Rigorous` and similar podcast transcripts (manual transcript search if necessary), `RMS`, and `epistemology`. Preserve source chronology and distinguish Nathan's original statements, assistant reconstructions, inference and new proposals.
+- Include the recovered scientific-method vocabulary: anomaly-led discovery of structural problems; backhallway searches; constant torquing; torque-wrench normalisation; the star-shaped derivation map; propagation of known constraints into unknowns; and consistency within each Level of Description.
+- Deliverable: a precise, source-grounded scientific / epistemic method statement, reviewed with Nathan and then committed and independently read back.
+
+**THIRD — WORK THROUGH THE TWO METHODOLOGIES SIDE-BY-SIDE.**
+- Use the compiled workflow/LLM sources alongside the scientific/epistemic method, refining their interfaces and practical use together rather than forcing them into one document or one level of certainty.
+- Treat workflow / LLM methodology as more approximate and provisional; state uncertainty plainly and let experience refine it.
+- Keep the scientific / epistemic methodology more exacting and source-grounded.
+- This is a bounded methodology pass, not the full workflow/theory workshop buildout.
+
+**POST-PAPER PHASE — WORKFLOW / THEORY WORKSHOP BUILDOUT.**
+- The comprehensive workshop buildout is a substantial undertaking in its own right. Start it immediately after we have a decent paper in hand; do not let it become a prerequisite or diversion from reaching that paper.
+- Carry forward the side-by-side methodology work as its starting foundation, while allowing the buildout to develop into a larger dedicated project.
+
+**GOAL 4 — TERTIARY PRIORITY — PRIORITIZE AND SORT [ROLLING / ONGOING].**
+- Keep triage running as a rolling process, not a once-only phase and not a gate that delays the current methodology work or science.
+- Pull the dated planning documents from the SAT Dashboard. Skim them for potentially important dropped, stalled or never-reentered projects; add relevant source pointers and candidates to this rolling sort.
+- Fold other backlog items into the same sorting pass as they arise. Use post-segment check-ins to catch omissions; put missed items back on the shelf or move them into the workflow when appropriate.
+- Detailed ranking, owner/start-date assignment and re-entry decisions occur as needed during this rolling pass. Do not force a giant up-front inventory.
+
+**NEXT MAJOR RESEARCH PHASE — FULL SAT CONSOLIDATION AND ROUGH SYNTHESIS.**
+- Recover and synthesize the full SAT theory documents.
+- Approximately incorporate the relevant sorted materials into the SAT consolidation; do not wait for every possible backlog item to be completely triaged.
+- Work through the existing rough outline, checking the mathematical, conceptual, geometric, evidential and documentary plumbing as we go.
+- Reinterpret the three mainstream works by **Levin, Greene and Susskind** through the SAT lens. Work toward reproducing the relevant results sufficiently to establish what the comparison actually requires.
+- Incorporate the relevant MIT and Royal Society work.
+- Conduct a prior-art / attribution pass: distinguish what should be credited to the Hintonian era, what belongs to the braid-theory underground, and which accomplishments are genuinely ours. Make no attribution or influence claim without source support.
+- Assess the geometric solvers in their current recoverable state when useful; decide as we go whether they materially accelerate the work. Their use is not a prerequisite to beginning consolidation.
+- Write the paper.
+
+### Shelf note — economical edits and ticker protocol
+
+Use the rough-and-ready (or, as it develops, improved) ticker protocol to carry the current cursor and major steps. Assign finer notation only when the workflow reaches a point where it is useful.
+
+For every edit, ask what it is for and whether it can reduce word count **without deleting or smoothing over information**:
+- leave redundant explanation and breathless justification on the floor;
+- demote process-language such as "in order to prove" when it is not central, while retaining any distinct consideration carried by the sentence;
+- remove unnecessary statements about what is not being claimed;
+- prefer economical constructions and compact bullets, without imposing a rigid word-count quota.
+
+This is a shelf note for progressive use, not a new gate or an instruction to rewrite every existing artifact immediately.
+
+### Other captured backlog — retain separately; sort as the rolling process reaches it
+
+- **B2 — archive-ingest and reconciliation machinery.** Process, date-stamp and index JSON, JSON-formatted and otherwise date-stamped archive materials, including root-directory files; reconcile branches and resolve/close genuinely completed open issues. Preserve original records and distinguish discussion from actual resolution.
+- **B3 — Universal Indicatrix / Whirlygig / Hagalaz geometry and address system.** Preserve the proposed two-sphere rotating/scaling model, sphere-fixed grids, functorial transformations, origin-translation role for Hagalaz, coupling to worldtube curvature, and possible three-sphere / complete higher-dimensional construction. Explore geometric addressing of spacetime locations and histories. Keep physical, abstract and hypothetical applications distinct.
+- **B4 — variable-length Unicode/string addressing.** Investigate injective, reversible variable-length string/glyph representations over a large Unicode alphabet. Distinguish ordinary lossless encoding and address lookup from cryptography/security and fixed-width compression limits.
+- **B5 — LLM remit and internal-parameter research.** Study controllable remit, personality, priority and lane parameters; investigate black-box behavioural sensitivity / contextual salience and the limits of claims about token weighting. Distinguish observed behaviour, accessible API statistics, and internal activations/weights. Retain possible paper.
+- **B6 — external-paper comparison.** Recover the exact papers/public statements from Brian, Jana/Jenna (name unresolved), and Leo; compare actual claims against SAT's three components. Do not infer influence, equivalence, recognition or confirmation without evidence.
+- **B7 — workflow minimality and rule retirement.** Keep reducing workflow overhead. When Nathan explicitly retires a live rule, remove its operative effect; do not preserve it through invented caveats or paraphrased replacements. Preserve historical provenance only where useful to explain the change.
+- **B8 — ticker and economical-language practice.** The shelf note above; use progressively, without interrupting the current search.
+
+**Check-in rule:** after each substantial segment, briefly ask what was missed. Capture it once, then either shelf it or route it into the workflow. No comprehensive priority audit is required before the next scientific step.
+
+**Current sequence:** Mysearch / SAT-archive result verification and review; compile workflow / LLM methodology sources; consolidate scientific / epistemic methodology; work the two side-by-side (workflow provisional); Prioritize and Sort (tertiary, rolling); full SAT consolidation and paper; then workflow / theory workshop buildout.
