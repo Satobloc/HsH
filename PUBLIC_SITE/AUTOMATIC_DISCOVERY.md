@@ -10,6 +10,18 @@ refresh every five minutes. Workers need not create intake packets.
   complete scan; failed repository scans retain last-good records and report stale.
 - A rolling 48-item docket refreshes the home page and public notebook. The larger
   catalog remains searchable by title, path, format and bounded text excerpts.
+  **`WORKSPACES/**` records are metadata-only:** they retain title/path/status discoverability,
+  carry `PRESENTATION_PENDING`, have no default reader target or raw excerpt, and are excluded
+  from the rolling docket until a verified presentation derivative is registered.
+  If a repository scan is stale, last-good records are rechecked against current path
+  eligibility; newly excluded paths are omitted, eligible workspace metadata is sanitized,
+  and last-good visuals are retained only when their paths remain visual-eligible.
+
+The unique set of valid SHA-1 JPEG references in the final visual manifest must equal the
+generated JPEG file set in `thumbnails/`. Unreferenced generated files are pruned after the
+new manifest is written; missing referenced files or a symlinked thumbnail directory fail
+closed. Cleanup is limited to regular hash-named files directly inside the generated
+thumbnail directory and never follows or removes source assets or unrelated files.
   This is discovery search, **not** a replacement for Mersearch full-text research.
 - Source dates inferred from filenames are labelled date hints. Detection times
   are not authorship dates. Inclusion does not change manuscript authority/status.

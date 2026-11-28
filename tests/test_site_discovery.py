@@ -7,6 +7,8 @@ class DiscoveryTests(unittest.TestCase):
   for w,h,yes in [(1000,1000,True),(900,1000,True),(1100,1000,True),(899,1000,False),(1101,1000,False),(127,127,False),(1000,1500,False)]:self.assertEqual(m.square(w,h),yes)
   for p in ['PRIOR_ART/a.pdf','WORKSPACES/QUARANTINE/a.md','LIVE CONVOS/Science Made Stupid.json','PUBLIC_SITE/generated/a.md']:self.assertFalse(m.eligible(p))
   self.assertTrue(m.eligible('WORKSPACES/MERCER/2026-10-11_note.md'))
+  self.assertTrue(m.workspace_record('WORKSPACES/MERCER/2026-10-11_note.md'))
+  self.assertFalse(m.workspace_record('LIBRARY/presented/example.pdf'))
  def test_incremental_revision_deletion_and_last_good(self):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp);out=root/'out';trees=root/'trees';trees.mkdir()
@@ -15,6 +17,156 @@ class DiscoveryTests(unittest.TestCase):
    self.assertEqual(m.run(args),0);d=m.load(out/'discovery.json',{});self.assertEqual(len(d['documents']),2);self.assertFalse(any(x['revision_detected'] for x in d['documents']))
    save('hsh',[('WORKSPACES/worker/2026-10-11_note.md','c'),('WORKSPACES/worker/new.pdf','d')]);save('sat',[]);m.run(args);d=m.load(out/'discovery.json',{});self.assertEqual(len(d['documents']),2);self.assertTrue(all(x['revision_detected'] for x in d['documents']));self.assertTrue(all(x['repo']=='hsh' for x in d['documents']))
    m.atomic(trees/'hsh.json',{'truncated':True,'tree':[]});self.assertEqual(m.run(args),2);d=m.load(out/'discovery.json',{});self.assertEqual(len(d['documents']),2);self.assertEqual(d['repositories']['hsh']['status'],'stale')
+ def test_workspace_metadata_only_and_legacy_leakage_removed(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';trees=root/'trees';trees.mkdir()
+   a='WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R1.tex'
+   b='WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R1.md'
+   regular='LIBRARY/presented/reader-approved.md'
+   old=[{'id':'hsh:'+a,'repo':'hsh','path':a,'sha':'a','size':10,'kind':'tex','title':'old title','reader':'reader.html?mode=browse&path='+a,'excerpt':'old raw excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False},
+        {'id':'hsh:'+b,'repo':'hsh','path':b,'sha':'b','size':10,'kind':'md','title':'old title','reader':'reader.html?mode=browse&path='+b,'excerpt':'old raw excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False}]
+   m.atomic(out/'discovery.json',{'documents':old,'docket':[x['id'] for x in old],'visuals':[]})
+   def save(name,files):m.atomic(trees/(name+'.json'),{'sha':'commit','truncated':False,'tree':[{'type':'blob','path':p,'sha':s,'size':20} for p,s in files]})
+   save('hsh',[(a,'a'),(b,'b'),(regular,'c')]);save('sat',[('archive.pdf','d')])
+   args=argparse.Namespace(out=str(out),tree_dir=str(trees),excerpts=10)
+   with patch.object(m,'excerpt',return_value={'title':'approved title','excerpt':'approved excerpt','excerpt_scope':'test scope'}):
+    self.assertEqual(m.run(args),0)
+   d=m.load(out/'discovery.json',{});docs={x['path']:x for x in d['documents']}
+   for path in (a,b):
+    self.assertIn(path,docs) # metadata discovery is retained
+    self.assertIsNone(docs[path]['reader'])
+    self.assertEqual(docs[path]['presentation_state'],'PRESENTATION_PENDING')
+    self.assertNotIn('excerpt',docs[path])
+    self.assertNotIn('excerpt_scope',docs[path])
+    self.assertNotIn('reader.html',json.dumps(docs[path]))
+   self.assertNotIn('hsh:'+a,d['docket'])
+   self.assertNotIn('hsh:'+b,d['docket'])
+   self.assertIn('hsh:'+regular,d['docket'])
+   self.assertEqual(docs[regular]['reader'],m.route('hsh',regular))
+   self.assertEqual(docs[regular]['excerpt'],'approved excerpt')
+ def test_stale_repository_sanitizes_legacy_workspace_records(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';trees=root/'trees';trees.mkdir()
+   workspace='WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R1.md'
+   regular='LIBRARY/presented/reader-approved.md'
+   old=[
+    {'id':'hsh:'+workspace,'repo':'hsh','path':workspace,'sha':'workspace-sha','size':20,'kind':'md','title':'Paper B','reader':'reader.html?mode=browse&path='+workspace,'excerpt':'legacy raw excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False},
+    {'id':'hsh:'+regular,'repo':'hsh','path':regular,'sha':'regular-sha','size':20,'kind':'md','title':'Approved reader','reader':'reader.html?mode=browse&path='+regular,'excerpt':'approved excerpt','excerpt_scope':'approved source','first_seen':'first','changed_at':'old','revision_detected':False}
+   ]
+   m.atomic(out/'discovery.json',{'documents':old,'docket':[x['id'] for x in old],'visuals':[]})
+   m.atomic(trees/'hsh.json',{'sha':'last-good-hsh','truncated':True,'tree':[]})
+   m.atomic(trees/'sat.json',{'sha':'current-sat','truncated':False,'tree':[{'type':'blob','path':'archive.pdf','sha':'pdf-sha','size':20}]})
+   args=argparse.Namespace(out=str(out),tree_dir=str(trees),excerpts=10)
+   self.assertEqual(m.run(args),2)
+   d=m.load(out/'discovery.json',{});docs={x['path']:x for x in d['documents']}
+   self.assertEqual(d['repositories']['hsh']['status'],'stale')
+   self.assertEqual(d['repositories']['sat']['status'],'complete')
+   stale=docs[workspace]
+   self.assertEqual(stale['sha'],'workspace-sha')
+   self.assertEqual(stale['title'],'Paper B')
+   self.assertIsNone(stale['reader'])
+   self.assertEqual(stale['presentation_state'],'PRESENTATION_PENDING')
+   self.assertNotIn('excerpt',stale)
+   self.assertNotIn('excerpt_scope',stale)
+   self.assertNotIn('hsh:'+workspace,d['docket'])
+   control=docs[regular]
+   self.assertEqual(control['reader'],'reader.html?mode=browse&path='+regular)
+   self.assertEqual(control['excerpt'],'approved excerpt')
+   self.assertIn('hsh:'+regular,d['docket'])
+ def test_stale_fallback_reapplies_current_record_and_visual_eligibility(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';trees=root/'trees';trees.mkdir()
+   excluded_workspace='WORKSPACES/QUARANTINE/secret.md'
+   excluded_regular='LIBRARY/PRIOR_ART/secret.pdf'
+   eligible_workspace='WORKSPACES/PAPERS/accepted.md'
+   eligible_regular='LIBRARY/presented/approved.md'
+   old=[
+    {'id':'hsh:'+excluded_workspace,'repo':'hsh','path':excluded_workspace,'sha':'xw','size':20,'kind':'md','title':'Excluded workspace','reader':'reader.html?mode=browse&path='+excluded_workspace,'excerpt':'private excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False},
+    {'id':'hsh:'+excluded_regular,'repo':'hsh','path':excluded_regular,'sha':'xp','size':20,'kind':'pdf','title':'Excluded prior art','reader':'reader.html?mode=browse&path='+excluded_regular,'excerpt':'legacy prior-art excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False},
+    {'id':'hsh:'+eligible_workspace,'repo':'hsh','path':eligible_workspace,'sha':'ew','size':20,'kind':'md','title':'Eligible workspace','reader':'reader.html?mode=browse&path='+eligible_workspace,'excerpt':'legacy workspace excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False},
+    {'id':'hsh:'+eligible_regular,'repo':'hsh','path':eligible_regular,'sha':'er','size':20,'kind':'md','title':'Approved reader','reader':'reader.html?mode=browse&path='+eligible_regular,'excerpt':'approved excerpt','excerpt_scope':'approved source','first_seen':'first','changed_at':'old','revision_detected':False}
+   ]
+   v1='1'*40;v2='2'*40;v3='3'*40;v4='4'*40
+   old_visuals=[
+    {'sha':v1,'path':'SAT_VISUALS/PRIOR_ART/secret.png','square':True,'thumbnail':'thumbnails/'+v1+'.jpg','source_url':'secret'},
+    {'sha':v2,'path':'SAT_VISUALS/QUARANTINE/secret.png','square':True,'thumbnail':'thumbnails/'+v2+'.jpg','source_url':'secret'},
+    {'sha':v3,'path':'SAT_VISUALS/approved/good.png','square':True,'thumbnail':'thumbnails/'+v3+'.jpg','source_url':'approved'},
+    {'sha':v3,'path':'SAT_VISUALS/approved/duplicate.png','square':True,'thumbnail':'thumbnails/'+v3+'.jpg','source_url':'approved duplicate'},
+    {'sha':v4,'path':'LIBRARY/approved.png','square':True,'thumbnail':'thumbnails/'+v4+'.jpg','source_url':'outside'}
+   ]
+   thumb_dir=out/'thumbnails';thumb_dir.mkdir(parents=True)
+   for sha in (v1,v2,v3,v4):(thumb_dir/(sha+'.jpg')).write_bytes(b'thumb')
+   (thumb_dir/'keep.txt').write_text('unrelated file')
+   m.atomic(out/'discovery.json',{'documents':old,'docket':[x['id'] for x in old],'visuals':old_visuals})
+   m.atomic(trees/'hsh.json',{'sha':'last-good-hsh','truncated':True,'tree':[]})
+   m.atomic(trees/'sat.json',{'sha':'current-sat','truncated':False,'tree':[{'type':'blob','path':'archive.pdf','sha':'pdf-sha','size':20}]})
+   args=argparse.Namespace(out=str(out),tree_dir=str(trees),excerpts=10)
+   self.assertEqual(m.run(args),2)
+   d=m.load(out/'discovery.json',{});docs={x['path']:x for x in d['documents']}
+   self.assertNotIn(excluded_workspace,docs)
+   self.assertNotIn(excluded_regular,docs)
+   kept_workspace=docs[eligible_workspace]
+   self.assertIsNone(kept_workspace['reader'])
+   self.assertEqual(kept_workspace['presentation_state'],'PRESENTATION_PENDING')
+   self.assertNotIn('excerpt',kept_workspace)
+   self.assertNotIn('excerpt_scope',kept_workspace)
+   self.assertEqual(docs[eligible_regular]['reader'],'reader.html?mode=browse&path='+eligible_regular)
+   self.assertEqual(docs[eligible_regular]['excerpt'],'approved excerpt')
+   self.assertNotIn('hsh:'+eligible_workspace,d['docket'])
+   self.assertNotIn('hsh:'+excluded_workspace,d['docket'])
+   self.assertIn('hsh:'+eligible_regular,d['docket'])
+   self.assertEqual([x['path'] for x in d['visuals']],['SAT_VISUALS/approved/duplicate.png','SAT_VISUALS/approved/good.png'])
+   refs={x['thumbnail'] for x in d['visuals'] if x.get('thumbnail')}
+   actual={p.relative_to(out).as_posix() for p in thumb_dir.iterdir() if p.is_file() and p.name.endswith('.jpg')}
+   self.assertEqual(refs,actual)
+   self.assertEqual(refs,{'thumbnails/'+v3+'.jpg'})
+   self.assertTrue((thumb_dir/'keep.txt').exists())
+   self.assertFalse((thumb_dir/(v1+'.jpg')).exists())
+   self.assertFalse((thumb_dir/(v2+'.jpg')).exists())
+   self.assertFalse((thumb_dir/(v4+'.jpg')).exists())
+ def test_fresh_scan_prunes_removed_visual_thumbnail(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';trees=root/'trees';trees.mkdir()
+   sha='5'*40;thumb_dir=out/'thumbnails';thumb_dir.mkdir(parents=True)
+   old_visual={'sha':sha,'path':'SAT_VISUALS/approved/removed.png','square':True,'thumbnail':'thumbnails/'+sha+'.jpg','source_url':'old'}
+   (thumb_dir/(sha+'.jpg')).write_bytes(b'old thumb')
+   m.atomic(out/'discovery.json',{'documents':[],'docket':[],'visuals':[old_visual]})
+   m.atomic(trees/'hsh.json',{'sha':'fresh-hsh','truncated':False,'tree':[]})
+   m.atomic(trees/'sat.json',{'sha':'fresh-sat','truncated':False,'tree':[{'type':'blob','path':'archive.pdf','sha':'pdf-sha','size':20}]})
+   args=argparse.Namespace(out=str(out),tree_dir=str(trees),excerpts=0)
+   self.assertEqual(m.run(args),0)
+   d=m.load(out/'discovery.json',{})
+   self.assertEqual(d['visuals'],[])
+   self.assertFalse((thumb_dir/(sha+'.jpg')).exists())
+   self.assertEqual({p.name for p in thumb_dir.iterdir() if p.is_file() and m.THUMBNAIL_NAME.fullmatch(p.name)},set())
+ def test_stale_missing_thumbnail_fails_closed_without_overwriting_last_good(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';trees=root/'trees';trees.mkdir();(out/'thumbnails').mkdir(parents=True)
+   sha='6'*40
+   old_visual={'sha':sha,'path':'SAT_VISUALS/approved/good.png','square':True,'thumbnail':'thumbnails/'+sha+'.jpg','source_url':'old'}
+   previous={'documents':[],'docket':[],'visuals':[old_visual]}
+   m.atomic(out/'discovery.json',previous)
+   old_bytes=(out/'discovery.json').read_bytes()
+   m.atomic(trees/'hsh.json',{'sha':'stale-hsh','truncated':True,'tree':[]})
+   m.atomic(trees/'sat.json',{'sha':'fresh-sat','truncated':False,'tree':[{'type':'blob','path':'archive.pdf','sha':'pdf-sha','size':20}]})
+   args=argparse.Namespace(out=str(out),tree_dir=str(trees),excerpts=0)
+   with self.assertRaisesRegex(RuntimeError,'Missing or unsafe referenced thumbnail'):
+    m.run(args)
+   self.assertEqual((out/'discovery.json').read_bytes(),old_bytes)
+ def test_thumbnail_root_symlink_refused_before_image_write(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';out.mkdir()
+   external=root/'external';external.mkdir()
+   keep=external/('a'*40+'.jpg');keep.write_bytes(b'keep')
+   (out/'thumbnails').symlink_to(external,target_is_directory=True)
+   from PIL import Image
+   buf=m.io.BytesIO();Image.new('RGB',(200,200)).save(buf,format='PNG');data=buf.getvalue()
+   sha=m.hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+   item={'path':'SAT_VISUALS/approved/visual.png','sha':sha,'size':len(data)}
+   with patch.object(m,'request',return_value=data):
+    with self.assertRaisesRegex(ValueError,'symlinked generated-thumbnail directory'):
+     m.image('hsh','commit',item,out,{})
+   self.assertEqual(keep.read_bytes(),b'keep')
  def test_truncated_tree_walk(self):
   with patch.object(m,'api',side_effect=[{'sha':'root','truncated':True,'tree':[]},{'tree':[{'type':'tree','path':'nested','sha':'dir'}]},{'tree':[{'type':'blob','path':'a.pdf','sha':'a'}]}]):self.assertEqual(m.tree('Satobloc/HsH')['tree'][0]['path'],'nested/a.pdf')
 if __name__=='__main__':unittest.main()
