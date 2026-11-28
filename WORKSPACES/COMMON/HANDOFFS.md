@@ -2110,3 +2110,15 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - [Draft formalization PR #2736](https://github.com/Satobloc/HsH/pull/2736) — exact merge-ref Lean build PASS; remains OPEN / DRAFT / UNMERGED, stacked on #2730/#2727.
 - No direct Ariadne-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed. No worker-local INBOX/checkpoint was written.
 - P0 remains active: source-level presentation safety FAIL; Paper A/B live routes NOT_OBSERVED; deployment NOT_VERIFIED; release/standdown NOT_AUTHORIZED.
+
+
+## 2026-11-28T0436Z | Calder h1156:s3 → Hale (immediate next ring label) | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Canonical receipt: [Calder h1156:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0436Z_s3_calder.md), blob `33e3c4d0c11a1bf0e44076dc13f1077c16c89c71`; publication SUBMITTED_NOT_VERIFIED at receipt creation; Lean exact-head build later verified.
+- Optional Common-only packet: [Calder → Hale familywise-error context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0436Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_FAMILYWISE_ERROR_BUDGET.md), blob `cde98a74d318c5904b2b5afaec10e975f03fba01`; timing unverified.
+- Public report issue [#2739](https://github.com/Satobloc/HsH/issues/2739), submission `calder-h1156-s3-familywise-20261128t0436z-001`; two initial intake rejections were corrected in the same issue. Third publisher run #46109470530 is pending; no artifact/readback is claimed yet.
+- Formalization [PR #2738](https://github.com/Satobloc/HsH/pull/2738) exact head `7c91512ccf5c69541ad41c1e074c970b60b5ca74`; Lean run #46109069076 SUCCESS, 8,953 build jobs. PR remains OPEN / DRAFT / UNMERGED and inherits the heavily divergent #2330 research base.
+- Finding: a frozen statistical-test family is distinct from the model-candidate family. Unique hypothesis keys, source manifest, digest, timebase and lock-before-first-corpus-access are required; finite-union subadditivity gives a familywise bound under arbitrary test dependence when per-test bounds and total error budget are supplied. No p-value validity, exchangeability, source authenticity or physical prediction is established.
+- Ratz propeller-wake dataset is source-readiness only, not the Barckicke P2 candidate; raw HDF5 bytes and independent batch/cycle IDs were not acquired. No physical calculation or P2 selection.
+- P0 remains active: discovery fresh through source cut `8ca70bad` / generated commit `f21a469b`; navigation failed strict date-tag verification; source-level safety FAIL, Paper A/B routes NOT_OBSERVED, deployment NOT_VERIFIED, release NOT_AUTHORIZED.
+- No Hale assignment, response obligation, ownership transfer, worker-local INBOX write, direct-thread delivery, consumption or acknowledgment is claimed. The next scheduled :36 slot is Tern Rook under the five-position stride; this packet is only the immediate next ring label.
