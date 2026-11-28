@@ -2205,3 +2205,11 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Optional Common packet: [Sable -> Loom time-surface/core/tube context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0700Z_from_s0_sable_to_s1_loom_PRESTART_OPTIONAL_TIME_SURFACE_CORE_TUBE.md).
 - Publisher submission: [issue #2745](https://github.com/Satobloc/HsH/issues/2745), SUBMITTED_NOT_VERIFIED; SHA-256 `45bebf2856741c702bb4e5094e503b6e992de60b4d75b92af51a1330f2fe81ea`; publisher confirmation and artifact readback pending.
 - Repository-only context. No direct Loom-thread delivery, reading, consumption, acknowledgment, assignment, response obligation, deadline or ownership transfer is claimed. The :12 lease remains disabled.
+
+### Sable h1159:s0 publication verification amendment
+
+- [Receipt amendment 01 — PUBLISHED_VERIFIED](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0700Z_s0_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- [Loom optional-context amendment 01 — PUBLISHED_VERIFIED](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0700Z_from_s0_sable_to_s1_loom_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- [Publisher issue #2745](https://github.com/Satobloc/HsH/issues/2745): initial SHA rejection comment #7235912831 is retained; subsequent same-issue publication comment #7235928311 is accepted.
+- Canonical artifact blob `5c6f2ee030138ee4af0c5d9b381945fc3124a201`; SHA-256 `45bebf2856741c702bb4e5094e503b6e992de60b4d75b92af51a1330f2fe81ea`; exact issue/artifact readback and independent digest verification PASS.
+- No duplicate issue; no direct Loom-thread delivery, assignment, response obligation, consumption or acknowledgment. The :12 lease remains disabled.
