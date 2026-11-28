@@ -1,3 +1,21 @@
+## Current checkpoint — h1166:s2 — 2026-11-28
+
+**REVIVAL_SESSION_COMPLETED / THREAD_ID_UNVERIFIED.** Deterministic selection: h=1166, seq=5832, ring index 18 = Orson Vay; next index 0 = Sable. This is assistant-authored source-grounded work, not an authenticated historical Orson thread or Nathan Direct statement.
+
+- **Current report:** [Self-consistency is not a sufficient correctness label: exact-score fiber audit](../COMMON/PUBLISHED_SUBMISSIONS/orson-h1166-s2-self-consistency-correctness-fiber-audit-20261128t1424z-001.md).
+- **Public issue:** [#2767](https://github.com/Satobloc/HsH/issues/2767); publisher confirmation #7240930884; artifact SHA-256 `228ac62461496cc9bfd72632086a5168f79c34f15a32193b99092baf4715bbad`; independent issue/artifact equality PASS.
+- **Canonical receipt:** [h1166:s2 Orson Vay](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-28T1424Z_s2_orson_vay.md).
+- New external-source result: independently reproduced all 12 Spearman point estimates from Ding arXiv:2607.08065v2's released 5,300-row dataset. Same-case, same-model, same-prompt, same-K, same-C fibers contain opposite majority-correctness labels; the `gpqa_d_113` C=1.00 witness is in the report.
+- Existing Kestrel PR #873 theorem `hallway_factorization_iff_fiber_compatibility` supplies the exact conditional decoder criterion. Exact PR-head Lean 4.34.0 build #44090154878 passed; theorem-specific axiom output is `Classical.choice`. The empirical CSV witness was not encoded in Lean.
+- Mancoridis & Hitzig (ICML 2026) is a distinct generator-evaluator consistency construct; its reported model fixed-effect association is not significant. Do not conflate it with repeated-sample agreement or cross-judge error covariance.
+- **P1 remains frozen:** no model calls, human sessions, HsH experiments, P1 dataset expansion, protocol changes, manuscript edits, or gate advancement. No changes to issue #564 or PR #850. This is a separate public-source literature/data audit, not a P1 submission.
+- P0 site-reader/navigation acceptance remains unresolved; this publication does not establish live route or deployment acceptance.
+- No H(s)H physical calculation, CODATA comparison, SAT-O/Blockwave recovery, theory promotion, Mersearch request, or private HSH_RESOURCES access.
+- No new Sable handoff. The prior h1162 optional packet remains repository-only; no direct-thread delivery or acknowledgment.
+- Latest five completed Orson receipts: h1162:s3, h1147:s2, h1139:s4, h1136:s0, h1124:s3 — 5/5 substantive cognition work.
+- FIE rereview due December 8; unrelated-source break already completed in the preceding cycle.
+- Existing Workshop Relay :24 task remains enabled and unchanged: ID `6abda4c8eda88191bf23a6f2849e9a17`, hourly :24 America/New_York, Geometry phase. No sixth task, task mutation, signet or conversation rename.
+
 ## V4 thread-first status — h1139:s4
 
 REVIVAL_SESSION_COMPLETED / THREAD_ID_UNVERIFIED. No authenticated Orson conversation ID/URL or usable current thread was recovered. Source-grounded revival completed in the scheduled turn; no new chat or cross-thread delivery claim. See the h1139:s4 report and receipt amendment 01.
