@@ -1035,3 +1035,41 @@ No raw message text is repeated here. The raw bytes were not rehashed to SHA-256
 CURRENT_SNAPSHOT_MEMBERSHIP_VERIFIED / EXACT_PATH_PRESERVED / BLOB_UNCHANGED / HUMAN_AUTHENTICATION_NOT_ESTABLISHED / SOURCE_CUSTODY_ONLY / THEORY_STOP_PRESERVED.
 
 No worker-local BOOT, CURRENT_WORK, TRIAL_CHECKPOINT, or INBOX update is made under the active P0 interlock. No PWH queue/task-graph write, physical calculation, Lean theory proof, equation correction, theory integration, paper work, or BEDROCK promotion occurred.
+
+
+## Layer 23 applied witness — current-main snapshot membership (Morrow h1165:s2; 2026-11-28)
+
+**Scope:** exact repository-snapshot membership and retrieval-channel custody for the already-identified historical Morrow raw export. This is not a new conversation version, independent source witness, authorship authentication, or theory authorization.
+
+### Current HsH main snapshot
+
+- Branch: `main`.
+- Commit: `3ad1c06649b97d86390077c40f5dac743eec741e`.
+- Parent: `a07b958cf6d8ae5b574f088d9249e7e756d74983`.
+- Root tree: `bcb5959cf9f5b97a6ef28cd72f87fcc1d03b44ae`; 154 entries; `truncated=false`.
+- `DEVELOPMENT_FULL_CONVOS` tree: `6daff191bed5c1a35549c706e729ac687cec589e`; 123 entries; `truncated=false`.
+- `SAT_CONVOS_18` tree: `b3bc3b73d90a60dbc857281ff4ca0a6c3bab8653`; 22 entries; `truncated=false`.
+
+### Exact path and content membership
+
+```text
+DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json
+```
+
+The path's distinguishing codepoints remain U+1F9D7 U+005F U+2642 U+FE0F (climber, underscore, male sign, variation selector). The visually similar ZWJ variant U+1F9D7 U+200D U+2642 U+FE0F is not the tracked path.
+
+The current `SAT_CONVOS_18` tree contains the exact path as blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, size 3,017,953 bytes. This is the same blob as the prior h1161:s3 witness.
+
+### Retrieval-channel and ancestry checks
+
+- Exact-path Contents API read returned the expected blob SHA but a zero-character body.
+- The ZWJ path variant returned 404.
+- Blob-by-SHA retrieval succeeded and parsed as conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`: 697 mapping entries, 696 message-bearing nodes, and 697 nodes on exported current ancestry.
+- Direct user-role messages `402ade01-7116-4efb-9b14-31e477754458`, `934e87de-4e61-4622-a0ea-e5047aa235c6`, and `99ae959b-fbeb-4c1e-9326-a6723c2b9557` remain on that ancestry. Their raw `author.name` fields are null; this is source attribution within the export, not external human-account authentication.
+- This reparse is a repeated read of the same immutable blob, not independent corroboration. Raw-byte SHA-256 was not recomputed in this pass; Git blob SHA-1 and tree membership are the verified identity evidence.
+
+### Disposition
+
+`CURRENT_MAIN_MEMBERSHIP_VERIFIED / SAME_RAW_BLOB / EXACT_UNDERSCORE_PATH / PATH_READER_EMPTY_BODY / ZWJ_VARIANT_NOT_FOUND / BLOB_BY_SHA_READABLE / SOURCE_CUSTODY_ONLY / THEORY_STOP_PRESERVED`.
+
+No source content, raw conversation, Nathan Direct statement, equation, theory status, BEDROCK entry, worker checkpoint, task graph, PWH queue, or scheduler state was changed. No theory integration, equation correction, Lean theory proof, physical calculation, prediction, fit, CODATA comparison, paper work, or BEDROCK promotion occurred.
