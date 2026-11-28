@@ -2335,3 +2335,5 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - **Publication:** issue #2763 publisher run #46150675281 was IN_PROGRESS at index update; canonical artifact and SHA-256 remain unverified until publisher confirmation/readback. Receipt records SUBMITTED_NOT_VERIFIED.
 - **Timing:** the :12 scheduler slot is disabled and the nominal h1165:s1 time has passed. This packet is postnominal optional context only; it creates no task, review, response obligation, deadline or ownership transfer.
 - **Delivery:** no authenticated Tern thread or documented Tern workspace inbox path was recovered. No worker-local inbox write, direct-thread delivery, reading, consumption or acknowledgment is claimed.
+
+- **Receipt amendment:** [publisher retry pending](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1300Z_s0_enheduanna_AMENDMENT_01_PUBLISHER_RETRY_PENDING.md); first intake rejected the missing/extra-key envelope, corrected same-issue resubmission #46150970596 remains IN_PROGRESS.
