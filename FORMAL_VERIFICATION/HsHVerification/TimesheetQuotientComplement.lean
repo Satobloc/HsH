@@ -16,6 +16,7 @@ a physical metric, or establish a worldsheet readout.
 namespace HsHVerification.TimesheetQuotientComplement
 
 open Submodule
+open Module
 
 variable {K V : Type*}
 variable [Field K] [AddCommGroup V] [Module K V]
@@ -44,18 +45,19 @@ theorem containedCoreSectorIsCompl
     change (x : V) ∈ L ∧ (x : V) ∈ W at hx
     have hxbot : (x : V) ∈ (⊥ : Submodule K V) :=
       hLW.disjoint.le_bot ⟨hx.1, hx.2⟩
-    exact Subtype.ext (Submodule.mem_bot.mp hxbot)
+    have hxzero : (x : V) = 0 := by simpa using hxbot
+    exact Subtype.ext hxzero
   · rw [codisjoint_iff_le_sup]
     intro x _
     rw [mem_sup']
     have hxLW : (x : V) ∈ L ⊔ W := by
       rw [hLW.sup_eq_top]
-      exact Submodule.mem_top _
+      simp
     rcases (mem_sup'.mp hxLW) with ⟨l, w, hsum⟩
     have hwU : (w : V) ∈ U := by
       have hxMinusL : (x : V) - (l : V) ∈ U :=
         U.sub_mem x.property (hLU l.property)
-      simpa [hsum] using hxMinusL
+      simpa [← hsum] using hxMinusL
     let lU : corePart L U :=
       ⟨⟨l, hLU l.property⟩, l.property⟩
     let wU : chosenSector U W :=
@@ -82,7 +84,7 @@ theorem quotientEquivChosenSector_apply_mk
     (hLU : L ≤ U)
     (hLW : IsCompl L W)
     (x : chosenSector U W) :
-    quotientEquivChosenSector L U W hLU hLW (Quotient.mk x) = x := by
+    quotientEquivChosenSector L U W hLU hLW (Quotient.mk (x : U)) = x := by
   simpa [quotientEquivChosenSector] using
     (Submodule.quotientEquivOfIsCompl_apply_mk_right
       (containedCoreSectorIsCompl L U W hLU hLW) x)
@@ -128,5 +130,7 @@ theorem chosenSectorFinrankTwo
 
 #print axioms containedCoreSectorIsCompl
 #print axioms quotientEquivChosenSector_apply_mk
+#print axioms quotientFinrankTwo
+#print axioms chosenSectorFinrankTwo
 
 end HsHVerification.TimesheetQuotientComplement
