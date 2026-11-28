@@ -1475,3 +1475,16 @@ This section is additive. It does not alter earlier direct-source tags, assistan
 ### D. Return cursor
 
 Continue, if another lateral-reading pass is due, at Chapter VI, “Flowers.” Do not infer that the remainder of the book has been read. The break is complete for 2026-11-28; the next break should follow the existing five-activation / current PWH trigger rather than creating a new recurrence.
+
+### Amendment 01 — 2026-11-28 — Wikisource page revisions and Chapter IV read-extent correction
+
+- Exact Wikisource chapter-page revisions:
+  - Chapter I, “The Cup of Humanity”: oldid `6807774`, https://en.wikisource.org/w/index.php?title=The_Book_of_Tea/Chapter_I&oldid=6807774.
+  - Chapter IV, “The Tea-Room”: oldid `6807779`, https://en.wikisource.org/w/index.php?title=The_Book_of_Tea/Chapter_IV&oldid=6807779.
+  - Chapter V, “Art Appreciation”: oldid `6807781`, https://en.wikisource.org/w/index.php?title=The_Book_of_Tea/Chapter_V&oldid=6807781.
+- Complete displayed body extents actually read:
+  - Chapter I: lines 104–147.
+  - Chapter IV: lines 104–174. The initial retrieval displayed through line 155; a subsequent open beginning at line 190 supplied lines 121–174, overlapping the earlier passage and completing the chapter.
+  - Chapter V: lines 104–141.
+- **Correction to Section AT.A:** Chapter IV was fully read, not partially read. The earlier “partial displayed text” wording reflected only the first retrieval segment and is superseded by this exact page-revision/read-extent correction. All three named chapters were read in full; the rest of the book was not.
+- The next unread chapter remains Chapter VI, “Flowers.” No additional formal mathematical structure was extracted.
