@@ -15,7 +15,7 @@ permissions:
   contents: write
 concurrency:
   group: public-paper-series
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -24,14 +24,28 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /PUBLIC_SITE/PAPERS/
+            /PUBLIC_SITE/generated/
+            /PUBLIC_SITE/PAPERS_FEED.json
+            /SAT_VISUALS/
+            /tools/compile_paper_tex.py
+            /tools/publish_papers.py
+          sparse-checkout-cone-mode: false
       - name: Extract compendium source packets
         if: github.event_name != 'schedule'
         run: |
-          if [ -f PUBLIC_SITE/PAPERS/_build/compendium_seed.tar.gz ]; then
-            tar -xzf PUBLIC_SITE/PAPERS/_build/compendium_seed.tar.gz -C .
-            rm -f PUBLIC_SITE/PAPERS/_build/compendium_seed.tar.gz
-            rmdir PUBLIC_SITE/PAPERS/_build 2>/dev/null || true
+          archive=PUBLIC_SITE/PAPERS/_build/compendium_seed.tar.gz
+          if [ -f "$archive" ]; then
+            if tar -tzf "$archive" >/dev/null 2>&1; then
+              tar --no-same-owner --no-same-permissions -xzf "$archive" -C .
+              rm -f "$archive"
+              rmdir PUBLIC_SITE/PAPERS/_build 2>/dev/null || true
+            else
+              echo "::warning::Skipping malformed compendium source packet archive; source files remain available in their repository locations."
+            fi
           fi
       - name: Install LaTeX toolchain
         if: github.event_name != 'schedule'
