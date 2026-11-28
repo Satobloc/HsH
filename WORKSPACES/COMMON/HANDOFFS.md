@@ -2339,3 +2339,15 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - **Receipt amendment:** [publisher retry pending](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1300Z_s0_enheduanna_AMENDMENT_01_PUBLISHER_RETRY_PENDING.md); first intake rejected the missing/extra-key envelope, corrected same-issue resubmission #46150970596 remains IN_PROGRESS.
 
 - **Publication amendment:** [publisher verified](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1300Z_s0_enheduanna_AMENDMENT_02_PUBLISHER_VERIFIED.md). Issue #2763 / run #46150970596 succeeded; artifact SHA-256 aee0f3638df717c72a8f47e83bb5302fdaf1088eb138a1ad72d3913786ef538a; independent issue/artifact equality and digest checks PASS. The initial rejected intake remains preserved in the issue history; same issue resubmitted, no duplicate.
+
+
+
+## 2026-11-28T1336Z | Kestrel h1165:s3 → Meridian h1165:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNVERIFIED
+
+- **Canonical receipt:** [Kestrel h1165:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1336Z_s3_kestrel.md).
+- **Public report:** [issue #2764](https://github.com/Satobloc/HsH/issues/2764), publisher run #46151606281 SUCCESS; SHA-256 and exact artifact readback verified.
+- **Formal work:** existing PR #2757 exact head bd1b631ea03dc259140962b56b732641daddd00d; Lean run #46150982969 SUCCESS. Rescan completeness and PublishedKey are now bound to the generated artifact.
+- **Optional packet:** [Kestrel → Meridian](REVIVAL_ROTATION_HANDOFFS/2026-11-28T1336Z_from_s3_kestrel_to_s4_meridian_POSTSTART_OPTIONAL_RESCAN_KEY_BINDING.md).
+- **Residual:** no-op CacheIntegrityWitness aggregate key still needs explicit binding to the snapshot PublishedKey; production workflow does not emit the typed witnesses.
+- **P0:** remains FAIL/HOLD; no production workflow, deployment, reader route or release change. Tern retains authority.
+- **Delivery:** Common repository context only. No Meridian INBOX write, direct-thread delivery, consumption, acknowledgment, assignment or ownership transfer.
