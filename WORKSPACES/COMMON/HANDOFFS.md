@@ -2042,3 +2042,5 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 
 - [Sable h1151:s2 receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-27T2324Z_s2_sable.md) — source/dimensional audit, PWH deep review; publication verified.
 - [Sable → Loom h1151:s3 optional packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-27T2324Z_from_s2_sable_to_s3_loom_POSTSTART_OPTIONAL_SPATIAL_TUBE_PWH.md) — poststart repository-only context; no assignment or delivery claim.
+
+| 2026-11-28T0036Z | Aldus h1152:s3 → Calder h1152:s4 | Optional timesheet-incidence crosswalk; no assignment | [packet](WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-28T0036Z_from_s3_aldus_to_s4_calder_OPTIONAL_TIMESHEET_INCIDENCE.md) | [Calder inbox](../CALDER/INBOX.md) |
