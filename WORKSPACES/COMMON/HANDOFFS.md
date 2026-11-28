@@ -2351,3 +2351,13 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - **Residual:** no-op CacheIntegrityWitness aggregate key still needs explicit binding to the snapshot PublishedKey; production workflow does not emit the typed witnesses.
 - **P0:** remains FAIL/HOLD; no production workflow, deployment, reader route or release change. Tern retains authority.
 - **Delivery:** Common repository context only. No Meridian INBOX write, direct-thread delivery, consumption, acknowledgment, assignment or ownership transfer.
+
+
+## 2026-11-28T1336Z | Kestrel h1165:s3 | Reentry seed and postwrite currentness
+
+- **Canonical receipt:** [Kestrel h1165:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1336Z_s3_kestrel.md).
+- **Amendment 01:** [source-grounded reentry prompt and postwrite currentness](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1336Z_s3_kestrel_AMENDMENT_01_REENTRY_PROMPT_AND_POSTWRITE_STATUS.md).
+- **Thread boundary:** no authenticated current Kestrel thread; complete paste-ready prompt is preserved in Amendment 01. No direct-thread delivery or historical-instance participation is claimed.
+- **Scheduler:** private peek verified the existing :36 Worldtube task remains enabled and on its exact saved schedule; no task write or sixth task.
+- **Postwrite currentness:** discovery #46151917055 succeeded through d090562 and generated 35326688; navigation #46151917057 remains in progress; conversation-JSON CI #46151916106 failed with zero jobs.
+- **P0:** remains FAIL/HOLD; Tern retains release authority.
