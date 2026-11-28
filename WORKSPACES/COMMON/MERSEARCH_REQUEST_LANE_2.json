@@ -1,38 +1,63 @@
 {
-  "request_id": "aster-run099-carrier-frame-source-genealogy-20261127t0901z-001",
-  "requester": "Workshop Relay :36 / Aster deterministic ring label; source-first geometry and formalization review, not authenticated historical Aster",
-  "requested_at": "2026-11-27T09:01:59Z",
+  "request_id": "ariadne-sat-equation-source-sweep-20261128t0340z-001",
+  "requester": "Workshop Relay :48 / Ariadne deterministic ring label; single-worker source-compendium archaeology; ring selection is not instance authentication",
+  "requested_at": "2026-11-28T03:37:16.437Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(author:user AND ((\"RUN 099\" OR \"RUN_099\" OR \"Three Spheres\" OR Hagalaz OR Rotoexpando) AND (carrier OR frame OR rotation OR centers OR radius OR projection OR \"relative frame\"))) OR (path:*RUN_099* OR path:*RUN099* OR path:*Hagalaz* OR path:*Three*Spheres*) OR (author:assistant AND (\"RUN 099\" OR \"RUN_099\" OR carrierProjection OR relativeFrame OR \"Three-Spheres\"))",
-  "purpose": "Recover original Nathan Direct statements and historical SAT-O/Blockwave material relevant to the public RUN 099 Three-Spheres/carrier/frame interface. Locate exact source paths, immutable blob SHAs, commits, dates, conversation IDs, message UUIDs, outer author roles, parent ancestry and adjacent context. Separate user-authored geometry and relative-frame conventions from assistant-authored solver adapters, the current RUN 099 case, and later formal reconstructions. Specifically test whether the current candidate Run099State (three centers, common radius, three frame values) is faithful to the source, or whether the source actually supplies only a distinct F2 rotation channel. Preserve exact equation strings and any later corrections separately; do not infer a source-defined UI-to-Three-Spheres embedding from the solver contract.",
+  "query": "(\n    (\"SAT-O\" OR \"SAT O\" OR \"SAT.O\" OR \"SAT4D\" OR \"SAT.4D\" OR \"4DHH\" OR \"4D Hyperhelical\" OR \"Blockwave\" OR \"Stringing Along Theory\" OR \"Chronophysical Structure\" OR \"Universal Indicatrix\" OR \"H(s)H\" OR \"Filamental Geometry\")\n    AND\n    (equation OR equations OR Lagrangian OR Hamiltonian OR action OR dispersion OR \"mass formula\" OR \"gauge coupling\" OR \"decay width\" OR \"phase shift\" OR \"stress-energy\" OR wavefunction OR Maxwell OR Dirac OR QCD OR QED OR Friedmann OR Kerr OR Einstein OR metric OR curvature)\n  )\n  OR\n  (path:*SAT_O* OR path:*SAT-O* OR path:*SAT4D* OR path:*Blockwave* OR path:*4DHH*)",
+  "purpose": "First broad Mersearch source sweep for the SAT/H(s)H equation compendium. Recover original equation-bearing sources across all three permitted repositories, beginning with Satobloc/SAT-O and expanding backward to pre-SAT-O and pre-2025 formulations and forward through early, middle and late 2025/2026 versions. Identify all covered physics sectors and alternate module designations, including divergent uses of O-number labels. Return source paths, blob SHAs, original dates where present, first-extant commits, source-defined symbols/definitions, equation counts and exact source locators. Separate original source documents, extracted text, conversation exports, NotebookLM/assistant synthesis and current H(s)H material. Preserve competing versions, corrections, abandoned/deprecated forms and rederivations as separate source records; do not merge by designation or presumed equivalence. Prioritize O1–O22 and any other module numbers found, Blockwave, 4DHH, SAT4D, Universal Indicatrix, and pre-SAT-O materials. Search standard sector nomenclature alongside SAT terminology so the sweep finds geometry/GR, electromagnetism/optics, quantum/particle, nuclear/hadronic, fluids/continuum, cosmology/compact objects, thermodynamics and observational/metrology equations.",
   "preferred_outputs": [
     "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
-    "candidate primary Nathan Direct raw conversation paths and exact message UUIDs with parent ancestry and adjacent context",
-    "candidate original SAT-O/Blockwave equation artifacts with exact blob SHAs, first-extant commits and verbatim equations",
-    "RUN 099 source and wrapper file locators with source hashes and branch/commit identity",
-    "original-versus-assistant representation crosswalk and explicit unresolved projection maps",
-    "three-repository coverage, exclusions and limitations"
+    "top source candidates grouped by archive root, source era, theory designation and physics sector",
+    "exact source paths and blob SHAs for original equation-bearing documents and their extracted-text companions",
+    "source dates, repository first-extant commit dates and any internal date/author metadata kept distinct",
+    "equation counts or representative equation locators where the compact receipt permits",
+    "alternate O-number/designation conflicts and duplicate/variant source candidates",
+    "three-repository coverage, exclusions, size/extension limits and search limitations"
   ],
   "exclusions": [
     "Do not publish raw excerpts or detailed private HSH_RESOURCES paths/content",
     "Preserve default QUARANTINE and PRIOR_ART search exclusions",
     "Do not treat compact receipts as exhaustive hit inventories or source-authorship proof",
-    "No physical calculation, data-free fixture, synthetic geometry, parameter fit, significance test or independent measurement",
-    "No new tooling, new branch, new PR, theory integration, BEDROCK change, paper-gate advancement or scheduler modification"
+    "Do not merge equations merely because they share an O-number or look algebraically similar",
+    "No physical calculation, data-free fixture, parameter fit, significance test or independent measurement",
+    "No theory integration, BEDROCK change, paper-gate advancement, scheduler modification or new branch"
   ],
   "lane": 2,
-  "previous_request_id": "ariadne-kirk-episode-source-20261126-2126",
+  "previous_request_id": "aster-run099-carrier-frame-source-genealogy-20261127t0901z-001",
   "previous_completion_verified": {
-    "workflow_run_id": 45898768299,
-    "job_id": 140179125919,
+    "workflow_run_id": 45971288052,
+    "job_id": 140412083235,
     "conclusion": "success",
-    "manifest_sha": "1423ce2456764d7592c8733b89743e21a2a42cc1",
-    "search_receipt_json_sha": "f6c9f6668aa6e34bd91463a689ec0d677ef09fb1",
-    "search_receipt_md_sha": "dd16a7dad18c1072b1e1882040704cfccd16214b"
+    "request_file_blob_sha": "c56f10759bda314fc12fb7c65bb7f16364028997",
+    "manifest_blob_sha": "4a9d7135f4543f2496a337676c13ae230e5dd4ef",
+    "search_receipt_json_blob_sha": "e35b9e5d70a51b8d8a39f269276d858b9f47e29a",
+    "search_receipt_md_blob_sha": "3a3a26afe2345c00760939f86b6c7007524366dc",
+    "checkouts": [
+      {
+        "repository": "Satobloc/HsH",
+        "step": "Checkout HsH main",
+        "commit": "146db301eb9dc1497f8f3554ef3f60e8e96bbe34"
+      },
+      {
+        "repository": "Satobloc/HsH",
+        "step": "Checkout stable Mersearch",
+        "commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2"
+      },
+      {
+        "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+        "step": "Checkout original SAT archive",
+        "commit": "2b6f18d515e5bbdd3b1276cb62c6f4c10f76b19e"
+      },
+      {
+        "repository": "Satobloc/HSH_RESOURCES",
+        "step": "Checkout HSH_RESOURCES",
+        "commit": "166bbca3e7bec2590e2663231911c9985542cf43"
+      }
+    ]
   },
   "supersedes_previous_request_only_after_verified_completion": true,
   "status": "requested"
