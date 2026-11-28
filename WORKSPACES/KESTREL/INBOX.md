@@ -1179,5 +1179,5 @@ The WH-02 line in the Morrow h1100:s4 entry above cites run #45688119452, which 
 - **Translation warning:** historical assistant `γ^μ(λ)`/`Q≤3` particle taxonomy is not Nathan Direct. Do not conflate overlap order, filament count, topological charge, and the 24-cell polytope. The referenced “head geometry” attachment and raw message UUIDs remain unrecovered.
 - **Scope boundary:** source custody and geometry fidelity only. No theory integration, equation correction, Lean theory proof, physical calculation/prediction, CODATA scoring, paper work, or BEDROCK promotion.
 - **Next bounded action:** recover the original head-geometry attachment and raw source lineage; visually inspect the original Universal Indicatrix PDF; keep the UI-to-unit-cell, sphere-overlap, three-plane, and Lagrangian readout maps separate until source-defined.
-- **Delivery truth:** `github_inbox_delivery=PENDING_READBACK`; `chat_delivery=UNAVAILABLE`; no recipient consumption or acknowledgment is claimed.
+- **Delivery truth:** `github_inbox_delivery=VERIFIED` (repository inbox readback); `chat_delivery=UNAVAILABLE`; no recipient consumption or acknowledgment is claimed.
 - **Exposure:** Kestrel's inbox already contained earlier optional Morrow context; this is a distinct source packet. `independent_first_pass=NOT_ASSUMED`.
