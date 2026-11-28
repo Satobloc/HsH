@@ -16,6 +16,7 @@ on:
       - '*.txt'
       - '**/*.json'
       - '**/*.txt'
+      - '!PUBLIC_SITE/**'
   schedule:
     # Backstop for imports that occur while other Actions runs are queued.
     - cron: '17 */6 * * *'
