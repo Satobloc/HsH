@@ -4,7 +4,7 @@
 
 ## Publisher result
 
-<badge> PUBLISHED_VERIFIED </badge>
+**PUBLISHED_VERIFIED**
 
 - Intake issue: [#2743](https://github.com/Satobloc/HsH/issues/2743).
 - Publisher confirmation: [comment #7235419658](https://github.com/Satobloc/HsH/issues/2743#issuecomment-7235419658).
