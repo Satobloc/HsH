@@ -990,3 +990,48 @@ The dataset page reports 17,610 rows; the upload commit title reports 500 files.
 **Execution boundary:** the installed `hf` CLI exposes `datasets info` and `datasets sql`, but its pinned-revision request failed on runtime DNS resolution. `duckdb`, `datasets`, and `pyarrow` Python packages are absent; no local HsH or Mersearch stable checkout exists. All four Mersearch request lanes remain occupied; no request was overwritten or submitted. No raw TSV or participant-level text was downloaded or analyzed.
 
 **Disposition:** `SOURCE_REVISION_PINNED / ROW_KIND_CENSUS_PENDING / SENTINEL_GROUP_AUDIT_PENDING / CONVOKIT_CONVERSION_NOT_REPRODUCED`. Next decisive operation: at the pinned revision, count row kinds per file, test `message_id=-1` against `group_id`, and separately reproduce ConvoKit dictionary construction.
+
+## Layer 21 applied witness 02 — current-main snapshot membership (Morrow h1161:s3; 2026-11-28)
+
+**Scope:** source-custody and exact locator continuity only. This does not alter Morrow's September 13 theory stop, authenticate the human account behind archived messages, authorize geometry integration, or change any theory/equation status.
+
+### Composite locator rule
+
+For a raw conversation source, keep these identities separate and bind them together in the retained locator:
+
+1. repository and immutable commit SHA;
+2. root/tree SHA and the exact path's tree membership;
+3. exact path codepoints/UTF-8 spelling;
+4. Git blob SHA and byte size;
+5. retrieval-channel result (path reader versus blob-by-SHA);
+6. conversation/node identity, author-role field, and current-ancestry evidence.
+
+A branch name alone is not an immutable snapshot; a path alone does not identify content; a blob alone does not establish membership in a particular repository snapshot. Retrieval success does not authenticate the human account. A path-reader blank response is not proof of absence when the pinned tree entry and blob-by-SHA retrieval succeed.
+
+### Applied witness — Morrow raw export in current main
+
+At the readback snapshot, main was commit 3953e9a52481a1e5499e957afe798580ea437797, parent e67494e9cc2d0001ad10e46e3d1c132a521ca3a2, root tree 4994afdb8f05ac69389fba06db0f6d68a9602615. The commit is an unsigned GitHub Actions bot refresh of PUBLIC_SITE/generated/discovery.json; it is repository snapshot metadata, not source authorship or a new conversation version.
+
+A bounded non-recursive tree walk found the exact path through complete, non-truncated subtrees:
+
+- root tree 4994afdb8f05ac69389fba06db0f6d68a9602615: 154 entries;
+- DEVELOPMENT_FULL_CONVOS tree 6daff191bed5c1a35549c706e729ac687cec589e: 123 entries;
+- SAT_CONVOS_18 tree b3bc3b73d90a60dbc857281ff4ca0a6c3bab8653: 22 entries.
+
+Exact path (preserve the underscore):
+
+~~~text
+DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json
+~~~
+
+The climber/underscore/male-sign/variation-selector sequence is U+1F9D7 U+005F U+2642 U+FE0F, not the visually similar ZWJ sequence U+1F9D7 U+200D U+2642 U+FE0F.
+
+The tree entry remains blob ee394b446b2e36d35fd1e5ecd004685c0422457b, size 3,017,953 bytes. Blob-by-SHA retrieval and JSON parsing succeeded. The export has 697 mapping entries, 696 message-bearing nodes, and 697 nodes on its exported current ancestry. Direct user-role records 402ade01-7116-4efb-9b14-31e477754458, 934e87de-4e61-4622-a0ea-e5047aa235c6, and 99ae959b-fbeb-4c1e-9326-a6723c2b9557 are all on that ancestry; each has author.name=null. This supports attribution within the export, not external human-account authentication.
+
+No raw message text is repeated here. The raw bytes were not rehashed to SHA-256 in this pass; the Git blob SHA-1 is the verified object identifier. The blob is unchanged from Layer 21. This is a later repository-snapshot membership witness, not a new source version or an independent conversation witness.
+
+### Disposition
+
+CURRENT_SNAPSHOT_MEMBERSHIP_VERIFIED / EXACT_PATH_PRESERVED / BLOB_UNCHANGED / HUMAN_AUTHENTICATION_NOT_ESTABLISHED / SOURCE_CUSTODY_ONLY / THEORY_STOP_PRESERVED.
+
+No worker-local BOOT, CURRENT_WORK, TRIAL_CHECKPOINT, or INBOX update is made under the active P0 interlock. No PWH queue/task-graph write, physical calculation, Lean theory proof, equation correction, theory integration, paper work, or BEDROCK promotion occurred.
