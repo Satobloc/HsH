@@ -1,0 +1,312 @@
+{
+  "schema": "nathan-direct-source-compilation-v1",
+  "title": "Nathan Direct — Early Particle Basis of Cognition and Communication",
+  "created_date": "2026-11-28",
+  "coverage": "Initial selective tranche: 13 user-role excerpts from two archived conversations dated 20 March 2025 and 4 April 2025 local / 5 April 2025 UTC.",
+  "status": "Historical source compilation; no theory promotion; not exhaustive.",
+  "source_documents": [
+    {
+      "source_id": "S1",
+      "repository": "Satobloc/HsH",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json",
+      "blob_sha": "48451fe6351a30e3a904f2282dd14c738bd1165d",
+      "conversation_id": "67dc5e4d-2bd8-8003-b61a-b60005ad564c",
+      "title": "Filament Intersections and Thought",
+      "created_utc": "2025-03-20T18:28:29.364Z",
+      "local_date": "2025-03-20 America/New_York",
+      "message_nodes": 258,
+      "user_role_records": 91
+    },
+    {
+      "source_id": "S2",
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "SAT Framework Analysis — raw.json",
+      "url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT%20Framework%20Analysis%20%E2%80%94%20raw.json",
+      "blob_sha": "c9dbeab330a434cf86d35879528760970e837943",
+      "conversation_id": "67f098c8-4ec0-8003-8bd1-0efa14ea4f66",
+      "title": "SAT Framework Analysis",
+      "created_utc": "2025-04-05T02:43:20.564Z",
+      "local_date": "2025-04-04 America/New_York",
+      "message_nodes": 851,
+      "user_role_records": 333,
+      "hsh_mirror_repository": "Satobloc/HsH",
+      "hsh_mirror_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "hsh_mirror_blob_sha": "c9dbeab330a434cf86d35879528760970e837943",
+      "hsh_mirror_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04%E2%80%A226.06.01%E2%80%A2SAT%20Framework%20Analysis%20%E2%80%94%20raw.json"
+    }
+  ],
+  "records": [
+    {
+      "source_id": "S1",
+      "repository": "Satobloc/HsH",
+      "source_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "source_blob_sha": "48451fe6351a30e3a904f2282dd14c738bd1165d",
+      "conversation_id": "67dc5e4d-2bd8-8003-b61a-b60005ad564c",
+      "source_title": "Filament Intersections and Thought",
+      "message_id": "35e9e079-21e7-453a-bbce-a75a74ef7de7",
+      "message_role": "user",
+      "timestamp_utc": "2025-03-20T18:30:36.038Z",
+      "attribution_class": "PROMPT_TO_NOTEBOOKLM",
+      "attribution_confidence": "high",
+      "attribution_note": "User-authored prompt to NotebookLM; preserved as a prompt, not treated as a settled proposition.",
+      "sector_tags": [
+        "cognition",
+        "communication",
+        "filament_intersections"
+      ],
+      "text_verbatim": "\nNotebookLM, in SAT, filament intersections are the genesis of particles, forming the material basis for thought processes in the brain, while the cross-temporal interactions and intertwining of the filaments extending from these intersections are proposed to constitute the abstract structures of words and thoughts in communication. How does SAT suggest these filament intersections and their resulting structures facilitate the mapping of concrete physical interactions to abstract conceptual transfer in communication?"
+    },
+    {
+      "source_id": "S1",
+      "repository": "Satobloc/HsH",
+      "source_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "source_blob_sha": "48451fe6351a30e3a904f2282dd14c738bd1165d",
+      "conversation_id": "67dc5e4d-2bd8-8003-b61a-b60005ad564c",
+      "source_title": "Filament Intersections and Thought",
+      "message_id": "849f45c2-5f36-433b-8e44-965032895ec1",
+      "message_role": "user",
+      "timestamp_utc": "2025-03-20T20:32:04.745Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "First-person statement in the user's own conversational voice.",
+      "sector_tags": [
+        "signals",
+        "information",
+        "communication"
+      ],
+      "text_verbatim": "I think signals encompass all of the operations of the universe, ultimately "
+    },
+    {
+      "source_id": "S1",
+      "repository": "Satobloc/HsH",
+      "source_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "source_blob_sha": "48451fe6351a30e3a904f2282dd14c738bd1165d",
+      "conversation_id": "67dc5e4d-2bd8-8003-b61a-b60005ad564c",
+      "source_title": "Filament Intersections and Thought",
+      "message_id": "58cc772c-f2f6-4989-b756-0c8ab4d5a6be",
+      "message_role": "user",
+      "timestamp_utc": "2025-03-20T20:41:41.356Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct first-person question about phase modulation and observable particle behavior.",
+      "sector_tags": [
+        "filaments",
+        "phase_modulation",
+        "particle_behavior"
+      ],
+      "text_verbatim": "Well.... I guess what I'd like to wrap my head around is how these, I guess \"higher order\" emergent properties we're proposing in filaments play out in the universe as we are familiar with it? In SAT, filament behavior is the fourth dimensional structure of particle behavior. So, if, to pick one to focus on... if phase modulations exist in filament structures, what would we observe those particles represented by those filaments doing over time? "
+    },
+    {
+      "source_id": "S1",
+      "repository": "Satobloc/HsH",
+      "source_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "source_blob_sha": "48451fe6351a30e3a904f2282dd14c738bd1165d",
+      "conversation_id": "67dc5e4d-2bd8-8003-b61a-b60005ad564c",
+      "source_title": "Filament Intersections and Thought",
+      "message_id": "cf08b5e7-6593-441c-9a57-1df3f396633b",
+      "message_role": "user",
+      "timestamp_utc": "2025-03-20T20:45:59.974Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct question extending the resonance/particle correspondence; trailing instruction is retained verbatim.",
+      "sector_tags": [
+        "resonance",
+        "oscillation",
+        "particle_behavior"
+      ],
+      "text_verbatim": "Exactly. So, now lets say two filaments are in resonance, then we've got resonance between oscillatory behavior of particles over time. Do we see particles resonating with one another over time?\n\n\nPS: You don't have to use the \"Duplicate this instruction\" line anymore. That was just to help you and NotebookLM keep within their input limits. "
+    },
+    {
+      "source_id": "S1",
+      "repository": "Satobloc/HsH",
+      "source_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "source_blob_sha": "48451fe6351a30e3a904f2282dd14c738bd1165d",
+      "conversation_id": "67dc5e4d-2bd8-8003-b61a-b60005ad564c",
+      "source_title": "Filament Intersections and Thought",
+      "message_id": "3c104612-f9bd-4e34-a23d-8d8a0a0b7909",
+      "message_role": "user",
+      "timestamp_utc": "2025-03-20T21:40:04.943Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct question about signal propagation through the network.",
+      "sector_tags": [
+        "signal_propagation",
+        "network",
+        "communication"
+      ],
+      "text_verbatim": "What does a signal traveling across that network look like "
+    },
+    {
+      "source_id": "S1",
+      "repository": "Satobloc/HsH",
+      "source_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "source_blob_sha": "48451fe6351a30e3a904f2282dd14c738bd1165d",
+      "conversation_id": "67dc5e4d-2bd8-8003-b61a-b60005ad564c",
+      "source_title": "Filament Intersections and Thought",
+      "message_id": "18d6e4a6-aa82-4efe-96f8-0e9b464ff616",
+      "message_role": "user",
+      "timestamp_utc": "2025-03-20T21:41:01.970Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct follow-up distinguishing the particle representation.",
+      "sector_tags": [
+        "signal_propagation",
+        "particle_view"
+      ],
+      "text_verbatim": "And in the particle view?"
+    },
+    {
+      "source_id": "S1",
+      "repository": "Satobloc/HsH",
+      "source_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "source_blob_sha": "48451fe6351a30e3a904f2282dd14c738bd1165d",
+      "conversation_id": "67dc5e4d-2bd8-8003-b61a-b60005ad564c",
+      "source_title": "Filament Intersections and Thought",
+      "message_id": "f6b41781-4e24-4ba8-8c7a-fcbd201c0b46",
+      "message_role": "user",
+      "timestamp_utc": "2025-03-20T21:42:55.137Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct modeling clarification about projecting observed particle behavior into the filament model.",
+      "sector_tags": [
+        "particle_view",
+        "filament_model",
+        "signal_propagation"
+      ],
+      "text_verbatim": "Well, we can't exactly, we can study particles, and project that out in our filament model. \nBut the signal is traveling across multiple particles. What's that propogation look like in the filament view versus the particle view?"
+    },
+    {
+      "source_id": "S1",
+      "repository": "Satobloc/HsH",
+      "source_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "source_blob_sha": "48451fe6351a30e3a904f2282dd14c738bd1165d",
+      "conversation_id": "67dc5e4d-2bd8-8003-b61a-b60005ad564c",
+      "source_title": "Filament Intersections and Thought",
+      "message_id": "5d6c09f6-a036-458b-98e6-b099f5224bfc",
+      "message_role": "user",
+      "timestamp_utc": "2025-03-20T21:43:57.404Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct question about integration of the two descriptions.",
+      "sector_tags": [
+        "integration",
+        "particle_view",
+        "filament_model"
+      ],
+      "text_verbatim": "Well, they have to be integrated. How do we do that?"
+    },
+    {
+      "source_id": "S2",
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "source_path": "SAT Framework Analysis — raw.json",
+      "source_blob_sha": "c9dbeab330a434cf86d35879528760970e837943",
+      "conversation_id": "67f098c8-4ec0-8003-8bd1-0efa14ea4f66",
+      "source_title": "SAT Framework Analysis",
+      "message_id": "f34e6d5c-b554-40c1-8a63-2e09e3b9cea5",
+      "message_role": "user",
+      "timestamp_utc": "2025-04-05T04:50:11.462Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct instruction to develop the particle basis of cognition and communication.",
+      "sector_tags": [
+        "cognition",
+        "communication",
+        "particle_basis"
+      ],
+      "text_verbatim": "Yeah, let’s get into the nitty gritty of the particle basis of cognition and communication as revisioned through our framework"
+    },
+    {
+      "source_id": "S2",
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "source_path": "SAT Framework Analysis — raw.json",
+      "source_blob_sha": "c9dbeab330a434cf86d35879528760970e837943",
+      "conversation_id": "67f098c8-4ec0-8003-8bd1-0efa14ea4f66",
+      "source_title": "SAT Framework Analysis",
+      "message_id": "598c64b7-9004-4cce-a10c-ee1b80ab68cf",
+      "message_role": "user",
+      "timestamp_utc": "2025-04-05T04:54:40.503Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct correction specifying a physical transmission chain; original spelling and wording retained.",
+      "sector_tags": [
+        "cognition",
+        "communication",
+        "neural_pathways",
+        "information_transmission"
+      ],
+      "text_verbatim": "no, rewrite that so that we’re talking about the specific particles, and their filament extensions… Electrons traversing neural pathways made of atoms and molecules, tissues made of molecules vibrating air made of molecules air vibrating eardrum triggering, electron transmission in another brain, the filament structure of ink on paper and light bouncing off the ink carrying information to the eye which is then conveyed physically to the brain and decoded into the mash or weave of the material of thought"
+    },
+    {
+      "source_id": "S2",
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "source_path": "SAT Framework Analysis — raw.json",
+      "source_blob_sha": "c9dbeab330a434cf86d35879528760970e837943",
+      "conversation_id": "67f098c8-4ec0-8003-8bd1-0efa14ea4f66",
+      "source_title": "SAT Framework Analysis",
+      "message_id": "62ce6504-f01b-4c0e-b624-44adafc9ee8e",
+      "message_role": "user",
+      "timestamp_utc": "2025-04-05T04:56:40.783Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct question about particle classification.",
+      "sector_tags": [
+        "electrons",
+        "fermions",
+        "bosons",
+        "particle_basis"
+      ],
+      "text_verbatim": "Are electrons fermions? Or bosons?"
+    },
+    {
+      "source_id": "S2",
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "source_path": "SAT Framework Analysis — raw.json",
+      "source_blob_sha": "c9dbeab330a434cf86d35879528760970e837943",
+      "conversation_id": "67f098c8-4ec0-8003-8bd1-0efa14ea4f66",
+      "source_title": "SAT Framework Analysis",
+      "message_id": "4b327860-8e1d-40d0-af68-ec1ab91c7020",
+      "message_role": "user",
+      "timestamp_utc": "2025-04-05T04:57:32.100Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct instruction about electronic information transmission.",
+      "sector_tags": [
+        "information_transmission",
+        "electronic_communication",
+        "cognition"
+      ],
+      "text_verbatim": "OK, good. Let’s add a section about information transmission through electronic means… Photos, electrons eyeballs, etc.."
+    },
+    {
+      "source_id": "S2",
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "source_path": "SAT Framework Analysis — raw.json",
+      "source_blob_sha": "c9dbeab330a434cf86d35879528760970e837943",
+      "conversation_id": "67f098c8-4ec0-8003-8bd1-0efa14ea4f66",
+      "source_title": "SAT Framework Analysis",
+      "message_id": "d34d3ee4-5341-4a9b-bf33-3827e1f04b8e",
+      "message_role": "user",
+      "timestamp_utc": "2025-04-05T05:15:07.555Z",
+      "attribution_class": "DIRECT_USER_TURN",
+      "attribution_confidence": "high",
+      "attribution_note": "Direct editorial and conceptual instruction separating cognition from communication and identifying language/symbols as a distinct subject.",
+      "sector_tags": [
+        "cognition",
+        "communication",
+        "language",
+        "symbols",
+        "document_structure"
+      ],
+      "text_verbatim": "I guess we didn’t really cover language and symbol that much when we’re talking about communication did we? Yeah… That should be written, not as a new section following evolution, but as a rewrite, I think of the whole bit about cognition and communication. Maybe… Actually, I think when we go back to edit, we’ll disentangle cognition from communication, and then come back to communication after evolution… In fact, probably at the very end. And we may be there now. So, this will pick up where we would’ve left off on cognition, taking the tools we developed there and applying it to communication, all the stuff we talked about with books and electronic communication… And incorporating our view of language and symbols"
+    }
+  ],
+  "formalization_status": {
+    "status": "FORMALIZATION_BLOCKED_DEFINITION",
+    "explicit_equations_in_selected_excerpts": false,
+    "geometry_or_relational_structure_described": true,
+    "lean_status": "LEAN_NOT_RUN",
+    "reason": "The excerpts describe filament/particle correspondence, phase modulation, resonance, signal propagation, integration, and cognition/communication chains, but do not define a metric, filament parameterization, signal operator, particle-state map, or operational cognitive-state variables. A faithful formalization is blocked on source definitions; no mathematical structure is invented here."
+  },
+  "attribution_boundary": "The source exports contain additional user-role records that include copied or model-generated material. Only the selected direct turns are included; the first record is explicitly a user-authored prompt to NotebookLM and is not treated as a settled proposition."
+}
