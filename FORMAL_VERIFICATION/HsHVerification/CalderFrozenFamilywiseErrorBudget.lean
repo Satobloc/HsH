@@ -58,11 +58,11 @@ theorem frozenFamilywiseError_le_budget
     (family : FrozenStatisticalTestFamily)
     (μ : OuterMeasure Ω)
     (reject : String → Set Ω)
-    (perTestBudget totalBudget : ℝ≥0∞)
+    (perTestBudget totalBudget : ENNReal)
     (hEach : ∀ key ∈ family.hypothesisKeys,
       μ (reject key) ≤ perTestBudget)
     (hTotal :
-      (family.hypothesisKeys.card : ℝ≥0∞) * perTestBudget ≤ totalBudget) :
+      (family.hypothesisKeys.card : ENNReal) * perTestBudget ≤ totalBudget) :
     family.lockedAt < family.firstExternalCorpusAccessAt ∧
       μ (anyFamilyRejection family reject) ≤ totalBudget := by
   refine ⟨family.lockedBeforeFirstCorpusAccess, ?_⟩
@@ -73,7 +73,7 @@ theorem frozenFamilywiseError_le_budget
       measure_biUnion_finset_le family.hypothesisKeys reject
     _ ≤ ∑ key ∈ family.hypothesisKeys, perTestBudget := by
       exact Finset.sum_le_sum fun key hkey => hEach key hkey
-    _ = (family.hypothesisKeys.card : ℝ≥0∞) * perTestBudget := by
+    _ = (family.hypothesisKeys.card : ENNReal) * perTestBudget := by
       simp
     _ ≤ totalBudget := hTotal
 
