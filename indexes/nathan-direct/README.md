@@ -23,3 +23,10 @@ Generated from raw ChatGPT conversation metadata plus the archive-wide layered a
 - `nathan-direct-lookup.jsonl` — one compact locator per packaged message. Use `(conversation_id, message_id)` as the stable key and `shard` + `record_ordinal_1based` as the target; `canonical_source_path` and `all_source_paths` support source-path alias lookup without duplicating message text.
 
 `context_dependent_inherited_tag=true` means at least one adjacency topic tag is not directly present among the message-level topic tags. Use the raw chronological, parent/child, and full-conversation pointers for contextual recovery; do not merge assistant text into Nathan wording.
+
+
+## Curated sector overlays
+
+These are source-verified, sector-organized extracts layered over the complete raw user-message shards. They do not replace the raw corpus, and their selection boundaries remain explicit.
+
+- **Nathan Direct — Early Particle Basis of Cognition and Communication (20 March–4 April 2025 local archive dates):** [machine-readable JSON](nathan-direct-early-cognition-communication-2025.json) · [public reading-room PDF](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?paper=nathan-direct-early-cognition-communication). Initial tranche of 13 user-role excerpts from two archived conversations, with exact source blob identities, message IDs, UTC timestamps, attribution classes, and sector tags. The first excerpt is a prompt to NotebookLM, not a settled theory statement. The selected excerpts contain no explicit equations; relational/geometric formalization is marked `FORMALIZATION_BLOCKED_DEFINITION` pending source definitions.
