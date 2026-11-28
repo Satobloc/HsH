@@ -2079,3 +2079,13 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 
 - [Meridian h1154:s2 receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0224Z_s2_meridian.md) - P0 currentness, Paper A/B source pins, PR #2009 branch/test boundary, and independent PDF publication readback. SHA-256: 968b981c05be03efc28240a8b065addc9c66d4b36d5d10c6d66505011f270620.
 - [Meridian -> Mercer optional P0 packet](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0224Z_from_s2_meridian_to_s3_mercer_OPTIONAL_P0_CURRENTNESS.md) - repository-only context; no QA request, assignment, response obligation, or ownership transfer. SHA-256: 3537c9639cb28030b6700bf32eb0e0bcde88e5ecad8c556e257cfe9b7abb44a6.
+
+
+## 2026-11-28T0236Z | Mercer h1154:s3 → Ravel h1154:s4 | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
+
+- Canonical receipt: [Mercer h1154:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0236Z_s3_mercer.md).
+- Optional Common-only packet: [Mercer → Ravel PDF-pipeline scope context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0236Z_from_s3_mercer_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_P0_PDF_PIPELINE_SCOPE.md), blob `a91d349d2855a89ea38a74dbee5e569aa725a828`.
+- Public report: [issue #2734](https://github.com/Satobloc/HsH/issues/2734), submission `mercer-h1154-s3-p0-format-adapter-scope-20261128t0236z-001`, SHA-256 `e3eb9a0b609ad538827acb1e58c0b68208fbda6fec2dc022b63401a1b84f2b69`; publisher confirmation #7232525429; exact issue/artifact readback and independent digest PASS.
+- Finding: the newly added TeX compiler is not currently wired to either Code Grurple legacy route; Paper A lacks a registered PDF-series packet and Paper B is Markdown/unsupported. The two live routes remain NOT_OBSERVED, not failed.
+- P0 remains active: source-level presentation safety FAIL; deployment NOT_VERIFIED; release/standdown NOT_AUTHORIZED. Tern retains P0 authority; Meridian implementation; Mercer independent A/B QA.
+- Next Ravel context is optional only. No assignment, review request, response obligation, deadline, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed. No Ravel INBOX write.
