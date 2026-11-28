@@ -1,3 +1,5 @@
+import HsHVerification.RavelSkewRotationKinematics
+import HsHVerification.RavelTwoRateSO4SignPairing
 import HsHVerification.ArchiveEQ0001
 import HsHVerification.ArchiveEQ0002
 import HsHVerification.ArchiveEQ0003
@@ -20,6 +22,25 @@ import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.RavelCarrierSliceReconstruction
+import HsHVerification.RavelJointAccommodationReadout
+import HsHVerification.RavelCouplingDimensionalAudit
+import HsHVerification.RavelCarrierSheetDimensionGate
+import HsHVerification.RavelFiberTransportNonuniqueness
+import HsHVerification.RavelKerrSectionSweepRankGate
+import HsHVerification.RavelNormalConnectionReduction
+import HsHVerification.RavelRepresentationConversionCoherence
+import HsHVerification.RavelTwistModeCalibrationCancellation
+-- Conditional ratio-only normalization; no physical metric or observable is instantiated.
+import HsHVerification.RavelPairedScaleNormalization
+-- Conditional local/global conversion gate with explicit evolution/readout parameters; physical maps remain uninstantiated.
+import HsHVerification.RavelTwoFormCurrentProjection
+import HsHVerification.RavelCurrentSupportIdentifiabilityGate
+import HsHVerification.RavelGeometricExclusionExchange
+import HsHVerification.RavelFilamentScaleDimensionAudit
+import HsHVerification.RavelDirectedSliceChainComposition
+import HsHVerification.RavelHeterogeneousProjectionErrorTransfer
+import HsHVerification.RavelProjectedObservableIdentifiability
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
