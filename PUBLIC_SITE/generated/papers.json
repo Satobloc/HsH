@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": "5406c85f6ce3ab5d3ec6dbef54eab697ff3c0135",
-  "updated": "2026-11-28T05:09:44+00:00",
-  "content_hash": "82e0afd5e7e959eaa224afe64d40d8373cc647a71617debfc678c9aabcdf8cf4",
+  "revision": "7012a468cc76cb911db2310734ae9c435ef37a6d",
+  "updated": "2026-11-28T09:04:30+00:00",
+  "content_hash": "707e0d0d0fc488213ca7d57b464b33c621ef8a823e3bfe264e0b339e1d1e31c1",
   "papers": [
     {
       "id": "nathan-direct-geometry-projection",
@@ -15,7 +15,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-geometry-projection/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/nathan-direct-geometry-projection/source.tex",
-      "pdf_sha256": "5e4cf2c5892a8dd8559c9cdf1974009328a55aa1b050cdd86081c64ea7bcdfaa",
+      "pdf_sha256": "61f1b43883e6d447ae44a0daa33cc7852769159ffb0341c25c95f76a0df95cff",
       "metadata_path": "PUBLIC_SITE/PAPERS/nathan-direct-geometry-projection/paper.json",
       "addenda": [],
       "reader_id": "nathan-direct-geometry-projection"
@@ -31,10 +31,26 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-gauge-topology/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/nathan-direct-gauge-topology/source.tex",
-      "pdf_sha256": "8e390a59742d711389a0b79ada942be1604e5cd24657a2d76f0669f000437179",
+      "pdf_sha256": "13d8869ab46fddeeded5caeec2bba9a4f0e74a39f45c65179487810ddc005ed3",
       "metadata_path": "PUBLIC_SITE/PAPERS/nathan-direct-gauge-topology/paper.json",
       "addenda": [],
       "reader_id": "nathan-direct-gauge-topology"
+    },
+    {
+      "id": "nathan-direct-early-cognition-communication",
+      "title": "Nathan Direct — Early Particle Basis of Cognition and Communication",
+      "preface": "Thirteen selected user-role excerpts from two archived conversations dated 20 March 2025 and 4 April 2025 local / 5 April 2025 UTC. Original wording, punctuation, UTC timestamps and source message identifiers are retained. The first excerpt is a user-authored prompt to NotebookLM and is identified as a prompt, not a settled proposition. Copied model-generated text is excluded. This is an initial selective source tranche, not an exhaustive corpus.",
+      "status": "historical source compilation; direct user-role excerpts; no theory promotion",
+      "date": "2026-11-28",
+      "authors": [
+        "Archive source compilation"
+      ],
+      "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-early-cognition-communication/paper.pdf",
+      "source": "PUBLIC_SITE/PAPERS/nathan-direct-early-cognition-communication/source.tex",
+      "pdf_sha256": "c63dd860d788b1fac3db7ecd1889e0b83ba54bfc62cfcb96be755efa676ca071",
+      "metadata_path": "PUBLIC_SITE/PAPERS/nathan-direct-early-cognition-communication/paper.json",
+      "addenda": [],
+      "reader_id": "nathan-direct-early-cognition-communication"
     },
     {
       "id": "nathan-direct-blockwave-metric-sm",
@@ -47,7 +63,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-blockwave-metric-sm/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/nathan-direct-blockwave-metric-sm/source.tex",
-      "pdf_sha256": "8ddf19e31a5013a13211122c842e0b02468f80b005f8733ed97fcbe926c1d948",
+      "pdf_sha256": "c39a8377dee5fcc1c48eaeb202f6b06dc40c0a6ca8eceb0fdfd5bfa0df27887c",
       "metadata_path": "PUBLIC_SITE/PAPERS/nathan-direct-blockwave-metric-sm/paper.json",
       "addenda": [],
       "reader_id": "nathan-direct-blockwave-metric-sm"
@@ -63,7 +79,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/sat-gravity-metric/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/sat-gravity-metric/source.tex",
-      "pdf_sha256": "be98ff266dba7ef60a639859f5a09c7105a890c5b563d7808a41d99ffcb2bd79",
+      "pdf_sha256": "71c7bf527dd5fa42a4f9dd123900293fe54280475c829d6b5a85689c89c36a55",
       "metadata_path": "PUBLIC_SITE/PAPERS/sat-gravity-metric/paper.json",
       "addenda": [],
       "reader_id": "sat-gravity-metric"
@@ -79,7 +95,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/source.tex",
-      "pdf_sha256": "8f38c4a0bd5f7297353d45753b7f55984e2d92fe683c656461b42e1fab207adf",
+      "pdf_sha256": "5f74421e12310be309cb3bbc20567e03fac96b218eacf35d72e55a7e27eaaacd",
       "metadata_path": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.json",
       "addenda": [],
       "reader_id": "sat-geometry-kinematics-time"
@@ -95,7 +111,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/sat-gauge-topology/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/sat-gauge-topology/source.tex",
-      "pdf_sha256": "10a02a2e7734a146bb554e7d817ee1a17c08e04d1e490dee1777c771a5bff244",
+      "pdf_sha256": "24147f316a7c9fdc67b20141007761c6a4f166306384637a0f1a9223d42d5b38",
       "metadata_path": "PUBLIC_SITE/PAPERS/sat-gauge-topology/paper.json",
       "addenda": [],
       "reader_id": "sat-gauge-topology"
@@ -111,7 +127,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/source.tex",
-      "pdf_sha256": "3aaddc806397dd9778069e78321e274ba0d43fd515c5bd9a6d2a8d9c0ad85052",
+      "pdf_sha256": "47ba69f3186c7035e73db06cebd9acf2c215e586b7d1c898872bc2ebd670a888",
       "metadata_path": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.json",
       "addenda": [],
       "reader_id": "nathan-direct-projection-angle"
