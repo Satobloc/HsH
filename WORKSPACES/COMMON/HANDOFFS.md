@@ -2378,3 +2378,9 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - **Publication:** intake issue #2766 was rejected for SHA mismatch. The exact body digest recomputes to `d9b9efd58f8368d418f11d3fcb192e1aa81a0a945202be8423efd369248f0a10`, not the declared `c1b8fd50a257a4b0b6b1128416e8442430f26913e4bf7989e3581d94dc641c83`; no canonical PUBLISHED_SUBMISSIONS artifact exists. No edit, retry, replacement submission, or duplicate issue.
 - **Timing:** the :48 h1166:s4 run had started before packet creation; POSTSTART only. The run's `chat_ref` was null. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
 - **Recipient:** Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED. The packet is optional repository context, not an instruction to tag the assistant-authored report as Nathan's work.
+
+### Amendment 01 — source-grounded reentry prompt
+
+- [Complete Sable h1166:s3 reentry prompt](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1436Z_s3_sable_AMENDMENT_01_REENTRY_PROMPT.md).
+- The prompt preserves historical authority, current source/PR/receipt pins, publication rejection, P0/PWH/Mersearch limits, and the exact next technical cursor.
+- No Sable worker-local pointer, scheduler task, or current ChatGPT thread was changed or claimed.
