@@ -5,10 +5,22 @@
   "headline": "SAT / H(s)H Source Compendium",
   "summary": "The active compilation phase is consolidating archived SAT/SAT-O/Blockwave/H(s)H equations into a source-linked, sector-organized library while harvesting Nathan Direct commentary in parallel. First tranche: 69 equation occurrences across 15 source documents, six sector PDFs, and a 10-message projection-angle extract. Archive coverage remains incomplete; inclusion does not promote a theory claim.",
   "controlling_sources": [
-    "BEDROCK.md",
-    "PUBLIC_SITE/PAPERS_FEED.json",
-    "PUBLIC_SITE/generated/papers.json",
-    "PUBLIC_SITE/PAPERS/README.md"
+    {
+      "path": "BEDROCK.md",
+      "role": "premise and theory-status authority"
+    },
+    {
+      "path": "PUBLIC_SITE/PAPERS_FEED.json",
+      "role": "source-compilation reading-gallery entries"
+    },
+    {
+      "path": "PUBLIC_SITE/generated/papers.json",
+      "role": "published PDF-series index"
+    },
+    {
+      "path": "PUBLIC_SITE/PAPERS/README.md",
+      "role": "paper-series publication contract"
+    }
   ],
   "priority_stack": [
     {
@@ -46,11 +58,16 @@
       "lane": "source compilation",
       "description": "Sector-organized source-equation PDFs and a companion Nathan Direct source extract. First coverage tranche; original archive citations and source links are retained.",
       "sources": [
+        "reader.html",
         "PUBLIC_SITE/generated/papers.json",
         "PUBLIC_SITE/PAPERS_FEED.json",
         "reader.html?paper=sat-geometry-kinematics-time"
       ]
     }
   ],
-  "display_notes": "Source compilation only. Inclusion does not promote a theory claim or imply physical validation."
+  "display_notes": [
+    "This is a source-compilation phase; equation inclusion does not promote theory claims or imply physical validation.",
+    "The first tranche is incomplete; archive coverage and Nathan Direct attribution remain in progress.",
+    "Original source citations and links appear in the sector documents."
+  ]
 }
