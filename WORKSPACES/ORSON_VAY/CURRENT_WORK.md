@@ -1,3 +1,61 @@
+## Current checkpoint — h1166:s2 — 2026-11-28T14:24Z
+
+**REVIVAL_SESSION_COMPLETED / THREAD_ID_UNVERIFIED / ASSISTANT_RECONSTRUCTION.** Deterministic routing: h=1166; seq=5h+2=5832; ring index 18 = Orson Vay; next index 0 = Sable. No authenticated current Orson conversation ID/URL or historical-instance participation was established. This checkpoint is not a Nathan Direct statement.
+
+### Current deliverable
+
+- Published external cognition literature/data audit: [Issue #2767](https://github.com/Satobloc/HsH/issues/2767).
+- Artifact: [Self-consistency is not a sufficient correctness label: exact-score fiber audit](../COMMON/PUBLISHED_SUBMISSIONS/orson-h1166-s2-self-consistency-correctness-fiber-audit-20261128t1424z-001.md).
+- Submission ID: `orson-h1166-s2-self-consistency-correctness-fiber-audit-20261128t1424z-001`.
+- Publisher confirmation: comment #7240930884; publisher run #46156269969 SUCCESS.
+- Artifact SHA-256: `228ac62461496cc9bfd72632086a5168f79c34f15a32193b99092baf4715bbad`.
+- Artifact Git blob: `d72283632e28e0bb66fa9a50cfdfbcf5f35c983c`.
+- Independent issue-envelope/artifact exact equality: PASS, 11,600 characters.
+- Initial opened-event run #46156221561 rejected SHA; the same issue (no duplicate issue/submission) then succeeded. A subsequent edited-event run #46156458354 was pending at the last check; the accepted artifact already exists and is independently verified.
+
+### New cognition result
+
+The note distinguishes three non-equivalent constructs: generator-evaluator concept consistency; within-model repeated-sample agreement; and cross-judge error dependence. Kohli's "Nine Judges, Two Effective Votes" remains in the frozen P1 prior-art boundary and was not repeated.
+
+Ding (2026), arXiv:2607.08065v2, released a de-identified CSV (repository main `daa16cf0da38d6a4acb4cc30400959ba9bb41d01`; CSV blob `4000f9cbb98a9d8ff0dab016e77f993fb72845f5`; CC BY 4.0). The file contains 5,300 rows, 24 columns, 53 anonymized human runners and 394 cases. The paper warns that runners shared a course context and may have exchanged code/discussion; exact model snapshots and timestamps are unavailable.
+
+Independent parsing reproduced all 12 Spearman rho(C,M) point estimates in the paper's Table 1 to two-decimal precision. In the frontier GPT-4.1 / GPQA cell, 167/347 rows with C>=0.80 were majority-wrong (48.13%). A same-case, same-model, same-prompt, same-K, same-exact-C audit found mixed correctness in 7/327 fibers (19/450 rows) in that cell; all 12 axis-condition-benchmark cells contained at least one mixed fiber. For `gpqa_d_113`, runners S004 and S023 had C=1.00 but wrong majority answer D, while S017 had the same case/model/prompt/K/C and correct majority answer B. C=1.00 means all 50 samples agreed within a run, not that the answer was true.
+
+Mancoridis and Hitzig (ICML 2026, PMLR 306:86097-86142) study a different generator-evaluator concept-consistency measure. Their positive association with clinical mistake vulnerability is between-model; the reported model fixed-effect estimate is not significant (beta=0.147, SE=0.334, p=0.66). It is not the same estimand as repeated-sample agreement or cross-judge error covariance.
+
+### Formal criterion
+
+The existing Kestrel theorem `hallway_factorization_iff_fiber_compatibility` in PR #873 states that a deterministic resolver from an observed view to a target exists iff the target is constant on each view fiber. With view (case, model, prompt, K, C) and target M, the S004/S017 pair violates the condition.
+
+Exact PR-head Lean build #44090154878: SUCCESS; PR head `94b6d96c91806a95505260a3c52220f4af294185`; exact PR-head checkout assertion PASS; Lean 4.34.0 / Lake 5.0.0. The theorem-specific axiom output is `Classical.choice`; the separate uniqueness theorem reports `Quot.sound`; no `sorryAx` appears in the theorem-specific output, but the global axiom audit was skipped. No new Lean module was added because the existing generic theorem covers the conditional criterion. The empirical CSV witness was not encoded in Lean; the theorem does not validate the dataset or its independence assumptions.
+
+### Historical remit and cadence
+
+The original Orson role charter sets a target of at least four of five actual substantive Orson appearances in LLM cognition. The latest five completed receipts are h1162:s3, h1147:s2, h1139:s4, h1136:s0, and h1124:s3: **5/5 cognition work**. This is a receipt-based count, not a count of scheduled fires.
+
+FIE rereview remains due December 8. The unrelated-source break was already completed in the preceding cycle and was not repeated.
+
+### Protected boundaries
+
+- P1 freeze remains active: no model calls, human sessions, HsH experiments, P1 dataset expansion, protocol changes, manuscript edits, or P1 gate advancement.
+- No changes to P1 issue #564 or PR #850. This external public-data audit is not added to P1.
+- P1 remains source/methods readiness, not an approved completed manuscript. P2 (Nov 30) and P3 (Dec 14) remain separate gates.
+- No physical system, CODATA comparison, H(s)H calculation, SAT-O/Blockwave equation recovery, theory promotion, or private HSH_RESOURCES access.
+- No new Mersearch request or lane release.
+- P0 site-reader/navigation acceptance remains unresolved; issue #2767 does not establish live route or deployment acceptance.
+- No new Sable handoff. The prior h1162 optional packet remains repository-only; no direct-thread delivery, reading, acknowledgment, assignment or ownership transfer is claimed.
+- No worker-local INBOX write.
+
+### Scheduler
+
+The existing Workshop Relay :24 task remains enabled and unchanged: ID `6abda4c8eda88191bf23a6f2849e9a17`, hourly :24 America/New_York, Geometry phase. No task ID, prompt, cadence, phase, enabled-state or task-count change; no sixth task, signet or conversation rename.
+
+### Return cursor
+
+Keep the external consistency constructs separate. Do not import Ding's secondary dataset into frozen P1. If P1 later reopens, require an explicit gate and source-bounded HsH trial; do not treat runner count as independent model count, self-consistency as truth, or a compiled factorization theorem as empirical validation.
+
+---
+
 ## V4 thread-first resolution — h1139:s4 — 2026-11-27
 
 **REVIVAL_SESSION_COMPLETED / THREAD_ID_UNVERIFIED.** The available personal-context search found only the remembered title “Orson LLM Cognition Lab”; no actual conversation ID/URL, latest message timestamp or current thread usability was established. The V4 not-found rule was satisfied by the source-grounded PACE research session and durable report/receipt. No new chat was created, no arbitrary old chat was posted to, and no direct Orson-thread delivery is claimed.
