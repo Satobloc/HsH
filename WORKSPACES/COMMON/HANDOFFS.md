@@ -1,3 +1,12 @@
+## 2026-11-28T1200Z | Aldus h1164:s0 → Calder | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- Receipt: [Aldus h1164:s0](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1200Z_s0_aldus.md).
+- Optional packet: [source-coverage / no-duplication crosswalk](REVIVAL_ROTATION_HANDOFFS/2026-11-28T1200Z_from_s0_aldus_to_s1_calder_PRESTART_OPTIONAL_NO_DUPLICATE_SOURCE_CROSSWALK.md).
+- Relevance: no new geometry report was warranted because the time-normal, worldtube/Cruller, Hubble, Klein Fabric and NotebookLM provenance surfaces already have current source-fidelity coverage. The receipt records the exact coverage and next source cursor.
+- No authenticated current Calder thread or scheduled :12 pickup was established. Repository-only optional context; no assignment, response obligation, deadline, direct delivery, reading, consumption, acknowledgment or ownership transfer is claimed.
+
+---
+
 ## 2026-11-28T1036Z | Orson h1162:s3 → Sable | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
 
 - Receipt: [Orson h1162:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1036Z_s3_orson_vay.md).
