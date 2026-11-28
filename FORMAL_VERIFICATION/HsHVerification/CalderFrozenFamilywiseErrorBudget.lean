@@ -2,47 +2,49 @@ import Mathlib
 import HsHVerification.PrecommittedHoldoutAdmission
 
 /-!
-# Frozen-family, dependence-robust error budgeting
+# Frozen statistical-test families and dependence-robust error budgeting
 
-A finite family of unique, source-addressed hypothesis keys is frozen before
-the first external-corpus access. The family manifest is the source of target
-values, tolerances, and the deduplication rule; this Lean structure carries
-its locator and declared digest but does not authenticate the artifact.
+This is a separate statistical-test family, not the model-candidate family
+already carried by PrecommittedHoldoutPlan. Its finite set contains unique
+hypothesis keys. The source manifest defines target values, tolerances, and
+the deduplication rule; this Lean record carries a locator and declared digest
+but does not authenticate the artifact.
 
-For any finite family of rejection events, outer-measure subadditivity bounds
-the familywise rejection event by the sum of the marginal rejection bounds.
-No independence or disjointness assumption is required. The per-test bounds
-remain premises: this theorem does not establish p-value validity, exchangeability,
-a randomization scheme, or the correctness of a physical target.
+The family must be locked before first external-corpus access. The familywise
+bound below uses finite-union subadditivity, so it requires no independence
+or disjointness assumption. Per-test rejection bounds remain premises: the
+theorem does not establish p-value validity, exchangeability, a randomization
+scheme, or the correctness of a physical target.
 
-The family size is the cardinality of the finite set of unique hypothesis
-keys, not the number of source occurrences, equation variants, bins, pixels,
-or repeated measurements.
+The family size is the cardinality of unique hypothesis keys, not the number
+of source occurrences, equation variants, bins, pixels, snapshots, or repeated
+measurements.
 -/
 
 namespace HsHVerification.CalderFrozenFamilywiseErrorBudget
 
 open MeasureTheory
 open HsHVerification.EvidenceGatedAdmission
+open HsHVerification.PrecommittedHoldoutAdmission
 
-/-- A frozen, nonempty family of unique hypothesis keys. The manifest must
-    contain the target values, tolerances, and deduplication rule. The clock
-    fields are declared ticks in one named timebase; their ordering is a
-    typed assertion, not authenticated event-log evidence. -/
-structure FrozenTargetFamily where
+/-- A frozen, nonempty family of unique statistical hypothesis keys. The
+    manifest must contain the target values, tolerances, and deduplication
+    rule. Clock values are declared ticks in one named timebase; their order
+    is a typed assertion, not authenticated event-log evidence. -/
+structure FrozenStatisticalTestFamily where
   hypothesisKeys : Finset String
   sourceManifest : SourceArtifactRef
   manifestDigest : NonEmptyText
-  clockId : NonEmptyText
+  timeBaseId : NonEmptyText
   lockedAt : Nat
-  firstCorpusAccessAt : Nat
+  firstExternalCorpusAccessAt : Nat
   nonempty : hypothesisKeys.Nonempty
-  lockedBeforeCorpusAccess : lockedAt < firstCorpusAccessAt
+  lockedBeforeFirstCorpusAccess : lockedAt < firstExternalCorpusAccessAt
 
 /-- The event that at least one unique hypothesis in the frozen family is
     rejected. -/
 def anyFamilyRejection {Ω : Type*}
-    (family : FrozenTargetFamily) (reject : String → Set Ω) : Set Ω :=
+    (family : FrozenStatisticalTestFamily) (reject : String → Set Ω) : Set Ω :=
   ⋃ key ∈ family.hypothesisKeys, reject key
 
 /-- If every hypothesis has marginal rejection measure at most perTestBudget
@@ -53,7 +55,7 @@ def anyFamilyRejection {Ω : Type*}
     dependence among the tests. -/
 theorem frozenFamilywiseError_le_budget
     {Ω : Type*}
-    (family : FrozenTargetFamily)
+    (family : FrozenStatisticalTestFamily)
     (μ : OuterMeasure Ω)
     (reject : String → Set Ω)
     (perTestBudget totalBudget : ℝ≥0∞)
@@ -61,9 +63,9 @@ theorem frozenFamilywiseError_le_budget
       μ (reject key) ≤ perTestBudget)
     (hTotal :
       (family.hypothesisKeys.card : ℝ≥0∞) * perTestBudget ≤ totalBudget) :
-    family.lockedAt < family.firstCorpusAccessAt ∧
+    family.lockedAt < family.firstExternalCorpusAccessAt ∧
       μ (anyFamilyRejection family reject) ≤ totalBudget := by
-  refine ⟨family.lockedBeforeCorpusAccess, ?_⟩
+  refine ⟨family.lockedBeforeFirstCorpusAccess, ?_⟩
   unfold anyFamilyRejection
   calc
     μ (⋃ key ∈ family.hypothesisKeys, reject key)
@@ -75,6 +77,22 @@ theorem frozenFamilywiseError_le_budget
       simp
     _ ≤ totalBudget := hTotal
 
+/-- The statistical-test family lock composes with the existing one-shot
+    holdout plan only when both records use the same declared timebase and
+    first external-corpus access precedes or equals holdout access. -/
+theorem familyLock_precedes_holdoutAccess
+    (family : FrozenStatisticalTestFamily)
+    (plan : PrecommittedHoldoutPlan)
+    (hSameTimeBase : family.timeBaseId.value = plan.timeBaseId.value)
+    (hCorpusBeforeHoldout :
+      family.firstExternalCorpusAccessAt ≤ plan.firstHoldoutAccessAt) :
+    family.timeBaseId.value = plan.timeBaseId.value ∧
+      family.lockedAt < plan.firstHoldoutAccessAt := by
+  exact
+    ⟨hSameTimeBase,
+      lt_of_lt_of_le family.lockedBeforeFirstCorpusAccess hCorpusBeforeHoldout⟩
+
 #print axioms frozenFamilywiseError_le_budget
+#print axioms familyLock_precedes_holdoutAccess
 
 end HsHVerification.CalderFrozenFamilywiseErrorBudget
