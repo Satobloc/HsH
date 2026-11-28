@@ -1,0 +1,826 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "94c8b4f37ad80e63618ddf9a4eb50225ac24c5d7285e613edf2e086c3fffd26f",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-28T07:38:59.453997+00:00",
+  "query": "(\n    (\"SAT-O\" OR \"SAT O\" OR \"SAT.O\" OR \"SAT4D\" OR \"SAT.4D\" OR \"4DHH\" OR \"4D Hyperhelical\" OR \"Blockwave\" OR \"Stringing Along Theory\" OR \"Chronophysical Structure\" OR \"Universal Indicatrix\" OR \"H(s)H\" OR \"Filamental Geometry\")\n    AND\n    (equation OR equations OR Lagrangian OR Hamiltonian OR action OR dispersion OR \"mass formula\" OR \"gauge coupling\" OR \"decay width\" OR \"phase shift\" OR \"stress-energy\" OR wavefunction OR Maxwell OR Dirac OR QCD OR QED OR Friedmann OR Kerr OR Einstein OR metric OR curvature)\n  )\n  OR\n  (path:*SAT_O* OR path:*SAT-O* OR path:*SAT4D* OR path:*Blockwave* OR path:*4DHH*)",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 24454,
+    "records_scanned": 23293085,
+    "hits": 274085
+  },
+  "counted_hits": 274085,
+  "distinct_sources": 5840,
+  "results_by_root": {
+    "archive": 123274,
+    "hsh-main": 144132,
+    "resources": 6679
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "path:*4DHH*",
+      108705
+    ],
+    [
+      "path:*SAT_O*",
+      46517
+    ],
+    [
+      "path:*Blockwave*",
+      42405
+    ],
+    [
+      "path:*SAT4D*",
+      24596
+    ],
+    [
+      "action",
+      23201
+    ],
+    [
+      "equation",
+      18905
+    ],
+    [
+      "H(s)H",
+      18591
+    ],
+    [
+      "Lagrangian",
+      17988
+    ],
+    [
+      "equations",
+      16957
+    ],
+    [
+      "Blockwave",
+      16747
+    ],
+    [
+      "metric",
+      16643
+    ],
+    [
+      "curvature",
+      13936
+    ],
+    [
+      "path:*SAT-O*",
+      10739
+    ],
+    [
+      "Universal Indicatrix",
+      10644
+    ],
+    [
+      "4DHH",
+      5930
+    ],
+    [
+      "Dirac",
+      5191
+    ],
+    [
+      "Einstein",
+      4573
+    ],
+    [
+      "SAT-O",
+      4535
+    ],
+    [
+      "Kerr",
+      3765
+    ],
+    [
+      "4D Hyperhelical",
+      3711
+    ],
+    [
+      "phase shift",
+      2907
+    ],
+    [
+      "QCD",
+      2841
+    ],
+    [
+      "dispersion",
+      2601
+    ],
+    [
+      "gauge coupling",
+      2096
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_2.json",
+      "title": "MERSEARCH_REQUEST_LANE_2",
+      "record_count": 2,
+      "best_score": 487,
+      "first_hit_index": 254009,
+      "sample_hit_index": 254010,
+      "locator": "$.query",
+      "matched_terms": [
+        "SAT-O",
+        "SAT O",
+        "SAT.O",
+        "SAT4D",
+        "SAT.4D",
+        "4DHH",
+        "4D Hyperhelical",
+        "Blockwave",
+        "Stringing Along Theory",
+        "Chronophysical Structure",
+        "Universal Indicatrix",
+        "H(s)H"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy.txt",
+      "title": "26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy",
+      "record_count": 110,
+      "best_score": 331,
+      "first_hit_index": 199738,
+      "sample_hit_index": 199832,
+      "locator": "line:6818",
+      "matched_terms": [
+        "SAT4D",
+        "4DHH",
+        "4D Hyperhelical",
+        "Universal Indicatrix",
+        "H(s)H",
+        "Filamental Geometry",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "dispersion"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 68,
+      "best_score": 331,
+      "first_hit_index": 10926,
+      "sample_hit_index": 11057,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "SAT4D",
+        "4DHH",
+        "4D Hyperhelical",
+        "Universal Indicatrix",
+        "H(s)H",
+        "Filamental Geometry",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "dispersion"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 68,
+      "best_score": 331,
+      "first_hit_index": 10927,
+      "sample_hit_index": 11058,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "SAT4D",
+        "4DHH",
+        "4D Hyperhelical",
+        "Universal Indicatrix",
+        "H(s)H",
+        "Filamental Geometry",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "dispersion"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 68,
+      "best_score": 331,
+      "first_hit_index": 10929,
+      "sample_hit_index": 11060,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "SAT4D",
+        "4DHH",
+        "4D Hyperhelical",
+        "Universal Indicatrix",
+        "H(s)H",
+        "Filamental Geometry",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "dispersion"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 68,
+      "best_score": 331,
+      "first_hit_index": 10930,
+      "sample_hit_index": 11061,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "SAT4D",
+        "4DHH",
+        "4D Hyperhelical",
+        "Universal Indicatrix",
+        "H(s)H",
+        "Filamental Geometry",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "dispersion"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.25•26.08.25•⚒️ Priority assessment summary — raw.json",
+      "title": "⚒️ Priority assessment summary",
+      "record_count": 11,
+      "best_score": 284,
+      "first_hit_index": 12448,
+      "sample_hit_index": 12464,
+      "locator": "message:8f6d1166-dd7f-4860-b4d9-e134e5f72168",
+      "matched_terms": [
+        "4D Hyperhelical",
+        "Blockwave",
+        "Universal Indicatrix",
+        "H(s)H",
+        "Filamental Geometry",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "action",
+        "mass formula",
+        "gauge coupling",
+        "phase shift"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.25•26.08.25•Priority assessment summary — raw.json",
+      "title": "Priority assessment summary",
+      "record_count": 11,
+      "best_score": 284,
+      "first_hit_index": 12449,
+      "sample_hit_index": 12465,
+      "locator": "message:8f6d1166-dd7f-4860-b4d9-e134e5f72168",
+      "matched_terms": [
+        "4D Hyperhelical",
+        "Blockwave",
+        "Universal Indicatrix",
+        "H(s)H",
+        "Filamental Geometry",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "action",
+        "mass formula",
+        "gauge coupling",
+        "phase shift"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.23•26.09.12•[A] 📜Consciousness and AI Debate — raw.json",
+      "title": "[A] 📜Consciousness and AI Debate",
+      "record_count": 161,
+      "best_score": 271,
+      "first_hit_index": 9575,
+      "sample_hit_index": 10453,
+      "locator": "message:87a2456e-b92e-420a-8ec8-ea0d893836bb",
+      "matched_terms": [
+        "SAT-O",
+        "4D Hyperhelical",
+        "Blockwave",
+        "Stringing Along Theory",
+        "Chronophysical Structure",
+        "Universal Indicatrix",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "phase shift",
+        "Maxwell"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 161,
+      "best_score": 271,
+      "first_hit_index": 9577,
+      "sample_hit_index": 10455,
+      "locator": "message:87a2456e-b92e-420a-8ec8-ea0d893836bb",
+      "matched_terms": [
+        "SAT-O",
+        "4D Hyperhelical",
+        "Blockwave",
+        "Stringing Along Theory",
+        "Chronophysical Structure",
+        "Universal Indicatrix",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "phase shift",
+        "Maxwell"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "title": "📜Consciousness and AI Debate",
+      "record_count": 161,
+      "best_score": 271,
+      "first_hit_index": 9578,
+      "sample_hit_index": 10456,
+      "locator": "message:87a2456e-b92e-420a-8ec8-ea0d893836bb",
+      "matched_terms": [
+        "SAT-O",
+        "4D Hyperhelical",
+        "Blockwave",
+        "Stringing Along Theory",
+        "Chronophysical Structure",
+        "Universal Indicatrix",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "phase shift",
+        "Maxwell"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 154,
+      "best_score": 271,
+      "first_hit_index": 9574,
+      "sample_hit_index": 10452,
+      "locator": "message:87a2456e-b92e-420a-8ec8-ea0d893836bb",
+      "matched_terms": [
+        "SAT-O",
+        "4D Hyperhelical",
+        "Blockwave",
+        "Stringing Along Theory",
+        "Chronophysical Structure",
+        "Universal Indicatrix",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "phase shift",
+        "Maxwell"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 154,
+      "best_score": 271,
+      "first_hit_index": 9576,
+      "sample_hit_index": 10454,
+      "locator": "message:87a2456e-b92e-420a-8ec8-ea0d893836bb",
+      "matched_terms": [
+        "SAT-O",
+        "4D Hyperhelical",
+        "Blockwave",
+        "Stringing Along Theory",
+        "Chronophysical Structure",
+        "Universal Indicatrix",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "phase shift",
+        "Maxwell"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 154,
+      "best_score": 271,
+      "first_hit_index": 9579,
+      "sample_hit_index": 10457,
+      "locator": "message:87a2456e-b92e-420a-8ec8-ea0d893836bb",
+      "matched_terms": [
+        "SAT-O",
+        "4D Hyperhelical",
+        "Blockwave",
+        "Stringing Along Theory",
+        "Chronophysical Structure",
+        "Universal Indicatrix",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "phase shift",
+        "Maxwell"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 95,
+      "best_score": 258,
+      "first_hit_index": 9323,
+      "sample_hit_index": 9475,
+      "locator": "message:25f35950-762c-41aa-a971-c7c116e160d3",
+      "matched_terms": [
+        "SAT4D",
+        "4D Hyperhelical",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "dispersion",
+        "mass formula",
+        "gauge coupling",
+        "decay width",
+        "stress-energy"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 517,
+      "best_score": 248,
+      "first_hit_index": 3618,
+      "sample_hit_index": 3722,
+      "locator": "message:c1b25a3f-5849-479a-a998-378174ac8be6",
+      "matched_terms": [
+        "SAT4D",
+        "4D Hyperhelical",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "mass formula",
+        "gauge coupling",
+        "decay width",
+        "stress-energy",
+        "wavefunction"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Theory Synthesis — raw.json",
+      "title": "SAT Theory Synthesis",
+      "record_count": 9,
+      "best_score": 243,
+      "first_hit_index": 129,
+      "sample_hit_index": 1381,
+      "locator": "message:5b780abd-de88-43b4-8873-2ea98b73d6ed",
+      "matched_terms": [
+        "SAT4D",
+        "SAT.4D",
+        "4D Hyperhelical",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "dispersion",
+        "mass formula",
+        "gauge coupling",
+        "decay width"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT & String Theory/SAT & STRING THEORY/SEARCH-REPORT-POWERSHELL.txt",
+      "title": "SEARCH-REPORT-POWERSHELL",
+      "record_count": 1,
+      "best_score": 233,
+      "first_hit_index": 76960,
+      "sample_hit_index": 76960,
+      "locator": "line:3",
+      "matched_terms": [
+        "SAT O",
+        "SAT4D",
+        "Blockwave",
+        "Stringing Along Theory",
+        "Chronophysical Structure",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "phase shift",
+        "stress-energy"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 201,
+      "best_score": 229,
+      "first_hit_index": 8027,
+      "sample_hit_index": 8774,
+      "locator": "message:1a79b5eb-081c-408e-b868-de1083b72986",
+      "matched_terms": [
+        "SAT-O",
+        "SAT O",
+        "SAT.O",
+        "SAT4D",
+        "SAT.4D",
+        "4DHH",
+        "4D Hyperhelical",
+        "Blockwave",
+        "Stringing Along Theory",
+        "Universal Indicatrix",
+        "equation",
+        "equations"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Boiling Point Estimation — raw.json",
+      "title": "Boiling Point Estimation",
+      "record_count": 12,
+      "best_score": 211,
+      "first_hit_index": 6340,
+      "sample_hit_index": 6370,
+      "locator": "message:15c3bf7f-a50e-4393-88ed-e6f24b71b46f",
+      "matched_terms": [
+        "4D Hyperhelical",
+        "Blockwave",
+        "equation",
+        "equations",
+        "Hamiltonian",
+        "action",
+        "dispersion",
+        "mass formula",
+        "decay width",
+        "phase shift",
+        "Dirac",
+        "Friedmann"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 107,
+      "best_score": 208,
+      "first_hit_index": 9031,
+      "sample_hit_index": 9242,
+      "locator": "message:f1f76293-c98a-4981-8f97-1e69bbc730e5",
+      "matched_terms": [
+        "Blockwave",
+        "Universal Indicatrix",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "Hamiltonian",
+        "action",
+        "mass formula",
+        "gauge coupling",
+        "phase shift",
+        "Dirac",
+        "QCD"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Switching to English — raw.json",
+      "title": "Switching to English",
+      "record_count": 50,
+      "best_score": 206,
+      "first_hit_index": 6701,
+      "sample_hit_index": 6731,
+      "locator": "message:09fcea29-f55a-4426-b799-1d36e6c82be5",
+      "matched_terms": [
+        "4DHH",
+        "4D Hyperhelical",
+        "Blockwave",
+        "Universal Indicatrix",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "action",
+        "gauge coupling",
+        "phase shift",
+        "Dirac",
+        "Einstein"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Idea Evaluation Request — raw.json",
+      "title": "Idea Evaluation Request",
+      "record_count": 1,
+      "best_score": 202,
+      "first_hit_index": 6699,
+      "sample_hit_index": 6699,
+      "locator": "message:4f967b88-d751-45be-85ac-6118e16aa8a6",
+      "matched_terms": [
+        "4D Hyperhelical",
+        "Blockwave",
+        "Universal Indicatrix",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "action",
+        "gauge coupling",
+        "phase shift",
+        "Dirac",
+        "Einstein",
+        "metric"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Physical Reality Evaluation — raw.json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 21,
+      "best_score": 198,
+      "first_hit_index": 6923,
+      "sample_hit_index": 6933,
+      "locator": "message:af9e6525-d362-4718-ac65-2c7139b26ccf",
+      "matched_terms": [
+        "4DHH",
+        "4D Hyperhelical",
+        "Blockwave",
+        "Universal Indicatrix",
+        "equation",
+        "equations",
+        "Lagrangian",
+        "action",
+        "gauge coupling",
+        "phase shift",
+        "Dirac",
+        "metric"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:1de21933-0ab2-4ee6-8cd1-d01a53b7061b",
+      "matched_terms": [
+        "Stringing Along Theory",
+        "action"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "locator": "message:1de21933-0ab2-4ee6-8cd1-d01a53b7061b",
+      "matched_terms": [
+        "Stringing Along Theory",
+        "action"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:065aebd6-d0c4-4737-a601-daab5521e310",
+      "matched_terms": [
+        "Stringing Along Theory",
+        "Filamental Geometry",
+        "equations",
+        "metric",
+        "curvature"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "locator": "message:065aebd6-d0c4-4737-a601-daab5521e310",
+      "matched_terms": [
+        "Stringing Along Theory",
+        "Filamental Geometry",
+        "equations",
+        "metric",
+        "curvature"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:a80d927c-3c97-45cd-a2c0-72af7638b62e",
+      "matched_terms": [
+        "Chronophysical Structure",
+        "equations",
+        "curvature"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "locator": "message:a80d927c-3c97-45cd-a2c0-72af7638b62e",
+      "matched_terms": [
+        "Chronophysical Structure",
+        "equations",
+        "curvature"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:844f767b-5bfc-4536-a0ee-8e96cba98863",
+      "matched_terms": [
+        "Chronophysical Structure",
+        "equations",
+        "curvature"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "locator": "message:844f767b-5bfc-4536-a0ee-8e96cba98863",
+      "matched_terms": [
+        "Chronophysical Structure",
+        "equations",
+        "curvature"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
