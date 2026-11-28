@@ -193,6 +193,7 @@ theorem assistantHelix_reparam_equiv
     sliceResolvedObservation, crossSectionPoint, hphase]
 
 
+#print axioms assistantHelix_reparam_equiv
 #print axioms crossSectionPoint_turn_periodic
 #print axioms axialSliceCoordinate_turn_increment
 #print axioms axialSliceCoordinate_turn_changes
