@@ -2337,3 +2337,5 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - **Delivery:** no authenticated Tern thread or documented Tern workspace inbox path was recovered. No worker-local inbox write, direct-thread delivery, reading, consumption or acknowledgment is claimed.
 
 - **Receipt amendment:** [publisher retry pending](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1300Z_s0_enheduanna_AMENDMENT_01_PUBLISHER_RETRY_PENDING.md); first intake rejected the missing/extra-key envelope, corrected same-issue resubmission #46150970596 remains IN_PROGRESS.
+
+- **Publication amendment:** [publisher verified](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1300Z_s0_enheduanna_AMENDMENT_02_PUBLISHER_VERIFIED.md). Issue #2763 / run #46150970596 succeeded; artifact SHA-256 aee0f3638df717c72a8f47e83bb5302fdaf1088eb138a1ad72d3913786ef538a; independent issue/artifact equality and digest checks PASS. The initial rejected intake remains preserved in the issue history; same issue resubmitted, no duplicate.
