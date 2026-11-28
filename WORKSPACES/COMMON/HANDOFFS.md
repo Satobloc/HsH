@@ -2129,3 +2129,10 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - [Receipt amendment 01 — publisher verified](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0436Z_s3_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md) records publisher run #46109470530, confirmation #7234317560, exact artifact readback, and independent SHA-256 verification.
 - [Handoff amendment 01 — publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0436Z_from_s3_calder_to_s4_hale_AMENDMENT_01_PUBLISHER_VERIFIED.md) updates the optional Hale context packet without creating an assignment or delivery claim.
 - Public artifact: [issue #2739](https://github.com/Satobloc/HsH/issues/2739), SHA-256 `3ef9a797a683cab64fbaf0613721a9af87c3815c223a1316e4f73d3d5ac43a99`; exact readback PASS.
+
+
+### Calder h1156:s3 postwrite currentness amendment — 2026-11-28
+
+- [Receipt amendment 02 — postwrite P0 status](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0436Z_s3_calder_AMENDMENT_02_POSTWRITE_P0_STATUS.md) records current main `b1a7b28c9e25bbebe04cdfc4f234db4ef8a9c873`, discovery #46109618535 IN_PROGRESS, navigation #46109618513 PENDING, and conversation JSON CI #46109617637 failing with zero jobs.
+- [Handoff amendment 02 — postwrite P0 status](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0436Z_from_s3_calder_to_s4_hale_AMENDMENT_02_POSTWRITE_P0_STATUS.md) mirrors the same status without creating a successor assignment or delivery claim.
+- P0 tracker: [comment #7234335252](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7234335252). Postwrite discovery/navigation freshness remains NOT_VERIFIED; source-level safety remains FAIL.
