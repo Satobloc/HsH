@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": "31c4aace70cb7ff073e13cdb9c2f2a553ebac23c",
-  "updated": "2026-11-28T04:20:09+00:00",
-  "content_hash": "e72e8db45c1ed2f3d33ef1b8a202260641075f6d2587b3fa8f55ebd61de3a48f",
+  "revision": "464a4e0237a760a6f127c364ac9fffee5f135ccb",
+  "updated": "2026-11-28T04:25:48+00:00",
+  "content_hash": "ed367f7599bbd056076970d468b7d040df866a022661169163c11fcd262e84cd",
   "papers": [
     {
       "id": "sat-gravity-metric",
@@ -15,7 +15,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/sat-gravity-metric/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/sat-gravity-metric/source.tex",
-      "pdf_sha256": "2f85418d545ef22ce03943492ab626c2a2e6342ac40a6b7758529dc90bc42941",
+      "pdf_sha256": "828bdd6e694499fdda2f7fb271ebedfaa210c4b7019005cf7c9f45ea03fab1ae",
       "metadata_path": "PUBLIC_SITE/PAPERS/sat-gravity-metric/paper.json",
       "addenda": [],
       "reader_id": "sat-gravity-metric"
@@ -31,10 +31,26 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/source.tex",
-      "pdf_sha256": "47f6e85afa1a2af65a91f64ea1299a0bb309320b5e06a76fc85483a31f269947",
+      "pdf_sha256": "f9856af472571eeae0fe499a03d8b677424c46c0bdd961bf0927616e152dd24d",
       "metadata_path": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.json",
       "addenda": [],
       "reader_id": "sat-geometry-kinematics-time"
+    },
+    {
+      "id": "sat-gauge-topology",
+      "title": "SAT / H(s)H Source Equation Compendium — Gauge Symmetry & Topology",
+      "preface": "This source packet transcribes equations and source-defined symbols from two SAT.O3 source versions and two SAT.O5 source versions. Source-specific notation is retained. Definitions not supplied by a source are identified as such; no correction or theory promotion is applied.",
+      "status": "historical source compilation; no theory promotion",
+      "date": "2026-11-27",
+      "authors": [
+        "Archive source compilation"
+      ],
+      "pdf": "PUBLIC_SITE/PAPERS/sat-gauge-topology/paper.pdf",
+      "source": "PUBLIC_SITE/PAPERS/sat-gauge-topology/source.tex",
+      "pdf_sha256": "197d533e3b48870cd50f282ea684f3d12b8e8d768d0cb8014d90463ff584f0c2",
+      "metadata_path": "PUBLIC_SITE/PAPERS/sat-gauge-topology/paper.json",
+      "addenda": [],
+      "reader_id": "sat-gauge-topology"
     },
     {
       "id": "nathan-direct-projection-angle",
@@ -47,7 +63,7 @@
       ],
       "pdf": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.pdf",
       "source": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/source.tex",
-      "pdf_sha256": "b25f18528e1555ccf28227b57c70c706006f4195385e5c4bcdf1a2e717a92706",
+      "pdf_sha256": "9eaa89f9774cf831600634b7019dad65ca0bbae6850fe54af70ac6ee4bc883e1",
       "metadata_path": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.json",
       "addenda": [],
       "reader_id": "nathan-direct-projection-angle"
