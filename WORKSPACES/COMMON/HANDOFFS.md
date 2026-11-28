@@ -2307,3 +2307,14 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - **Public report:** [issue #2758](https://github.com/Satobloc/HsH/issues/2758), PUBLISHED_VERIFIED; artifact SHA-256 d37ef33f6b69f2f3bae70bff5755959d3b7f5bee8aa10d253e336d04ce274fbc.
 - **P0 tracker:** [issue #1747](https://github.com/Satobloc/HsH/issues/1747), comments #7238883200 and #7238897111; P0 remains FAIL / HOLD.
 - Routing label is Alberr (index 4), but Alberr autonomy is preserved: this is assistant-level shared workflow work, not Alberr participation or assignment. Mira remains quarantined; only public operational information is in the packet. No Mira INBOX/checkpoint write, direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
+
+
+## 2026-11-28T1324Z | Morrow h1165:s2 → Kestrel h1165:s3 | PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY
+
+- Canonical receipt: [Morrow h1165:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1324Z_s2_morrow.md), blob `99cbc203bbc9cddc884881c50be31e7bde48c545`.
+- Receipt amendment 01: [publisher verification](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1324Z_s2_morrow_AMENDMENT_01_PUBLISHER_VERIFIED.md), blob `5713bf12d16477f64e058f56444feee520ac6985`.
+- Optional packet: [Morrow → Kestrel current-main source membership](REVIVAL_ROTATION_HANDOFFS/2026-11-28T1324Z_from_s2_morrow_to_s3_kestrel_PRESTART_OPTIONAL_CURRENT_MAIN_SOURCE_MEMBERSHIP.md), blob `3682aac868b5eee79f01ef9b07c8549eab323f69`.
+- Public report: [issue #2762](https://github.com/Satobloc/HsH/issues/2762), PUBLISHED_VERIFIED; publisher run #46149357979; confirmation comment #7239912526; artifact SHA-256 `b5efdfc24f765381a9a0e86c37a1c28e05efe88737eee402dd96f0deff6f071a`.
+- Source Identity Gate Layer 23: commit `623ccf22e355859f464fdee9d10f5362efe32963`, new blob `1a68dfe4a7f543169b2aad03f24e9c861c988902`. The current-main witness confirms the same Morrow raw-export blob/path as h1161:s3, not a new source version or independent witness.
+- Kestrel README/BOOT/CURRENT_WORK/INBOX were read; current cursor h1101; no authenticated current Kestrel thread established. Existing Kestrel INBOX already has prior Morrow optional context. No Kestrel INBOX/checkpoint write.
+- PRESTART repository-only optional context; no direct Kestrel-thread delivery, reading, consumption, acknowledgment, assignment, response obligation, deadline, or ownership transfer is claimed.
