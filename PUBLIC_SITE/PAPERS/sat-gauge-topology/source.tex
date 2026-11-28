@@ -1,0 +1,236 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[margin=0.82in]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,longtable,tabularx,array}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlength{\abovedisplayskip}{4pt}
+\setlength{\belowdisplayskip}{4pt}
+\setlength{\jot}{3pt}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+\renewcommand{\arraystretch}{1.05}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\title{SAT / H(s)H Source Equation Compendium\\[3pt]\large Gauge Symmetry and Topology}
+\author{Archive source compilation}
+\date{27 November 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section*{SAT.O3 --- Emergent Gauge Algebras from Filament Topological Invariants}
+
+\textbf{Source file:} \texttt{SAT\_O3.pdf}\\
+\textbf{Source byline/date:} No byline or date appears in the extracted source text. The archive history lists the SAT.O3 PDF at 3 June 2025, 07:06:54.\\
+\textbf{Archive chronology:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT_HISTORY_ROUNDUP.txt}{Archive chronology record} (blob \texttt{187d307853c070bb767ff034a89c7dd6fcc96df5}).\\
+\textbf{Git blob:} \texttt{e2aef3f8217dc090474200111f2bb42240b814f5}\\
+\textbf{Original PDF:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT_O3.pdf}{Open original PDF}\\
+\textbf{Original PDF SHA-256:} \texttt{36d6f94e2394b08b1e2608129be332d97498fc9f37a76a40b562072d0a1fcaa2}\\
+\textbf{Extraction blob:} \texttt{d876a891c0e001022090e9f2eb6fe36e94e0a203}\\
+\textbf{Text extraction:} \texttt{\_AUTO\_EXTRACTED\_TEXT/SAT\_O3.txt}; PyMuPDF; OCR not attempted; 10 September 2026.\\
+\textbf{Extraction record:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/_AUTO_EXTRACTED_TEXT/SAT_O3.txt}{Open text extraction}
+
+\subsection*{Source-defined symbols}
+\small
+\begin{longtable}{L{0.24\linewidth}L{0.70\linewidth}}
+\toprule
+\textbf{Symbol} & \textbf{Definition in source}\\
+\midrule
+\endhead
+$S^1$ & Circle used as the domain of a loop.\\
+$\Sigma_\phi$ & Phase surface; no further definition is supplied in this source.\\
+$\pi_1(\Sigma_\phi)$ & Fundamental group used to classify loops; no further definition is supplied in this source.\\
+$\gamma_i$ & Filament loops.\\
+$\mathrm{Lk}(\gamma_1,\gamma_2)$ & Linking number of a pair of loops, taking values in $Z$.\\
+$[\gamma_i,\gamma_j]$ & Bracket operation defined as the linking number.\\
+$Z$ & Integers.\\
+$\mathrm{u}(1),\mathrm{su}(2),\mathrm{su}(3)$ & Lie algebras associated in the source with winding, pairwise linking and triple-linking structures, respectively.\\
+Massey triple products & Higher-order linking generalization associated in the source with 3-cohomology classes and triple commutators in $\mathrm{su}(3)$; no explicit definition is supplied in this source.\\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection*{Equations and source mappings}
+\begin{equation*}
+ S^1\longrightarrow\Sigma_\phi,\qquad \text{classified by }\pi_1(\Sigma_\phi)
+\end{equation*}
+\begin{equation*}
+ \mathrm{Lk}(\gamma_1,\gamma_2)\in Z
+\end{equation*}
+\begin{equation*}
+ [\gamma_i,\gamma_j]=\mathrm{Lk}(\gamma_i,\gamma_j)
+\end{equation*}
+\begin{equation*}
+ [\gamma_i,\gamma_j]=-[\gamma_j,\gamma_i]
+\end{equation*}
+\begin{equation*}
+ \text{Winding number}\longrightarrow \mathrm{u}(1),\qquad
+ \text{linking number}\longrightarrow \mathrm{su}(2),\qquad
+ \text{triple linking}\longrightarrow \mathrm{su}(3)
+\end{equation*}
+
+\section*{SAT.O3.4D --- 4D Topological Derivation of Gauge Symmetries}
+
+\textbf{Source title:} SAT\_O 2.0 Module O3: 4D Topological Derivation of Gauge Symmetries\\
+\textbf{Source byline/date:} Not supplied in this source file. The archive chronology records SAT.O3.4D on 10 June 2025.\\
+\textbf{Archive chronology:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT_HISTORY_ROUNDUP.txt}{Archive chronology record} (blob \texttt{187d307853c070bb767ff034a89c7dd6fcc96df5}).\\
+\textbf{Archive path:} \texttt{SATOBLOC/SAT O3 4D.txt}\\
+\textbf{Git blob:} \texttt{589219f60a8102cf7b07791b94fcdcd119e9bb8c}\\
+\textbf{Source:} \url{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SATOBLOC/SAT%20O3%204D.txt}
+
+\subsection*{Source-defined symbols}
+\small
+\begin{longtable}{L{0.24\linewidth}L{0.70\linewidth}}
+\toprule
+\textbf{Symbol} & \textbf{Definition in source}\\
+\midrule
+\endhead
+$n$ & Number of filaments in a bundle.\\
+$\gamma_i$ & Filaments in the bundle $\{\gamma_1,\ldots,\gamma_n\}$.\\
+$\phi_i$ & Phase of filament $i$.\\
+$k$ & Integer in the phase-locking condition.\\
+$\mathcal{S}(n)$ & Topological stability function; equals 1 if a stable nontrivial interlock exists for $n$ filaments in 4D and 0 otherwise.\\
+$M_{\mathrm{bundle}}$ & Bundle mass.\\
+$f$ & Monotonic function correlating strain energy to mass.\\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection*{Equations}
+\begin{equation*}
+ \phi_i-\phi_j=\frac{2\pi k}{n},\qquad i\ne j,\quad k\in Z,\quad n\geq2
+\end{equation*}
+\begin{equation*}
+ \mathcal{S}(n)=
+ \begin{cases}
+ 1, & \text{if a stable nontrivial interlock exists for }n\text{ filaments in 4D},\\
+ 0, & \text{otherwise}.
+ \end{cases}
+\end{equation*}
+\begin{equation*}
+ \mathcal{S}(n)=
+ \begin{cases}
+ 1, & n=1\quad\text{(U(1) trivial self-phase)},\\
+ 1, & n=2\quad\text{(Hopf link, meson)},\\
+ 1, & n=3\quad\text{(Borromean link, baryon)},\\
+ 0, & n\geq4\quad\text{(No stable higher linkings)}.
+ \end{cases}
+\end{equation*}
+\begin{equation*}
+ M_{\mathrm{bundle}}\sim f(\text{topological complexity})
+\end{equation*}
+
+\clearpage
+\section*{SAT.O5 --- Emergent Gauge Couplings from Filament Topology}
+
+\textbf{Source file:} \texttt{SAT\_O5.pdf}\\
+\textbf{Source byline/date:} No byline or date appears in the extracted source text. The archive history lists SAT.O5 PDF drafts on 3 June 2025.\\
+\textbf{Archive chronology:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT_HISTORY_ROUNDUP.txt}{Archive chronology record} (blob \texttt{187d307853c070bb767ff034a89c7dd6fcc96df5}).\\
+\textbf{Git blob:} \texttt{a8e09cfb70c96776b715b223d72c6e572356de70}\\
+\textbf{Original PDF:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT_O5.pdf}{Open original PDF}\\
+\textbf{Original PDF SHA-256:} \texttt{0380aaaee6eaa8a46dca8418ad248219908e94edbf3d97e50a7936c41321010d}\\
+\textbf{Extraction blob:} \texttt{7ebff56fe6b9ce5f46ab8a2e6d7c1ed7dbe15ec3}\\
+\textbf{Text extraction:} \texttt{\_AUTO\_EXTRACTED\_TEXT/SAT\_O5.txt}; PyMuPDF; OCR not attempted; 10 September 2026.\\
+\textbf{Extraction record:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/_AUTO_EXTRACTED_TEXT/SAT_O5.txt}{Open text extraction}
+
+\subsection*{Source-defined symbols}
+\small
+\begin{longtable}{L{0.24\linewidth}L{0.70\linewidth}}
+\toprule
+\textbf{Symbol} & \textbf{Definition in source}\\
+\midrule
+\endhead
+$g$ & Dimensionless gauge coupling.\\
+$\mathcal{L}_{\mathrm{gauge}}$ & Gauge-field kinetic term.\\
+$F_{\mu\nu}$ & Field strength.\\
+$L_\mu$ & Gauge potential.\\
+$\mathrm{Tr}$ & Trace operation; no further definition is supplied in this source.\\
+$\rho_{\mathrm{link}}$ & Filament linking density, stated as number of links per unit volume.\\
+$\rho_{\mathrm{winding}}$ & Winding density.\\
+$\rho_{\mathrm{triple\ link}}$ & Triple-link density.\\
+$\ell_f$ & Filament transverse scale.\\
+$T$ & Filament tension.\\
+$A$ & Bending rigidity.\\
+$g_{U(1)},g_{SU(2)},g_{SU(3)}$ & Gauge couplings associated with the listed gauge groups.\\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection*{Equations}
+\begin{equation*}
+ \mathcal{L}_{\mathrm{gauge}}=-\frac{1}{4g^2}\mathrm{Tr}(F_{\mu\nu}F^{\mu\nu})
+\end{equation*}
+\begin{equation*}
+ g^{-2}\sim\rho_{\mathrm{link}}\ell_f^2
+\end{equation*}
+\begin{equation*}
+ g\sim\frac{1}{\sqrt{\rho_{\mathrm{link}}\ell_f^2}}
+\end{equation*}
+\begin{equation*}
+ g_{U(1)}\sim\frac{1}{\sqrt{\rho_{\mathrm{winding}}\ell_f^2}},\qquad
+ g_{SU(2)}\sim\frac{1}{\sqrt{\rho_{\mathrm{link}}\ell_f^2}},\qquad
+ g_{SU(3)}\sim\frac{1}{\sqrt{\rho_{\mathrm{triple\ link}}\ell_f^2}}
+\end{equation*}
+\begin{equation*}
+ \ell_f=\left(\frac{2A}{T}\right)^{1/3}
+\end{equation*}
+\begin{equation*}
+ g\sim\frac{1}{\sqrt{\rho_{\mathrm{link}}}}
+ \left(\frac{T}{2A}\right)^{1/3}
+\end{equation*}
+\begin{equation*}
+ \frac{g_{SU(2)}}{g_{U(1)}}\sim\sqrt{\frac{\rho_{\mathrm{winding}}}{\rho_{\mathrm{link}}}},\qquad
+ \frac{g_{SU(3)}}{g_{SU(2)}}\sim\sqrt{\frac{\rho_{\mathrm{link}}}{\rho_{\mathrm{triple\ link}}}}
+\end{equation*}
+
+\section*{SAT.O5 --- Emergent Gauge Couplings from Filament Topology (June 2025 \LaTeX{} record)}
+
+\textbf{Source byline:} SATO.4D Coherence Project\\
+\textbf{Source date as printed:} June 2025\\
+\textbf{Archive path:} \texttt{EARLY LOGGED/2025-10-24\_12\%EF\%80\%A224\_SAT\_O5.tex}\\
+\textbf{Git blob:} \texttt{8601b33349c14e4453cc475f9850c1bc5e123462}\\
+\textbf{Source:} \url{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/EARLY%20LOGGED/2025-10-24_12%EF%80%A224_SAT_O5.tex}
+
+\subsection*{Source-defined symbols}
+\small
+\begin{longtable}{L{0.24\linewidth}L{0.70\linewidth}}
+\toprule
+\textbf{Symbol} & \textbf{Definition in source}\\
+\midrule
+\endhead
+$\rho_{\mathrm{wind}}(x)$ & Winding number density (loops around compact directions).\\
+$\rho_{\mathrm{link}}(x)$ & Pairwise linking density.\\
+$\rho_{\mathrm{triplet}}(x)$ & Triple-linking (Borromean) density.\\
+$\ell_f$ & Filament transverse scale, defined as $(2A/T)^{1/3}$.\\
+$\epsilon^2_f$ & Effective interaction area, defined as $\ell_f^2$.\\
+$g_{U(1)},g_{SU(2)},g_{SU(3)}$ & Dimensionless gauge couplings associated with the listed gauge groups.\\
+$A$, $T$ & Occur in the definition of $\ell_f$; their individual symbol definitions are not supplied in this source.\\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection*{Equations}
+\begin{equation*}
+ \ell_f=\left(\frac{2A}{T}\right)^{1/3}
+\end{equation*}
+\begin{equation*}
+ \epsilon^2_f=\ell_f^2
+\end{equation*}
+\begin{equation*}
+ g_{U(1)}\sim\frac{1}{\sqrt{\rho_{\mathrm{wind}}\,\epsilon^2_f}},\qquad
+ g_{SU(2)}\sim\frac{1}{\sqrt{\rho_{\mathrm{link}}\,\epsilon^2_f}},\qquad
+ g_{SU(3)}\sim\frac{1}{\sqrt{\rho_{\mathrm{triplet}}\,\epsilon^2_f}}
+\end{equation*}
+\begin{equation*}
+ \frac{g_{SU(2)}}{g_{U(1)}}\sim\sqrt{\frac{\rho_{\mathrm{wind}}}{\rho_{\mathrm{link}}}},\qquad
+ \frac{g_{SU(3)}}{g_{SU(2)}}\sim\sqrt{\frac{\rho_{\mathrm{link}}}{\rho_{\mathrm{triplet}}}}
+\end{equation*}
+
+\end{document}

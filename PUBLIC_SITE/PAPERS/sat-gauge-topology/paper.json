@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "sat-gauge-topology",
+  "title": "SAT / H(s)H Source Equation Compendium — Gauge Symmetry & Topology",
+  "authors": [
+    "Archive source compilation"
+  ],
+  "date": "2026-11-27",
+  "status": "historical source compilation; no theory promotion",
+  "preface": "This source packet transcribes equations and source-defined symbols from two SAT.O3 source versions and two SAT.O5 source versions. Source-specific notation is retained. Definitions not supplied by a source are identified as such; no correction or theory promotion is applied.",
+  "pdf": "PUBLIC_SITE/PAPERS/sat-gauge-topology/paper.pdf",
+  "source": "PUBLIC_SITE/PAPERS/sat-gauge-topology/source.tex",
+  "published": true,
+  "reader_id": "sat-gauge-topology"
+}
