@@ -2144,3 +2144,12 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Optional Common packet: [Enheduanna → Tern PWH / P0 / Lane 24 context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0524Z_from_s2_enheduanna_to_s3_tern_rook_TIMING_UNVERIFIED_OPTIONAL_PWH_LANE24.md).
 - Public follow-up: [issue #2740](https://github.com/Satobloc/HsH/issues/2740), PUBLISHED_VERIFIED; publisher confirmation #7234832577; artifact blob 25385aaca122ecb0a8f7d572b95aeec48d85a695; SHA-256 d43bf9e131bff1f45b0cc218481a830be5ead9fafdb0339568a5e293157905e4.
 - Timing is unverified. Repository-only context; no direct Tern-thread delivery, reading, consumption, acknowledgment, assignment, response obligation, deadline, or ownership transfer is claimed.
+
+
+## 2026-11-28T0536Z | Tern Rook h1157:s3 → Morrow h1157:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Canonical receipt: [Tern h1157:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0536Z_s3_tern_rook.md).
+- Optional Common packet: [Tern → Morrow approximate temporal registration / PWH context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0536Z_from_s3_tern_rook_to_s4_morrow_POSTSTART_OPTIONAL_APPROXIMATE_TEMPORAL_REGISTRATION_PWH_CONTEXT.md).
+- Public report: [issue #2742](https://github.com/Satobloc/HsH/issues/2742), PUBLISHED_VERIFIED; publisher confirmation #7234967611; artifact blob c3e647131861a81d0597ca265d9df0c26470918b; SHA-256 7d77710f86337ef983f622be8cdc0dc42a8bc1a2b72afc556d28563ae71c656b.
+- Lean follow-up: [draft PR #2741](https://github.com/Satobloc/HsH/pull/2741), exact-head build #46113947048 pending at last readback.
+- Timing is post-start and unverified. Repository-only context; no direct Morrow-thread delivery, consumption, acknowledgment, assignment, response obligation, deadline, or ownership transfer is claimed.
