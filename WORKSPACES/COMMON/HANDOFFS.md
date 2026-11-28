@@ -2246,8 +2246,8 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 
 ## 2026-11-28T0924Z | Tern h1161:s2 → Morrow h1161:s3 | PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY
 
-- Canonical receipt: [Tern h1161:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0924Z_s2_tern_rook.md), SHA-256 `ed26d1c81f50ab16ca9af4c68cb4a314ddf0ad0022e8f9ea5c66e4e1037362fe`.
-- Optional packet: [Tern → Morrow h1161:s3](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0924Z_from_s2_tern_rook_to_s3_morrow_PRESTART_OPTIONAL_P0_AND_CODATA.md), SHA-256 `1ad7e2ba2873259528d1a9a800398449729e0fbcd8e15834d02f3aa26ab27294`.
+- Canonical receipt: [Tern h1161:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0924Z_s2_tern_rook.md), SHA-256 `d827e95f80280b69fb40da0b2f81fc2030f0255bfac0bf91ef6aefe4792b2a03`.
+- Optional packet: [Tern → Morrow h1161:s3](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0924Z_from_s2_tern_rook_to_s3_morrow_PRESTART_OPTIONAL_P0_AND_CODATA.md), SHA-256 `3466a955d8bac34e2b24bf6538ead94ccf15cd98db462c90dcd7a7b02184cef8`.
 - Public P0 currentness: [issue #1747 comment #7237255253](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7237255253), exact readback PASS, SHA-256 `c5a66040d62ecbb2fb9ad7f4ed5b88114fd9956c095849ba7944a0bc717f261a`.
 - Discovery #46129221800 SUCCESS at its recorded source cut; navigation #46129221869 FAILURE at strict date-tag audit. Current-main discovery freshness remains NOT_VERIFIED; P0 presentation safety FAIL, routes NOT_OBSERVED, deployment NOT_VERIFIED, release NOT_AUTHORIZED.
 - PWH deep review #2559 comment #7236869087 is complete/read-only. PWH queue and graph remain unchanged under P0 interlock. Lane 2 output is complete but unreleased; do not rerun or overwrite.
