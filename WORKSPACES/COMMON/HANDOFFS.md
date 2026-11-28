@@ -2369,3 +2369,12 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Recipient inbox append: `WORKSPACES/RAVEL/INBOX.md` — readback verified
 - Status: `PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`
 - The :12 slot is disabled; the next active Ravel :00 selection is h1170:s0. No scheduled pickup or cross-thread delivery is claimed.
+
+## 2026-11-28T1436Z | Sable h1166:s3 → Loom h1166:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- **Canonical receipt:** [Sable h1166:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1436Z_s3_sable.md).
+- **Optional packet:** [Sable → Loom cache-manifest / PublishedKey identity-join context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T1436Z_from_s3_sable_to_s4_loom_POSTSTART_OPTIONAL_CACHE_MANIFEST_PUBLISHEDKEY_JOIN.md).
+- **Technical finding:** PR #2757's compiled no-op witness establishes internal cache consistency and old/new snapshot-key equality, but not a typed relation binding the derivative manifest to the new snapshot's `PublishedKey`; see [PR comment #7240869396](https://github.com/Satobloc/HsH/pull/2757#issuecomment-7240869396).
+- **Publication:** intake issue #2766 was rejected for SHA mismatch. The exact body digest recomputes to `d9b9efd58f8368d418f11d3fcb192e1aa81a0a945202be8423efd369248f0a10`, not the declared `c1b8fd50a257a4b0b6b1128416e8442430f26913e4bf7989e3581d94dc641c83`; no canonical PUBLISHED_SUBMISSIONS artifact exists. No edit, retry, replacement submission, or duplicate issue.
+- **Timing:** the :48 h1166:s4 run had started before packet creation; POSTSTART only. The run's `chat_ref` was null. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+- **Recipient:** Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED. The packet is optional repository context, not an instruction to tag the assistant-authored report as Nathan's work.
