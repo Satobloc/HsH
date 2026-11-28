@@ -1,99 +1,73 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-09-20",
+  "snapshot_date": "2026-11-27",
   "status": "site-facing derivative; linked controlling sources govern",
-  "headline": "Convergence, reconstruction, and finite-core construction",
-  "summary": "SAT/H(s)H is presently in a translation-and-construction phase: reconstructing the demonstrable SAT backbone from the historical record while building and testing its finite-core H(s)H worldtube continuation. The conceptual bridge is substantially underway; the machinery- and equation-level bridge remains open.",
+  "headline": "SAT / H(s)H Source Compendium",
+  "summary": "The active compilation phase is consolidating archived SAT/SAT-O/Blockwave/H(s)H equations into a source-linked, sector-organized library while harvesting Nathan Direct commentary in parallel. First tranche: 69 equation occurrences across 15 source documents, six sector PDFs, and a 10-message projection-angle extract. Archive coverage remains incomplete; inclusion does not promote a theory claim.",
   "controlling_sources": [
     {
       "path": "BEDROCK.md",
       "role": "premise and theory-status authority"
     },
     {
-      "path": "STATE_OF_THE_THEORY.md",
-      "role": "current descriptive theory map"
+      "path": "PUBLIC_SITE/PAPERS_FEED.json",
+      "role": "source-compilation reading-gallery entries"
     },
     {
-      "path": "WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md",
-      "role": "current integrated operational priorities"
+      "path": "PUBLIC_SITE/generated/papers.json",
+      "role": "published PDF-series index"
     },
     {
-      "path": "!!_RUNNING_COTHEORIST_LOG.md",
-      "role": "live co-theorist intake; not automatic theory authority"
+      "path": "PUBLIC_SITE/PAPERS/README.md",
+      "role": "paper-series publication contract"
     }
   ],
   "priority_stack": [
     {
       "order": "P0",
-      "title": "Epistemic and promotion-method reconstruction",
-      "audience_summary": "Recover how the project decides what counts as a premise, a live hypothesis, a historical artifact, a mathematical result, or an unresolved claim—and make those transitions inspectable.",
-      "status": "current integrated priority",
-      "source": "WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md"
+      "title": "SAT / H(s)H equation compendium",
+      "audience_summary": "Consolidate SAT-O-era equations and historical variants into one machine-readable source register and sector PDFs; expand backward and forward through the archive.",
+      "status": "active — first coverage tranche compiled; archive sweep ongoing",
+      "source": "PUBLIC_SITE/generated/papers.json"
     },
     {
       "order": "P1",
-      "title": "GR ↔ QM isomorphism / correspondence work",
-      "audience_summary": "Push the proposed structural correspondence between gravitational and quantum descriptions through source-first, high-rigor mathematical work rather than analogy alone.",
-      "status": "current integrated priority; not closed",
-      "source": "WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md"
+      "title": "Nathan Direct commentary compendium",
+      "audience_summary": "Harvest direct and context-attributable Nathan commentary on the same equations and physics sectors, preserving exact message and source locators.",
+      "status": "active — initial projection-angle extract compiled; broader sector harvest ongoing",
+      "source": "PUBLIC_SITE/PAPERS/nathan-direct-projection-angle/paper.json"
     },
     {
       "order": "P2",
-      "title": "Dimensionally repaired H0 + c cosmology",
-      "audience_summary": "Rework the cosmological construction with dimensional consistency while preserving alternate geometric branches instead of forcing an early single answer.",
-      "status": "current integrated priority; active reconstruction",
-      "source": "WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md"
+      "title": "Scientific methodology and epistemology library",
+      "audience_summary": "After substantial equation and commentary coverage, compile Nathan Direct scientific method, epistemic commitments, acceptance criteria and corrections.",
+      "status": "queued — later phase",
+      "source": "BEDROCK.md"
     },
     {
       "order": "P3",
-      "title": "He-3 / Jarlskog / cross-scale soliton programme",
-      "audience_summary": "Use the He-3 holotype and Jarlskog-shadow material as anchor cases while recovering the proposed relationship among intra-braid, gluon-like, neutrino-like, neutron-star, and gravitational soliton structures across scale.",
-      "status": "current integrated priority; source-first reconstruction",
-      "source": "WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md"
+      "title": "Archive chronology and prediction register",
+      "audience_summary": "After broad sector coverage, index archive volume, theory designations and versions, predictions, milestones and reversions.",
+      "status": "queued — later phase",
+      "source": "PUBLIC_SITE/PAPERS_FEED.json"
     }
   ],
   "live_fronts": [
     {
-      "title": "Finite-core H(s)H construction",
-      "lane": "Ravel / live-theory sandbox",
-      "description": "Kerr/worldtube typing, cross-section and scale separation, null-helix/worldtube kinematics, force-interface questions, and related finite-core construction. Kerr and Kelvin remain live construction lines; live does not mean validated.",
+      "title": "SAT / H(s)H Reading Gallery",
+      "lane": "source compilation",
+      "description": "Sector-organized source-equation PDFs and a companion Nathan Direct source extract. First coverage tranche; original archive citations and source links are retained.",
       "sources": [
-        "STATE_OF_THE_THEORY.md",
-        "WORKSPACES/RAVEL/",
-        "!!_RUNNING_COTHEORIST_LOG.md"
-      ]
-    },
-    {
-      "title": "SAT solver recovery and translation",
-      "lane": "Meridian",
-      "description": "Recover exact historical solver objects before translation: Whirligig/Donut, UI/TX, Three Spheres, and Hagalaz, including what was actually specified or simulated and where historical testing was insufficient.",
-      "sources": [
-        "STATE_OF_THE_THEORY.md",
-        "WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md"
-      ]
-    },
-    {
-      "title": "Archive, provenance, and Nathan-direct reconstruction",
-      "lane": "Nathan Words / tagging / Mercer / project systems",
-      "description": "Excavate the 2023-25 archive and conversation corpus, recover exact wording and derivation ancestry, preserve corrections and contradictions, and keep source identity separate from later reconstruction.",
-      "sources": [
-        "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION.md",
-        "WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md"
-      ]
-    },
-    {
-      "title": "Public legibility and Glass Sausage Factory",
-      "lane": "documentation / public access",
-      "description": "Turn the public repositories into a readable research record: presentation-ready documents, a usable PDF reader, glossary/crosswalks, podcast guide, current-work feed, visual history, evidence-disciplined news, and rotating source-linked quotation features.",
-      "sources": [
-        "PUBLIC_SITE/README.md",
-        "WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md"
+        "reader.html",
+        "PUBLIC_SITE/generated/papers.json",
+        "PUBLIC_SITE/PAPERS_FEED.json",
+        "reader.html?paper=sat-geometry-kinematics-time"
       ]
     }
   ],
   "display_notes": [
-    "Current work is not a list of confirmed physical claims.",
-    "Sandbox construction, historical reconstruction, workflow priority, mathematical status, and external vetting are distinct dimensions.",
-    "The public site should show this snapshot date and link to the controlling sources rather than presenting this derivative summary as canonical."
+    "This is a source-compilation phase; equation inclusion does not promote theory claims or imply physical validation.",
+    "The first tranche is incomplete; archive coverage and Nathan Direct attribution remain in progress.",
+    "Original source citations and links appear in the sector documents."
   ]
 }

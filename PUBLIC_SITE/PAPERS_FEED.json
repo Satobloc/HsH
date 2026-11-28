@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-21",
+  "updated": "2026-11-27",
   "authority": "presentation only; paper state is controlled by the linked originator and review records",
   "policy": "WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md",
   "entries": [
@@ -190,6 +190,55 @@
       "status": "historical_sandboxed",
       "route": "reader.html?doc=4dhh",
       "summary": "A formalization-stage source; read alongside current status controls."
+    },
+    {
+      "id": "sat-geometry-kinematics-time",
+      "title": "SAT-O / H(s)H — Geometry, Kinematics & Time",
+      "status": "historical_reading",
+      "route": "reader.html?paper=sat-geometry-kinematics-time",
+      "summary": "Source equations from SAT-O module mathematics, topological deformation, the SO(4) generator and sphere-intersection geometry."
+    },
+    {
+      "id": "sat-gravity-metric",
+      "title": "SAT-O / H(s)H — Gravity & Metric",
+      "status": "historical_reading",
+      "route": "reader.html?paper=sat-gravity-metric",
+      "summary": "Source equations from SAT-O gravity modules and later H(s)H metric/null-wavefront records."
+    },
+    {
+      "id": "sat-gauge-topology",
+      "title": "SAT-O / H(s)H — Gauge Symmetry & Topology",
+      "status": "historical_reading",
+      "route": "reader.html?paper=sat-gauge-topology",
+      "summary": "Source equations from SAT-O gauge and topology modules, including the gravity/gauge action and filament-linking terms."
+    },
+    {
+      "id": "sat-particle-mass-flavour",
+      "title": "SAT-O — Particle Stability, Mass & Flavour",
+      "status": "historical_reading",
+      "route": "reader.html?paper=sat-particle-mass-flavour",
+      "summary": "Source equations from SAT-O stability, mass and flavour modules, including later O9/O10/O13 forms."
+    },
+    {
+      "id": "sat-variational-actions",
+      "title": "SAT / H(s)H — Variational Principles & Actions",
+      "status": "historical_reading",
+      "route": "reader.html?paper=sat-variational-actions",
+      "summary": "Source equations from historical SAT actions, variational derivatives, universal action forms and filament dispersion."
+    },
+    {
+      "id": "sat-fluids-continuum",
+      "title": "H(s)H / Whirligig — Fluids & Continuum",
+      "status": "historical_reading",
+      "route": "reader.html?paper=sat-fluids-continuum",
+      "summary": "Whirligig interpolation field and its vorticity-form residual."
+    },
+    {
+      "id": "nathan-direct-projection-angle",
+      "title": "Nathan Direct — Projection Angle and 0.239 rad",
+      "status": "historical_reading",
+      "route": "reader.html?paper=nathan-direct-projection-angle",
+      "summary": "Direct user-role messages dated 25–28 February 2026 concerning 0.239 rad, 4D-to-3D projection, empirical screening and a tentative 20° alternative."
     }
   ],
   "excluded": [

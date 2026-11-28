@@ -33,6 +33,11 @@ Publication is automatic **after the Action completes**, not instantaneous at Gi
 
 Typeset the paper/addendum before publication, preferably with LaTeX/RevTeX for mathematics. Include a short audience-calibrated plain-English preface; respect page margins, boxes and equation breaks. Render and inspect every page. Keep selectable text so Listen can read the entire series. A raster-only scan needs OCR before useful audio.
 
-The indexer **does not convert raw Markdown/TeX into a polished PDF** and will not publish those as substitutes. Do not claim visual review, calculation, external review or publication you have not performed. Source files can accompany the PDF for provenance; normal site links go through the reader. Only explicit Raw PDF buttons open original bytes.
+The indexer does not convert raw Markdown into a polished PDF. A published packet with a complete sibling `source.tex` is compiled by the existing publisher workflow with pdfLaTeX on push or manual dispatch; the hourly schedule validates and reindexes already-compiled PDFs. Do not claim visual review, calculation, external review or publication you have not performed. Source files can accompany the PDF for provenance; normal site links go through the reader. Only explicit Raw PDF buttons open original bytes.
 
 Local check before committing: `python tools/publish_papers.py --check`. Publication command: `python tools/publish_papers.py`. Never hand-edit the generated index.
+
+
+## LaTeX source packets
+
+The publisher workflow compiles published `source.tex` packets with pdfLaTeX on push or manual dispatch, then validates and indexes the resulting PDFs. The hourly schedule validates and reindexes existing compiled PDFs without reinstalling the TeX toolchain.
