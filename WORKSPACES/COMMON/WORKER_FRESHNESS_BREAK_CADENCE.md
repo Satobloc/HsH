@@ -55,3 +55,13 @@ The Steering Charter's existing target remains at least one meaningful lateral-r
 - **Useful surprise:** Nicholson distinguishes gathering (arranging signatures) from collation (checking sequence and completeness). Folding controls page order and margins; collation detects missing, foreign-volume, duplicate or misfolded sheets, and work stops until an imperfection is corrected. This is an observation about nineteenth-century bookbinding practice only, not a theory analogy or evidence for H(s)H.
 - **Return cursor:** line 296, immediately after the collation discussion in “Sheet Work.”
 - **Break status:** substantive lateral reading completed. No physical stand/stretch/walk is claimed by this runtime.
+
+
+## 2026-11-28 — Enheduanna h1153:s3 | unrelated-source reading
+
+- **Source:** SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, Git blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`.
+- **Actual extent read:** lines 1801–1840.
+- **Content:** a historical language-guessing chat fragment covering Assamese/Kannada, Warlpiri/Hausa, Old Prussian/Curonian, and related/unrelated-language turns.
+- **Useful surprise:** the assistant's line-level response claims Assamese and Kannada are both Dravidian. Treat this as an unverified transcript claim, not a linguistic authority or adopted fact. The fragment is useful as an example of why chat text must be separated from validated reference knowledge.
+- **Return cursor:** line 1841.
+- **Physical break:** no standing/stretch/walk is claimed by this runtime.
