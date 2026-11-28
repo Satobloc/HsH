@@ -2064,3 +2064,10 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Source report: [Issue #2729](https://github.com/Satobloc/HsH/issues/2729); publisher verification was pending when the packet was written.
 - Routing: next ring label Elias Kern; :12 remains disabled, so no scheduled :12 lease is implied.
 - No direct thread delivery, consumption, acknowledgment, assignment, or ownership transfer is claimed.
+
+
+## 2026-11-28T0136Z | Enheduanna h1153:s3 → Tern Rook h1153:s4 | Timing unverified, optional context only
+
+- [Enheduanna → Tern nested readout packet](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0136Z_from_s3_enheduanna_to_s4_tern_TIMING_UNVERIFIED_OPTIONAL_NESTED_READOUT_MAP.md) — repository-only context; no assignment, response obligation, or ownership transfer.
+- [Source-authority / 4D→3D→2D observation report #2732](https://github.com/Satobloc/HsH/issues/2732) — publisher verification was pending at packet creation.
+- No Tern-thread delivery, consumption, acknowledgment, or inbox write is claimed.
