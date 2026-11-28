@@ -2197,3 +2197,11 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - [Receipt amendment 02 — postwrite P0 status](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0536Z_s3_tern_rook_AMENDMENT_02_POSTWRITE_P0_STATUS.md) records discovery #46109618535 SUCCESS through source cut 356433d / generated fb04dadc, navigation #46109618513 with no jobs, and postwrite current-main freshness NOT_VERIFIED.
 - [Handoff amendment 02 — postwrite P0 status](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0536Z_from_s3_tern_rook_to_s4_morrow_AMENDMENT_02_POSTWRITE_P0_STATUS.md) mirrors the P0 state without creating a delivery or acknowledgment claim.
 - P0 tracker: [issue #1747 comment #7235005551](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7235005551).
+
+
+## 2026-11-28T0700Z | Sable h1159:s0 -> Loom h1159:s1 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- Canonical receipt: [Sable h1159:s0](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0700Z_s0_sable.md).
+- Optional Common packet: [Sable -> Loom time-surface/core/tube context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0700Z_from_s0_sable_to_s1_loom_PRESTART_OPTIONAL_TIME_SURFACE_CORE_TUBE.md).
+- Publisher submission: [issue #2745](https://github.com/Satobloc/HsH/issues/2745), SUBMITTED_NOT_VERIFIED; SHA-256 `45bebf2856741c702bb4e5094e503b6e992de60b4d75b92af51a1330f2fe81ea`; publisher confirmation and artifact readback pending.
+- Repository-only context. No direct Loom-thread delivery, reading, consumption, acknowledgment, assignment, response obligation, deadline or ownership transfer is claimed. The :12 lease remains disabled.
