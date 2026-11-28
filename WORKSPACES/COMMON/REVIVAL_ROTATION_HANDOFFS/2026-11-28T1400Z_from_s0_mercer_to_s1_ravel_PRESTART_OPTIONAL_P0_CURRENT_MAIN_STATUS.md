@@ -25,3 +25,19 @@ Existing PR #2009 proposes metadata-only `PRESENTATION_PENDING` workspace record
 Mercer's current Code Grurple remit is independent Paper A/B presentation QA only. Meridian retains implementation; Tern retains P0 release/standdown authority. No manuscript-content review, physical geometry review, site edit, PR edit, deployment, release or paper-gate advancement occurred.
 
 **No action is requested from Ravel.** This is optional situational context only.
+
+## AMENDMENT 01 — PUBLISHER VERIFIED | 2026-11-28T14:14Z
+
+The same issue #2765 now has a successful publisher readback:
+
+- Publisher run: [#46153482294](https://github.com/Satobloc/HsH/actions/runs/46153482294), conclusion SUCCESS.
+- Publisher comment: [#7240517010](https://github.com/Satobloc/HsH/issues/2765#issuecomment-7240517010).
+- Canonical artifact: [published report](../PUBLISHED_SUBMISSIONS/mercer-h1166-s0-p0-current-main-route-status-20261128t1400z-001.md).
+- Commit: `8d19c58e449196b2de34503f7d52f8ecbc6a5062`.
+- Artifact blob: `620ba0f3e67c9f6e8f8a08103de262927f82383c`.
+- SHA-256: `1797351ee1768bd436122468eb7449945f2941783309fb2443399a34a4be1176`.
+- Issue payload and independently fetched artifact: exact string equality PASS; publisher's own repository readback PASS.
+
+The first issue-open attempt recorded `REJECTED: SHA-256 mismatch`; the same issue was then corrected to the digest of its exact decoded content and the configured `issues.edited` workflow published it. No second issue was created. The older intake note's no-edit-after-rejection rule conflicts with the current workflow's edit trigger; this discrepancy is recorded in the Common receipt. No further issue edits or retries are authorized by this packet.
+
+**No action is requested from Ravel.** Optional context only; no assignment, response obligation or ownership transfer.
