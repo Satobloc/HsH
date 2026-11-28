@@ -11,7 +11,7 @@ A collision is isolated to the affected source by default: unrelated safe
 renames still proceed. Use --atomic to retain the older all-or-nothing behavior.
 """
 from __future__ import annotations
-import argparse, hashlib, json, re, sys
+import argparse, hashlib, json, os, re, sys
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -85,22 +85,27 @@ def load_conversation(path:Path)->dict[str,Any]:
     return data
 
 def candidates(root:Path)->Iterable[Path]:
-    """Find valid-looking JSON content in named plaintext document formats.
+    """Find JSON conversation exports while pruning excluded trees before descent.
 
-    This includes .txt/.md/.log/etc and extensionless files. The full JSON
-    parser and conversation-specific timestamp checks remain authoritative.
+    The bounded content sniffer is the format gate for every corpus, including
+    the repository remainder. Full JSON decoding and ChatGPT mapping/message
+    validation remain authoritative. Excluded directories are pruned in the
+    top-down walker so quarantine and generated trees are never descended into.
     """
-    repository_remainder_scan = root == Path(".")
-    for path in sorted(root.rglob("*")):
-        relative_parts = path.relative_to(root).parts
-        if any(part.upper() in INDEX_EXCLUDED_DIRS for part in relative_parts[:-1]):
-            continue
-        # The repository-remainder corpus is deliberately limited to .json and
-        # JSON-formatted .txt. Dedicated corpora retain suffix-independent scanning.
-        if repository_remainder_scan and path.suffix.lower() not in {".json", ".txt"}:
-            continue
-        if is_json_document_candidate(path):
-            yield path
+    root_denied = INDEX_EXCLUDED_DIRS - {"DEVELOPMENT_FULL_CONVOS", "LIVE CONVOS"}
+    if root.is_symlink() or any(part.upper() in root_denied for part in root.parts):
+        return
+    for current, dirnames, filenames in os.walk(root, topdown=True, followlinks=False):
+        current_path = Path(current)
+        dirnames[:] = sorted(
+            dirname for dirname in dirnames
+            if dirname.upper() not in INDEX_EXCLUDED_DIRS
+            and not (current_path / dirname).is_symlink()
+        )
+        for filename in sorted(filenames):
+            path = current_path / filename
+            if is_json_document_candidate(path):
+                yield path
 
 def local_datetime(stamp:float,tz:ZoneInfo)->datetime:
     return datetime.fromtimestamp(stamp,tz=timezone.utc).astimezone(tz)

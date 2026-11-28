@@ -12,6 +12,7 @@ from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
 from date_conversation_exports import DEFAULT_ROOT, DEFAULT_TIMEZONE, build_records
+from conversation_json_sniff import PLAINTEXT_JSON_SUFFIXES
 
 
 DEFAULT_OUTPUT = Path("indexes/CONVERSATION_CHRONOLOGY.md")
@@ -34,6 +35,12 @@ def title_from_path(path: Path) -> str:
         if name.endswith(suffix):
             name = name[: -len(suffix)]
             break
+    # Strip only known source-format suffixes. Path.suffix alone is unsafe:
+    # an extensionless title such as "SAT-O v1.2" or "Dr. X" has a dotted
+    # tail that is part of the title, not a file extension.
+    suffix = Path(name).suffix.casefold()
+    if suffix and suffix in PLAINTEXT_JSON_SUFFIXES:
+        name = name[:-len(suffix)]
     return name
 
 
