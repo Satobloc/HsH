@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "sat-geometry-kinematics-time",
+  "title": "SAT / H(s)H Source Equation Compendium — Geometry, Kinematics & Time-Slicing",
+  "authors": [
+    "Archive source compilation"
+  ],
+  "date": "2026-11-27",
+  "status": "historical source compilation; no theory promotion",
+  "preface": "A source compilation of equations and source-defined symbols from the cited archive records. Original notation is retained. Definitions absent or unresolved in a source are identified as such.",
+  "pdf": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.pdf",
+  "source": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/source.tex",
+  "published": true,
+  "reader_id": "sat-geometry-kinematics-time"
+}

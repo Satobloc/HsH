@@ -1,0 +1,201 @@
+\documentclass[10pt]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!45!black,citecolor=blue!45!black}
+\setlist[description]{leftmargin=2.2cm,labelwidth=2.0cm,font=\normalfont\bfseries,itemsep=0pt,topsep=1pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlength{\headheight}{14pt}
+\setlength{\abovedisplayskip}{3pt}
+\setlength{\belowdisplayskip}{3pt}
+\setlength{\abovedisplayshortskip}{2pt}
+\setlength{\belowdisplayshortskip}{2pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{SAT / H(s)H Source Equation Compendium}
+\fancyhead[R]{Geometry, Kinematics \& Time-Slicing}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+\title{SAT / H(s)H Source Equation Compendium\\[0.35em]\large Geometry, Kinematics \& Time-Slicing}
+\author{Archive source compilation}
+\date{27 November 2026}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\vspace{1em}
+\begin{quote}\small
+A source compilation of equations and source-defined symbols from the cited archive records. Original notation is retained. Definitions absent or unresolved in a source are identified as such.
+\end{quote}
+\tableofcontents
+\newpage
+
+\section{SAT-O 2.0, Module O1: 4D Hyperhelical Filament Dynamics}
+\textbf{Source:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT_O1.pdf}{SAT\_O1.pdf}; companion text: \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SATOBLOC/SAT%20O1%204D.txt}{SAT O1 4D.txt}.\\
+\textbf{Source date:} 2025-06-03 03:42 (archive file index); first extant repository commit, 2025-10-27.
+
+\subsection*{Source-defined symbols}
+\begin{description}
+\item[Filament] A smooth one-dimensional object $\gamma:\mathbb R\to\mathbb R^{3,1}$, parameterized by affine parameter $\lambda$.
+\item[Worldtube] The four-dimensional volume swept out by the vibrating filament.
+\item[Hyperhelix] A vibrational mode characterized by helical motion in three spatial dimensions while progressing forward in time.
+\item[$A_i$] Amplitudes; $k_i$ wavenumbers; $\phi_i$ phase shifts, for $i\in\{x,y,z\}$.
+\item[$v^\mu$] Tangent vector to the filament (4-velocity).
+\item[Phase] The internal geometric property determined by $\phi_i$ in each transverse direction.
+\item[{\(S[\gamma]\)}] Action for a filament $\gamma$.
+\item[$m$] Filament tension mass-equivalent parameter.
+\item[$V_{\text{tension}}$] Potential energy term arising from filament tension and dependent on geometric configuration.
+\item[$k,n$] Integers in the phase-locking condition.
+\end{description}
+
+\subsection*{Equations}
+\textbf{GKT-O1-001}
+\begin{equation*}
+\gamma^\mu(\lambda)=\left(\lambda, A_x\sin(k_x\lambda+\phi_x), A_y\sin(k_y\lambda+\phi_y), A_z\sin(k_z\lambda+\phi_z)\right)
+\end{equation*}
+\textbf{GKT-O1-002}
+\begin{equation*}
+v^\mu(\lambda)=\frac{d\gamma^\mu}{d\lambda}
+\end{equation*}
+\textbf{GKT-O1-003}
+\begin{equation*}
+S[\gamma]=\int d\lambda\,L(\gamma^\mu,v^\mu)
+\end{equation*}
+\textbf{GKT-O1-004}
+\begin{equation*}
+L=\frac{1}{2}m v^\mu v_\mu-V_{\text{tension}}(\gamma)
+\end{equation*}
+\textbf{GKT-O1-005}
+\begin{equation*}
+\phi_i-\phi_j=\frac{2\pi k}{n}
+\end{equation*}
+
+\clearpage
+\section{SAT-O7 tentative: Time as Relational Sheen in a 4D Filamentary Spacetime}
+\textbf{Source:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT_O7_tentative.pdf}{SAT\_O7\_tentative.pdf}.\\
+\textbf{Source date:} 2025-06-03 23:41 (archive file index). \textbf{Text extraction:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/_AUTO_EXTRACTED_TEXT/SAT_O7_tentative.txt}{SAT\_O7\_tentative.txt}, extracted 2026-09-10; three pages.
+
+\subsection*{Source-defined symbols}
+\begin{description}
+\item[$M$] Four-dimensional differentiable manifold.
+\item[$\gamma^\mu(\lambda)$] Smooth embedding of a filament; $\lambda$ is an affine parameter.
+\item[$v^\mu(\lambda)$] Tangent vector to a filament.
+\item[$J^\mu(x)$] Local filament current encoding local density and orientation of worldlines.
+\item[$\tau^\mu(x)$] Local time direction, arising dynamically from filament structure.
+\item[$\phi(x)$] Local scalar foliation field, defining local time-slices.
+\item[$\delta x^\mu(\lambda)$] Separation vector between two neighboring filaments.
+\item[$S_{\mu\nu}(\lambda)$] Relational strain tensor, capturing local misalignment and strain in a bundle of worldlines.
+\item[$S(x)$] Scalar sheen field, quantifying the magnitude of relational drift.
+\item[$\omega(x)$] Local sheen activation rate.
+\item[$d\tau$] Proper time increment.
+\item[$\Box$] D'Alembertian with respect to the emergent metric.
+\item[$V(S)$] Potential governing the elasticity or resistance of relational drift.
+\item[$s(x)$] Local entropy density.
+\item[$ds/d\tau$] Entropy production.
+\end{description}
+\textit{Not further defined in the source:} the labels $\gamma_1$ and $\gamma_2$, the normalization of $\delta^{(4)}$, and the functional form of $V(S)$.
+
+\subsection*{Equations}
+\textbf{GKT-O7-001}
+\begin{equation*}
+\gamma:\mathbb R\to M,\qquad \lambda\mapsto\gamma^\mu(\lambda)
+\end{equation*}
+\textbf{GKT-O7-002}
+\begin{equation*}
+v^\mu(\lambda)=\frac{d\gamma^\mu}{d\lambda}
+\end{equation*}
+\textbf{GKT-O7-003}
+\begin{equation*}
+J^\mu(x)=\sum_{\gamma}\int d\lambda\,v^\mu(\lambda)\,\delta^{(4)}\!\left(x-\gamma(\lambda)\right)
+\end{equation*}
+\textbf{GKT-O7-004}
+\begin{equation*}
+\tau^\mu(x)\propto J^\mu(x)
+\end{equation*}
+\textbf{GKT-O7-005}
+\begin{equation*}
+d\phi(x)=\tau_\mu(x)\,dx^\mu
+\end{equation*}
+\textbf{GKT-O7-006}
+\begin{equation*}
+\delta x^\mu(\lambda)=\gamma_2^\mu(\lambda)-\gamma_1^\mu(\lambda)
+\end{equation*}
+\textbf{GKT-O7-007}
+\begin{equation*}
+S_{\mu\nu}(\lambda)=\delta x^\alpha(\lambda)\nabla_\alpha v_{(\mu}v_{\nu)}
+\end{equation*}
+\textbf{GKT-O7-008}
+\begin{equation*}
+S(x)=\sqrt{S_{\mu\nu}(x)S^{\mu\nu}(x)}
+\end{equation*}
+\textbf{GKT-O7-009}
+\begin{equation*}
+\omega(x)=\frac{dS(x)}{d\phi}
+\end{equation*}
+\textbf{GKT-O7-010}
+\begin{equation*}
+d\tau\propto\omega(x)\,d\phi
+\end{equation*}
+\textbf{GKT-O7-011}
+\begin{equation*}
+\Box S(x)-V'(S(x))=0
+\end{equation*}
+\textbf{GKT-O7-012}
+\begin{equation*}
+s(x)\propto S(x)
+\end{equation*}
+\textbf{GKT-O7-013}
+\begin{equation*}
+\frac{ds}{d\tau}\propto\omega(x)
+\end{equation*}
+
+\section{Universal Indicatrix: Generator and Path Functional}
+\textbf{Source:} \href{https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/BYO%20LAGRANGIAN.txt}{BYO LAGRANGIAN.txt}.\\
+\textbf{Source date:} 2026-06-10.
+
+\subsection*{Source-defined symbols}
+\begin{description}
+\item[$x^\mu=(x_1,x_2,x_3,x_4)$] Coordinates in a fixed orthogonal frame in $\mathbb R^4$.
+\item[$S^3$] Unit reference 3-sphere fixed to the coordinate grid.
+\item[$x_0^\mu$] Fixed point on the reference hypersphere representing the initial orientation of a filament or worldline.
+\item[$r(\lambda)$] Scale control determining the distance of the traced point from the origin.
+\item[$R(\lambda)$] Four-dimensional rotation matrix in $SO(4)$, with six independent planes of rotation.
+\item[$y^\mu(\lambda)$] Generated worldline.
+\item[$\mathbf X(s)$] Explicit path parametrization; $L$ is the path length.
+\item[$\mathcal F$] User-defined functional integrated over the path.
+\item[$R$] Radius in the displayed geodesic equation; the same letter is also used for the rotation matrix $R(\lambda)$.
+\end{description}
+\textit{Not supplied in the source:} a functional form for $\mathcal F$.
+
+\subsection*{Equations}
+\textbf{GKT-UI-001}
+\begin{equation*}
+x^\mu=(x_1,x_2,x_3,x_4)
+\end{equation*}
+\textbf{GKT-UI-002}
+\begin{equation*}
+x_1^2+x_2^2+x_3^2+x_4^2=1
+\end{equation*}
+\textbf{GKT-UI-003}
+\begin{equation*}
+y^\mu(\lambda)=r(\lambda)R^\mu{}_{\nu}(\lambda)x_0^\nu,\qquad R\in SO(4)
+\end{equation*}
+\textbf{GKT-UI-004}
+\begin{equation*}
+S=\int_0^L\mathcal F\!\left(\mathbf X(s),\mathbf X'(s),\mathbf X''(s),\ldots\right)\,ds
+\end{equation*}
+\textbf{GKT-UI-005}
+\begin{equation*}
+\mathbf X''(s)+\left(\mathbf X''(s)\cdot\mathbf X(s)\right)\frac{\mathbf X(s)}{R^2}=0
+\end{equation*}
+\textbf{GKT-UI-006}
+\begin{equation*}
+R(\lambda)=I,\qquad r(\lambda)=\lambda
+\end{equation*}
+
+\end{document}
