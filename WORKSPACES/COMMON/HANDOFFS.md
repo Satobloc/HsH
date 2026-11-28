@@ -2361,3 +2361,11 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - **Scheduler:** private peek verified the existing :36 Worldtube task remains enabled and on its exact saved schedule; no task write or sixth task.
 - **Postwrite currentness:** discovery #46151917055 succeeded through d090562 and generated 35326688; navigation #46151917057 remains in progress; conversation-JSON CI #46151916106 failed with zero jobs.
 - **P0:** remains FAIL/HOLD; Tern retains release authority.
+
+## 2026-11-28 | Mercer h1166:s0 → Ravel (optional)
+
+- Packet: [Mercer → Ravel P0 current-main context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T1400Z_from_s0_mercer_to_s1_ravel_PRESTART_OPTIONAL_P0_CURRENT_MAIN_STATUS.md)
+- Packet ID: `MERCER-RAVEL-20261128T1400Z-001`
+- Recipient inbox append: `WORKSPACES/RAVEL/INBOX.md` — readback verified
+- Status: `PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`
+- The :12 slot is disabled; the next active Ravel :00 selection is h1170:s0. No scheduled pickup or cross-thread delivery is claimed.
