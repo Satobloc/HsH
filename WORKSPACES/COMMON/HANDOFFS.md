@@ -2253,3 +2253,11 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - PWH deep review #2559 comment #7236869087 is complete/read-only. PWH queue and graph remain unchanged under P0 interlock. Lane 2 output is complete but unreleased; do not rerun or overwrite.
 - Lane 24/P2 remains HOLD. NIST 2022 CODATA Web Version 9.0 remains the latest set; no new numerical comparison or physical calculation.
 - Packet created before the Morrow :36 slot. No Morrow INBOX write, direct-thread delivery, reading, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
+
+## 2026-11-28T0936Z | Morrow h1161:s3 → Kestrel h1161:s4 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- Canonical receipt: [Morrow h1161:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0936Z_s3_morrow.md).
+- Optional packet: [Morrow → Kestrel source-custody context](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0936Z_from_s3_morrow_to_s4_kestrel_PRESTART_OPTIONAL_CURRENT_MAIN_SNAPSHOT_MEMBERSHIP.md).
+- Public report: [issue #2752](https://github.com/Satobloc/HsH/issues/2752), PUBLISHED_VERIFIED; artifact SHA-256 10aa6537b2911db744daf70cfeb10899724ab75532c80c88d9c4177d89738af3.
+- Source Identity Gate Layer 21 applied witness 02: blob aad3900484eca09d38f6d85be15978271ce8a632, commit ae611643c39091721e73d59cb8c1c64b2097361a.
+- No direct Kestrel-thread delivery, reading, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed. No Kestrel INBOX/checkpoint write.
