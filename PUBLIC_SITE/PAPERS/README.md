@@ -41,3 +41,7 @@ Local check before committing: `python tools/publish_papers.py --check`. Publica
 ## LaTeX source packets
 
 The publisher workflow compiles published `source.tex` packets with pdfLaTeX on push or manual dispatch, then validates and indexes the resulting PDFs. The hourly schedule validates and reindexes existing compiled PDFs without reinstalling the TeX toolchain.
+
+## SAT / H(s)H equation-compendium seed
+
+The first sector packet bundle is staged at `PUBLIC_SITE/PAPERS/_build/compendium_seed.tar.gz`. A non-scheduled push under `PUBLIC_SITE/PAPERS/` extracts the packet sources; the publisher compiles sibling `source.tex` files and indexes only packets whose metadata sets `published: true`.
