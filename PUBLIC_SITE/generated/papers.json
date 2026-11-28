@@ -1,9 +1,25 @@
 {
   "schema_version": 1,
-  "revision": "98690a390fca65274ac4f9104a8b63f25ca47c25",
-  "updated": "2026-10-21T13:19:55+00:00",
-  "content_hash": "c05d22cb3559030d0d4e773aa970d887d771e40016866d8a75865ce7603b1ece",
+  "revision": "0814a8ccbfd73948660cb520798c90f20e6a4d21",
+  "updated": "2026-11-28T01:42:58+00:00",
+  "content_hash": "0cd6a8a8054d0414a5c2043bd930c18ea14f946c46c400320733d6de1ccce36b",
   "papers": [
+    {
+      "id": "sat-geometry-kinematics-time",
+      "title": "SAT / H(s)H Source Equation Compendium — Geometry, Kinematics & Time-Slicing",
+      "preface": "A source compilation of equations and source-defined symbols from the cited archive records. Original notation is retained. Definitions absent or unresolved in a source are identified as such.",
+      "status": "historical source compilation; no theory promotion",
+      "date": "2026-11-27",
+      "authors": [
+        "Archive source compilation"
+      ],
+      "pdf": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.pdf",
+      "source": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/source.tex",
+      "pdf_sha256": "e3e1f05a8cade39fd736fb9b1aae2af49b539ac9b90b27a23b4c4b125d2bca32",
+      "metadata_path": "PUBLIC_SITE/PAPERS/sat-geometry-kinematics-time/paper.json",
+      "addenda": [],
+      "reader_id": "sat-geometry-kinematics-time"
+    },
     {
       "id": "cruller-rubin",
       "title": "Crullerverse: Projected Toroidal Geometry and Transient Stellar Visibility",
