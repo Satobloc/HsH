@@ -173,18 +173,22 @@ def invalidCacheNoOpWitness : NoOpWitness :=
 
 theorem validated_noop_is_safe :
     safeNoOpAtReadback validatedNoOpWitness := by
+  classical
   decide
 
 theorem revalidated_noop_is_safe :
     safeNoOpAtReadback revalidatedNoOpWitness := by
+  classical
   decide
 
 theorem unvalidated_main_advance_blocks_noop :
     ¬ safeNoOpAtReadback unvalidatedNoOpWitness := by
+  classical
   decide
 
 theorem invalid_derivative_cache_blocks_noop :
     ¬ safeNoOpAtReadback invalidCacheNoOpWitness := by
+  classical
   decide
 
 /-- A rebase resolution distinguishes no rebase, rescan, key revalidation, and an unverified rebase. -/
@@ -333,18 +337,22 @@ def unverifiedRebaseWitness : RebaseWitness :=
 
 theorem latest_main_rescan_is_safe :
     safeFinalPublication latestMainRescanWitness := by
+  classical
   decide
 
 theorem latest_main_key_revalidation_is_safe :
     safeFinalPublication latestMainKeyRevalidationWitness := by
+  classical
   decide
 
 theorem event_pinned_rebase_to_new_main_is_rejected :
     ¬ safeFinalPublication eventPinnedRebaseWitness := by
+  classical
   decide
 
 theorem unverified_rebase_is_rejected :
     ¬ safeFinalPublication unverifiedRebaseWitness := by
+  classical
   decide
 
 #print axioms safe_noop_after_main_advance_requires_key_revalidation
