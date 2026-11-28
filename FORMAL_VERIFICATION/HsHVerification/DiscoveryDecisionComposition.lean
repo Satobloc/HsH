@@ -173,23 +173,34 @@ def invalidCacheNoOpWitness : NoOpWitness :=
 
 theorem validated_noop_is_safe :
     safeNoOpAtReadback validatedNoOpWitness := by
-  classical
-  decide
+  simp [safeNoOpAtReadback, safeNoOp, noOpCheckoutPolicySatisfied,
+    noOpCurrentnessSatisfied, cacheIntegrityWitnessValid,
+    derivativeCacheWitnessValid, publishedKey, validOldSnapshot,
+    validNewSnapshot, validCache, validDerivative, validatedNoOpWitness]
 
 theorem revalidated_noop_is_safe :
     safeNoOpAtReadback revalidatedNoOpWitness := by
-  classical
-  decide
+  simp [safeNoOpAtReadback, safeNoOp, noOpCheckoutPolicySatisfied,
+    noOpCurrentnessSatisfied, cacheIntegrityWitnessValid,
+    derivativeCacheWitnessValid, publishedKey, validOldSnapshot,
+    validNewSnapshot, validCache, validDerivative,
+    validatedNoOpWitness, revalidatedNoOpWitness]
 
 theorem unvalidated_main_advance_blocks_noop :
     ¬ safeNoOpAtReadback unvalidatedNoOpWitness := by
-  classical
-  decide
+  simp [safeNoOpAtReadback, safeNoOp, noOpCheckoutPolicySatisfied,
+    noOpCurrentnessSatisfied, cacheIntegrityWitnessValid,
+    derivativeCacheWitnessValid, publishedKey, validOldSnapshot,
+    validNewSnapshot, validCache, validDerivative,
+    validatedNoOpWitness, unvalidatedNoOpWitness]
 
 theorem invalid_derivative_cache_blocks_noop :
     ¬ safeNoOpAtReadback invalidCacheNoOpWitness := by
-  classical
-  decide
+  simp [safeNoOpAtReadback, safeNoOp, noOpCheckoutPolicySatisfied,
+    noOpCurrentnessSatisfied, cacheIntegrityWitnessValid,
+    derivativeCacheWitnessValid, publishedKey, validOldSnapshot,
+    validNewSnapshot, validCache, validDerivative,
+    validatedNoOpWitness, invalidCacheNoOpWitness]
 
 /-- A rebase resolution distinguishes no rebase, rescan, key revalidation, and an unverified rebase. -/
 inductive RebaseResolution where
@@ -204,24 +215,38 @@ structure RebaseWitness where
   finalBaseHead : Nat
   scanHead : Nat
   finalBaseKey : Option PublishedKey
+  rescanKey : Option PublishedKey
+  rescanScansComplete : Bool
+  generatedKey : PublishedKey
   resolution : RebaseResolution
   deriving DecidableEq, Repr
 
+/--
+A rescan is evidence only when it is complete and its resulting stable key is
+the key attached to the generated artifact. Merely matching the new commit
+number to a scan-head field does not bind the generated content to that scan.
+A key-revalidation path instead requires the already-generated key to equal
+the independently read final-base key.
+-/
 def rebaseResolutionSatisfied (w : RebaseWitness) : Prop :=
   w.run.generatedParent = w.finalBaseHead ∧
   match w.resolution with
   | .noRebase =>
       w.finalBaseHead = w.run.receipt.checkoutHead ∧
-      w.scanHead = w.run.receipt.checkoutHead
+      w.scanHead = w.run.receipt.checkoutHead ∧
+      w.generatedKey = w.run.key
   | .rescanned =>
       w.run.mode = .LatestMain ∧
       w.finalBaseHead ≠ w.run.receipt.checkoutHead ∧
-      w.scanHead = w.finalBaseHead
+      w.scanHead = w.finalBaseHead ∧
+      w.rescanScansComplete = true ∧
+      w.rescanKey = some w.generatedKey
   | .keyRevalidated =>
       w.run.mode = .LatestMain ∧
       w.finalBaseHead ≠ w.run.receipt.checkoutHead ∧
       w.scanHead = w.run.receipt.checkoutHead ∧
-      w.finalBaseKey = some w.run.key
+      w.finalBaseKey = some w.generatedKey ∧
+      w.generatedKey = w.run.key
   | .unverified => False
 
 def safeFinalPublication (w : RebaseWitness) : Prop :=
@@ -240,21 +265,29 @@ theorem safe_final_publication_binds_parent_to_final_base
 theorem safe_rebased_publication_requires_rescan_or_key_revalidation
     (w : RebaseWitness) (h : safeFinalPublication w)
     (hMoved : w.finalBaseHead ≠ w.run.receipt.checkoutHead) :
-    w.scanHead = w.finalBaseHead ∨
-      w.finalBaseKey = some w.run.key := by
+    (w.scanHead = w.finalBaseHead ∧
+      w.rescanScansComplete = true ∧
+      w.rescanKey = some w.generatedKey) ∨
+      w.finalBaseKey = some w.generatedKey := by
   rcases h with ⟨_hScans, _hPolicy, hRebase, _hReadback, _hCommit⟩
+  rcases hRebase with ⟨_hParent, hResolutionEvidence⟩
   cases hResolution : w.resolution with
   | noRebase =>
-      simp [rebaseResolutionSatisfied, hResolution] at hRebase
-      exact False.elim (hMoved hRebase.2.1)
+      simp [rebaseResolutionSatisfied, hResolution] at hResolutionEvidence
+      rcases hResolutionEvidence with ⟨hBase, _hScan, _hKey⟩
+      exact False.elim (hMoved hBase)
   | rescanned =>
-      simp [rebaseResolutionSatisfied, hResolution] at hRebase
-      exact Or.inl hRebase.2.2.2
+      simp [rebaseResolutionSatisfied, hResolution] at hResolutionEvidence
+      rcases hResolutionEvidence with
+        ⟨_hMode, _hMoved, hScan, hComplete, hKey⟩
+      exact Or.inl ⟨hScan, hComplete, hKey⟩
   | keyRevalidated =>
-      simp [rebaseResolutionSatisfied, hResolution] at hRebase
-      exact Or.inr hRebase.2.2.2.2
+      simp [rebaseResolutionSatisfied, hResolution] at hResolutionEvidence
+      rcases hResolutionEvidence with
+        ⟨_hMode, _hMoved, _hScan, hKey, _hGeneratedKey⟩
+      exact Or.inr hKey
   | unverified =>
-      simp [rebaseResolutionSatisfied, hResolution] at hRebase
+      simp [rebaseResolutionSatisfied, hResolution] at hResolutionEvidence
 
 theorem safe_event_pinned_publication_stays_on_event_head
     (w : RebaseWitness) (hMode : w.run.mode = .EventPinned)
@@ -294,6 +327,9 @@ def latestMainRescanWitness : RebaseWitness :=
     finalBaseHead := 3
     scanHead := 3
     finalBaseKey := none
+    rescanKey := some ⟨7, 8⟩
+    rescanScansComplete := true
+    generatedKey := ⟨7, 8⟩
     resolution := .rescanned }
 
 def latestMainKeyRevalidationWitness : RebaseWitness :=
@@ -307,6 +343,9 @@ def latestMainKeyRevalidationWitness : RebaseWitness :=
     finalBaseHead := 3
     scanHead := 2
     finalBaseKey := some ⟨1, 2⟩
+    rescanKey := none
+    rescanScansComplete := false
+    generatedKey := ⟨1, 2⟩
     resolution := .keyRevalidated }
 
 def eventPinnedRebaseWitness : RebaseWitness :=
@@ -320,6 +359,9 @@ def eventPinnedRebaseWitness : RebaseWitness :=
     finalBaseHead := 3
     scanHead := 3
     finalBaseKey := none
+    rescanKey := some ⟨7, 8⟩
+    rescanScansComplete := true
+    generatedKey := ⟨7, 8⟩
     resolution := .rescanned }
 
 def unverifiedRebaseWitness : RebaseWitness :=
@@ -333,27 +375,46 @@ def unverifiedRebaseWitness : RebaseWitness :=
     finalBaseHead := 3
     scanHead := 2
     finalBaseKey := none
+    rescanKey := none
+    rescanScansComplete := false
+    generatedKey := ⟨1, 2⟩
     resolution := .unverified }
+
+def missingRescanKeyWitness : RebaseWitness :=
+  { latestMainRescanWitness with rescanKey := none }
+
+def incompleteRescanWitness : RebaseWitness :=
+  { latestMainRescanWitness with rescanScansComplete := false }
 
 theorem latest_main_rescan_is_safe :
     safeFinalPublication latestMainRescanWitness := by
-  classical
-  decide
+  simp [safeFinalPublication, checkoutPolicySatisfied, rebaseResolutionSatisfied,
+    currentAtReadback, latestMainRescanWitness]
 
 theorem latest_main_key_revalidation_is_safe :
     safeFinalPublication latestMainKeyRevalidationWitness := by
-  classical
-  decide
+  simp [safeFinalPublication, checkoutPolicySatisfied, rebaseResolutionSatisfied,
+    currentAtReadback, latestMainKeyRevalidationWitness]
 
 theorem event_pinned_rebase_to_new_main_is_rejected :
     ¬ safeFinalPublication eventPinnedRebaseWitness := by
-  classical
-  decide
+  simp [safeFinalPublication, checkoutPolicySatisfied, rebaseResolutionSatisfied,
+    currentAtReadback, eventPinnedRebaseWitness]
 
 theorem unverified_rebase_is_rejected :
     ¬ safeFinalPublication unverifiedRebaseWitness := by
-  classical
-  decide
+  simp [safeFinalPublication, checkoutPolicySatisfied, rebaseResolutionSatisfied,
+    currentAtReadback, unverifiedRebaseWitness]
+
+theorem missing_rescan_key_blocks_publication :
+    ¬ safeFinalPublication missingRescanKeyWitness := by
+  simp [safeFinalPublication, checkoutPolicySatisfied, rebaseResolutionSatisfied,
+    currentAtReadback, missingRescanKeyWitness, latestMainRescanWitness]
+
+theorem incomplete_rescan_blocks_publication :
+    ¬ safeFinalPublication incompleteRescanWitness := by
+  simp [safeFinalPublication, checkoutPolicySatisfied, rebaseResolutionSatisfied,
+    currentAtReadback, incompleteRescanWitness, latestMainRescanWitness]
 
 #print axioms safe_noop_after_main_advance_requires_key_revalidation
 #print axioms safe_noop_requires_prior_snapshot_identity
@@ -366,5 +427,7 @@ theorem unverified_rebase_is_rejected :
 #print axioms latest_main_key_revalidation_is_safe
 #print axioms event_pinned_rebase_to_new_main_is_rejected
 #print axioms unverified_rebase_is_rejected
+#print axioms missing_rescan_key_blocks_publication
+#print axioms incomplete_rescan_blocks_publication
 
 end HsHVerification.DiscoveryDecisionComposition
