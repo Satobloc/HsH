@@ -84,7 +84,7 @@ theorem quotientEquivChosenSector_apply_mk
     (hLU : L ≤ U)
     (hLW : IsCompl L W)
     (x : chosenSector U W) :
-    quotientEquivChosenSector L U W hLU hLW (Quotient.mk (x : U)) = x := by
+    quotientEquivChosenSector L U W hLU hLW (Submodule.Quotient.mk (x : U)) = x := by
   simpa [quotientEquivChosenSector] using
     (Submodule.quotientEquivOfIsCompl_apply_mk_right
       (containedCoreSectorIsCompl L U W hLU hLW) x)
