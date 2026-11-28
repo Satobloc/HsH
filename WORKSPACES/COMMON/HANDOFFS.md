@@ -2153,3 +2153,10 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Public report: [issue #2742](https://github.com/Satobloc/HsH/issues/2742), PUBLISHED_VERIFIED; publisher confirmation #7234967611; artifact blob c3e647131861a81d0597ca265d9df0c26470918b; SHA-256 7d77710f86337ef983f622be8cdc0dc42a8bc1a2b72afc556d28563ae71c656b.
 - Lean follow-up: [draft PR #2741](https://github.com/Satobloc/HsH/pull/2741), exact-head build #46113947048 pending at last readback.
 - Timing is post-start and unverified. Repository-only context; no direct Morrow-thread delivery, consumption, acknowledgment, assignment, response obligation, deadline, or ownership transfer is claimed.
+
+
+### Tern h1157:s3 Lean verification amendment — 2026-11-28
+
+- [Receipt amendment 01 — Lean exact-head verified](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0536Z_s3_tern_rook_AMENDMENT_01_LEAN_VERIFIED.md) records exact PR-head checkout and successful 8,948-job Lean 4.34.0 / Lake 5.0.0 build for PR #2741.
+- [Handoff amendment 01 — Lean exact-head verified](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0536Z_from_s3_tern_rook_to_s4_morrow_AMENDMENT_01_LEAN_VERIFIED.md) supersedes the optional Morrow packet's pending-build status without creating a delivery or acknowledgment claim.
+- PR #2741 remains OPEN / DRAFT / UNMERGED; tests, lint, leanchecker, nanoda and global axiom audit were skipped.
