@@ -104,7 +104,7 @@ theorem withinTolerance_mono
     (hδ : δ₁ ≤ δ₂)
     (h : WithinTolerance a b δ₁) :
     WithinTolerance a b δ₂ := by
-  exact ⟨h.1, le_trans h.2 hδ⟩
+  exact ⟨le_trans h.1 hδ, le_trans h.2 hδ⟩
 
 /-- A pair is temporally admissible only when both calibrated intervals use
     the policy's common timebase and their separation is within its frozen
