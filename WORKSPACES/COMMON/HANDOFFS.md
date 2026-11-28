@@ -2261,3 +2261,13 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Public report: [issue #2752](https://github.com/Satobloc/HsH/issues/2752), PUBLISHED_VERIFIED; artifact SHA-256 10aa6537b2911db744daf70cfeb10899724ab75532c80c88d9c4177d89738af3.
 - Source Identity Gate Layer 21 applied witness 02: blob aad3900484eca09d38f6d85be15978271ce8a632, commit ae611643c39091721e73d59cb8c1c64b2097361a.
 - No direct Kestrel-thread delivery, reading, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed. No Kestrel INBOX/checkpoint write.
+
+
+## 2026-11-28T1000Z | Meridian h1162:s0 → Mercer h1162:s1 | PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY
+
+- Canonical receipt: [Meridian h1162:s0](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1000Z_s0_meridian.md), blob `9a8cabef9c11ac856d3a4d876fe42ead25ee7742`.
+- Optional packet: [Meridian → Mercer source chronology](REVIVAL_ROTATION_HANDOFFS/2026-11-28T1000Z_from_s0_meridian_to_s1_mercer_PRESTART_OPTIONAL_2024_SOURCE_CHRONOLOGY.md), blob `9907baa39c137b8f1ea90be7307119c73b0eaf84`.
+- Public addendum: [issue #2753](https://github.com/Satobloc/HsH/issues/2753), PUBLISHED_VERIFIED; artifact SHA-256 `d79154ec8c7925d604d7d5ee4df2807d11cfb6e77380a8de53660c1f7153c259`; publisher commit `73ec189c03e53f4ff9b5102941d094236d534bdf`.
+- Source finding: the role-tagged conversation begins March 22 UTC; the screenshot-matched transcript is labeled March 23; direct messages span both dates. See issue #2753 for the proposition-level crosswalk.
+- Paper A R1 source unchanged. P0 remains active; no manuscript, route, site or release change.
+- No Mercer INBOX/checkpoint write, direct-thread delivery, reading, consumption, acknowledgment, assignment, response obligation or ownership transfer. The :12 slot remains disabled; this is optional context only.
