@@ -34,6 +34,7 @@ on:
       - 'CONVERSATION_VIEWER/*.css'
       - 'CONVERSATION_VIEWER/data/landmarks.json'
       - '.github/workflows/build-conversation-viewer.yml'
+      - '!PUBLIC_SITE/**'
 
 permissions:
   contents: write
