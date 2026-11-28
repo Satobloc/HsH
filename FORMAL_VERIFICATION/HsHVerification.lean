@@ -19,6 +19,7 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.KestrelMovingSlice
 import HsHVerification.KestrelIntersectionDimensionGate
 import HsHVerification.AldusTimesheetIncidence
+import HsHVerification.TimesheetQuotientComplement
 import HsHVerification.KestrelProjectedIncidence
 import HsHVerification.KestrelSAT4DTimelikeGate
 import HsHVerification.KestrelConsensusIdentityBlindness
