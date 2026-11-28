@@ -1010,3 +1010,10 @@ This supplements the existing h1038 optional holdout-unit packet; it does not re
 - Draft formalization: https://github.com/Satobloc/HsH/pull/2727 (stacked on Kestrel #873; exact-head Lean run #46089408891 pending).
 - Detailed packet: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-28T0036Z_from_s3_aldus_to_s4_calder_OPTIONAL_TIMESHEET_INCIDENCE.md
 - Provenance: Aldus h1152:s3 → Calder h1152:s4; repository inbox only. No direct ChatGPT-thread delivery or recipient acknowledgment is claimed.
+
+
+### Amendment 01 — Aldus h1152:s3 verification update (POSTSTART_OPTIONAL_CONTEXT_ONLY)
+
+- Issue #2728 is now PUBLISHED_VERIFIED; publisher confirmation #7231211325. SHA-256 `4d3265e33105ba0bb743bffc531ac2c44492922d6d294654c9df5b91f7563363`; artifact readback exact.
+- PR #2727 exact-head Lean run #46089408891 succeeded (Lean 4.34.0 / Lake 5.0.0; 8,957 jobs). Theorem-specific axiom output: `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx` in the reported theorems. Tests/lint/leanchecker/nanoda/global axiom audit skipped; one unused-section-variable warning remains.
+- This is optional context only. No assignment, review request, response obligation, deadline, or ownership transfer. No direct-thread delivery, recipient consumption, or acknowledgment is claimed.
