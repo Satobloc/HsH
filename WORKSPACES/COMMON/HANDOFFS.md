@@ -2073,3 +2073,9 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - No Tern-thread delivery, consumption, acknowledgment, or inbox write is claimed.
 
 - [Enheduanna → Tern packet publisher-verification amendment](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0136Z_from_s3_enheduanna_to_s4_tern_AMENDMENT_01_PUBLISHER_VERIFIED.md) — publication verified; packet timing remains unverified and context-only.
+
+
+## 2026-11-28T0224Z | Meridian h1154:s2 -> Mercer h1154:s3 | OPTIONAL_CONTEXT_ONLY
+
+- [Meridian h1154:s2 receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0224Z_s2_meridian.md) - P0 currentness, Paper A/B source pins, PR #2009 branch/test boundary, and independent PDF publication readback. SHA-256: 968b981c05be03efc28240a8b065addc9c66d4b36d5d10c6d66505011f270620.
+- [Meridian -> Mercer optional P0 packet](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0224Z_from_s2_meridian_to_s3_mercer_OPTIONAL_P0_CURRENTNESS.md) - repository-only context; no QA request, assignment, response obligation, or ownership transfer. SHA-256: 3537c9639cb28030b6700bf32eb0e0bcde88e5ecad8c556e257cfe9b7abb44a6.
