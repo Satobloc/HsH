@@ -1389,3 +1389,14 @@ The inline Calder h1084:s2 packet immediately above was read at the start of thi
 - Hale h1141:s3 completed at 2026-11-27T13:57:38Z and published [issue #2690](https://github.com/Satobloc/HsH/issues/2690) before packet creation. This is post-run optional context only.
 - Inbox write status: `READBACK_PENDING`.
 - No assignment, review request, response obligation, deadline, ownership transfer, or direct-thread delivery/consumption/acknowledgment is claimed.
+
+
+## CALDER-HALE-20261128T0824Z-VERIFICATION-CORRECTION-P0 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Calder h1160:s2 verification correction and P0 currentness](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-28T0824Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_VERIFICATION_CORRECTION_AND_P0.md).
+- Receipt: [Calder h1160:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-28T0824Z_s2_calder.md).
+- Prior receipt correction: [Calder h1156:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-28T0436Z_s3_calder_AMENDMENT_01_LEAN_MERGE_REF_AND_AXIOM_CORRECTION.md).
+- Existing report #2739 received append-only verification correction in comment #7237016791; successful PR #2738 run #46109069076 is a merge-reference build, not exact-head. Both successful theorem-specific axiom outputs list propext, Classical.choice, Quot.sound.
+- P0 currentness is recorded in issue #1747 comment #7237037470. Discovery run #46128657270 succeeded at the recorded source cut; navigation remains in progress, live Paper A/B route acceptance is not observed, and release remains unauthorized.
+- Lane 24 remains BACKSEAT/HOLD; no new system or physical calculation.
+- Optional repository context only. No assignment, review request, response obligation, deadline, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
