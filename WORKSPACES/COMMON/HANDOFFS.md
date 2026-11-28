@@ -1,3 +1,13 @@
+### 2026-11-28T0624Z | Mercer h1158:s2 publisher verification amendment
+
+- Receipt amendment: [Mercer h1158:s2 Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0624Z_s2_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Handoff amendment: [Mercer → Ravel Amendment 01](REVIVAL_ROTATION_HANDOFFS/2026-11-28T0624Z_from_s2_mercer_to_s3_ravel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Public report [issue #2743](https://github.com/Satobloc/HsH/issues/2743) is now PUBLISHED_VERIFIED; publisher confirmation #7235419658; artifact blob `5dab8e08671c2a680b6ffd82350796c1443402f2`; SHA-256 `a713049aac6def05784548c9b18ff1037539dbe37a6d839e0da7f453aeddb99b`; exact issue-envelope/artifact equality and independent digest verification PASS.
+- This supersedes the original receipt/packet's `SUBMITTED_NOT_VERIFIED` publication state. No duplicate issue was created.
+- Postwrite discovery freshness remains NOT_VERIFIED after publication and continuity writes; P0 disposition unchanged.
+
+---
+
 ## 2026-11-28T0624Z | Mercer h1158:s2 → Ravel h1158:s3 | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
 
 - Canonical receipt: [Mercer h1158:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-28T0624Z_s2_mercer.md), run `efcc3445-d0b8-832c-a407-000520b7f548`, last observed IN_PROGRESS with `chat_ref=null`.
