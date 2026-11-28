@@ -25,6 +25,14 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+      - name: Extract compendium source packets
+        if: github.event_name != 'schedule'
+        run: |
+          if [ -f PUBLIC_SITE/PAPERS/_build/compendium_seed.tar.gz ]; then
+            tar -xzf PUBLIC_SITE/PAPERS/_build/compendium_seed.tar.gz -C .
+            rm -f PUBLIC_SITE/PAPERS/_build/compendium_seed.tar.gz
+            rmdir PUBLIC_SITE/PAPERS/_build 2>/dev/null || true
+          fi
       - name: Install LaTeX toolchain
         if: github.event_name != 'schedule'
         run: |
