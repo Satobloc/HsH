@@ -722,112 +722,111 @@ RavelKerrSectionSweepRankGate.lean: message
 c0520975-02a0-408f-a250-364b88ab7b30 (2026-11-08T20:18:10.172Z).
 That source is summarized as a fourth spatial direction w with proper time
 described as distinct or possibly emergent along w. It does not choose
-whether proper time is an independent factor. The following structure
+whether proper time is an independent factor. The following theorem group
 formalizes only the independent-factor branch: a four-dimensional spatial
 tangent carrier crossed with a one-dimensional real parameter, mapped toward
 a four-dimensional target.
 
-The target has no declared metric or signature. This is a local
-finite-dimensional linearization, not a supplied derivative of a smooth
-physical map. If proper time is emergent/reparameterized along an existing
-spatial coordinate, or if the target is five-dimensional, this particular
-gate does not apply.
+The target has no declared metric or signature. These are local
+finite-dimensional linear-algebra statements, not a supplied derivative of
+a smooth physical map. If proper time is emergent/reparameterized along an
+existing spatial coordinate, or if the target is five-dimensional, this
+particular gate does not apply.
 -/
 
 namespace HsHVerification.RavelCarrierSliceReconstruction
 
-/-- A candidate linearization from a four-dimensional spatial carrier crossed
-    with an independent one-dimensional proper-time parameter into a
-    four-dimensional target. The target signature is deliberately unspecified. -/
-structure IndependentSpatialTimeLinearization
-    (SpatialCarrier TargetTangent : Type*)
-    [AddCommGroup SpatialCarrier] [Module ℝ SpatialCarrier]
-    [FiniteDimensional ℝ SpatialCarrier]
-    [AddCommGroup TargetTangent] [Module ℝ TargetTangent]
-    [FiniteDimensional ℝ TargetTangent] where
-  spatialDimension_eq : Module.finrank ℝ SpatialCarrier = 4
-  targetDimension_eq : Module.finrank ℝ TargetTangent = 4
-  differential : (SpatialCarrier × ℝ) →ₗ[ℝ] TargetTangent
-
-namespace IndependentSpatialTimeLinearization
+namespace IndependentSpatialTimeGate
 
 variable {SpatialCarrier TargetTangent : Type*}
     [AddCommGroup SpatialCarrier] [Module ℝ SpatialCarrier]
     [FiniteDimensional ℝ SpatialCarrier]
     [AddCommGroup TargetTangent] [Module ℝ TargetTangent]
     [FiniteDimensional ℝ TargetTangent]
-variable (S : IndependentSpatialTimeLinearization SpatialCarrier TargetTangent)
 
-/-- The independent spatial-time product has five tangent dimensions. -/
-theorem domain_dimension :
+/-- A four-dimensional spatial carrier crossed with an independent
+    one-dimensional real parameter has a five-dimensional product. -/
+theorem independent_product_domain_dimension
+    (hSpatial : Module.finrank ℝ SpatialCarrier = 4) :
     Module.finrank ℝ (SpatialCarrier × ℝ) = 5 := by
   calc
     Module.finrank ℝ (SpatialCarrier × ℝ) =
         Module.finrank ℝ SpatialCarrier + 1 :=
       HsHVerification.RavelCarrierSliceReconstruction.product_with_time_line_adds_one_dimension SpatialCarrier
-    _ = 5 := by rw [S.spatialDimension_eq]
+    _ = 5 := by omega
 
-/-- Rank-nullity for the supplied candidate linearization. -/
-theorem rank_add_nullity :
-    Module.finrank ℝ (LinearMap.range S.differential) +
-      Module.finrank ℝ (LinearMap.ker S.differential) =
+/-- Rank-nullity for any candidate linearization from the product carrier. -/
+theorem rank_add_nullity
+    (dF : (SpatialCarrier × ℝ) →ₗ[ℝ] TargetTangent) :
+    Module.finrank ℝ (LinearMap.range dF) +
+      Module.finrank ℝ (LinearMap.ker dF) =
       Module.finrank ℝ (SpatialCarrier × ℝ) :=
-  S.differential.finrank_range_add_finrank_ker
+  dF.finrank_range_add_finrank_ker
 
 /-- A five-dimensional independent spatial-time history mapped to a
     four-dimensional target must lose at least one tangent direction. -/
-theorem kernel_dimension_at_least_one :
-    1 ≤ Module.finrank ℝ (LinearMap.ker S.differential) := by
+theorem kernel_dimension_at_least_one
+    (hSpatial : Module.finrank ℝ SpatialCarrier = 4)
+    (hTarget : Module.finrank ℝ TargetTangent = 4)
+    (dF : (SpatialCarrier × ℝ) →ₗ[ℝ] TargetTangent) :
+    1 ≤ Module.finrank ℝ (LinearMap.ker dF) := by
   have hRange :
-      Module.finrank ℝ (LinearMap.range S.differential) ≤ 4 := by
+      Module.finrank ℝ (LinearMap.range dF) ≤ 4 := by
     calc
-      Module.finrank ℝ (LinearMap.range S.differential) ≤
+      Module.finrank ℝ (LinearMap.range dF) ≤
           Module.finrank ℝ TargetTangent :=
-        (LinearMap.range S.differential).finrank_le
-      _ = 4 := S.targetDimension_eq
-  have hNull := S.rank_add_nullity
-  rw [S.domain_dimension] at hNull
+        (LinearMap.range dF).finrank_le
+      _ = 4 := hTarget
+  have hNull := rank_add_nullity dF
+  rw [independent_product_domain_dimension hSpatial] at hNull
   omega
 
 /-- No injective first-order map exists from the independent 4D-spatial
     plus 1D-time product into a four-dimensional target. -/
-theorem no_injective_four_dimensional_target :
-    ¬ Function.Injective S.differential := by
+theorem no_injective_four_dimensional_target
+    (hSpatial : Module.finrank ℝ SpatialCarrier = 4)
+    (hTarget : Module.finrank ℝ TargetTangent = 4)
+    (dF : (SpatialCarrier × ℝ) →ₗ[ℝ] TargetTangent) :
+    ¬ Function.Injective dF := by
   intro hInjective
-  have hKer : LinearMap.ker S.differential = ⊥ :=
+  have hKer : LinearMap.ker dF = ⊥ :=
     LinearMap.ker_eq_bot.mpr hInjective
   have hKerZero :
-      Module.finrank ℝ (LinearMap.ker S.differential) = 0 := by
+      Module.finrank ℝ (LinearMap.ker dF) = 0 := by
     rw [hKer]
     simp
-  have hPositive := S.kernel_dimension_at_least_one
+  have hPositive := kernel_dimension_at_least_one hSpatial hTarget dF
   omega
 
 /-- If the candidate map has full target rank four, exactly one local
     direction is collapsed by the 5D-to-4D representation. -/
 theorem full_rank_forces_exactly_one_kernel_dimension
-    (hRank : Module.finrank ℝ (LinearMap.range S.differential) = 4) :
-    Module.finrank ℝ (LinearMap.ker S.differential) = 1 := by
-  have hNull := S.rank_add_nullity
-  rw [S.domain_dimension, hRank] at hNull
+    (hSpatial : Module.finrank ℝ SpatialCarrier = 4)
+    (dF : (SpatialCarrier × ℝ) →ₗ[ℝ] TargetTangent)
+    (hRank : Module.finrank ℝ (LinearMap.range dF) = 4) :
+    Module.finrank ℝ (LinearMap.ker dF) = 1 := by
+  have hNull := rank_add_nullity dF
+  rw [independent_product_domain_dimension hSpatial, hRank] at hNull
   omega
 
 /-- If the candidate map has rank at most three, at least two local
     directions are collapsed. -/
 theorem rank_at_most_three_forces_two_kernel_dimensions
-    (hRank : Module.finrank ℝ (LinearMap.range S.differential) ≤ 3) :
-    2 ≤ Module.finrank ℝ (LinearMap.ker S.differential) := by
-  have hNull := S.rank_add_nullity
-  rw [S.domain_dimension] at hNull
+    (hSpatial : Module.finrank ℝ SpatialCarrier = 4)
+    (dF : (SpatialCarrier × ℝ) →ₗ[ℝ] TargetTangent)
+    (hRank : Module.finrank ℝ (LinearMap.range dF) ≤ 3) :
+    2 ≤ Module.finrank ℝ (LinearMap.ker dF) := by
+  have hNull := rank_add_nullity dF
+  rw [independent_product_domain_dimension hSpatial] at hNull
   omega
 
-end IndependentSpatialTimeLinearization
+end IndependentSpatialTimeGate
 
-#print axioms IndependentSpatialTimeLinearization.domain_dimension
-#print axioms IndependentSpatialTimeLinearization.rank_add_nullity
-#print axioms IndependentSpatialTimeLinearization.kernel_dimension_at_least_one
-#print axioms IndependentSpatialTimeLinearization.no_injective_four_dimensional_target
-#print axioms IndependentSpatialTimeLinearization.full_rank_forces_exactly_one_kernel_dimension
-#print axioms IndependentSpatialTimeLinearization.rank_at_most_three_forces_two_kernel_dimensions
+#print axioms IndependentSpatialTimeGate.independent_product_domain_dimension
+#print axioms IndependentSpatialTimeGate.rank_add_nullity
+#print axioms IndependentSpatialTimeGate.kernel_dimension_at_least_one
+#print axioms IndependentSpatialTimeGate.no_injective_four_dimensional_target
+#print axioms IndependentSpatialTimeGate.full_rank_forces_exactly_one_kernel_dimension
+#print axioms IndependentSpatialTimeGate.rank_at_most_three_forces_two_kernel_dimensions
 
 end HsHVerification.RavelCarrierSliceReconstruction
