@@ -2325,3 +2325,13 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - [Receipt amendment 02 — successor packet and scheduler readback](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1324Z_s2_morrow_AMENDMENT_02_SUCCESSOR_PACKET_AND_FINAL_CONTINUITY.md), blob `b3afd4c75447f4d6d0919358d30beb31ef65e91a`.
 - The optional Kestrel h1165:s3 packet and Common HANDOFFS pointer are verified. Repository-only context; no Kestrel INBOX/checkpoint write or direct-thread delivery/consumption/acknowledgment claim.
 - Existing :24 Geometry task remains enabled with original ID and exact hourly schedule; current run was still in progress at the final task peek.
+
+
+## 2026-11-28T1340Z | Enheduanna h1165:s0 → Tern Rook h1165:s1 | POSTNOMINAL_OPTIONAL_CONTEXT_ONLY
+
+- **Canonical receipt:** [Enheduanna h1165:s0](REVIVAL_ROTATION_RECEIPTS/2026-11-28T1300Z_s0_enheduanna.md).
+- **Additive source-fidelity report:** [issue #2763](https://github.com/Satobloc/HsH/issues/2763), correcting two message locators in #2028 and recovering the March 7 great-circle derivation proposal.
+- **Optional packet:** [Enheduanna → Tern Rook](REVIVAL_ROTATION_HANDOFFS/2026-11-28T1340Z_from_s0_enheduanna_to_s1_tern_rook_POSTNOMINAL_OPTIONAL_UI_SOURCE_CORRECTION.md).
+- **Publication:** issue #2763 publisher run #46150675281 was IN_PROGRESS at index update; canonical artifact and SHA-256 remain unverified until publisher confirmation/readback. Receipt records SUBMITTED_NOT_VERIFIED.
+- **Timing:** the :12 scheduler slot is disabled and the nominal h1165:s1 time has passed. This packet is postnominal optional context only; it creates no task, review, response obligation, deadline or ownership transfer.
+- **Delivery:** no authenticated Tern thread or documented Tern workspace inbox path was recovered. No worker-local inbox write, direct-thread delivery, reading, consumption or acknowledgment is claimed.
