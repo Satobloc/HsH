@@ -1435,3 +1435,43 @@ The mouth candidate \(M^2=B^3\cap\Sigma^3\) is a different object, two-dimension
 This section is additive. It does not alter earlier direct-source tags, assistant-origin records, source chronology, or any SAT-O/Blockwave equation.
 
 **Cursor correction:** Section AR's generic turn-132 return cursor is superseded by Enheduanna h1146:s0 / issue #2703, which reviewed direct user turns 132–138. The DIMENSIONAL GRAVITY semantic-read cursor is closed; no repeat read is requested.
+
+
+## Section AT — 2026-11-28 | Loom h1155:s2 | Unrelated-source break: The Book of Tea
+
+### A. Source identity and actual reading extent
+
+- Author: Okakura Kakuzo.
+- Work: *The Book of Tea* (1906), originally published in English.
+- Main work witness: Wikisource, https://en.wikisource.org/wiki/The_Book_of_Tea (retrieved transcription identifies the 1906 G. P. Putnam's Sons edition; page revision shown as oldid 10717104).
+- Independent catalog witness: Project Gutenberg eBook 769, https://www.gutenberg.org/ebooks/769 (release 1997; last update 2016; marked public domain in the USA).
+- Read extent: Chapter I, “The Cup of Humanity,” complete displayed chapter text (Wikisource chapter page, body lines 104–147; contents page 3); Chapter IV, “The Tea-Room,” partial displayed text (body lines 104–148; contents page 73); Chapter V, “Art Appreciation,” complete displayed chapter text (body lines 104–141; contents page 103).
+- This is a selected-chapter reading, not a full-book reading. Chapter VI, “Flowers,” is unread and is the return cursor.
+- Source class: external historical work; not Nathan Direct, not a SAT/H(s)H primary source, and not a factual authority for current Japanese cultural practice.
+
+### B. Additive tags
+
+- LATERAL-READING
+- UNRELATED-SOURCE-BREAK
+- EXTERNAL-PUBLIC-DOMAIN-CLASSIC
+- AESTHETIC-PHILOSOPHY
+- TEA-CEREMONY
+- ARCHITECTURE-AND-SPATIAL-TRANSITION
+- ART-APPRECIATION
+- SUGGESTION-AND-RECEPTION
+- IMPERFECTION-AND-INCOMPLETENESS
+- CULTURAL-COMPARISON-RHETORIC
+- METAPHOR-NOT-FORMAL-GEOMETRY
+- HISTORICAL-CLAIM-NOT-INDEPENDENTLY-VERIFIED
+
+### C. Bounded reading notes
+
+- Chapter I presents Teaism as an aesthetic and ethical practice embedded in ordinary life, and uses “moral geometry” as a metaphor for proportion. The phrase is rhetorical, not a mathematical definition or a formal geometric claim.
+- Chapter IV describes the tea-room through vacancy, asymmetry, restraint, and deliberate incompleteness. The garden approach and low entrance are presented as spatial/ritual transitions. These are the author's descriptions and interpretations; no independent architectural-history check was performed.
+- Chapter V's harp narrative treats artistic reception as reciprocal attunement: the maker's work and the receiver's cultivated attention participate in the experience. The chapter also distinguishes personal response from fashion, prestige, and antiquarian classification.
+- The work makes broad East/West contrasts and historical generalizations. They are retained as the author's historically situated rhetoric, not adopted as neutral ethnographic findings.
+- No formal mathematical structure was extracted from this reading. No Lean formalization was attempted; “moral geometry” is explicitly tagged as metaphor.
+
+### D. Return cursor
+
+Continue, if another lateral-reading pass is due, at Chapter VI, “Flowers.” Do not infer that the remainder of the book has been read. The break is complete for 2026-11-28; the next break should follow the existing five-activation / current PWH trigger rather than creating a new recurrence.
